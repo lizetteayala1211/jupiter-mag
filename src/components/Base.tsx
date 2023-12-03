@@ -1,10 +1,12 @@
+"use client"
 import React, { ReactNode } from "react"
 import { NavBar } from "./NavBar"
+import { BaseContainer, BlueOverlay, Static } from "./styled"
 
 type Props = { children: ReactNode }
 export function Base({ children }: Props) {
   return (
-    <div>
+    <Background>
       <NavBar />
       <div
         style={{
@@ -15,6 +17,15 @@ export function Base({ children }: Props) {
       >
         {children}
       </div>
-    </div>
+    </Background>
+  )
+}
+
+function Background({ children }: Props) {
+  return (
+    <>
+      <Static />
+      <BaseContainer>{children}</BaseContainer>
+    </>
   )
 }
