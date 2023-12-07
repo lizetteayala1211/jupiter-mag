@@ -64,7 +64,7 @@ export default function VideoPlayer() {
         loop
         playerVars={{ modestbranding: 1 }}
         width="100%"
-        height="100%"
+        height="80%"
         onProgress={(e: ReactPlayerStatus) => onShowJupiter(e)}
         style={{
           // dynamic positioning is to allow video to be clickable on mobile
@@ -72,7 +72,7 @@ export default function VideoPlayer() {
           position: isMobile ? "relative" : "fixed",
           transform: isMobile ? "scale(1.8) translate(0, 80px)" : "",
           left: 0,
-          top: "0.8em",
+          top: "2em",
           backgroundSize: "cover",
           background: "center",
 
