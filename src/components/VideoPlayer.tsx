@@ -13,14 +13,14 @@ type ReactPlayerStatus = {
 }
 
 export default function VideoPlayer() {
-  const [muted, setMuted] = React.useState(true)
+  const [userInteracted, setUserInteracted] = React.useState(true)
   const [showJupiter, setShowJupiter] = React.useState(true)
   const isLandscape = useIsLandscape()
 
   const isMobile = useIsXsSmallDevice()
 
   // on user click to window we can unmute
-  window.addEventListener("click", () => setMuted(false))
+  window.addEventListener("click", () => setUserInteracted(false))
 
   const onShowJupiter = (e: ReactPlayerStatus) => {
     if (e.playedSeconds > 178) {
@@ -59,8 +59,8 @@ export default function VideoPlayer() {
 
       <ReactPlayer
         url="https://www.youtube.com/embed/S0Qqea6EiCA"
-        muted={muted}
-        playing
+        muted={userInteracted}
+        playing={isMobile ? userInteracted : true}
         loop
         playerVars={{ modestbranding: 1 }}
         width="100%"
