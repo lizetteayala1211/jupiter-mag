@@ -3,7 +3,7 @@
 import ReactPlayer from "react-player/youtube"
 import JupiterLogo from "./JupiterLogo"
 import React from "react"
-import { useIsXsSmallDevice } from "@/helpers/breakpoints"
+import { useIsLandscape, useIsXsSmallDevice } from "@/helpers/breakpoints"
 
 type ReactPlayerStatus = {
   playedSeconds: number
@@ -15,6 +15,7 @@ type ReactPlayerStatus = {
 export default function VideoPlayer() {
   const [muted, setMuted] = React.useState(true)
   const [showJupiter, setShowJupiter] = React.useState(true)
+  const isLandscape = useIsLandscape()
 
   const isMobile = useIsXsSmallDevice()
 
@@ -48,7 +49,9 @@ export default function VideoPlayer() {
       >
         <a
           href="https://artadia.org/jupiter-magazine/"
-          style={{ margin: "2.5em 2em" }}
+          style={
+            isLandscape ? { margin: "2.5em 3em" } : { margin: "2.5em 2em" }
+          }
         >
           Donate
         </a>
@@ -69,7 +72,7 @@ export default function VideoPlayer() {
           position: isMobile ? "relative" : "fixed",
           transform: isMobile ? "scale(1.8) translate(0, 80px)" : "",
           left: 0,
-          top: "1em",
+          top: "0.8em",
           backgroundSize: "cover",
           background: "center",
 

@@ -1,36 +1,48 @@
-import { useIsXsSmallDevice } from "@/helpers/breakpoints"
+import { useIsXsSmallDevice, useIsLandscape } from "@/helpers/breakpoints"
 import React from "react"
 import styled from "styled-components"
 
-const ResponsiveJupiterLogo = styled.svg`
+const ResponsiveJupiterLogo = styled.svg<{ landscape: boolean }>`
   overflow: visible;
   position: fixed;
 
-  // mobile
-  @media (min-width: 320px) {
-    margin: 0px 8px;
-    transform-origin: left;
-    transform-box: fill-box;
-    transform: scale(0.5);
-  }
-  // tablet
-  @media (min-width: 480px) {
-    transform-origin: left;
-    transform-box: fill-box;
-    transform: scale(0.8);
-  }
-  @media (min-width: 600px) {
-    transform-origin: left;
-    transform-box: fill-box;
-    transform: scale(1);
-  }
+  ${(props) =>
+    !props.landscape
+      ? `
+        // mobile
+        @media (min-width: 320px) {
+          margin: 0px 8px;
+          transform-origin: left;
+          transform-box: fill-box;
+          transform: scale(0.5);
+        }
+        // tablet
+        @media (min-width: 480px) {
+          transform-origin: left;
+          transform-box: fill-box;
+          transform: scale(0.8);
+        }
+
+        @media (min-width: 600px) {
+          transform-origin: left;
+          transform-box: fill-box;
+          transform: scale(1);
+        }`
+      : `
+        transform-origin: left;
+        transform-box: fill-box;
+        transform: scale(0.4);
+        margin: 0 8px;
+      `}
 `
 
 export default function JupiterLogo(props: any) {
   const isMobile = useIsXsSmallDevice()
+  const isLandscape = useIsLandscape()
 
   return (
     <ResponsiveJupiterLogo
+      landscape={isLandscape}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width={isMobile ? 400 : 285}

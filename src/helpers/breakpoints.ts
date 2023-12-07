@@ -10,3 +10,8 @@ export function useIsSmallDevice() {
   const isSmallMax = useMedia("(max-width: 767px)", false)
   return isSmallMin && isSmallMax
 }
+
+export function useIsLandscape() {
+  const isLandscape = useMedia("(orientation: landscape)", false)
+  return isLandscape
+}
