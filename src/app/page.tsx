@@ -6,6 +6,7 @@ const VideoPlayer = dynamic(() => import("@/components/VideoPlayer"), {
 
 import StyledComponentsRegistry from "@/components/registry"
 import dynamic from "next/dynamic"
+import React from "react"
 
 export default function Home() {
   return (

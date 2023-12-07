@@ -2,8 +2,14 @@
 
 import ReactPlayer from "react-player/youtube"
 import JupiterLogo from "./JupiterLogo"
+import React from "react"
 
 export default function VideoPlayer() {
+  const [muted, setMuted] = React.useState(true)
+
+  // on user click to window we can unmute
+  window.addEventListener("click", () => setMuted(false))
+
   return (
     <div>
       <JupiterLogo />
@@ -25,6 +31,7 @@ export default function VideoPlayer() {
 
       <ReactPlayer
         url="https://www.youtube.com/watch?v=S0Qqea6EiCA"
+        muted={muted}
         playing
         loop
         width="100%"
