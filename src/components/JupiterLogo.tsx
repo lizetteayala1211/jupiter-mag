@@ -1,5 +1,5 @@
 import { useIsXsSmallDevice } from "@/helpers/breakpoints"
-import * as React from "react"
+import React from "react"
 import styled from "styled-components"
 
 const ResponsiveJupiterLogo = styled.svg`
