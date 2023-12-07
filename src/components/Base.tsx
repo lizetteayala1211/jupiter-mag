@@ -1,4 +1,5 @@
 "use client"
+
 import React, { ReactNode } from "react"
 import { NavBar } from "./NavBar"
 import { BaseContainer, BlueOverlay, Static } from "./styled"
@@ -22,8 +23,10 @@ export function Base({ children }: Props) {
 }
 
 function Background({ children }: Props) {
+  //  TODO: fix blue overlay
   return (
     <>
+      <BlueOverlay />
       <Static />
       <BaseContainer>{children}</BaseContainer>
     </>
