@@ -2,12 +2,12 @@ import { useIsXsSmallDevice, useIsLandscape } from "@/helpers/breakpoints"
 import React from "react"
 import styled from "styled-components"
 
-const ResponsiveJupiterLogo = styled.svg<{ landscape: boolean }>`
+const ResponsiveJupiterLogo = styled.svg<{ $landscape: boolean }>`
   overflow: visible;
   position: fixed;
 
   ${(props) =>
-    !props.landscape
+    !props.$landscape
       ? `
         // mobile
         @media (min-width: 320px) {
@@ -42,7 +42,7 @@ export default function JupiterLogo(props: any) {
 
   return (
     <ResponsiveJupiterLogo
-      landscape={isLandscape}
+      $landscape={isLandscape.toString()}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width={isMobile ? 400 : 285}

@@ -3,6 +3,7 @@
 import React, { useState } from "react"
 import { useServerInsertedHTML } from "next/navigation"
 import { ServerStyleSheet, StyleSheetManager } from "styled-components"
+import { useIsLandscape } from "@/helpers/breakpoints"
 
 export default function StyledComponentsRegistry({
   children,
