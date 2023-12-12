@@ -14,6 +14,7 @@ const ResponsiveJupiterLogo = styled.svg`
     transform-origin: left;
     transform-box: fill-box;
     transform: scale(0.4);
+    padding-top: 16px;
   }
 
   // tablet
