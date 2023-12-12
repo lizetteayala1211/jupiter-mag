@@ -1,6 +1,6 @@
 "use client"
 
-const VideoPlayer = dynamic(() => import("@/components/VideoPlayer"), {
+const SoftLaunchPage = dynamic(() => import("@/components/SoftLaunchPage"), {
   ssr: false,
 })
 
@@ -11,7 +11,7 @@ import React from "react"
 export default function Home() {
   return (
     <StyledComponentsRegistry>
-      <VideoPlayer />
+      <SoftLaunchPage />
     </StyledComponentsRegistry>
   )
 }

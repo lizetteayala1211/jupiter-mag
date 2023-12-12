@@ -34,3 +34,35 @@ export const BlueOverlay = styled.div`
     rgba(157, 208, 252, 0.01) 33.98%
   );
 `
+// soft launch
+export const SoftLaunchContainer = styled.div`
+  width: 100%;
+  height: 100%;
+`
+
+export const SoftLaunchHeader = styled.div`
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 16px;
+`
+
+export const StreamContainer = styled.div`
+  z-index: -10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: 660px) {
+    padding: 0 8em;
+  }
+
+  @media (min-width: 920px) {
+    padding: 0 16em;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 24em;
+  }
+`
