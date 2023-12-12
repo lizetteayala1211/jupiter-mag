@@ -4,6 +4,10 @@ import styled from "styled-components"
 
 const ResponsiveJupiterLogo = styled.svg`
   overflow: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   // mobile
   @media (max-width: 479px) {

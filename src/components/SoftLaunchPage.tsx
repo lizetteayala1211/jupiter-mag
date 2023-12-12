@@ -15,9 +15,6 @@ function DonateButton() {
     <div
       style={{
         margin: "2.5em 2em",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
       }}
     >
       <a href="https://artadia.org/jupiter-magazine/">Donate</a>
@@ -37,7 +34,7 @@ function UnmuteButton({ cb }: { cb: any }) {
       }}
     >
       <a
-        style={{ color: "white", backgroundColor: "transparent" }}
+        style={{ color: "#a2a2a2", backgroundColor: "transparent" }}
         onClick={cb}
       >
         Tap here to unmute...
@@ -48,18 +45,12 @@ function UnmuteButton({ cb }: { cb: any }) {
 
 export default function SoftLaunchPage() {
   const [userInteracted, setUserInteracted] = React.useState(false)
-  const [showUnmuteButton, setShowUnmuteButton] = React.useState(false)
+  const [showUnmuteButton, setShowUnmuteButton] = React.useState(true)
 
   const onUnmute = () => {
     setUserInteracted(true)
     setShowUnmuteButton(false)
   }
-
-  React.useEffect(() => {
-    setTimeout(() => {
-      setShowUnmuteButton(true)
-    }, 3000)
-  }, [])
 
   return (
     <SoftLaunchContainer>
