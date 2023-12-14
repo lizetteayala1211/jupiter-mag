@@ -1,7 +1,8 @@
 "use client"
 import React, { ReactNode } from "react"
 import { NavBar } from "./NavBar"
-import { BaseContainer, BlueOverlay, Static } from "./styled"
+import { BaseContainer, Gradient } from "./styled"
+import { Grain } from "./Grain"
 
 type Props = { children: ReactNode }
 export function Base({ children }: Props) {
@@ -24,8 +25,9 @@ export function Base({ children }: Props) {
 function Background({ children }: Props) {
   return (
     <>
-      <Static />
       <BaseContainer>{children}</BaseContainer>
+      <Gradient />
+      <Grain />
     </>
   )
 }
