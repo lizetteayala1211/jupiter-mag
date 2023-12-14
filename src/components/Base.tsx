@@ -1,8 +1,10 @@
 "use client"
+
 import React, { ReactNode } from "react"
 import { NavBar } from "./NavBar"
 import { BaseContainer, Gradient } from "./styled"
-import { Grain } from "./Grain"
+import { DesktopGrain, MobileGrain } from "./Grain"
+import { useIsXsSmallDevice } from "@/helpers/breakpoints"
 
 type Props = { children: ReactNode }
 export function Base({ children }: Props) {
@@ -23,11 +25,12 @@ export function Base({ children }: Props) {
 }
 
 function Background({ children }: Props) {
+  const isMobile = useIsXsSmallDevice()
   return (
     <>
       <BaseContainer>{children}</BaseContainer>
       <Gradient />
-      <Grain />
+      {isMobile ? <MobileGrain /> : <DesktopGrain />}
     </>
   )
 }
