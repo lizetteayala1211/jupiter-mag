@@ -23,17 +23,30 @@ export const Gradient = styled.div`
   background: linear-gradient(
       0deg,
       #fa7dfd 12.93%,
-      rgba(157, 208, 252, 0.01) 33.98%
+      rgba(157, 208, 252, 0.01) 29.98%
     ),
     linear-gradient(0deg, #94c8f9 5.44%, rgba(157, 208, 252, 0.01) 39.98%);
+
   filter: brightness(30%);
 `
 
-export const GradientLetterContainer = styled.div``
+export const GradientLetterContainer = styled.div`
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, max-content));
+  overflow: visible;
+`
 
 export const GradientLetter = styled.div`
+  width: 40px;
+  overflow: visible;
+
   // fallback background color
   background-color: #99ceff;
+  font-size: 120px;
 
   // gradient
   background-image: conic-gradient(

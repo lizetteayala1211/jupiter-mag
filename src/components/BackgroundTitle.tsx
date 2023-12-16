@@ -4,11 +4,9 @@ export function BackgroundTitle({ title }: { title: string }) {
   const titleLength = title.length
   const letters = []
 
-  for (let i = 0; i++; i < titleLength) {
+  for (let i = 0; i < titleLength; i++) {
     letters.push(<GradientLetter>{title[i]}</GradientLetter>)
   }
-
-  console.log(letters)
 
   return <GradientLetterContainer>{letters}</GradientLetterContainer>
 }

@@ -15,7 +15,7 @@ export function DesktopGrain() {
           height="140%"
           filterUnits="objectBoundingBox"
           primitiveUnits="userSpaceOnUse"
-          color-interpolation-filters="linearRGB"
+          colorInterpolationFilters="linearRGB"
         >
           <feTurbulence
             type="fractalNoise"
@@ -33,7 +33,7 @@ export function DesktopGrain() {
             surfaceScale="6"
             specularConstant="1.3"
             specularExponent="20"
-            lighting-color="#6d6d6d"
+            lightingColor="#6d6d6d"
             x="0%"
             y="0%"
             width="100%"
@@ -75,7 +75,7 @@ export function MobileGrain() {
           height="200%"
           filterUnits="objectBoundingBox"
           primitiveUnits="userSpaceOnUse"
-          color-interpolation-filters="linearRGB"
+          colorInterpolationFilters="linearRGB"
         >
           <feTurbulence
             type="fractalNoise"
@@ -93,7 +93,7 @@ export function MobileGrain() {
             surfaceScale="6"
             specularConstant="1.3"
             specularExponent="20"
-            lighting-color="#6d6d6d"
+            lightingColor="#6d6d6d"
             x="0%"
             y="0%"
             width="100%"

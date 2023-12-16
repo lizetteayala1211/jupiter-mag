@@ -3,7 +3,7 @@
 import React, { ReactNode } from "react"
 import { NavBar } from "./NavBar"
 import { BaseContainer, Gradient } from "./styled"
-import { DesktopGrain, MobileGrain } from "./Grain"
+import { DesktopGrain, MobileGrain } from "./GrainBackgrounds"
 import { useIsXsSmallDevice } from "@/helpers/breakpoints"
 
 type Props = { children: ReactNode }
