@@ -1,12 +1,12 @@
 "use client"
 
-import { BackgroundTitle } from "@/components/BackgroundTitle"
+import { Title } from "@/components/Title"
 import { Base } from "@/components/Base"
 
 export default function About() {
   return (
     <Base>
-      <BackgroundTitle title="about" />
+      <Title title="about" />
     </Base>
   )
 }

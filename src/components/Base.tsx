@@ -2,7 +2,7 @@
 
 import React, { ReactNode } from "react"
 import { NavBar } from "./NavBar"
-import { BaseContainer, Gradient } from "./styled"
+import { BaseContainer, ContentContainer, Gradient } from "./styled"
 import { DesktopGrain, MobileGrain } from "./GrainBackgrounds"
 import { useIsXsSmallDevice } from "@/helpers/breakpoints"
 
@@ -11,15 +11,7 @@ export function Base({ children }: Props) {
   return (
     <Background>
       <NavBar />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        {children}
-      </div>
+      <ContentContainer>{children}</ContentContainer>
     </Background>
   )
 }

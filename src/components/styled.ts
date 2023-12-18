@@ -7,6 +7,8 @@ export const BaseContainer = styled.div`
   position: absolute;
 `
 
+export const ContentContainer = styled.div``
+
 export const NavBarContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -15,6 +17,8 @@ export const NavBarContainer = styled.div`
 `
 
 export const Gradient = styled.div`
+  position: absolute;
+  bottom: 0;
   z-index: 0;
   width: 100%;
   height: 100%;
@@ -22,37 +26,36 @@ export const Gradient = styled.div`
   opacity: 0.8;
   background: linear-gradient(
       0deg,
-      #fa7dfd 12.93%,
-      rgba(157, 208, 252, 0.01) 29.98%
+      #fa7dfd 2.93%,
+      rgba(157, 208, 252, 0.01) 23.98%
     ),
-    linear-gradient(0deg, #94c8f9 5.44%, rgba(157, 208, 252, 0.01) 39.98%);
+    linear-gradient(0deg, #94c8f9 5.44%, rgba(157, 208, 252, 0.02) 39.98%);
 
-  filter: brightness(30%);
+  filter: brightness(100%) saturate(40%);
+`
+
+export const GradientTitleContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 `
 
 export const GradientLetterContainer = styled.div`
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10px, max-content));
-  overflow: visible;
+  position: absolute;
 `
 
 export const GradientLetter = styled.div`
-  width: 40px;
-  overflow: visible;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
 
   // fallback background color
   background-color: #99ceff;
   font-size: 120px;
-
   // gradient
   background-image: conic-gradient(
     from 208deg at 75.28% 49.13%,
     #99ceff 0deg,
-    rgba(97, 179, 255, 0.54) 360deg
+    rgba(35, 116, 191, 0.54) 360deg
   );
 
   // set the background size and repeat properties

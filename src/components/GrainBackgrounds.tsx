@@ -1,3 +1,15 @@
+// turbulence constants
+const desktopBaseFrequency = 1
+const mobileBaseFrequency = 0.5
+const numOctaves = 4
+const seed = 15
+
+// specular lighting constants
+const surfaceScale = 6
+const specularConstant = 1.3
+const specularExponent = 20
+const lightingColor = "#626262"
+
 export function DesktopGrain() {
   return (
     <svg
@@ -19,9 +31,9 @@ export function DesktopGrain() {
         >
           <feTurbulence
             type="fractalNoise"
-            baseFrequency="0.2"
-            numOctaves="4"
-            seed="15"
+            baseFrequency={desktopBaseFrequency}
+            numOctaves={numOctaves}
+            seed={seed}
             stitchTiles="stitch"
             x="0%"
             y="0%"
@@ -30,10 +42,10 @@ export function DesktopGrain() {
             result="turbulence"
           ></feTurbulence>
           <feSpecularLighting
-            surfaceScale="6"
-            specularConstant="1.3"
-            specularExponent="20"
-            lightingColor="#6d6d6d"
+            surfaceScale={surfaceScale}
+            specularConstant={specularConstant}
+            specularExponent={specularExponent}
+            lightingColor={lightingColor}
             x="0%"
             y="0%"
             width="100%"
@@ -79,8 +91,8 @@ export function MobileGrain() {
         >
           <feTurbulence
             type="fractalNoise"
-            baseFrequency="0.2"
-            numOctaves="4"
+            baseFrequency={mobileBaseFrequency}
+            numOctaves={numOctaves}
             seed="15"
             stitchTiles="stitch"
             x="0%"
@@ -90,10 +102,10 @@ export function MobileGrain() {
             result="turbulence"
           ></feTurbulence>
           <feSpecularLighting
-            surfaceScale="6"
-            specularConstant="1.3"
-            specularExponent="20"
-            lightingColor="#6d6d6d"
+            surfaceScale={surfaceScale}
+            specularConstant={specularConstant}
+            specularExponent={specularExponent}
+            lightingColor={lightingColor}
             x="0%"
             y="0%"
             width="100%"
