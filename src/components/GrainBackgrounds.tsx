@@ -1,5 +1,5 @@
 // turbulence constants
-const desktopBaseFrequency = 1
+const desktopBaseFrequency = 0.7
 const mobileBaseFrequency = 0.5
 const numOctaves = 4
 const seed = 15
@@ -8,7 +8,7 @@ const seed = 15
 const surfaceScale = 6
 const specularConstant = 1.3
 const specularExponent = 20
-const lightingColor = "#626262"
+const lightingColor = "#797979"
 
 export function DesktopGrain() {
   return (

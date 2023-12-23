@@ -1,5 +1,5 @@
 import { Base } from "@/components/Base"
 
 export default function Donate() {
-  return <Base>Donate</Base>
+  return <Base page="donate">Donate</Base>
 }

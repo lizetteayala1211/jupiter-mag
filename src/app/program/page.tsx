@@ -1,5 +1,5 @@
 import { Base } from "@/components/Base"
 
 export default function Programming() {
-  return <Base>Programming</Base>
+  return <Base page="program">Programming</Base>
 }

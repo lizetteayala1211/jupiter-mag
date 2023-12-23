@@ -1,30 +1,38 @@
+import { Pages } from "@/state/AppState"
 import {
   GradientLetter,
   GradientLetterContainer,
   GradientTitleContainer,
 } from "./styled"
-// import { useAppDispatch } from "@/providers/AppStateProvider"
-// import { AppActionType, Pages } from "@/state/AppState"
-import { Pages } from "@/state/AppState"
 
-export function Title({ title }: { title: Pages }) {
-  const titleLength = title.length
+export function Title({ pageTitle }: { pageTitle: Pages }) {
+  const titleLength = pageTitle?.length
   const letters = []
-  // const appDispatch = useAppDispatch()
-  // appDispatch({ type: AppActionType.SET_PAGE, value: title })
+
+  const getSpacing = (i: number) => {
+    const weirdLetters = "r" || "t"
+    if (i !== 0 && pageTitle[i] === weirdLetters) {
+      return i * 48
+    } else if (i !== 0) {
+      return i * 44
+    }
+    return 0
+  }
 
   for (let i = 0; i < titleLength; i++) {
+    console.log("spacing: ", getSpacing(i))
     letters.push(
       <GradientLetterContainer
-        style={i !== 0 ? { marginLeft: `${i * 52}px` } : {}}
+        key={`index_${i}_letter_${pageTitle[i]}`}
+        style={{ marginLeft: `${getSpacing(i)}px` }}
       >
-        <GradientLetter>{title[i]}</GradientLetter>
+        <GradientLetter>{pageTitle[i]}</GradientLetter>
       </GradientLetterContainer>
     )
   }
 
   return (
-    <GradientTitleContainer aria-label={title}>
+    <GradientTitleContainer aria-label={pageTitle}>
       {letters}
     </GradientTitleContainer>
   )

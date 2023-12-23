@@ -3,7 +3,6 @@ import styled from "styled-components"
 export const GradientTitleContainer = styled.div`
   display: flex;
   flex-direction: row;
-  height: 100%;
 `
 
 export const GradientLetterContainer = styled.div`
@@ -16,7 +15,7 @@ export const GradientLetter = styled.div`
 
   // fallback background color
   background-color: #99ceff;
-  font-size: 120px;
+  font-size: 100px;
   // gradient
   background-image: conic-gradient(
     from 208deg at 75.28% 49.13%,
