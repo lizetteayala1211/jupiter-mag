@@ -2,10 +2,10 @@
 
 import Link from "next/link"
 import React from "react"
-import { AppActionType, Pages } from "@/state/AppState"
-import { useAppDispatch, useAppState } from "@/providers/AppStateProvider"
-import { toTitleCase } from "../helpers/toTitleCase"
-import { useIsXsSmallDevice } from "@/helpers/breakpoints"
+import { toTitleCase } from "../utils/helpers/toTitleCase"
+import { useIsXsSmallDevice } from "@/utils/hooks/breakpoints"
+import { Pages } from "@/utils/types"
+import { useCurrentPage } from "@/utils/hooks"
 
 export function NavBar() {
   const [openMenu, setOpenMenu] = React.useState(true)
@@ -24,7 +24,6 @@ export function NavBar() {
       >
         ≡
       </a>
-
       {openMenu && <NavItems />}
     </>
   ) : (
@@ -47,43 +46,25 @@ export function NavBar() {
 }
 
 function NavItems() {
-  const appDispatch = useAppDispatch()
-
-  const onNavSelect = (page: Pages) => {
-    appDispatch({ type: AppActionType.SET_PAGE, value: page })
-  }
-
   return (
     <>
-      <NavBarItem page="home" onClick={() => onNavSelect("home")} />
-      <NavBarItem page="program" onClick={() => onNavSelect("program")} />
-      <NavBarItem page="about" onClick={() => onNavSelect("about")} />
-      <NavBarItem page="donate" onClick={() => onNavSelect("donate")} />
-      <NavBarItem page="contact" onClick={() => onNavSelect("contact")} />
+      <NavBarItem page="home" />
+      <NavBarItem page="program" />
+      <NavBarItem page="about" />
+      <NavBarItem page="donate" />
+      <NavBarItem page="contact" />
     </>
   )
 }
 
-function NavBarItem({
-  page,
-  onClick,
-}: {
-  page: Pages
-  onClick: (page: Pages) => void
-}) {
-  const { selectedPage } = useAppState()
-  const [selected, setSelected] = React.useState(false)
-
-  React.useEffect(() => {
-    setSelected(selectedPage === page)
-  }, [])
+function NavBarItem({ page }: { page: Pages }) {
+  const currentPage = useCurrentPage()
 
   return (
     <Link
-      onClick={() => onClick(page)}
       style={{
         padding: "1em",
-        // color: page === "about" ? "#FF7A00" : "white",
+        color: currentPage == page ? "#FF7A00" : "white",
       }}
       href={page === "home" ? "./" : `/${page}`}
     >

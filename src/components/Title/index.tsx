@@ -1,4 +1,4 @@
-import { Pages } from "@/state/AppState"
+import { Pages } from "@/utils/types"
 import {
   GradientLetter,
   GradientLetterContainer,
@@ -20,7 +20,6 @@ export function Title({ pageTitle }: { pageTitle: Pages }) {
   }
 
   for (let i = 0; i < titleLength; i++) {
-    console.log("spacing: ", getSpacing(i))
     letters.push(
       <GradientLetterContainer
         key={`index_${i}_letter_${pageTitle[i]}`}

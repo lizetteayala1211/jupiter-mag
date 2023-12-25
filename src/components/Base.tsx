@@ -4,22 +4,20 @@ import React, { ReactNode } from "react"
 import { NavBar } from "./NavBar"
 import { BaseContainer, Gradient } from "./styled"
 import { DesktopGrain, MobileGrain } from "./GrainBackgrounds"
-import { useIsXsSmallDevice } from "@/helpers/breakpoints"
-import { AppStateProvider } from "@/providers/AppStateProvider"
-import { Pages } from "@/state/AppState"
+import { useIsXsSmallDevice } from "@/utils/hooks"
 
-type Props = { children: ReactNode; page: Pages }
+type Props = { children: ReactNode }
 
-export function Base({ children, page }: Props) {
+export function Base({ children }: Props) {
   return (
-    <AppStateProvider>
+    <>
       <BaseContainer>
         <NavBar />
         {children}
       </BaseContainer>
 
       <BackgroundStyles />
-    </AppStateProvider>
+    </>
   )
 }
 
