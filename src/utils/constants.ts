@@ -10,3 +10,8 @@ export const screenMdMax = "1199px"
 export const screenLgMin = "1200px"
 export const screenLgMax = "1919px"
 export const screenXlMin = "1920px"
+
+// colors
+export const darkOrange = "#FE4101"
+export const lightOrange = "#FF7A00"
+export const white = "#FFF"

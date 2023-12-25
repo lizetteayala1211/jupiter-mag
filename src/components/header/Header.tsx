@@ -3,52 +3,49 @@ import { useIsXsSmallDevice } from "@/utils/hooks"
 import { NavBar } from "../NavBar"
 import { JupiterLogo } from "../JupiterLogo"
 import {
-  DesktopHeaderContainer,
-  LogoContainer,
+  HeaderContainer,
+  MenuButton,
   NavBarContainer,
-  NotifyMeText,
+  NotifyMeTextDesktop,
+  NotifyMeTextMobile,
+  LogoContainer,
 } from "./styled"
 import { NotifyMeGraphic } from "../NotifyMeGraphic"
 
 export function Header() {
   const isMobile = useIsXsSmallDevice()
-
   return isMobile ? <MobileHeader /> : <DesktopHeader />
 }
 
 function DesktopHeader() {
   return (
-    <DesktopHeaderContainer>
+    <HeaderContainer>
       <LogoContainer>
         <JupiterLogo />
       </LogoContainer>
       <NavBarContainer>
         <NavBar />
       </NavBarContainer>
-      <NotifyMeText>Notify me!</NotifyMeText>
+      <NotifyMeTextDesktop>Notify me!</NotifyMeTextDesktop>
       <NotifyMeGraphic />
-    </DesktopHeaderContainer>
+    </HeaderContainer>
   )
 }
 
 function MobileHeader() {
-  const [openMenu, setOpenMenu] = React.useState(true)
+  const [openMenu, setOpenMenu] = React.useState(false)
 
   return (
-    <>
-      <JupiterLogo />
-      {/* TODO: temporary mobile menu */}
-      <a
-        style={{
-          margin: "1em",
-          backgroundColor: "transparent",
-          color: "white",
-        }}
-        onClick={() => setOpenMenu(!openMenu)}
-      >
-        ≡
-      </a>
+    <HeaderContainer>
+      <div style={{ display: "flex", flexDirection: "column" }}>
+        <p>Magazine</p>
+        <NotifyMeTextMobile>Notify me!</NotifyMeTextMobile>
+      </div>
+      <LogoContainer>
+        <JupiterLogo />
+      </LogoContainer>
+      <MenuButton onClick={() => setOpenMenu(!openMenu)}>Menu</MenuButton>
       {openMenu && <NavBar />}
-    </>
+    </HeaderContainer>
   )
 }
