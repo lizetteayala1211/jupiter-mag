@@ -1,14 +1,42 @@
 import React from "react"
 import { useIsXsSmallDevice } from "@/utils/hooks"
 import { NavBar } from "../NavBar"
-import { DesktopHeader } from "./DesktopHeader"
+import { JupiterLogo } from "../JupiterLogo"
+import {
+  DesktopHeaderContainer,
+  LogoContainer,
+  NavBarContainer,
+  NotifyMeText,
+} from "./styled"
+import { NotifyMeGraphic } from "../NotifyMeGraphic"
 
 export function Header() {
-  const [openMenu, setOpenMenu] = React.useState(true)
   const isMobile = useIsXsSmallDevice()
 
-  return isMobile ? (
+  return isMobile ? <MobileHeader /> : <DesktopHeader />
+}
+
+function DesktopHeader() {
+  return (
+    <DesktopHeaderContainer>
+      <LogoContainer>
+        <JupiterLogo />
+      </LogoContainer>
+      <NavBarContainer>
+        <NavBar />
+      </NavBarContainer>
+      <NotifyMeText>Notify me!</NotifyMeText>
+      <NotifyMeGraphic />
+    </DesktopHeaderContainer>
+  )
+}
+
+function MobileHeader() {
+  const [openMenu, setOpenMenu] = React.useState(true)
+
+  return (
     <>
+      <JupiterLogo />
       {/* TODO: temporary mobile menu */}
       <a
         style={{
@@ -22,7 +50,5 @@ export function Header() {
       </a>
       {openMenu && <NavBar />}
     </>
-  ) : (
-    <DesktopHeader />
   )
 }
