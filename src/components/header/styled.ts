@@ -18,6 +18,10 @@ export const HeaderContainer = styled.div`
   align-items: flex-start;
   justify-content: space-around;
   width: 100%;
+
+  @media (min-width: ${screenLgMin}) {
+    justify-content: space-between;
+  }
 `
 
 export const DesktopNavBarContainer = styled.div`
@@ -26,6 +30,7 @@ export const DesktopNavBarContainer = styled.div`
   background-color: #e0e9f426;
   border-radius: 8px;
   justify-content: center;
+  margin-top: 2em;
 `
 
 export const MobileNavBarContainer = styled.div`
