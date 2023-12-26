@@ -1,4 +1,5 @@
 import { screenLgMin, Z_ONE, Z_TWO } from "@/utils/constants"
+import Link from "next/link"
 import styled from "styled-components"
 
 export const SolidBackground = styled.div`
@@ -31,6 +32,7 @@ export const DesktopNavBarContainer = styled.div`
   border-radius: 8px;
   justify-content: center;
   margin-top: 2em;
+  padding: 0 1em;
 `
 
 export const MobileNavBarContainer = styled.div`
@@ -71,7 +73,7 @@ export const ExitMenuModalButton = styled.a`
   padding: 0 1em;
 `
 
-export const LogoContainer = styled.div`
+export const LogoContainer = styled(Link)`
   @media (min-width: ${screenLgMin}) {
     width: 15%;
     margin: 1em;

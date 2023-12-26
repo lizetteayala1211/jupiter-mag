@@ -10,9 +10,9 @@ import { lightOrange, white } from "@/utils/constants"
 export function NavBar() {
   return (
     <>
-      <NavBarItem page="home" />
-      <NavBarItem page="program" />
       <NavBarItem page="about" />
+      <NavBarItem page="magazine" />
+      <NavBarItem page="program" />
       <NavBarItem page="donate" />
       <NavBarItem page="contact" />
     </>
@@ -28,7 +28,7 @@ function NavBarItem({ page }: { page: Pages }) {
         padding: "0.75em 1em",
         color: currentPage == page ? lightOrange : white,
       }}
-      href={page === "home" ? "./" : `/${page}`}
+      href={`/${page}`}
     >
       {toTitleCase(page)}
     </Link>

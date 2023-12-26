@@ -11,6 +11,7 @@ import {
 } from "./styled"
 import { NotifyMeGraphic } from "../NotifyMeGraphic"
 import { MenuModal } from "./MenuModal"
+import Link from "next/link"
 
 export function Header() {
   const isMobile = useIsXsSmallDevice()
@@ -20,7 +21,7 @@ export function Header() {
 function DesktopHeader() {
   return (
     <HeaderContainer>
-      <LogoContainer>
+      <LogoContainer href="./">
         <JupiterLogo />
       </LogoContainer>
       <DesktopNavBarContainer>
@@ -46,7 +47,7 @@ function MobileHeader() {
       >
         <p>Magazine</p>
       </div>
-      <LogoContainer>
+      <LogoContainer href="./">
         <JupiterLogo />
       </LogoContainer>
       <MenuButton onClick={() => setOpenMenu(!openMenu)}>Menu</MenuButton>
