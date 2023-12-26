@@ -1,7 +1,7 @@
 "use client"
 
 import React, { ReactNode } from "react"
-import { BaseContainer, Gradient } from "./styled"
+import { BaseContainer, Gradient, NotifyMeTextMobile } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
 import { useIsXsSmallDevice } from "@/utils/hooks"
 import { Header } from "../header/Header"
@@ -14,14 +14,13 @@ export function Base({ children }: Props) {
 
   return (
     <>
+      {isMobile && <NotifyMeTextMobile>Notify me!</NotifyMeTextMobile>}
+
       <BaseContainer
-        style={
-          isMobile
-            ? { borderLeft: `12px solid ${darkOrange}`, paddingLeft: "12px" }
-            : {}
-        }
+        style={isMobile ? { borderLeft: `12px solid ${darkOrange}` } : {}}
       >
         <Header />
+
         {children}
       </BaseContainer>
 

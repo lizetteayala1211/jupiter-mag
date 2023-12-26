@@ -5,12 +5,12 @@ import { JupiterLogo } from "../JupiterLogo"
 import {
   HeaderContainer,
   MenuButton,
-  NavBarContainer,
+  DesktopNavBarContainer,
   NotifyMeTextDesktop,
-  NotifyMeTextMobile,
   LogoContainer,
 } from "./styled"
 import { NotifyMeGraphic } from "../NotifyMeGraphic"
+import { MenuModal } from "./MenuModal"
 
 export function Header() {
   const isMobile = useIsXsSmallDevice()
@@ -23,9 +23,9 @@ function DesktopHeader() {
       <LogoContainer>
         <JupiterLogo />
       </LogoContainer>
-      <NavBarContainer>
+      <DesktopNavBarContainer>
         <NavBar />
-      </NavBarContainer>
+      </DesktopNavBarContainer>
       <NotifyMeTextDesktop>Notify me!</NotifyMeTextDesktop>
       <NotifyMeGraphic />
     </HeaderContainer>
@@ -37,15 +37,20 @@ function MobileHeader() {
 
   return (
     <HeaderContainer>
-      <div style={{ display: "flex", flexDirection: "column" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          margin: "0.5em",
+        }}
+      >
         <p>Magazine</p>
-        <NotifyMeTextMobile>Notify me!</NotifyMeTextMobile>
       </div>
       <LogoContainer>
         <JupiterLogo />
       </LogoContainer>
       <MenuButton onClick={() => setOpenMenu(!openMenu)}>Menu</MenuButton>
-      {openMenu && <NavBar />}
+      {openMenu && <MenuModal setOpenMenu={setOpenMenu} />}
     </HeaderContainer>
   )
 }

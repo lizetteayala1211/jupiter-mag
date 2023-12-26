@@ -15,3 +15,9 @@ export const screenXlMin = "1920px"
 export const darkOrange = "#FE4101"
 export const lightOrange = "#FF7A00"
 export const white = "#FFF"
+export const black = "#000"
+
+// z indices
+export const Z_TWO = 100
+export const Z_ONE = 10
+export const Z_ZERO = 0
