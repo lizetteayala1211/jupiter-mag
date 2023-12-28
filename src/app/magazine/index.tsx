@@ -1,4 +1,4 @@
-import { Base } from "@/components/base/Base"
+import { Base } from "@/components/base"
 
 export default function Index() {
   return <Base>Index</Base>

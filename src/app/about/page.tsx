@@ -1,6 +1,6 @@
 "use client"
 
-import { Base } from "@/components/base/Base"
+import { Base } from "@/components/base"
 import {
   CaptionSection,
   DescSection,
@@ -10,6 +10,7 @@ import {
 } from "./styled"
 import { Stream } from "@cloudflare/stream-react"
 import React from "react"
+import { Dummy } from "@/components/Dummy"
 
 export default function About() {
   const [userInteracted, setUserInteracted] = React.useState(false)
@@ -18,7 +19,6 @@ export default function About() {
     <Base>
       <Main onClick={() => setUserInteracted(true)}>
         <VideoSection>
-          {" "}
           <Stream
             src="1f0b81560d3380d4b27e3d2acf8d4e00"
             autoplay
@@ -36,11 +36,7 @@ export default function About() {
           fugit.{" "}
         </CaptionSection>
         <PhotoSection>
-          <div
-            style={{ width: "410px", height: "527px", backgroundColor: "grey" }}
-          >
-            dummy photo
-          </div>
+          <Dummy width={410} height={527} />
         </PhotoSection>
         <DescSection>
           Jupiter Magazine is a quarterly arts and culture publication that

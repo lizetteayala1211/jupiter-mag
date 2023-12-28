@@ -10,7 +10,7 @@ import {
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
 import { useIsXsSmallDevice } from "@/utils/hooks"
-import { Header } from "../header/Header"
+import { Header } from "../header"
 import { darkOrange } from "@/utils/constants"
 
 type Props = { children: ReactNode }

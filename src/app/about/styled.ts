@@ -23,7 +23,8 @@ export const VideoSection = styled.section`
 
 export const CaptionSection = styled.section`
   grid-area: caption;
-  padding: 0 4em;
+  padding-inline-start: var(--padding-body);
+  padding-inline-end: var(--padding-body);
 `
 
 export const PhotoSection = styled.section`
@@ -35,7 +36,8 @@ export const PhotoSection = styled.section`
 
 export const DescSection = styled.section`
   grid-area: desc;
-  padding: 0 4em;
+  padding-inline-start: var(--padding-body);
+  padding-inline-end: var(--padding-body);
   display: flex;
   flex-direction: row;
   justify-content: center;

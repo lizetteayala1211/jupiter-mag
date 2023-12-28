@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@100;600;700;800&family=Inter:wght@500;600&display=swap");
 
 /* css variables */
-/* :root {} */
+:root {
+  --padding-body: 4em;
+}
 
 * {
   box-sizing: border-box;
