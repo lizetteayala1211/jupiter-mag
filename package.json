@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudflare/stream-react": "^1.9.1",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-use": "^17.4.2",
     "styled-components": "^6.1.0"
   },
   "devDependencies": {
