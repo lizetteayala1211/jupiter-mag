@@ -12,13 +12,13 @@ export function NavBar() {
       <NavBarItem page="about" />
       <NavBarItem page="magazine" />
       <NavBarItem page="program" />
-      <NavBarItem page="donate" />
+      <NavBarItem page="donate" url="https://artadia.org/jupiter-magazine/" />
       <NavBarItem page="contact" />
     </>
   )
 }
 
-function NavBarItem({ page }: { page: Pages }) {
+function NavBarItem({ page, url }: { page: Pages; url?: string }) {
   const currentPage = useCurrentPage()
 
   return (
@@ -30,7 +30,7 @@ function NavBarItem({ page }: { page: Pages }) {
             ? "var(--color-light-orange)"
             : "var(--color-white)",
       }}
-      href={`/${page}`}
+      href={url ? url : `/${page}`}
     >
       {toTitleCase(page)}
     </Link>
