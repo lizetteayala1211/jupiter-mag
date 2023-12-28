@@ -11,7 +11,6 @@ import {
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
 import { useIsXsSmallDevice } from "@/utils/hooks"
 import { Header } from "../header"
-import { darkOrange } from "@/utils/constants"
 
 type Props = { children: ReactNode }
 
@@ -22,9 +21,7 @@ export function Base({ children }: Props) {
     <div>
       {isMobile && <NotifyMeTextMobile>Notify me!</NotifyMeTextMobile>}
 
-      <BaseContainer
-        style={isMobile ? { borderLeft: `12px solid ${darkOrange}` } : {}}
-      >
+      <BaseContainer>
         <HeaderSection>
           <Header />
         </HeaderSection>
@@ -47,6 +44,7 @@ function BackgroundStyles() {
         width: "100%",
         height: "100%",
         overflow: "hidden",
+        borderLeft: isMobile ? `12px solid var(--color-dark-orange)` : "0",
       }}
     >
       <Gradient />

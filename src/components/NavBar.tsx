@@ -5,7 +5,6 @@ import React from "react"
 import { toTitleCase } from "../utils/helpers/toTitleCase"
 import { Pages } from "@/utils/types"
 import { useCurrentPage } from "@/utils/hooks"
-import { lightOrange, white } from "@/utils/constants"
 
 export function NavBar() {
   return (
@@ -26,7 +25,10 @@ function NavBarItem({ page }: { page: Pages }) {
     <Link
       style={{
         padding: "0.75em 1em",
-        color: currentPage == page ? lightOrange : white,
+        color:
+          currentPage == page
+            ? "var(--color-light-orange)"
+            : "var(--color-white)",
       }}
       href={`/${page}`}
     >

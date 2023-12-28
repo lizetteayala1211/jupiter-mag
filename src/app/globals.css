@@ -2,7 +2,20 @@
 
 /* css variables */
 :root {
+  /* padding */
   --padding-body: 4em;
+
+  /* z indices */
+  --z-index-three: 1000;
+  --z-index-two: 100;
+  --z-index-one: 10;
+  --z-index-zero: 0;
+
+  /* colors */
+  --color-dark-orange: #fe4101;
+  --color-light-orange: #ff7a00;
+  --color-white: #fff;
+  --color-black: #000;
 }
 
 * {
@@ -17,7 +30,7 @@ body {
   max-width: 100vw;
   height: 100%;
   color: white;
-  background-color: black;
+  background-color: var(--color-black);
 }
 
 a {
