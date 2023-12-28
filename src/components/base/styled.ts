@@ -1,17 +1,28 @@
-import { Z_ZERO, Z_ONE, Z_TWO, darkOrange, white } from "@/utils/constants"
+import { Z_ONE, Z_THREE, darkOrange, white } from "@/utils/constants"
 import styled from "styled-components"
 
 export const BaseContainer = styled.div`
+  display: grid;
   z-index: ${Z_ONE};
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  max-height: 100vh;
+  grid-template-areas:
+    "header"
+    "children";
+  grid-template-rows: minmax(1fr) minmax(0, 5fr);
+`
+
+export const HeaderSection = styled.section`
+  grid-area: header;
+  z-index: ${Z_ONE};
+`
+
+export const ChildrenSection = styled.section`
+  grid-area: children;
+  z-index: ${Z_ONE};
 `
 
 export const Gradient = styled.div`
-  position: absolute;
   bottom: 0;
-  z-index: ${Z_ZERO};
   width: 100%;
   height: 100%;
   position: absolute;
@@ -30,7 +41,7 @@ export const NotifyMeTextMobile = styled.a`
   color: ${white};
   background-color: ${darkOrange};
   padding: 0 1.4em 0 1em;
-  z-index: ${Z_TWO};
+  z-index: ${Z_THREE};
   position: absolute;
   top: 2.3em;
 `

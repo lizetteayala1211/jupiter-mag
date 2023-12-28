@@ -1,4 +1,4 @@
-import { screenLgMin, Z_ONE, Z_TWO } from "@/utils/constants"
+import { screenLgMin, Z_ONE, Z_THREE, Z_TWO } from "@/utils/constants"
 import Link from "next/link"
 import styled from "styled-components"
 
@@ -19,6 +19,7 @@ export const HeaderContainer = styled.div`
   align-items: flex-start;
   justify-content: space-around;
   width: 100%;
+  z-index: ${Z_THREE};
 
   @media (min-width: ${screenLgMin}) {
     justify-content: space-between;
@@ -33,6 +34,7 @@ export const DesktopNavBarContainer = styled.div`
   justify-content: center;
   margin-top: 2em;
   padding: 0 1em;
+  font-weight: 700;
 `
 
 export const MobileNavBarContainer = styled.div`
@@ -47,7 +49,7 @@ export const MobileNavBarContainer = styled.div`
 
 export const MenuModalContainer = styled.div`
   position: absolute;
-  z-index: ${Z_TWO};
+  z-index: ${Z_THREE};
   top: 0;
   width: 100%;
   height: 100%;
@@ -88,6 +90,7 @@ export const NotifyMeTextDesktop = styled.a`
   top: 0;
   right: 0;
   padding: 3em;
+  font-weight: 800;
 `
 
 export const MenuButton = styled.a`
