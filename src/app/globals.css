@@ -4,6 +4,7 @@
 :root {
   /* padding */
   --padding-body: 4em;
+  --padding-contact: 8em 24em;
 
   /* z indices */
   --z-index-three: 1000;
