@@ -11,6 +11,7 @@ import {
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
 import { useIsMobile } from "@/utils/hooks"
 import { Header } from "../header"
+import StyledComponentsRegistry from "./StyledComponentsRegistry"
 
 type Props = { children: ReactNode }
 
@@ -18,7 +19,7 @@ export function Base({ children }: Props) {
   const isMobile = useIsMobile()
 
   return (
-    <div>
+    <StyledComponentsRegistry>
       {isMobile && <NotifyMeTextMobile>Notify me!</NotifyMeTextMobile>}
 
       <BaseContainer>
@@ -28,7 +29,7 @@ export function Base({ children }: Props) {
         <ChildrenSection>{children}</ChildrenSection>
       </BaseContainer>
       <BackgroundStyles />
-    </div>
+    </StyledComponentsRegistry>
   )
 }
 
