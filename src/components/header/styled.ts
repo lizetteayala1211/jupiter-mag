@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 export const SolidBackground = styled.div`
   position: absolute;
-  z-index: var(--z-index-zero);
+  z-index: var(--z-index-four);
   height: 100%;
   width: 100%;
   top: 0;
@@ -19,7 +19,7 @@ export const HeaderContainer = styled.div`
   align-items: flex-start;
   justify-content: space-around;
   width: 100%;
-  z-index: var(--z-index-three);
+  z-index: var(--z-index-six);
 
   @media (min-width: ${screenLgMin}) {
     justify-content: space-between;
@@ -37,7 +37,7 @@ export const DesktopNavBarContainer = styled.div`
   font-weight: 700;
 `
 
-export const MobileNavBarContainer = styled.div`
+export const MobileNavItemsContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,11 +45,12 @@ export const MobileNavBarContainer = styled.div`
   height: 100%;
   font-size: 30px;
   text-transform: uppercase;
+  z-index: var(--z-index-six);
 `
 
 export const MenuModalContainer = styled.div`
   position: absolute;
-  z-index: var(--z-index-three);
+  z-index: var(--z-index-six);
   top: 0;
   width: 100%;
   height: 100%;
@@ -58,7 +59,7 @@ export const MenuModalContainer = styled.div`
 export const MenuModalBackground = styled.div`
   position: absolute;
   bottom: 0;
-  z-index: var(--z-index-one);
+  z-index: var(--z-index-five);
   width: 100%;
   height: 100%;
   opacity: 0.8;

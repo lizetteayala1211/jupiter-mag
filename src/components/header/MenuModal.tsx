@@ -1,7 +1,7 @@
 import {
   MenuModalBackground,
   MenuModalContainer,
-  MobileNavBarContainer,
+  MobileNavItemsContainer,
   SolidBackground,
   ExitMenuModalButton,
 } from "./styled"
@@ -29,9 +29,9 @@ export function MenuModal({ setOpenMenu }: { setOpenMenu: any }) {
             <XIcon />
           </ExitMenuModalButton>
         </div>
-        <MobileNavBarContainer>
+        <MobileNavItemsContainer>
           <NavBar />
-        </MobileNavBarContainer>
+        </MobileNavItemsContainer>
       </MenuModalContainer>
     </>
   )

@@ -1,5 +1,5 @@
 import React from "react"
-import { useIsXsSmallDevice } from "@/utils/hooks"
+import { useIsMobile } from "@/utils/hooks"
 import { NavBar } from "../NavBar"
 import { JupiterLogo } from "../JupiterLogo"
 import {
@@ -14,7 +14,7 @@ import { MenuModal } from "./MenuModal"
 import Link from "next/link"
 
 export function Header() {
-  const isMobile = useIsXsSmallDevice()
+  const isMobile = useIsMobile()
   return isMobile ? <MobileHeader /> : <DesktopHeader />
 }
 
@@ -38,6 +38,8 @@ function MobileHeader() {
 
   return (
     <HeaderContainer>
+      {openMenu && <MenuModal setOpenMenu={setOpenMenu} />}
+
       <div
         style={{
           display: "flex",
@@ -51,7 +53,6 @@ function MobileHeader() {
         <JupiterLogo />
       </LogoContainer>
       <MenuButton onClick={() => setOpenMenu(!openMenu)}>Menu</MenuButton>
-      {openMenu && <MenuModal setOpenMenu={setOpenMenu} />}
     </HeaderContainer>
   )
 }

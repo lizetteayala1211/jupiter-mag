@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const BaseContainer = styled.div`
   display: grid;
-  z-index: var(--z-index-one);
+  z-index: var(--z-index-zero);
   max-height: 100vh;
   grid-template-areas:
     "header"
@@ -12,12 +12,12 @@ export const BaseContainer = styled.div`
 
 export const HeaderSection = styled.section`
   grid-area: header;
-  z-index: var(--z-index-one);
+  z-index: var(--z-index-three);
 `
 
 export const ChildrenSection = styled.section`
   grid-area: children;
-  z-index: var(--z-index-one);
+  z-index: var(--z-index-two);
 `
 
 export const Gradient = styled.div`

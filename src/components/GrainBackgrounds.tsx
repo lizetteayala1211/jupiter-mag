@@ -75,8 +75,8 @@ export function MobileGrain() {
       version="1.1"
       viewBox="0 0 700 700"
       opacity="1"
-      width={700}
-      height={700}
+      width={1000}
+      height={1000}
     >
       <defs>
         <filter

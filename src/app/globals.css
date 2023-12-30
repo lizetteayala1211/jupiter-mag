@@ -7,9 +7,12 @@
   --padding-contact: 8em 24em;
 
   /* z indices */
-  --z-index-three: 1000;
-  --z-index-two: 100;
-  --z-index-one: 10;
+  --z-index-six: 6;
+  --z-index-five: 5;
+  --z-index-four: 4;
+  --z-index-three: 3;
+  /* --z-index-two: 2; */
+  --z-index-one: 1;
   --z-index-zero: 0;
 
   /* colors */

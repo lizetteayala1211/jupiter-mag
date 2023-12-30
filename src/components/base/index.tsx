@@ -9,13 +9,13 @@ import {
   NotifyMeTextMobile,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
-import { useIsXsSmallDevice } from "@/utils/hooks"
+import { useIsMobile } from "@/utils/hooks"
 import { Header } from "../header"
 
 type Props = { children: ReactNode }
 
 export function Base({ children }: Props) {
-  const isMobile = useIsXsSmallDevice()
+  const isMobile = useIsMobile()
 
   return (
     <div>
@@ -33,7 +33,7 @@ export function Base({ children }: Props) {
 }
 
 function BackgroundStyles() {
-  const isMobile = useIsXsSmallDevice()
+  const isMobile = useIsMobile()
 
   return (
     <div
