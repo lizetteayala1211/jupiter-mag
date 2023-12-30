@@ -12,12 +12,12 @@ export const BaseContainer = styled.div`
 
 export const HeaderSection = styled.section`
   grid-area: header;
-  z-index: var(--z-index-three);
+  z-index: var(--z-index-four);
 `
 
 export const ChildrenSection = styled.section`
   grid-area: children;
-  z-index: var(--z-index-two);
+  z-index: var(--z-index-three);
 `
 
 export const Gradient = styled.div`
