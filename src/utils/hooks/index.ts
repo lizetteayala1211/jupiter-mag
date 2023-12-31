@@ -1,2 +1,2 @@
-export * from "./breakpoints"
+export * from "./useIsMobile"
 export * from "./useCurrentPage"
