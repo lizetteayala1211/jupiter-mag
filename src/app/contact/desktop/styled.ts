@@ -12,11 +12,14 @@ export const Main = styled(SharedGridMain)`
 export const ContactSection = styled.section`
   grid-area: contact;
   display: flex;
+  margin: 5em auto;
+
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
+  text-transform: uppercase;
+  line-height: 30px;
 `
 
 export const FormSection = styled.section`
   grid-area: form;
-  display: flex;
 `

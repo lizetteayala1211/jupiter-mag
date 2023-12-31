@@ -1,14 +1,15 @@
-import { Dummy } from "@/components/Dummy"
+import { ContactForm } from "@/components/contact-form"
 
 export default function Mobile() {
   return (
     <div
       style={{
-        gridArea: "contact",
         display: "flex",
+        margin: "24px",
         flexDirection: "column",
-        gap: "1em",
-        margin: "12px",
+        gap: "2em",
+        textTransform: "capitalize",
+        lineHeight: "25px",
       }}
     >
       <div>
@@ -29,7 +30,7 @@ export default function Mobile() {
         <h2>Twitter</h2>
         <h3>Jupiter_Magazine</h3>
       </div>
-      <Dummy width={400} height={500} text="contact form goes here" />
+      <ContactForm />
     </div>
   )
 }
