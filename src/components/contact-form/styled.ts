@@ -1,7 +1,7 @@
 import { screenLgMin } from "@/utils/constants"
 import styled from "styled-components"
 
-export const Main = styled.div`
+export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -38,6 +38,7 @@ export const MessageInput = styled.textarea`
   font-family: "Darker Grotesque", sans-serif;
   font-weight: 200;
   padding: 8px;
+  font-size: 1.5em;
   @media only screen and (min-width: ${screenLgMin}) {
     padding: 4px 8px;
     font-size: 2.5em;

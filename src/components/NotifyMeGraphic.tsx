@@ -21,9 +21,9 @@ export function NotifyMeGraphic() {
           width="201"
           height="159.25"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -61,8 +61,8 @@ export function NotifyMeGraphic() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(100.5 65.375) rotate(-90) scale(59.625 80.5)"
         >
-          <stop offset="0.09375" stop-color="#FF0000" />
-          <stop offset="1" stop-color="#FE7801" />
+          <stop offset="0.09375" stopColor="#FF0000" />
+          <stop offset="1" stopColor="#FE7801" />
         </radialGradient>
       </defs>
     </svg>

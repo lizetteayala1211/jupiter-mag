@@ -5,3 +5,10 @@ export type Pages =
   | "donate"
   | "contact"
   | "magazine"
+
+export type ContactRequest = {
+  from_name: string
+  reply_to: string
+  subject: string
+  message: string
+}
