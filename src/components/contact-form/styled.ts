@@ -8,10 +8,10 @@ export const Main = styled.div`
   border: 1px solid var(--color-white);
   height: auto;
   max-width: 600px;
-  padding: 1em;
+  padding: 1.5em;
   background-color: var(--color-off-black);
   @media only screen and (min-width: ${screenLgMin}) {
-    padding: 2em;
+    padding: 3em;
   }
 `
 
