@@ -36,6 +36,7 @@ export default function Desktop() {
         <Dummy width={410} height={527} />
       </PhotoSection>
       <DescSection>
+        <h2 style={{ fontSize: "32px", paddingBottom: "16px" }}>Header</h2>
         Jupiter Magazine is a quarterly arts and culture publication that marks
         a restorative departure into an editorial space that is a nexus of
         political consciousness, spiritual awareness, and creative healing.

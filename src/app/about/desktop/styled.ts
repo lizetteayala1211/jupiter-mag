@@ -39,6 +39,6 @@ export const DescSection = styled.section`
   padding-inline-start: var(--padding-body);
   padding-inline-end: var(--padding-body);
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `

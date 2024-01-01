@@ -15,7 +15,7 @@ export default function Desktop() {
   return (
     <Main>
       <PhotoSection>
-        <Dummy width={500} height={700} />
+        <Dummy width={700} height={500} />
       </PhotoSection>
       <ProgramHeaderSection>
         <h1>Program Header</h1>

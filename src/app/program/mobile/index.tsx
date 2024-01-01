@@ -12,9 +12,19 @@ export default function Mobile() {
     >
       <Dummy width={400} height={400} />
 
-      <h1>Header</h1>
+      <div style={{ marginInlineStart: "12px" }}>
+        <h1>Program Header</h1>
+        <h2>Subtitle</h2>
+      </div>
 
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          paddingInlineEnd: "10em",
+          marginInlineStart: "12px",
+        }}
+      >
         <div>
           <p>Mo. 12, 2024</p>
           <p>7PM–11PM</p>
@@ -25,7 +35,7 @@ export default function Mobile() {
         </div>
       </div>
 
-      <p>
+      <p style={{ marginInlineStart: "12px" }}>
         This is the event blurb. Ted ut perspiciatis unde omnis iste natus error
         sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
@@ -34,7 +44,7 @@ export default function Mobile() {
         qui ratione voluptatem sequi nesciunt.{" "}
       </p>
 
-      <div>
+      <div style={{ marginInlineStart: "12px" }}>
         __________________(dummy)_____________________ Enter your email to
         receive additional information and RSVP for this event.
       </div>
