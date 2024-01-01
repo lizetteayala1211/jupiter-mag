@@ -11,7 +11,6 @@ import {
 } from "./styled"
 import { NotifyMeGraphic } from "../NotifyMeGraphic"
 import { MenuModal } from "./MenuModal"
-import Link from "next/link"
 
 export function Header() {
   const isMobile = useIsMobile()
@@ -47,7 +46,7 @@ function MobileHeader() {
           margin: "0.5em",
         }}
       >
-        <p>Magazine</p>
+        <p style={{ fontWeight: 500 }}>Magazine</p>
       </div>
       <LogoContainer href="./">
         <JupiterLogo />

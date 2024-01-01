@@ -98,4 +98,5 @@ export const MenuButton = styled.a`
   margin: 0.5em;
   background-color: transparent;
   color: white;
+  font-weight: 500;
 `

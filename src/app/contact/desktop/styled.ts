@@ -15,7 +15,7 @@ export const ContactSection = styled.section`
   margin: 5em auto;
 
   flex-direction: column;
-  gap: 2em;
+  gap: 2.5em;
   text-transform: uppercase;
   line-height: 30px;
 `
