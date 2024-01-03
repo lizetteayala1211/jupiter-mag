@@ -1,4 +1,4 @@
-export async function getJupiterBasics() {
+export const getJupiterBasics = async () => {
   const apiKey: string = process.env.PLANET_API_KEY || ""
 
   const response = await fetch(
