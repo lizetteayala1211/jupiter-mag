@@ -30,7 +30,6 @@ export function Base({ children }: Props) {
         </HeaderSection>
         <ChildrenSection>{children}</ChildrenSection>
         <Ticker />
-
         <Footer />
       </BaseContainer>
       <BackgroundStyles />

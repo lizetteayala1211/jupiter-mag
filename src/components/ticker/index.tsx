@@ -4,7 +4,6 @@ export function Ticker() {
   return (
     <TickerContainer>
       <TickerContent>
-        asdfass
         <TickerItem>Distance: 596,143,316</TickerItem>
         <TickerItem>AU: 3.984972</TickerItem>
         <TickerItem>RIGHT ASCENSION: 02H 31M 23S</TickerItem>
