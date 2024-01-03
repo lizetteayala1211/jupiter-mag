@@ -1,6 +1,10 @@
+import { collectJupiterData } from "@/utils/collectJupiterData"
 import { TickerContainer, TickerContent, TickerItem } from "./styled"
+import React from "react"
 
 export function Ticker() {
+  collectJupiterData()
+
   return (
     <TickerContainer>
       <TickerContent>
