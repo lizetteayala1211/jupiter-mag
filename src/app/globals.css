@@ -20,11 +20,15 @@
   /* colors */
   --color-white: #fff;
   --color-off-white: #e0e9f4;
-  --color-off-black: #00000052;
+
+  --color-transparent-black: #00000052;
   --color-black: #000;
+  --color-off-black: #011212;
 
   --color-light-orange: #ff7a00;
   --color-dark-orange: #fe4101;
+
+  --color-light-blue: #ebf4ff;
 }
 
 * {
