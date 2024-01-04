@@ -1,4 +1,5 @@
 import { Dummy } from "@/components/Dummy"
+import { EmailInput } from "@/components/email-input"
 
 export default function Mobile() {
   return (
@@ -45,8 +46,7 @@ export default function Mobile() {
       </p>
 
       <div style={{ marginInlineStart: "12px" }}>
-        ________________________________________ Enter your email to receive
-        additional information and RSVP for this event.
+        <EmailInput />
       </div>
     </div>
   )

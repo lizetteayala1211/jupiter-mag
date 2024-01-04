@@ -8,6 +8,7 @@ import {
   TextGroup,
 } from "./styled"
 import { useIsMobile } from "@/utils/hooks"
+import { EmailInput } from "../email-input"
 
 export function Footer() {
   const isMobile = useIsMobile()
@@ -28,8 +29,7 @@ export function Footer() {
             <h4>JOIN JUPITER</h4>
             <br />
             <div style={{ maxWidth: "250px" }}>
-              ______________ Enter your email to sign up for updates on our next
-              releases and events.
+              <EmailInput />
             </div>
           </TextGroup>
           <TextGroup style={isMobile ? {} : { textAlign: "right" }}>

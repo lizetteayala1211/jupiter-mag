@@ -1,5 +1,6 @@
 "use client"
 
+import { EmailInput } from "@/components/email-input"
 import {
   PhotoSection,
   Main,
@@ -38,8 +39,7 @@ export default function Desktop() {
         Quis autem vel eum iure reprehenderit.
       </DescSection>
       <EmailSection>
-        ________________________________________ Enter your email to receive
-        additional information and RSVP for this event.
+        <EmailInput />
       </EmailSection>
     </Main>
   )

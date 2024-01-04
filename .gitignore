@@ -27,6 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+jupiter-410219-5a628ba576a7.json
 
 # vercel
 .vercel
