@@ -38,8 +38,8 @@ export default function Desktop() {
         Quis autem vel eum iure reprehenderit.
       </DescSection>
       <EmailSection>
-        __________________(dummy)_____________________ Enter your email to
-        receive additional information and RSVP for this event.
+        ________________________________________ Enter your email to receive
+        additional information and RSVP for this event.
       </EmailSection>
     </Main>
   )

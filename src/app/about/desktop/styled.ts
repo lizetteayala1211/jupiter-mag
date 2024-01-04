@@ -32,6 +32,7 @@ export const PhotoSection = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: var(--padding-body);
 `
 
 export const DescSection = styled.section`

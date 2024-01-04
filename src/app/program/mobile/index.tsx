@@ -45,8 +45,8 @@ export default function Mobile() {
       </p>
 
       <div style={{ marginInlineStart: "12px" }}>
-        __________________(dummy)_____________________ Enter your email to
-        receive additional information and RSVP for this event.
+        ________________________________________ Enter your email to receive
+        additional information and RSVP for this event.
       </div>
     </div>
   )

@@ -26,22 +26,22 @@ export type Unit =
 type JupiterDataPoint = { value: string; unit: Unit }
 
 export type JupiterData = {
-  argumentOfPerihelion: JupiterDataPoint
-  axialTilt: JupiterDataPoint
-  constellation: JupiterDataPoint
-  declination: JupiterDataPoint
-  eccentricity: JupiterDataPoint
-  equatorialRadius: JupiterDataPoint
-  escapeSpeed: JupiterDataPoint
-  inclination: JupiterDataPoint
-  massValue: JupiterDataPoint
-  perihelion: JupiterDataPoint
-  polarRadius: JupiterDataPoint
-  rightAscension: JupiterDataPoint
-  semiMajorAxis: JupiterDataPoint
-  sideralOrbit: JupiterDataPoint
-  sideralRotation: JupiterDataPoint
   temperature: JupiterDataPoint
+  constellation: JupiterDataPoint
+  polarRadius: JupiterDataPoint
+  sideralOrbit: JupiterDataPoint
+  eccentricity: JupiterDataPoint
+  sideralRotation: JupiterDataPoint
+  rightAscension: JupiterDataPoint
+  argumentOfPerihelion: JupiterDataPoint
+  escapeSpeed: JupiterDataPoint
+  massValue: JupiterDataPoint
+  inclination: JupiterDataPoint
+  declination: JupiterDataPoint
+  perihelion: JupiterDataPoint
+  semiMajorAxis: JupiterDataPoint
+  equatorialRadius: JupiterDataPoint
+  axialTilt: JupiterDataPoint
 }
 
 export type SolarSystemApiShape = {
