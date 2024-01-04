@@ -7,7 +7,6 @@ import {
   Main,
   PhotoSection,
 } from "./styled"
-import { Stream } from "@cloudflare/stream-react"
 import React from "react"
 import { Dummy } from "@/components/Dummy"
 
@@ -17,12 +16,7 @@ export default function Desktop() {
   return (
     <Main onClick={() => setUserInteracted(true)}>
       <VideoSection>
-        <Stream
-          src="1f0b81560d3380d4b27e3d2acf8d4e00"
-          autoplay
-          loop
-          muted={!userInteracted}
-        />
+        <Dummy width="full" height={700} />
       </VideoSection>
       <CaptionSection>
         Video caption/ credits. ed ut perspiciatis unde omnis iste natus error

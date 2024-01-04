@@ -3,14 +3,14 @@ export function Dummy({
   height,
   text,
 }: {
-  width: number
+  width: number | "full"
   height: number
   text?: string
 }) {
   return (
     <div
       style={{
-        width: `${width}px`,
+        width: width === "full" ? "100%" : `${width}px`,
         height: `${height}px`,
         backgroundColor: "lavender",
         color: "violet",

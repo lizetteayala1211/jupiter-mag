@@ -12,10 +12,31 @@ export const FooterChildren = styled.div`
 
 export const LogoContainer = styled.div`
   @media (min-width: ${screenLgMin}) {
-    width: 15%;
-    margin: 1em;
+    width: 30%;
+    margin: 1em 1em 4em 1em;
   }
 
-  padding-top: 0.5em;
-  width: 30%;
+  margin: 1em auto;
+  width: 80%;
+`
+
+export const TextContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em 2em;
+  width: 100%;
+  gap: 4em;
+
+  @media only screen and (min-width: ${screenLgMin}) {
+    flex-direction: row;
+  }
+`
+
+export const TextGroup = styled.div`
+  display: flex;
+  flex-direction: column;
+  color: var(--color-off-black);
+  font-weight: 600;
+  font-size: 20px;
 `

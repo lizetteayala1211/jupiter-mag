@@ -57,7 +57,7 @@ export const TickerContent = styled.div`
 
 export const TickerItem = styled.div`
   display: inline-block;
-  padding: 0 2rem;
+  padding: 0 1rem;
   font-size: 16px;
   z-index: var(--z-index-seven);
   letter-spacing: 2px;
