@@ -1,11 +1,11 @@
 import React from "react"
-import { prepareJupiterData } from "@/utils/prepareJupiterData"
+import { useJupiterData } from "@/utils/hooks/useJupiterData"
 import { TickerContainer, TickerContent, TickerItem } from "./styled"
 import { fromCamelCaseToWords } from "@/utils/helpers"
 import { JupiterData, Unit } from "@/utils/types"
 
 export function Ticker() {
-  const jupiterData = prepareJupiterData()
+  const jupiterData = useJupiterData()
   if (!jupiterData) return
 
   const handleUnit = (unit: Unit) => {

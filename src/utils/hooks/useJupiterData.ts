@@ -1,14 +1,13 @@
 import React from "react"
 import { fetchJupiterData } from "@/api"
-import { JupiterData, SolarSystemApiShape } from "./types"
+import { JupiterData, SolarSystemApiShape } from "../types"
 
-export const prepareJupiterData = () => {
+export const useJupiterData = () => {
   const [jupiterData, setJupiterData] = React.useState<JupiterData>()
 
   React.useEffect(() => {
     fetchJupiterData()
       .then((data: SolarSystemApiShape) => {
-        console.log("fetchJupiterData", data)
         setJupiterData({
           argumentOfPerihelion: {
             value: data.argPeriapsis.toFixed(2),
