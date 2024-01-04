@@ -1,2 +1,2 @@
 export * from "./getJupiterBasics"
-export * from "./getJupiterAdvanced"
+export * from "./fetchJupiterData"

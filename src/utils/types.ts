@@ -13,35 +13,38 @@ export type ContactRequest = {
   message: string
 }
 
+export type Unit =
+  | "degree"
+  | "distance"
+  | "jupiterMass"
+  | "number"
+  | "days"
+  | "hours"
+  | "speed"
+  | undefined
+
+type JupiterDataPoint = { value: string; unit: Unit }
+
 export type JupiterData = {
-  axialTilt: number
-  distance: number
-  eccentricity: number
-  equatorialRadius: number
-  inclination: number
-  massValue: number
-  perihelion: number
-  period: number
-  polarRadius: number
-  semiMajorAxis: number
-  sideralOrbit: number
-  sideralRotation: number
-  temperature: number
+  argumentOfPerihelion: JupiterDataPoint
+  axialTilt: JupiterDataPoint
+  constellation: JupiterDataPoint
+  declination: JupiterDataPoint
+  eccentricity: JupiterDataPoint
+  equatorialRadius: JupiterDataPoint
+  escapeSpeed: JupiterDataPoint
+  inclination: JupiterDataPoint
+  massValue: JupiterDataPoint
+  perihelion: JupiterDataPoint
+  polarRadius: JupiterDataPoint
+  rightAscension: JupiterDataPoint
+  semiMajorAxis: JupiterDataPoint
+  sideralOrbit: JupiterDataPoint
+  sideralRotation: JupiterDataPoint
+  temperature: JupiterDataPoint
 }
 
-export type PlanetsApiShape = {
-  distance_light_year: number
-  host_star_mass: number
-  host_star_temperature: number
-  mass: number
-  name: string
-  period: number
-  radius: number
-  semi_major_axis: number
-  temperature: number
-}
-
-export type SolarSystem = {
+export type SolarSystemApiShape = {
   alternativeName: string
   aphelion: number
   argPeriapsis: number

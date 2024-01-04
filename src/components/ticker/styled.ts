@@ -52,8 +52,8 @@ export const TickerContent = styled.div`
   animation-timing-function: linear;
   -webkit-animation-name: ticker;
   animation-name: ticker;
-  -webkit-animation-duration: 30s;
-  animation-duration: 30s;
+  -webkit-animation-duration: 100s;
+  animation-duration: 100s;
 `
 
 export const TickerItem = styled.div`
@@ -61,4 +61,5 @@ export const TickerItem = styled.div`
   padding: 0 2rem;
   font-size: 16px;
   z-index: var(--z-index-seven);
+  letter-spacing: 2px;
 `

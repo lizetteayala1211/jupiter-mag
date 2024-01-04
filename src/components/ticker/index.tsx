@@ -1,17 +1,53 @@
-import { collectJupiterData } from "@/utils/collectJupiterData"
-import { TickerContainer, TickerContent, TickerItem } from "./styled"
 import React from "react"
+import { prepareJupiterData } from "@/utils/prepareJupiterData"
+import { TickerContainer, TickerContent, TickerItem } from "./styled"
+import { fromCamelCaseToWords } from "@/utils/helpers"
+import { JupiterData, Unit } from "@/utils/types"
 
 export function Ticker() {
-  collectJupiterData()
+  const jupiterData = prepareJupiterData()
+  if (!jupiterData) return
+
+  const handleUnit = (unit: Unit) => {
+    switch (unit) {
+      case "days": {
+        return " days"
+      }
+      case "degree": {
+        return "°"
+      }
+      case "distance": {
+        return " km"
+      }
+      case "hours": {
+        return " hours"
+      }
+      case "jupiterMass": {
+        return "Mⱼ"
+      }
+      case "speed": {
+        return "m.s⁻¹"
+      }
+      case "number": {
+        return
+      }
+      default: {
+        return
+      }
+    }
+  }
 
   return (
     <TickerContainer>
       <TickerContent>
-        <TickerItem>Distance: 596,143,316</TickerItem>
-        <TickerItem>AU: 3.984972</TickerItem>
-        <TickerItem>RIGHT ASCENSION: 02H 31M 23S</TickerItem>
-        <TickerItem>DECLINATION: +13° 24’ 40”</TickerItem>
+        {Object.keys(jupiterData).map((key) => (
+          <TickerItem key={key}>
+            {fromCamelCaseToWords(key)}
+            {": "}
+            {jupiterData[key as keyof JupiterData].value}
+            {handleUnit(jupiterData[key as keyof JupiterData].unit)}
+          </TickerItem>
+        ))}
       </TickerContent>
     </TickerContainer>
   )
