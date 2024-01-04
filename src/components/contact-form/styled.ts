@@ -57,7 +57,7 @@ export const FormContainer = styled.form`
   height: auto;
   max-width: 600px;
   padding: 1.5em;
-  background-color: var(--color-off-black);
+  background-color: var(--color-transparent-black);
   @media only screen and (min-width: ${screenLgMin}) {
     padding: 3em;
   }

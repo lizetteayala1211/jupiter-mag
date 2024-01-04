@@ -21,7 +21,7 @@ function DesktopHeader() {
   return (
     <HeaderContainer>
       <LogoContainer href="./">
-        <JupiterLogo />
+        <JupiterLogo color="white" />
       </LogoContainer>
       <DesktopNavBarContainer>
         <NavBar />
@@ -49,7 +49,7 @@ function MobileHeader() {
         <p style={{ fontWeight: 500 }}>Magazine</p>
       </div>
       <LogoContainer href="./">
-        <JupiterLogo />
+        <JupiterLogo color="white" />
       </LogoContainer>
       <MenuButton onClick={() => setOpenMenu(!openMenu)}>Menu</MenuButton>
     </HeaderContainer>

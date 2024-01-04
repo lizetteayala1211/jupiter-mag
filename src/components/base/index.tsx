@@ -12,6 +12,8 @@ import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
 import { useIsMobile } from "@/utils/hooks"
 import { Header } from "../header"
 import StyledComponentsRegistry from "./StyledComponentsRegistry"
+import { Footer } from "../footer"
+import { Ticker } from "../ticker"
 
 type Props = { children: ReactNode }
 
@@ -27,6 +29,8 @@ export function Base({ children }: Props) {
           <Header />
         </HeaderSection>
         <ChildrenSection>{children}</ChildrenSection>
+        <Ticker />
+        <Footer />
       </BaseContainer>
       <BackgroundStyles />
     </StyledComponentsRegistry>
