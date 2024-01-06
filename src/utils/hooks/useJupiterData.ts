@@ -1,5 +1,5 @@
 import React from "react"
-import { fetchJupiterData } from "@/api"
+import { fetchJupiterData } from "@/app/api"
 import { JupiterData, SolarSystemApiShape } from "../types"
 
 export const useJupiterData = () => {

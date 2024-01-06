@@ -13,7 +13,17 @@ export const Input = styled.input`
   font-family: "Darker Grotesque", sans-serif;
 `
 
-export const InputContainer = styled.form`
+export const InputContainer = styled.div`
   display: flex;
   flex-direction: row;
+`
+
+export const ArrowButtonContainer = styled.button`
+  height: 32px;
+  width: 28px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--color-off-black);
 `
