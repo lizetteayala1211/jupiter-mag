@@ -1,4 +1,4 @@
-import { screenLgMin, screenMdMin, screenSmMin } from "@/utils/constants"
+import { screenSmMin } from "@/utils/constants"
 import styled from "styled-components"
 
 export const FooterContainer = styled.footer`
