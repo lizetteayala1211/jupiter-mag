@@ -10,7 +10,7 @@ export const Main = styled(SharedGridMain)`
     "authors"
     "authorAbout";
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1fr 3.8fr;
+  grid-template-rows: minmax(0, 1fr) 1fr minmax(0, 6.5fr);
   grid-template-areas:
     "lottie lottie"
     "editorCover editorNote"
@@ -24,7 +24,7 @@ export const Main = styled(SharedGridMain)`
 `
 export const Lottie = styled.section`
   grid-area: lottie;
-  overflow: auto;
+  grid-row: span;
 `
 
 export const EditorCover = styled.section`
