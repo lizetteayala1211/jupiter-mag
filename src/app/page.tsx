@@ -1,12 +1,7 @@
 "use client"
 
-import { JupiterAnimation } from "@/components/jupiter-animation"
-import { Base } from "../components/base"
+import Home from "./home"
 
-export default function Home() {
-  return (
-    <Base noHeader>
-      <JupiterAnimation />
-    </Base>
-  )
+export default function Page() {
+  return <Home />
 }

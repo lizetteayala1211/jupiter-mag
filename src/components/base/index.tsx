@@ -15,9 +15,9 @@ import StyledComponentsRegistry from "./StyledComponentsRegistry"
 import { Footer } from "../footer"
 import { Ticker } from "../ticker"
 
-type Props = { children: ReactNode; noHeader?: boolean }
+type Props = { children: ReactNode; homePage?: boolean }
 
-export function Base({ children, noHeader }: Props) {
+export function Base({ children, homePage }: Props) {
   const isMobile = useIsMobile()
 
   return (
@@ -25,7 +25,7 @@ export function Base({ children, noHeader }: Props) {
       {isMobile && <NotifyMeTextMobile>Notify me!</NotifyMeTextMobile>}
 
       <BaseContainer>
-        <HeaderSection>{!noHeader && <Header />}</HeaderSection>
+        <HeaderSection>{!homePage && <Header />}</HeaderSection>
         <ChildrenSection>{children}</ChildrenSection>
         <Ticker />
         <Footer />

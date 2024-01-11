@@ -20,7 +20,7 @@ export function Header() {
 function DesktopHeader() {
   return (
     <HeaderContainer>
-      <LogoContainer href="./">
+      <LogoContainer href=".">
         <JupiterLogo color="white" />
       </LogoContainer>
       <DesktopNavBarContainer>
