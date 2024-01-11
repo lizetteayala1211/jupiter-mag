@@ -22,9 +22,13 @@ export function Base({ children, homePage }: Props) {
 
   return (
     <StyledComponentsRegistry>
-      {isMobile && <NotifyMeTextMobile>Notify me!</NotifyMeTextMobile>}
+      {isMobile && (
+        <NotifyMeTextMobile className="darker-grotesque">
+          Notify me!
+        </NotifyMeTextMobile>
+      )}
 
-      <BaseContainer>
+      <BaseContainer className="darker-grotesque">
         <HeaderSection>{!homePage && <Header />}</HeaderSection>
         <ChildrenSection>{children}</ChildrenSection>
         <Ticker />

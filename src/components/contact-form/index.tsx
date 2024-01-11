@@ -102,6 +102,7 @@ export function ContactForm() {
         style={{
           fontSize: isMobile ? "30px" : "46px",
           textAlign: "center",
+          fontFamily: "Alverata Light",
         }}
       >
         Contact us

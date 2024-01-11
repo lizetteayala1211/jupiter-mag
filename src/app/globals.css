@@ -46,6 +46,14 @@
   src: url("../../public/fonts/Alverata-Medium.woff2");
 }
 
+.darker-grotesque {
+  font-family: var(--font-darker-grotesque);
+}
+
+.abhaya-libre {
+  font-family: var(--font-abhaya-libre);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

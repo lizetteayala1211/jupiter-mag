@@ -31,6 +31,7 @@ import diallo from "../../../public/photos/diallo.png"
 import j from "../../../public/photos/j.png"
 import joshua from "../../../public/photos/joshua.png"
 import rianna from "../../../public/photos/rianna.png"
+// import { Stream } from "@cloudflare/stream-react"
 
 export const getStaticProps: GetStaticProps = () => {
   return {
@@ -58,6 +59,7 @@ export default function Home() {
       <Main>
         <Lottie>
           <JupiterAnimation />
+          {/* <Stream autoplay muted loop src="40f77307c32f578347df0b2123f78522" /> */}
         </Lottie>
         <EditorCover>
           <div style={{ height: "20%", width: "50%", padding: "16px" }}>
@@ -76,9 +78,9 @@ export default function Home() {
             <div>Note</div>
           </div>
         </EditorCover>
-        <EditorNote>
+        <EditorNote className="abhaya-libre">
           <div>
-            <p style={{ fontSize: "20px", fontFamily: "Alverata Medium" }}>
+            <p style={{ fontSize: "20px" }}>
               Consequuntur magni dolores eos qui ratione voluptatem sequi
               nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
               sit amet, consectetur.

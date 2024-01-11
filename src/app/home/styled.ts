@@ -10,7 +10,7 @@ export const Main = styled(SharedGridMain)`
     "authors"
     "authorAbout";
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(0, 1fr) 1fr minmax(0, 6.5fr);
+  grid-template-rows: 0.2fr 1fr minmax(0, 4fr);
   grid-template-areas:
     "lottie lottie"
     "editorCover editorNote"
@@ -25,6 +25,7 @@ export const Main = styled(SharedGridMain)`
 export const Lottie = styled.section`
   grid-area: lottie;
   grid-row: span;
+  height: 100vh;
 `
 
 export const EditorCover = styled.section`
@@ -50,7 +51,6 @@ export const EditorNote = styled.section`
   justify-content: center;
   align-items: center;
   background-color: var(--color-article-cream);
-  font-family: "Alverata Light";
   color: var(--color-off-black);
   font-size: 16px;
   padding-inline-start: 64px;

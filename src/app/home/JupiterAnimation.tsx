@@ -10,7 +10,7 @@ export function JupiterAnimation() {
       autoplay
       loop
       mode="normal"
-      src="https://lottie.host/199c45cd-3b83-490b-a909-b7f091adb36a/yt8Dua96Rw.json"
+      src="https://lottie.host/8c7bf9d6-1300-4850-ada7-b44028bfb70d/rwAUsMzGIB.json"
     />
   )
 }
