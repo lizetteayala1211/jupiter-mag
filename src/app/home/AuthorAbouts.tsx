@@ -5,6 +5,7 @@ import {
   AuthorContent,
   AuthorTitle,
   AuthorBody,
+  AuthorAboutsContainer,
 } from "./styled"
 import { useBreakpoints } from "@/utils/hooks"
 import Image from "next/image"
@@ -20,20 +21,13 @@ export function AuthorAbouts() {
   const { isSmallDesktop, isDesktop, isLargeDesktop } = useBreakpoints()
   const getResponsiveImageSize = (): number => {
     if (isSmallDesktop) return 250
-    if (isDesktop) return 200
+    if (isDesktop) return 300
     if (isLargeDesktop) return 250
     return 50
   }
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: "4em",
-      }}
-    >
+    <AuthorAboutsContainer>
       <AuthorContainer>
         <AuthorPhoto>
           <Image
@@ -152,6 +146,6 @@ export function AuthorAbouts() {
           </AuthorBody>
         </AuthorContent>
       </AuthorContainer>
-    </div>
+    </AuthorAboutsContainer>
   )
 }

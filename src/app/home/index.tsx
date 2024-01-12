@@ -55,7 +55,8 @@ export default function Home() {
           </div>
           <div
             style={{
-              height: "80%",
+              height: "100%",
+              width: "100%",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",

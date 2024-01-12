@@ -25,13 +25,13 @@ export const Main = styled(SharedGridMain)`
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     border: 10px solid red;
-    grid-template-rows: 0.3fr 1.8fr minmax(0, 5.8fr);
+    grid-template-rows: 0.3fr 1.8fr minmax(0, 5.2fr);
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
     border: 10px solid orange;
-    grid-template-rows: 0.3fr 1fr minmax(0, 2fr);
+    grid-template-rows: 0.3fr 1.4fr minmax(0, 5.4fr);
   }
 
   /* extra wide desktops */
@@ -62,13 +62,14 @@ export const EditorCover = styled.section`
   @media only screen and (min-width: ${screenMdMin}) {
     padding-inline-end: 32px;
     font-size: 64px;
-    padding-bottom: 10em;
+    padding-bottom: 4em;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
     padding-inline-end: 32px;
-    font-size: 88px;
+    font-size: 72px;
+    padding-bottom: 2em;
   }
 
   /* extra wide desktops */
@@ -172,12 +173,14 @@ export const AuthorContainer = styled.div`
 
 export const AuthorPhoto = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  width: 30%;
 `
 
 export const AuthorContent = styled.div`
   display: flex;
   flex-direction: column;
+  width: 70%;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
@@ -186,6 +189,7 @@ export const AuthorContent = styled.div`
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
+    padding-inline-start: 4em;
   }
 
   /* extra wide desktops */
@@ -253,5 +257,37 @@ export const AuthorDirectoryContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8em 0 12em 0;
+
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+    padding: 4em 0 12em 0;
+  }
+
+  /* wide desktops */
+  @media only screen and (min-width: ${screenLgMin}) {
+    padding: 12em 0 16em 0;
+  }
+
+  /* extra wide desktops */
+  @media only screen and (min-width: ${screenXlMin}) {
+  }
+`
+
+export const AuthorAboutsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+  }
+
+  /* wide desktops */
+  @media only screen and (min-width: ${screenLgMin}) {
+  }
+
+  /* extra wide desktops */
+  @media only screen and (min-width: ${screenXlMin}) {
+  }
 `
