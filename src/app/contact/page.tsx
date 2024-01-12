@@ -2,7 +2,7 @@
 
 import Desktop from "./desktop"
 import Mobile from "./mobile"
-import { Base } from "@/components/base"
+import { Base } from "@/components"
 import { useBreakpoints } from "@/utils/hooks"
 
 export default function Contact() {

@@ -1,6 +1,6 @@
 "use client"
 
-import { EmailInput } from "@/components/email-input"
+import { EmailInput, Dummy } from "@/components"
 import {
   PhotoSection,
   Main,
@@ -10,7 +10,6 @@ import {
   DescSection,
   EmailSection,
 } from "./styled"
-import { Dummy } from "@/components/Dummy"
 
 export default function Desktop() {
   return (

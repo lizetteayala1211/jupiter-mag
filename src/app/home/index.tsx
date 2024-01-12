@@ -1,28 +1,25 @@
 "use client"
 
 import { GetStaticProps } from "next"
-import { Base } from "@/components/base"
+import { Base } from "@/components"
 import { JupiterAnimation } from "@/app/home/JupiterAnimation"
 
 // styled assets
 import {
   Authors,
-  EditorContainer,
-  EditorCover,
-  EditorNote,
   Lottie,
   Main,
+  PunctureContainer,
   PunctureOne,
   PunctureTwo,
 } from "./styled"
 import { HugeGuy } from "@/utils/layout"
-import { JupiterLogo } from "@/components/JupiterLogo"
 import { AuthorBackground } from "./AuthorBackground"
 
 import { Credits } from "./Credits"
 import { AuthorAbouts } from "./AuthorAbouts"
 import { AuthorDirectory } from "./AuthorDirectory"
-import { Dummy } from "@/components/Dummy"
+import { EditorsNote } from "./EditorsNote"
 
 export const getStaticProps: GetStaticProps = () => {
   return {
@@ -35,85 +32,17 @@ export const getStaticProps: GetStaticProps = () => {
 export default function Home() {
   return (
     <Base homePage>
-      <div
-        style={{
-          position: "absolute",
-          margin: "50%",
-          zIndex: 10,
-          top: 300,
-          left: -18,
-        }}
-      >
+      <PunctureContainer>
         <PunctureOne />
         <PunctureTwo />
-      </div>
+      </PunctureContainer>
       <Main>
         <Lottie>
           <JupiterAnimation />
         </Lottie>
 
         <Authors>
-          <EditorContainer>
-            <EditorCover>
-              <div style={{ height: "100%" }}>
-                <div style={{ height: "20%", width: "50%", padding: "16px" }}>
-                  <JupiterLogo color="white" />
-                </div>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "center",
-                    alignItems: "flex-end",
-                  }}
-                >
-                  <div>Editor&apos;s</div>
-                  <div>Note</div>
-                </div>
-              </div>
-            </EditorCover>
-            <EditorNote className="abhaya-libre">
-              <p style={{ fontSize: "20px" }}>
-                Consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-                sit amet, consectetur.
-              </p>
-              <HugeGuy />
-              <p style={{ fontSize: "16px" }}>
-                oluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-                non numquam eius modi tempora incidunt ut labore et dolore
-                magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-                quis nostrum exercitationem ullam corporis suscipit laboriosam,
-                nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
-                iure reprehenderit qui in ea voluptate velit esse quam nihil
-                molestiae consequatur, vel illum qui dolorem eum fugiat quo
-                voluptas nulla pariatur? Sed ut perspiciatis unde omnis iste
-                natus error sit voluptatem accusantium doloremque laudantium,
-                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-                et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
-                non numquam eius modi tempora incidunt ut labore et dolore
-                magnam aliquam quaerat voluptatem. eatae vitae dicta sunt
-                explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
-                quisquam est, qui dolorem ipsum quia dolor sit amet,
-                consectetur, adipisci velit, sed quia non numquam eius modi
-                tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem.eatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
-                quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem.
-              </p>
-            </EditorNote>
-          </EditorContainer>
+          <EditorsNote />
           <div
             style={{
               display: "flex",

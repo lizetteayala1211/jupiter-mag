@@ -50,7 +50,7 @@ export const Authors = styled.section`
   background: linear-gradient(
       189deg,
       rgba(191, 160, 193, 0) 11.66%,
-      #a88eaa 19.75%,
+      #a88eaa 29.75%,
       #000 54.08%
     ),
     conic-gradient(
@@ -63,7 +63,7 @@ export const Authors = styled.section`
 export const EditorContainer = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  min-height: 1000px;
 `
 
 export const EditorCover = styled.div`
@@ -111,6 +111,13 @@ export const EditorNote = styled.div`
   padding-inline-end: 64px;
 `
 // graphics
+export const PunctureContainer = styled.div`
+  position: absolute;
+  margin: 50%;
+  z-index: 10;
+  top: 250px;
+  left: -18px;
+`
 
 export const PunctureOne = styled.div`
   box-sizing: border-box;
@@ -149,17 +156,17 @@ export const StyledAuthorLink = styled(Link)`
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    font-size: 70px;
+    font-size: 80px;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    font-size: 80px;
+    font-size: 100px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
-    font-size: 100px;
+    font-size: 120px;
   }
 `
 export const AuthorContainer = styled.div`
