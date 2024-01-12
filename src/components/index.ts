@@ -1,4 +1,5 @@
 export { ArticleBase } from "./article-base"
+export { AuthorDirectory } from "./author-directory"
 export { Base } from "./base"
 export { ContactForm } from "./contact-form"
 export { EmailInput } from "./email-input"

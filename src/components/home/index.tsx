@@ -1,7 +1,7 @@
 "use client"
 
 import { GetStaticProps } from "next"
-import { Base, DesktopGrain, MobileGrain } from "@/components"
+import { AuthorDirectory, Base, DesktopGrain, MobileGrain } from "@/components"
 import { JupiterAnimation } from "@/components/home/JupiterAnimation"
 
 // styled assets
@@ -18,7 +18,6 @@ import { AuthorBackground } from "./AuthorBackground"
 
 import { Credits } from "./Credits"
 import { AuthorAbouts } from "./AuthorAbouts"
-import { AuthorDirectory } from "./AuthorDirectory"
 import { EditorsNote } from "./EditorsNote"
 import { useBreakpoints } from "@/utils/hooks"
 
