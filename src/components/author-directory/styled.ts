@@ -2,7 +2,7 @@ import { screenMdMin, screenLgMin, screenXlMin } from "@/utils/constants"
 import Link from "next/link"
 import styled from "styled-components"
 
-export const StyledAuthorLink = styled(Link)`
+export const StyledAuthorLink = styled(Link)<{ homePage: boolean }>`
   font-family: "Alverata Medium";
   text-transform: uppercase;
   font-size: 32px;
@@ -14,11 +14,13 @@ export const StyledAuthorLink = styled(Link)`
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    color: var(--color-transparent-black);
+    ${(props) =>
+      props.homePage &&
+      `color: var(--color-transparent-black);
 
     &:hover {
       color: var(--color-black);
-    }
+    }`}
     font-size: 80px;
   }
 

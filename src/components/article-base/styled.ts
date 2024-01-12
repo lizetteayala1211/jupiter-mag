@@ -33,3 +33,15 @@ export const Article = styled.section`
   );
   padding: 10%;
 `
+
+export const MenuContainer = styled.div`
+  position: absolute;
+  z-index: var(--z-index-seven);
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(63, 29, 61, 0.9) 30%,
+    rgba(117, 42, 65, 0.729) 100%
+  );
+`

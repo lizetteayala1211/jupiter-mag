@@ -1,17 +1,16 @@
 "use client"
 
-import { AuthorDirectory, Base, DesktopGrain, MobileGrain } from "@/components"
+import {
+  AuthorDirectory,
+  Base,
+  DesktopGrain,
+  MobileGrain,
+  Puncture,
+} from "@/components"
 import { JupiterAnimation } from "@/components/home/JupiterAnimation"
 
 // styled assets
-import {
-  Authors,
-  Lottie,
-  Main,
-  PunctureContainer,
-  PunctureOne,
-  PunctureTwo,
-} from "./styled"
+import { Authors, Lottie, Main } from "./styled"
 import { HugeGuy } from "@/utils/layout"
 import { AuthorBackground } from "./AuthorBackground"
 
@@ -26,10 +25,7 @@ export function Home() {
   return (
     <Base homePage>
       {!isMobile ? (
-        <PunctureContainer>
-          <PunctureOne />
-          <PunctureTwo />
-        </PunctureContainer>
+        <Puncture position={{ top: "250px", left: "-18px" }} />
       ) : null}
 
       <Main>
