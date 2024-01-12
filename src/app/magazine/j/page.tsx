@@ -2,6 +2,7 @@
 
 import { ArticleBase } from "@/components"
 import { Cover } from "./cover"
+import { Article } from "./article"
 
 export default function J() {
   return (
@@ -13,7 +14,7 @@ export default function J() {
         justifyContent: "flex-end",
       }}
     >
-      J
+      <Article />
     </ArticleBase>
   )
 }
