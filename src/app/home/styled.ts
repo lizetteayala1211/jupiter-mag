@@ -9,7 +9,7 @@ export const Main = styled(SharedGridMain)`
     "lottie"
     "authors";
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 1fr 26fr;
   grid-template-areas:
     "lottie lottie"
     "authors authors";
@@ -35,7 +35,7 @@ export const Main = styled(SharedGridMain)`
 `
 export const Lottie = styled.section`
   grid-area: lottie;
-  grid-row: span;
+  width: 100%;
 `
 
 export const Authors = styled.section`
@@ -46,43 +46,64 @@ export const Authors = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1em;
 
   background: linear-gradient(
-      189deg,
-      rgba(191, 160, 193, 0) 11.66%,
-      #a88eaa 29.75%,
-      #000 54.08%
-    ),
-    conic-gradient(
-      from 0deg at 50% 28.37%,
-      var(--color-article-cream) 0.06875477149151266deg,
-      var(--color-article-purple) 360deg
-    );
+    200deg,
+    rgba(191, 160, 193, 0) 11.66%,
+    #a88eaa 19.75%,
+    #000 54.08%
+  );
+
+  /*  desktop */
+  @media only screen and (min-width: ${screenMdMin}) {
+    padding: 0;
+
+    background: linear-gradient(
+        189deg,
+        rgba(191, 160, 193, 0) 11.66%,
+        #a88eaa 29.75%,
+        #000 54.08%
+      ),
+      conic-gradient(
+        from 0deg at 50% 28.37%,
+        var(--color-article-cream) 0.06875477149151266deg,
+        var(--color-article-purple) 360deg
+      );
+  }
 `
 
-export const EditorContainer = styled.div`
+export const DesktopEditorContainer = styled.div`
   display: flex;
   justify-content: center;
   min-height: 1000px;
 `
 
+export const MobileEditorContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+`
+
 export const EditorCover = styled.div`
+  text-transform: uppercase;
   flex-direction: column;
   display: flex;
-  width: 50%;
-
   font-family: "Alverata Light";
-  color: var(--color-black);
-  padding-inline-end: 12px;
-  font-size: 44px;
+  font-size: 64px;
+  line-height: 60px;
   letter-spacing: -4px;
-  line-height: 76px;
-  text-transform: uppercase;
+  padding-top: var(--padding-header);
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    padding-inline-end: 32px;
+    width: 50%;
+    color: var(--color-black);
+    padding-inline-end: 12px;
     font-size: 64px;
+    line-height: 60px;
+    padding-inline-end: 32px;
+    padding-bottom: 4em;
   }
 
   /* wide desktops */
@@ -148,14 +169,20 @@ export const PunctureTwo = styled.div`
 export const StyledAuthorLink = styled(Link)`
   font-family: "Alverata Medium";
   text-transform: uppercase;
-  color: var(--color-transparent-black);
+  font-size: 32px;
+  color: var(--color-transparent-white);
 
   &:hover {
-    color: var(--color-black);
+    color: var(--color-white);
   }
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
+    color: var(--color-transparent-black);
+
+    &:hover {
+      color: var(--color-black);
+    }
     font-size: 80px;
   }
 
@@ -171,25 +198,34 @@ export const StyledAuthorLink = styled(Link)`
 `
 export const AuthorContainer = styled.div`
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    align-items: flex-start;
+    flex-direction: row;
+  }
 `
 
 export const AuthorPhoto = styled.div`
   display: flex;
   justify-content: flex-start;
-  width: 30%;
+  padding: 2em;
+  @media only screen and (min-width: ${screenMdMin}) {
+    width: 30%;
+  }
 `
 
 export const AuthorContent = styled.div`
   display: flex;
   flex-direction: column;
-  width: 70%;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     padding-inline-start: 2em;
     max-width: 550px;
+    width: 70%;
   }
 
   /* wide desktops */
@@ -247,6 +283,7 @@ export const CreditsContainer = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 8px;
 
   p {
     /* smaller desktops */
@@ -273,6 +310,7 @@ export const AuthorDirectoryContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2em 0 8em 0;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {

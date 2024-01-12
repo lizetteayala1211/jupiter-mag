@@ -20,6 +20,7 @@ import { Credits } from "./Credits"
 import { AuthorAbouts } from "./AuthorAbouts"
 import { AuthorDirectory } from "./AuthorDirectory"
 import { EditorsNote } from "./EditorsNote"
+import { useBreakpoints } from "@/utils/hooks"
 
 export const getStaticProps: GetStaticProps = () => {
   return {
@@ -30,12 +31,17 @@ export const getStaticProps: GetStaticProps = () => {
 }
 
 export default function Home() {
+  const { isMobile } = useBreakpoints()
+
   return (
     <Base homePage>
-      <PunctureContainer>
-        <PunctureOne />
-        <PunctureTwo />
-      </PunctureContainer>
+      {!isMobile ? (
+        <PunctureContainer>
+          <PunctureOne />
+          <PunctureTwo />
+        </PunctureContainer>
+      ) : null}
+
       <Main>
         <Lottie>
           <JupiterAnimation />
