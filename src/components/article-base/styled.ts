@@ -1,3 +1,4 @@
+import { screenLgMin } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
 import styled from "styled-components"
 
@@ -5,10 +6,15 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
   grid-template-areas:
     "cover"
     "article";
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "cover article";
+  grid-template-columns: 1fr;
 
   color: var(--color-off-black);
+
+  @media only screen and (min-width: ${screenLgMin}) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "cover article";
+  }
+  grid-gap: 0em;
 `
 
 export const Cover = styled.section`
