@@ -1,4 +1,4 @@
-import { JupiterLogo, MobileGrain } from "@/components"
+import { Header, JupiterLogo, MobileGrain } from "@/components"
 import { BigGuy, HugeGuy } from "@/utils/layout"
 import {
   DesktopEditorContainer,
@@ -7,22 +7,25 @@ import {
   EditorNote,
 } from "./styled"
 import Image from "next/image"
-import dariaSignature from "../../../public/signatures/daria.png"
-import camilleSignature from "../../../public/signatures/camille.png"
+import dariaSignatureBlack from "../../../public/signatures/daria_black.png"
+import camilleSignatureBlack from "../../../public/signatures/camille_black.png"
+import dariaSignatureWhite from "../../../public/signatures/daria_white.png"
+import camilleSignatureWhite from "../../../public/signatures/camille_white.png"
 import { useBreakpoints } from "@/utils/hooks"
 
 export function EditorsNote() {
   const { isMobile, isSmallDesktop, isDesktop, isLargeDesktop } =
     useBreakpoints()
   const getResponsiveSignatureSize = (): number => {
+    if (isMobile) return 150
     if (isSmallDesktop) return 200
     if (isDesktop) return 250
-    if (isLargeDesktop) return 350
-    return 50 // is mobile
+    return 350
   }
 
   return isMobile ? (
     <MobileEditorContainer>
+      <Header />
       <EditorCover>
         <div>Editor&apos;s</div>
         <div>Note</div>
@@ -50,24 +53,28 @@ export function EditorsNote() {
 
       <HugeGuy />
 
-      {/* <div style={{ display: "flex", alignItems: "flex-end", gap: "2em" }}>
+      <div style={{ display: "flex", alignItems: "flex-end", gap: "2em" }}>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <Image
             width={getResponsiveSignatureSize()}
-            src={camilleSignature}
+            src={camilleSignatureWhite}
             alt="Signature of Camille"
           />
-          Camille Bacon
+          <p style={{ fontSize: "16px", marginInlineStart: "16px" }}>
+            Camille Bacon
+          </p>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <Image
             width={getResponsiveSignatureSize()}
-            src={dariaSignature}
+            src={dariaSignatureWhite}
             alt="Signature of Daria"
           />
-          Daria Harper
+          <p style={{ fontSize: "16px", marginInlineStart: "16px" }}>
+            Daria Harper
+          </p>
         </div>
-      </div> */}
+      </div>
     </MobileEditorContainer>
   ) : (
     <DesktopEditorContainer>
@@ -117,7 +124,7 @@ export function EditorsNote() {
           <div style={{ display: "flex", flexDirection: "column" }}>
             <Image
               width={getResponsiveSignatureSize()}
-              src={camilleSignature}
+              src={camilleSignatureBlack}
               alt="Signature of Camille"
             />
             Camille Bacon
@@ -125,7 +132,7 @@ export function EditorsNote() {
           <div style={{ display: "flex", flexDirection: "column" }}>
             <Image
               width={getResponsiveSignatureSize()}
-              src={dariaSignature}
+              src={dariaSignatureBlack}
               alt="Signature of Daria"
             />
             Daria Harper

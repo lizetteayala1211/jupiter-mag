@@ -1,7 +1,7 @@
 "use client"
 
 import { GetStaticProps } from "next"
-import { Base } from "@/components"
+import { Base, DesktopGrain, MobileGrain } from "@/components"
 import { JupiterAnimation } from "@/app/home/JupiterAnimation"
 
 // styled assets
@@ -71,6 +71,19 @@ export default function Home() {
           <AuthorBackground />
         </Authors>
       </Main>
+      <div
+        style={{
+          position: "fixed",
+          bottom: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          overflow: "hidden",
+          zIndex: 0,
+        }}
+      >
+        {isMobile ? <MobileGrain /> : <DesktopGrain />}
+      </div>
     </Base>
   )
 }

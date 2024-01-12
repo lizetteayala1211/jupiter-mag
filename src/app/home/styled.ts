@@ -36,6 +36,7 @@ export const Main = styled(SharedGridMain)`
 export const Lottie = styled.section`
   grid-area: lottie;
   width: 100%;
+  z-index: var(--z-index-three);
 `
 
 export const Authors = styled.section`

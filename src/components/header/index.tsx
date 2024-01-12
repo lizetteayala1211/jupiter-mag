@@ -51,7 +51,9 @@ function MobileHeader() {
       <LogoContainer href="./">
         <JupiterLogo color="white" />
       </LogoContainer>
-      <MenuButton onClick={() => setOpenMenu(!openMenu)}>Menu</MenuButton>
+      <MenuButton onClick={() => setOpenMenu(!openMenu)}>
+        <p>Menu</p>
+      </MenuButton>
     </HeaderContainer>
   )
 }
