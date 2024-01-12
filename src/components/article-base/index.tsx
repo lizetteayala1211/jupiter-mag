@@ -2,13 +2,7 @@
 
 import React from "react"
 import { AuthorDirectory, StyledComponentsRegistry } from ".."
-import {
-  Article,
-  ArticleBaseContainer,
-  ContentContainer,
-  Cover,
-  QuoteContainer,
-} from "./styled"
+import { Article, ArticleBaseContainer, Cover } from "./styled"
 
 export function ArticleBase({
   children,
@@ -33,12 +27,4 @@ export function ArticleBase({
       </ArticleBaseContainer>
     </StyledComponentsRegistry>
   )
-}
-
-export function Quote({ children }: { children: string }) {
-  return <QuoteContainer>{children}</QuoteContainer>
-}
-
-export function Content({ children }: { children: string }) {
-  return <ContentContainer>{children}</ContentContainer>
 }

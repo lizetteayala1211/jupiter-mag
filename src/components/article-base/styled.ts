@@ -26,15 +26,3 @@ export const Article = styled.section`
   );
   padding: 10%;
 `
-
-export const QuoteContainer = styled.aside`
-  font-family: "Alverata Medium";
-  font-size: 20px;
-  padding: 4em 0;
-`
-
-export const ContentContainer = styled.aside`
-  font-family: "Alverata Light";
-  font-size: 16px;
-  padding: 1em 10%;
-`

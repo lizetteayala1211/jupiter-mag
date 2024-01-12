@@ -2,6 +2,7 @@
 
 import { ArticleBase } from "@/components"
 import { Cover } from "./cover"
+import { Article } from "./article"
 
 export default function Joshua() {
   return (
@@ -9,7 +10,7 @@ export default function Joshua() {
       svg={<Cover />}
       position={{ display: "flex", justifyContent: "flex-end" }}
     >
-      Joshua
+      <Article />
     </ArticleBase>
   )
 }
