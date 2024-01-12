@@ -20,6 +20,7 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
 export const Cover = styled.section`
   grid-area: cover;
   background-color: var(--color-article-purple);
+  border-bottom: 10px solid var(--color-article-purple);
 `
 
 export const Article = styled.section`
