@@ -313,7 +313,7 @@ export const AuthorDirectoryContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4em 0 8em 0;
+  padding: 8em 0 8em 0;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
