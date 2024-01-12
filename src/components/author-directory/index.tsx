@@ -14,7 +14,7 @@ export function AuthorDirectory() {
 
 function AuthorLink({ name }: { name: string }) {
   return (
-    <StyledAuthorLink href={`./magazine/${name.split(" ")[0].toLowerCase()}`}>
+    <StyledAuthorLink href={`/magazine/${name.split(" ")[0].toLowerCase()}`}>
       {name}
     </StyledAuthorLink>
   )

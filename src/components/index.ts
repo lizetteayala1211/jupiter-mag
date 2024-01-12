@@ -1,4 +1,4 @@
-export { ArticleBase } from "./article-base"
+export { ArticleBase, Quote, Content } from "./article-base"
 export { AuthorDirectory } from "./author-directory"
 export { Base } from "./base"
 export { ContactForm } from "./contact-form"

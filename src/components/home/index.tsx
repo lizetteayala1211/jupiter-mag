@@ -1,6 +1,5 @@
 "use client"
 
-import { GetStaticProps } from "next"
 import { AuthorDirectory, Base, DesktopGrain, MobileGrain } from "@/components"
 import { JupiterAnimation } from "@/components/home/JupiterAnimation"
 
