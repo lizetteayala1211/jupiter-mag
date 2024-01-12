@@ -4,7 +4,6 @@ export { EmailInput } from "./email-input"
 export { Footer } from "./footer"
 export { Header } from "./header"
 export { Ticker } from "./ticker"
-export { Title } from "./title"
 
 export * from "./Dummy"
 export * from "./GrainBackgrounds"
