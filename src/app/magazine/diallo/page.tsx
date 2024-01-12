@@ -2,6 +2,7 @@
 
 import { ArticleBase } from "@/components"
 import { Cover } from "./cover"
+import { Article } from "./article"
 
 export default function Diallo() {
   return (
@@ -11,7 +12,7 @@ export default function Diallo() {
         paddingTop: "10em",
       }}
     >
-      Diallo
+      <Article />
     </ArticleBase>
   )
 }
