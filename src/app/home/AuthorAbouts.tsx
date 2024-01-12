@@ -22,8 +22,8 @@ export function AuthorAbouts() {
   const getResponsiveImageSize = (): number => {
     if (isSmallDesktop) return 250
     if (isDesktop) return 300
-    if (isLargeDesktop) return 250
-    return 50
+    if (isLargeDesktop) return 500
+    return 50 // is mobile
   }
 
   return (

@@ -22,21 +22,35 @@ export const Main = styled(SharedGridMain)`
     font-size: 14px;
   }
 
+  /* TODO: there has to be a cleaner way to do this grid lol */
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    border: 10px solid red;
-    grid-template-rows: 0.3fr 1.8fr minmax(0, 5.2fr);
+    grid-template-rows: 0.3fr 1.8fr minmax(0, 5fr);
   }
 
-  /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    border: 10px solid orange;
-    grid-template-rows: 0.3fr 1.4fr minmax(0, 5.4fr);
+    grid-template-rows: 0.3fr 1.4fr minmax(0, 5.8fr);
+  }
+
+  @media only screen and (min-width: 1300px) {
+    grid-template-rows: 0.3fr 1.4fr minmax(0, 5.2fr);
+  }
+
+  @media only screen and (min-width: 1400px) {
+    grid-template-rows: 0.3fr 1fr minmax(0, 4.8fr);
+  }
+
+  @media only screen and (min-width: 1500px) {
+    grid-template-rows: 0.3fr 1.4fr minmax(0, 4.5fr);
+  }
+
+  @media only screen and (min-width: 1600px) {
+    grid-template-rows: 0.3fr 1fr minmax(0, 4.2fr);
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
-    border: 10px solid blue;
+    grid-template-rows: 0.3fr 1fr minmax(0, 4.8fr);
   }
 `
 export const Lottie = styled.section`
@@ -194,6 +208,7 @@ export const AuthorContent = styled.div`
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
+    padding-inline-start: 8em;
   }
 `
 
@@ -209,10 +224,12 @@ export const AuthorTitle = styled.div`
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
+    font-size: 24px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
+    font-size: 36px;
   }
 `
 export const AuthorBody = styled.div`
@@ -225,10 +242,12 @@ export const AuthorBody = styled.div`
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
+    font-size: 16px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
+    font-size: 20px;
   }
 `
 export const CreditsContainer = styled.div`
@@ -245,10 +264,14 @@ export const CreditsContainer = styled.div`
 
     /* wide desktops */
     @media only screen and (min-width: ${screenLgMin}) {
+      font-size: 14px;
+      max-width: 550px;
     }
 
     /* extra wide desktops */
     @media only screen and (min-width: ${screenXlMin}) {
+      font-size: 16px;
+      max-width: 600px;
     }
   }
 `
@@ -278,16 +301,4 @@ export const AuthorAboutsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 4em;
-
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-  }
-
-  /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-  }
-
-  /* extra wide desktops */
-  @media only screen and (min-width: ${screenXlMin}) {
-  }
 `
