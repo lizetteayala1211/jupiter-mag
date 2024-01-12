@@ -2,6 +2,7 @@
 
 import { ArticleBase } from "@/components"
 import { Cover } from "./cover"
+import { Article } from "./article"
 
 export default function Rianna() {
   return (
@@ -13,7 +14,7 @@ export default function Rianna() {
         paddingTop: "24em",
       }}
     >
-      Rianna
+      <Article />
     </ArticleBase>
   )
 }
