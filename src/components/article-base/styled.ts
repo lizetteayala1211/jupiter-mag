@@ -5,14 +5,16 @@ import styled from "styled-components"
 export const ArticleBaseContainer = styled(SharedGridMain)`
   grid-template-areas:
     "cover"
-    "article";
+    "article"
+    "next";
   grid-template-columns: 1fr;
+  grid-template-areas: "cover" "article" "next";
 
   color: var(--color-off-black);
 
   @media only screen and (min-width: ${screenLgMin}) {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "cover article";
+    grid-template-areas: "cover article" "next next";
   }
   grid-gap: 0em;
 `
@@ -32,6 +34,18 @@ export const Article = styled.section`
     var(--color-article-cream) 8.66%
   );
   padding: 10%;
+`
+
+export const Next = styled.section`
+  grid-area: next;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  background-color: var(--color-article-purple);
+  border-bottom: 10px solid var(--color-article-purple);
+  color: var(--color-off-black);
+  font-family: "Alverata Light";
+  font-size: 160px;
 `
 
 export const MenuContainer = styled.div`
