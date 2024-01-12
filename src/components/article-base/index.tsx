@@ -1,5 +1,7 @@
+"use client"
+
 import React from "react"
-import { AuthorDirectory } from ".."
+import { AuthorDirectory, StyledComponentsRegistry } from ".."
 import {
   Article,
   ArticleBaseContainer,
@@ -20,14 +22,16 @@ export function ArticleBase({
   const [openMenu, setOpenMenu] = React.useState(false)
 
   return (
-    <ArticleBaseContainer>
-      <Cover style={position}>{svg}</Cover>
-      <Article>
-        {openMenu && <AuthorDirectory />}
+    <StyledComponentsRegistry>
+      <ArticleBaseContainer>
+        <Cover style={position}>{svg}</Cover>
+        <Article>
+          {openMenu && <AuthorDirectory />}
 
-        <div>{children}</div>
-      </Article>
-    </ArticleBaseContainer>
+          <div>{children}</div>
+        </Article>
+      </ArticleBaseContainer>
+    </StyledComponentsRegistry>
   )
 }
 
