@@ -2,7 +2,7 @@
 
 import { GetStaticProps } from "next"
 import { Base, DesktopGrain, MobileGrain } from "@/components"
-import { JupiterAnimation } from "@/app/home/JupiterAnimation"
+import { JupiterAnimation } from "@/components/home/JupiterAnimation"
 
 // styled assets
 import {
@@ -22,15 +22,7 @@ import { AuthorDirectory } from "./AuthorDirectory"
 import { EditorsNote } from "./EditorsNote"
 import { useBreakpoints } from "@/utils/hooks"
 
-export const getStaticProps: GetStaticProps = () => {
-  return {
-    props: {},
-    // show not found route in production and other non development environments
-    notFound: process.env.NODE_ENV !== "development",
-  }
-}
-
-export default function Home() {
+export function Home() {
   const { isMobile } = useBreakpoints()
 
   return (

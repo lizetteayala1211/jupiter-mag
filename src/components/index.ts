@@ -1,8 +1,10 @@
+export { ArticleBase } from "./article-base"
 export { Base } from "./base"
 export { ContactForm } from "./contact-form"
 export { EmailInput } from "./email-input"
 export { Footer } from "./footer"
 export { Header } from "./header"
+export { Home } from "./home"
 export { Ticker } from "./ticker"
 
 export * from "./Dummy"
