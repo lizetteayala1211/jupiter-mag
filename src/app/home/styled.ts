@@ -242,12 +242,13 @@ export const AuthorContent = styled.div`
 `
 
 export const AuthorTitle = styled.div`
-  font-family: "Alverata Light";
-  font-size: 28px;
+  font-family: "Alverata Medium";
+  font-size: 18px;
   margin-bottom: var(--padding-header);
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
+    font-family: "Alverata Light";
     font-size: 16px;
   }
 
@@ -263,6 +264,7 @@ export const AuthorTitle = styled.div`
 `
 export const AuthorBody = styled.div`
   font-family: "Alverata Light";
+  font-size: 16px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
@@ -310,7 +312,7 @@ export const AuthorDirectoryContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2em 0 8em 0;
+  padding: 4em 0 8em 0;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
