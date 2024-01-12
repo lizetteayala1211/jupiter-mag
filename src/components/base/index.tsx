@@ -9,7 +9,7 @@ import {
   NotifyMeTextMobile,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
-import { useIsMobile } from "@/utils/hooks"
+import { useBreakpoints } from "@/utils/hooks"
 import { Header } from "../header"
 import StyledComponentsRegistry from "./StyledComponentsRegistry"
 import { Footer } from "../footer"
@@ -18,7 +18,7 @@ import { Ticker } from "../ticker"
 type Props = { children: ReactNode; homePage?: boolean }
 
 export function Base({ children, homePage }: Props) {
-  const isMobile = useIsMobile()
+  const { isMobile } = useBreakpoints()
 
   return (
     <StyledComponentsRegistry>
@@ -34,13 +34,13 @@ export function Base({ children, homePage }: Props) {
         <Ticker />
         <Footer />
       </BaseContainer>
-      <BackgroundStyles />
+      {!homePage && <BackgroundStyles />}
     </StyledComponentsRegistry>
   )
 }
 
 function BackgroundStyles() {
-  const isMobile = useIsMobile()
+  const { isMobile } = useBreakpoints()
 
   return (
     <div

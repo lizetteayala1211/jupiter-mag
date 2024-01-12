@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { useIsMobile } from "@/utils/hooks"
+import { useBreakpoints } from "@/utils/hooks"
 import {
   Input,
   InputContainer,
@@ -23,7 +23,7 @@ const initialState: ContactRequest = {
 }
 
 export function ContactForm() {
-  const isMobile = useIsMobile()
+  const { isMobile } = useBreakpoints()
   const nameRef: React.Ref<any> = React.useRef(null)
   const emailRef: React.Ref<any> = React.useRef(null)
   const messageRef: React.Ref<any> = React.useRef(null)

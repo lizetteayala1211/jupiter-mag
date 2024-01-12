@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 // shared grid base
-export const SharedGridMain = styled.div`
+export const SharedGridMain = styled.main`
   display: grid;
 
   min-height: 100vh;

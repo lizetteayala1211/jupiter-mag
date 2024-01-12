@@ -7,11 +7,11 @@ import {
   TextContent,
   TextGroup,
 } from "./styled"
-import { useIsMobile } from "@/utils/hooks"
+import { useBreakpoints } from "@/utils/hooks"
 import { EmailInput } from "../email-input"
 
 export function Footer() {
-  const isMobile = useIsMobile()
+  const { isMobile } = useBreakpoints()
   return (
     <FooterContainer>
       <FooterChildren>

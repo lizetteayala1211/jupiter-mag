@@ -4,6 +4,7 @@ export function AuthorBackground() {
       style={{
         resize: "both",
         overflow: "hidden",
+        width: "100%",
       }}
     >
       <svg
