@@ -5,6 +5,9 @@ export function AuthorBackground() {
         resize: "both",
         overflow: "hidden",
         width: "100%",
+        position: "absolute",
+        zIndex: 0,
+        top: 700,
       }}
     >
       <svg

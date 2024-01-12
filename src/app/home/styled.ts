@@ -3,54 +3,34 @@ import { SharedGridMain } from "@/utils/layout"
 import Link from "next/link"
 import styled from "styled-components"
 
+// grid
 export const Main = styled(SharedGridMain)`
   grid-template-areas:
     "lottie"
-    "editorCover"
-    "editorNote"
-    "authors"
-    "authorAbout";
+    "authors";
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 1fr minmax(0, 4fr);
+  grid-template-rows: 1fr 4fr;
   grid-template-areas:
     "lottie lottie"
-    "editorCover editorNote"
     "authors authors";
   font-family: "Alverata Light";
-
   p {
     font-size: 14px;
   }
 
-  /* TODO: there has to be a cleaner way to do this grid lol */
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    grid-template-rows: 0.3fr 1.8fr minmax(0, 5fr);
+    grid-template-rows: 1fr 6fr;
   }
 
+  /* standard desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    grid-template-rows: 0.3fr 1.4fr minmax(0, 5.8fr);
-  }
-
-  @media only screen and (min-width: 1300px) {
-    grid-template-rows: 0.3fr 1.4fr minmax(0, 5.2fr);
-  }
-
-  @media only screen and (min-width: 1400px) {
-    grid-template-rows: 0.3fr 1fr minmax(0, 4.8fr);
-  }
-
-  @media only screen and (min-width: 1500px) {
-    grid-template-rows: 0.3fr 1.4fr minmax(0, 4.5fr);
-  }
-
-  @media only screen and (min-width: 1600px) {
-    grid-template-rows: 0.3fr 1fr minmax(0, 4.2fr);
+    grid-template-rows: 1fr 5.5fr;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
-    grid-template-rows: 0.3fr 1fr minmax(0, 4.8fr);
+    grid-template-rows: 1fr 4fr;
   }
 `
 export const Lottie = styled.section`
@@ -58,58 +38,11 @@ export const Lottie = styled.section`
   grid-row: span;
 `
 
-export const EditorCover = styled.section`
-  grid-area: editorCover;
-  flex-direction: column;
-  display: flex;
-
-  font-family: "Alverata Light";
-  background-color: var(--color-article-purple);
-  color: var(--color-black);
-  padding-inline-end: 12px;
-  font-size: 44px;
-  letter-spacing: -4px;
-  line-height: 76px;
-  text-transform: uppercase;
-
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-    padding-inline-end: 32px;
-    font-size: 64px;
-    padding-bottom: 4em;
-  }
-
-  /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    padding-inline-end: 32px;
-    font-size: 72px;
-    padding-bottom: 2em;
-  }
-
-  /* extra wide desktops */
-  @media only screen and (min-width: ${screenXlMin}) {
-    padding-inline-end: 32px;
-    font-size: 88px;
-  }
-`
-
-export const EditorNote = styled.section`
-  grid-area: editorNote;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  background-color: var(--color-article-cream);
-  color: var(--color-off-black);
-  font-size: 16px;
-  padding-inline-start: 64px;
-  padding-inline-end: 64px;
-`
-
 export const Authors = styled.section`
   grid-area: authors;
   position: relative;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -121,16 +54,67 @@ export const Authors = styled.section`
       #000 54.08%
     ),
     conic-gradient(
-      from 0deg at 50% 50%,
-      var(--color-article-cream) 0deg,
+      from 0deg at 50% 28.37%,
+      var(--color-article-cream) 0.06875477149151266deg,
       var(--color-article-purple) 360deg
     );
 `
 
+export const EditorContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
+export const EditorCover = styled.div`
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+
+  font-family: "Alverata Light";
+  color: var(--color-black);
+  padding-inline-end: 12px;
+  font-size: 44px;
+  letter-spacing: -4px;
+  line-height: 76px;
+  text-transform: uppercase;
+
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+    padding-inline-end: 32px;
+    font-size: 64px;
+  }
+
+  /* wide desktops */
+  @media only screen and (min-width: ${screenLgMin}) {
+    padding-inline-end: 32px;
+    font-size: 72px;
+  }
+
+  /* extra wide desktops */
+  @media only screen and (min-width: ${screenXlMin}) {
+    padding-inline-end: 32px;
+    font-size: 88px;
+  }
+`
+
+export const EditorNote = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  min-height: 800px;
+
+  color: var(--color-off-black);
+  font-size: 16px;
+  padding-inline-start: 64px;
+  padding-inline-end: 64px;
+`
+// graphics
+
 export const PunctureOne = styled.div`
   box-sizing: border-box;
 
-  position: absolute;
   width: 35px;
   height: 33px;
   border-radius: 100px;
@@ -143,7 +127,6 @@ export const PunctureOne = styled.div`
 export const PunctureTwo = styled.div`
   box-sizing: border-box;
 
-  position: absolute;
   width: 35px;
   height: 34px;
   border-radius: 100px;
@@ -199,16 +182,19 @@ export const AuthorContent = styled.div`
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     padding-inline-start: 2em;
+    max-width: 550px;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
     padding-inline-start: 4em;
+    max-width: 730px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
     padding-inline-start: 8em;
+    max-width: 980px;
   }
 `
 
@@ -289,10 +275,6 @@ export const AuthorDirectoryContainer = styled.div`
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
     padding: 12em 0 16em 0;
-  }
-
-  /* extra wide desktops */
-  @media only screen and (min-width: ${screenXlMin}) {
   }
 `
 
