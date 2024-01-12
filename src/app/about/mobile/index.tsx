@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import { Dummy } from "@/components/Dummy"
+import { Dummy } from "@/components"
 
 export default function Mobile() {
   return (

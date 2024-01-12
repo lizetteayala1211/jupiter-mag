@@ -1,11 +1,11 @@
+/* TODO: need to make px and em standardized across project */
+
 /* css variables */
 :root {
   /* padding */
+  --padding-header: 1em;
   --padding-body: 4em;
   --padding-contact: 8em 24em;
-
-  /* breakpoints */
-  --breakpoint-lg: 1200px;
 
   /* z indices */
   --z-index-seven: 7;
@@ -17,9 +17,10 @@
   --z-index-one: 1;
   --z-index-zero: 0;
 
-  /* colors */
+  /* agnostic colors */
   --color-white: #fff;
   --color-off-white: #e0e9f4;
+  --color-transparent-white: #ffffff52;
 
   --color-transparent-black: #00000052;
   --color-black: #000;
@@ -29,6 +30,28 @@
   --color-dark-orange: #fe4101;
 
   --color-light-blue: #ebf4ff;
+
+  /* thematic colors */
+  --color-article-purple: #c7c3df;
+  --color-article-cream: #e8e0de;
+}
+
+@font-face {
+  font-family: "Alverata Light";
+  src: url("../../public/fonts/Alverata-Light.woff2");
+}
+
+@font-face {
+  font-family: "Alverata Medium";
+  src: url("../../public/fonts/Alverata-Medium.woff2");
+}
+
+.darker-grotesque {
+  font-family: var(--font-darker-grotesque);
+}
+
+.abhaya-libre {
+  font-family: var(--font-abhaya-libre);
 }
 
 * {

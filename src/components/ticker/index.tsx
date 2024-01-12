@@ -1,5 +1,5 @@
 import React from "react"
-import { useJupiterData } from "@/utils/hooks/useJupiterData"
+import { useJupiterData } from "@/utils/hooks"
 import { TickerContainer, TickerContent, TickerItem } from "./styled"
 import { fromCamelCaseToWords } from "@/utils/helpers"
 import { JupiterData, Unit } from "@/utils/types"

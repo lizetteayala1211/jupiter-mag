@@ -1,5 +1,5 @@
 import React from "react"
-import { useIsMobile } from "@/utils/hooks"
+import { useBreakpoints } from "@/utils/hooks"
 import { NavBar } from "../NavBar"
 import { JupiterLogo } from "../JupiterLogo"
 import {
@@ -13,14 +13,14 @@ import { NotifyMeGraphic } from "../NotifyMeGraphic"
 import { MenuModal } from "./MenuModal"
 
 export function Header() {
-  const isMobile = useIsMobile()
+  const { isMobile } = useBreakpoints()
   return isMobile ? <MobileHeader /> : <DesktopHeader />
 }
 
 function DesktopHeader() {
   return (
     <HeaderContainer>
-      <LogoContainer href="./">
+      <LogoContainer href=".">
         <JupiterLogo color="white" />
       </LogoContainer>
       <DesktopNavBarContainer>
@@ -51,7 +51,9 @@ function MobileHeader() {
       <LogoContainer href="./">
         <JupiterLogo color="white" />
       </LogoContainer>
-      <MenuButton onClick={() => setOpenMenu(!openMenu)}>Menu</MenuButton>
+      <MenuButton onClick={() => setOpenMenu(!openMenu)}>
+        <p>Menu</p>
+      </MenuButton>
     </HeaderContainer>
   )
 }

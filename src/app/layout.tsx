@@ -1,8 +1,16 @@
 import type { Metadata } from "next"
-import { Darker_Grotesque } from "next/font/google"
+import { Darker_Grotesque, Abhaya_Libre } from "next/font/google"
 import "./globals.css"
 
-const darkerGrotesque = Darker_Grotesque({ subsets: ["latin"] })
+const darkerGrotesque = Darker_Grotesque({
+  subsets: ["latin"],
+  variable: "--font-darker-grotesque",
+})
+const abhayaLibre = Abhaya_Libre({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-abhaya-libre",
+})
 
 export const metadata: Metadata = {
   title: "Jupiter",
@@ -15,8 +23,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${darkerGrotesque.className}`}>{children}</body>
+    <html
+      lang="en"
+      className={`${darkerGrotesque.variable} ${abhayaLibre.variable}`}
+    >
+      <body>{children}</body>
     </html>
   )
 }

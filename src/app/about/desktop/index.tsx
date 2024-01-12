@@ -8,7 +8,7 @@ import {
   PhotoSection,
 } from "./styled"
 import React from "react"
-import { Dummy } from "@/components/Dummy"
+import { Dummy } from "@/components"
 
 export default function Desktop() {
   const [userInteracted, setUserInteracted] = React.useState(false)

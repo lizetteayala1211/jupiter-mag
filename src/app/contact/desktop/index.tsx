@@ -1,4 +1,4 @@
-import { ContactForm } from "@/components/contact-form"
+import { ContactForm } from "@/components"
 import { ContactSection, FormSection, Main } from "./styled"
 
 export default function Desktop() {

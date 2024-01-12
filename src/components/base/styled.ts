@@ -39,8 +39,9 @@ export const Gradient = styled.div`
 export const NotifyMeTextMobile = styled.a`
   color: var(--color-white);
   background-color: var(--color-dark-orange);
-  padding: 0 1.4em 0 1em;
+  padding: 0 1.4em 0.2em 1em;
   z-index: var(--z-index-three);
   position: absolute;
   top: 2.3em;
+  font-weight: 700;
 `

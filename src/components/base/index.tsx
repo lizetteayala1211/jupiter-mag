@@ -9,36 +9,38 @@ import {
   NotifyMeTextMobile,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
-import { useIsMobile } from "@/utils/hooks"
+import { useBreakpoints } from "@/utils/hooks"
 import { Header } from "../header"
 import StyledComponentsRegistry from "./StyledComponentsRegistry"
 import { Footer } from "../footer"
 import { Ticker } from "../ticker"
 
-type Props = { children: ReactNode }
+type Props = { children: ReactNode; homePage?: boolean }
 
-export function Base({ children }: Props) {
-  const isMobile = useIsMobile()
+export function Base({ children, homePage }: Props) {
+  const { isMobile } = useBreakpoints()
 
   return (
     <StyledComponentsRegistry>
-      {isMobile && <NotifyMeTextMobile>Notify me!</NotifyMeTextMobile>}
+      {isMobile && (
+        <NotifyMeTextMobile className="darker-grotesque">
+          Notify me!
+        </NotifyMeTextMobile>
+      )}
 
-      <BaseContainer>
-        <HeaderSection>
-          <Header />
-        </HeaderSection>
+      <BaseContainer className="darker-grotesque">
+        <HeaderSection>{!homePage && <Header />}</HeaderSection>
         <ChildrenSection>{children}</ChildrenSection>
         <Ticker />
         <Footer />
       </BaseContainer>
-      <BackgroundStyles />
+      {!homePage && <BackgroundStyles />}
     </StyledComponentsRegistry>
   )
 }
 
 function BackgroundStyles() {
-  const isMobile = useIsMobile()
+  const { isMobile } = useBreakpoints()
 
   return (
     <div

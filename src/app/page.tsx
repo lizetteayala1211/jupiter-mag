@@ -1,11 +1,7 @@
 "use client"
 
-import { Base } from "../components/base"
+import Home from "./home"
 
-export default function Home() {
-  return (
-    <Base>
-      <div>home content</div>
-    </Base>
-  )
+export default function Page() {
+  return <Home />
 }

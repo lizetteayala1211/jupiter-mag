@@ -1,2 +1,3 @@
-export * from "./useIsMobile"
+export * from "./useBreakpoints"
 export * from "./useCurrentPage"
+export * from "./useJupiterData"

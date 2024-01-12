@@ -1,5 +1,4 @@
-import { Dummy } from "@/components/Dummy"
-import { EmailInput } from "@/components/email-input"
+import { Dummy, EmailInput } from "@/components"
 
 export default function Mobile() {
   return (
