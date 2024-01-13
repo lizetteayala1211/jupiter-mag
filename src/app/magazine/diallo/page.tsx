@@ -7,7 +7,11 @@ import { issue1Metadata } from ".."
 
 export default function Diallo() {
   return (
-    <ArticleBase next={issue1Metadata[3]} svg={<Cover />} position={{}}>
+    <ArticleBase
+      next={issue1Metadata[3]}
+      svg={<Cover />}
+      position="0% 40% 0% 0%"
+    >
       <Article />
     </ArticleBase>
   )

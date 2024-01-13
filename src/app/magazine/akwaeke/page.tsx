@@ -10,7 +10,7 @@ export default function Akwaeke() {
     <ArticleBase
       next={issue1Metadata[1]}
       svg={<Cover />}
-      position={{ padding: "1em" }}
+      position="0% 80% 50% 0%"
     >
       <Article />
     </ArticleBase>

@@ -1,4 +1,4 @@
-import { screenLgMin } from "@/utils/constants"
+import { screenLgMin, screenSmMin } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
 import styled from "styled-components"
 
@@ -7,15 +7,16 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
     "cover"
     "article"
     "next";
-  grid-template-columns: 1fr;
-  grid-template-areas: "cover" "article" "next";
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "cover cover" "article article" "next next";
 
   color: var(--color-off-black);
 
+  /* desktop */
   @media only screen and (min-width: ${screenLgMin}) {
-    grid-template-columns: 1fr 1fr;
     grid-template-areas: "cover article" "next next";
   }
+
   grid-gap: 0em;
 `
 
@@ -23,12 +24,21 @@ export const Cover = styled.section`
   grid-area: cover;
   background-color: var(--color-article-purple);
   border-bottom: 10px solid var(--color-article-purple);
+
+  /* mobile and tablet only */
+  @media only screen and (max-width: ${screenSmMin}) {
+    max-height: 600px;
+  }
 `
 
 export const Article = styled.section`
   grid-area: article;
   background-color: var(--color-article-cream);
-  padding: 10%;
+  padding: 5%;
+  /* desktop */
+  @media only screen and (min-width: ${screenLgMin}) {
+    padding: 10%;
+  }
 `
 
 export const Next = styled.section`
@@ -38,12 +48,30 @@ export const Next = styled.section`
   width: 100%;
   justify-content: space-between;
   white-space: pre-wrap;
-  min-height: 640px;
   background-color: var(--color-article-purple);
   border-bottom: 10px solid var(--color-article-purple);
   color: var(--color-off-black);
   font-family: "Alverata Light";
-  font-size: 140px;
+  min-height: 320px;
+  font-size: 2.5em;
+  padding: 0px 12px;
+
+  /* desktop */
+  @media only screen and (min-width: ${screenLgMin}) {
+    min-height: 640px;
+    font-size: 5em;
+    padding: 8px 24px;
+  }
+`
+
+export const NextFooter = styled.div`
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+
+  @media only screen and (min-width: ${screenLgMin}) {
+    font-size: 40px;
+  }
 `
 
 export const MenuContainer = styled.div`
@@ -61,6 +89,11 @@ export const MenuContainer = styled.div`
 export const TitleContainer = styled.div`
   position: sticky;
   top: 0;
-  overflow: hidden;
-  transform: scale(0.8);
+  left: 0;
+  transform: scale(0.4);
+
+  @media only screen and (min-width: ${screenLgMin}) {
+    overflow: hidden;
+    transform: scale(0.8);
+  }
 `

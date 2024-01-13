@@ -9,10 +9,11 @@ import {
   MenuContainer,
   Next,
   TitleContainer,
+  NextFooter,
 } from "./styled"
 import Link from "next/link"
 import { ArticleMetadata } from "@/utils/types"
-import { useDisableScroll } from "@/utils/hooks"
+import { useBreakpoints, useDisableScroll } from "@/utils/hooks"
 
 export function ArticleBase({
   children,
@@ -22,12 +23,15 @@ export function ArticleBase({
 }: {
   children: React.ReactNode
   svg: React.ReactNode
-  position?: any
   next: ArticleMetadata
+  position?: any
 }) {
   const [openMenu, setOpenMenu] = React.useState(false)
 
   useDisableScroll(openMenu) // disable scroll if menu is open
+  const { isMobile } = useBreakpoints()
+
+  const isCustomPositioning = isMobile && position
 
   return (
     <StyledComponentsRegistry>
@@ -48,27 +52,25 @@ export function ArticleBase({
       ) : null}
 
       <ArticleBaseContainer>
-        <Cover style={position}>
-          <TitleContainer>{svg}</TitleContainer>
+        <Cover>
+          <TitleContainer
+            style={
+              isCustomPositioning ? { margin: position } : { padding: position }
+            }
+          >
+            {svg}
+          </TitleContainer>
         </Cover>
         <Article>
           <div>{children}</div>
         </Article>
       </ArticleBaseContainer>
       <Next>
-        <div>{next.title}</div>S
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            padding: "8px 24px",
-          }}
-        >
-          <Link style={{ fontSize: "32px" }} href={next.link}>
-            Next
-          </Link>
-          <p style={{ fontSize: "32px" }}>{next.author}</p>
-        </div>
+        <div>{next.title}</div>
+        <NextFooter>
+          <Link href={next.link}>Next</Link>
+          <>{next.author}</>
+        </NextFooter>
       </Next>
       <div onClick={() => setOpenMenu(!openMenu)}>
         <Puncture position={{ top: "-700px", left: "-18px" }} />

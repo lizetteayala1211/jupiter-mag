@@ -7,7 +7,11 @@ import { issue1Metadata } from ".."
 
 export default function J() {
   return (
-    <ArticleBase next={issue1Metadata[4]} svg={<Cover />}>
+    <ArticleBase
+      next={issue1Metadata[4]}
+      svg={<Cover />}
+      position="30% 50% 0% 0%"
+    >
       <Article />
     </ArticleBase>
   )

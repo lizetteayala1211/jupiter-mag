@@ -10,10 +10,7 @@ export default function Rianna() {
     <ArticleBase
       next={issue1Metadata[0]}
       svg={<Cover />}
-      position={{
-        display: "flex",
-        justifyContent: "flex-end",
-      }}
+      position="0% 80% 30% 0%"
     >
       <Article />
     </ArticleBase>

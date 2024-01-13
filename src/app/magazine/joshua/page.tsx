@@ -7,11 +7,7 @@ import { issue1Metadata } from ".."
 
 export default function Joshua() {
   return (
-    <ArticleBase
-      next={issue1Metadata[2]}
-      svg={<Cover />}
-      position={{ right: 0 }}
-    >
+    <ArticleBase next={issue1Metadata[2]} svg={<Cover />}>
       <Article />
     </ArticleBase>
   )
