@@ -12,6 +12,7 @@ import {
 } from "./styled"
 import Link from "next/link"
 import { ArticleMetadata } from "@/utils/types"
+import { useDisableScroll } from "@/utils/hooks"
 
 export function ArticleBase({
   children,
@@ -25,6 +26,8 @@ export function ArticleBase({
   next: ArticleMetadata
 }) {
   const [openMenu, setOpenMenu] = React.useState(false)
+
+  useDisableScroll(openMenu) // disable scroll if menu is open
 
   return (
     <StyledComponentsRegistry>
@@ -53,7 +56,7 @@ export function ArticleBase({
         </Article>
       </ArticleBaseContainer>
       <Next>
-        <div>{next.title}</div>
+        <div>{next.title}</div>S
         <div
           style={{
             display: "flex",
