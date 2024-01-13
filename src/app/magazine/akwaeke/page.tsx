@@ -3,12 +3,12 @@
 import { ArticleBase } from "@/components"
 import { Cover } from "./cover"
 import { Article } from "./article"
-import { articles } from ".."
+import { issue1Metadata } from ".."
 
 export default function Akwaeke() {
   return (
     <ArticleBase
-      next={articles[1]}
+      next={issue1Metadata[1]}
       svg={<Cover />}
       position={{ padding: "1em" }}
     >

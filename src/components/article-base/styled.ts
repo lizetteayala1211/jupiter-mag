@@ -28,11 +28,6 @@ export const Cover = styled.section`
 export const Article = styled.section`
   grid-area: article;
   background-color: var(--color-article-cream);
-  background: linear-gradient(
-    180deg,
-    var(--color-article-purple) 2.01%,
-    var(--color-article-cream) 8.66%
-  );
   padding: 10%;
 `
 
@@ -40,12 +35,15 @@ export const Next = styled.section`
   grid-area: next;
   display: flex;
   flex-direction: column;
-  height: 640px;
+  width: 100%;
+  justify-content: space-between;
+  white-space: pre-wrap;
+  min-height: 640px;
   background-color: var(--color-article-purple);
   border-bottom: 10px solid var(--color-article-purple);
   color: var(--color-off-black);
   font-family: "Alverata Light";
-  font-size: 160px;
+  font-size: 140px;
 `
 
 export const MenuContainer = styled.div`
@@ -58,4 +56,11 @@ export const MenuContainer = styled.div`
     rgba(63, 29, 61, 0.9) 30%,
     rgba(117, 42, 65, 0.729) 100%
   );
+`
+
+export const TitleContainer = styled.div`
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  transform: scale(0.8);
 `

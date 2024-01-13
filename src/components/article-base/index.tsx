@@ -8,8 +8,10 @@ import {
   Cover,
   MenuContainer,
   Next,
+  TitleContainer,
 } from "./styled"
 import Link from "next/link"
+import { ArticleMetadata } from "@/utils/types"
 
 export function ArticleBase({
   children,
@@ -19,8 +21,8 @@ export function ArticleBase({
 }: {
   children: React.ReactNode
   svg: React.ReactNode
-  position: any
-  next: { title: string; link: string }
+  position?: any
+  next: ArticleMetadata
 }) {
   const [openMenu, setOpenMenu] = React.useState(false)
 
@@ -44,17 +46,26 @@ export function ArticleBase({
 
       <ArticleBaseContainer>
         <Cover style={position}>
-          <div style={{ transform: "scale(0.9)" }}>{svg}</div>
+          <TitleContainer>{svg}</TitleContainer>
         </Cover>
         <Article>
           <div>{children}</div>
         </Article>
       </ArticleBaseContainer>
       <Next>
-        {next.title}
-        <Link style={{ fontSize: "32px" }} href={next.link}>
-          Next
-        </Link>
+        <div>{next.title}</div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            padding: "8px 24px",
+          }}
+        >
+          <Link style={{ fontSize: "32px" }} href={next.link}>
+            Next
+          </Link>
+          <p style={{ fontSize: "32px" }}>{next.author}</p>
+        </div>
       </Next>
       <div onClick={() => setOpenMenu(!openMenu)}>
         <Puncture position={{ top: "-700px", left: "-18px" }} />

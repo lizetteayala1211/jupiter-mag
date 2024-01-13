@@ -13,6 +13,12 @@ export type ContactRequest = {
   message: string
 }
 
+export type ArticleMetadata = {
+  title: string
+  link: string
+  author: string
+}
+
 export type Unit =
   | "degree"
   | "distance"

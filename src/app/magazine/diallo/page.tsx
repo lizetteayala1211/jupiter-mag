@@ -3,17 +3,11 @@
 import { ArticleBase } from "@/components"
 import { Cover } from "./cover"
 import { Article } from "./article"
-import { articles } from ".."
+import { issue1Metadata } from ".."
 
 export default function Diallo() {
   return (
-    <ArticleBase
-      next={articles[3]}
-      svg={<Cover />}
-      position={{
-        paddingTop: "10em",
-      }}
-    >
+    <ArticleBase next={issue1Metadata[3]} svg={<Cover />} position={{}}>
       <Article />
     </ArticleBase>
   )

@@ -3,14 +3,14 @@
 import { ArticleBase } from "@/components"
 import { Cover } from "./cover"
 import { Article } from "./article"
-import { articles } from ".."
+import { issue1Metadata } from ".."
 
 export default function Joshua() {
   return (
     <ArticleBase
-      next={articles[2]}
+      next={issue1Metadata[2]}
       svg={<Cover />}
-      position={{ display: "flex", justifyContent: "flex-end" }}
+      position={{ right: 0 }}
     >
       <Article />
     </ArticleBase>

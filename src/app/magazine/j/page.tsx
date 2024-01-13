@@ -3,19 +3,11 @@
 import { ArticleBase } from "@/components"
 import { Cover } from "./cover"
 import { Article } from "./article"
-import { articles } from ".."
+import { issue1Metadata } from ".."
 
 export default function J() {
   return (
-    <ArticleBase
-      next={articles[4]}
-      svg={<Cover />}
-      position={{
-        paddingTop: "24em",
-        display: "flex",
-        justifyContent: "flex-end",
-      }}
-    >
+    <ArticleBase next={issue1Metadata[4]} svg={<Cover />}>
       <Article />
     </ArticleBase>
   )
