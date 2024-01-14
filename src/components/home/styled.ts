@@ -5,11 +5,8 @@ import styled from "styled-components"
 
 // grid
 export const Main = styled(SharedGridMain)`
-  grid-template-areas:
-    "lottie"
-    "authors";
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 26fr;
+  grid-template-rows: repeat(auto-fill, 1fr);
   grid-template-areas:
     "lottie lottie"
     "authors authors";

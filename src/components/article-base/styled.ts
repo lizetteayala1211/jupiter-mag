@@ -9,12 +9,9 @@ import Link from "next/link"
 import styled from "styled-components"
 
 export const ArticleBaseContainer = styled(SharedGridMain)`
-  grid-template-areas:
-    "cover"
-    "article"
-    "next";
-  grid-template-columns: 1fr 1fr;
   grid-template-areas: "cover cover" "article article" "next next";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(auto-fill, 1fr);
 
   color: var(--color-off-black);
 
@@ -42,7 +39,7 @@ export const Article = styled.section`
   grid-area: article;
   background-color: var(--color-article-cream);
   min-width: 100%;
-  padding: 5%;
+  padding: 15%;
 `
 
 export const Next = styled.section`

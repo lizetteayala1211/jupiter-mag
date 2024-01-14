@@ -4,7 +4,7 @@ export const PunctureContainer = styled.div`
   position: absolute;
   z-index: var(--z-index-five);
   left: -18px;
-  margin: 50%;
+  padding: 50%;
   width: 100%;
 `
 

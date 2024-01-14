@@ -1,7 +1,13 @@
 "use client"
 
 import React from "react"
-import { AuthorDirectory, StyledComponentsRegistry, Puncture, XIcon } from ".."
+import {
+  AuthorDirectory,
+  StyledComponentsRegistry,
+  Puncture,
+  XIcon,
+  MenuButton,
+} from ".."
 import {
   Article,
   ArticleBaseContainer,
@@ -30,10 +36,10 @@ export function ArticleBase({
   const [openMenu, setOpenMenu] = React.useState(false)
 
   useDisableScroll(openMenu) // disable scroll if menu is open
-  const { isMobile, isMediumDesktop } = useBreakpoints()
+  const { isMobile, isTablet, isMediumDesktop } = useBreakpoints()
 
   const shouldPositionTitle = isMobile && position
-  const shouldShowPuncture = !isMobile && !openMenu
+  const shouldShowPuncture = !isTablet && !openMenu
   return (
     <StyledComponentsRegistry>
       {openMenu ? (
@@ -66,6 +72,17 @@ export function ArticleBase({
           </TitleContainer>
         </Cover>
         <Article>
+          <div
+            style={{
+              top: 0,
+              right: 0,
+              padding: "2em",
+              position: "absolute",
+            }}
+            onClick={() => setOpenMenu(!openMenu)}
+          >
+            <MenuButton />
+          </div>
           <div>{children}</div>
         </Article>
       </ArticleBaseContainer>
@@ -77,11 +94,9 @@ export function ArticleBase({
         </NextFooter>
       </Next>
       {shouldShowPuncture ? (
-        <div onClick={() => setOpenMenu(!openMenu)}>
-          <Puncture
-            position={isMediumDesktop ? { top: "-400px" } : { top: "-700px" }}
-          />
-        </div>
+        <Puncture
+          position={isMediumDesktop ? { top: "-400px" } : { top: "-700px" }}
+        />
       ) : null}
     </StyledComponentsRegistry>
   )

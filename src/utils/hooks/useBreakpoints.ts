@@ -10,12 +10,14 @@ import {
 
 export function useBreakpoints() {
   const isMobile = useMedia(`(max-width: ${screenXxsMax})`, false)
+  const isTablet = useMedia(`(max-width: ${screenMdMin})`, false)
   const isSmallDesktop = useMedia(`(max-width: ${screenMdMax})`, false)
   const isMediumDesktop = useMedia(`(max-width: ${screenLgMed})`, false)
   const isDesktop = useMedia(`(max-width: ${screenLgMax})`, false)
   const isLargeDesktop = useMedia(`(min-width: ${screenXlMin})`, false)
   return {
     isMobile,
+    isTablet,
     isSmallDesktop,
     isMediumDesktop,
     isDesktop,
