@@ -11,10 +11,8 @@ import React from "react"
 import { Dummy } from "@/components"
 
 export default function Desktop() {
-  const [userInteracted, setUserInteracted] = React.useState(false)
-
   return (
-    <Main onClick={() => setUserInteracted(true)}>
+    <Main>
       <VideoSection>
         <Dummy width="full" height={700} />
       </VideoSection>

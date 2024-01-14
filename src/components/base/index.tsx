@@ -10,10 +10,7 @@ import {
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
 import { useBreakpoints } from "@/utils/hooks"
-import { Header } from "../header"
-import StyledComponentsRegistry from "./StyledComponentsRegistry"
-import { Footer } from "../footer"
-import { Ticker } from "../ticker"
+import { Header, Ticker, Footer, StyledComponentsRegistry } from "@/components"
 
 type Props = { children: ReactNode; homePage?: boolean }
 
