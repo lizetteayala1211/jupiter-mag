@@ -4,6 +4,8 @@ export const BaseContainer = styled.div`
   display: grid;
   z-index: var(--z-index-zero);
   max-height: 100vh;
+  width: 100%;
+
   grid-template-areas:
     "header"
     "children";

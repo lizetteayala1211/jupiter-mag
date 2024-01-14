@@ -39,15 +39,4 @@ export const AuthorDirectoryContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8em 0 8em 0;
-
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-    padding: 8em 0 12em 0;
-  }
-
-  /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    padding: 12em 0 16em 0;
-  }
 `

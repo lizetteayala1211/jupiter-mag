@@ -1,5 +1,11 @@
-import { screenLgMin, screenSmMin } from "@/utils/constants"
+import {
+  screenLgMed,
+  screenLgMin,
+  screenMdMin,
+  screenSmMin,
+} from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
+import Link from "next/link"
 import styled from "styled-components"
 
 export const ArticleBaseContainer = styled(SharedGridMain)`
@@ -13,7 +19,7 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
   color: var(--color-off-black);
 
   /* desktop */
-  @media only screen and (min-width: ${screenLgMin}) {
+  @media only screen and (min-width: ${screenMdMin}) {
     grid-template-areas: "cover article" "next next";
   }
 
@@ -24,6 +30,7 @@ export const Cover = styled.section`
   grid-area: cover;
   background-color: var(--color-article-purple);
   border-bottom: 10px solid var(--color-article-purple);
+  min-width: 100%;
 
   /* mobile and tablet only */
   @media only screen and (max-width: ${screenSmMin}) {
@@ -34,11 +41,8 @@ export const Cover = styled.section`
 export const Article = styled.section`
   grid-area: article;
   background-color: var(--color-article-cream);
+  min-width: 100%;
   padding: 5%;
-  /* desktop */
-  @media only screen and (min-width: ${screenLgMin}) {
-    padding: 10%;
-  }
 `
 
 export const Next = styled.section`
@@ -79,6 +83,10 @@ export const MenuContainer = styled.div`
   z-index: var(--z-index-seven);
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   background: linear-gradient(
     180deg,
     rgba(63, 29, 61, 0.9) 30%,
@@ -93,7 +101,25 @@ export const TitleContainer = styled.div`
   transform: scale(0.4);
 
   @media only screen and (min-width: ${screenLgMin}) {
+    transform: scale(0.6);
+  }
+
+  @media only screen and (min-width: ${screenLgMed}) {
     overflow: hidden;
     transform: scale(0.8);
+  }
+`
+
+export const ReturnHomeButton = styled(Link)`
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 64px;
+  padding-top: 2em;
+  color: var(--color-transparent-white);
+  font-family: "Alverata Light";
+
+  &:hover {
+    color: var(--color-white);
   }
 `

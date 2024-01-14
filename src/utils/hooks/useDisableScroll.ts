@@ -7,5 +7,9 @@ export function useDisableScroll(openModal: boolean) {
     } else {
       document.body.style.overflowY = "scroll"
     }
+
+    return () => {
+      document.body.style.overflowY = "scroll"
+    }
   }, [openModal])
 }

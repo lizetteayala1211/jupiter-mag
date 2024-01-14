@@ -24,9 +24,7 @@ export function Home() {
 
   return (
     <Base homePage>
-      {!isMobile ? (
-        <Puncture position={{ top: "250px", left: "-18px" }} />
-      ) : null}
+      {!isMobile ? <Puncture position={{ top: "250px" }} /> : null}
 
       <Main>
         <Lottie>

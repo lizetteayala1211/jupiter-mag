@@ -10,6 +10,7 @@ import {
   Next,
   TitleContainer,
   NextFooter,
+  ReturnHomeButton,
 } from "./styled"
 import Link from "next/link"
 import { ArticleMetadata } from "@/utils/types"
@@ -29,10 +30,10 @@ export function ArticleBase({
   const [openMenu, setOpenMenu] = React.useState(false)
 
   useDisableScroll(openMenu) // disable scroll if menu is open
-  const { isMobile } = useBreakpoints()
+  const { isMobile, isMediumDesktop } = useBreakpoints()
 
-  const isCustomPositioning = isMobile && position
-
+  const shouldPositionTitle = isMobile && position
+  const shouldShowPuncture = !isMobile && !openMenu
   return (
     <StyledComponentsRegistry>
       {openMenu ? (
@@ -47,7 +48,10 @@ export function ArticleBase({
           >
             <XIcon white />
           </div>
-          <AuthorDirectory />
+          <div>
+            <AuthorDirectory />
+          </div>
+          <ReturnHomeButton href="/">return home</ReturnHomeButton>
         </MenuContainer>
       ) : null}
 
@@ -55,7 +59,7 @@ export function ArticleBase({
         <Cover>
           <TitleContainer
             style={
-              isCustomPositioning ? { margin: position } : { padding: position }
+              shouldPositionTitle ? { margin: position } : { padding: position }
             }
           >
             {svg}
@@ -72,9 +76,13 @@ export function ArticleBase({
           <>{next.author}</>
         </NextFooter>
       </Next>
-      <div onClick={() => setOpenMenu(!openMenu)}>
-        <Puncture position={{ top: "-700px", left: "-18px" }} />
-      </div>
+      {shouldShowPuncture ? (
+        <div onClick={() => setOpenMenu(!openMenu)}>
+          <Puncture
+            position={isMediumDesktop ? { top: "-400px" } : { top: "-700px" }}
+          />
+        </div>
+      ) : null}
     </StyledComponentsRegistry>
   )
 }

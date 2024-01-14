@@ -3,7 +3,7 @@ import { StyledAuthorLink, AuthorDirectoryContainer } from "./styled"
 export function AuthorDirectory({ homePage }: { homePage?: boolean }) {
   const names = [
     "Akwaeke Emezi",
-    "J Wortham",
+    "Jenna J Wortham",
     "Joshua Segun",
     "Diallo Simon-Ponte",
     "Rianna Jade Parker",

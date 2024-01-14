@@ -2,8 +2,10 @@ import styled from "styled-components"
 
 export const PunctureContainer = styled.div`
   position: absolute;
-  margin: 50%;
   z-index: var(--z-index-five);
+  left: -18px;
+  margin: 50%;
+  width: 100%;
 `
 
 export const PunctureOne = styled.div`

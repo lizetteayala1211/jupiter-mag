@@ -22,8 +22,8 @@ export function Credits() {
       <MediumGuy />
 
       <p>
-        Contributors: Awaeke Emezi, Joshua Segun, Rianna Jade Parker, J Wortham,
-        Diallo Simon-Ponte{" "}
+        Contributors: Awaeke Emezi, Joshua Segun, Rianna Jade Parker, Jenna J
+        Wortham, Diallo Simon-Ponte{" "}
       </p>
       <MediumGuy />
 
