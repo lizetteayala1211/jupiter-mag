@@ -14,8 +14,7 @@ import camilleSignatureWhite from "../../../public/signatures/camille_white.png"
 import { useBreakpoints } from "@/utils/hooks"
 
 export function EditorsNote() {
-  const { isMobile, isSmallDesktop, isDesktop, isLargeDesktop } =
-    useBreakpoints()
+  const { isMobile, isSmallDesktop, isDesktop } = useBreakpoints()
   const getResponsiveSignatureSize = (): number => {
     if (isMobile) return 150
     if (isSmallDesktop) return 200
