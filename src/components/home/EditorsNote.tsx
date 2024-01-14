@@ -1,4 +1,4 @@
-import { Header, JupiterLogo, MobileGrain } from "@/components"
+import { Header, JupiterLogo } from "@/components"
 import { BigGuy, HugeGuy } from "@/utils/layout"
 import {
   DesktopEditorContainer,

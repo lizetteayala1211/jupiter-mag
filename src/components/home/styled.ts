@@ -1,6 +1,5 @@
 import { screenLgMin, screenMdMin, screenXlMin } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
-import Link from "next/link"
 import styled from "styled-components"
 
 // grid
