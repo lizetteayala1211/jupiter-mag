@@ -9,8 +9,8 @@ export const issue1Metadata: ArticleMetadata[] = [
   },
   {
     title: "by way of what's already there",
-    link: "/magazine/j",
-    author: "Jenna J Wortham",
+    link: "/magazine/jenna",
+    author: "Jenna “J” Wortham",
   },
   {
     title: "Someone to Watch Over Me: A Lover's Discourse",

@@ -7,15 +7,39 @@ import {
   Gradient,
   HeaderSection,
   NotifyMeTextMobile,
+  TriggerMenuContainer,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
 import { useBreakpoints } from "@/utils/hooks"
-import { Header, Ticker, Footer, StyledComponentsRegistry } from "@/components"
+import {
+  Header,
+  Ticker,
+  Footer,
+  StyledComponentsRegistry,
+  DynamicHeader,
+} from "@/components"
 
 type Props = { children: ReactNode; homePage?: boolean }
 
 export function Base({ children, homePage }: Props) {
   const { isMobile } = useBreakpoints()
+
+  const [showHeader, setShowHeader] = React.useState(false)
+
+  const shouldBeDynamicHeader = showHeader || !homePage
+
+  const DecideHeader = () => {
+    return homePage ? (
+      <DynamicHeader onClose={() => setShowHeader(false)} />
+    ) : (
+      <Header />
+    )
+  }
+
+  // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
+  setTimeout(() => {
+    setShowHeader(false)
+  }, 5000)
 
   return (
     <StyledComponentsRegistry>
@@ -25,8 +49,14 @@ export function Base({ children, homePage }: Props) {
         </NotifyMeTextMobile>
       )}
 
-      <BaseContainer className="darker-grotesque">
-        <HeaderSection>{!homePage && <Header />}</HeaderSection>
+      <BaseContainer homepage={homePage} className="darker-grotesque">
+        <HeaderSection>
+          {shouldBeDynamicHeader ? (
+            <DecideHeader />
+          ) : (
+            <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
+          )}
+        </HeaderSection>
         <ChildrenSection>{children}</ChildrenSection>
         <Ticker />
         <Footer />

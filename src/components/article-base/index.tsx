@@ -1,26 +1,20 @@
 "use client"
 
 import React from "react"
-import {
-  AuthorDirectory,
-  StyledComponentsRegistry,
-  Puncture,
-  XIcon,
-  MenuButton,
-} from ".."
+import { StyledComponentsRegistry, Puncture, DynamicHeader } from ".."
 import {
   Article,
   ArticleBaseContainer,
   Cover,
-  MenuContainer,
+  Header,
   Next,
   TitleContainer,
   NextFooter,
-  ReturnHomeButton,
+  TriggerMenuContainer,
 } from "./styled"
 import Link from "next/link"
 import { ArticleMetadata } from "@/utils/types"
-import { useBreakpoints, useDisableScroll } from "@/utils/hooks"
+import { useBreakpoints } from "@/utils/hooks"
 
 export function ArticleBase({
   children,
@@ -33,35 +27,26 @@ export function ArticleBase({
   next: ArticleMetadata
   position?: any
 }) {
-  const [openMenu, setOpenMenu] = React.useState(false)
-
-  useDisableScroll(openMenu) // disable scroll if menu is open
+  const [showHeader, setShowHeader] = React.useState(false)
   const { isMobile, isTablet, isMediumDesktop } = useBreakpoints()
 
   const shouldPositionTitle = isMobile && position
-  const shouldShowPuncture = !isTablet && !openMenu
+  const shouldShowPuncture = !isTablet
+
+  // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
+  setTimeout(() => {
+    setShowHeader(false)
+  }, 5000)
+
   return (
     <StyledComponentsRegistry>
-      {openMenu ? (
-        <MenuContainer>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "flex-end",
-              padding: "1em 1em 0 0",
-            }}
-            onClick={() => setOpenMenu(false)}
-          >
-            <XIcon white />
-          </div>
-          <div>
-            <AuthorDirectory />
-          </div>
-          <ReturnHomeButton href="/">return home</ReturnHomeButton>
-        </MenuContainer>
-      ) : null}
-
+      <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
       <ArticleBaseContainer>
+        {showHeader ? (
+          <Header>
+            <DynamicHeader onClose={() => setShowHeader(false)} />
+          </Header>
+        ) : null}
         <Cover>
           <TitleContainer
             style={
@@ -71,28 +56,15 @@ export function ArticleBase({
             {svg}
           </TitleContainer>
         </Cover>
-        <Article>
-          <div
-            style={{
-              top: 0,
-              right: 0,
-              padding: "2em",
-              position: "absolute",
-            }}
-            onClick={() => setOpenMenu(!openMenu)}
-          >
-            <MenuButton />
-          </div>
-          <div>{children}</div>
-        </Article>
+        <Article>{children}</Article>
+        <Next>
+          <div>{next.title}</div>
+          <NextFooter>
+            <Link href={next.link}>Next</Link>
+            <>{next.author}</>
+          </NextFooter>
+        </Next>
       </ArticleBaseContainer>
-      <Next>
-        <div>{next.title}</div>
-        <NextFooter>
-          <Link href={next.link}>Next</Link>
-          <>{next.author}</>
-        </NextFooter>
-      </Next>
       {shouldShowPuncture ? (
         <Puncture
           position={isMediumDesktop ? { top: "-400px" } : { top: "-700px" }}

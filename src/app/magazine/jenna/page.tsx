@@ -5,7 +5,7 @@ import { Cover } from "./cover"
 import { Article } from "./article"
 import { issue1Metadata } from ".."
 
-export default function J() {
+export default function Jenna() {
   return (
     <ArticleBase
       next={issue1Metadata[4]}
