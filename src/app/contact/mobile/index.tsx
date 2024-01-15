@@ -23,11 +23,7 @@ export default function Mobile() {
       </div>
       <div>
         <h1 style={{ fontFamily: "Alverata Light" }}>Instagram</h1>
-        <h2>@Jupiter_Magazine</h2>
-      </div>
-      <div>
-        <h1 style={{ fontFamily: "Alverata Light" }}>Twitter</h1>
-        <h2>Jupiter_Magazine</h2>
+        <h2>@jupiter.magazine</h2>
       </div>
       <ContactForm />
     </div>
