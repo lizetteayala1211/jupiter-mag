@@ -1,6 +1,6 @@
 import { StyledAuthorLink, AuthorDirectoryContainer } from "./styled"
 
-export function AuthorDirectory({ homePage }: { homePage?: boolean }) {
+export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
   const names = [
     "Akwaeke Emezi",
     "Jenna J Wortham",
@@ -13,7 +13,7 @@ export function AuthorDirectory({ homePage }: { homePage?: boolean }) {
       {names.map((name) => (
         <StyledAuthorLink
           key={name}
-          homePage={homePage || false}
+          homepage={homepage}
           href={`/magazine/${name.split(" ")[0].toLowerCase()}`}
         >
           {name}
