@@ -1,6 +1,9 @@
 import styled from "styled-components"
 
 export const ArticleStyles = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   ol {
     margin: 0;
     padding: 0;
