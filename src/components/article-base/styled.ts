@@ -22,7 +22,8 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
 
 export const Header = styled.section`
   grid-area: header;
-  background-color: var(--color-article-purple);
+  background-color: transparent;
+  z-index: var(--z-index-seven);
 `
 
 export const Cover = styled.section`

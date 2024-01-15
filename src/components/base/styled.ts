@@ -49,3 +49,10 @@ export const NotifyMeTextMobile = styled.a`
   top: 2.3em;
   font-weight: 700;
 `
+export const TriggerMenuContainer = styled.div`
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 20%;
+  z-index: var(--z-index-six);
+`
