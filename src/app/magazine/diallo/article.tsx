@@ -1,4 +1,9 @@
 import { ArticleStyles } from "./styled"
+import Image from "next/image"
+import dialloImg1 from "../../../../public/photos/dialloImg1.jpeg"
+import dialloImg2 from "../../../../public/photos/dialloImg2.png"
+import dialloImg3 from "../../../../public/photos/dialloImg3.png"
+import dialloImg4 from "../../../../public/photos/dialloImg4.jpeg"
 
 export function Article() {
   return (
@@ -74,6 +79,11 @@ export function Article() {
       <p className="c3">
         <span className="c2 c0"></span>
       </p>
+      <Image
+        style={{ width: "100%", height: "100%" }}
+        src={dialloImg1}
+        alt="Mamady playing instrument"
+      />
       <p className="c6">
         <span className="c0">
           To hear Mamady play is to have sound strummed into one&#39;s
@@ -143,6 +153,11 @@ export function Article() {
       <p className="c3">
         <span className="c2 c0"></span>
       </p>
+      <Image
+        style={{ width: "100%", height: "100%" }}
+        src={dialloImg3}
+        alt="Artwork"
+      />
       <p className="c6">
         <span className="c0">
           This exhibition unfurls from an investigation of Black cultural and
@@ -263,6 +278,11 @@ export function Article() {
       <p className="c3">
         <span className="c2 c0"></span>
       </p>
+      <Image
+        style={{ width: "100%", height: "100%" }}
+        src={dialloImg4}
+        alt="Man playing instrument"
+      />
       <p className="c6">
         <span className="c0">That night the </span>
         <span className="c0">electric</span>
@@ -371,6 +391,11 @@ export function Article() {
       <p className="c3">
         <span className="c2 c0"></span>
       </p>
+      <Image
+        style={{ width: "100%", height: "100%" }}
+        src={dialloImg2}
+        alt="Art gallery room"
+      />
       <p className="c6">
         <span className="c0">
           Pulling objects and narratives that hold periods of time very still
