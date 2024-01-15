@@ -6,7 +6,9 @@ export const BaseContainer = styled.div<{ homepage: boolean | undefined }>`
   max-height: 100vh;
   width: 100%;
   background-color: ${(props) =>
-    props.homepage ? ` var(--color-article-purple)` : ` var(--color-black)`};
+    props.homepage || false
+      ? ` var(--color-article-purple)`
+      : `var(--color-black)`};
 
   grid-template-areas:
     "header"
