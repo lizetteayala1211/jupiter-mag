@@ -8,13 +8,15 @@ import {
   PhotoSection,
 } from "./styled"
 import React from "react"
-import { Dummy } from "@/components"
+import Image from "next/image"
+import aboutImage from "../../../../public/photos/aboutPortrait.jpeg"
+import Video from "../Video"
 
 export default function Desktop() {
   return (
     <Main>
       <VideoSection>
-        <Dummy width="full" height={700} />
+        <Video />
       </VideoSection>
       <CaptionSection>
         Video caption/ credits. ed ut perspiciatis unde omnis iste natus error
@@ -25,7 +27,11 @@ export default function Desktop() {
         aut quia voluptas sit aspernatur aut emnis iste natus error fugit.{" "}
       </CaptionSection>
       <PhotoSection>
-        <Dummy width={410} height={527} />
+        <Image
+          style={{ width: "100%", height: "100%", padding: "4em" }}
+          src={aboutImage}
+          alt="Portrait of co-founders of Jupiter magazine"
+        />
       </PhotoSection>
       <DescSection>
         <h2 style={{ fontSize: "32px", paddingBottom: "16px" }}>Header</h2>

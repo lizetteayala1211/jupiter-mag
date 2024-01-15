@@ -17,11 +17,7 @@ export default function Desktop() {
         </div>
         <div>
           <h2 style={{ letterSpacing: "4px" }}>Instagram</h2>
-          <h3>@Jupiter_magazine</h3>
-        </div>
-        <div>
-          <h2 style={{ letterSpacing: "4px" }}>Twitter</h2>
-          <h3>Jupiter_Magazine</h3>
+          <h3>@jupiter.magazine</h3>
         </div>
       </ContactSection>
       <FormSection>

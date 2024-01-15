@@ -1,7 +1,9 @@
 "use client"
 
 import React from "react"
-import { Dummy } from "@/components"
+import Video from "../Video"
+import Image from "next/image"
+import aboutImage from "../../../../public/photos/aboutPortrait.jpeg"
 
 export default function Mobile() {
   return (
@@ -15,7 +17,7 @@ export default function Mobile() {
     >
       <h1 style={{ fontSize: "36px" }}>Meet Jupiter</h1>
 
-      <Dummy width={363} height={327} />
+      <Video />
 
       <br />
 
@@ -38,7 +40,10 @@ export default function Mobile() {
           viable writing lives.
         </div>
       </div>
-      <Dummy width={363} height={527} />
+      <Image
+        src={aboutImage}
+        alt="Portrait of co-founders of Jupiter magazine"
+      />
     </div>
   )
 }
