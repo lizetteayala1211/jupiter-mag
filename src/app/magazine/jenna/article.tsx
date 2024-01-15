@@ -1,4 +1,7 @@
 import { ArticleStyles } from "./styled"
+import Image from "next/image"
+import img1 from "../../../../public/photos/jImg1.jpeg"
+import img2 from "../../../../public/photos/jImg2.jpeg"
 
 export function Article() {
   return (
@@ -129,6 +132,19 @@ export function Article() {
         <p className="c0 c5">
           <span className="c4 c3"></span>
         </p>
+        <div style={{ display: "flex", gap: "1em" }}>
+          <Image
+            style={{ width: "50%", height: "50%" }}
+            src={img1}
+            alt="Woman sitting at piano"
+          />
+
+          <Image
+            style={{ height: "50%", width: "50%" }}
+            src={img2}
+            alt="Silouhette of a man"
+          />
+        </div>
         <p className="c0">
           <span className="c3">
             Last fall, I was in Los Angeles, California at a cavernous marble
