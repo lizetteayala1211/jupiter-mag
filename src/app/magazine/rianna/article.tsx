@@ -1,8 +1,15 @@
+import Image from "next/image"
 import { ArticleStyles } from "./styled"
+import riannaImg1 from "../../../../public/photos/riannaImg1.jpg"
 
 export function Article() {
   return (
     <ArticleStyles>
+      <Image
+        src={riannaImg1}
+        style={{ width: "100%", height: "100%" }}
+        alt="Black cultural artwork"
+      />
       <ol className="c6 lst-kix_mcr6ri1dk5fa-0" start={1}>
         <li className="c2 li-bullet-0">
           <span className="c0"></span>
