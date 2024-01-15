@@ -5,7 +5,6 @@ import {
   screenSmMin,
 } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
-import Link from "next/link"
 import styled from "styled-components"
 
 export const ArticleBaseContainer = styled(SharedGridMain)`
@@ -17,10 +16,13 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
 
   /* desktop */
   @media only screen and (min-width: ${screenMdMin}) {
-    grid-template-areas: "cover article" "next next";
+    grid-template-areas: "header header" "cover article" "next next";
   }
+`
 
-  grid-gap: 0em;
+export const Header = styled.section`
+  grid-area: header;
+  background-color: var(--color-article-purple);
 `
 
 export const Cover = styled.section`
@@ -75,22 +77,6 @@ export const NextFooter = styled.div`
   }
 `
 
-export const MenuContainer = styled.div`
-  position: absolute;
-  z-index: var(--z-index-seven);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  background: linear-gradient(
-    180deg,
-    rgba(63, 29, 61, 0.9) 30%,
-    rgba(117, 42, 65, 0.729) 100%
-  );
-`
-
 export const TitleContainer = styled.div`
   position: sticky;
   top: 0;
@@ -107,16 +93,10 @@ export const TitleContainer = styled.div`
   }
 `
 
-export const ReturnHomeButton = styled(Link)`
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-  font-size: 64px;
-  padding-top: 2em;
-  color: var(--color-transparent-white);
-  font-family: "Alverata Light";
-
-  &:hover {
-    color: var(--color-white);
-  }
+export const TriggerMenuContainer = styled.div`
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 20%;
+  z-index: var(--z-index-six);
 `

@@ -29,12 +29,12 @@ export const HeaderContainer = styled.div`
 export const DesktopNavBarContainer = styled.div`
   display: flex;
   gap: 3em;
-  background-color: #e0e9f426;
   border-radius: 8px;
   justify-content: center;
   margin-top: 2em;
   padding: 0 1em;
   font-weight: 700;
+  z-index: var(--z-index-seven);
 `
 
 export const MobileNavItemsContainer = styled.div`
@@ -99,4 +99,36 @@ export const MenuButton = styled.a`
   background-color: transparent;
   color: white;
   font-weight: 500;
+`
+
+export const MenuContainer = styled.div`
+  position: absolute;
+  z-index: var(--z-index-eight);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  left: 0;
+
+  background: linear-gradient(
+    180deg,
+    rgba(63, 29, 61, 0.9) 30%,
+    rgba(117, 42, 65, 0.729) 100%
+  );
+`
+
+export const ReturnHomeButton = styled(Link)`
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 64px;
+  padding-top: 2em;
+  color: var(--color-transparent-white);
+  font-family: "Alverata Light";
+
+  &:hover {
+    color: var(--color-white);
+  }
 `

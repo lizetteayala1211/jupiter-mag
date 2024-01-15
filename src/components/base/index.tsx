@@ -25,7 +25,7 @@ export function Base({ children, homePage }: Props) {
         </NotifyMeTextMobile>
       )}
 
-      <BaseContainer className="darker-grotesque">
+      <BaseContainer homepage={homePage} className="darker-grotesque">
         <HeaderSection>{!homePage && <Header />}</HeaderSection>
         <ChildrenSection>{children}</ChildrenSection>
         <Ticker />

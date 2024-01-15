@@ -11,7 +11,7 @@ export const TickerContainer = styled.div`
   height: 1.5em;
   padding-left: 100%;
   box-sizing: content-box;
-  z-index: var(--z-index-seven);
+  z-index: var(--z-index-three);
 `
 
 export const TickerContent = styled.div`

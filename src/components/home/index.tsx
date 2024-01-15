@@ -11,7 +11,6 @@ import { JupiterAnimation } from "@/components/home/JupiterAnimation"
 
 // styled assets
 import { Authors, Lottie, Main } from "./styled"
-import { HugeGuy } from "@/utils/layout"
 import { AuthorBackground } from "./AuthorBackground"
 
 import { Credits } from "./Credits"
@@ -41,14 +40,12 @@ export function Home() {
               left: "10%",
               right: "10%",
               zIndex: 10,
+              gap: "12em",
             }}
           >
             <AuthorDirectory />
 
             <AuthorAbouts />
-
-            <HugeGuy />
-            <HugeGuy />
 
             <Credits />
           </div>

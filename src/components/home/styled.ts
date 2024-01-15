@@ -133,7 +133,6 @@ export const AuthorContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 
   @media only screen and (min-width: ${screenMdMin}) {
     align-items: flex-start;
