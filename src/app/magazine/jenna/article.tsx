@@ -147,10 +147,10 @@ export function Article() {
             alt="Silouhette of a man"
           />
         </div>
-        <p className="c9">
+        <CaptionContainer>
           <i>X’ene’s Witness</i>, presented by Los Angeles Nomadic Division
           [LAND], images courtesy of Justen Leroy and 718 Photography
-        </p>
+        </CaptionContainer>
         <p className="c0">
           <span className="c3">
             Last fall, I was in Los Angeles, California at a cavernous marble

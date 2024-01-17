@@ -9,7 +9,7 @@ export function Article() {
       <MediumGuy />
       <Image
         src={riannaImg1}
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         alt="Black cultural artwork"
       />
       <CaptionContainer>

@@ -81,7 +81,7 @@ export function Article() {
         <span className="c2 c0"></span>
       </p>
       <Image
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         src={dialloImg1}
         alt="Mamady playing instrument"
       />
@@ -161,7 +161,7 @@ export function Article() {
         <span className="c2 c0"></span>
       </p>
       <Image
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         src={dialloImg3}
         alt="Artwork"
       />
@@ -287,7 +287,7 @@ export function Article() {
         <span className="c2 c0"></span>
       </p>
       <Image
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         src={dialloImg4}
         alt="Man playing instrument"
       />
@@ -401,7 +401,7 @@ export function Article() {
         <span className="c2 c0"></span>
       </p>
       <Image
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         src={dialloImg2}
         alt="Art gallery room"
       />

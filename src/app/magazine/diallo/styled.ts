@@ -5,6 +5,7 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   display: flex;
   flex-direction: column;
   gap: 4px;
+
   ol {
     margin: 0;
     padding: 0;

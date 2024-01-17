@@ -34,7 +34,7 @@ export const HugeGuy = styled.div`
 
 export const ArticleContainerStyles = styled.div`
   font-size: 16px;
-  line-height: 32px;
+  line-height: 40px;
   font-weight: 400;
   font-family: "Alverata Light";
 `
@@ -43,6 +43,7 @@ export const CaptionContainer = styled.div`
   font-size: 16px;
   padding-top: 4px;
   padding-bottom: 2em;
+  line-height: 24px;
 
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 16px;
