@@ -2,7 +2,7 @@ import { HugeGuy } from "@/utils/layout"
 import {
   AuthorContainer,
   AuthorPhoto,
-  AuthorContent,
+  AuthorTextContent,
   AuthorTitle,
   AuthorBody,
   AuthorAboutsContainer,
@@ -36,7 +36,7 @@ export function AuthorAbouts() {
             alt="Picture of the Akwaeke"
           />
         </AuthorPhoto>
-        <AuthorContent>
+        <AuthorTextContent>
           <AuthorTitle>Akwaeke Emezi</AuthorTitle>
           <AuthorBody>
             Akwaeke Emezi (they/them) is the author of the New York Times
@@ -57,7 +57,7 @@ export function AuthorAbouts() {
             honoree by the National Book Foundation and featured on a Time cover
             as a Next Generation Leader, they are based in liminal spaces.
           </AuthorBody>
-        </AuthorContent>
+        </AuthorTextContent>
       </AuthorContainer>
       <AuthorContainer>
         <AuthorPhoto>
@@ -67,13 +67,13 @@ export function AuthorAbouts() {
             alt="Picture of the Joshua"
           />
         </AuthorPhoto>
-        <AuthorContent>
+        <AuthorTextContent>
           <AuthorTitle>Joshua Segun-Lean</AuthorTitle>
           <AuthorBody>
             Joshua Segun-Lean&apos;s writing has appeared in The Republic
             Magazine, The Brooklyn Rail, and elsewhere.
           </AuthorBody>
-        </AuthorContent>
+        </AuthorTextContent>
       </AuthorContainer>
       <AuthorContainer>
         <AuthorPhoto>
@@ -83,7 +83,7 @@ export function AuthorAbouts() {
             alt="Picture of the Diallo"
           />
         </AuthorPhoto>
-        <AuthorContent>
+        <AuthorTextContent>
           <AuthorTitle>Diallo Simon-Ponte</AuthorTitle>
           <AuthorBody>
             Diallo Simon-Ponte is a writer and curator currently working at
@@ -98,7 +98,7 @@ export function AuthorAbouts() {
             alumni curator of the Black Art Sessions by Ebony Haynes. His
             bylines include Apollon Journal and Just Smile Magazine.
           </AuthorBody>
-        </AuthorContent>
+        </AuthorTextContent>
       </AuthorContainer>
       <AuthorContainer>
         <AuthorPhoto>
@@ -108,7 +108,7 @@ export function AuthorAbouts() {
             alt="Picture of the J"
           />
         </AuthorPhoto>
-        <AuthorContent>
+        <AuthorTextContent>
           <AuthorTitle>Jenna J Wortham</AuthorTitle>
           <AuthorBody>
             Jenna J Wortham (they/them) is a sound healer, reiki practitioner,
@@ -119,7 +119,7 @@ export function AuthorAbouts() {
             Kimberly Drew. J is currently working on a book about the body and
             dissociation called “Work of Body.”
           </AuthorBody>
-        </AuthorContent>
+        </AuthorTextContent>
       </AuthorContainer>
       <AuthorContainer>
         <AuthorPhoto>
@@ -129,7 +129,7 @@ export function AuthorAbouts() {
             alt="Picture of the Rianna"
           />
         </AuthorPhoto>
-        <AuthorContent>
+        <AuthorTextContent>
           <AuthorTitle>Rianna Jade Parker</AuthorTitle>
           <AuthorBody>
             Rianna Jade Parker is a critic, art historian, curator and
@@ -144,7 +144,7 @@ export function AuthorAbouts() {
             Artists is forthcoming with Quarto Books in 2024, and she is
             represented by The Wiley Agency.
           </AuthorBody>
-        </AuthorContent>
+        </AuthorTextContent>
       </AuthorContainer>
     </AuthorAboutsContainer>
   )

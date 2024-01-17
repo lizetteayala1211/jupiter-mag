@@ -1,12 +1,12 @@
 import styled from "styled-components"
 
-export const BaseContainer = styled.div<{ homepage: boolean | undefined }>`
+export const BaseContainer = styled.div<{ $homepage: string }>`
   display: grid;
   z-index: var(--z-index-zero);
   max-height: 100vh;
   width: 100%;
   background-color: ${(props) =>
-    props.homepage || false
+    props.$homepage === "true"
       ? ` var(--color-article-purple)`
       : `var(--color-black)`};
 

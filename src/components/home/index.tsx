@@ -43,7 +43,7 @@ export function Home() {
               gap: "12em",
             }}
           >
-            <AuthorDirectory />
+            <AuthorDirectory homepage />
 
             <AuthorAbouts />
 

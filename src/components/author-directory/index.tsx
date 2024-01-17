@@ -8,12 +8,13 @@ export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
     "Diallo Simon-Ponte",
     "Rianna Jade Parker",
   ]
+  const isHomePage = homepage!! ? homepage : false
   return (
     <AuthorDirectoryContainer>
       {names.map((name) => (
         <StyledAuthorLink
           key={name}
-          homepage={homepage}
+          $homepage={isHomePage.toString()}
           href={`/magazine/${name.split(" ")[0].toLowerCase()}`}
         >
           {name}

@@ -13,6 +13,7 @@ export const Main = styled(SharedGridMain)`
   p {
     font-size: 14px;
   }
+  background-color: var(--color-article-purple);
 `
 export const Lottie = styled.section`
   grid-area: lottie;
@@ -72,12 +73,13 @@ export const EditorCover = styled.div`
   flex-direction: column;
   display: flex;
   font-family: "Alverata Light";
-
-  letter-spacing: -4px;
+  font-size: 48px;
+  line-height: 40px;
   padding-top: var(--padding-header);
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
+    letter-spacing: -4px;
     width: 50%;
     color: var(--color-black);
     padding-inline-end: 12px;
@@ -135,7 +137,7 @@ export const AuthorPhoto = styled.div`
   }
 `
 
-export const AuthorContent = styled.div`
+export const AuthorTextContent = styled.div`
   display: flex;
   flex-direction: column;
 
