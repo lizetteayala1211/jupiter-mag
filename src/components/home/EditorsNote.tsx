@@ -17,8 +17,8 @@ export function EditorsNote() {
   const { isMobile, isSmallDesktop, isDesktop } = useBreakpoints()
   const getResponsiveSignatureSize = (): number => {
     if (isMobile) return 150
-    if (isSmallDesktop) return 200
-    if (isDesktop) return 250
+    if (isSmallDesktop) return 175
+    if (isDesktop) return 225
     return 350
   }
 
@@ -49,9 +49,7 @@ export function EditorsNote() {
         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
         vitae dicta sunt explicabo.
       </p>
-
       <HugeGuy />
-
       <div style={{ display: "flex", alignItems: "flex-end", gap: "2em" }}>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <Image
@@ -80,14 +78,14 @@ export function EditorsNote() {
       <EditorCover>
         <div style={{ height: "100%" }}>
           <div style={{ height: "20%", width: "50%", padding: "16px" }}>
-            <JupiterLogo color="white" />
+            <JupiterLogo color="black" />
           </div>
           <div
             style={{
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              height: "60%",
+              height: "100%",
               alignItems: "flex-end",
             }}
           >

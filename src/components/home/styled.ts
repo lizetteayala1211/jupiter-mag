@@ -13,21 +13,7 @@ export const Main = styled(SharedGridMain)`
   p {
     font-size: 14px;
   }
-
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-    grid-template-rows: 1fr 6fr;
-  }
-
-  /* standard desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    grid-template-rows: 1fr 5.5fr;
-  }
-
-  /* extra wide desktops */
-  @media only screen and (min-width: ${screenXlMin}) {
-    grid-template-rows: 1fr 4fr;
-  }
+  background-color: var(--color-article-purple);
 `
 export const Lottie = styled.section`
   grid-area: lottie;
@@ -87,17 +73,17 @@ export const EditorCover = styled.div`
   flex-direction: column;
   display: flex;
   font-family: "Alverata Light";
-  font-size: 64px;
-  line-height: 60px;
-  letter-spacing: -4px;
+  font-size: 48px;
+  line-height: 40px;
   padding-top: var(--padding-header);
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
+    letter-spacing: -4px;
     width: 50%;
     color: var(--color-black);
     padding-inline-end: 12px;
-    font-size: 64px;
+    font-size: 80px;
     line-height: 60px;
     padding-inline-end: 32px;
     padding-bottom: 4em;
@@ -106,13 +92,15 @@ export const EditorCover = styled.div`
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
     padding-inline-end: 32px;
-    font-size: 72px;
+    font-size: 100px;
+    line-height: 80px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
     padding-inline-end: 32px;
-    font-size: 88px;
+    font-size: 120px;
+    line-height: 100px;
   }
 `
 
@@ -133,6 +121,7 @@ export const AuthorContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1em;
 
   @media only screen and (min-width: ${screenMdMin}) {
     align-items: flex-start;
@@ -143,13 +132,13 @@ export const AuthorContainer = styled.div`
 export const AuthorPhoto = styled.div`
   display: flex;
   justify-content: flex-start;
-  padding: 2em;
+  padding-bottom: 2em;
   @media only screen and (min-width: ${screenMdMin}) {
     width: 30%;
   }
 `
 
-export const AuthorContent = styled.div`
+export const AuthorTextContent = styled.div`
   display: flex;
   flex-direction: column;
 
@@ -169,7 +158,7 @@ export const AuthorContent = styled.div`
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
     padding-inline-start: 8em;
-    max-width: 980px;
+    max-width: 920px;
   }
 `
 
@@ -218,6 +207,8 @@ export const CreditsContainer = styled.div`
   flex-direction: column;
   text-align: center;
   font-size: 8px;
+  font-style: italic;
+  padding-bottom: 12em;
 
   p {
     /* smaller desktops */

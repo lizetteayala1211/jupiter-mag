@@ -25,7 +25,7 @@ export function ArticleBase({
   children: React.ReactNode
   svg: React.ReactNode
   next: ArticleMetadata
-  position?: any
+  position?: string
 }) {
   const [showHeader, setShowHeader] = React.useState(false)
   const { isMobile, isTablet, isMediumDesktop } = useBreakpoints()
@@ -38,6 +38,10 @@ export function ArticleBase({
     setShowHeader(false)
   }, 5000)
 
+  const handlePosition = () => {
+    return shouldPositionTitle ? { margin: position } : { padding: position }
+  }
+
   return (
     <StyledComponentsRegistry>
       <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
@@ -48,13 +52,7 @@ export function ArticleBase({
           </Header>
         ) : null}
         <Cover>
-          <TitleContainer
-            style={
-              shouldPositionTitle ? { margin: position } : { padding: position }
-            }
-          >
-            {svg}
-          </TitleContainer>
+          <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
         </Cover>
         <Article>{children}</Article>
         <Next>

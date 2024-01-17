@@ -8,9 +8,9 @@ import { issue1Metadata } from ".."
 export default function Diallo() {
   return (
     <ArticleBase
-      next={issue1Metadata[3]}
+      next={issue1Metadata[4]}
       svg={<Cover />}
-      position="0% 40% 0% 0%"
+      position="-10em 12em 0 0"
     >
       <Article />
     </ArticleBase>

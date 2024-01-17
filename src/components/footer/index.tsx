@@ -23,7 +23,6 @@ export function Footer() {
             <h4>THE MAGAZINE</h4>
             <br />
             <Link href="./about">About</Link>
-            <Link href="./program">Program</Link>
           </TextGroup>
           <TextGroup>
             <h4>JOIN JUPITER</h4>
@@ -33,13 +32,11 @@ export function Footer() {
             </div>
           </TextGroup>
           <TextGroup style={isMobile ? {} : { textAlign: "right" }}>
-            <h4>THE MAGAZINE</h4>
             <br />
             <Link href="https://artadia.org/jupiter-magazine/">Donate</Link>
             <Link href="./contact">Contact us</Link>
             <br />
             <h5>info@jupiter-mag.com</h5>
-            <h5>555 555 5555</h5>
           </TextGroup>
         </TextContent>
       </FooterChildren>

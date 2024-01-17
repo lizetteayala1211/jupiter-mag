@@ -28,6 +28,8 @@ export function Base({ children, homePage }: Props) {
 
   const shouldBeDynamicHeader = showHeader || !homePage
 
+  const isHomePage = homePage!! ? homePage : false
+
   const DecideHeader = () => {
     return homePage ? (
       <DynamicHeader onClose={() => setShowHeader(false)} />
@@ -49,7 +51,10 @@ export function Base({ children, homePage }: Props) {
         </NotifyMeTextMobile>
       )}
 
-      <BaseContainer homepage={homePage} className="darker-grotesque">
+      <BaseContainer
+        $homepage={isHomePage.toString()}
+        className="darker-grotesque"
+      >
         <HeaderSection>
           {shouldBeDynamicHeader ? (
             <DecideHeader />
