@@ -40,10 +40,20 @@ export default function Mobile() {
           viable writing lives.
         </div>
       </div>
-      <Image
-        src={aboutImage}
-        alt="Portrait of co-founders of Jupiter magazine"
-      />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          maxWidth: "100%",
+          width: "375px",
+        }}
+      >
+        <Image
+          style={{ width: "100%", height: "100%" }}
+          src={aboutImage}
+          alt="Portrait of co-founders of Jupiter magazine"
+        />
+      </div>
     </div>
   )
 }

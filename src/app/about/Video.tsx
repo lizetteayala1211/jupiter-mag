@@ -23,10 +23,15 @@ function UnmuteButton({ cb }: { cb: any }) {
       }}
     >
       <a
-        style={{ color: "#a2a2a2", backgroundColor: "transparent" }}
+        style={{
+          color: "#a2a2a2",
+          backgroundColor: "transparent",
+          textTransform: "uppercase",
+          fontSize: "12px",
+        }}
         onClick={cb}
       >
-        Tap here to unmute...
+        Tap here to unmute
       </a>
     </div>
   )
