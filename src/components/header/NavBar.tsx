@@ -3,15 +3,14 @@
 import React from "react"
 import { toTitleCase } from "../../utils/helpers/toTitleCase"
 import { Pages } from "@/utils/types"
-import { useCurrentPage, useDisableScroll } from "@/utils/hooks"
-import { XIcon, AuthorDirectory } from ".."
-import { MenuContainer, ReturnHomeButton, StyledNavBarItem } from "./styled"
+import { useCurrentPage } from "@/utils/hooks"
+import { StyledNavBarItem } from "./styled"
 
 export function NavBar({ dynamic }: { dynamic?: boolean }) {
   return (
     <>
+      <NavBarItem dynamic={dynamic || false} page="magazine" />
       <NavBarItem dynamic={dynamic || false} page="about" />
-      <MagazineNavItem dynamic={dynamic || false} />
       <NavBarItem
         dynamic={dynamic || false}
         page="donate"
@@ -41,63 +40,64 @@ function NavBarItem({
       : "var(--color-white)"
   }
 
+  const handleUrl = () => {
+    if (page === "magazine") return "/"
+    return url ? url : `/${page}`
+  }
+
   return (
-    <StyledNavBarItem
-      style={{ color: handleColor() }}
-      href={url ? url : `/${page}`}
-    >
+    <StyledNavBarItem style={{ color: handleColor() }} href={handleUrl()}>
       {toTitleCase(page)}
     </StyledNavBarItem>
   )
 }
 
-// todo: consolidate nav items into one component
-function MagazineNavItem({ dynamic }: { dynamic: boolean }) {
-  const [openMenu, setOpenMenu] = React.useState(false)
+// function MagazineNavItem({ dynamic }: { dynamic: boolean }) {
+//   const [openMenu, setOpenMenu] = React.useState(false)
 
-  useDisableScroll(openMenu)
-  const currentPage = useCurrentPage()
+//   useDisableScroll(openMenu)
+//   const currentPage = useCurrentPage()
 
-  const handleColor = () => {
-    if (dynamic) return "var(--color-off-black)"
-    return currentPage.includes("magazine")
-      ? "var(--color-light-orange)"
-      : "var(--color-white)"
-  }
+//   const handleColor = () => {
+//     if (dynamic) return "var(--color-off-black)"
+//     return currentPage.includes("magazine")
+//       ? "var(--color-light-orange)"
+//       : "var(--color-white)"
+//   }
 
-  return (
-    <>
-      {openMenu ? <AuthorMenu onClose={() => setOpenMenu(false)} /> : null}
-      <div
-        style={{
-          padding: "0.75em 1em",
-          color: handleColor(),
-        }}
-        onClick={() => setOpenMenu(!openMenu)}
-      >
-        Magazine
-      </div>
-    </>
-  )
-}
+//   return (
+//     <>
+//       {openMenu ? <AuthorMenu onClose={() => setOpenMenu(false)} /> : null}
+//       <div
+//         style={{
+//           padding: "0.75em 1em",
+//           color: handleColor(),
+//         }}
+//         onClick={() => setOpenMenu(!openMenu)}
+//       >
+//         Magazine
+//       </div>
+//     </>
+//   )
+// }
 
-function AuthorMenu({ onClose }: { onClose: () => void }) {
-  return (
-    <MenuContainer>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "flex-end",
-          padding: "1em 1em 0 0",
-        }}
-        onClick={() => onClose}
-      >
-        <XIcon white />
-      </div>
-      <div>
-        <AuthorDirectory />
-      </div>
-      <ReturnHomeButton href="/">return home</ReturnHomeButton>
-    </MenuContainer>
-  )
-}
+// function AuthorMenu({ onClose }: { onClose: () => void }) {
+//   return (
+//     <MenuContainer>
+//       <div
+//         style={{
+//           display: "flex",
+//           justifyContent: "flex-end",
+//           padding: "1em 1em 0 0",
+//         }}
+//         onClick={() => onClose}
+//       >
+//         <XIcon white />
+//       </div>
+//       <div>
+//         <AuthorDirectory />
+//       </div>
+//       <ReturnHomeButton href="/">return home</ReturnHomeButton>
+//     </MenuContainer>
+//   )
+// }
