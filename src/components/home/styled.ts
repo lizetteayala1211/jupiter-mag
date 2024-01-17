@@ -121,6 +121,7 @@ export const AuthorContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1em;
 
   @media only screen and (min-width: ${screenMdMin}) {
     align-items: flex-start;
@@ -131,7 +132,7 @@ export const AuthorContainer = styled.div`
 export const AuthorPhoto = styled.div`
   display: flex;
   justify-content: flex-start;
-  padding: 2em;
+  padding-bottom: 2em;
   @media only screen and (min-width: ${screenMdMin}) {
     width: 30%;
   }
@@ -157,7 +158,7 @@ export const AuthorTextContent = styled.div`
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
     padding-inline-start: 8em;
-    max-width: 980px;
+    max-width: 920px;
   }
 `
 
@@ -206,6 +207,8 @@ export const CreditsContainer = styled.div`
   flex-direction: column;
   text-align: center;
   font-size: 8px;
+  font-style: italic;
+  padding-bottom: 12em;
 
   p {
     /* smaller desktops */
