@@ -6,10 +6,11 @@ import {
   screenXlMin,
 } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
+import Link from "next/link"
 import styled from "styled-components"
 
 export const ArticleBaseContainer = styled(SharedGridMain)`
-  grid-template-areas: "cover cover" "article article" "next next";
+  grid-template-areas: "cover cover" "article article" "footer footer";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(auto-fill, 1fr);
 
@@ -17,7 +18,7 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
 
   /* desktop */
   @media only screen and (min-width: ${screenMdMin}) {
-    grid-template-areas: "header header" "cover article" "next next";
+    grid-template-areas: "header header" "cover article" "footer footer";
   }
 `
 
@@ -61,36 +62,45 @@ export const Article = styled.section`
   }
 `
 
-export const Next = styled.section`
-  grid-area: next;
+export const Footer = styled.section`
+  grid-area: footer;
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: space-between;
-  white-space: pre-wrap;
-  background-color: var(--color-article-purple);
-  border-bottom: 10px solid var(--color-article-purple);
-  color: var(--color-off-black);
-  font-family: "Alverata Light";
-  min-height: 320px;
-  font-size: 2.5em;
-  padding: 0px 12px;
-
-  /* desktop */
-  @media only screen and (min-width: ${screenLgMin}) {
-    min-height: 640px;
-    font-size: 5em;
-    padding: 8px 24px;
-  }
 `
 
 export const NextFooter = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   font-size: 20px;
+  width: 100%;
+  white-space: pre-wrap;
+  background-color: var(--color-article-purple);
+  border: 1px solid var(--color-off-black);
 
+  color: var(--color-off-black);
+  font-family: "Alverata Light";
+  min-height: 320px;
+  padding: 0 16px 12px 16px;
+`
+export const FooterTitle = styled(Link)`
+  /* mobile */
+  font-size: 56px;
+
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+    font-size: 70px;
+  }
+
+  /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    font-size: 40px;
+    font-size: 100px;
+  }
+
+  /* extra wide desktops */
+  @media only screen and (min-width: ${screenXlMin}) {
+    font-size: 120px;
   }
 `
 

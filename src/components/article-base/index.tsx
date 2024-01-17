@@ -6,16 +6,18 @@ import {
   Puncture,
   DynamicHeader,
   MenuButton,
+  Footer as BaseFooter,
 } from ".."
 import {
   Article,
   ArticleBaseContainer,
   Cover,
   Header,
-  Next,
+  Footer,
   TitleContainer,
   NextFooter,
   TriggerMenuContainer,
+  FooterTitle,
 } from "./styled"
 import { MobileMenuOverlay } from "../header/Mobile"
 import Link from "next/link"
@@ -79,13 +81,25 @@ export function ArticleBase({
           ) : null}
           {children}
         </Article>
-        <Next>
-          <div>{next.title}</div>
+        <Footer>
           <NextFooter>
-            <Link href={next.link}>Next</Link>
-            <>{next.author}</>
+            <FooterTitle href={next.link}>{next.title}</FooterTitle>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+                fontSize: isMobile ? "16px" : "32px",
+                paddingTop: "16px",
+              }}
+            >
+              <Link href={next.link}>Next</Link>
+              <>{next.author}</>
+            </div>
           </NextFooter>
-        </Next>
+
+          <BaseFooter />
+        </Footer>
       </ArticleBaseContainer>
       {shouldShowPuncture ? (
         <Puncture

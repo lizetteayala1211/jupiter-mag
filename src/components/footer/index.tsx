@@ -13,7 +13,7 @@ import { EmailInput } from "../email-input"
 export function Footer() {
   const { isMobile } = useBreakpoints()
   return (
-    <FooterContainer>
+    <FooterContainer className="darker-grotesque">
       <FooterChildren>
         <LogoContainer>
           <JupiterLogo color="black" />
