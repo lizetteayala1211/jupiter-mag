@@ -87,8 +87,7 @@ export const EditorCover = styled.div`
   flex-direction: column;
   display: flex;
   font-family: "Alverata Light";
-  font-size: 64px;
-  line-height: 60px;
+
   letter-spacing: -4px;
   padding-top: var(--padding-header);
 
@@ -97,7 +96,7 @@ export const EditorCover = styled.div`
     width: 50%;
     color: var(--color-black);
     padding-inline-end: 12px;
-    font-size: 64px;
+    font-size: 80px;
     line-height: 60px;
     padding-inline-end: 32px;
     padding-bottom: 4em;
@@ -106,13 +105,15 @@ export const EditorCover = styled.div`
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
     padding-inline-end: 32px;
-    font-size: 72px;
+    font-size: 100px;
+    line-height: 80px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
     padding-inline-end: 32px;
-    font-size: 88px;
+    font-size: 120px;
+    line-height: 100px;
   }
 `
 

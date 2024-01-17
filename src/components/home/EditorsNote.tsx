@@ -49,9 +49,7 @@ export function EditorsNote() {
         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
         vitae dicta sunt explicabo.
       </p>
-
       <HugeGuy />
-
       <div style={{ display: "flex", alignItems: "flex-end", gap: "2em" }}>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <Image
@@ -87,7 +85,7 @@ export function EditorsNote() {
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              height: "60%",
+              height: "100%",
               alignItems: "flex-end",
             }}
           >
