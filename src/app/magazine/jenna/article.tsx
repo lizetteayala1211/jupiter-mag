@@ -11,7 +11,7 @@ export function Article() {
         <span>I find</span>
         <span>&nbsp;myself instead,</span>
         <br />
-        <span className="c4 c3">&nbsp;&mdash;Dionne Brand</span>
+        <span className="c4 c3"> - Dionne Brand</span>
       </p>
       <p className="c0 c5">
         <span className="c4 c3"></span>
@@ -132,7 +132,7 @@ export function Article() {
         <p className="c0 c5">
           <span className="c4 c3"></span>
         </p>
-        <div style={{ display: "flex", gap: "1em" }}>
+        <div style={{ display: "flex", gap: "1em", paddingTop: "1em" }}>
           <Image
             style={{ width: "50%", height: "50%" }}
             src={img1}
@@ -145,6 +145,10 @@ export function Article() {
             alt="Silouhette of a man"
           />
         </div>
+        <p className="c9">
+          <i>X’ene’s Witness</i>, presented by Los Angeles Nomadic Division
+          [LAND], images courtesy of Justen Leroy and 718 Photography
+        </p>
         <p className="c0">
           <span className="c3">
             Last fall, I was in Los Angeles, California at a cavernous marble
@@ -426,7 +430,9 @@ export function Article() {
             </a>
           </sup>
         </p>
+        <br />
         <hr className="c16" />
+        <br />
         <div>
           <p className="c8">
             <a href="#ftnt_ref1" id="ftnt1">

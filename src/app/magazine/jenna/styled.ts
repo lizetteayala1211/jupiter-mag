@@ -1,3 +1,4 @@
+import { screenMdMin } from "@/utils/constants"
 import styled from "styled-components"
 
 export const ArticleStyles = styled.div`
@@ -14,14 +15,14 @@ export const ArticleStyles = styled.div`
     font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
-    font-size: 11pt;
+    font-size: 16pt;
     font-family: "Alverata Light";
     font-style: normal;
   }
   .c0 {
     padding-top: 0pt;
     padding-bottom: 0pt;
-    line-height: 1.3;
+    line-height: 32px;
     orphans: 2;
     widows: 2;
     text-align: left;
@@ -47,7 +48,7 @@ export const ArticleStyles = styled.div`
     font-style: normal;
   }
   .c3 {
-    font-size: 11pt;
+    font-size: 16pt;
     font-family: "Alverata Light";
     font-weight: 400;
   }
@@ -67,8 +68,13 @@ export const ArticleStyles = styled.div`
     font-family: "Alverata Light";
   }
   .c9 {
-    margin-left: 72pt;
-    text-indent: 36pt;
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 2em;
+
+    @media only screen and (min-width: ${screenMdMin}) {
+      font-size: 18px;
+    }
   }
   .c7 {
     border: 1px solid black;
@@ -96,8 +102,8 @@ export const ArticleStyles = styled.div`
   }
   .c17 {
     font-family: "Alverata Medium";
-    font-size: 20px;
-    padding: 4em 0;
+    font-size: 24px;
+    padding: 4em 1em 2em 1em;
   }
   .c18 {
     padding: 0 10% 0 8%;
@@ -108,7 +114,7 @@ export const ArticleStyles = styled.div`
     font-size: 26pt;
     padding-bottom: 3pt;
     font-family: "Alverata Light";
-    line-height: 1.3;
+    line-height: 32px;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -120,7 +126,7 @@ export const ArticleStyles = styled.div`
     font-size: 15pt;
     padding-bottom: 16pt;
     font-family: "Alverata Light";
-    line-height: 1.3;
+    line-height: 32px;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -128,13 +134,13 @@ export const ArticleStyles = styled.div`
   }
   li {
     color: #000000;
-    font-size: 11pt;
+    font-size: 16pt;
     font-family: "Alverata Light";
   }
   p {
     margin: 0;
     color: #000000;
-    font-size: 11pt;
+    font-size: 16pt;
     font-family: "Alverata Light";
   }
   h1 {
@@ -143,7 +149,7 @@ export const ArticleStyles = styled.div`
     font-size: 20pt;
     padding-bottom: 6pt;
     font-family: "Alverata Light";
-    line-height: 1.3;
+    line-height: 32px;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -155,7 +161,7 @@ export const ArticleStyles = styled.div`
     font-size: 16pt;
     padding-bottom: 6pt;
     font-family: "Alverata Light";
-    line-height: 1.3;
+    line-height: 32px;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -167,7 +173,7 @@ export const ArticleStyles = styled.div`
     font-size: 14pt;
     padding-bottom: 4pt;
     font-family: "Alverata Light";
-    line-height: 1.3;
+    line-height: 32px;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -179,7 +185,7 @@ export const ArticleStyles = styled.div`
     font-size: 12pt;
     padding-bottom: 4pt;
     font-family: "Alverata Light";
-    line-height: 1.3;
+    line-height: 32px;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -188,10 +194,10 @@ export const ArticleStyles = styled.div`
   h5 {
     padding-top: 12pt;
     color: #666666;
-    font-size: 11pt;
+    font-size: 16pt;
     padding-bottom: 4pt;
     font-family: "Alverata Light";
-    line-height: 1.3;
+    line-height: 32px;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -200,10 +206,10 @@ export const ArticleStyles = styled.div`
   h6 {
     padding-top: 12pt;
     color: #666666;
-    font-size: 11pt;
+    font-size: 16pt;
     padding-bottom: 4pt;
     font-family: "Alverata Light";
-    line-height: 1.3;
+    line-height: 32px;
     page-break-after: avoid;
     font-style: italic;
     orphans: 2;

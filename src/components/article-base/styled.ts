@@ -42,7 +42,12 @@ export const Article = styled.section`
   grid-area: article;
   background-color: var(--color-article-cream);
   min-width: 100%;
-  padding: 15%;
+  padding: 8px;
+
+  /* desktop */
+  @media only screen and (min-width: ${screenMdMin}) {
+    padding: 48px;
+  }
 `
 
 export const Next = styled.section`
