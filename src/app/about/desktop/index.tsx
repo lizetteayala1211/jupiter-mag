@@ -1,12 +1,6 @@
 "use client"
 
-import {
-  CaptionSection,
-  DescSection,
-  VideoSection,
-  Main,
-  PhotoSection,
-} from "./styled"
+import { DescSection, VideoSection, Main, PhotoSection } from "./styled"
 import React from "react"
 import Image from "next/image"
 import aboutImage from "../../../../public/photos/aboutPortrait.jpeg"
@@ -18,14 +12,6 @@ export default function Desktop() {
       <VideoSection>
         <Video />
       </VideoSection>
-      <CaptionSection>
-        Video caption/ credits. ed ut perspiciatis unde omnis iste natus error
-        sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-        vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-        aspernatur aut emnis iste natus error sit voluptatem accusantium odit
-        aut quia voluptas sit aspernatur aut emnis iste natus error fugit.{" "}
-      </CaptionSection>
       <PhotoSection>
         <Image
           style={{ width: "100%", height: "100%", padding: "4em" }}
