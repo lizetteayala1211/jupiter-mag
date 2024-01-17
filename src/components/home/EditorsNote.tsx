@@ -17,8 +17,8 @@ export function EditorsNote() {
   const { isMobile, isSmallDesktop, isDesktop } = useBreakpoints()
   const getResponsiveSignatureSize = (): number => {
     if (isMobile) return 150
-    if (isSmallDesktop) return 200
-    if (isDesktop) return 250
+    if (isSmallDesktop) return 175
+    if (isDesktop) return 225
     return 350
   }
 
@@ -78,7 +78,7 @@ export function EditorsNote() {
       <EditorCover>
         <div style={{ height: "100%" }}>
           <div style={{ height: "20%", width: "50%", padding: "16px" }}>
-            <JupiterLogo color="white" />
+            <JupiterLogo color="black" />
           </div>
           <div
             style={{

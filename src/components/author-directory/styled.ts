@@ -28,6 +28,10 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
   @media only screen and (min-width: ${screenXlMin}) {
     font-size: 120px;
   }
+
+  &:hover {
+    text-shadow: 0px 0px 19.1px #96649b;
+  }
 `
 
 export const AuthorDirectoryContainer = styled.div`
