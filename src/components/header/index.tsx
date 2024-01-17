@@ -16,7 +16,7 @@ export function DynamicHeader({ onClose }: { onClose: () => void }) {
       className="darker-grotesque"
       onScrollCapture={onClose}
     >
-      <NavBar />
+      <NavBar dynamic />
     </DesktopNavBarContainer>
   )
 }

@@ -32,6 +32,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
+            style={{ height: "auto" }}
             src={akwaeke}
             alt="Picture of the Akwaeke"
           />
@@ -63,6 +64,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
+            style={{ height: "auto" }}
             src={joshua}
             alt="Picture of the Joshua"
           />
@@ -79,6 +81,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
+            style={{ height: "auto" }}
             src={diallo}
             alt="Picture of the Diallo"
           />
@@ -104,6 +107,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
+            style={{ height: "auto" }}
             src={j}
             alt="Picture of the J"
           />
@@ -125,6 +129,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
+            style={{ height: "auto" }}
             src={rianna}
             alt="Picture of the Rianna"
           />
