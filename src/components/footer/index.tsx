@@ -20,8 +20,6 @@ export function Footer() {
         </LogoContainer>
         <TextContent>
           <TextGroup>
-            <h4>THE MAGAZINE</h4>
-            <br />
             <Link href="./about">About</Link>
           </TextGroup>
           <TextGroup>
