@@ -13,21 +13,6 @@ export const Main = styled(SharedGridMain)`
   p {
     font-size: 14px;
   }
-
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-    grid-template-rows: 1fr 6fr;
-  }
-
-  /* standard desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    grid-template-rows: 1fr 5.5fr;
-  }
-
-  /* extra wide desktops */
-  @media only screen and (min-width: ${screenXlMin}) {
-    grid-template-rows: 1fr 4fr;
-  }
 `
 export const Lottie = styled.section`
   grid-area: lottie;
