@@ -22,8 +22,6 @@ export default function Mobile() {
       <br />
 
       <div style={{ margin: "12px" }}>
-        <h2 style={{ fontSize: "32px", paddingBottom: "16px" }}>Header</h2>
-
         <div>
           Jupiter Magazine is a quarterly arts and culture publication that
           marks a restorative departure into an editorial space that is a nexus

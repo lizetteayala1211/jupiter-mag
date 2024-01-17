@@ -14,13 +14,12 @@ export default function Desktop() {
       </VideoSection>
       <PhotoSection>
         <Image
-          style={{ width: "100%", height: "100%", padding: "4em" }}
+          style={{ width: "100%", height: "100%", padding: "0 2em" }}
           src={aboutImage}
           alt="Portrait of co-founders of Jupiter magazine"
         />
       </PhotoSection>
       <DescSection>
-        <h2 style={{ fontSize: "32px", paddingBottom: "16px" }}>Header</h2>
         Jupiter Magazine is a quarterly arts and culture publication that marks
         a restorative departure into an editorial space that is a nexus of
         political consciousness, spiritual awareness, and creative healing.
