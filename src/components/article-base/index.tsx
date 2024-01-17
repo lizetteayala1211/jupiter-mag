@@ -77,7 +77,7 @@ export function ArticleBase({
               <MenuButton />
             </div>
           ) : null}
-          <div>{children}</div>
+          {children}
         </Article>
         <Next>
           <div>{next.title}</div>

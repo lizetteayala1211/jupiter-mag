@@ -1,6 +1,7 @@
+import { ArticleContainerStyles } from "@/utils/layout"
 import styled from "styled-components"
 
-export const ArticleStyles = styled.div`
+export const ArticleStyles = styled(ArticleContainerStyles)`
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -17,7 +18,6 @@ export const ArticleStyles = styled.div`
     padding-top: 0pt;
     padding-left: 0pt;
     padding-bottom: 0pt;
-    line-height: 1.15;
     orphans: 2;
     widows: 2;
     text-align: left;
@@ -25,52 +25,35 @@ export const ArticleStyles = styled.div`
   }
   .c0 {
     color: #050505;
-    font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
-    font-size: 12pt;
-    font-family: "Alverata Light";
     font-style: normal;
   }
   .c9 {
     color: #000000;
-    font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
-    font-size: 11pt;
-    font-family: "Alverata Light";
     font-style: normal;
   }
   .c5 {
     padding-top: 0pt;
     padding-bottom: 0pt;
-    line-height: 1.15;
     orphans: 2;
     widows: 2;
     text-align: left;
   }
   .c1 {
-    font-size: 12pt;
-    font-family: "Alverata Light";
     color: #050505;
-    font-weight: 400;
   }
   .c10 {
     padding-top: 0pt;
     padding-bottom: 0pt;
-    line-height: 1;
     text-align: left;
   }
   .c12 {
-    font-size: 12pt;
-    font-family: "Alverata Light";
     color: #050505;
-    font-weight: 400;
   }
   .c4 {
-    font-size: 12pt;
-    font-family: "Alverata Light";
-    font-weight: 700;
   }
   .c15 {
     max-width: 451.4pt;
@@ -108,10 +91,7 @@ export const ArticleStyles = styled.div`
   .title {
     padding-top: 0pt;
     color: #000000;
-    font-size: 26pt;
     padding-bottom: 3pt;
-    font-family: "Alverata Light";
-    line-height: 1.15;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -120,10 +100,7 @@ export const ArticleStyles = styled.div`
   .subtitle {
     padding-top: 0pt;
     color: #666666;
-    font-size: 15pt;
     padding-bottom: 16pt;
-    font-family: "Alverata Light";
-    line-height: 1.15;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -131,22 +108,15 @@ export const ArticleStyles = styled.div`
   }
   li {
     color: #000000;
-    font-size: 11pt;
-    font-family: "Alverata Light";
   }
   p {
     margin: 0;
     color: #000000;
-    font-size: 11pt;
-    font-family: "Alverata Light";
   }
   h1 {
     padding-top: 20pt;
     color: #000000;
-    font-size: 20pt;
     padding-bottom: 6pt;
-    font-family: "Alverata Light";
-    line-height: 1.15;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -155,10 +125,7 @@ export const ArticleStyles = styled.div`
   h2 {
     padding-top: 18pt;
     color: #000000;
-    font-size: 16pt;
     padding-bottom: 6pt;
-    font-family: "Alverata Light";
-    line-height: 1.15;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -167,10 +134,7 @@ export const ArticleStyles = styled.div`
   h3 {
     padding-top: 16pt;
     color: #434343;
-    font-size: 14pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.15;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -179,10 +143,7 @@ export const ArticleStyles = styled.div`
   h4 {
     padding-top: 14pt;
     color: #666666;
-    font-size: 12pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.15;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -191,10 +152,7 @@ export const ArticleStyles = styled.div`
   h5 {
     padding-top: 12pt;
     color: #666666;
-    font-size: 11pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.15;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -203,10 +161,7 @@ export const ArticleStyles = styled.div`
   h6 {
     padding-top: 12pt;
     color: #666666;
-    font-size: 11pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.15;
     page-break-after: avoid;
     font-style: italic;
     orphans: 2;

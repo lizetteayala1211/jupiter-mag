@@ -3,6 +3,7 @@ import {
   screenLgMin,
   screenMdMin,
   screenSmMin,
+  screenXlMin,
 } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
 import styled from "styled-components"
@@ -42,11 +43,21 @@ export const Article = styled.section`
   grid-area: article;
   background-color: var(--color-article-cream);
   min-width: 100%;
-  padding: 8px;
+  padding: 16px;
 
-  /* desktop */
+  /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    padding: 48px;
+    padding: 40px;
+  }
+
+  /* wide desktops */
+  @media only screen and (min-width: ${screenLgMin}) {
+    padding: 100px;
+  }
+
+  /* extra wide desktops */
+  @media only screen and (min-width: ${screenXlMin}) {
+    padding: 120px;
   }
 `
 

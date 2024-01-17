@@ -1,6 +1,7 @@
+import { ArticleContainerStyles } from "@/utils/layout"
 import styled from "styled-components"
 
-export const ArticleStyles = styled.div`
+export const ArticleStyles = styled(ArticleContainerStyles)`
   ol {
     margin: 0;
     padding: 0;
@@ -14,7 +15,6 @@ export const ArticleStyles = styled.div`
     padding-top: 0pt;
     text-indent: 0.2pt;
     padding-bottom: 14.7pt;
-    line-height: 1.5;
     orphans: 2;
     widows: 2;
     text-align: left;
@@ -25,7 +25,6 @@ export const ArticleStyles = styled.div`
     padding-top: 0pt;
     text-indent: -0.5pt;
     padding-bottom: 16.4pt;
-    line-height: 1.5;
     orphans: 2;
     widows: 2;
     text-align: center;
@@ -33,7 +32,6 @@ export const ArticleStyles = styled.div`
   .c8 {
     padding-top: 0pt;
     padding-bottom: 0pt;
-    line-height: 1.5;
     orphans: 2;
     widows: 2;
     text-align: left;
@@ -42,7 +40,6 @@ export const ArticleStyles = styled.div`
   .c4 {
     padding-top: 0pt;
     padding-bottom: 14.7pt;
-    line-height: 1.5;
     orphans: 2;
     widows: 2;
     text-align: left;
@@ -50,20 +47,17 @@ export const ArticleStyles = styled.div`
   }
   .c1 {
     color: #000000;
-    font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
-    font-size: 11pt;
-    font-family: "Alverata Light";
     font-style: normal;
   }
   .c7 {
     margin-left: 1.7pt;
     padding: 4em 0;
-    line-height: 1.5;
     orphans: 2;
     widows: 2;
     text-align: left;
+    font-weight: 800;
   }
   .c5 {
     background-color: #ffffff;
@@ -77,17 +71,14 @@ export const ArticleStyles = styled.div`
     font-style: italic;
   }
   .c9 {
-    font-family: "Alverata Medium";
-    font-size: 20px;
+    font-weight: 800;
+    font-size: 24px;
     padding: 4em 0;
   }
   .title {
     padding-top: 0pt;
     color: #000000;
-    font-size: 26pt;
     padding-bottom: 3pt;
-    font-family: "Alverata Light";
-    line-height: 1.5;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -96,10 +87,7 @@ export const ArticleStyles = styled.div`
   .subtitle {
     padding-top: 0pt;
     color: #666666;
-    font-size: 15pt;
     padding-bottom: 16pt;
-    font-family: "Alverata Light";
-    line-height: 1.5;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -110,22 +98,15 @@ export const ArticleStyles = styled.div`
   }
   li {
     color: #000000;
-    font-size: 11pt;
-    font-family: "Alverata Light";
   }
   p {
     margin: 0;
     color: #000000;
-    font-size: 11pt;
-    font-family: "Alverata Light";
   }
   h1 {
     padding-top: 20pt;
     color: #000000;
-    font-size: 20pt;
     padding-bottom: 6pt;
-    font-family: "Alverata Light";
-    line-height: 1.5;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -134,10 +115,7 @@ export const ArticleStyles = styled.div`
   h2 {
     padding-top: 18pt;
     color: #000000;
-    font-size: 16pt;
     padding-bottom: 6pt;
-    font-family: "Alverata Light";
-    line-height: 1.5;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -146,10 +124,7 @@ export const ArticleStyles = styled.div`
   h3 {
     padding-top: 16pt;
     color: #434343;
-    font-size: 14pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.5;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -158,10 +133,7 @@ export const ArticleStyles = styled.div`
   h4 {
     padding-top: 14pt;
     color: #666666;
-    font-size: 12pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.5;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -170,10 +142,7 @@ export const ArticleStyles = styled.div`
   h5 {
     padding-top: 12pt;
     color: #666666;
-    font-size: 11pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.5;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -182,10 +151,7 @@ export const ArticleStyles = styled.div`
   h6 {
     padding-top: 12pt;
     color: #666666;
-    font-size: 11pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.5;
     page-break-after: avoid;
     font-style: italic;
     orphans: 2;

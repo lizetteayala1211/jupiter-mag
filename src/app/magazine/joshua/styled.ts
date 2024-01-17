@@ -1,8 +1,9 @@
 // styles copied and pasted from google docs exported html and edited therefrom
 
+import { ArticleContainerStyles } from "@/utils/layout"
 import styled from "styled-components"
 
-export const ArticleStyles = styled.div`
+export const ArticleStyles = styled(ArticleContainerStyles)`
   ol {
     margin: 0;
     padding: 0;
@@ -13,26 +14,19 @@ export const ArticleStyles = styled.div`
   }
   .c3 {
     color: #000000;
-    font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
-    font-size: 11pt;
-    font-family: "Alverata Light";
     font-style: italic;
   }
   .c1 {
     color: #000000;
-    font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
-    font-size: 11pt;
-    font-family: "Alverata Light";
     font-style: normal;
   }
   .c0 {
     padding-top: 0pt;
     padding-bottom: 0pt;
-    line-height: 1.3;
     orphans: 2;
     widows: 2;
     text-align: left;
@@ -58,10 +52,7 @@ export const ArticleStyles = styled.div`
   .title {
     padding-top: 0pt;
     color: #000000;
-    font-size: 26pt;
     padding-bottom: 3pt;
-    font-family: "Alverata Light";
-    line-height: 1.3;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -70,10 +61,7 @@ export const ArticleStyles = styled.div`
   .subtitle {
     padding-top: 0pt;
     color: #666666;
-    font-size: 15pt;
     padding-bottom: 16pt;
-    font-family: "Alverata Light";
-    line-height: 1.3;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -81,22 +69,15 @@ export const ArticleStyles = styled.div`
   }
   li {
     color: #000000;
-    font-size: 11pt;
-    font-family: "Alverata Light";
   }
   p {
     margin: 0;
     color: #000000;
-    font-size: 11pt;
-    font-family: "Alverata Light";
   }
   h1 {
     padding-top: 20pt;
     color: #000000;
-    font-size: 20pt;
     padding-bottom: 6pt;
-    font-family: "Alverata Light";
-    line-height: 1.3;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -105,10 +86,7 @@ export const ArticleStyles = styled.div`
   h2 {
     padding-top: 18pt;
     color: #000000;
-    font-size: 16pt;
     padding-bottom: 6pt;
-    font-family: "Alverata Light";
-    line-height: 1.3;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -117,10 +95,7 @@ export const ArticleStyles = styled.div`
   h3 {
     padding-top: 16pt;
     color: #434343;
-    font-size: 14pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.3;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -129,10 +104,7 @@ export const ArticleStyles = styled.div`
   h4 {
     padding-top: 14pt;
     color: #666666;
-    font-size: 12pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.3;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -141,10 +113,7 @@ export const ArticleStyles = styled.div`
   h5 {
     padding-top: 12pt;
     color: #666666;
-    font-size: 11pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.3;
     page-break-after: avoid;
     orphans: 2;
     widows: 2;
@@ -153,10 +122,7 @@ export const ArticleStyles = styled.div`
   h6 {
     padding-top: 12pt;
     color: #666666;
-    font-size: 11pt;
     padding-bottom: 4pt;
-    font-family: "Alverata Light";
-    line-height: 1.3;
     page-break-after: avoid;
     font-style: italic;
     orphans: 2;

@@ -4,6 +4,7 @@ import dialloImg1 from "../../../../public/photos/dialloImg1.jpeg"
 import dialloImg2 from "../../../../public/photos/dialloImg2.png"
 import dialloImg3 from "../../../../public/photos/dialloImg3.png"
 import dialloImg4 from "../../../../public/photos/dialloImg4.jpeg"
+import { CaptionContainer } from "@/utils/layout"
 
 export function Article() {
   return (
@@ -84,6 +85,12 @@ export function Article() {
         src={dialloImg1}
         alt="Mamady playing instrument"
       />
+      <CaptionContainer>
+        Sexophone : W. Eugene Smith. Rahsaan Roland Kirk. 1964. Gelatin silver
+        print, 11 1/2 × 7 1/4″ (29.2 × 18.4 cm). Gift of Richard L. Sandor. The
+        Museum of Modern Art, New York. © 1964, 2023 The Heirs of W. Eugene
+        Smith.
+      </CaptionContainer>
       <p className="c6">
         <span className="c0">
           To hear Mamady play is to have sound strummed into one&#39;s
@@ -158,6 +165,7 @@ export function Article() {
         src={dialloImg3}
         alt="Artwork"
       />
+      <CaptionContainer>Bill Traylor</CaptionContainer>
       <p className="c6">
         <span className="c0">
           This exhibition unfurls from an investigation of Black cultural and
@@ -283,6 +291,7 @@ export function Article() {
         src={dialloImg4}
         alt="Man playing instrument"
       />
+      <CaptionContainer>Terry Adkins</CaptionContainer>
       <p className="c6">
         <span className="c0">That night the </span>
         <span className="c0">electric</span>
@@ -396,6 +405,7 @@ export function Article() {
         src={dialloImg2}
         alt="Art gallery room"
       />
+      <CaptionContainer>Mamady portrait</CaptionContainer>
       <p className="c6">
         <span className="c0">
           Pulling objects and narratives that hold periods of time very still
@@ -449,7 +459,11 @@ export function Article() {
               className="c22"
               href="https://www.google.com/url?q=https://www.theguardian.com/artanddesign/2010/feb/27/malick-sidibe-mali-photographs-interview&amp;sa=D&amp;source=editors&amp;ust=1705097126872965&amp;usg=AOvVaw2fT4IOFT6j5CzQtRP4hfae"
             >
-              https://www.theguardian.com/artanddesign/2010/feb/27/malick-sidibe-mali-photographs-interview
+              https://www.theguardian.com/
+              <br />
+              artanddesign /2010/feb/27/
+              <br />
+              malick-sidibe-mali-photographs-interview
             </a>
           </span>
           <span className="c13">.</span>
