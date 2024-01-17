@@ -18,7 +18,7 @@ export function MobileHeader() {
 
   return (
     <HeaderContainer>
-      {openMenu && <MobileMenuOverlay setOpenMenu={setOpenMenu} />}
+      {openMenu && <MobileMenuOverlay onClose={setOpenMenu} />}
 
       <div
         style={{
@@ -39,7 +39,7 @@ export function MobileHeader() {
   )
 }
 
-function MobileMenuOverlay({ setOpenMenu }: { setOpenMenu: any }) {
+export function MobileMenuOverlay({ onClose }: { onClose: any }) {
   return (
     <>
       <MenuModalBackground />
@@ -56,7 +56,7 @@ function MobileMenuOverlay({ setOpenMenu }: { setOpenMenu: any }) {
             width: "100%",
           }}
         >
-          <ExitMenuModalButton onClick={() => setOpenMenu(false)}>
+          <ExitMenuModalButton onClick={() => onClose(false)}>
             <XIcon />
           </ExitMenuModalButton>
         </div>

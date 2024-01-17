@@ -37,6 +37,21 @@ export const DesktopNavBarContainer = styled.div`
   z-index: var(--z-index-seven);
 `
 
+export const DynamicNavBarContainer = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 0 1em;
+  font-weight: 700;
+  z-index: var(--z-index-seven);
+  background-color: white;
+`
+
 export const MobileNavItemsContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -63,7 +78,7 @@ export const MenuModalBackground = styled.div`
   z-index: var(--z-index-five);
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, #dcb0e0 1%, rgba(157, 208, 252, 0.02) 70%);
+  background: linear-gradient(0deg, #dcb0e0 1%, rgba(157, 208, 252, 0.02) 100%);
 `
 
 export const ExitMenuModalButton = styled.a`

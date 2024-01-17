@@ -1,7 +1,12 @@
 "use client"
 
 import React from "react"
-import { StyledComponentsRegistry, Puncture, DynamicHeader } from ".."
+import {
+  StyledComponentsRegistry,
+  Puncture,
+  DynamicHeader,
+  MenuButton,
+} from ".."
 import {
   Article,
   ArticleBaseContainer,
@@ -12,9 +17,10 @@ import {
   NextFooter,
   TriggerMenuContainer,
 } from "./styled"
+import { MobileMenuOverlay } from "../header/Mobile"
 import Link from "next/link"
 import { ArticleMetadata } from "@/utils/types"
-import { useBreakpoints } from "@/utils/hooks"
+import { useBreakpoints, useDisableScroll } from "@/utils/hooks"
 
 export function ArticleBase({
   children,
@@ -28,10 +34,12 @@ export function ArticleBase({
   position?: string
 }) {
   const [showHeader, setShowHeader] = React.useState(false)
+  const [showMobileMenu, setShowMobileMenu] = React.useState(false)
   const { isMobile, isTablet, isMediumDesktop } = useBreakpoints()
 
   const shouldPositionTitle = isMobile && position
   const shouldShowPuncture = !isTablet
+  const shouldHaveDynamicHeader = showHeader && !isMobile
 
   // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
   setTimeout(() => {
@@ -42,19 +50,35 @@ export function ArticleBase({
     return shouldPositionTitle ? { margin: position } : { padding: position }
   }
 
+  useDisableScroll(showMobileMenu)
+
   return (
     <StyledComponentsRegistry>
+      {shouldHaveDynamicHeader ? (
+        <Header>
+          <DynamicHeader onClose={() => setShowHeader(false)} />
+        </Header>
+      ) : null}
+      {showMobileMenu && <MobileMenuOverlay onClose={setShowMobileMenu} />}
       <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
       <ArticleBaseContainer>
-        {showHeader ? (
-          <Header>
-            <DynamicHeader onClose={() => setShowHeader(false)} />
-          </Header>
-        ) : null}
         <Cover>
           <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
         </Cover>
-        <Article>{children}</Article>
+        <Article>
+          {isMobile ? (
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "flex-end",
+              }}
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
+            >
+              <MenuButton />
+            </div>
+          ) : null}
+          <div>{children}</div>
+        </Article>
         <Next>
           <div>{next.title}</div>
           <NextFooter>
