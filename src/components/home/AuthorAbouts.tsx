@@ -1,4 +1,4 @@
-import { HugeGuy } from "@/utils/layout"
+import { MediumGuy } from "@/utils/layout"
 import {
   AuthorContainer,
   AuthorPhoto,
@@ -65,6 +65,28 @@ export function AuthorAbouts() {
           <Image
             width={getResponsiveImageSize()}
             style={{ height: "auto" }}
+            src={j}
+            alt="Picture of the J"
+          />
+        </AuthorPhoto>
+        <AuthorTextContent>
+          <AuthorTitle>Jenna J Wortham</AuthorTitle>
+          <AuthorBody>
+            Jenna J Wortham (they/them) is a sound healer, reiki practitioner,
+            herbalist, and community care worker oriented towards healing
+            justice and liberation. J is also a staff writer for The New York
+            Times Magazine, and co-host of the podcast “Still Processing.” J is
+            the proud editor of the visual anthology “Black Futures,” along with
+            Kimberly Drew. J is currently working on a book about the body and
+            dissociation called “Work of Body.”
+          </AuthorBody>
+        </AuthorTextContent>
+      </AuthorContainer>
+      <AuthorContainer>
+        <AuthorPhoto>
+          <Image
+            width={getResponsiveImageSize()}
+            style={{ height: "auto" }}
             src={joshua}
             alt="Picture of the Joshua"
           />
@@ -103,28 +125,7 @@ export function AuthorAbouts() {
           </AuthorBody>
         </AuthorTextContent>
       </AuthorContainer>
-      <AuthorContainer>
-        <AuthorPhoto>
-          <Image
-            width={getResponsiveImageSize()}
-            style={{ height: "auto" }}
-            src={j}
-            alt="Picture of the J"
-          />
-        </AuthorPhoto>
-        <AuthorTextContent>
-          <AuthorTitle>Jenna J Wortham</AuthorTitle>
-          <AuthorBody>
-            Jenna J Wortham (they/them) is a sound healer, reiki practitioner,
-            herbalist, and community care worker oriented towards healing
-            justice and liberation. J is also a staff writer for The New York
-            Times Magazine, and co-host of the podcast “Still Processing.” J is
-            the proud editor of the visual anthology “Black Futures,” along with
-            Kimberly Drew. J is currently working on a book about the body and
-            dissociation called “Work of Body.”
-          </AuthorBody>
-        </AuthorTextContent>
-      </AuthorContainer>
+
       <AuthorContainer>
         <AuthorPhoto>
           <Image
@@ -143,7 +144,7 @@ export function AuthorAbouts() {
             She is a Contributing Editor of Frieze magazine and co-curated War
             Inna Babylon: The Community&apos;s Struggle for Truths and Rights at
             the Institute of Contemporary Arts, London.
-            <HugeGuy />
+            <MediumGuy />
             Her first book A Brief History of Black British Art was published by
             Tate in 2022. Her second title, An Unfinished History of Black
             Artists is forthcoming with Quarto Books in 2024, and she is
