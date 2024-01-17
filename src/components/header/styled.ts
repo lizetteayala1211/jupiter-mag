@@ -46,6 +46,7 @@ export const MobileNavItemsContainer = styled.div`
   font-size: 30px;
   text-transform: uppercase;
   z-index: var(--z-index-six);
+  font-family: "Alverata Light";
 `
 
 export const MenuModalContainer = styled.div`
@@ -62,12 +63,7 @@ export const MenuModalBackground = styled.div`
   z-index: var(--z-index-five);
   width: 100%;
   height: 100%;
-  opacity: 0.8;
-  background: linear-gradient(
-    0deg,
-    #fe4101 7.59%,
-    rgba(157, 208, 252, 0.01) 97.1%
-  );
+  background: linear-gradient(0deg, #dcb0e0 1%, rgba(157, 208, 252, 0.02) 70%);
 `
 
 export const ExitMenuModalButton = styled.a`
