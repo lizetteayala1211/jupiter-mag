@@ -23,7 +23,6 @@ export function Footer() {
             <h4>THE MAGAZINE</h4>
             <br />
             <Link href="./about">About</Link>
-            <Link href="./program">Program</Link>
           </TextGroup>
           <TextGroup>
             <h4>JOIN JUPITER</h4>
