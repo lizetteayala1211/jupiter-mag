@@ -1,3 +1,4 @@
+import React from "react"
 import {
   MenuModalBackground,
   MenuModalContainer,
@@ -10,7 +11,6 @@ import {
 } from "./styled"
 import { NavBar } from "./NavBar"
 import { XIcon } from "../XIcon"
-import React from "react"
 import { JupiterLogo } from ".."
 
 export function MobileHeader() {
@@ -20,15 +20,6 @@ export function MobileHeader() {
     <HeaderContainer>
       {openMenu && <MobileMenuOverlay onClose={setOpenMenu} />}
 
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          margin: "0.5em",
-        }}
-      >
-        <p style={{ fontWeight: 500 }}>Magazine</p>
-      </div>
       <LogoContainer href="./">
         <JupiterLogo color="white" />
       </LogoContainer>

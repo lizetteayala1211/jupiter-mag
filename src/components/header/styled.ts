@@ -17,13 +17,9 @@ export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   z-index: var(--z-index-six);
-
-  @media (min-width: ${screenLgMin}) {
-    justify-content: space-between;
-  }
 `
 
 export const DesktopNavBarContainer = styled.div`
