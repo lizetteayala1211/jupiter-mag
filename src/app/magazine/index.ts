@@ -15,7 +15,7 @@ export const issue1Metadata: ArticleMetadata[] = [
   {
     title: "Someone to Watch Over Me: A Lover's Discourse",
     link: "/magazine/joshua",
-    author: "Joshua Segun",
+    author: "Joshua Segun-Lean",
   },
   {
     title:

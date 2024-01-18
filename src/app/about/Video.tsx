@@ -74,6 +74,16 @@ export default function Video() {
           loop
           muted={!userInteracted}
         />
+        <div style={{ padding: "0 2em" }}>
+          <p>
+            Super 8 Footage Directed, Shot, & Edited by josh brainin
+            (@joshbrainin). Composed by Immanuel Wilkins (@immanuel.wilkins).
+            Saxophone, Piano, Synthesizer by Immanuel Wilkins. Cello & SFX by
+            Lester St. Louis (@lesterst.louis). Vocals by Ekep Nkwelle
+            (@ekepnkwelle). Drums & Percussion by Kweku Sumbry (@kwe.drums).
+            Produced by Jupiter Magazine.
+          </p>
+        </div>
       </StreamContainer>
     </>
   )
