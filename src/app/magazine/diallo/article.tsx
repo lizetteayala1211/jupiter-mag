@@ -80,10 +80,7 @@ export function Article() {
         alt="Mamady playing instrument"
       />
       <CaptionContainer>
-        Sexophone : W. Eugene Smith. Rahsaan Roland Kirk. 1964. Gelatin silver
-        print, 11 1/2 × 7 1/4″ (29.2 × 18.4 cm). Gift of Richard L. Sandor. The
-        Museum of Modern Art, New York. © 1964, 2023 The Heirs of W. Eugene
-        Smith.
+        Mamady Kouyaté, image courtesy of Mamady Kouyaté
       </CaptionContainer>
       <p className="c6">
         <span className="c0">

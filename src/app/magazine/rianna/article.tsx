@@ -14,10 +14,9 @@ export function Article() {
       />
       <CaptionContainer>
         <span>Albert Artwell, </span>
-        <i> Jesse through the Black Star Liner (c. 1980s).</i>
-        Sea with four boats. Time is collapsed with boats carrying Jesse, Jesus,
-        and other biblical figures alongside Marcus Garvey&apos;s Black Star
-        Liner.
+        <i> Jesse through the Black Star Liner (c. 1980s).</i> Sea with four
+        boats. Time is collapsed with boats carrying Jesse, Jesus, and other
+        biblical figures alongside Marcus Garvey&apos;s Black Star Liner.
       </CaptionContainer>
       <ol className="c6 lst-kix_mcr6ri1dk5fa-0" start={1}>
         <li className="c2 li-bullet-0">
