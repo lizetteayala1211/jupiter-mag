@@ -11,7 +11,7 @@ import {
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
 import { useBreakpoints, useCurrentPage } from "@/utils/hooks"
 import {
-  Header,
+  Header as StaticHeader,
   Ticker,
   Footer,
   StyledComponentsRegistry,
@@ -22,23 +22,11 @@ type Props = { children: ReactNode }
 
 export function Base({ children }: Props) {
   const currentPage = useCurrentPage()
-  const [showHeader, setShowHeader] = React.useState(false)
+  const { isMobile } = useBreakpoints()
 
   const isHomePage = currentPage === "home"
 
-  const shouldBeDynamicHeader = showHeader || !isHomePage
-  const DecideHeader = () => {
-    return isHomePage ? (
-      <DynamicHeader onClose={() => setShowHeader(false)} />
-    ) : (
-      <Header />
-    )
-  }
-
-  // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
-  setTimeout(() => {
-    setShowHeader(false)
-  }, 5000)
+  const shouldBeStatic = !isHomePage || (isMobile && !isHomePage)
 
   return (
     <StyledComponentsRegistry>
@@ -47,11 +35,7 @@ export function Base({ children }: Props) {
         className="darker-grotesque"
       >
         <HeaderSection>
-          {shouldBeDynamicHeader ? (
-            <DecideHeader />
-          ) : (
-            <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
-          )}
+          {shouldBeStatic ? <StaticHeader /> : <DynamicHeaderMechanism />}
         </HeaderSection>
         <ChildrenSection>{children}</ChildrenSection>
         <Ticker />
@@ -80,5 +64,19 @@ function BackgroundStyles() {
       <Gradient />
       {isMobile ? <MobileGrain /> : <DesktopGrain />}
     </div>
+  )
+}
+
+function DynamicHeaderMechanism() {
+  const [showHeader, setShowHeader] = React.useState(false)
+  // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
+  setTimeout(() => {
+    setShowHeader(false)
+  }, 5000)
+
+  return showHeader ? (
+    <DynamicHeader onClose={() => setShowHeader(false)} />
+  ) : (
+    <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
   )
 }
