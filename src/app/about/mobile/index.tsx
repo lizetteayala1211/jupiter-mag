@@ -15,7 +15,9 @@ export default function Mobile() {
         margin: " 36px 12px",
       }}
     >
-      <h1 style={{ fontSize: "36px" }}>Meet Jupiter</h1>
+      <h1 style={{ fontSize: "36px", marginInlineStart: "12px" }}>
+        Meet Jupiter
+      </h1>
 
       <Video />
 
