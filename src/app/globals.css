@@ -56,6 +56,10 @@
   font-family: var(--font-abhaya-libre);
 }
 
+.playfair-display {
+  font-family: var(--font-playfair-display);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

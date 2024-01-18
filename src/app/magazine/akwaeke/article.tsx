@@ -9,7 +9,7 @@ export function Article() {
           I can hear her breathing
         </span>
         <br />
-        <span className="c1">- Arundhati Roy</span>
+        <span className="c1"> —Arundhati Roy</span>
       </p>
 
       <div>
@@ -96,7 +96,7 @@ export function Article() {
         <p className="c0">
           <span>
             So I tell stories about the burning, about the imperfect phoenix
-            afterwards, and about freedom and love. These stories are
+            afterward, and about freedom and love. These stories are
             uncomfortable; they anger people who believe in conformity, they get
             my books banned and teachers threatened for assigning these stories
             to their students. But I believe that freedom starts between us, in
@@ -137,8 +137,11 @@ export function Article() {
           <span className="c1">
             It is our indigenous stories that will set us free and so I have
             turned my life into one&mdash;centering in spirit, being clear with
-            my work and my language around myself, that I am an &#7885;gbanje,
-            the child of an Igbo deity, and therefore a deity as well.
+            my work and my language around myself, that I am an{" "}
+            <span className="playfair-display" style={{ fontSize: "19px" }}>
+              ọ
+            </span>
+            gbanje, the child of an Igbo deity, and therefore a deity as well.
             I&rsquo;ve written books about this, seminal texts that help other
             people reclaim their own indigenous centers. I watch it spread like
             quickfire as we learn new eyes, as we hold them in our hands coated
@@ -168,11 +171,11 @@ export function Article() {
             away&mdash;I&rsquo;ve survived too many suicide attempts to let this
             world grind me into nonexistence again. The work continues. Life
             continues, unrelenting and insistent. My friend, the writer Ann
-            Daramola says &mdash;
+            Daramola says&mdash;
           </span>
           <span className="c6">&ldquo;</span>
-          <span className="c6 c3">
-            somebody still has to make breakfast the morning after the world
+          <span className="c6">
+            Somebody still has to make breakfast the morning after the world
             ends.
           </span>
           <span className="c6">&rdquo; </span>
@@ -258,7 +261,7 @@ export function Article() {
             into the contemporary, we are not seized in the past. It will taste
             like &Igrave;T&Agrave;N, like Abakaliki rice steamed in water lily
             leaves, cooked by the scarred hands of a storyteller, like smoked
-            Guinea fowl inside an eggshell with the apples from Gombe and a
+            guinea fowl inside an eggshell with the apples from Gombe and a
             scent leaf oil. It will sound like the rain that starts to fall as
             Chef El&eacute;gb&egrave;d&eacute; introduces Yemaya&rsquo;s course,
             and the silence as the rain stops with his voice. It will smell like

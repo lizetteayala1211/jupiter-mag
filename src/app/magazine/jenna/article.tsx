@@ -14,8 +14,7 @@ export function Article() {
         <span>&nbsp;myself instead,</span>
         <br />
         <span className="c4 c3" style={{ fontSize: "16px" }}>
-          {" "}
-          - Dionne Brand
+          —Dionne Brand
         </span>
       </p>
       <p className="c0 c5">

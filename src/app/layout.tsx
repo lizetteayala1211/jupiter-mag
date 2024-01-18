@@ -1,5 +1,9 @@
 import type { Metadata } from "next"
-import { Darker_Grotesque, Abhaya_Libre } from "next/font/google"
+import {
+  Darker_Grotesque,
+  Abhaya_Libre,
+  Playfair_Display,
+} from "next/font/google"
 import "./globals.css"
 
 const darkerGrotesque = Darker_Grotesque({
@@ -10,6 +14,11 @@ const abhayaLibre = Abhaya_Libre({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-abhaya-libre",
+})
+const playfairDisplay = Playfair_Display({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-playfair-display",
 })
 
 export const metadata: Metadata = {
@@ -25,7 +34,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${darkerGrotesque.variable} ${abhayaLibre.variable}`}
+      className={`${darkerGrotesque.variable} ${abhayaLibre.variable} ${playfairDisplay.variable}`}
     >
       <body>{children}</body>
     </html>
