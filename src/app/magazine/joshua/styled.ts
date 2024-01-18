@@ -1,20 +1,12 @@
 // styles copied and pasted from google docs exported html and edited therefrom
 
 import { screenMdMin, screenLgMin } from "@/utils/constants"
-import { ArticleContainerStyles } from "@/utils/layout"
 import styled from "styled-components"
 
-export const ArticleStyles = styled(ArticleContainerStyles)`
-  font-size: 10px;
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-    font-size: 14px;
-  }
-
-  /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    font-size: 16px;
-  }
+export const ArticleStyles = styled.div`
+  line-height: 40px;
+  font-weight: 400;
+  font-family: "Alverata Light";
 
   ol {
     margin: 0;
@@ -85,6 +77,17 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   p {
     margin: 0;
     color: #000000;
+    font-size: 12px;
+
+    /* smaller desktops */
+    @media only screen and (min-width: ${screenMdMin}) {
+      font-size: 12px;
+    }
+
+    /* wide desktops */
+    @media only screen and (min-width: ${screenLgMin}) {
+      font-size: 14px;
+    }
   }
   h1 {
     padding-top: 20pt;
