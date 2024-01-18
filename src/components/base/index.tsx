@@ -6,39 +6,38 @@ import {
   ChildrenSection,
   Gradient,
   HeaderSection,
+  LottieContainer,
   TriggerMenuContainer,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
-import { useBreakpoints } from "@/utils/hooks"
+import { useBreakpoints, useCurrentPage } from "@/utils/hooks"
 import {
-  Header,
+  Header as StaticHeader,
   Ticker,
   Footer,
   StyledComponentsRegistry,
   DynamicHeader,
+  JupiterLogo,
 } from "@/components"
+import { MobileMenuOverlay } from "../header/Mobile"
+import { JupiterAnimation } from "../home/JupiterAnimation"
+import Link from "next/link"
 
-type Props = { children: ReactNode; homePage?: boolean }
+type Props = { children: ReactNode }
 
-export function Base({ children, homePage }: Props) {
-  const [showHeader, setShowHeader] = React.useState(false)
+export function Base({ children }: Props) {
+  const currentPage = useCurrentPage()
+  const { isMobile } = useBreakpoints()
 
-  const shouldBeDynamicHeader = showHeader || !homePage
+  const [showMobileMenu, setShowMobileMenu] = React.useState(false)
 
-  const isHomePage = homePage!! ? homePage : false
+  // todo: can useCurrentPage be broken into a more useful hook with more reusable code?
+  const isHomePage = currentPage === "home"
+  const isAboutOrContactPage =
+    currentPage === "about" || currentPage === "contact"
 
-  const DecideHeader = () => {
-    return homePage ? (
-      <DynamicHeader onClose={() => setShowHeader(false)} />
-    ) : (
-      <Header />
-    )
-  }
-
-  // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
-  setTimeout(() => {
-    setShowHeader(false)
-  }, 5000)
+  const shouldBeStatic = isAboutOrContactPage || (isMobile && !isHomePage)
+  const shouldBeDynamic = !isMobile && !isAboutOrContactPage
 
   return (
     <StyledComponentsRegistry>
@@ -47,17 +46,47 @@ export function Base({ children, homePage }: Props) {
         className="darker-grotesque"
       >
         <HeaderSection>
-          {shouldBeDynamicHeader ? (
-            <DecideHeader />
-          ) : (
-            <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
-          )}
+          {showMobileMenu && <MobileMenuOverlay onClose={setShowMobileMenu} />}
+          {/* todo: move dynamic header mechanism to components foldre */}
+          {shouldBeStatic ? <StaticHeader /> : null}
+          {shouldBeDynamic ? <DynamicHeaderMechanism /> : null}
         </HeaderSection>
-        <ChildrenSection>{children}</ChildrenSection>
+
+        {/* todo: need to consolidate all header components to be more readable :') */}
+        <ChildrenSection>
+          {isHomePage && (
+            <LottieContainer>
+              <JupiterAnimation />
+            </LottieContainer>
+          )}
+
+          {isMobile && isHomePage ? (
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+                padding: "1em",
+              }}
+            >
+              <Link style={{ width: "30%" }} href="./">
+                <JupiterLogo color="white" />
+              </Link>
+
+              <div
+                style={{ zIndex: 99999 }}
+                onClick={() => setShowMobileMenu(!showMobileMenu)}
+              >
+                Menu
+              </div>
+            </div>
+          ) : null}
+          {children}
+        </ChildrenSection>
         <Ticker />
         <Footer />
       </BaseContainer>
-      {!homePage && <BackgroundStyles />}
+      {!isHomePage && <BackgroundStyles />}
     </StyledComponentsRegistry>
   )
 }
@@ -80,5 +109,19 @@ function BackgroundStyles() {
       <Gradient />
       {isMobile ? <MobileGrain /> : <DesktopGrain />}
     </div>
+  )
+}
+
+function DynamicHeaderMechanism() {
+  const [showHeader, setShowHeader] = React.useState(false)
+  // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
+  setTimeout(() => {
+    setShowHeader(false)
+  }, 5000)
+
+  return showHeader ? (
+    <DynamicHeader onClose={() => setShowHeader(false)} />
+  ) : (
+    <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
   )
 }

@@ -25,7 +25,10 @@ export const ChildrenSection = styled.section`
   grid-area: children;
   z-index: var(--z-index-three);
 `
-
+export const LottieContainer = styled.div`
+  width: 100%;
+  z-index: var(--z-index-three);
+`
 export const Gradient = styled.div`
   bottom: 0;
   width: 100%;

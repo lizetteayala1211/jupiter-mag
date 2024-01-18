@@ -7,10 +7,9 @@ import {
   MobileGrain,
   Puncture,
 } from "@/components"
-import { JupiterAnimation } from "@/components/home/JupiterAnimation"
 
 // styled assets
-import { Authors, Lottie, Main } from "./styled"
+import { Authors, Main } from "./styled"
 import { AuthorBackground } from "./AuthorBackground"
 
 import { Credits } from "./Credits"
@@ -22,14 +21,10 @@ export function Home() {
   const { isMobile } = useBreakpoints()
 
   return (
-    <Base homePage>
+    <Base>
       {!isMobile ? <Puncture position={{ top: "250px" }} /> : null}
 
       <Main>
-        <Lottie>
-          <JupiterAnimation />
-        </Lottie>
-
         <Authors>
           <EditorsNote />
           <div
