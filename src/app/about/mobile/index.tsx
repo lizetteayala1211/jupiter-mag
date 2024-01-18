@@ -15,7 +15,9 @@ export default function Mobile() {
         margin: " 36px 12px",
       }}
     >
-      <h1 style={{ fontSize: "36px" }}>Meet Jupiter</h1>
+      <h1 style={{ fontSize: "36px", marginInlineStart: "12px" }}>
+        Meet Jupiter
+      </h1>
 
       <Video />
 
@@ -47,7 +49,7 @@ export default function Mobile() {
         }}
       >
         <Image
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "90%", height: "90%" }}
           src={aboutImage}
           alt="Portrait of co-founders of Jupiter magazine"
         />
