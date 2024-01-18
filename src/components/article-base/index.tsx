@@ -71,8 +71,12 @@ export function ArticleBase({
           {isMobile ? (
             <div
               style={{
-                display: "flex",
-                justifyContent: "flex-end",
+                position: "sticky",
+                top: 0,
+                left: 0,
+                padding: "1em",
+                background:
+                  "linear-gradient(180deg, rgba(232, 224, 222, 0.60) 0%, rgba(232, 224, 222, 0.00) 100%)",
               }}
               onClick={() => setShowMobileMenu(!showMobileMenu)}
             >
