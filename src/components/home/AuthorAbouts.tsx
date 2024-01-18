@@ -10,12 +10,13 @@ import {
 import { useBreakpoints } from "@/utils/hooks"
 import Image from "next/image"
 
+// todo: convert all jpgs to pngs for faster processing
 // author photos
 import akwaeke from "../../../public/photos/akwaeke.png"
-import diallo from "../../../public/photos/diallo.png"
+import diallo from "../../../public/photos/diallo.jpg"
 import j from "../../../public/photos/j.png"
 import joshua from "../../../public/photos/joshua.png"
-import rianna from "../../../public/photos/rianna.png"
+import rianna from "../../../public/photos/rianna.jpg"
 
 export function AuthorAbouts() {
   const { isSmallDesktop, isDesktop, isLargeDesktop } = useBreakpoints()
@@ -103,7 +104,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
-            style={{ height: "auto" }}
+            style={{ height: "100%" }}
             src={diallo}
             alt="Picture of the Diallo"
           />
