@@ -4,7 +4,6 @@ import {
   HeaderContainer,
   LogoContainer,
   DesktopNavBarContainer,
-  NotifyMeTextDesktop,
 } from "./styled"
 
 export function DesktopHeader() {
@@ -16,8 +15,7 @@ export function DesktopHeader() {
       <DesktopNavBarContainer>
         <NavBar />
       </DesktopNavBarContainer>
-      <NotifyMeTextDesktop>Notify me!</NotifyMeTextDesktop>
-      <NotifyMeGraphic />
+      <div style={{ width: "200px" }} />
     </HeaderContainer>
   )
 }
