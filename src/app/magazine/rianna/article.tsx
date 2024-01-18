@@ -13,9 +13,9 @@ export function Article() {
         alt="Black cultural artwork"
       />
       <CaptionContainer>
-        <b style={{ fontFamily: "Alverata Medium" }}>Albert Artwell</b>
-        <i>Jesse through the Black Star Liner (c. 1980s)</i>
-        Sea with four boats. Time is collapsed with boats carrying Jesse, Jesus
+        <span>Albert Artwell, </span>
+        <i> Jesse through the Black Star Liner (c. 1980s).</i>
+        Sea with four boats. Time is collapsed with boats carrying Jesse, Jesus,
         and other biblical figures alongside Marcus Garvey&apos;s Black Star
         Liner.
       </CaptionContainer>
@@ -34,14 +34,13 @@ export function Article() {
           a range
         </span>
         <span className="c0">
-          &nbsp;of self-organizing institutions of the laboring className,
-          opting to advance their rights and interests as workers and citizens.
-          In 1917, the UNIA headquarters was relocated to the Black Metropolis
-          of Harlem, New York, synchronizing the cultural, political, and
-          economic chords of the Pan-African coalition. With shifts in
-          socio-political alignment through travel and self-study, transatlantic
-          freedom movements were breaking down and interrogating boundaries
-          between Black peoples.
+          &nbsp;of self-organizing institutions of the laboring class, opting to
+          advance their rights and interests as workers and citizens. In 1917,
+          the UNIA headquarters was relocated to the Black Metropolis of Harlem,
+          New York, synchronizing the cultural, political, and economic chords
+          of the Pan-African coalition. With shifts in socio-political alignment
+          through travel and self-study, transatlantic freedom movements were
+          breaking down and interrogating boundaries between Black peoples.
         </span>
       </p>
       <p className="c5 c7">
@@ -165,17 +164,15 @@ export function Article() {
           often through the manipulation of images and narratives over hundreds
           of years. And so, in self-defense there is a constant and{" "}
         </span>
-        <span className="c1">urgent need for cultural counter-missiles</span>
-        <sup>
-          <a href="#cmnt1" id="cmnt_ref1">
-            [a]
-          </a>
-        </sup>
-        <span className="c1">.</span>
+        <span className="c1">
+          urgent need for cultural counter-missiles.<sup>[a]</sup>
+        </span>
+
         <span className="c1">&nbsp;</span>
         <span className="c1 c3">Jesse through the Black Star Liner</span>
         <span className="c1">
-          &nbsp;offers one such oppositional approach through Artwell&rsquo;s
+          {" "}
+          offers one such oppositional approach through Artwell&rsquo;s
           sensibilities in compositions, cosmologies, and{" "}
         </span>
         <span className="c1">color</span>

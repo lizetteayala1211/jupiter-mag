@@ -24,7 +24,7 @@ export const issue1Metadata: ArticleMetadata[] = [
     author: "Diallo Simon-Ponte",
   },
   {
-    title: "Inward Stretch, Outward Reach: Approach to Black Aesthetics",
+    title: "Inward Stretch, Outward Reach: An Approach to Black Aesthetics",
     link: "/magazine/rianna",
     author: "Rianna Jade Parker",
   },
