@@ -114,7 +114,6 @@ export const AuthorContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
 
   @media only screen and (min-width: ${screenMdMin}) {
     align-items: flex-start;
@@ -126,15 +125,16 @@ export const AuthorPhoto = styled.div`
   display: flex;
   justify-content: flex-start;
   padding-bottom: 2em;
+  height: 100%;
   @media only screen and (min-width: ${screenMdMin}) {
-    width: 30%;
+    width: 50%;
   }
 `
 
 export const AuthorTextContent = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 250px;
+  max-width: 65%;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
