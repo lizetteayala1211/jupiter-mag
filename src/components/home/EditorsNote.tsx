@@ -1,4 +1,4 @@
-import { Header, JupiterLogo } from "@/components"
+import { JupiterLogo } from "@/components"
 import { BigGuy, HugeGuy, MediumGuy } from "@/utils/layout"
 import {
   DesktopEditorContainer,
@@ -24,7 +24,6 @@ export function EditorsNote() {
 
   return isMobile ? (
     <MobileEditorContainer>
-      <Header />
       <EditorCover>
         <div>Editor&apos;s</div>
         <div>Note</div>

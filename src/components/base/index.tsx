@@ -6,6 +6,7 @@ import {
   ChildrenSection,
   Gradient,
   HeaderSection,
+  LottieContainer,
   TriggerMenuContainer,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
@@ -16,7 +17,11 @@ import {
   Footer,
   StyledComponentsRegistry,
   DynamicHeader,
+  JupiterLogo,
 } from "@/components"
+import { MobileMenuOverlay } from "../header/Mobile"
+import { JupiterAnimation } from "../home/JupiterAnimation"
+import Link from "next/link"
 
 type Props = { children: ReactNode }
 
@@ -24,9 +29,15 @@ export function Base({ children }: Props) {
   const currentPage = useCurrentPage()
   const { isMobile } = useBreakpoints()
 
-  const isHomePage = currentPage === "home"
+  const [showMobileMenu, setShowMobileMenu] = React.useState(false)
 
-  const shouldBeStatic = !isHomePage || (isMobile && !isHomePage)
+  // todo: can useCurrentPage be broken into a more useful hook with more reusable code?
+  const isHomePage = currentPage === "home"
+  const isAboutOrContactPage =
+    currentPage === "about" || currentPage === "contact"
+
+  const shouldBeStatic = isAboutOrContactPage || (isMobile && !isHomePage)
+  const shouldBeDynamic = !isMobile && !isAboutOrContactPage
 
   return (
     <StyledComponentsRegistry>
@@ -35,9 +46,43 @@ export function Base({ children }: Props) {
         className="darker-grotesque"
       >
         <HeaderSection>
-          {shouldBeStatic ? <StaticHeader /> : <DynamicHeaderMechanism />}
+          {showMobileMenu && <MobileMenuOverlay onClose={setShowMobileMenu} />}
+          {/* todo: move dynamic header mechanism to components foldre */}
+          {shouldBeStatic ? <StaticHeader /> : null}
+          {shouldBeDynamic ? <DynamicHeaderMechanism /> : null}
         </HeaderSection>
-        <ChildrenSection>{children}</ChildrenSection>
+
+        {/* todo: need to consolidate all header components to be more readable :') */}
+        <ChildrenSection>
+          {isHomePage && (
+            <LottieContainer>
+              <JupiterAnimation />
+            </LottieContainer>
+          )}
+
+          {isMobile && isHomePage ? (
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-between",
+                padding: "1em",
+              }}
+            >
+              <Link style={{ width: "30%" }} href="./">
+                <JupiterLogo color="white" />
+              </Link>
+
+              <div
+                style={{ zIndex: 99999 }}
+                onClick={() => setShowMobileMenu(!showMobileMenu)}
+              >
+                Menu
+              </div>
+            </div>
+          ) : null}
+          {children}
+        </ChildrenSection>
         <Ticker />
         <Footer />
       </BaseContainer>

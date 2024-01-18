@@ -6,19 +6,12 @@ import styled from "styled-components"
 export const Main = styled(SharedGridMain)`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(auto-fill, 1fr);
-  grid-template-areas:
-    "lottie lottie"
-    "authors authors";
+  grid-template-areas: "authors authors";
   font-family: "Alverata Light";
   p {
     font-size: 14px;
   }
   background-color: var(--color-article-purple);
-`
-export const Lottie = styled.section`
-  grid-area: lottie;
-  width: 100%;
-  z-index: var(--z-index-three);
 `
 
 export const Authors = styled.section`
