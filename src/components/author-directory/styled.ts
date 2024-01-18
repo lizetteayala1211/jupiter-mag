@@ -1,4 +1,9 @@
-import { screenMdMin, screenLgMin, screenXlMin } from "@/utils/constants"
+import {
+  screenMdMin,
+  screenLgMin,
+  screenXlMin,
+  screenXsMin,
+} from "@/utils/constants"
 import Link from "next/link"
 import styled from "styled-components"
 
@@ -13,6 +18,11 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
     &:hover {
       color: var(--color-black);
     }`}
+
+  /* larger phones  */
+  @media only screen and (min-width: ${screenXsMin}) {
+    font-size: 40px;
+  }
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {

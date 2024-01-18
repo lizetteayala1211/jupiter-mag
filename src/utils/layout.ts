@@ -49,3 +49,9 @@ export const CaptionContainer = styled.div`
     font-size: 16px;
   }
 `
+
+export const Epigraph = styled.div`
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+`

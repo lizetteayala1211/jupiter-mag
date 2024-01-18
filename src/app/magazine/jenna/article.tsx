@@ -3,20 +3,23 @@ import Image from "next/image"
 import img1 from "../../../../public/photos/jImg1.jpeg"
 import img2 from "../../../../public/photos/jImg2.jpeg"
 import img3 from "../../../../public/photos/jImg3.png"
-import { CaptionContainer } from "@/utils/layout"
+import { CaptionContainer, Epigraph } from "@/utils/layout"
 
 export function Article() {
   return (
     <ArticleStyles>
-      <p className="c17">
-        <span>My mouth could not find a language. / </span>
-        <span>I find</span>
-        <span>&nbsp;myself instead,</span>
+      <>
         <br />
+        <Epigraph>
+          <span>My mouth could not find a language. / </span>
+          <span>I find</span>
+          <span>&nbsp;myself instead,</span>
+        </Epigraph>
         <span className="c4 c3" style={{ fontSize: "16px" }}>
           —Dionne Brand
         </span>
-      </p>
+        <br />
+      </>
       <p className="c0 c5">
         <span className="c4 c3"></span>
       </p>
