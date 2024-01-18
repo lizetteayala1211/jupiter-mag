@@ -1,3 +1,4 @@
+import { Epigraph } from "@/utils/layout"
 import { ArticleStyles } from "./styled"
 
 export function Article() {
@@ -15,13 +16,12 @@ export function Article() {
       <p className="c0 c2">
         <span className="c1"></span>
       </p>
-      <p className="c0">
-        <span className="c5">
-          If labor is the province of the body maybe work is the province of the
-          flesh&hellip; the flesh we have that breathes together
-        </span>
+      <Epigraph style={{ padding: "12px" }}>
+        If labor is the province of the body maybe work is the province of the
+        flesh&hellip; the flesh we have that breathes together
+        <br />
         <span className="c1">&nbsp;&mdash;Fred Moten</span>
-      </p>
+      </Epigraph>
       <p className="c0 c2">
         <span className="c1"></span>
       </p>

@@ -89,8 +89,8 @@ export const MenuModalBackground = styled.div`
 
 export const ExitMenuModalButton = styled.a`
   border-radius: 0.9375rem;
-  background: #e0e9f440;
   padding: 0 1em;
+  z-index: 1000;
 `
 
 export const LogoContainer = styled(Link)`

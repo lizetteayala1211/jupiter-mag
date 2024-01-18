@@ -15,8 +15,8 @@ import {
   Footer,
   TitleContainer,
   NextFooter,
-  TriggerMenuContainer,
   FooterTitle,
+  TriggerMenuContainer,
 } from "./styled"
 import { MobileMenuOverlay } from "../header/Mobile"
 import Link from "next/link"
@@ -57,11 +57,13 @@ export function ArticleBase({
     <StyledComponentsRegistry>
       {shouldHaveDynamicHeader ? (
         <Header>
-          <DynamicHeader onClose={() => setShowHeader(false)} />
+          <DynamicHeaderMechanism />
         </Header>
       ) : null}
-      {showMobileMenu && <MobileMenuOverlay onClose={setShowMobileMenu} />}
-      <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
+      {showMobileMenu && (
+        <MobileMenuOverlay onClose={() => setShowMobileMenu(false)} />
+      )}
+
       <ArticleBaseContainer>
         <Cover>
           <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
@@ -105,5 +107,19 @@ export function ArticleBase({
         </Footer>
       </ArticleBaseContainer>
     </StyledComponentsRegistry>
+  )
+}
+
+function DynamicHeaderMechanism() {
+  const [showHeader, setShowHeader] = React.useState(false)
+  // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
+  setTimeout(() => {
+    setShowHeader(false)
+  }, 5000)
+
+  return showHeader ? (
+    <DynamicHeader onClose={() => setShowHeader(false)} />
+  ) : (
+    <TriggerMenuContainer onMouseOver={() => setShowHeader(true)} />
   )
 }

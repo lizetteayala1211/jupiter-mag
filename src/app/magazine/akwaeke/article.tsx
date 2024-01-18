@@ -1,16 +1,23 @@
+import { Epigraph } from "@/utils/layout"
 import { ArticleStyles } from "./styled"
 
 export function Article() {
   return (
     <ArticleStyles>
-      <p className="c7">
-        <span className="c9">
+      <br />
+      <>
+        <Epigraph>
           Another world is not only possible, she is on her way. On a quiet day,
           I can hear her breathing
-        </span>
-        <br />
-        <span className="c1"> —Arundhati Roy</span>
-      </p>
+          <br />
+          <span style={{ fontSize: "16px" }} className="c1">
+            {" "}
+            —Arundhati Roy
+          </span>
+        </Epigraph>
+      </>
+      <br />
+      <br />
 
       <div>
         <p className="c0">

@@ -49,7 +49,9 @@ export function Base({ children }: Props) {
         className="darker-grotesque"
       >
         <HeaderSection>
-          {showMobileMenu && <MobileMenuOverlay onClose={setShowMobileMenu} />}
+          {showMobileMenu && (
+            <MobileMenuOverlay onClose={() => setShowMobileMenu(false)} />
+          )}
           {/* todo: move dynamic header mechanism to components foldre */}
           {shouldBeStatic ? <StaticHeader /> : null}
           {shouldBeDynamic ? <DynamicHeaderMechanism /> : null}
