@@ -1,4 +1,5 @@
 import { screenSmMin } from "@/utils/constants"
+import Link from "next/link"
 import styled from "styled-components"
 
 export const FooterContainer = styled.footer`
@@ -11,7 +12,7 @@ export const FooterChildren = styled.div`
   z-index: var(--z-index-five);
 `
 
-export const LogoContainer = styled.div`
+export const LogoContainer = styled(Link)`
   margin: auto;
   width: 70%;
 
