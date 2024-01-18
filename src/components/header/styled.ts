@@ -145,13 +145,15 @@ export const StyledNavBarItem = styled(Link)`
   padding: 0.75em 1em;
 
   &:active {
-    border: 1px solid var(--color-article-purple);
+    text-shadow: 0px 0px 19.1px #96649b;
+
     border-radius: 24px;
     box-shadow: 0px 0px 5.3px 0px var(--color-article-purple);
   }
 
   &:focus {
-    border: 1px solid var(--color-article-purple);
+    text-shadow: 0px 0px 19.1px #96649b;
+
     border-radius: 24px;
     box-shadow: 0px 0px 5.3px 0px var(--color-article-purple);
   }

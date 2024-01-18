@@ -1,4 +1,4 @@
-import { JupiterLogo, NotifyMeGraphic } from ".."
+import { JupiterLogo } from ".."
 import { NavBar } from "./NavBar"
 import {
   HeaderContainer,
