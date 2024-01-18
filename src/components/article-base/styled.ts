@@ -86,7 +86,7 @@ export const NextFooter = styled.div`
 `
 export const FooterTitle = styled(Link)`
   /* mobile */
-  font-size: 48px;
+  font-size: px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
@@ -111,7 +111,7 @@ export const TitleContainer = styled.div`
   transform: scale(0.4);
 
   @media only screen and (min-width: ${screenLgMin}) {
-    transform: scale(0.6);
+    transform: scale(0.7);
   }
 
   @media only screen and (min-width: ${screenLgMed}) {
