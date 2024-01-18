@@ -35,9 +35,7 @@ export function Article() {
           </span>
           <span className="c3">&nbsp; &nbsp;</span>
         </p>
-        <p className="c0">
-          <span className="c4 c3">&nbsp;</span>
-        </p>
+        <br />
         <p className="c0">
           <span className="c3">
             In Dionne Brand&rsquo;s poetry collection,{" "}
@@ -47,7 +45,7 @@ export function Article() {
             , she diagrams her extradition from language so exquisitely and also
             makes the case for the radical potentiality within it. Following her
             observation that she finds herself instead of language she adds,
-            almost as an afterthought,&ldquo;useless as that,&rdquo; as though
+            almost as an afterthought, &ldquo;useless as that,&rdquo; as though
             to suggest that finding the self without the means to understand it
             is to render the self without use.{" "}
           </span>
@@ -88,9 +86,7 @@ export function Article() {
             to begin anew and find novelty along the way.
           </span>
         </p>
-        <p className="c0">
-          <span className="c4 c3">&nbsp;</span>
-        </p>
+        <br />
         <p className="c0">
           <span className="c3">
             In 2019, the critic Kimberly Drew astutely observed in an article
@@ -106,20 +102,18 @@ export function Article() {
             conversation, capacious enough to hold the vast expanses of ideas
             and desires for transformation that are unfolding in our lifetime.{" "}
           </span>
-          <sup>
-            <a href="#cmnt1" id="cmnt_ref1">
-              [a]
-            </a>
-          </sup>
+          <span>
+            <sup>[a]</sup>
+          </span>
+
           <span className="c3">Opera is the plural of the Latin word </span>
           <span className="c3 c6">opus</span>
           <span className="c4 c3">
             , work that is, by definition, exponential.
           </span>
         </p>
-        <p className="c0 c5">
-          <span className="c4 c3"></span>
-        </p>
+
+        <br />
         <p className="c0">
           <span className="c4 c3">
             One history traces the art form back to the sixteenth and
@@ -133,9 +127,7 @@ export function Article() {
             its unadulterated form, cannot.
           </span>
         </p>
-        <p className="c0 c5">
-          <span className="c4 c3"></span>
-        </p>
+        <br />
         <div style={{ display: "flex", gap: "1em", paddingTop: "1em" }}>
           <Image
             style={{ width: "50%", height: "50%" }}
@@ -181,7 +173,7 @@ export function Article() {
             where we live and the how and the why of it. LeRoy hopes to bridge
             these dialogues with vocal nuances, looking for connection between
             familiar emotional chords in Black sound and those of the earth
-            itself. The performance took notes from classNameical operatic
+            itself. The performance took notes from classical operatic
             performances like{" "}
           </span>
           <span className="c3 c6">Phantom of the Opera</span>
@@ -195,9 +187,7 @@ export function Article() {
             something new&mdash;whether love, life forms, queer utopias.
           </span>
         </p>
-        <p className="c0 c5">
-          <span className="c4 c3"></span>
-        </p>
+        <br />
         <p className="c0">
           <span className="c4 c3">
             We were there to bear witness to an exorcism, perhaps, a purging, of
@@ -265,17 +255,15 @@ export function Article() {
             </a>
           </sup>
         </p>
-        <p className="c0 c5">
-          <span className="c4 c3"></span>
-        </p>
+
+        <br />
         <p className="c0">
           <span className="c4 c3">
             Perhaps the language we are trying to rewrite is a language of self.
           </span>
         </p>
-        <p className="c0 c5">
-          <span className="c4 c3"></span>
-        </p>
+
+        <br />
         <p className="c0">
           <span className="c3">
             This forming, this reaching is a pushing against the limits of
@@ -305,9 +293,7 @@ export function Article() {
           </span>
           <span className="c4 c3">&nbsp;</span>
         </p>
-        <p className="c0">
-          <span className="c4 c3">&nbsp;</span>
-        </p>
+        <br />
         <p className="c0">
           <span className="c4 c3">
             This is a tradition that can be traced throughout music history. For
@@ -320,9 +306,7 @@ export function Article() {
             back, slips out, is revealed.
           </span>
         </p>
-        <p className="c0 c5">
-          <span className="c4 c3"></span>
-        </p>
+        <br />
         <p className="c0">
           <span className="c3">
             Vaughan is winding down a particularly slinky performance of
@@ -343,9 +327,7 @@ export function Article() {
           <span className="c3">scatting</span>
           <span className="c4 c3">. </span>
         </p>
-        <p className="c0 c5">
-          <span className="c4 c3"></span>
-        </p>
+        <br />
         <p className="c0">
           <span className="c4 c3">
             The vibes are ecstatic, the skills on display virtuosic. The
@@ -385,9 +367,7 @@ export function Article() {
           </span>
           <span className="c4 c3">.</span>
         </p>
-        <p className="c0 c5">
-          <span className="c4 c3"></span>
-        </p>
+        <br />
         <p className="c0">
           <span className="c3">
             Decolonizing the land is one task, decolonizing our bodies, our
@@ -418,9 +398,7 @@ export function Article() {
             structures, and paradigms that work better.
           </span>
         </p>
-        <p className="c0 c5">
-          <span className="c4 c3"></span>
-        </p>
+        <br />
         <p className="c0">
           <span className="c3">
             When the science fiction author Octavia Butler wrote that
