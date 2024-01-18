@@ -1,7 +1,7 @@
 import React from "react"
 import { useBreakpoints } from "@/utils/hooks"
 import { NavBar } from "./NavBar"
-import { DesktopNavBarContainer } from "./styled"
+import { DynamicNavBarContainer } from "./styled"
 import { MobileHeader } from "./Mobile"
 import { DesktopHeader } from "./Desktop"
 
@@ -12,11 +12,13 @@ export function Header() {
 
 export function DynamicHeader({ onClose }: { onClose: () => void }) {
   return (
-    <DesktopNavBarContainer
-      className="darker-grotesque"
-      onScrollCapture={onClose}
-    >
-      <NavBar dynamic />
-    </DesktopNavBarContainer>
+    <div style={{ width: "100%" }}>
+      <DynamicNavBarContainer
+        className="darker-grotesque"
+        onScrollCapture={onClose}
+      >
+        <NavBar dynamic />
+      </DynamicNavBarContainer>
+    </div>
   )
 }

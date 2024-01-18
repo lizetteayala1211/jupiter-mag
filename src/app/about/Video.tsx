@@ -9,6 +9,7 @@ export const StreamContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 6em;
 `
 
 function UnmuteButton({ cb }: { cb: any }) {
@@ -23,10 +24,19 @@ function UnmuteButton({ cb }: { cb: any }) {
       }}
     >
       <a
-        style={{ color: "#a2a2a2", backgroundColor: "transparent" }}
+        style={{
+          color: "var(--color-white)",
+          borderRadius: "8px",
+          margin: "8px",
+          border: "1px solid var(--color-transparent-white)",
+          padding: "4px 12px",
+          textTransform: "uppercase",
+          fontSize: "14px",
+          fontWeight: 400,
+        }}
         onClick={cb}
       >
-        Tap here to unmute...
+        Tap here to unmute
       </a>
     </div>
   )

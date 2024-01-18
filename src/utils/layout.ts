@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { screenMdMin } from "./constants"
 
 // shared grid base
 export const SharedGridMain = styled.main`
@@ -29,4 +30,22 @@ export const BigGuy = styled.div`
 export const HugeGuy = styled.div`
   min-height: 4em;
   width: 100%;
+`
+
+export const ArticleContainerStyles = styled.div`
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: "Alverata Light";
+`
+
+export const CaptionContainer = styled.div`
+  font-size: 16px;
+  padding-top: 4px;
+  padding-bottom: 2em;
+  line-height: 24px;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    font-size: 16px;
+  }
 `

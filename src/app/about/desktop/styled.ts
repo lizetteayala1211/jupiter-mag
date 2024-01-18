@@ -4,14 +4,13 @@ import styled from "styled-components"
 export const Main = styled(SharedGridMain)`
   grid-template-areas:
     "video"
-    "caption"
     "photo"
     "desc";
   grid-template-columns: 5fr 5fr;
-  grid-template-rows: 6fr 1fr 4fr;
+  grid-template-rows: repeat(auto-fill, 1fr);
+
   grid-template-areas:
     "video video"
-    "caption caption"
     "photo desc";
 `
 
@@ -19,12 +18,6 @@ export const VideoSection = styled.section`
   grid-area: video;
   height: auto;
   width: 100%;
-`
-
-export const CaptionSection = styled.section`
-  grid-area: caption;
-  padding-inline-start: var(--padding-body);
-  padding-inline-end: var(--padding-body);
 `
 
 export const PhotoSection = styled.section`

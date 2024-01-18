@@ -141,6 +141,7 @@ export const AuthorPhoto = styled.div`
 export const AuthorTextContent = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: 250px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {

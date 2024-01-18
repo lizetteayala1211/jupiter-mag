@@ -22,8 +22,6 @@ export default function Mobile() {
       <br />
 
       <div style={{ margin: "12px" }}>
-        <h2 style={{ fontSize: "32px", paddingBottom: "16px" }}>Header</h2>
-
         <div>
           Jupiter Magazine is a quarterly arts and culture publication that
           marks a restorative departure into an editorial space that is a nexus
@@ -40,10 +38,20 @@ export default function Mobile() {
           viable writing lives.
         </div>
       </div>
-      <Image
-        src={aboutImage}
-        alt="Portrait of co-founders of Jupiter magazine"
-      />
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          maxWidth: "100%",
+          width: "375px",
+        }}
+      >
+        <Image
+          style={{ width: "100%", height: "100%" }}
+          src={aboutImage}
+          alt="Portrait of co-founders of Jupiter magazine"
+        />
+      </div>
     </div>
   )
 }

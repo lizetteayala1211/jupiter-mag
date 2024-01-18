@@ -1,3 +1,4 @@
+import React from "react"
 import {
   MenuModalBackground,
   MenuModalContainer,
@@ -10,7 +11,6 @@ import {
 } from "./styled"
 import { NavBar } from "./NavBar"
 import { XIcon } from "../XIcon"
-import React from "react"
 import { JupiterLogo } from ".."
 
 export function MobileHeader() {
@@ -18,17 +18,8 @@ export function MobileHeader() {
 
   return (
     <HeaderContainer>
-      {openMenu && <MobileMenuOverlay setOpenMenu={setOpenMenu} />}
+      {openMenu && <MobileMenuOverlay onClose={setOpenMenu} />}
 
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          margin: "0.5em",
-        }}
-      >
-        <p style={{ fontWeight: 500 }}>Magazine</p>
-      </div>
       <LogoContainer href="./">
         <JupiterLogo color="white" />
       </LogoContainer>
@@ -39,7 +30,7 @@ export function MobileHeader() {
   )
 }
 
-function MobileMenuOverlay({ setOpenMenu }: { setOpenMenu: any }) {
+export function MobileMenuOverlay({ onClose }: { onClose: any }) {
   return (
     <>
       <MenuModalBackground />
@@ -56,7 +47,7 @@ function MobileMenuOverlay({ setOpenMenu }: { setOpenMenu: any }) {
             width: "100%",
           }}
         >
-          <ExitMenuModalButton onClick={() => setOpenMenu(false)}>
+          <ExitMenuModalButton onClick={() => onClose(false)}>
             <XIcon />
           </ExitMenuModalButton>
         </div>

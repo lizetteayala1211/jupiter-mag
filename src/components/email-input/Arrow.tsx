@@ -4,7 +4,6 @@ export function Arrow() {
       width="28"
       height="8"
       viewBox="0 0 28 8"
-      fill="var(--color-off-black)"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

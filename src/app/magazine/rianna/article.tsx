@@ -1,15 +1,24 @@
 import Image from "next/image"
 import { ArticleStyles } from "./styled"
 import riannaImg1 from "../../../../public/photos/riannaImg1.jpg"
+import { CaptionContainer, MediumGuy } from "@/utils/layout"
 
 export function Article() {
   return (
     <ArticleStyles>
+      <MediumGuy />
       <Image
         src={riannaImg1}
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         alt="Black cultural artwork"
       />
+      <CaptionContainer>
+        <b style={{ fontFamily: "Alverata Medium" }}>Albert Artwell</b>
+        <i>Jesse through the Black Star Liner (c. 1980s)</i>
+        Sea with four boats. Time is collapsed with boats carrying Jesse, Jesus
+        and other biblical figures alongside Marcus Garvey&apos;s Black Star
+        Liner.
+      </CaptionContainer>
       <ol className="c6 lst-kix_mcr6ri1dk5fa-0" start={1}>
         <li className="c2 li-bullet-0">
           <span className="c0"></span>

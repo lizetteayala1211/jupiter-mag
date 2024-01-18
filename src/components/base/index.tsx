@@ -6,7 +6,6 @@ import {
   ChildrenSection,
   Gradient,
   HeaderSection,
-  NotifyMeTextMobile,
   TriggerMenuContainer,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
@@ -22,8 +21,6 @@ import {
 type Props = { children: ReactNode; homePage?: boolean }
 
 export function Base({ children, homePage }: Props) {
-  const { isMobile } = useBreakpoints()
-
   const [showHeader, setShowHeader] = React.useState(false)
 
   const shouldBeDynamicHeader = showHeader || !homePage
@@ -45,12 +42,6 @@ export function Base({ children, homePage }: Props) {
 
   return (
     <StyledComponentsRegistry>
-      {isMobile && (
-        <NotifyMeTextMobile className="darker-grotesque">
-          Notify me!
-        </NotifyMeTextMobile>
-      )}
-
       <BaseContainer
         $homepage={isHomePage.toString()}
         className="darker-grotesque"
@@ -83,7 +74,7 @@ function BackgroundStyles() {
         width: "100%",
         height: "100%",
         overflow: "hidden",
-        borderLeft: isMobile ? `12px solid var(--color-dark-orange)` : "0",
+        borderLeft: isMobile ? `12px solid var(--color-article-purple)` : "0",
       }}
     >
       <Gradient />

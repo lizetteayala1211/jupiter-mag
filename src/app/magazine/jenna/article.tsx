@@ -2,6 +2,8 @@ import { ArticleStyles } from "./styled"
 import Image from "next/image"
 import img1 from "../../../../public/photos/jImg1.jpeg"
 import img2 from "../../../../public/photos/jImg2.jpeg"
+import img3 from "../../../../public/photos/jImg3.png"
+import { CaptionContainer } from "@/utils/layout"
 
 export function Article() {
   return (
@@ -11,7 +13,7 @@ export function Article() {
         <span>I find</span>
         <span>&nbsp;myself instead,</span>
         <br />
-        <span className="c4 c3">&nbsp;&mdash;Dionne Brand</span>
+        <span className="c4 c3"> - Dionne Brand</span>
       </p>
       <p className="c0 c5">
         <span className="c4 c3"></span>
@@ -132,7 +134,7 @@ export function Article() {
         <p className="c0 c5">
           <span className="c4 c3"></span>
         </p>
-        <div style={{ display: "flex", gap: "1em" }}>
+        <div style={{ display: "flex", gap: "1em", paddingTop: "1em" }}>
           <Image
             style={{ width: "50%", height: "50%" }}
             src={img1}
@@ -145,6 +147,10 @@ export function Article() {
             alt="Silouhette of a man"
           />
         </div>
+        <CaptionContainer>
+          <i>X’ene’s Witness</i>, presented by Los Angeles Nomadic Division
+          [LAND], images courtesy of Justen Leroy and 718 Photography
+        </CaptionContainer>
         <p className="c0">
           <span className="c3">
             Last fall, I was in Los Angeles, California at a cavernous marble
@@ -209,6 +215,15 @@ export function Article() {
         <p className="c0 c5">
           <span className="c4 c2"></span>
         </p>
+        <Image
+          style={{ width: "100%", height: "100%" }}
+          src={img3}
+          alt="Woman sitting at piano"
+        />
+        <CaptionContainer>
+          <i>X’ene’s Witness</i>, presented by Los Angeles Nomadic Division
+          [LAND], images courtesy of Justen Leroy and 718 Photography
+        </CaptionContainer>
         <p className="c0">
           <span className="c3">
             One of LeRoy&rsquo;s previous pieces also worked to connect Black
@@ -426,7 +441,9 @@ export function Article() {
             </a>
           </sup>
         </p>
+        <br />
         <hr className="c16" />
+        <br />
         <div>
           <p className="c8">
             <a href="#ftnt_ref1" id="ftnt1">

@@ -1,6 +1,11 @@
 import React from "react"
 import { Arrow } from "./Arrow"
-import { ArrowButtonContainer, Input, InputContainer } from "./styled"
+import {
+  ArrowAnimation,
+  ArrowButtonContainer,
+  Input,
+  InputContainer,
+} from "./styled"
 import { sql } from "@vercel/postgres"
 
 export function EmailInput() {
@@ -19,7 +24,9 @@ export function EmailInput() {
         <Input type="email" onChange={(e) => setEmail(e.target.value)} />
 
         <ArrowButtonContainer onClick={() => addEmail(email)}>
-          <Arrow />
+          <ArrowAnimation>
+            <Arrow />
+          </ArrowAnimation>
         </ArrowButtonContainer>
       </InputContainer>
       <p>

@@ -13,16 +13,18 @@ import { EmailInput } from "../email-input"
 export function Footer() {
   const { isMobile } = useBreakpoints()
   return (
-    <FooterContainer>
+    <FooterContainer className="darker-grotesque">
       <FooterChildren>
         <LogoContainer>
           <JupiterLogo color="black" />
         </LogoContainer>
         <TextContent>
           <TextGroup>
-            <h4>THE MAGAZINE</h4>
+            <Link href="/">
+              <h4>THE MAGAZINE</h4>
+            </Link>
             <br />
-            <Link href="./about">About</Link>
+            <Link href="/about">About</Link>
           </TextGroup>
           <TextGroup>
             <h4>JOIN JUPITER</h4>
@@ -34,7 +36,7 @@ export function Footer() {
           <TextGroup style={isMobile ? {} : { textAlign: "right" }}>
             <br />
             <Link href="https://artadia.org/jupiter-magazine/">Donate</Link>
-            <Link href="./contact">Contact us</Link>
+            <Link href="/contact">Contact us</Link>
             <br />
             <h5>info@jupiter-mag.com</h5>
           </TextGroup>

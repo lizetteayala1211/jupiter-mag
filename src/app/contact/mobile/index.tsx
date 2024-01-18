@@ -14,12 +14,10 @@ export default function Mobile() {
       <div>
         <h1 style={{ fontFamily: "Alverata Light" }}>Daria Harper</h1>
         <h2>Founder</h2>
-        <h3>dariaharper@gmail.com</h3>
       </div>
       <div>
         <h1 style={{ fontFamily: "Alverata Light" }}>Camille Bacon </h1>
         <h2>Founder</h2>
-        <h3>camillebacon@gmail.com</h3>
       </div>
       <div>
         <h1 style={{ fontFamily: "Alverata Light" }}>Instagram</h1>
