@@ -86,7 +86,7 @@ export const NextFooter = styled.div`
 `
 export const FooterTitle = styled(Link)`
   /* mobile */
-  font-size: 56px;
+  font-size: 48px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
