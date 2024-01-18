@@ -34,12 +34,12 @@ export function Credits() {
         We extended the utmost gratitude to the following people, each of whom
         have vivified the expansive spirit of Jupiter…
       </p>
+      <p>Rashid Shabazz of Critical Minded</p>
+      <p>Bora Kim and Elizabeth Baribeau of Artadia</p>
       <p>
         Hannah Gottlieb-Graham, Sue Ariza, Ashley Tyner and Anna Bane of ALMA
         Communications
       </p>
-      <p>Bora Kim and Elizabeth Baribeau of Artadia</p>
-      <p>Rashid Shabazz of Critical Minded</p>
       <p>McArthur Binion</p>
       <p>Josh Brainin</p>
       <p>Kimberly Drew</p>
