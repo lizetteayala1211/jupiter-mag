@@ -10,6 +10,7 @@ export const StreamContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   padding-bottom: 6em;
+  margin: 0 20% 0 20%;
 `
 
 function UnmuteButton({ cb }: { cb: any }) {
@@ -27,7 +28,7 @@ function UnmuteButton({ cb }: { cb: any }) {
         style={{
           color: "var(--color-white)",
           borderRadius: "8px",
-          margin: "8px",
+          margin: "4px",
           border: "1px solid var(--color-transparent-white)",
           padding: "4px 12px",
           textTransform: "uppercase",
