@@ -35,9 +35,7 @@ function NavBarItem({
   const handleColor = () => {
     if (dynamic || currentPage.includes("magazine"))
       return "var(--color-off-black)"
-    return currentPage == page
-      ? "var(--color-light-orange)"
-      : "var(--color-white)"
+    return currentPage == page ? "#6b3b81" : "var(--color-white)"
   }
 
   const handleUrl = () => {
