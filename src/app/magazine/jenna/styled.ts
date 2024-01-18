@@ -76,6 +76,8 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   }
   .c17 {
     padding: 4em 1em 2em 1em;
+    font-size: 24px;
+    font-style: italic;
 
     /* smaller desktops */
     @media only screen and (min-width: ${screenMdMin}) {

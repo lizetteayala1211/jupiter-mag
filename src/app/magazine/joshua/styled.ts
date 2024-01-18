@@ -1,9 +1,21 @@
 // styles copied and pasted from google docs exported html and edited therefrom
 
+import { screenMdMin, screenLgMin } from "@/utils/constants"
 import { ArticleContainerStyles } from "@/utils/layout"
 import styled from "styled-components"
 
 export const ArticleStyles = styled(ArticleContainerStyles)`
+  font-size: 10px;
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+    font-size: 14px;
+  }
+
+  /* wide desktops */
+  @media only screen and (min-width: ${screenLgMin}) {
+    font-size: 16px;
+  }
+
   ol {
     margin: 0;
     padding: 0;

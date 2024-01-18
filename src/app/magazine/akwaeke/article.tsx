@@ -4,12 +4,10 @@ export function Article() {
   return (
     <ArticleStyles>
       <p className="c7">
-        <span>&ldquo;</span>
         <span className="c9">
           Another world is not only possible, she is on her way. On a quiet day,
           I can hear her breathing
         </span>
-        <span className="c1">.&rdquo;</span>
         <br />
         <span className="c1">- Arundhati Roy</span>
       </p>

@@ -13,7 +13,10 @@ export function Article() {
         <span>I find</span>
         <span>&nbsp;myself instead,</span>
         <br />
-        <span className="c4 c3"> - Dionne Brand</span>
+        <span className="c4 c3" style={{ fontSize: "16px" }}>
+          {" "}
+          - Dionne Brand
+        </span>
       </p>
       <p className="c0 c5">
         <span className="c4 c3"></span>
