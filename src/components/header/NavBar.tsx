@@ -35,7 +35,7 @@ function NavBarItem({
   const handleColor = () => {
     if (dynamic || currentPage.includes("magazine"))
       return "var(--color-off-black)"
-    return currentPage == page ? "#6b3b81" : "var(--color-white)"
+    return currentPage == page ? "#C74CFF" : "var(--color-white)"
   }
 
   const handleUrl = () => {
@@ -44,7 +44,11 @@ function NavBarItem({
   }
 
   return (
-    <StyledNavBarItem style={{ color: handleColor() }} href={handleUrl()}>
+    <StyledNavBarItem
+      $currentpage={(currentPage == page).toString()}
+      style={{ color: handleColor() }}
+      href={handleUrl()}
+    >
       {toTitleCase(page)}
     </StyledNavBarItem>
   )

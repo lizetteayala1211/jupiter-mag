@@ -149,8 +149,10 @@ export const ReturnHomeButton = styled(Link)`
   }
 `
 
-export const StyledNavBarItem = styled(Link)`
+export const StyledNavBarItem = styled(Link)<{ $currentpage: string }>`
   padding: 0.75em 1em;
+  ${(props) =>
+    props.$currentpage === "true" && `text-shadow: 0px 0px 10px #D69EF0;`}
 
   &:active {
     text-shadow: 0px 0px 19.1px #96649b;

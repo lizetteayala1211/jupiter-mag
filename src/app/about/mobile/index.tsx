@@ -47,7 +47,7 @@ export default function Mobile() {
         }}
       >
         <Image
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "90%", height: "90%" }}
           src={aboutImage}
           alt="Portrait of co-founders of Jupiter magazine"
         />
