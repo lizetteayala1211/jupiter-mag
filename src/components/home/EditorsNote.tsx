@@ -122,36 +122,52 @@ export function EditorsNote() {
 
 function EditorsNoteCopy() {
   return (
-    <>
-      <p style={{ fontSize: "16px" }}>
+    <div
+      style={{
+        fontSize: "16px",
+        display: "flex",
+        flexDirection: "column",
+        gap: "1em",
+        maxWidth: "85%",
+      }}
+    >
+      <p>
         It is with a bottomless sense of gratitude that we offer to you Issue
         001: Worldbending, which materializes a channel in which readers can,
         through engagement with contemporary arts writing and cultural
         criticism, unearth what is alive for them and discover what place is
-        theirs. With contributions from Akwaeke Emezi, Jenna “J” Wortham, Joshua
-        Segun-Lean, Diallo Simon-Ponte, and Rianna Jade Parker, our inaugural
+        theirs. With contributions from Akwaeke Emezi, J Wortham, Joshua
+        Segun-Lean, Diallo Simon-Ponte and, Rianna Jade Parker, our inaugural
         issue illuminates our belief in the vital necessity of those who conjure
-        language around the work of artists who reflect our world back to itself
-        with atomic precision and celestial foresight. To speak of Worldbending
-        (a term culled from Emezi’s Dear Senthuran: A Black Spirit Memoir) is to
-        posit that the reality we have inherited is malleable material, flexible
-        flesh that we can sculpt in accordance with our needs and desires. To
-        speak of Worldbending is to set ablaze all that depends on our
-        destruction; To speak of Worldbending, then, is also to stay long after
-        the fire subsides so we may gather the ash and draw concentric circles
-        of sanctified selves. To speak of Worldbending is to marshall the force
-        of our inner-eyes, those ways of seeing, feeling, and being that remind
-        us how urgent it is to peer into the cyclone for long enough to know we
-        are of it—for it is with such ferocity that we bend the world into being
-        anew. This inaugural offering is centered, also, in our devotion to
-        providing readers with language that expands their sense of agency such
-        that they relate to themselves as people who are invested not only in
-        witnessing the world shifting around them, but being active architects
-        of the world they wish to inhabit. As galvanized by the assiduous,
-        lyrically unflinching, and spellbinding work gathered here, may we
-        speculate toward an eventual and inevitable break, and craft the
-        horizons in which we hope to bask in the aftermath.
+        planets of language around the work of artists who reflect our world
+        back to itself with atomic precision and celestial foresight.{" "}
       </p>
+
+      <p>
+        To speak of Worldbending (a term culled from Emezi’s Dear Senthuran: A
+        Black Spirit Memoir) is to posit that the reality we have inherited is
+        malleable material, flexible flesh that we can sculpt in accordance with
+        our needs and desires. To speak of Worldbending is to set ablaze all
+        that depends on our destruction; To speak of Worldbending, then, is also
+        to stay long after the fire subsides such that we may gather ash to draw
+        more concentric circles of sanctified selves. To speak of Worldbending
+        is to marshall the force of our inner-eyes, those ways of seeing,
+        feeling and being that remind us how urgent it is to peer into the
+        cyclone for long enough to know we are of it–For it is with such
+        ferocity that we bend the world into being anew.{" "}
+      </p>
+
+      <p>
+        This inaugural offering is centered, also, in our devotion to providing
+        readers with language that expands their sense of agency such that they
+        relate to themselves as people who are invested not only in witnessing
+        the world shifting around them, but being active architects of the world
+        they wish to inhabit. As galvanized by the assiduous, lyrically
+        unflinching, and spellbinding work gathered here, may we speculate
+        towards an eventual and inevitable break, and craft the horizons in
+        which we hope to bask in the aftermath.{" "}
+      </p>
+
       <HugeGuy />
       <p
         style={{
@@ -162,6 +178,6 @@ function EditorsNoteCopy() {
       >
         Always (in orbit),
       </p>
-    </>
+    </div>
   )
 }
