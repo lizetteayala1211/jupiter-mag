@@ -15,11 +15,21 @@ import { useBreakpoints } from "@/utils/hooks"
 
 export function EditorsNote() {
   const { isMobile, isSmallDesktop, isDesktop } = useBreakpoints()
+
+  // todo: make this into a styled component for faster processing speeds
   const getResponsiveSignatureSize = (): number => {
     if (isMobile) return 150
     if (isSmallDesktop) return 175
     if (isDesktop) return 225
     return 350
+  }
+
+  // todo: make this into a styled component for faster processing speeds
+  const getResponsiveJupiterSize = (): string => {
+    if (isMobile) return "15%"
+    if (isSmallDesktop) return "20%"
+    if (isDesktop) return "25%"
+    return "30%"
   }
 
   return isMobile ? (
@@ -57,8 +67,15 @@ export function EditorsNote() {
   ) : (
     <DesktopEditorContainer>
       <EditorCover>
-        <div style={{ height: "100%" }}>
-          <div style={{ height: "20%", width: "50%", padding: "16px" }}>
+        <div style={{ height: "110%" }}>
+          <div
+            style={{
+              height: getResponsiveJupiterSize(),
+              padding: "0 16px",
+              display: "flex",
+              justifyContent: "flex-start",
+            }}
+          >
             <JupiterLogo color="black" />
           </div>
           <div

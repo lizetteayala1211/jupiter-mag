@@ -69,7 +69,7 @@ export const EditorCover = styled.div`
   font-size: 48px;
   line-height: 40px;
   padding-top: var(--padding-header);
-
+  justify-content: space-between;
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     letter-spacing: -4px;

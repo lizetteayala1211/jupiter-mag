@@ -3,7 +3,6 @@
 import React from "react"
 import {
   StyledComponentsRegistry,
-  Puncture,
   DynamicHeader,
   MenuButton,
   Footer as BaseFooter,
@@ -37,10 +36,10 @@ export function ArticleBase({
 }) {
   const [showHeader, setShowHeader] = React.useState(false)
   const [showMobileMenu, setShowMobileMenu] = React.useState(false)
-  const { isMobile, isTablet, isMediumDesktop } = useBreakpoints()
+  const { isMobile } = useBreakpoints()
 
   const shouldPositionTitle = isMobile && position
-  const shouldShowPuncture = !isTablet
+
   const shouldHaveDynamicHeader = showHeader && !isMobile
 
   // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
@@ -105,11 +104,6 @@ export function ArticleBase({
           <BaseFooter />
         </Footer>
       </ArticleBaseContainer>
-      {shouldShowPuncture ? (
-        <Puncture
-          position={isMediumDesktop ? { top: "-400px" } : { top: "-700px" }}
-        />
-      ) : null}
     </StyledComponentsRegistry>
   )
 }

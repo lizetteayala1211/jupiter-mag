@@ -1,12 +1,6 @@
 "use client"
 
-import {
-  AuthorDirectory,
-  Base,
-  DesktopGrain,
-  MobileGrain,
-  Puncture,
-} from "@/components"
+import { AuthorDirectory, Base, DesktopGrain, MobileGrain } from "@/components"
 
 // styled assets
 import { Authors, Main } from "./styled"
@@ -22,8 +16,6 @@ export function Home() {
 
   return (
     <Base>
-      {!isMobile ? <Puncture position={{ top: "250px" }} /> : null}
-
       <Main>
         <Authors>
           <EditorsNote />

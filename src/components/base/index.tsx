@@ -39,6 +39,7 @@ export function Base({ children }: Props) {
   const shouldBeStatic = isAboutOrContactPage || (isMobile && !isHomePage)
   const shouldBeDynamic = !isMobile && !isAboutOrContactPage
 
+  // todo: home page and this base page need to be reconciled - too much overlap, this is not good code
   return (
     <StyledComponentsRegistry>
       <BaseContainer
@@ -69,7 +70,7 @@ export function Base({ children }: Props) {
                 padding: "1em",
               }}
             >
-              <Link style={{ width: "30%" }} href="./">
+              <Link style={{ width: "50%" }} href="./">
                 <JupiterLogo color="white" />
               </Link>
 
