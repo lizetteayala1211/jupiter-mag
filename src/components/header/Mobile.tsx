@@ -18,7 +18,7 @@ export function MobileHeader() {
 
   return (
     <HeaderContainer>
-      {openMenu && <MobileMenuOverlay onClose={setOpenMenu} />}
+      {openMenu && <MobileMenuOverlay onClose={() => setOpenMenu(false)} />}
 
       <LogoContainer href="./">
         <JupiterLogo color="white" />
@@ -30,7 +30,7 @@ export function MobileHeader() {
   )
 }
 
-export function MobileMenuOverlay({ onClose }: { onClose: any }) {
+export function MobileMenuOverlay({ onClose }: { onClose: () => void }) {
   return (
     <>
       <MenuModalBackground />
@@ -45,9 +45,10 @@ export function MobileMenuOverlay({ onClose }: { onClose: any }) {
             justifyContent: "flex-end",
             padding: "1em",
             width: "100%",
+            zIndex: 10000,
           }}
         >
-          <ExitMenuModalButton onClick={() => onClose(false)}>
+          <ExitMenuModalButton onClick={onClose}>
             <XIcon />
           </ExitMenuModalButton>
         </div>
