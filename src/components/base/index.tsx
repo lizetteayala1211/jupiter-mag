@@ -9,7 +9,7 @@ import {
   TriggerMenuContainer,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
-import { useBreakpoints } from "@/utils/hooks"
+import { useBreakpoints, useCurrentPage } from "@/utils/hooks"
 import {
   Header,
   Ticker,
@@ -18,17 +18,17 @@ import {
   DynamicHeader,
 } from "@/components"
 
-type Props = { children: ReactNode; homePage?: boolean }
+type Props = { children: ReactNode }
 
-export function Base({ children, homePage }: Props) {
+export function Base({ children }: Props) {
+  const currentPage = useCurrentPage()
   const [showHeader, setShowHeader] = React.useState(false)
 
-  const shouldBeDynamicHeader = showHeader || !homePage
+  const isHomePage = currentPage === "home"
 
-  const isHomePage = homePage!! ? homePage : false
-
+  const shouldBeDynamicHeader = showHeader || !isHomePage
   const DecideHeader = () => {
-    return homePage ? (
+    return isHomePage ? (
       <DynamicHeader onClose={() => setShowHeader(false)} />
     ) : (
       <Header />
@@ -57,7 +57,7 @@ export function Base({ children, homePage }: Props) {
         <Ticker />
         <Footer />
       </BaseContainer>
-      {!homePage && <BackgroundStyles />}
+      {!isHomePage && <BackgroundStyles />}
     </StyledComponentsRegistry>
   )
 }

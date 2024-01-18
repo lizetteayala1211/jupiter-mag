@@ -22,7 +22,7 @@ export function Home() {
   const { isMobile } = useBreakpoints()
 
   return (
-    <Base homePage>
+    <Base>
       {!isMobile ? <Puncture position={{ top: "250px" }} /> : null}
 
       <Main>
