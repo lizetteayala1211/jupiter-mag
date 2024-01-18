@@ -10,7 +10,7 @@ import {
   TriggerMenuContainer,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
-import { useBreakpoints, useCurrentPage } from "@/utils/hooks"
+import { useBreakpoints, useCurrentPage, useDisableScroll } from "@/utils/hooks"
 import {
   Header as StaticHeader,
   Ticker,
@@ -39,6 +39,9 @@ export function Base({ children }: Props) {
   const shouldBeStatic = isAboutOrContactPage || (isMobile && !isHomePage)
   const shouldBeDynamic = !isMobile && !isAboutOrContactPage
 
+  useDisableScroll(showMobileMenu)
+
+  // todo: home page and this base page need to be reconciled - too much overlap, this is not good code
   return (
     <StyledComponentsRegistry>
       <BaseContainer
@@ -69,7 +72,7 @@ export function Base({ children }: Props) {
                 padding: "1em",
               }}
             >
-              <Link style={{ width: "30%" }} href="./">
+              <Link style={{ width: "50%" }} href="./">
                 <JupiterLogo color="white" />
               </Link>
 

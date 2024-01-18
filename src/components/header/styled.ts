@@ -61,6 +61,7 @@ export const MobileNavItemsContainer = styled.div`
   text-transform: uppercase;
   z-index: var(--z-index-six);
   font-family: "Alverata Light";
+  width: 100%;
 `
 
 export const MenuModalContainer = styled.div`

@@ -15,9 +15,11 @@ export function Footer() {
   return (
     <FooterContainer className="darker-grotesque">
       <FooterChildren>
-        <LogoContainer>
-          <JupiterLogo color="black" />
-        </LogoContainer>
+        <Link href="/">
+          <LogoContainer>
+            <JupiterLogo color="black" />
+          </LogoContainer>
+        </Link>
         <TextContent>
           <TextGroup>
             <Link href="/">

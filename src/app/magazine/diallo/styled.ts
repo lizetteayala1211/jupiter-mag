@@ -48,17 +48,12 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     text-align: left;
   }
   .c5 {
-    font-family: "Alverata Light";
     font-style: italic;
 
     .c13 {
-      font-family: "Alverata Light";
       font-weight: 400;
     }
-    .c0 {
-      font-family: "Alverata Light";
-      font-weight: 400;
-    }
+
     .c17 {
       orphans: 2;
       widows: 2;
@@ -74,7 +69,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     }
     .c16 {
       font-weight: 400;
-      font-family: "Alverata Light";
     }
     .c18 {
       orphans: 2;
@@ -104,7 +98,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
       height: 1px;
     }
     .c21 {
-      font-family: "Alverata Light";
       font-weight: 700;
     }
     .c9 {
@@ -125,7 +118,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
       padding-top: 0pt;
       color: #000000;
       padding-bottom: 3pt;
-      font-family: "Alverata Light";
       page-break-after: avoid;
       orphans: 2;
       widows: 2;
@@ -135,7 +127,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
       padding-top: 0pt;
       color: #666666;
       padding-bottom: 16pt;
-      font-family: "Alverata Light";
       page-break-after: avoid;
       orphans: 2;
       widows: 2;
@@ -143,18 +134,15 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     }
     li {
       color: #000000;
-      font-family: "Alverata Light";
     }
     p {
       margin: 0;
       color: #000000;
-      font-family: "Alverata Light";
     }
     h1 {
       padding-top: 20pt;
       color: #000000;
       padding-bottom: 6pt;
-      font-family: "Alverata Light";
       page-break-after: avoid;
       orphans: 2;
       widows: 2;
@@ -164,7 +152,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
       padding-top: 18pt;
       color: #000000;
       padding-bottom: 6pt;
-      font-family: "Alverata Light";
       page-break-after: avoid;
       orphans: 2;
       widows: 2;
@@ -174,7 +161,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
       padding-top: 16pt;
       color: #434343;
       padding-bottom: 4pt;
-      font-family: "Alverata Light";
       page-break-after: avoid;
       orphans: 2;
       widows: 2;
@@ -184,7 +170,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
       padding-top: 14pt;
       color: #666666;
       padding-bottom: 4pt;
-      font-family: "Alverata Light";
       page-break-after: avoid;
       orphans: 2;
       widows: 2;
@@ -194,7 +179,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
       padding-top: 12pt;
       color: #666666;
       padding-bottom: 4pt;
-      font-family: "Alverata Light";
       page-break-after: avoid;
       orphans: 2;
       widows: 2;
@@ -204,7 +188,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
       padding-top: 12pt;
       color: #666666;
       padding-bottom: 4pt;
-      font-family: "Alverata Light";
       page-break-after: avoid;
       font-style: italic;
       orphans: 2;

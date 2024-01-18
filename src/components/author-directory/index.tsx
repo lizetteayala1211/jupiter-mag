@@ -1,23 +1,17 @@
+import { issue1Metadata } from "@/app/magazine"
 import { StyledAuthorLink, AuthorDirectoryContainer } from "./styled"
 
 export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
-  const names = [
-    "Akwaeke Emezi",
-    "Jenna “J” Wortham",
-    "Joshua Segun",
-    "Diallo Simon-Ponte",
-    "Rianna Jade Parker",
-  ]
   const isHomePage = homepage!! ? homepage : false
   return (
     <AuthorDirectoryContainer>
-      {names.map((name) => (
+      {issue1Metadata.map((author) => (
         <StyledAuthorLink
-          key={name}
+          key={author.author}
           $homepage={isHomePage.toString()}
-          href={`/magazine/${name.split(" ")[0].toLowerCase()}`}
+          href={`/magazine/${author.author.split(" ")[0].toLowerCase()}`}
         >
-          {name}
+          {author.author}
         </StyledAuthorLink>
       ))}
     </AuthorDirectoryContainer>

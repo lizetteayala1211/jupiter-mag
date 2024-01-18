@@ -27,7 +27,7 @@ export const ChildrenSection = styled.section`
 `
 export const LottieContainer = styled.div`
   width: 100%;
-  z-index: var(--z-index-three);
+  z-index: 999;
 `
 export const Gradient = styled.div`
   bottom: 0;

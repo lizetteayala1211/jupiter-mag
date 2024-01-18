@@ -74,6 +74,7 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     font-weight: 800;
     font-size: 24px;
     padding: 4em 0;
+    font-style: italic;
   }
   .title {
     padding-top: 0pt;

@@ -10,6 +10,7 @@ export const StreamContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   padding-bottom: 6em;
+  margin: 0 20% 0 20%;
 `
 
 function UnmuteButton({ cb }: { cb: any }) {
@@ -27,7 +28,7 @@ function UnmuteButton({ cb }: { cb: any }) {
         style={{
           color: "var(--color-white)",
           borderRadius: "8px",
-          margin: "8px",
+          margin: "4px",
           border: "1px solid var(--color-transparent-white)",
           padding: "4px 12px",
           textTransform: "uppercase",
@@ -74,6 +75,16 @@ export default function Video() {
           loop
           muted={!userInteracted}
         />
+        <div style={{ padding: "0 2em" }}>
+          <p>
+            Super 8 Footage Directed, Shot, & Edited by josh brainin
+            (@joshbrainin). Composed by Immanuel Wilkins (@immanuel.wilkins).
+            Saxophone, Piano, Synthesizer by Immanuel Wilkins. Cello & SFX by
+            Lester St. Louis (@lesterst.louis). Vocals by Ekep Nkwelle
+            (@ekepnkwelle). Drums & Percussion by Kweku Sumbry (@kwe.drums).
+            Produced by Jupiter Magazine.
+          </p>
+        </div>
       </StreamContainer>
     </>
   )

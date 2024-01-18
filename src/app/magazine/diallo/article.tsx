@@ -9,9 +9,7 @@ import { CaptionContainer } from "@/utils/layout"
 export function Article() {
   return (
     <ArticleStyles>
-      <p className="c3">
-        <span className="c2 c0"></span>
-      </p>
+      <br />
 
       <p className="c6">
         <span className="c10 c21">
@@ -50,9 +48,7 @@ export function Article() {
         </span>
         <span className="c2 c0">Barb&egrave;s. </span>
       </p>
-      <p className="c3">
-        <span className="c2 c0"></span>
-      </p>
+      <br />
       <p className="c6">
         <span className="c0">
           Every Wednesday night for the past 15 years, Guinean guitarist Mamady
@@ -77,9 +73,7 @@ export function Article() {
           across the region was Bembeya Jazz National.
         </span>
       </p>
-      <p className="c3">
-        <span className="c2 c0"></span>
-      </p>
+      <br />
       <Image
         style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         src={dialloImg1}
@@ -128,9 +122,7 @@ export function Article() {
           ablaze as I make my way to the dance floor.
         </span>
       </p>
-      <p className="c6">
-        <span className="c2 c0">&nbsp;</span>
-      </p>
+      <br />
       <p className="c6">
         <span className="c0">
           The music started an hour ago. As I ease past the curtain that
@@ -141,7 +133,9 @@ export function Article() {
           &nbsp;at the Museum of Modern Art for Grace Wales Bonner&rsquo;s
           exhibition{" "}
         </span>
-        <span className="c0 c9">Spirit Movers </span>
+        <span className="c0 c9">
+          <i>Spirit Movers</i>{" "}
+        </span>
         <span className="c0">
           staring deep into the brush strokes of a Bill Traylor watercolor.
         </span>
@@ -157,15 +151,17 @@ export function Article() {
           of works (on view until April 7, 2024).
         </span>
       </p>
-      <p className="c3">
-        <span className="c2 c0"></span>
-      </p>
+      <br />
       <Image
         style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         src={dialloImg3}
         alt="Artwork"
       />
-      <CaptionContainer>Bill Traylor</CaptionContainer>
+      <CaptionContainer>
+        Bill Traylor. c. 1939-1942. Watercolor and pencil on board, 14 x 13
+        3/4&quot;. Gift of Marie-Josée and Henry R. Kravis. The Museum of Modern
+        Art, New York.{" "}
+      </CaptionContainer>
       <p className="c6">
         <span className="c0">
           This exhibition unfurls from an investigation of Black cultural and
@@ -194,9 +190,11 @@ export function Article() {
           environment, and the passing of time
         </span>
         <span className="c0">. </span>
-        <span className="c0">Naturally then, in the penciled depths of </span>
-        <span className="c0 c9">Arched Drinker</span>
-        <span className="c0">&nbsp;(1939-52)</span>
+        <span className="c0">
+          Naturally then, in the penciled depths of <i>Arched Drinker</i>
+        </span>
+
+        <span className="c0"> (1939-52)</span>
         <span className="c0">
           &nbsp;by Bill Traylor, I am nothing short of transfixed and feel the
           sinews in my body contort toward the memory of total freefall that the
@@ -255,9 +253,7 @@ export function Article() {
           conga player and lay eyes on a horizon line that looks familiar.
         </span>
       </p>
-      <p className="c6">
-        <span className="c2 c0">&nbsp;</span>
-      </p>
+      <br />
       <p className="c6">
         <span className="c0">Many Wednesdays ago,</span>
         <span className="c0">
@@ -283,15 +279,17 @@ export function Article() {
           walking us through a ballad.
         </span>
       </p>
-      <p className="c3">
-        <span className="c2 c0"></span>
-      </p>
+      <br />
       <Image
         style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         src={dialloImg4}
         alt="Man playing instrument"
       />
-      <CaptionContainer>Terry Adkins</CaptionContainer>
+      <CaptionContainer>
+        W. Eugene Smith. Rahsaan Roland Kirk. 1964. Gelatin silver print, 11 1/2
+        × 7 1/4″. Gift of Richard L. Sandor. The Museum of Modern Art, New York.
+        © 1964, 2023 The Heirs of W. Eugene Smith.
+      </CaptionContainer>
       <p className="c6">
         <span className="c0">That night the </span>
         <span className="c0">electric</span>
@@ -319,15 +317,13 @@ export function Article() {
           &nbsp;Her feet did not touch the ground. Her Audre Lorde{" "}
         </span>
         <span className="c0">&ldquo;uses of the erotic&rdquo;</span>
-        <sup className="c0">
-          <a href="#ftnt2" id="ftnt_ref2">
-            [2]
-          </a>
-        </sup>
-        <span className="c0">&nbsp;</span>
-        <span className="c0">tattoo</span>
+
         <span className="c0">
-          &nbsp;emblazoned down the length of her forearm glistened like those
+          <sup>[2]</sup>
+        </span>
+        <span className="c0">
+          {" "}
+          tattoo emblazoned down the length of her forearm glistened like those
           dancing lights in the skies up north.{" "}
         </span>
         <span className="c0">
@@ -339,19 +335,19 @@ export function Article() {
         </span>
         <span className="c0">Oh, how a shadow holds.</span>
       </p>
-      <p className="c6">
-        <span className="c2 c0">&nbsp;</span>
-      </p>
+      <br />
       <p className="c6">
         <span className="c0">
           Further proof of the profundity of a shadow lies in{" "}
         </span>
-        <span className="c0 c9">Synapse</span>
+        <i>Synapse</i>
         <span className="c0">&nbsp;(1992)</span>
         <span className="c0">
           &nbsp;by Terry Adkins which situates itself as the apex of{" "}
         </span>
-        <span className="c0 c9">Spirit Movers</span>
+        <span className="c0 c9">
+          <i>Spirit Movers</i>
+        </span>
         <span className="c0">. Made up of drum skin, metal, and enamel, </span>
         <span className="c0">
           the skin has been stretched to meet the demands of the circle that
@@ -383,7 +379,7 @@ export function Article() {
           </a>
         </sup>
         <span className="c0">&nbsp;In </span>
-        <span className="c0 c9">Synapse </span>
+        <i>Synapse </i>
         <span className="c0">resides</span>
         <span className="c0">
           &nbsp;a musical performance. The frame of the sculpture takes up the
@@ -397,15 +393,17 @@ export function Article() {
         <span className="c0">neurons</span>
         <span className="c0">&nbsp;in communion with one another. </span>
       </p>
-      <p className="c3">
-        <span className="c2 c0"></span>
-      </p>
+      <br />
       <Image
         style={{ width: "100%", height: "100%", paddingTop: "1em" }}
         src={dialloImg2}
         alt="Art gallery room"
       />
-      <CaptionContainer>Mamady portrait</CaptionContainer>
+      <CaptionContainer>
+        Installation view of Artist’s Choice: Grace Wales Bonner—
+        <i>Spirit Movers</i>, on view at The Museum of Modern Art from November
+        18, 2023 through April 7, 2024. Photo: Emile Askey.
+      </CaptionContainer>
       <p className="c6">
         <span className="c0">
           Pulling objects and narratives that hold periods of time very still
@@ -426,7 +424,9 @@ export function Article() {
           past.{" "}
         </span>
         <span className="c0">To understand </span>
-        <span className="c0 c9">Spirit Movers</span>
+        <span className="c0 c9">
+          <i>Spirit Movers</i>
+        </span>
         <span className="c0">
           &nbsp;is to live by the strum of Mamady Kouyat
         </span>
@@ -476,7 +476,7 @@ export function Article() {
           </a>
           <span className="c14">&nbsp;Audre Lorde, </span>
           <span className="c9 c14">
-            Uses of the Erotic: The Erotic as Power
+            <i>Uses of the Erotic: The Erotic as Power</i>
           </span>
           <span className="c14">.</span>
         </p>

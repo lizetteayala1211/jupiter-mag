@@ -1,12 +1,6 @@
 "use client"
 
-import {
-  AuthorDirectory,
-  Base,
-  DesktopGrain,
-  MobileGrain,
-  Puncture,
-} from "@/components"
+import { AuthorDirectory, Base } from "@/components"
 
 // styled assets
 import { Authors, Main } from "./styled"
@@ -15,15 +9,11 @@ import { AuthorBackground } from "./AuthorBackground"
 import { Credits } from "./Credits"
 import { AuthorAbouts } from "./AuthorAbouts"
 import { EditorsNote } from "./EditorsNote"
-import { useBreakpoints } from "@/utils/hooks"
 
+// todo: add back greain to home page so that it doesn't overlpa the lottie file -> might invovle a refactor with how lottie is loaded in
 export function Home() {
-  const { isMobile } = useBreakpoints()
-
   return (
     <Base>
-      {!isMobile ? <Puncture position={{ top: "250px" }} /> : null}
-
       <Main>
         <Authors>
           <EditorsNote />
@@ -47,19 +37,6 @@ export function Home() {
           <AuthorBackground />
         </Authors>
       </Main>
-      <div
-        style={{
-          position: "fixed",
-          bottom: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          overflow: "hidden",
-          zIndex: 0,
-        }}
-      >
-        {isMobile ? <MobileGrain /> : <DesktopGrain />}
-      </div>
     </Base>
   )
 }
