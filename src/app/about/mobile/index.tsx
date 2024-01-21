@@ -12,18 +12,16 @@ export default function Mobile() {
         display: "flex",
         flexDirection: "column",
         gap: "2em",
-        margin: " 36px 12px",
+        padding: "36px 24px",
       }}
     >
-      <h1 style={{ fontSize: "36px", marginInlineStart: "12px" }}>
-        Meet Jupiter
-      </h1>
+      <h1 style={{ fontSize: "36px" }}>Meet Jupiter</h1>
 
       <Video />
 
       <br />
 
-      <div style={{ margin: "12px" }}>
+      <div>
         <div>
           As two writers working within, but venturing beyond, the restrictive
           systems of the art world and the constraining vocabulary of art
@@ -43,13 +41,13 @@ export default function Mobile() {
       <div
         style={{
           display: "flex",
+          alignItems: "center",
           justifyContent: "center",
-          maxWidth: "100%",
           width: "375px",
         }}
       >
         <Image
-          style={{ width: "90%", height: "90%" }}
+          style={{ width: "100%", height: "100%" }}
           src={aboutImage}
           alt="Portrait of co-founders of Jupiter magazine"
         />
