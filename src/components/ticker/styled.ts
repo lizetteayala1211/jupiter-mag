@@ -15,13 +15,9 @@ export const TickerContainer = styled.div`
   box-sizing: content-box;
   z-index: var(--z-index-three);
 
-  /*  desktop */
-  @media only screen and (min-width: ${screenMdMin}) {
-    height: 2em;
-  }
-  /* wide desktops */
+  /* desktop */
   @media only screen and (min-width: ${screenLgMin}) {
-    height: 2.5em;
+    height: 1.75em;
   }
 `
 
@@ -74,13 +70,8 @@ export const TickerItem = styled.div`
   font-size: 16px;
   font-weight: 500;
 
-  /*  desktop */
-  @media only screen and (min-width: ${screenMdMin}) {
-    font-size: 24px;
-  }
-
-  /* wide desktops */
+  /* desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    font-size: 28px;
+    font-size: 20px;
   }
 `
