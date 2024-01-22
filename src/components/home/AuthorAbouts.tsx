@@ -19,12 +19,11 @@ import joshua from "../../../public/photos/joshua.png"
 import rianna from "../../../public/photos/rianna.jpg"
 
 export function AuthorAbouts() {
-  const { isSmallDesktop, isDesktop, isLargeDesktop } = useBreakpoints()
+  const { isSmallDesktop, isLargeDesktop } = useBreakpoints()
   const getResponsiveImageSize = (): number => {
-    if (isSmallDesktop) return 250
-    if (isDesktop) return 300
+    if (isSmallDesktop) return 300
     if (isLargeDesktop) return 500
-    return 50 // is mobile
+    return 250
   }
 
   return (
@@ -33,7 +32,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
-            style={{ height: "auto" }}
+            style={{ height: "100%" }}
             src={akwaeke}
             alt="Picture of the Akwaeke"
           />
@@ -65,7 +64,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
-            style={{ height: "auto" }}
+            style={{ height: "100%" }}
             src={j}
             alt="Picture of the J"
           />
@@ -87,7 +86,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
-            style={{ height: "auto" }}
+            style={{ height: "100%" }}
             src={joshua}
             alt="Picture of the Joshua"
           />
@@ -131,7 +130,7 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
-            style={{ height: "auto" }}
+            style={{ height: "100%" }}
             src={rianna}
             alt="Picture of the Rianna"
           />

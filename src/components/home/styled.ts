@@ -128,7 +128,7 @@ export const AuthorPhoto = styled.div`
   padding-bottom: 2em;
   height: 100%;
   @media only screen and (min-width: ${screenMdMin}) {
-    width: 40%;
+    width: 50%;
   }
 `
 

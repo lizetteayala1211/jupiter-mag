@@ -1,4 +1,4 @@
-import { screenLgMin, screenMdMin } from "@/utils/constants"
+import { screenLgMin } from "@/utils/constants"
 import styled from "styled-components"
 
 export const TickerContainer = styled.div`
