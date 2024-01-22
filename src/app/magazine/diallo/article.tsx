@@ -8,7 +8,7 @@ import { CaptionContainer } from "@/utils/layout"
 
 export function Article() {
   return (
-    <ArticleStyles>
+    <ArticleStyles style={{ padding: "0 2em" }}>
       <br />
 
       <p className="c6">
@@ -437,57 +437,59 @@ export function Article() {
       <hr className="c8" />
       <br />
 
-      <div>
-        <p className="c15 c18">
-          <a href="#ftnt_ref1" id="ftnt1">
-            [1]
-          </a>
-          <span className="c14">&nbsp;</span>
-          <span className="c13">Jon Henley,</span>
-          <span className="c13">
-            &nbsp;&ldquo;Interview: Malick Sidib&eacute; photographs: One nation
-            under a groove.
-          </span>
-          <span className="c13">&rdquo;</span>
-          <span className="c5">&nbsp;</span>
-          <span className="c13">The Guardian, February 26, 2010, </span>
-          <span className="c13 c19">
-            <a
-              className="c22"
-              href="https://www.google.com/url?q=https://www.theguardian.com/artanddesign/2010/feb/27/malick-sidibe-mali-photographs-interview&amp;sa=D&amp;source=editors&amp;ust=1705097126872965&amp;usg=AOvVaw2fT4IOFT6j5CzQtRP4hfae"
-            >
-              https://www.theguardian.com/
-              <br />
-              artanddesign /2010/feb/27/
-              <br />
-              malick-sidibe-mali-photographs-interview
+      <CaptionContainer>
+        <div>
+          <p className="c15 c18">
+            <a href="#ftnt_ref1" id="ftnt1">
+              [1]
             </a>
-          </span>
-          <span className="c13">.</span>
-        </p>
-      </div>
-      <div>
-        <p className="c15 c18">
-          <a href="#ftnt_ref2" id="ftnt2">
-            [2]
-          </a>
-          <span className="c14">&nbsp;Audre Lorde, </span>
-          <span className="c9 c14">
-            <i>Uses of the Erotic: The Erotic as Power</i>
-          </span>
-          <span className="c14">.</span>
-        </p>
-      </div>
-      <div>
-        <p className="c15 c18">
-          <a href="#ftnt_ref3" id="ftnt3">
-            [3]
-          </a>
-          <span className="c14">&nbsp;Terry Adkins, </span>
-          <span className="c14">Rahr-West Art Museum</span>
-          <span className="c2 c16 c14">, 2020.</span>
-        </p>
-      </div>
+            <span className="c14">&nbsp;</span>
+            <span className="c13">Jon Henley,</span>
+            <span className="c13">
+              &nbsp;&ldquo;Interview: Malick Sidib&eacute; photographs: One
+              nation under a groove.
+            </span>
+            <span className="c13">&rdquo;</span>
+            <span className="c5">&nbsp;</span>
+            <span className="c13">The Guardian, February 26, 2010, </span>
+            <span className="c13 c19">
+              <a
+                className="c22"
+                href="https://www.google.com/url?q=https://www.theguardian.com/artanddesign/2010/feb/27/malick-sidibe-mali-photographs-interview&amp;sa=D&amp;source=editors&amp;ust=1705097126872965&amp;usg=AOvVaw2fT4IOFT6j5CzQtRP4hfae"
+              >
+                https://www.theguardian.com/
+                <br />
+                artanddesign /2010/feb/27/
+                <br />
+                malick-sidibe-mali-photographs-interview
+              </a>
+            </span>
+            <span className="c13">.</span>
+          </p>
+        </div>
+        <div>
+          <p className="c15 c18">
+            <a href="#ftnt_ref2" id="ftnt2">
+              [2]
+            </a>
+            <span className="c14">&nbsp;Audre Lorde, </span>
+            <span className="c9 c14">
+              <i>Uses of the Erotic: The Erotic as Power</i>
+            </span>
+            <span className="c14">.</span>
+          </p>
+        </div>
+        <div>
+          <p className="c15 c18">
+            <a href="#ftnt_ref3" id="ftnt3">
+              [3]
+            </a>
+            <span className="c14">&nbsp;Terry Adkins, </span>
+            <span className="c14">Rahr-West Art Museum</span>
+            <span className="c2 c16 c14">, 2020.</span>
+          </p>
+        </div>
+      </CaptionContainer>
     </ArticleStyles>
   )
 }

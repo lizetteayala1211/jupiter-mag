@@ -14,7 +14,8 @@ export default function Desktop() {
       </VideoSection>
       <PhotoSection>
         <Image
-          style={{ width: "100%", height: "100%", padding: "0 2em" }}
+          width={460}
+          height={622}
           src={aboutImage}
           alt="Portrait of co-founders of Jupiter magazine"
         />

@@ -20,8 +20,6 @@ export const ContactSection = styled.section`
 
   flex-direction: column;
   gap: 2.5em;
-  text-transform: uppercase;
-  line-height: 30px;
 `
 
 export const FormSection = styled.section`

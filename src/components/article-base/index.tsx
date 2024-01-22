@@ -69,21 +69,21 @@ export function ArticleBase({
           <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
         </Cover>
         <Article>
-          {isMobile ? (
-            <div
-              style={{
-                position: "sticky",
-                top: 0,
-                left: 0,
-                padding: "1em",
-                background:
-                  "linear-gradient(180deg, rgba(232, 224, 222, 0.60) 0%, rgba(232, 224, 222, 0.00) 100%)",
-              }}
-              onClick={() => setShowMobileMenu(!showMobileMenu)}
-            >
-              <MenuButton />
-            </div>
-          ) : null}
+          <div
+            style={{
+              position: "sticky",
+              top: 0,
+              display: "flex",
+              justifyContent: "flex-end",
+              padding: "1em",
+              background:
+                "linear-gradient(180deg, rgba(232, 224, 222, 0.60) 0%, rgba(232, 224, 222, 0.00) 100%)",
+            }}
+            onClick={() => setShowMobileMenu(!showMobileMenu)}
+          >
+            <MenuButton />
+          </div>
+
           {children}
         </Article>
         <Footer>
@@ -99,7 +99,7 @@ export function ArticleBase({
               }}
             >
               <Link href={next.link}>Next</Link>
-              <>{next.author}</>
+              <Link href={next.link}>{next.author}</Link>
             </div>
           </NextFooter>
 

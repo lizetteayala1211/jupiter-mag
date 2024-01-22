@@ -18,6 +18,7 @@ import {
   StyledComponentsRegistry,
   DynamicHeader,
   JupiterLogo,
+  MenuButton,
 } from "@/components"
 import { MobileMenuOverlay } from "../header/Mobile"
 import { JupiterAnimation } from "../home/JupiterAnimation"
@@ -82,7 +83,7 @@ export function Base({ children }: Props) {
                 style={{ zIndex: 99999 }}
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
               >
-                Menu
+                <MenuButton />
               </div>
             </div>
           ) : null}

@@ -3,14 +3,30 @@
 import React from "react"
 import { Stream } from "@cloudflare/stream-react"
 import styled from "styled-components"
+import { screenMdMin, screenSmMin, screenXsMin } from "@/utils/constants"
 
 export const StreamContainer = styled.div`
   z-index: -10;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 6em;
-  margin: 0 20% 0 20%;
+
+  @media only screen and (min-width: ${screenSmMin}) {
+    margin: 0 10% 0 10%;
+  }
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    margin: 0 20% 0 20%;
+  }
+`
+
+export const CaptionContainer = styled.p`
+  font-size: 16px;
+
+  @media only screen and (min-width: ${screenXsMin}) {
+    margin: 0 12px 0 12px;
+    font-size: 12px;
+  }
 `
 
 function UnmuteButton({ cb }: { cb: any }) {
@@ -75,16 +91,14 @@ export default function Video() {
           loop
           muted={!userInteracted}
         />
-        <div style={{ padding: "0 2em" }}>
-          <p>
-            Super 8 Footage Directed, Shot, & Edited by josh brainin
-            (@joshbrainin). Composed by Immanuel Wilkins (@immanuel.wilkins).
-            Saxophone, Piano, Synthesizer by Immanuel Wilkins. Cello & SFX by
-            Lester St. Louis (@lesterst.louis). Vocals by Ekep Nkwelle
-            (@ekepnkwelle). Drums & Percussion by Kweku Sumbry (@kwe.drums).
-            Produced by Jupiter Magazine.
-          </p>
-        </div>
+        <CaptionContainer>
+          Super 8 Footage Directed, Shot, & Edited by josh brainin
+          (@joshbrainin). Composed by Immanuel Wilkins (@immanuel.wilkins).
+          Saxophone, Piano, Synthesizer by Immanuel Wilkins. Cello & SFX by
+          Lester St. Louis (@lesterst.louis). Vocals by Ekep Nkwelle
+          (@ekepnkwelle). Drums & Percussion by Kweku Sumbry (@kwe.drums).
+          Produced by Jupiter Magazine.
+        </CaptionContainer>
       </StreamContainer>
     </>
   )

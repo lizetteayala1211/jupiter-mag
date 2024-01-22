@@ -18,6 +18,7 @@ export const VideoSection = styled.section`
   grid-area: video;
   height: auto;
   width: 100%;
+  margin-bottom: 128px;
 `
 
 export const PhotoSection = styled.section`
@@ -25,13 +26,12 @@ export const PhotoSection = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: var(--padding-body);
+  margin: var(--padding-body);
 `
 
 export const DescSection = styled.section`
   grid-area: desc;
-  padding-inline-start: var(--padding-body);
-  padding-inline-end: var(--padding-body);
+  margin: 4em 8em 4em 4em;
   display: flex;
   flex-direction: column;
   align-items: center;

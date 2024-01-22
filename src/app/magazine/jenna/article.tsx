@@ -427,42 +427,46 @@ export function Article() {
         <br />
         <hr className="c16" />
         <br />
-        <div>
-          <p className="c8">
-            <a href="#ftnt_ref1" id="ftnt1">
-              [1]
-            </a>
-            <span className="c10">&nbsp;Christina Sharpe, </span>
-            <span className="c6 c10">In the Wake: On Blackness and Being</span>
-            <span className="c10">.</span>
-          </p>
-        </div>
-        <div>
-          <p className="c8">
-            <a href="#ftnt_ref2" id="ftnt2">
-              [2]
-            </a>
-            <span className="c10">
-              &nbsp;Epigraph to Octavia Butler&rsquo;s incomplete book,{" "}
-            </span>
-            <span className="c10 c6">Parable of the Trickster</span>
-            <span className="c4 c15 c10">. </span>
-          </p>
-        </div>
-        <div>
-          <p className="c8">
-            <a href="#ftnt_ref3" id="ftnt3">
-              [3]
-            </a>
-            <span className="c10">
-              &nbsp;Title culled from the following text: Fred Moten, &ldquo;
-            </span>
-            <span className="c10">Black Mo&rsquo;nin&rsquo;,&rdquo; in </span>
-            <span className="c10 c6">Loss: The Politics of Mourning</span>
-            <span className="c10">, David L. Eng and David Kazanjian.</span>
-            <span className="c10">&nbsp;</span>
-          </p>
-        </div>
+        <CaptionContainer>
+          <div>
+            <p className="c8">
+              <a href="#ftnt_ref1" id="ftnt1">
+                [1]
+              </a>
+              <span className="c10">&nbsp;Christina Sharpe, </span>
+              <span className="c6 c10">
+                In the Wake: On Blackness and Being
+              </span>
+              <span className="c10">.</span>
+            </p>
+          </div>
+          <div>
+            <p className="c8">
+              <a href="#ftnt_ref2" id="ftnt2">
+                [2]
+              </a>
+              <span className="c10">
+                &nbsp;Epigraph to Octavia Butler&rsquo;s incomplete book,{" "}
+              </span>
+              <span className="c10 c6">Parable of the Trickster</span>
+              <span className="c4 c15 c10">. </span>
+            </p>
+          </div>
+          <div>
+            <p className="c8">
+              <a href="#ftnt_ref3" id="ftnt3">
+                [3]
+              </a>
+              <span className="c10">
+                &nbsp;Title culled from the following text: Fred Moten, &ldquo;
+              </span>
+              <span className="c10">Black Mo&rsquo;nin&rsquo;,&rdquo; in </span>
+              <span className="c10 c6">Loss: The Politics of Mourning</span>
+              <span className="c10">, David L. Eng and David Kazanjian.</span>
+              <span className="c10">&nbsp;</span>
+            </p>
+          </div>
+        </CaptionContainer>
       </div>
     </ArticleStyles>
   )

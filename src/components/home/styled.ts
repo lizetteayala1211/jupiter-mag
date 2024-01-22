@@ -70,6 +70,7 @@ export const EditorCover = styled.div`
   line-height: 40px;
   padding-top: var(--padding-header);
   justify-content: space-between;
+
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     letter-spacing: -4px;
@@ -134,13 +135,13 @@ export const AuthorPhoto = styled.div`
 export const AuthorTextContent = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 65%;
+  width: 90%;
+  max-width: 90%;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     padding-inline-start: 2em;
     max-width: 550px;
-    width: 70%;
   }
 
   /* wide desktops */
