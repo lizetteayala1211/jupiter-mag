@@ -1,9 +1,9 @@
 import { ArticleStyles } from "./styled"
 import Image from "next/image"
-import dialloImg1 from "../../../../public/photos/dialloImg1.jpeg"
+import dialloImg1 from "../../../../public/photos/dialloImg1.png"
 import dialloImg2 from "../../../../public/photos/dialloImg2.png"
 import dialloImg3 from "../../../../public/photos/dialloImg3.png"
-import dialloImg4 from "../../../../public/photos/dialloImg4.jpeg"
+import dialloImg4 from "../../../../public/photos/dialloImg4.png"
 import { CaptionContainer } from "@/utils/layout"
 
 export function Article() {

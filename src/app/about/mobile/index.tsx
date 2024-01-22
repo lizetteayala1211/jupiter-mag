@@ -3,7 +3,7 @@
 import React from "react"
 import Video from "../Video"
 import Image from "next/image"
-import aboutImage from "../../../../public/photos/aboutPortrait.jpeg"
+import aboutImage from "../../../../public/photos/aboutPortrait.png"
 
 export default function Mobile() {
   return (

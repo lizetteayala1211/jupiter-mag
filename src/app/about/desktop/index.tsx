@@ -3,7 +3,7 @@
 import { DescSection, VideoSection, Main, PhotoSection } from "./styled"
 import React from "react"
 import Image from "next/image"
-import aboutImage from "../../../../public/photos/aboutPortrait.jpeg"
+import aboutImage from "../../../../public/photos/aboutPortrait.png"
 import Video from "../Video"
 
 export default function Desktop() {
