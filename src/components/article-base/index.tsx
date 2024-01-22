@@ -74,7 +74,7 @@ export function ArticleBase({
               style={{
                 position: "sticky",
                 top: 0,
-                left: 0,
+                float: "right",
                 padding: "1em",
                 background:
                   "linear-gradient(180deg, rgba(232, 224, 222, 0.60) 0%, rgba(232, 224, 222, 0.00) 100%)",

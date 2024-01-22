@@ -11,7 +11,7 @@ import {
 } from "./styled"
 import { NavBar } from "./NavBar"
 import { XIcon } from "../XIcon"
-import { JupiterLogo } from ".."
+import { JupiterLogo, MenuButton as MenuButtonSVG } from ".."
 
 export function MobileHeader() {
   const [openMenu, setOpenMenu] = React.useState(false)
@@ -24,7 +24,7 @@ export function MobileHeader() {
         <JupiterLogo color="white" />
       </LogoContainer>
       <MenuButton onClick={() => setOpenMenu(!openMenu)}>
-        <p>Menu</p>
+        <MenuButtonSVG />
       </MenuButton>
     </HeaderContainer>
   )
