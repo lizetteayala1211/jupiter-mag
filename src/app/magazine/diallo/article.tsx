@@ -8,7 +8,7 @@ import { CaptionContainer } from "@/utils/layout"
 
 export function Article() {
   return (
-    <ArticleStyles>
+    <ArticleStyles style={{ padding: "0 2em" }}>
       <br />
 
       <p className="c6">

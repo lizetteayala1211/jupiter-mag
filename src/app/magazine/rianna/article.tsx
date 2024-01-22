@@ -5,7 +5,7 @@ import { CaptionContainer, MediumGuy } from "@/utils/layout"
 
 export function Article() {
   return (
-    <ArticleStyles>
+    <ArticleStyles style={{ padding: "0 2em" }}>
       <MediumGuy />
       <Image
         src={riannaImg1}
