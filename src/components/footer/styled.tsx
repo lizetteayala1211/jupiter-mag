@@ -12,12 +12,14 @@ export const FooterChildren = styled.div`
 `
 
 export const LogoContainer = styled.div`
-  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 1em 1em 4em 1em;
   width: 70%;
 
   @media only screen and (min-width: ${screenSmMin}) {
     width: 30%;
-    margin: 1em 1em 4em 1em;
   }
 `
 

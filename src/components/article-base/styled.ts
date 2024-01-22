@@ -81,12 +81,12 @@ export const NextFooter = styled.div`
 
   color: var(--color-off-black);
   font-family: "Alverata Light";
-  min-height: 320px;
   padding: 0 16px 12px 16px;
 `
 export const FooterTitle = styled(Link)`
   /* mobile */
-  font-size: px;
+  font-size: 40px;
+  padding-bottom: 1em;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {

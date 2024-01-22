@@ -99,7 +99,7 @@ export function ArticleBase({
               }}
             >
               <Link href={next.link}>Next</Link>
-              <>{next.author}</>
+              <Link href={next.link}>{next.author}</Link>
             </div>
           </NextFooter>
 
