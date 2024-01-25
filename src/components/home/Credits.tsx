@@ -9,7 +9,7 @@ export function Credits() {
       <MediumGuy />
       <p>Publication Year: 2024</p>
       <p>Editorial Team: Camille Bacon, Daria Harper</p>
-      <p>Proofreader: Niara Hightower</p>
+      <p>Editorial Assistant: Niara Hightower</p>
       <p>Design Team: DogBeach;</p>
       <p>
         Creative Director: Sebastien Pierre, Design Director: Alyssa Klimo, Art

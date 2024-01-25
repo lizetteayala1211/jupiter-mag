@@ -69,9 +69,9 @@ export function AuthorAbouts() {
           />
         </AuthorPhoto>
         <AuthorTextContent>
-          <AuthorTitle>Jenna J Wortham</AuthorTitle>
+          <AuthorTitle>Jenna “J” Wortham</AuthorTitle>
           <AuthorBody>
-            Jenna J Wortham (they/them) is a sound healer, reiki practitioner,
+            Jenna “J” Wortham (they/them) is a sound healer, reiki practitioner,
             herbalist, and community care worker oriented towards healing
             justice and liberation. J is also a staff writer for The New York
             Times Magazine, and co-host of the podcast “Still Processing.” J is

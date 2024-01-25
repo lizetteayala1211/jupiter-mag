@@ -132,15 +132,16 @@ function EditorsNoteCopy() {
       }}
     >
       <p>
-        It is with a bottomless sense of gratitude that we offer to you Issue
-        001: Worldbending, which materializes a channel in which readers can,
-        through engagement with contemporary arts writing and cultural
-        criticism, unearth what is alive for them and discover what place is
-        theirs. With contributions from Akwaeke Emezi, J Wortham, Joshua
-        Segun-Lean, Diallo Simon-Ponte and, Rianna Jade Parker, our inaugural
-        issue illuminates our belief in the vital necessity of those who conjure
-        planets of language around the work of artists who reflect our world
-        back to itself with atomic precision and celestial foresight.{" "}
+        It is with a bottomless sense of gratitude that we offer to you{" "}
+        <i>Issue 001: Worldbending</i>. Our inaugural issue materializes a
+        channel in which readers can, through engagement with contemporary arts
+        writing and cultural criticism, unearth what is alive for them and
+        discover what place is theirs. With contributions from Akwaeke Emezi, J
+        Wortham, Joshua Segun-Lean, Diallo Simon-Ponte and, Rianna Jade Parker,
+        our inaugural issue illuminates our belief in the vital necessity of
+        those who conjure planets of language around the work of artists who
+        reflect our world back to itself with atomic precision and celestial
+        foresight.{" "}
       </p>
 
       <p>
