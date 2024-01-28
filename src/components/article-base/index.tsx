@@ -43,6 +43,7 @@ export function ArticleBase({
   const shouldHaveDynamicHeader = showHeader && !isMobile
 
   // todo: dynamic menu is kind of broken and i'm tired so we're gonna time out the menu
+  // -issues include animation, re rendering whole base page every time we toggle in and out, time out
   setTimeout(() => {
     setShowHeader(false)
   }, 5000)
@@ -60,52 +61,52 @@ export function ArticleBase({
           <DynamicHeaderMechanism />
         </Header>
       ) : null}
-      {showMobileMenu && (
+      {showMobileMenu ? (
         <MobileMenuOverlay onClose={() => setShowMobileMenu(false)} />
-      )}
-
-      <ArticleBaseContainer>
-        <Cover>
-          <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
-        </Cover>
-        <Article>
-          <div
-            style={{
-              position: "sticky",
-              top: 0,
-              display: "flex",
-              justifyContent: "flex-end",
-              padding: "1em",
-              background:
-                "linear-gradient(180deg, rgba(232, 224, 222, 0.60) 0%, rgba(232, 224, 222, 0.00) 100%)",
-            }}
-            onClick={() => setShowMobileMenu(!showMobileMenu)}
-          >
-            <MenuButton />
-          </div>
-
-          {children}
-        </Article>
-        <Footer>
-          <NextFooter>
-            <FooterTitle href={next.link}>{next.title}</FooterTitle>
+      ) : (
+        <ArticleBaseContainer>
+          <Cover>
+            <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
+          </Cover>
+          <Article>
             <div
               style={{
+                position: "sticky",
+                top: 0,
                 display: "flex",
-                flexDirection: "row",
-                justifyContent: "space-between",
-                fontSize: isMobile ? "16px" : "32px",
-                paddingTop: "16px",
+                justifyContent: "flex-end",
+                padding: "1em",
+                background:
+                  "linear-gradient(180deg, rgba(232, 224, 222, 0.60) 0%, rgba(232, 224, 222, 0.00) 100%)",
               }}
+              onClick={() => setShowMobileMenu(!showMobileMenu)}
             >
-              <Link href={next.link}>Next</Link>
-              <Link href={next.link}>{next.author}</Link>
+              <MenuButton />
             </div>
-          </NextFooter>
 
-          <BaseFooter />
-        </Footer>
-      </ArticleBaseContainer>
+            {children}
+          </Article>
+          <Footer>
+            <NextFooter>
+              <FooterTitle href={next.link}>{next.title}</FooterTitle>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "space-between",
+                  fontSize: isMobile ? "16px" : "32px",
+                  paddingTop: "16px",
+                }}
+              >
+                <Link href={next.link}>Next</Link>
+                <Link href={next.link}>{next.author}</Link>
+              </div>
+            </NextFooter>
+
+            <BaseFooter />
+          </Footer>
+        </ArticleBaseContainer>
+      )}
     </StyledComponentsRegistry>
   )
 }
