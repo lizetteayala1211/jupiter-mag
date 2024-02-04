@@ -3,31 +3,39 @@ import { Arrow } from "./Arrow"
 import {
   ArrowAnimation,
   ArrowButtonContainer,
+  Form,
   Input,
   InputContainer,
 } from "./styled"
 import { sql } from "@vercel/postgres"
+import { validateEmail } from "@/utils/helpers"
 
 export function EmailInput() {
   const [email, setEmail] = React.useState("")
+  const ref: React.Ref<any> = React.useRef<HTMLDivElement>(null)
 
   const addEmail = async (email: string) => {
-    await sql`INSERT INTO Emails (Email) VALUES (${email});`
-
-    const emails = await sql`SELECT * FROM Emails;`
-    return console.log({ emails }, { status: 200 })
+    if (validateEmail(email)) {
+      await sql`INSERT INTO Emails (Email) VALUES (${email});`
+      ref.current.value = ""
+    }
   }
 
   return (
     <div>
       <InputContainer>
-        <Input type="email" onChange={(e) => setEmail(e.target.value)} />
-
-        <ArrowButtonContainer onClick={() => addEmail(email)}>
-          <ArrowAnimation>
-            <Arrow />
-          </ArrowAnimation>
-        </ArrowButtonContainer>
+        <Form onSubmit={() => addEmail(email)}>
+          <Input
+            ref={ref}
+            type="email"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <ArrowButtonContainer onClick={() => addEmail(email)}>
+            <ArrowAnimation>
+              <Arrow />
+            </ArrowAnimation>
+          </ArrowButtonContainer>
+        </Form>
       </InputContainer>
       <p>
         Enter your email to sign up for updates on our next releases and events.

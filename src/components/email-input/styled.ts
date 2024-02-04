@@ -1,13 +1,16 @@
 import styled from "styled-components"
 
+export const Form = styled.form`
+  height: 32px;
+  width: 324px;
+`
+
 export const Input = styled.input`
   background-color: transparent;
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 1px solid var(--color-off-black);
-  height: 32px;
-  width: 324px;
   font-size: 18px;
   font-weight: 300;
   font-family: "Darker Grotesque", sans-serif;
@@ -22,10 +25,8 @@ export const ArrowButtonContainer = styled.button`
   height: 32px;
   width: 28px;
   background-color: transparent;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid var(--color-off-black);
+  padding: 8px;
+  border: none;
 `
 
 export const ArrowAnimation = styled.div`
