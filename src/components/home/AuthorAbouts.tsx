@@ -31,7 +31,6 @@ export function AuthorAbouts() {
         <AuthorPhoto>
           <Image
             width={getResponsiveImageSize()}
-            style={{ height: "100%" }}
             src={akwaeke}
             alt="Picture of the Akwaeke"
           />
