@@ -5,6 +5,7 @@ import {
   Playfair_Display,
 } from "next/font/google"
 import "./globals.css"
+import { Analytics } from "@vercel/analytics/react"
 
 const darkerGrotesque = Darker_Grotesque({
   subsets: ["latin"],
@@ -36,7 +37,10 @@ export default function RootLayout({
       lang="en"
       className={`${darkerGrotesque.variable} ${abhayaLibre.variable} ${playfairDisplay.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
