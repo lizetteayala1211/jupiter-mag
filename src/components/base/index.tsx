@@ -6,7 +6,6 @@ import {
   ChildrenSection,
   Gradient,
   HeaderSection,
-  LottieContainer,
   TriggerMenuContainer,
 } from "./styled"
 import { DesktopGrain, MobileGrain } from "../GrainBackgrounds"
@@ -21,7 +20,6 @@ import {
   MenuButton,
 } from "@/components"
 import { MobileMenuOverlay } from "../header/Mobile"
-import { JupiterAnimation } from "../../app/issue/1/JupiterAnimation"
 import Link from "next/link"
 
 type Props = { children: ReactNode }
@@ -60,12 +58,6 @@ export function Base({ children }: Props) {
 
         {/* todo: need to consolidate all header components to be more readable :') */}
         <ChildrenSection>
-          {isHomePage && (
-            <LottieContainer>
-              <JupiterAnimation />
-            </LottieContainer>
-          )}
-
           {isMobile && isHomePage ? (
             <div
               style={{
