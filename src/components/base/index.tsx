@@ -21,7 +21,7 @@ import {
   MenuButton,
 } from "@/components"
 import { MobileMenuOverlay } from "../header/Mobile"
-import { JupiterAnimation } from "../home/JupiterAnimation"
+import { JupiterAnimation } from "../../app/issue/1/JupiterAnimation"
 import Link from "next/link"
 
 type Props = { children: ReactNode }

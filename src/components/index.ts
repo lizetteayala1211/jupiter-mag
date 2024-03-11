@@ -5,7 +5,6 @@ export { ContactForm } from "./contact-form"
 export { EmailInput } from "./email-input"
 export { Footer } from "./footer"
 export { Header, DynamicHeader } from "./header"
-export { Home } from "./home"
 export { Ticker } from "./ticker"
 export { Puncture } from "./puncture"
 

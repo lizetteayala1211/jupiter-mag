@@ -11,11 +11,11 @@ import { useBreakpoints } from "@/utils/hooks"
 import Image from "next/image"
 
 // author photos
-import akwaeke from "../../../public/photos/akwaeke.png"
-import diallo from "../../../public/photos/diallo.png"
-import j from "../../../public/photos/j.png"
-import joshua from "../../../public/photos/joshua.png"
-import rianna from "../../../public/photos/rianna.png"
+import akwaeke from "../../../../public/photos/akwaeke.png"
+import diallo from "../../../../public/photos/diallo.png"
+import j from "../../../../public/photos/j.png"
+import joshua from "../../../../public/photos/joshua.png"
+import rianna from "../../../../public/photos/rianna.png"
 
 export function AuthorAbouts() {
   const { isSmallDesktop, isLargeDesktop } = useBreakpoints()

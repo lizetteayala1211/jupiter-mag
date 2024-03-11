@@ -11,7 +11,7 @@ import { AuthorAbouts } from "./AuthorAbouts"
 import { EditorsNote } from "./EditorsNote"
 
 // todo: add back greain to home page so that it doesn't overlpa the lottie file -> might invovle a refactor with how lottie is loaded in
-export function Home() {
+export default function Page() {
   return (
     <Base>
       <Main>

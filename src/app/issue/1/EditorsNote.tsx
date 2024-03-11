@@ -7,10 +7,10 @@ import {
   EditorNote,
 } from "./styled"
 import Image from "next/image"
-import dariaSignatureBlack from "../../../public/signatures/daria_black.png"
-import camilleSignatureBlack from "../../../public/signatures/camille_black.png"
-import dariaSignatureWhite from "../../../public/signatures/daria_white.png"
-import camilleSignatureWhite from "../../../public/signatures/camille_white.png"
+import dariaSignatureBlack from "../../../../public/signatures/daria_black.png"
+import camilleSignatureBlack from "../../../../public/signatures/camille_black.png"
+import dariaSignatureWhite from "../../../../public/signatures/daria_white.png"
+import camilleSignatureWhite from "../../../../public/signatures/camille_white.png"
 import { useBreakpoints } from "@/utils/hooks"
 
 export function EditorsNote() {
