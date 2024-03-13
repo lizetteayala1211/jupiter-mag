@@ -9,7 +9,7 @@ import { AuthorBackground } from "./AuthorBackground"
 import { Credits } from "./Credits"
 import { AuthorAbouts } from "./AuthorAbouts"
 import { EditorsNote } from "./EditorsNote"
-import { Lottie } from "@/components/lottie"
+import { Lottie } from "@/components/lottie-container"
 
 // todo: add back greain to home page so that it doesn't overlpa the lottie file -> might invovle a refactor with how lottie is loaded in
 export default function Page() {

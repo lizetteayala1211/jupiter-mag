@@ -128,7 +128,6 @@ function EditorsNoteCopy() {
         display: "flex",
         flexDirection: "column",
         gap: "1em",
-        maxWidth: "85%",
       }}
     >
       <p>

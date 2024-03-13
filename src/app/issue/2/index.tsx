@@ -9,12 +9,12 @@ import { AuthorBackground } from "./AuthorBackground"
 import { Credits } from "./Credits"
 import { AuthorAbouts } from "./AuthorAbouts"
 import { EditorsNote } from "./EditorsNote"
-import { Lottie } from "@/components/lottie"
+import { Lottie } from "@/components/lottie-container"
 
 // todo: add back grain to home page so that it doesn't overlap the lottie file -> might invovle a refactor with how lottie is loaded in
 export function Page() {
   return (
-    <Base>
+    <Base homePage>
       <Main>
         <Authors>
           <Lottie path="/static/jupiter2.lottie.json" />

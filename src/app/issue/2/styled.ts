@@ -22,7 +22,6 @@ export const Authors = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em;
 
   background: linear-gradient(
     200deg,

@@ -24,13 +24,6 @@ export const Authors = styled.section`
   align-items: center;
   padding: 1em;
 
-  background: linear-gradient(
-    200deg,
-    rgba(191, 160, 193, 0) 11.66%,
-    #a88eaa 19.75%,
-    #000 54.08%
-  );
-
   /*  desktop */
   @media only screen and (min-width: ${screenMdMin}) {
     padding: 0;
