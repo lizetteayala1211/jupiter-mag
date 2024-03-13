@@ -3,7 +3,7 @@ import React from "react"
 import type { LottiePlayer } from "lottie-web"
 import { LottieContainer } from "./styled"
 
-export function Lottie({ path }: { path: string }) {
+export function Lottie({ path, color }: { path: string; color: string }) {
   const ref: React.Ref<any> = React.useRef<HTMLDivElement>(null)
   const [lottie, setLottie] = React.useState<LottiePlayer | null>(null)
   const [loading, setLoading] = React.useState(true)
@@ -31,7 +31,7 @@ export function Lottie({ path }: { path: string }) {
   }, [lottie, path])
 
   return (
-    <LottieContainer $loading={loading.toString()}>
+    <LottieContainer $loading={loading.toString()} $color={color}>
       <div ref={ref} />
     </LottieContainer>
   )

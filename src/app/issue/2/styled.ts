@@ -23,29 +23,23 @@ export const Authors = styled.section`
   flex-direction: column;
   align-items: center;
 
-  background: linear-gradient(
-    200deg,
-    rgba(191, 160, 193, 0) 11.66%,
-    #a88eaa 19.75%,
-    #000 54.08%
-  );
+  /* Rectangle 14 */
 
-  /*  desktop */
-  @media only screen and (min-width: ${screenMdMin}) {
-    padding: 0;
-
-    background: linear-gradient(
-        189deg,
-        rgba(191, 160, 193, 0) 11.66%,
-        #a88eaa 29.75%,
-        #000 54.08%
-      ),
-      conic-gradient(
-        from 0deg at 50% 28.37%,
-        var(--color-article-cream) 0.06875477149151266deg,
-        var(--color-article-purple) 360deg
-      );
-  }
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.49%, #000000 100%),
+    radial-gradient(
+        172.37% 32.18% at 79.3% 6.23%,
+        #efeded 18.54%,
+        rgba(8, 36, 57, 0.201837) 75.31%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        80.23% 5.14% at 80.23% 5.72%,
+        rgba(0, 21, 52, 0) 27.1%,
+        #01001a 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #040921;
+  background-blend-mode: normal, lighten, normal, normal;
 `
 
 export const DesktopEditorContainer = styled.div`

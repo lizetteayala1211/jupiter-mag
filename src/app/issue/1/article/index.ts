@@ -4,28 +4,28 @@ import { ArticleMetadata } from "@/utils/types"
 export const issue1Metadata: ArticleMetadata[] = [
   {
     title: "On Worldbending",
-    link: "/magazine/akwaeke",
+    link: "/issue/1/article/akwaeke",
     author: "Akwaeke Emezi",
   },
   {
     title: "by way of what's already there",
-    link: "/magazine/jenna",
+    link: "/issue/1/article/jenna",
     author: "Jenna “J” Wortham",
   },
   {
     title: "Someone to Watch Over Me: A Lover's Discourse",
-    link: "/magazine/joshua",
+    link: "/issue/1/article/joshua",
     author: "Joshua Segun-Lean",
   },
   {
     title:
       "Long and Articulated Life: Mamady Kouyaté and Grace Wales Bonner's Spirit Movers",
-    link: "/magazine/diallo",
+    link: "/issue/1/article/diallo",
     author: "Diallo Simon-Ponte",
   },
   {
     title: "Inward Stretch, Outward Reach: An Approach to Black Aesthetics",
-    link: "/magazine/rianna",
+    link: "/issue/1/article/rianna",
     author: "Rianna Jade Parker",
   },
 ]

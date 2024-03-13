@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { ArticleStyles } from "./styled"
-import riannaImg1 from "../../../../public/photos/riannaImg1.png"
 import { CaptionContainer, MediumGuy } from "@/utils/layout"
+import riannaImg1 from "../../../../../../public/photos/riannaImg1.png"
 
 export function Article() {
   return (

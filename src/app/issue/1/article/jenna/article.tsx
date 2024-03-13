@@ -1,8 +1,8 @@
 import { ArticleStyles } from "./styled"
 import Image from "next/image"
-import img1 from "../../../../public/photos/jImg1.png"
-import img2 from "../../../../public/photos/jImg2.png"
-import img3 from "../../../../public/photos/jImg3.png"
+import img1 from "../../../../../../public/photos/jImg1.png"
+import img2 from "../../../../../../public/photos/jImg2.png"
+import img3 from "../../../../../../public/photos/jImg3.png"
 import { CaptionContainer, Epigraph } from "@/utils/layout"
 
 export function Article() {

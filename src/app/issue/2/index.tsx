@@ -4,7 +4,6 @@ import { AuthorDirectory, Base } from "@/components"
 
 // styled assets
 import { Authors, Main } from "./styled"
-import { AuthorBackground } from "./AuthorBackground"
 
 import { Credits } from "./Credits"
 import { AuthorAbouts } from "./AuthorAbouts"
@@ -17,7 +16,7 @@ export function Page() {
     <Base homePage>
       <Main>
         <Authors>
-          <Lottie path="/static/jupiter2.lottie.json" />
+          <Lottie path="/static/jupiter2.lottie.json" color="#0C142F" />
           <EditorsNote />
           <div
             style={{
@@ -36,7 +35,6 @@ export function Page() {
 
             <Credits />
           </div>
-          <AuthorBackground />
         </Authors>
       </Main>
     </Base>
