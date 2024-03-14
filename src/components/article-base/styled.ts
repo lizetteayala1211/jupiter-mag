@@ -10,11 +10,16 @@ import Link from "next/link"
 import styled from "styled-components"
 
 export const ArticleBaseContainer = styled(SharedGridMain)`
-  grid-template-areas: "cover" "article" "footer";
-  grid-template-columns: 1fr;
+  grid-template-areas: "cover cover" "article article" "footer footer";
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(auto-fill, 1fr);
 
   color: var(--color-off-black);
+
+  /* desktop */
+  @media only screen and (min-width: ${screenMdMin}) {
+    grid-template-areas: "header header" "cover article" "footer footer";
+  }
 `
 
 export const Header = styled.section`
@@ -48,12 +53,12 @@ export const Article = styled.section`
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    padding: 0 200px;
+    padding: 100px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
-    padding: 0 400px;
+    padding: 120px;
   }
 `
 
