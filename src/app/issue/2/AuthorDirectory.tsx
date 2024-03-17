@@ -1,5 +1,10 @@
 import { issue2Metadata } from "./article"
-import { StyledAuthorLink, AuthorDirectoryContainer } from "./styled"
+import {
+  StyledAuthorLink,
+  AuthorDirectoryContainer,
+  AuthorText,
+  AuthorTitle,
+} from "./styled"
 
 export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
   const isHomePage = homepage!! ? homepage : false
@@ -11,10 +16,8 @@ export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
           $homepage={isHomePage.toString()}
           href={`/issue/1/article/${author.author.split(" ")[0].toLowerCase()}`}
         >
-          <div style={{ fontSize: "16px", lineHeight: "16px" }}>
-            {author.author}
-          </div>
-          <div>{author.title}</div>
+          <AuthorText>{author.author}</AuthorText>
+          <AuthorTitle>{author.title}</AuthorTitle>
         </StyledAuthorLink>
       ))}
     </AuthorDirectoryContainer>

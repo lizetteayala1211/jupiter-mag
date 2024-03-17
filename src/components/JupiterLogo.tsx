@@ -1,8 +1,16 @@
-export function JupiterLogo({ color }: { color: "white" | "black" }) {
+export function JupiterLogo({
+  color,
+  width,
+  height,
+}: {
+  color: "white" | "black"
+  width?: number
+  height?: number
+}) {
   return (
     <svg
-      width="537"
-      height="198"
+      width={width || 537}
+      height={height || 198}
       viewBox="0 0 537 198"
       fill={color}
       xmlns="http://www.w3.org/2000/svg"

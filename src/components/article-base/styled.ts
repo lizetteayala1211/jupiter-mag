@@ -106,6 +106,7 @@ export const FooterTitle = styled(Link)`
 
 export const TitleContainer = styled.div`
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   left: 0;
   transform: scale(0.4);

@@ -10,104 +10,87 @@ import styled from "styled-components"
 
 // grid
 export const Main = styled(SharedGridMain)`
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr 3fr;
   grid-template-rows: repeat(auto-fill, 1fr);
-  grid-template-areas: "authors authors";
+  grid-template-areas:
+    "lottie lottie lottie"
+    "logo logo logo"
+    "editorsNoteTitle editorsNoteTitle editorsNote"
+    "floatingMenu signatures editorsNote"
+    "floatingMenu content content";
   font-family: "Alverata Light";
   p {
     font-size: 14px;
   }
-  background-color: var(--color-article-purple);
+
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.49%, #000000 100%),
+    radial-gradient(
+        80.23% 5.14% at 80.23% 5.72%,
+        rgba(0, 21, 52, 0) 27.1%,
+        #040e21 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #040921;
 `
 
-export const Authors = styled.section`
-  grid-area: authors;
+export const LottieSection = styled.section`
+  grid-area: lottie;
+  position: relative;
+`
+
+export const LogoSection = styled.section`
+  grid-area: logo;
+  position: relative;
+  padding-inline-start: 64px;
+  padding-block-start: 24px;
+`
+
+export const EditorsNoteTitleSection = styled.section`
+  grid-area: editorsNoteTitle;
+  position: relative;
+  font-size: 64px;
+  line-height: 64px;
+  padding-inline-start: 64px;
+  margin-block-start: 56px;
+`
+
+export const EditorsNoteSection = styled.section`
+  grid-area: editorsNote;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    max-width: 502px;
+    margin-inline-start: 16px;
+    margin-inline-end: 64px;
+    margin-block-start: 56px;
+  }
+`
+
+export const ContentSection = styled.section`
+  grid-area: content;
   position: relative;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  /* Rectangle 14 */
-
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.49%, #000000 100%),
-    radial-gradient(
-        172.37% 32.18% at 79.3% 6.23%,
-        #efeded 18.54%,
-        rgba(8, 36, 57, 0.201837) 75.31%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-    radial-gradient(
-        80.23% 5.14% at 80.23% 5.72%,
-        rgba(0, 21, 52, 0) 27.1%,
-        #01001a 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-    #040921;
-  background-blend-mode: normal, lighten, normal, normal;
 `
 
-export const DesktopEditorContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  min-height: 1000px;
+export const FloatingMenuSection = styled.section`
+  grid-area: floatingMenu;
+  margin-inline-start: 64px;
 `
 
-export const MobileEditorContainer = styled.div`
+export const SignaturesSection = styled.section`
+  grid-area: signatures;
+  position: relative;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  gap: 2em;
   flex-direction: column;
-`
-
-export const EditorCover = styled.div`
-  text-transform: uppercase;
-  flex-direction: column;
-  display: flex;
-  font-family: "Alverata Light";
-  font-size: 48px;
-  line-height: 40px;
-  padding-top: var(--padding-header);
-  justify-content: space-between;
-
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-    letter-spacing: -4px;
-    width: 50%;
-    color: var(--color-black);
-    padding-inline-end: 12px;
-    font-size: 80px;
-    line-height: 60px;
-    padding-inline-end: 32px;
-    padding-bottom: 4em;
-  }
-
-  /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    padding-inline-end: 32px;
-    font-size: 100px;
-    line-height: 80px;
-  }
-
-  /* extra wide desktops */
-  @media only screen and (min-width: ${screenXlMin}) {
-    padding-inline-end: 32px;
-    font-size: 120px;
-    line-height: 100px;
-  }
-`
-
-export const EditorNote = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-  min-height: 800px;
-
-  color: var(--color-off-black);
-  font-size: 16px;
-  padding-inline-start: 64px;
-  padding-inline-end: 64px;
 `
 
 export const AuthorContainer = styled.div`
@@ -247,28 +230,45 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
       color: var(--color-white);
     }`}
 
+  &:hover {
+    text-shadow: 0px 0px 19.1px #96649b;
+  }
+`
+
+export const AuthorText = styled.h3`
   /* larger phones  */
   @media only screen and (min-width: ${screenXsMin}) {
-    font-size: 40px;
   }
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    font-size: 80px;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    font-size: 100px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
-    font-size: 120px;
+  }
+`
+
+export const TitleText = styled.h1`
+  /* larger phones  */
+  @media only screen and (min-width: ${screenXsMin}) {
   }
 
-  &:hover {
-    text-shadow: 0px 0px 19.1px #96649b;
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+    font-size: 84px;
+  }
+
+  /* wide desktops */
+  @media only screen and (min-width: ${screenLgMin}) {
+  }
+
+  /* extra wide desktops */
+  @media only screen and (min-width: ${screenXlMin}) {
   }
 `
 

@@ -8,6 +8,7 @@ export const TickerContainer = styled.div`
   border-bottom: 1px solid var(--color-off-black);
   text-transform: uppercase;
   position: sticky;
+  position: -webkit-sticky;
   bottom: 0;
   overflow: hidden;
   height: 1.5em;
