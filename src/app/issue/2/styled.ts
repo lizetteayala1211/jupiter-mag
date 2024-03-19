@@ -3,7 +3,6 @@ import {
   screenLgMin,
   screenMdMin,
   screenXlMin,
-  screenXsMin,
 } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
 import Image from "next/image"
@@ -12,7 +11,7 @@ import styled from "styled-components"
 
 // grid
 export const Main = styled(SharedGridMain)`
-  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-columns: 1fr 2fr 3fr;
   grid-template-rows: repeat(auto-fill, 1fr);
   grid-template-areas:
     "lottie lottie lottie"
@@ -120,27 +119,6 @@ export const SignaturesSection = styled.section`
   flex-direction: column;
 `
 
-export const AuthorContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  @media only screen and (min-width: ${screenMdMin}) {
-    align-items: flex-start;
-    flex-direction: row;
-  }
-`
-
-export const AuthorPhoto = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  padding-bottom: 2em;
-  height: 100%;
-  @media only screen and (min-width: ${screenMdMin}) {
-    width: 50%;
-  }
-`
-
 export const SignatureContainer = styled(Image)`
   width: 100px;
   height: 100%;
@@ -160,107 +138,6 @@ export const SignatureContainer = styled(Image)`
   }
 `
 
-export const AuthorTextContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  max-width: 90%;
-
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-    padding-inline-start: 2em;
-    max-width: 550px;
-  }
-
-  /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    padding-inline-start: 4em;
-    max-width: 730px;
-  }
-
-  /* extra wide desktops */
-  @media only screen and (min-width: ${screenXlMin}) {
-    padding-inline-start: 8em;
-    max-width: 920px;
-  }
-`
-
-export const AuthorTitle = styled.div`
-  font-family: "Alverata Medium";
-  font-size: 18px;
-  margin-bottom: var(--padding-header);
-
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-    font-family: "Alverata Light";
-    font-size: 16px;
-  }
-
-  /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    font-size: 24px;
-  }
-
-  /* extra wide desktops */
-  @media only screen and (min-width: ${screenXlMin}) {
-    font-size: 36px;
-  }
-`
-export const AuthorBody = styled.div`
-  font-family: "Alverata Light";
-  font-size: 16px;
-
-  /* smaller desktops */
-  @media only screen and (min-width: ${screenMdMin}) {
-    font-size: 12px;
-  }
-
-  /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    font-size: 16px;
-  }
-
-  /* extra wide desktops */
-  @media only screen and (min-width: ${screenXlMin}) {
-    font-size: 20px;
-  }
-`
-export const CreditsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 8px;
-  font-style: italic;
-  padding-bottom: 12em;
-
-  p {
-    /* smaller desktops */
-    @media only screen and (min-width: ${screenMdMin}) {
-      font-size: 10px;
-      max-width: 500px;
-    }
-
-    /* wide desktops */
-    @media only screen and (min-width: ${screenLgMin}) {
-      font-size: 14px;
-      max-width: 550px;
-    }
-
-    /* extra wide desktops */
-    @media only screen and (min-width: ${screenXlMin}) {
-      font-size: 16px;
-      max-width: 600px;
-    }
-  }
-`
-
-export const AuthorAboutsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4em;
-`
-
 export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
   font-family: "Alverata Medium";
   text-transform: uppercase;
@@ -268,6 +145,9 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
   text-align: center;
   margin: 16px;
   line-height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   ${(props) =>
     props.$homepage === "true" &&
     `color: var(--color-transparent-white);
@@ -275,46 +155,55 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
     &:hover {
       color: var(--color-white);
     }`}
-
-  &:hover {
-    text-shadow: 0px 0px 19.1px #96649b;
-  }
 `
 
-export const AuthorText = styled.h3`
-  /* larger phones  */
-  @media only screen and (min-width: ${screenXsMin}) {
-  }
+export const AuthorText = styled.h2`
+  max-width: 544px;
+  font-weight: 300;
+  padding-bottom: 4px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
+    font-size: 24px;
+    line-height: 22px;
   }
 
   /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
+  @media only screen and (min-width: ${screenLgMed}) {
+    max-width: 640px;
+    font-size: 28px;
+    line-height: 30px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
+    max-width: 744px;
+    font-size: 36px;
+    line-height: 32px;
   }
 `
 
 export const TitleText = styled.h1`
-  /* larger phones  */
-  @media only screen and (min-width: ${screenXsMin}) {
-  }
+  max-width: 456px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    font-size: 84px;
+    font-size: 56px;
+    line-height: 52px;
   }
 
   /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
+  @media only screen and (min-width: ${screenLgMed}) {
+    max-width: 552px;
+    font-size: 72px;
+    line-height: 64px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
+    max-width: 600px;
+    font-size: 96px;
+    line-height: 90px;
   }
 `
 
@@ -322,6 +211,8 @@ export const AuthorDirectoryContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  gap: 16px;
 
   padding: 8em 0 2em 0;
 

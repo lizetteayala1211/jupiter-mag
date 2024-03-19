@@ -22,4 +22,10 @@ export const issue2Metadata: ArticleMetadata[] = [
     link: "/issue/2/article/rohan",
     author: "Rohan Ayinde",
   },
+  {
+    title: "todo: article_title",
+    link: "/issue/2/article/rohan",
+    author:
+      "Stella Binion In conversation with Legacy Russell and Jesús Hilario-Reyes",
+  },
 ]

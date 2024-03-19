@@ -26,7 +26,7 @@ export function Base({ children, homePage }: Props) {
   const [showMobileMenu, setShowMobileMenu] = React.useState(false)
 
   // todo: can useCurrentPage be broken into a more useful hook with more reusable code?
-  const isHomePage = currentPage === "home" || homePage!!
+  const isHomePage = currentPage === "home" || homePage!! || false
 
   useDisableScroll(showMobileMenu)
 

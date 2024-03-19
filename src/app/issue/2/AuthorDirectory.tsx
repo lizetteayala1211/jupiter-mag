@@ -3,7 +3,7 @@ import {
   StyledAuthorLink,
   AuthorDirectoryContainer,
   AuthorText,
-  AuthorTitle,
+  TitleText,
 } from "./styled"
 
 export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
@@ -17,7 +17,7 @@ export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
           href={`/issue/1/article/${author.author.split(" ")[0].toLowerCase()}`}
         >
           <AuthorText>{author.author}</AuthorText>
-          <AuthorTitle>{author.title}</AuthorTitle>
+          <TitleText>{author.title}</TitleText>
         </StyledAuthorLink>
       ))}
     </AuthorDirectoryContainer>

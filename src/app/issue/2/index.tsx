@@ -15,14 +15,13 @@ import {
   SignaturesSection,
 } from "./styled"
 
-import { Credits } from "./Credits"
+import { Colophon } from "./Colophon"
 import { AuthorAbouts } from "./AuthorAbouts"
 import { AuthorDirectory } from "./AuthorDirectory"
 import { Lottie } from "@/components/lottie-container"
 import { JupiterLogo } from "@/components"
 import camilleSignature from "../../../../public/signatures/camille_white.png"
 import dariaSignature from "../../../../public/signatures/daria_white.png"
-import { HugeGuy } from "@/utils/layout"
 import { FloatingMenu } from "@/components/floating-menu"
 
 // todo: add back grain to home page so that it doesn't overlap the lottie file -> might invovle a refactor with how lottie is loaded in
@@ -70,13 +69,14 @@ export function Page() {
               right: "10%",
               zIndex: 10,
               gap: "12em",
+              paddingBlockStart: "24px",
             }}
           >
             <AuthorDirectory homepage />
 
             <AuthorAbouts />
 
-            <Credits />
+            <Colophon />
           </div>
         </ContentSection>
       </Main>
@@ -130,17 +130,6 @@ function EditorsNoteCopy() {
         unflinching, and spellbinding work gathered here, may we speculate
         towards an eventual and inevitable break, and craft the horizons in
         which we hope to bask in the aftermath.{" "}
-      </p>
-
-      <HugeGuy />
-      <p
-        style={{
-          fontSize: "16px",
-          marginInlineStart: "16px",
-          marginBottom: "16px",
-        }}
-      >
-        Always (in orbit),
       </p>
     </div>
   )
