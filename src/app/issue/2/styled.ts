@@ -1,10 +1,12 @@
 import {
+  screenLgMed,
   screenLgMin,
   screenMdMin,
   screenXlMin,
   screenXsMin,
 } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
+import Image from "next/image"
 import Link from "next/link"
 import styled from "styled-components"
 
@@ -52,6 +54,19 @@ export const EditorsNoteTitleSection = styled.section`
   line-height: 64px;
   padding-inline-start: 64px;
   margin-block-start: 56px;
+  text-transform: uppercase;
+
+  @media only screen and (min-width: ${screenLgMed}) {
+    padding-inline-start: 302px;
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  @media only screen and (min-width: ${screenXlMin}) {
+    padding-inline-start: 376px;
+    font-size: 96px;
+    line-height: 96px;
+  }
 `
 
 export const EditorsNoteSection = styled.section`
@@ -59,13 +74,25 @@ export const EditorsNoteSection = styled.section`
   position: relative;
 
   display: flex;
-  align-items: center;
 
   @media only screen and (min-width: ${screenMdMin}) {
-    max-width: 502px;
     margin-inline-start: 16px;
     margin-inline-end: 64px;
-    margin-block-start: 56px;
+    padding-block-start: 56px;
+  }
+
+  @media only screen and (min-width: ${screenLgMin}) {
+    max-width: 602px;
+    margin: auto;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  @media only screen and (min-width: ${screenXlMin}) {
+    max-width: 528px;
+    margin: auto;
+    justify-content: center;
+    font-size: 18px;
   }
 `
 
@@ -111,6 +138,25 @@ export const AuthorPhoto = styled.div`
   height: 100%;
   @media only screen and (min-width: ${screenMdMin}) {
     width: 50%;
+  }
+`
+
+export const SignatureContainer = styled(Image)`
+  width: 100px;
+  height: 100%;
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+    width: 150px;
+  }
+
+  /* wide desktops */
+  @media only screen and (min-width: ${screenLgMin}) {
+    width: 150px;
+  }
+
+  /* extra wide desktops */
+  @media only screen and (min-width: ${screenXlMin}) {
+    width: 200px;
   }
 `
 

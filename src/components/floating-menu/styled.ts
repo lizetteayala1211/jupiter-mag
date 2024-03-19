@@ -9,4 +9,9 @@ export const FloatingMenuContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
+
+  p {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 `

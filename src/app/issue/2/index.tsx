@@ -11,6 +11,7 @@ import {
   LogoSection,
   LottieSection,
   Main,
+  SignatureContainer,
   SignaturesSection,
 } from "./styled"
 
@@ -19,7 +20,6 @@ import { AuthorAbouts } from "./AuthorAbouts"
 import { AuthorDirectory } from "./AuthorDirectory"
 import { Lottie } from "@/components/lottie-container"
 import { JupiterLogo } from "@/components"
-import Image from "next/image"
 import camilleSignature from "../../../../public/signatures/camille_white.png"
 import dariaSignature from "../../../../public/signatures/daria_white.png"
 import { HugeGuy } from "@/utils/layout"
@@ -44,19 +44,18 @@ export function Page() {
           <EditorsNoteCopy />
         </EditorsNoteSection>
         <FloatingMenuSection>
-          <FloatingMenu issue={1} />
+          <FloatingMenu issue={2} />
         </FloatingMenuSection>
         <SignaturesSection>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <Image
-              width={100}
+            <SignatureContainer
               src={camilleSignature}
               alt="Signature of Camille"
             />
             Camille Bacon
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <Image width={100} src={dariaSignature} alt="Signature of Daria" />
+            <SignatureContainer src={dariaSignature} alt="Signature of Daria" />
             Daria Harper
           </div>
         </SignaturesSection>
