@@ -169,6 +169,7 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
 
     &:hover {
       color: var(--color-white);
+      transition: 0.5s;
     }`}
 `
 
