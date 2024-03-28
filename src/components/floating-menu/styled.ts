@@ -1,9 +1,10 @@
 import { screenMdMin, screenLgMed, screenXlMin } from "@/utils/constants"
 import styled from "styled-components"
 
-export const FloatingMenuContainer = styled.div`
+export const FloatingMenuContainer = styled.ul`
   position: sticky;
   position: -webkit-sticky;
+  list-style-type: none;
 
   top: 50%;
 
@@ -11,8 +12,19 @@ export const FloatingMenuContainer = styled.div`
   flex-direction: column;
   gap: 12px;
 
-  p {
+  li {
     text-transform: uppercase;
+    color: var(--color-transparent-white);
+  }
+
+  li:hover {
+    color: white;
+    transition: 0.5s;
+  }
+
+  .active {
+    color: white;
+    transition: 0.5s;
   }
 
   /* smaller desktops */

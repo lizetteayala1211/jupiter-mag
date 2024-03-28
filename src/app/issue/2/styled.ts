@@ -270,6 +270,7 @@ export const ScrollerContainer = styled.div`
   flex-wrap: nowrap;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  gap: 8px;
 
   div {
     flex: 0 0 auto;
@@ -280,7 +281,6 @@ export const Slide = styled.div`
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 128px;
 `
 
 export const Row = styled.span`

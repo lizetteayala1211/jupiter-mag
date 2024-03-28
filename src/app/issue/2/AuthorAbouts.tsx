@@ -13,17 +13,25 @@ import dummy from "../../../../public/photos/j.png"
 export function AuthorAbouts() {
   return (
     <>
-      <h1
+      <div
         style={{
-          fontSize: "72px",
-          lineHeight: "64px",
+          display: "flex",
+          width: "100%",
+          justifyContent: "flex-start",
           paddingInlineStart: "152px",
           paddingBlockEnd: "56px",
         }}
       >
-        Our <br />
-        Contributors
-      </h1>
+        <h1
+          style={{
+            fontSize: "72px",
+            lineHeight: "64px",
+          }}
+        >
+          Our <br />
+          Contributors
+        </h1>
+      </div>
       <ScrollerOuterContainer>
         <ScrollerContainer>
           <DesktopSlideOne />
