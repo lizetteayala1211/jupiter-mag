@@ -1,7 +1,9 @@
 import {
+  screenLgMax,
   screenLgMed,
   screenLgMin,
   screenMdMin,
+  screenSmMin,
   screenXlMin,
 } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
@@ -17,8 +19,8 @@ export const Main = styled(SharedGridMain)`
     "lottie lottie lottie"
     "logo logo logo"
     "editorsNoteTitle editorsNoteTitle editorsNote"
-    "floatingMenu signatures editorsNote"
-    "floatingMenu content content";
+    "signatures editorsNote editorsNote"
+    "content content content";
   font-family: "Alverata Light";
   p {
     font-size: 14px;
@@ -32,6 +34,15 @@ export const Main = styled(SharedGridMain)`
       )
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     #040921;
+
+  @media only screen and (min-width: ${screenSmMin}) {
+    grid-template-areas:
+      "lottie lottie lottie"
+      "logo logo logo"
+      "editorsNoteTitle editorsNoteTitle editorsNote"
+      "floatingMenu signatures editorsNote"
+      "floatingMenu content content";
+  }
 `
 
 export const LottieSection = styled.section`
@@ -108,6 +119,10 @@ export const ContentSection = styled.section`
 export const FloatingMenuSection = styled.section`
   grid-area: floatingMenu;
   margin-inline-start: 64px;
+  display: none;
+  @media only screen and (min-width: ${screenSmMin}) {
+    display: block;
+  }
 `
 
 export const SignaturesSection = styled.section`
@@ -219,4 +234,56 @@ export const AuthorDirectoryContainer = styled.div`
   @media only screen and (min-width: ${screenMdMin}) {
     padding: 4em 0 4em 0;
   }
+`
+
+export const ContributorCardContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: center;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    width: 316px;
+  }
+
+  @media only screen and (min-width: ${screenLgMin}) {
+    width: 436px;
+  }
+
+  @media only screen and (min-width: ${screenLgMax}) {
+    width: 395px;
+  }
+`
+
+export const ContributorPhoto = styled(Image)`
+  width: 100%;
+  height: 316px;
+  object-fit: cover;
+`
+
+export const ScrollerOuterContainer = styled.div`
+  width: 66vw;
+`
+
+export const ScrollerContainer = styled.div`
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+
+  div {
+    flex: 0 0 auto;
+  }
+`
+
+export const Slide = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 128px;
+`
+
+export const Row = styled.span`
+  display: flex;
+  white-space: pre-wrap;
+  gap: 8px;
 `

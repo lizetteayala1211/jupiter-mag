@@ -60,24 +60,9 @@ export function Page() {
         </SignaturesSection>
 
         <ContentSection>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              left: "10%",
-              right: "10%",
-              zIndex: 10,
-              gap: "12em",
-              paddingBlockStart: "24px",
-            }}
-          >
-            <AuthorDirectory homepage />
-
-            <AuthorAbouts />
-
-            <Colophon />
-          </div>
+          <AuthorDirectory homepage />
+          <AuthorAbouts />
+          <Colophon />
         </ContentSection>
       </Main>
     </Base>
