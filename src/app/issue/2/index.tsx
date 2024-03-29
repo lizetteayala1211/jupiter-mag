@@ -22,14 +22,13 @@ import { Lottie } from "@/components/lottie-container"
 import { JupiterLogo } from "@/components"
 import { FloatingMenu } from "@/components/floating-menu"
 
-import { highlightFloatingMenuItems } from "@/utils/helpers"
-
 import camilleSignature from "../../../../public/signatures/camille_white.png"
 import dariaSignature from "../../../../public/signatures/daria_white.png"
+import { useIntersectionObserver } from "@/utils/hooks"
 
 // todo: add back grain to home page so that it doesn't overlap the lottie file -> might invovle a refactor with how lottie is loaded in
 export function Page() {
-  highlightFloatingMenuItems()
+  useIntersectionObserver()
 
   return (
     <Base homePage>

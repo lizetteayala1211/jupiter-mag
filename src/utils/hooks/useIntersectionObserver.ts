@@ -1,10 +1,18 @@
-import { isElementInViewport } from "."
+import React from "react"
+import { isElementInViewport } from "../helpers"
 
-export function highlightFloatingMenuItems() {
-  const observer = new IntersectionObserver(handler)
+export function useIntersectionObserver() {
+  const [observer, setObserver] = React.useState<
+    IntersectionObserver | undefined
+  >(undefined)
+
+  React.useEffect(() => {
+    setObserver(new IntersectionObserver(handler))
+  }, [])
+
   // Observe all headings on our webpage
   document.querySelectorAll("pre").forEach((section) => {
-    observer.observe(section)
+    observer?.observe(section)
   })
 }
 
