@@ -8,12 +8,10 @@ export function useIntersectionObserver() {
 
   React.useEffect(() => {
     setObserver(new IntersectionObserver(handler))
-  }, [])
-
-  // Observe all headings on our webpage
-  document.querySelectorAll("pre").forEach((section) => {
-    observer?.observe(section)
-  })
+    document.querySelectorAll("pre").forEach((section) => {
+      observer?.observe(section)
+    })
+  }, [observer])
 }
 
 const handler = (entries: any) => {
