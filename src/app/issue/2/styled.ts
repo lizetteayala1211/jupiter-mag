@@ -54,8 +54,15 @@ export const LottieSection = styled.section`
 export const LogoSection = styled.section`
   grid-area: logo;
   position: relative;
-  padding-inline-start: 64px;
+  display: flex;
+  justify-content: center;
   padding-block-start: 24px;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    display: block;
+    padding-inline-start: 32px;
+    padding-block-end: 64px;
+  }
 `
 
 export const EditorsNoteTitleSection = styled.section`
@@ -63,12 +70,17 @@ export const EditorsNoteTitleSection = styled.section`
   position: relative;
   font-size: 64px;
   line-height: 64px;
-  padding-inline-start: 64px;
-  margin-block-start: 56px;
   text-transform: uppercase;
+  text-align: center;
+  padding-block-start: 16px;
+  padding-block-end: 64px;
 
+  @media only screen and (min-width: ${screenMdMin}) {
+    text-align: left;
+    padding-inline-start: 64px;
+    margin-block-start: 56px;
+  }
   @media only screen and (min-width: ${screenLgMed}) {
-    padding-inline-start: 302px;
     font-size: 72px;
     line-height: 72px;
   }
@@ -211,13 +223,13 @@ export const AuthorText = styled.h2`
 `
 
 export const TitleText = styled.h1<{ $longTitle?: string }>`
-  max-width: ${(props) => (props.$longTitle === "true" ? "600px" : "456px")};
   text-align: left;
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 56px;
     line-height: 52px;
     text-align: center;
+    max-width: ${(props) => (props.$longTitle === "true" ? "648px" : "456px")};
   }
 
   /* wide desktops */
@@ -229,7 +241,7 @@ export const TitleText = styled.h1<{ $longTitle?: string }>`
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
-    max-width: 600px;
+    max-width: 1200px;
     font-size: 96px;
     line-height: 90px;
   }

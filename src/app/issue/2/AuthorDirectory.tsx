@@ -29,7 +29,9 @@ export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
             onMouseLeave={() => setHoveredArticle("")}
           >
             <AuthorText>{author.author}</AuthorText>
-            <TitleText>{author.title}</TitleText>
+            <TitleText $longTitle={author.longTitle ? "true" : "false"}>
+              {author.title}
+            </TitleText>
           </StyledAuthorLink>
         </div>
       ))}
