@@ -5,7 +5,6 @@ import {
   screenXsMin,
 } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
-import Link from "next/link"
 import styled from "styled-components"
 
 // grid
@@ -232,7 +231,7 @@ export const AuthorAboutsContainer = styled.div`
   gap: 4em;
 `
 
-export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
+export const StyledAuthorLink = styled.a<{ $homepage: string }>`
   font-family: "Alverata Medium";
   text-transform: uppercase;
   font-size: 32px;

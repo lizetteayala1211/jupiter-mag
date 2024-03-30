@@ -22,9 +22,7 @@ export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
           />
           <StyledAuthorLink
             $homepage={isHomePage.toString()}
-            href={`/issue/1/article/${author.author
-              .split(" ")[0]
-              .toLowerCase()}`}
+            href={author.link}
             onMouseEnter={() => setHoveredArticle(author.author)}
             onMouseLeave={() => setHoveredArticle("")}
           >

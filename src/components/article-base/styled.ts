@@ -6,12 +6,11 @@ import {
   screenXlMin,
 } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
-import Link from "next/link"
 import styled from "styled-components"
 
 export const ArticleBaseContainer = styled(SharedGridMain)`
-  grid-template-areas: "cover cover" "article article" "footer footer";
-  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "cover" "article" "footer";
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(auto-fill, 1fr);
 
   color: var(--color-off-black);
@@ -83,7 +82,7 @@ export const NextFooter = styled.div`
   font-family: "Alverata Light";
   padding: 0 16px 12px 16px;
 `
-export const FooterTitle = styled(Link)`
+export const FooterTitle = styled.a`
   /* mobile */
   font-size: 40px;
   padding-bottom: 1em;

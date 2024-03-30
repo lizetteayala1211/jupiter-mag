@@ -19,7 +19,7 @@ export function FloatingMenu({ issue }: FloatingMenuProps) {
         <a href="#colophon">Colophon</a>
       </li>
       <li>
-        <a href="http://jupiter-mag.com/issue/1">Issue {issue === 1 ? 2 : 1}</a>
+        <a href="/issue/1">Issue {issue === 1 ? 2 : 1}</a>
       </li>
     </FloatingMenuContainer>
   )

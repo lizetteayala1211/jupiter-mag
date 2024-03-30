@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { JupiterLogo } from "../JupiterLogo"
 import {
   FooterChildren,
@@ -15,18 +14,18 @@ export function Footer() {
   return (
     <FooterContainer className="darker-grotesque">
       <FooterChildren>
-        <Link href="/">
+        <a href="/">
           <LogoContainer>
             <JupiterLogo color="black" />
           </LogoContainer>
-        </Link>
+        </a>
         <TextContent>
           <TextGroup>
-            <Link href="/">
+            <a href="/">
               <h4>THE MAGAZINE</h4>
-            </Link>
+            </a>
             <br />
-            <Link href="/about">About</Link>
+            <a href="/about">About</a>
           </TextGroup>
           <TextGroup>
             <h4>JOIN JUPITER</h4>
@@ -37,8 +36,8 @@ export function Footer() {
           </TextGroup>
           <TextGroup style={isMobile ? {} : { textAlign: "right" }}>
             <br />
-            <Link href="https://artadia.org/jupiter-magazine/">Donate</Link>
-            <Link href="/contact">Contact us</Link>
+            <a href="https://artadia.org/jupiter-magazine/">Donate</a>
+            <a href="/contact">Contact us</a>
             <br />
             <h5>info@jupiter-mag.com</h5>
           </TextGroup>

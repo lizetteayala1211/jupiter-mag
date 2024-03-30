@@ -1,5 +1,4 @@
 import { screenLgMin } from "@/utils/constants"
-import Link from "next/link"
 import styled from "styled-components"
 
 export const SolidBackground = styled.div`
@@ -93,7 +92,7 @@ export const ExitMenuModalButton = styled.a`
   z-index: 1000;
 `
 
-export const LogoContainer = styled(Link)`
+export const LogoContainer = styled.a`
   @media (min-width: ${screenLgMin}) {
     width: 15%;
     margin: 1em;
@@ -136,7 +135,7 @@ export const MenuContainer = styled.div`
   );
 `
 
-export const ReturnHomeButton = styled(Link)`
+export const ReturnHomeButton = styled.a`
   display: flex;
   justify-content: center;
   text-transform: uppercase;
@@ -150,7 +149,7 @@ export const ReturnHomeButton = styled(Link)`
   }
 `
 
-export const StyledNavBarItem = styled(Link)<{ $currentpage: string }>`
+export const StyledNavBarItem = styled.a<{ $currentpage: string }>`
   padding: 0.75em 1em;
   ${(props) =>
     props.$currentpage === "true" && `text-shadow: 0px 0px 10px #D69EF0;`}

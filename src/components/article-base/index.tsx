@@ -19,7 +19,6 @@ import {
   TriggerMenuContainer,
 } from "./styled"
 import { MobileMenuOverlay } from "../header/Mobile"
-import Link from "next/link"
 import { ArticleMetadata } from "@/utils/types"
 import { useBreakpoints, useDisableScroll } from "@/utils/hooks"
 
@@ -30,7 +29,7 @@ export function ArticleBase({
   next,
 }: {
   children: React.ReactNode
-  svg: React.ReactNode
+  svg?: React.ReactNode
   next: ArticleMetadata
   position?: string
 }) {
@@ -66,7 +65,9 @@ export function ArticleBase({
       ) : (
         <ArticleBaseContainer>
           <Cover>
-            <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
+            {svg ? (
+              <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
+            ) : null}
           </Cover>
           <Article>
             <div
@@ -98,8 +99,8 @@ export function ArticleBase({
                   paddingTop: "16px",
                 }}
               >
-                <Link href={next.link}>Next</Link>
-                <Link href={next.link}>{next.author}</Link>
+                <a href={next.link}>Next</a>
+                <a href={next.link}>{next.author}</a>
               </div>
             </NextFooter>
 
