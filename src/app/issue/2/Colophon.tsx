@@ -1,17 +1,32 @@
+import { useBreakpoints } from "@/utils/hooks"
 import { MediumGuy } from "@/utils/layout"
 
 export function Colophon() {
+  const { isMobile } = useBreakpoints()
   return (
     <div style={{ paddingBottom: "32px" }}>
-      <h3 style={{ paddingBottom: "56px" }}>Colophon</h3>
+      <h3 style={{ paddingBottom: "56px", paddingInlineStart: "16px" }}>
+        Colophon
+      </h3>
 
       <div
-        style={{
-          fontFamily: "Alverata Light",
-          display: "flex",
-          gap: "12px",
-          margin: "16px 0",
-        }}
+        style={
+          isMobile
+            ? {
+                fontFamily: "Alverata Light",
+                display: "flex",
+                gap: "12px",
+                margin: "16px 0",
+                flexDirection: "column",
+                padding: "16px",
+              }
+            : {
+                fontFamily: "Alverata Light",
+                display: "flex",
+                gap: "12px",
+                margin: "16px 0",
+              }
+        }
       >
         <div
           style={{

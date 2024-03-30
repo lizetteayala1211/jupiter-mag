@@ -9,24 +9,43 @@ import {
 } from "./styled"
 
 import dummy from "../../../../public/photos/j.png"
+import { useBreakpoints } from "@/utils/hooks"
 
 export function AuthorAbouts() {
+  const { isMobile } = useBreakpoints()
   return (
     <>
       <div
-        style={{
-          display: "flex",
-          width: "100%",
-          justifyContent: "flex-start",
-          paddingInlineStart: "152px",
-          paddingBlockEnd: "56px",
-        }}
+        style={
+          isMobile
+            ? {
+                display: "flex",
+                width: "100%",
+                paddingInlineStart: "60px",
+                paddingBlockEnd: "16px",
+                justifyContent: "flex-start",
+              }
+            : {
+                display: "flex",
+                width: "100%",
+                justifyContent: "flex-start",
+                paddingInlineStart: "152px",
+                paddingBlockEnd: "56px",
+              }
+        }
       >
         <h1
-          style={{
-            fontSize: "72px",
-            lineHeight: "64px",
-          }}
+          style={
+            isMobile
+              ? {
+                  fontSize: "40px",
+                  lineHeight: "32px",
+                }
+              : {
+                  fontSize: "72px",
+                  lineHeight: "64px",
+                }
+          }
         >
           Our <br />
           Contributors

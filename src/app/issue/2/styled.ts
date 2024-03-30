@@ -18,8 +18,9 @@ export const Main = styled(SharedGridMain)`
   grid-template-areas:
     "lottie lottie lottie"
     "logo logo logo"
-    "editorsNoteTitle editorsNoteTitle editorsNote"
-    "signatures editorsNote editorsNote"
+    "editorsNoteTitle editorsNoteTitle editorsNoteTitle"
+    "editorsNote editorsNote editorsNote"
+    "signatures signatures signatures"
     "content content content";
   font-family: "Alverata Light";
   p {
@@ -162,7 +163,6 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
   line-height: 32px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: relative;
   ${(props) =>
     props.$homepage === "true" &&
@@ -172,6 +172,11 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
       color: var(--color-white);
       transition: 0.5s;
     }`};
+
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+    align-items: center;
+  }
 `
 
 export const AuthorText = styled.h2`
@@ -179,10 +184,15 @@ export const AuthorText = styled.h2`
   font-weight: 300;
   padding-bottom: 4px;
 
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 24px;
     line-height: 22px;
+    text-align: center;
   }
 
   /* wide desktops */
@@ -202,11 +212,12 @@ export const AuthorText = styled.h2`
 
 export const TitleText = styled.h1<{ $longTitle?: string }>`
   max-width: ${(props) => (props.$longTitle === "true" ? "600px" : "456px")};
-
+  text-align: left;
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 56px;
     line-height: 52px;
+    text-align: center;
   }
 
   /* wide desktops */
@@ -227,7 +238,6 @@ export const TitleText = styled.h1<{ $longTitle?: string }>`
 export const AuthorDirectoryContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
 
   gap: 16px;
 
@@ -235,6 +245,7 @@ export const AuthorDirectoryContainer = styled.div`
 
   @media only screen and (min-width: ${screenMdMin}) {
     padding: 4em 0 4em 0;
+    align-items: center;
   }
 `
 
