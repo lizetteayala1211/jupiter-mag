@@ -18,14 +18,28 @@ export const issue2Metadata: ArticleMetadata[] = [
     author: "Isra Rene",
   },
   {
-    title: "todo: article_title",
+    title: "to love is to listen",
     link: "/issue/2/article/rohan",
     author: "Rohan Ayinde",
   },
   {
-    title: "todo: article_title",
-    link: "/issue/2/article/rohan",
+    title:
+      "Reverberation Is Memory Felt: Drexciya and Aliveness at the Absolute Depths",
+    link: "/issue/2/article/legacy-jesus-stella",
     author:
-      "Stella Binion In conversation with Legacy Russell and Jesús Hilario-Reyes",
+      "Legacy Russell and Jesús Hilario-Reyes in conversation with Stella Rae Binion",
+    longTitle: true,
+  },
+  {
+    title:
+      "our Martinique, risen still, has yet and reasoned: spill an entangled vignette of Julien Creuzet’s gravitational refrain",
+    link: "/issue/2/article/camille",
+    author: "Camille G. Bacon",
+    longTitle: true,
+  },
+  {
+    title: "Depths of Heaven",
+    link: "/issue/2/article/daria",
+    author: "Daria S. Harper",
   },
 ]

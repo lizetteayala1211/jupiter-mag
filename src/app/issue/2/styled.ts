@@ -163,6 +163,7 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   ${(props) =>
     props.$homepage === "true" &&
     `color: var(--color-transparent-white);
@@ -170,7 +171,7 @@ export const StyledAuthorLink = styled(Link)<{ $homepage: string }>`
     &:hover {
       color: var(--color-white);
       transition: 0.5s;
-    }`}
+    }`};
 `
 
 export const AuthorText = styled.h2`
@@ -199,8 +200,8 @@ export const AuthorText = styled.h2`
   }
 `
 
-export const TitleText = styled.h1`
-  max-width: 456px;
+export const TitleText = styled.h1<{ $longTitle?: string }>`
+  max-width: ${(props) => (props.$longTitle === "true" ? "600px" : "456px")};
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
@@ -287,4 +288,10 @@ export const Row = styled.span`
   display: flex;
   white-space: pre-wrap;
   gap: 8px;
+`
+
+export const EllipseContainer = styled.div<{ $longTitle?: string }>`
+  position: absolute;
+  top: ${(props) => (props.$longTitle === "true" ? `0px` : `-100px`)};
+  left: -200px;
 `

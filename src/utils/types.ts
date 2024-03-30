@@ -11,6 +11,7 @@ export type ArticleMetadata = {
   title: string
   link: string
   author: string
+  longTitle?: boolean
 }
 
 export type Unit =
