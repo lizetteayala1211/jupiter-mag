@@ -14,11 +14,6 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
   grid-template-rows: repeat(auto-fill, 1fr);
 
   color: var(--color-off-black);
-
-  /* desktop */
-  @media only screen and (min-width: ${screenMdMin}) {
-    grid-template-areas: "header header" "cover article" "footer footer";
-  }
 `
 
 export const Header = styled.section`
