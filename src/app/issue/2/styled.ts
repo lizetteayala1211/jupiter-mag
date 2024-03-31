@@ -352,3 +352,27 @@ export const ColophonColumn = styled.div<{ $first?: string }>`
         max-width: 436px;
       }`}
 `
+
+export const CaptionContainer = styled.div`
+  font-size: 16px;
+  padding-top: 4px;
+  padding-bottom: 2em;
+  line-height: 24px;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    font-size: 16px;
+  }
+`
+
+export const ArticleContainer = styled.div`
+  font-family: "Alverata Light";
+  p {
+    padding: 12px 0;
+  }
+`
+
+export const ArticleImage = styled(Image)`
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+`
