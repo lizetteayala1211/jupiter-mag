@@ -12,6 +12,8 @@ export const FloatingMenuContainer = styled.ul`
   flex-direction: column;
   gap: 12px;
 
+  padding-bottom: 64px;
+
   li {
     text-transform: uppercase;
     color: var(--color-transparent-white);

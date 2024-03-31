@@ -20,7 +20,7 @@
 
   /* agnostic colors */
   --color-white: #fff;
-  --color-off-white: #e0e9f4;
+  --color-off-white: #eae0de;
   --color-transparent-white: #ffffff52;
 
   --color-transparent-black: #00000052;
@@ -127,4 +127,13 @@ p {
   p {
     font-size: 18px;
   }
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #ffff00;
+  height: 1px;
 }

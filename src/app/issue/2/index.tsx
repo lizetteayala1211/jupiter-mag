@@ -16,7 +16,7 @@ import {
 } from "./styled"
 
 import { Colophon } from "./Colophon"
-import { AuthorAbouts } from "./AuthorAbouts"
+import { Contributors } from "./Contributors"
 import { AuthorDirectory } from "./AuthorDirectory"
 import { Lottie } from "@/components/lottie-container"
 import { JupiterLogo } from "@/components"
@@ -68,8 +68,17 @@ export function Page() {
           <pre id="articles" />
           <AuthorDirectory homepage />
           <pre id="writers" />
-          <AuthorAbouts />
+          <Contributors />
           <pre id="colophon" />
+          {/* divider */}
+          <div
+            style={{
+              marginTop: "112px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
           <Colophon />
         </ContentSection>
       </Main>

@@ -75,8 +75,8 @@ export const EditorsNoteTitleSection = styled.section`
   padding-block-end: 64px;
 
   @media only screen and (min-width: ${screenMdMin}) {
-    text-align: left;
-    padding-inline-start: 64px;
+    text-align: right;
+    padding-inline-end: 64px;
     margin-block-start: 56px;
   }
   @media only screen and (min-width: ${screenLgMed}) {
@@ -232,8 +232,15 @@ export const TitleText = styled.h1<{ $longTitle?: string }>`
   }
 
   /* wide desktops */
+  @media only screen and (min-width: ${screenLgMin}) {
+    max-width: 800px;
+    font-size: 72px;
+    line-height: 64px;
+  }
+
+  /* wide desktops */
   @media only screen and (min-width: ${screenLgMed}) {
-    max-width: 552px;
+    max-width: 900px;
     font-size: 72px;
     line-height: 64px;
   }
@@ -250,7 +257,7 @@ export const AuthorDirectoryContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  gap: 16px;
+  gap: 32px;
 
   padding: 8em 0 2em 0;
 
@@ -285,7 +292,7 @@ export const ContributorPhoto = styled(Image)`
 `
 
 export const ScrollerOuterContainer = styled.div`
-  width: 66vw;
+  width: 100%;
 `
 
 export const ScrollerContainer = styled.div`
@@ -315,5 +322,33 @@ export const Row = styled.span`
 export const EllipseContainer = styled.div<{ $longTitle?: string }>`
   position: absolute;
   top: ${(props) => (props.$longTitle === "true" ? `0px` : `-100px`)};
-  left: -200px;
+  left: -180px;
+`
+
+export const ColophonContainer = styled.div`
+  font-family: Alverata Light;
+  display: flex;
+
+  flex-direction: column;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    font-family: Alverata Medium;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+`
+
+export const ColophonColumn = styled.div<{ $first?: string }>`
+  font-family: Alverata Light;
+  color: var(--color-off-white);
+  ${(props) =>
+    props.$first === "true"
+      ? `
+      @media only screen and (min-width: ${screenMdMin}) {
+        max-width: 280px;
+      }`
+      : `
+      @media only screen and (min-width: ${screenMdMin}) {
+        max-width: 436px;
+      }`}
 `

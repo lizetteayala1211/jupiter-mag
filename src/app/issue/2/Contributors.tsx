@@ -11,7 +11,7 @@ import {
 import dummy from "../../../../public/photos/j.png"
 import { useBreakpoints } from "@/utils/hooks"
 
-export function AuthorAbouts() {
+export function Contributors() {
   const { isMobile } = useBreakpoints()
   return (
     <>
@@ -29,7 +29,6 @@ export function AuthorAbouts() {
                 display: "flex",
                 width: "100%",
                 justifyContent: "flex-start",
-                paddingInlineStart: "152px",
                 paddingBlockEnd: "56px",
               }
         }

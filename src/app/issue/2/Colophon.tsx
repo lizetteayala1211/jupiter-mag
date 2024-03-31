@@ -1,41 +1,19 @@
-import { useBreakpoints } from "@/utils/hooks"
 import { MediumGuy } from "@/utils/layout"
+import { ColophonColumn, ColophonContainer } from "./styled"
 
 export function Colophon() {
-  const { isMobile } = useBreakpoints()
   return (
-    <div style={{ paddingBottom: "32px" }}>
-      <h3 style={{ paddingBottom: "56px", paddingInlineStart: "16px" }}>
-        Colophon
-      </h3>
-
-      <div
-        style={
-          isMobile
-            ? {
-                fontFamily: "Alverata Light",
-                display: "flex",
-                gap: "12px",
-                margin: "16px 0",
-                flexDirection: "column",
-                padding: "16px",
-              }
-            : {
-                fontFamily: "Alverata Light",
-                display: "flex",
-                gap: "12px",
-                margin: "16px 0",
-              }
-        }
-      >
-        <div
-          style={{
-            maxWidth: "280px",
-            display: "flex",
-            flexDirection: "column",
-            gap: "12px",
-          }}
-        >
+    <div
+      style={{
+        padding: "64px 32px",
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <h3 style={{ paddingBottom: "84px" }}>Colophon</h3>
+      <ColophonContainer>
+        <ColophonColumn>
           <p>Jupiter Magazine</p>
           <p>Published by: Dogbeach and Jupiter</p>
           <MediumGuy />
@@ -60,16 +38,9 @@ export function Colophon() {
             invest in cultural critics of color cofounded by The Nathan Cummings
             Foundation and The Ford Foundation
           </p>
-        </div>
+        </ColophonColumn>
 
-        <div
-          style={{
-            maxWidth: "436px",
-            display: "flex",
-            flexDirection: "column",
-            gap: "12px",
-          }}
-        >
+        <ColophonColumn>
           <p>Acknowledgments:</p>
           <p>
             We extended the utmost gratitude to the following people, each of
@@ -96,8 +67,8 @@ export function Colophon() {
             guides, who have offered us the immeasurable velocity, direction,
             and foresight needed to bring Jupiter to this side of the horizon.
           </p>
-        </div>
-      </div>
+        </ColophonColumn>
+      </ColophonContainer>
     </div>
   )
 }

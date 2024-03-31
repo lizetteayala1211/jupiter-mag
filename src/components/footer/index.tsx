@@ -36,7 +36,9 @@ export function Footer() {
           </TextGroup>
           <TextGroup style={isMobile ? {} : { textAlign: "right" }}>
             <br />
-            <a href="https://artadia.org/jupiter-magazine/">Donate</a>
+            <a href="https://artadia.org/jupiter-magazine/" target="_blank">
+              Donate
+            </a>
             <a href="/contact">Contact us</a>
             <br />
             <h5>info@jupiter-mag.com</h5>
