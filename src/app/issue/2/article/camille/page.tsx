@@ -7,7 +7,7 @@ import { ArticleContainer } from "../../styled"
 
 export default function Page() {
   return (
-    <ArticleBase next={issue2Metadata[5]} position="0% 80% 50% 0%">
+    <ArticleBase next={issue2Metadata[6]} position="0% 80% 50% 0%">
       <Article />
     </ArticleBase>
   )

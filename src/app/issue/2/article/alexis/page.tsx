@@ -12,7 +12,7 @@ import { HugeGuy } from "@/utils/layout"
 
 export default function Page() {
   return (
-    <ArticleBase next={issue2Metadata[1]} position="0% 80% 50% 0%">
+    <ArticleBase next={issue2Metadata[2]} position="0% 80% 50% 0%">
       <Article />
     </ArticleBase>
   )
