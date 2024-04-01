@@ -7,7 +7,8 @@ import { issue2Metadata } from ".."
 import hopkins1 from "../../../../../../public/photos/Hopkins_Image1.png"
 import hopkins2 from "../../../../../../public/photos/Hopkins_Image2.png"
 import hopkins3 from "../../../../../../public/photos/Hopkins_Image3.png"
-import { ArticleContainer, ArticleImage, CaptionContainer } from "../../styled"
+import { ArticleContainer, ArticleImage, FooterContainer } from "../../styled"
+import { CaptionContainer } from "@/utils/layout"
 
 export default function Page() {
   return (
@@ -242,6 +243,74 @@ function Article() {
         we&apos;re written into everything around you.
       </p>
       <p>When we endure and endure. At all angles possible. </p>
+
+      <FooterContainer>
+        <p>
+          <sup>1</sup> I learned of this imprint at a talk by architectural
+          historian Mabel O. Wilson at the Center for Art Researches and
+          Alliances in New York. For more on enslaved labor at the University of
+          Virginia, see Mitch Farish, “Behind Serpentine Walls: Centering
+          Enslaved Laborers at UVA,” UVA Library News and Announcements (blog),
+          January 25, 2022,
+          <a href="https://news.library.virginia.edu/2022/01/25/uva-walking-tour-enslaved-african-americans-at-uva/">
+            https://news.library.virginia.edu/2022/01/25/uva-walking-tour-enslaved-african-americans-at-uva/
+          </a>
+        </p>
+        <p>
+          .<sup>2</sup> “Storm King : Exhibition : Martin Puryear: Process and
+          Scale [EXH.152],” accessed March 8, 2024,
+          <a href="https://collections.stormking.org/Detail/occurrences/207">
+            https://collections.stormking.org/Detail/occurrences/207
+          </a>
+          .
+        </p>
+        <p>
+          <sup>3</sup> Personal correspondence with Adela Goldsmith, Curatorial
+          Assistant at Storm King.
+        </p>
+        <p>
+          <sup>4</sup> Ibid
+        </p>
+        <p>
+          <sup>5</sup> “Storm King : Exhibition : Martin Puryear: Lookout
+          [EXH.149],” accessed March 8, 2024,
+          <a href="https://collections.stormking.org/Detail/occurrences/204">
+            https://collections.stormking.org/Detail/occurrences/204
+          </a>
+          .
+        </p>
+        <p>
+          <sup>6</sup> Karen Barad, “Troubling Time/s and Ecologies of
+          Nothingness: Re-Turning, Re-Membering, and Facing the Incalculable,”
+          <i>New Formations: A Journal of Culture/Theory/Politics</i> 92, no. 1
+          (2018): 56–86.
+        </p>
+        <p>
+          <sup>7</sup> Ibid
+        </p>
+        <p>
+          <sup>8</sup> Ibid
+        </p>
+        <p>
+          <sup>9</sup> Ibid
+        </p>
+        <p>
+          <sup>10</sup> Ibid, 67
+        </p>
+        <p>
+          <sup>11</sup> Karen Barad, “Quantum Entanglements and Hauntological
+          Relations of Inheritance: Dis/Continuities, SpaceTime Enfoldings, and
+          Justice-to-Come,” Derrida Today 3, no. 2 (November 2010): 240–68,
+          <a href="https://doi.org/10.3366/drt.2010.0206">
+            https://doi.org/10.3366/drt.2010.0206
+          </a>
+          .
+        </p>
+        <p>
+          <sup>12</sup> “Black like me” is culled from the final line of
+          Langston Hughes’ <i>Dream Variations</i>, originally published 1924.
+        </p>
+      </FooterContainer>
     </ArticleContainer>
   )
 }

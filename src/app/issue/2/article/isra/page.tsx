@@ -3,7 +3,7 @@
 import { ArticleBase } from "@/components"
 
 import { issue2Metadata } from ".."
-import { ArticleContainer, ArticleImage } from "../../styled"
+import { ArticleContainer, ArticleImage, FooterContainer } from "../../styled"
 import { BigGuy, CaptionContainer } from "@/utils/layout"
 import isra1 from "../../../../../../public/photos/Isra_Rene_Image1.png"
 
@@ -240,6 +240,13 @@ function Article() {
           Young and…
         </i>
       </p>
+      <FooterContainer>
+        <p>
+          <sup>1</sup> Simone Browne, Dark Matters:{" "}
+          <i>On the Surveillance of Blackness</i> (Durham: Duke University
+          Press, 2015), 9.
+        </p>
+      </FooterContainer>
     </ArticleContainer>
   )
 }
