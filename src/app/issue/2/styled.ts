@@ -392,6 +392,10 @@ export const FooterContainer = styled.div`
   a {
     word-wrap: break-word;
   }
+
+  p {
+    padding: 4px;
+  }
 `
 
 export const ContributorBody = styled.div`
