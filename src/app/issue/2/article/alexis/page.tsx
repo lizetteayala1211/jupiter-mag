@@ -6,8 +6,8 @@ import { issue2Metadata } from ".."
 import { ArticleContainer, ArticleImage } from "../../styled"
 
 import alexis1 from "../../../../../../public/photos/Alexis_PGumbs_Image1.png"
-import alexis2 from "../../../../../../public/photos/Alexis_PGumbs_Image1.png"
-import alexis3 from "../../../../../../public/photos/Alexis_PGumbs_Image1.png"
+import alexis2 from "../../../../../../public/photos/Alexis_PGumbs_Image2.png"
+import alexis3 from "../../../../../../public/photos/Alexis_PGumbs_Image3.png"
 import { HugeGuy } from "@/utils/layout"
 
 export default function Page() {
