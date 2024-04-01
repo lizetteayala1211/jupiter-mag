@@ -11,6 +11,7 @@ export default function Akwaeke() {
       next={issue1Metadata[1]}
       svg={<Cover />}
       position="0% 80% 50% 0%"
+      issue={1}
     >
       <Article />
     </ArticleBase>

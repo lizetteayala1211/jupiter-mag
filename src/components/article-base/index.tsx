@@ -27,11 +27,13 @@ export function ArticleBase({
   svg,
   position,
   next,
+  issue,
 }: {
   children: React.ReactNode
   svg?: React.ReactNode
   next: ArticleMetadata
   position?: string
+  issue: number
 }) {
   const [showHeader, setShowHeader] = React.useState(false)
   const [showMobileMenu, setShowMobileMenu] = React.useState(false)
@@ -64,7 +66,7 @@ export function ArticleBase({
         <MobileMenuOverlay onClose={() => setShowMobileMenu(false)} />
       ) : (
         <ArticleBaseContainer>
-          <Cover>
+          <Cover $issue={issue}>
             {svg ? (
               <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
             ) : null}
@@ -88,7 +90,7 @@ export function ArticleBase({
             {children}
           </Article>
           <Footer>
-            <NextFooter>
+            <NextFooter $issue={issue}>
               <FooterTitle href={next.link}>{next.title}</FooterTitle>
               <div
                 style={{

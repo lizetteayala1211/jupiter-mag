@@ -9,7 +9,12 @@ import isra1 from "../../../../../../public/photos/Isra_Rene_Image1.png"
 
 export default function Page() {
   return (
-    <ArticleBase next={issue2Metadata[3]} position="0% 80% 50% 0%">
+    <ArticleBase
+      next={issue2Metadata[3]}
+      position="0% 80% 50% 0%"
+      issue={2}
+      svg={<svg></svg>}
+    >
       <Article />
     </ArticleBase>
   )

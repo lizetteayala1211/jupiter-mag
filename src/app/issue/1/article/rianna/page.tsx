@@ -11,6 +11,7 @@ export default function Rianna() {
       next={issue1Metadata[0]}
       svg={<Cover />}
       position="0% 80% 30% 0%"
+      issue={1}
     >
       <Article />
     </ArticleBase>

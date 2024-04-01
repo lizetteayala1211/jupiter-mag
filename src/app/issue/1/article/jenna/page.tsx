@@ -11,6 +11,7 @@ export default function Jenna() {
       next={issue1Metadata[2]}
       svg={<Cover />}
       position="30% 50% 0% 0%"
+      issue={1}
     >
       <Article />
     </ArticleBase>

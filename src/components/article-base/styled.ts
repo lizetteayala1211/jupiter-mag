@@ -19,13 +19,12 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
 export const Header = styled.section`
   grid-area: header;
   z-index: var(--z-index-seven);
-  background-color: var(--color-article-purple);
 `
 
-export const Cover = styled.section`
+export const Cover = styled.section<{ $issue: number }>`
   grid-area: cover;
-  background-color: var(--color-article-purple);
-  border-bottom: 10px solid var(--color-article-purple);
+  background-color: ${(props) => (props.$issue === 1 ? "#d6c3d8" : "#040723")};
+
   min-width: 100%;
 
   /* mobile and tablet only */
@@ -63,17 +62,16 @@ export const Footer = styled.section`
   width: 100%;
 `
 
-export const NextFooter = styled.div`
+export const NextFooter = styled.div<{ $issue: number }>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-size: 20px;
   width: 100%;
   white-space: pre-wrap;
-  background-color: var(--color-article-purple);
-  border: 1px solid var(--color-off-black);
+  background-color: ${(props) => (props.$issue === 1 ? "#d6c3d8" : "#040723")};
 
-  color: var(--color-off-black);
+  color: var(--color-white);
   font-family: "Alverata Light";
   padding: 0 16px 12px 16px;
 `

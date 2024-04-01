@@ -359,6 +359,7 @@ export const ColophonColumn = styled.div<{ $first?: string }>`
 `
 
 export const ArticleContainer = styled.div`
+  width: 100%;
   font-family: "Alverata Light";
   p,
   div {
@@ -387,6 +388,10 @@ export const FooterContainer = styled.div`
   max-width: 800px;
   font-size: 14px;
   line-height: 18px;
+
+  a {
+    word-wrap: break-word;
+  }
 `
 
 export const ContributorBody = styled.div`
