@@ -28,14 +28,8 @@ function Article() {
         </i>
       </p>
 
-      <div
-        style={{
-          marginTop: "112px",
-          height: "1px",
-          width: "100%",
-          backgroundColor: "#1a1a1abe",
-        }}
-      />
+      {/* divider */}
+      <hr style={{ backgroundColor: "grey" }} />
 
       <div style={{ display: "flex", justifyContent: "flex-end" }}>
         <p>

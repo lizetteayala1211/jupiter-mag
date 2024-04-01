@@ -355,7 +355,9 @@ export const ColophonColumn = styled.div<{ $first?: string }>`
 
 export const ArticleContainer = styled.div`
   font-family: "Alverata Light";
-  p {
+  p,
+  div {
+    font-size: 16px;
     padding: 12px 0;
   }
 

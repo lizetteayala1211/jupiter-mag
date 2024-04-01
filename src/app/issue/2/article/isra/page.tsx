@@ -146,7 +146,7 @@ function Article() {
           <i>The way one encounters what one cannot see</i>
         </b>
       </p>
-      <p>
+      <div>
         And yet, periapsis is not solely reserved to the digestible
         understanding of the two-body system. Bodies can be tangible and still
         abstracted. Bodies can refer to (non)human organisms and also to the
@@ -203,7 +203,7 @@ function Article() {
         It is flushed with crosscuts of dispersed dissipation, creating
         dimensional folds in time so that she may breathe fully into her own
         unknown.
-      </p>
+      </div>
       <BigGuy />
       <p style={{ textAlign: "center" }}>
         <b>
