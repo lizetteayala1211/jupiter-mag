@@ -144,6 +144,11 @@ export const SignaturesSection = styled.section`
   align-items: center;
   gap: 2em;
   flex-direction: column;
+  padding-top: 64px;
+
+  @media only screen and (min-width: ${screenSmMin}) {
+    padding-top: 0px;
+  }
 `
 
 export const SignatureContainer = styled(Image)`
