@@ -28,10 +28,12 @@ export function ArticleBase({
   position,
   next,
   issue,
+  previous,
 }: {
   children: React.ReactNode
   svg?: React.ReactNode
   next: ArticleMetadata
+  previous?: ArticleMetadata
   position?: string
   issue: number
 }) {
@@ -90,20 +92,21 @@ export function ArticleBase({
             {children}
           </Article>
           <Footer>
-            <NextFooter $issue={issue}>
+            <NextFooter>
+              <a style={{ fontSize: "32px" }} href={next.link}>
+                {next.author}
+              </a>
               <FooterTitle href={next.link}>{next.title}</FooterTitle>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  justifyContent: "space-between",
-                  fontSize: isMobile ? "16px" : "32px",
-                  paddingTop: "16px",
-                }}
-              >
-                <a href={next.link}>Next</a>
-                <a href={next.link}>{next.author}</a>
-              </div>
+
+              {previous ? (
+                <div>
+                  <a href={previous.link}>
+                    Previous: {previous.title}, {previous.author}{" "}
+                  </a>
+                  <br />
+                  <a href="/">Return home </a>
+                </div>
+              ) : null}
             </NextFooter>
 
             <BaseFooter />

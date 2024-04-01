@@ -41,12 +41,12 @@ export const Article = styled.section`
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    padding: 40px;
+    padding: 40px 80px;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    padding: 100px;
+    padding: 100px 300px;
   }
 
   /* extra wide desktops */
@@ -59,40 +59,43 @@ export const Footer = styled.section`
   grid-area: footer;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
 `
 
-export const NextFooter = styled.div<{ $issue: number }>`
+export const NextFooter = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   font-size: 20px;
   width: 100%;
   white-space: pre-wrap;
-  background-color: ${(props) => (props.$issue === 1 ? "#d6c3d8" : "#040723")};
+  background-color: var(--color-article-cream);
 
-  color: var(--color-white);
+  text-transform: uppercase;
+
+  color: var(--color-black);
   font-family: "Alverata Light";
-  padding: 0 16px 12px 16px;
+  padding: 40px 160px;
 `
 export const FooterTitle = styled.a`
   /* mobile */
   font-size: 40px;
+  line-height: 60px;
   padding-bottom: 1em;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    font-size: 100px;
+    font-size: 80px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
-    font-size: 120px;
+    font-size: 100px;
   }
 `
 

@@ -14,6 +14,7 @@ export default function Page() {
   return (
     <ArticleBase
       next={issue2Metadata[1]}
+      previous={issue2Metadata[6]}
       position="0% 80% 50% 0%"
       issue={2}
       svg={<svg></svg>}
