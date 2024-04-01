@@ -276,6 +276,7 @@ export const ContributorCardContainer = styled.div`
   display: flex;
   flex-direction: column;
   scroll-snap-align: center;
+  margin: 16px;
 
   @media only screen and (min-width: ${screenMdMin}) {
     width: 316px;
@@ -286,14 +287,25 @@ export const ContributorCardContainer = styled.div`
   }
 
   @media only screen and (min-width: ${screenLgMax}) {
-    width: 395px;
+    width: 464px;
   }
 `
 
 export const ContributorPhoto = styled(Image)`
-  width: 100%;
+  width: 316px;
   height: 316px;
   object-fit: cover;
+  margin: 12px 0;
+
+  @media only screen and (min-width: ${screenLgMin}) {
+    width: 436px;
+    height: 436px;
+  }
+
+  @media only screen and (min-width: ${screenLgMax}) {
+    width: 464px;
+    height: 464px;
+  }
 `
 
 export const ScrollerOuterContainer = styled.div`
@@ -401,19 +413,24 @@ export const FooterContainer = styled.div`
 export const ContributorBody = styled.div`
   font-family: "Alverata Light";
   font-size: 16px;
+  min-height: 420px;
+  max-width: 316px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 12px;
+    max-width: 316px;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
     font-size: 16px;
+    max-width: 436px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
     font-size: 20px;
+    max-width: 464px;
   }
 `
