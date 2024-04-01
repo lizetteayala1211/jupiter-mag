@@ -379,6 +379,7 @@ export const ArticleImage = styled(Image)`
 export const FooterContainer = styled.div`
   margin-top: 32px;
   border-top: 1px solid grey;
-  max-width: 600px;
+  max-width: 800px;
   font-size: 14px;
+  line-height: 18px;
 `
