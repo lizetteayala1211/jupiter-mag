@@ -383,3 +383,23 @@ export const FooterContainer = styled.div`
   font-size: 14px;
   line-height: 18px;
 `
+
+export const ContributorBody = styled.div`
+  font-family: "Alverata Light";
+  font-size: 16px;
+
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+    font-size: 12px;
+  }
+
+  /* wide desktops */
+  @media only screen and (min-width: ${screenLgMin}) {
+    font-size: 16px;
+  }
+
+  /* extra wide desktops */
+  @media only screen and (min-width: ${screenXlMin}) {
+    font-size: 20px;
+  }
+`

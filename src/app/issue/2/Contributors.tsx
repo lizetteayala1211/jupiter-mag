@@ -6,10 +6,19 @@ import {
   Row,
   ScrollerContainer,
   ScrollerOuterContainer,
+  ContributorBody,
 } from "./styled"
 
-import dummy from "../../../../public/photos/j.png"
 import { useBreakpoints } from "@/utils/hooks"
+import { issue2Metadata } from "./article"
+
+import ayinde from "../../../../public/photos/ayinde.png"
+import binion from "../../../../public/photos/binion.png"
+import gumbs from "../../../../public/photos/gumbs.png"
+import hopkins from "../../../../public/photos/hopkins.png"
+import jesus from "../../../../public/photos/jesus.png"
+import rene from "../../../../public/photos/rene.png"
+import russell from "../../../../public/photos/russell.png"
 
 export function Contributors() {
   const { isMobile } = useBreakpoints()
@@ -63,14 +72,14 @@ export function Contributors() {
 type ContributorProps = {
   author: string
   photo: StaticImageData
-  desc: string
+  desc: React.ReactNode
 }
 function ContributorCard({ author, photo, desc }: ContributorProps) {
   return (
     <ContributorCardContainer>
       <h5>{author}</h5>
       <ContributorPhoto src={photo} alt={`Photo of ${author}`} />
-      <p>{desc}</p>
+      <ContributorBody>{desc}</ContributorBody>
     </ContributorCardContainer>
   )
 }
@@ -80,37 +89,87 @@ function DesktopSlideOne() {
     <Slide>
       <Row>
         <ContributorCard
-          author={"1"}
-          key={1}
-          photo={dummy}
+          author={issue2Metadata[0].author}
+          key={0}
+          photo={hopkins}
           desc={
-            "Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante. Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante."
+            <p>
+              Zoë Hopkins is a writer and critic based in New York. She received
+              her BA in art history and African American studies at Harvard
+              University, and is currently working on her MA in modern and
+              contemporary art at Columbia University, where she researches
+              conceptual art of the Black diaspora. Her writing has been
+              published in Frieze Magazine, Artforum, The Brooklyn Rail,
+              ArtReview and Hyperallergic, as well as several exhibition
+              catalogs.
+            </p>
           }
         />
         <ContributorCard
-          author={"2"}
-          key={2}
-          photo={dummy}
+          author={issue2Metadata[1].author}
+          key={1}
+          photo={gumbs}
           desc={
-            "Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante. Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante."
+            <p>
+              Alexis Pauline Gumbs is a Queer Black Feminist Love Evangelist and
+              an aspirational cousin to all life. She is/they are the author of
+              several books, most recently{" "}
+              <i>Undrowned: Black Feminist Lessons from Marine Mammals</i>, and
+              has a forthcoming biography,{" "}
+              <i>Survival is a Promise: The Eternal Life of Audre Lorde</i>. She
+              is/they are the co-founder of the Mobile Homecoming Trust, an
+              intergenerational experiential living library of Black LBGTQ
+              brilliance.
+            </p>
           }
         />
       </Row>
       <Row>
         <ContributorCard
-          author={"3"}
-          key={3}
-          photo={dummy}
+          author={issue2Metadata[2].author}
+          key={2}
+          photo={rene}
           desc={
-            "Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante. Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante."
+            <p>
+              Isra Rene is a writer and artist based in Chicago, IL from Capitol
+              Heights, MD
+            </p>
           }
         />
         <ContributorCard
-          author={"4"}
-          key={4}
-          photo={dummy}
+          author={issue2Metadata[3].author}
+          key={3}
+          photo={ayinde}
           desc={
-            "Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante. Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante."
+            <>
+              <p>
+                Rohan Ayinde is an anadisciplinary artist and poet based between
+                London and Chicago. His work traverses audio, visual and
+                literary forms and often embraces installation and performance.
+                Through an entanglement with the phenomenon of the black hole,
+                his practice attempts to excavate an architecture of ideology
+                through the analytical framework of black feminist thought.
+                Investigating how the politics of place intersects with the
+                conceptual, his poems, drawings, videos and performance work are
+                translations and sketches of landscapes built from a freedom
+                best imagined by writers like Octavia Butler, Ursula Le Guin,
+                Lola Olufemi and Edouard Glissant.{" "}
+              </p>
+              <p>
+                Ayinde is one half of the wayward/motile collaborative duo
+                i.as.in.we, with friend/producer/dancer Yewande YoYo Odunubi. He
+                received his MA in Visual and Critical Studies from SAIC (2019)
+                and on graduating was a curatorial fellow with ACRE (2019-2023).
+                In 2021 he was awarded the fifth Stuart Hall Library
+                Artist&apos;s Residency. In 2024, Ayinde was admitted to the
+                inaugural cohort of the Rose Choreographic School. He is the
+                gallery director at Blanc (Chicago), and has curated multiple
+                shows there. He is currently co-directing iwoyi, a
+                5-screen-installation with Tayo Rapoport for the exhibition
+                Beyond The Bassline: 500 years of Black British Music at the
+                British Library (2024).
+              </p>
+            </>
           }
         />
       </Row>
@@ -123,37 +182,82 @@ function DesktopSlideTwo() {
     <Slide>
       <Row>
         <ContributorCard
-          author={"5"}
-          key={5}
-          photo={dummy}
+          author="Legacy Russell"
+          key={4}
+          photo={russell}
           desc={
-            "Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante. Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante."
+            <p>
+              {" "}
+              Legacy Russell is a curator and writer. Born and raised in New
+              York City, she is the Executive Director & Chief Curator of
+              experimental arts institution The Kitchen. Formerly she was the
+              Associate Curator of Exhibitions at The Studio Museum in Harlem.
+              Russell holds an MRes with Distinction in Art History from
+              Goldsmiths, University of London with a focus in Visual Culture.
+              Her academic, curatorial, and creative work focuses on gender,
+              performance, digital selfdom, internet idolatry, and new media
+              ritual. Russell&apos;s written work, interviews, and essays have
+              been published internationally. She is the recipient of the Thoma
+              Foundation 2019 Arts Writing Award in Digital Art, a 2020
+              Rauschenberg Residency Fellow, a recipient of the 2021 Creative
+              Capital Award, a 2022 Pompeii Commitment Digital Fellow and a 2023
+              Center for Curatorial Leadership Fellow. Her first book is Glitch
+              Feminism: A Manifesto (2020). Her second book, BLACK MEME, is
+              forthcoming via Verso Books.
+            </p>
           }
         />
         <ContributorCard
-          author={"6"}
-          key={6}
-          photo={dummy}
+          author="Jesús Hilario-Reyes"
+          key={5}
+          photo={jesus}
           desc={
-            "Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante. Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante."
+            <p>
+              Currently based in Brooklyn, New York, Jesús Hilario-Reyes, (San
+              Juan, Puerto Rico) is an antidisciplinary artist with a
+              Bachelor&apos;s in Fine Arts Studio from the School of the Art
+              Institute of Chicago who is currently pursuing their MFA at Yale
+              University. Recently a recipient of the Drawing a Blank Artist
+              Grant, the Leslie Lohman Museum Fellowship, the Lighthouse Works
+              Fellowship (2022) and the Bemis Center Residency (2022) program.
+              Jesús Hilario-Reyes has exhibited/screened/performed most notably
+              at Frieze (London), e-Flux (NYC) ,Gladstone Gallery (NYC), The
+              Kitchen (NYC), Museum of Contemporary Art Chicago, Black Star Film
+              Festival (Philadelphia, PN), Mana Contemporary (Chicago, IL), Real
+              Art Ways (Hartford, CT), Rudimento (Quito, ECUA), Parasol Unit
+              (London,UK), and Gladstone Gallery (NYC). While situating their
+              practice at the crossroads of sonic performance, land
+              installation, and expanded cinema, their iterative works examine
+              carnival and rave culture throughout the West; to take on a
+              remedial approach to the effects of
+              &quot;destierro&quot;.Destierro is an untranslatable Spanish term
+              that is most akin to being &quot;torn from the land&quot;.
+              They&apos;ve contextualized the term to traverse towards ideas of
+              Black and Queer fugitivy. Interwoven in the midst of these notions
+              is a concern for the im/possibility of the Black Body and the
+              failure of mechanical optics
+            </p>
           }
         />
       </Row>
       <Row>
         <ContributorCard
-          author={"7"}
-          key={7}
-          photo={dummy}
+          author="stella rae binion"
+          key={6}
+          photo={binion}
           desc={
-            "Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante. Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante."
-          }
-        />
-        <ContributorCard
-          author={"8"}
-          key={8}
-          photo={dummy}
-          desc={
-            "Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante. Fusce viverra euismod ullamcorper. Praesent ante purus, feugiat eu risus nec, placerat varius tortor. Morbi vulputate augue sed arcu finibus lacinia. Maecenas hendrerit eleifend quam eget commodo. Quisque sit amet cursus elit. In cursus fermentum magna sit amet maximus. Aenean et neque leo. Ut ac elit ante."
+            <p>
+              stella rae binion (they/she) aspires to breathe underwater,
+              embodying an ongoing project of “undrowning” (after alexis pauline
+              gumbs) and speculations of continuance. stella rae is a
+              chicago-based poet, filmmaker, and bodywork practitioner. her
+              practice includes research of the poetic frequencies of fugitivity
+              and the black outdoors, honor work as prayer and divination,
+              witnessing intimacies through language and imaging, and the
+              protection and celebration of black queer people. stella rae
+              received a BA in media theory and creative writing from brown
+              university in 2023.{" "}
+            </p>
           }
         />
       </Row>
