@@ -35,7 +35,7 @@ export default function Page() {
   )
 }
 
-export function Article() {
+function Article() {
   return (
     <ArticleContainer>
       <p>
