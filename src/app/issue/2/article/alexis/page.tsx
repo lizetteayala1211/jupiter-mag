@@ -1,6 +1,7 @@
 "use client"
 
 import { ArticleBase } from "@/components"
+import { HugeGuy } from "@/utils/layout"
 
 import { issue2Metadata } from ".."
 import { ArticleContainer, ArticleImage } from "../../styled"
@@ -8,7 +9,10 @@ import { ArticleContainer, ArticleImage } from "../../styled"
 import alexis1 from "../../../../../../public/photos/Alexis_PGumbs_Image1.png"
 import alexis2 from "../../../../../../public/photos/Alexis_PGumbs_Image2.png"
 import alexis3 from "../../../../../../public/photos/Alexis_PGumbs_Image3.png"
-import { HugeGuy } from "@/utils/layout"
+
+import title from "../../../../../../public/titles/gumbs.svg"
+import cover from "../../../../../../public/titles/Jupiter_title_Gumbs.png"
+import { ArticleCover } from "../ArticleCover"
 
 export default function Page() {
   return (
@@ -17,7 +21,14 @@ export default function Page() {
       previous={issue2Metadata[0]}
       position="0% 80% 50% 0%"
       issue={2}
-      svg={<svg></svg>}
+      svg={
+        <ArticleCover
+          svg={title}
+          png={cover}
+          title={issue2Metadata[1].title}
+          author={issue2Metadata[1].author}
+        />
+      }
     >
       <Article />
     </ArticleBase>

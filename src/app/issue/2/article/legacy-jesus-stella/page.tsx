@@ -5,14 +5,30 @@ import { ArticleBase } from "@/components"
 import { issue2Metadata } from ".."
 import { ArticleContainer } from "../../styled"
 
+import desktopTitle from "../../../../../../public/titles/binion.svg"
+import mobileTitle from "../../../../../../public/titles/binion_mobile.svg"
+import cover from "../../../../../../public/titles/Jupiter_title_binion.png"
+
+import { useBreakpoints } from "@/utils/hooks"
+import { ArticleCover } from "../ArticleCover"
+
 export default function Page() {
+  const { isMobile } = useBreakpoints()
+
   return (
     <ArticleBase
       next={issue2Metadata[5]}
       previous={issue2Metadata[3]}
       position="0% 80% 50% 0%"
       issue={2}
-      svg={<svg></svg>}
+      svg={
+        <ArticleCover
+          svg={isMobile ? mobileTitle : desktopTitle}
+          png={cover}
+          title={issue2Metadata[2].title}
+          author={issue2Metadata[2].author}
+        />
+      }
     >
       <Article />
     </ArticleBase>

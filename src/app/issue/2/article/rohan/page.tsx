@@ -5,6 +5,9 @@ import { ArticleBase } from "@/components"
 import { issue2Metadata } from ".."
 import { ArticleContainer, FooterContainer } from "../../styled"
 import { BigGuy } from "@/utils/layout"
+import title from "../../../../../../public/titles/ayinde.svg"
+import cover from "../../../../../../public/titles/Jupiter_title_Ayinde.png"
+import { ArticleCover } from "../ArticleCover"
 
 export default function Page() {
   return (
@@ -13,7 +16,14 @@ export default function Page() {
       previous={issue2Metadata[2]}
       position="0% 80% 50% 0%"
       issue={2}
-      svg={<svg></svg>}
+      svg={
+        <ArticleCover
+          svg={title}
+          png={cover}
+          title={issue2Metadata[3].title}
+          author={issue2Metadata[3].author}
+        />
+      }
     >
       <Article />
     </ArticleBase>

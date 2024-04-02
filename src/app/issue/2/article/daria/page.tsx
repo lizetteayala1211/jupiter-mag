@@ -5,6 +5,10 @@ import { ArticleBase } from "@/components"
 import { issue2Metadata } from ".."
 import { ArticleContainer } from "../../styled"
 
+import title from "../../../../../../public/titles/harper.svg"
+import cover from "../../../../../../public/titles/Jupiter_title_Harper.png"
+import { ArticleCover } from "../ArticleCover"
+
 export default function Page() {
   return (
     <ArticleBase
@@ -12,7 +16,14 @@ export default function Page() {
       previous={issue2Metadata[5]}
       position="0% 80% 50% 0%"
       issue={2}
-      svg={<svg></svg>}
+      svg={
+        <ArticleCover
+          svg={title}
+          png={cover}
+          title={issue2Metadata[6].title}
+          author={issue2Metadata[6].author}
+        />
+      }
     >
       <Article />
     </ArticleBase>

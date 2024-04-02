@@ -2,6 +2,7 @@
 
 import { ArticleBase } from "@/components"
 
+import { ArticleCover } from "../ArticleCover"
 import { issue2Metadata } from ".."
 
 import hopkins1 from "../../../../../../public/photos/Hopkins_Image1.png"
@@ -10,6 +11,9 @@ import hopkins3 from "../../../../../../public/photos/Hopkins_Image3.png"
 import { ArticleContainer, ArticleImage, FooterContainer } from "../../styled"
 import { CaptionContainer } from "@/utils/layout"
 
+import title from "../../../../../../public/titles/hopkins.svg"
+import cover from "../../../../../../public/titles/Jupiter_title_Hopkins.png"
+
 export default function Page() {
   return (
     <ArticleBase
@@ -17,7 +21,14 @@ export default function Page() {
       previous={issue2Metadata[6]}
       position="0% 80% 50% 0%"
       issue={2}
-      svg={<svg></svg>}
+      svg={
+        <ArticleCover
+          svg={title}
+          png={cover}
+          title={issue2Metadata[0].title}
+          author={issue2Metadata[0].author}
+        />
+      }
     >
       <Article />
     </ArticleBase>
