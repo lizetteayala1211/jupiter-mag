@@ -104,11 +104,10 @@ export function ArticleBase({
                     Previous: {previous.title}, {previous.author}{" "}
                   </a>
                   <br />
-                  <a href="/">Return home </a>
+                  <a href="/">Return home</a>
                 </div>
               ) : null}
             </NextFooter>
-
             <BaseFooter />
           </Footer>
         </ArticleBaseContainer>
