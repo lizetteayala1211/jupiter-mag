@@ -142,7 +142,7 @@ function DesktopSlideOne() {
           }
         />
       </Row>
-      <Row>
+      <Row style={{ paddingBottom: "64px" }}>
         <ContributorCard
           author={issue2Metadata[2].author}
           key={2}

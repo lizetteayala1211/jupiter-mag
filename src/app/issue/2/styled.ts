@@ -274,6 +274,29 @@ export const AuthorDirectoryContainer = styled.div`
 
 export const ScrollerOuterContainer = styled.div`
   width: 100%;
+
+  /* width */
+  ::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e0e9f4;
+    opacity: 50%;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fe4101;
+    border-radius: 10000;
+    opacity: 50%;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 `
 
 export const ScrollerContainer = styled.div`
@@ -405,7 +428,7 @@ export const ContributorBody = styled.div<{ $long?: string }>`
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 12px;
-    width: ${(props) => (props.$long === "true" ? "464px" : "600px")};
+    width: ${(props) => (props.$long === "true" ? "588px" : "600px")};
   }
 
   /* wide desktops */
