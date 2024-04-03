@@ -1,6 +1,5 @@
 import { StaticImageData } from "next/image"
 import {
-  ContributorCardContainer,
   ContributorPhoto,
   Slide,
   Row,
@@ -73,14 +72,33 @@ type ContributorProps = {
   author: string
   photo: StaticImageData
   desc: React.ReactNode
+  long?: boolean
 }
-function ContributorCard({ author, photo, desc }: ContributorProps) {
+function ContributorCard({ author, photo, desc, long }: ContributorProps) {
   return (
-    <ContributorCardContainer>
-      <h5>{author}</h5>
-      <ContributorPhoto src={photo} alt={`Photo of ${author}`} />
-      <ContributorBody>{desc}</ContributorBody>
-    </ContributorCardContainer>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        scrollSnapAlign: "center",
+        margin: "32px",
+      }}
+    >
+      <h5 style={{ width: "100%", marginInlineStart: "12px" }}>{author}</h5>
+      <div
+        style={{
+          scrollSnapAlign: "center",
+          maxWidth: "796px",
+          maxHeight: long ? "500px" : "336px",
+          position: "relative",
+        }}
+      >
+        <ContributorPhoto src={photo} alt={`Photo of ${author}`} />
+        <ContributorBody $long={long ? long.toString() : "false"}>
+          {desc}
+        </ContributorBody>
+      </div>
+    </div>
   )
 }
 
@@ -137,6 +155,7 @@ function DesktopSlideOne() {
           }
         />
         <ContributorCard
+          long
           author={issue2Metadata[3].author}
           key={3}
           photo={ayinde}
@@ -155,6 +174,7 @@ function DesktopSlideOne() {
                 best imagined by writers like Octavia Butler, Ursula Le Guin,
                 Lola Olufemi and Edouard Glissant.{" "}
               </p>
+              <br />
               <p>
                 Ayinde is one half of the wayward/motile collaborative duo
                 i.as.in.we, with friend/producer/dancer Yewande YoYo Odunubi. He
@@ -182,6 +202,7 @@ function DesktopSlideTwo() {
     <Slide>
       <Row>
         <ContributorCard
+          long
           author="Legacy Russell"
           key={4}
           photo={russell}
@@ -208,6 +229,7 @@ function DesktopSlideTwo() {
           }
         />
         <ContributorCard
+          long
           author="Jesús Hilario-Reyes"
           key={5}
           photo={jesus}

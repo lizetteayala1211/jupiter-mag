@@ -272,42 +272,6 @@ export const AuthorDirectoryContainer = styled.div`
   }
 `
 
-export const ContributorCardContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  scroll-snap-align: center;
-  margin: 16px;
-
-  @media only screen and (min-width: ${screenMdMin}) {
-    width: 316px;
-  }
-
-  @media only screen and (min-width: ${screenLgMin}) {
-    width: 436px;
-  }
-
-  @media only screen and (min-width: ${screenLgMax}) {
-    width: 464px;
-  }
-`
-
-export const ContributorPhoto = styled(Image)`
-  width: 316px;
-  height: 316px;
-  object-fit: cover;
-  margin: 12px 0;
-
-  @media only screen and (min-width: ${screenLgMin}) {
-    width: 436px;
-    height: 436px;
-  }
-
-  @media only screen and (min-width: ${screenLgMax}) {
-    width: 464px;
-    height: 464px;
-  }
-`
-
 export const ScrollerOuterContainer = styled.div`
   width: 100%;
 `
@@ -432,27 +396,45 @@ export const FooterContainer = styled.div`
   }
 `
 
-export const ContributorBody = styled.div`
+export const ContributorBody = styled.div<{ $long?: string }>`
   font-family: "Alverata Light";
   font-size: 16px;
-  min-height: 420px;
-  max-width: 316px;
+  width: ${(props) => (props.$long === "true" ? "464px" : "600px")};
+  margin: 12px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 12px;
-    max-width: 316px;
+    width: ${(props) => (props.$long === "true" ? "464px" : "600px")};
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
     font-size: 16px;
-    max-width: 436px;
+    width: ${(props) => (props.$long === "true" ? "600px" : "648px")};
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
     font-size: 20px;
-    max-width: 464px;
+    width: ${(props) => (props.$long === "true" ? "700px" : "928px")};
   }
+`
+export const ContributorPhoto = styled(Image)`
+  width: 276px;
+  height: 276px;
+  object-fit: cover;
+  float: left;
+
+  margin: 12px;
+
+  /* @media only screen and (min-width: ${screenLgMin}) {
+    width: 436px;
+    height: 436px;
+  }
+
+  @media only screen and (min-width: ${screenLgMax}) {
+    width: 464px;
+    height: 464px;
+  } */
 `
