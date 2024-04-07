@@ -30,7 +30,10 @@
   --color-light-orange: #ff7a00;
   --color-dark-orange: #fe4101;
 
-  --color-light-blue: #ebf4ff;
+  --color-lighter-blue: #ebf4ff;
+  --color-light-blue: rgb(127, 139, 155);
+  --color-blue: #4b638f;
+  --color-dark-blue: #040e21;
 
   /* thematic colors */
   --color-article-purple: #d6c3d8;

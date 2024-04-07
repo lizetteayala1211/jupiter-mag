@@ -74,7 +74,7 @@ export const MenuModalContainer = styled.div`
   height: 100%;
 `
 
-export const MenuModalBackground = styled.div`
+export const MenuModalBackground = styled.div<{ $issue: number }>`
   position: absolute;
   bottom: 0;
   left: 0;
@@ -83,7 +83,11 @@ export const MenuModalBackground = styled.div`
   z-index: var(--z-index-five);
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, #dcb0e0 1%, rgba(157, 208, 252, 0.02) 100%);
+  background: linear-gradient(
+    0deg,
+    ${(props) => (props.$issue === 1 ? "#dcb0e0" : "var(--color-blue)")} 1%,
+    rgba(157, 208, 252, 0.02) 99%
+  );
 `
 
 export const ExitMenuModalButton = styled.a`
@@ -115,6 +119,7 @@ export const MenuButton = styled.a`
   background-color: transparent;
   color: white;
   font-weight: 500;
+  position: sticky;
 `
 
 export const MenuContainer = styled.div`
