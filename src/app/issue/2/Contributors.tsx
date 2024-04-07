@@ -6,6 +6,7 @@ import {
   ScrollerContainer,
   ScrollerOuterContainer,
   ContributorBody,
+  ContributorCardContainer,
 } from "./styled"
 
 import { useBreakpoints } from "@/utils/hooks"
@@ -75,6 +76,7 @@ type ContributorProps = {
   long?: boolean
 }
 function ContributorCard({ author, photo, desc, long }: ContributorProps) {
+  const longStr = long ? long.toString() : "false"
   return (
     <div
       style={{
@@ -85,19 +87,11 @@ function ContributorCard({ author, photo, desc, long }: ContributorProps) {
       }}
     >
       <h5 style={{ width: "100%", marginInlineStart: "12px" }}>{author}</h5>
-      <div
-        style={{
-          scrollSnapAlign: "center",
-          maxWidth: "796px",
-          maxHeight: long ? "500px" : "336px",
-          position: "relative",
-        }}
-      >
+
+      <ContributorCardContainer $long={longStr}>
         <ContributorPhoto src={photo} alt={`Photo of ${author}`} />
-        <ContributorBody $long={long ? long.toString() : "false"}>
-          {desc}
-        </ContributorBody>
-      </div>
+        <ContributorBody $long={longStr}>{desc}</ContributorBody>
+      </ContributorCardContainer>
     </div>
   )
 }

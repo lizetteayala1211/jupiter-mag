@@ -1,5 +1,4 @@
 import {
-  screenLgMax,
   screenLgMed,
   screenLgMin,
   screenMdMin,
@@ -313,8 +312,11 @@ export const ScrollerContainer = styled.div`
 
 export const Slide = styled.div`
   display: flex;
-  flex-direction: column;
   gap: 8px;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    flex-direction: column;
+  }
 `
 
 export const Row = styled.span`
@@ -422,19 +424,19 @@ export const FooterContainer = styled.div`
 export const ContributorBody = styled.div<{ $long?: string }>`
   font-family: "Alverata Light";
   font-size: 16px;
-  width: ${(props) => (props.$long === "true" ? "464px" : "600px")};
-  margin: 12px;
+  width: 350px;
+  margin: 8px 12px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 12px;
-    width: ${(props) => (props.$long === "true" ? "588px" : "600px")};
+    width: 600px;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
     font-size: 16px;
-    width: ${(props) => (props.$long === "true" ? "600px" : "648px")};
+    width: 648px;
   }
 
   /* extra wide desktops */
@@ -450,14 +452,17 @@ export const ContributorPhoto = styled(Image)`
   float: left;
 
   margin: 12px;
+`
 
-  /* @media only screen and (min-width: ${screenLgMin}) {
-    width: 436px;
-    height: 436px;
+export const ContributorCardContainer = styled.div<{ $long: string }>`
+  scroll-snap-align: center;
+  max-width: 900px;
+  max-height: ${(props) => (props.$long ? `824px` : `336px`)};
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    display: block;
   }
-
-  @media only screen and (min-width: ${screenLgMax}) {
-    width: 464px;
-    height: 464px;
-  } */
 `
