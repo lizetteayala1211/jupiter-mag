@@ -127,7 +127,6 @@ function Article() {
       </p>
 
       <HugeGuy />
-      <HugeGuy />
 
       <p>
         <b>Attempts</b>
@@ -159,7 +158,6 @@ function Article() {
       <ArticleImage alt="Harpoons dug into the sand at shore" src={alexis1} />
 
       <HugeGuy />
-      <HugeGuy />
 
       <p>
         <b>2</b>
@@ -186,7 +184,6 @@ function Article() {
 
       <ArticleImage src={alexis2} alt="Art installation" />
 
-      <HugeGuy />
       <HugeGuy />
 
       <p>
@@ -222,7 +219,6 @@ function Article() {
 
       <ArticleImage src={alexis3} alt="Art installation" />
 
-      <HugeGuy />
       <HugeGuy />
 
       <p>

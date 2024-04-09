@@ -12,8 +12,8 @@ import { ArticleCover } from "../ArticleCover"
 export default function Page() {
   return (
     <ArticleBase
-      next={issue2Metadata[0]}
-      previous={issue2Metadata[5]}
+      next={issue2Metadata[6]}
+      previous={issue2Metadata[4]}
       position="0% 80% 50% 0%"
       issue={2}
       svg={

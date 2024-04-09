@@ -96,6 +96,8 @@ export const EditorsNoteSection = styled.section`
 
   display: flex;
 
+  padding-block-end: 128px;
+
   @media only screen and (min-width: ${screenMdMin}) {
     margin-inline-start: 16px;
     margin-inline-end: 64px;

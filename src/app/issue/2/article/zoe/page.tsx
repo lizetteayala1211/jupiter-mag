@@ -17,8 +17,8 @@ import cover from "../../../../../../public/titles/Jupiter_title_Hopkins.png"
 export default function Page() {
   return (
     <ArticleBase
-      next={issue2Metadata[1]}
-      previous={issue2Metadata[6]}
+      next={issue2Metadata[3]}
+      previous={issue2Metadata[1]}
       position="0% 80% 50% 0%"
       issue={2}
       svg={
