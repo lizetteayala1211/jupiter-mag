@@ -1,10 +1,13 @@
-import { ContactForm } from "@/components"
-import { ContactSection, FormSection, Main } from "./styled"
+import { ContactForm, Header } from "@/components"
+import { ContactSection, FormSection, HeaderSection, Main } from "./styled"
 
 // todo: for all desktop and mobile components, reconcil so we don't have the same copy twice, this is bad code
 export default function Desktop() {
   return (
     <Main>
+      <HeaderSection>
+        <Header />
+      </HeaderSection>
       <ContactSection>
         <div>
           <h1>Daria Harper</h1>

@@ -17,11 +17,6 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
   zoom: 1;
 `
 
-export const Header = styled.section`
-  grid-area: header;
-  z-index: var(--z-index-seven);
-`
-
 export const Cover = styled.section<{ $issue: number }>`
   grid-area: cover;
   background-color: ${(props) => (props.$issue === 1 ? "#d6c3d8" : "#040723")};

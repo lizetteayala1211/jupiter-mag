@@ -3,11 +3,16 @@ import styled from "styled-components"
 
 export const Main = styled(SharedGridMain)`
   grid-template-areas:
-    "contact"
-    "form";
+    "header header"
+    "contact form";
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "contact form";
+  grid-template-rows: 1fr 6fr;
   font-family: "Alverata Light";
+`
+
+export const HeaderSection = styled.section`
+  grid-area: header;
+  position: relative;
 `
 
 export const ContactSection = styled.section`
