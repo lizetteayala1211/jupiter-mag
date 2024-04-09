@@ -392,7 +392,7 @@ export const ContributorBody = styled.div<{ $long?: string }>`
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMed}) {
     font-size: 24px;
-    width: 560px;
+    width: 550px;
   }
 
   /* extra wide desktops */
@@ -415,8 +415,8 @@ export const ContributorPhoto = styled(Image)`
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMed}) {
-    width: 560px;
-    height: 560px;
+    width: 550px;
+    height: 550px;
   }
 
   /* extra wide desktops */
