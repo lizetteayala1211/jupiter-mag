@@ -10,10 +10,12 @@ export function useIntersectionObserver() {
     setObserver(new IntersectionObserver(handler))
   }, [])
 
-  // Observe all headings on our webpage
-  document.querySelectorAll("pre").forEach((section) => {
-    observer?.observe(section)
-  })
+  if (typeof window === "object") {
+    // Observe all headings on our webpage
+    document.querySelectorAll("pre").forEach((section) => {
+      observer?.observe(section)
+    })
+  }
 }
 
 const handler = (entries: any) => {
