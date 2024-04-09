@@ -14,6 +14,7 @@ export const ArticleBaseContainer = styled(SharedGridMain)`
   grid-template-rows: repeat(auto-fill, 1fr);
 
   color: var(--color-off-black);
+  zoom: 1;
 `
 
 export const Header = styled.section`
@@ -75,7 +76,12 @@ export const NextFooter = styled.div`
 
   color: var(--color-black);
   font-family: "Alverata Light";
-  padding: 40px 160px;
+  padding: 12px 16px;
+
+  /* smaller desktops */
+  @media only screen and (min-width: ${screenMdMin}) {
+    padding: 40px 160px;
+  }
 `
 export const FooterTitle = styled.a`
   /* mobile */
