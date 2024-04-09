@@ -16,7 +16,7 @@ import {
 } from "./styled"
 
 import { Colophon } from "./Colophon"
-import { Contributors } from "./Contributors"
+import { Writers } from "./Writers"
 import { AuthorDirectory } from "./AuthorDirectory"
 import { Lottie } from "@/components/lottie-container"
 import { JupiterLogo } from "@/components"
@@ -68,7 +68,7 @@ export function Page() {
           <pre id="articles" />
           <AuthorDirectory homepage />
           <pre id="writers" />
-          <Contributors />
+          <Writers />
           <pre id="colophon" />
           {/* divider */}
           <div

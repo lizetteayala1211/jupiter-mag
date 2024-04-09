@@ -275,60 +275,6 @@ export const AuthorDirectoryContainer = styled.div`
   }
 `
 
-export const ScrollerOuterContainer = styled.div`
-  width: 100%;
-
-  /* width */
-  ::-webkit-scrollbar {
-    height: 4px;
-  }
-
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #e0e9f4;
-    opacity: 50%;
-  }
-
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #fe4101;
-    border-radius: 10000;
-    opacity: 50%;
-  }
-
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-`
-
-export const ScrollerContainer = styled.div`
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 8px;
-
-  div {
-    flex: 0 0 auto;
-  }
-`
-
-export const Slide = styled.div`
-  display: flex;
-  gap: 8px;
-
-  @media only screen and (min-width: ${screenMdMin}) {
-    flex-direction: column;
-  }
-`
-
-export const Row = styled.span`
-  display: flex;
-  white-space: pre-wrap;
-  gap: 8px;
-`
-
 export const EllipseContainer = styled.div<{ $longTitle?: string }>`
   position: absolute;
   top: ${(props) => (props.$longTitle === "true" ? `0px` : `-100px`)};
@@ -428,50 +374,64 @@ export const FooterContainer = styled.div`
 export const ContributorBody = styled.div<{ $long?: string }>`
   font-family: "Alverata Light";
   font-size: 16px;
-  width: 350px;
+  width: 325px;
   margin: 8px 12px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 12px;
-    width: 600px;
+  }
+
+  @media only screen and (min-width: ${screenLgMin}) {
+    font-size: 16px;
+    width: 400px;
   }
 
   /* wide desktops */
-  @media only screen and (min-width: ${screenLgMin}) {
-    font-size: 16px;
-    width: 648px;
+  @media only screen and (min-width: ${screenLgMed}) {
+    font-size: 24px;
+    width: 560px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
-    font-size: 20px;
-    width: ${(props) => (props.$long === "true" ? "700px" : "928px")};
+    font-size: 32px;
+    width: 700px;
   }
 `
 export const ContributorPhoto = styled(Image)`
-  width: 276px;
-  height: 276px;
+  width: 325px;
+  height: 325px;
   object-fit: cover;
   float: left;
-
   margin: 12px;
+
+  @media only screen and (min-width: ${screenLgMin}) {
+    width: 400px;
+    height: 400px;
+  }
+
+  /* wide desktops */
+  @media only screen and (min-width: ${screenLgMed}) {
+    width: 560px;
+    height: 560px;
+  }
+
+  /* extra wide desktops */
+  @media only screen and (min-width: ${screenXlMin}) {
+    width: 700px;
+    height: 700px;
+  }
 `
 
 export const ContributorCardContainer = styled.div<{ $long: string }>`
   scroll-snap-align: center;
-  max-width: 900px;
-  max-height: ${(props) => (props.$long ? `824px` : `336px`)};
   position: relative;
   display: flex;
   flex-direction: column;
-
-  @media only screen and (min-width: ${screenMdMin}) {
-    display: block;
-  }
 `
 
-export const ContributorsTitle = styled.h1`
+export const ContributorsSectionTitle = styled.h1`
   font-size: 40px;
   line-height: 32px;
   margin-block-start: 64px;
