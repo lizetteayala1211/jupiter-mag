@@ -86,7 +86,11 @@ export const MenuModalBackground = styled.div<{ $issue: number }>`
   background: linear-gradient(
     0deg,
     ${(props) => (props.$issue === 1 ? "#dcb0e0" : "var(--color-blue)")} 1%,
-    rgba(157, 208, 252, 0.02) 99%
+    ${(props) =>
+        props.$issue === 1
+          ? "rgba(157, 208, 252, 0.02) 99%"
+          : "var(--color-black) 99%"}
+      1%
   );
 `
 
