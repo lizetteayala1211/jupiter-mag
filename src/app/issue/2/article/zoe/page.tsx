@@ -2,7 +2,7 @@
 
 import { ArticleBase } from "@/components"
 
-import { ArticleCover } from "../ArticleCover"
+import { ArticleCover } from "../../ArticleCover"
 import { issue2Metadata } from ".."
 
 import hopkins1 from "../../../../../../public/photos/Hopkins_Image1.png"
@@ -18,8 +18,8 @@ export default function Page() {
   return (
     <ArticleBase
       next={issue2Metadata[3]}
+      position="0% 90% 0% 0%"
       previous={issue2Metadata[1]}
-      position="0% 80% 50% 0%"
       issue={2}
       svg={
         <ArticleCover

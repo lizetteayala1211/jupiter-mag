@@ -7,14 +7,14 @@ import { ArticleContainer, FooterContainer } from "../../styled"
 import { BigGuy } from "@/utils/layout"
 import title from "../../../../../../public/titles/ayinde.svg"
 import cover from "../../../../../../public/titles/Jupiter_title_Ayinde.png"
-import { ArticleCover } from "../ArticleCover"
+import { ArticleCover } from "../../ArticleCover"
 
 export default function Page() {
   return (
     <ArticleBase
       next={issue2Metadata[5]}
       previous={issue2Metadata[3]}
-      position="0% 80% 50% 0%"
+      position="0% 90% 0% 0%"
       issue={2}
       svg={
         <ArticleCover

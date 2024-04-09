@@ -9,14 +9,14 @@ import isra1 from "../../../../../../public/photos/Isra_Rene_Image1.png"
 
 import title from "../../../../../../public/titles/rene.svg"
 import cover from "../../../../../../public/titles/Jupiter_title_rene.png"
-import { ArticleCover } from "../ArticleCover"
+import { ArticleCover } from "../../ArticleCover"
 
 export default function Page() {
   return (
     <ArticleBase
       next={issue2Metadata[4]}
       previous={issue2Metadata[2]}
-      position="0% 80% 50% 0%"
+      position="0% 90% 0% 0%"
       issue={2}
       svg={
         <ArticleCover

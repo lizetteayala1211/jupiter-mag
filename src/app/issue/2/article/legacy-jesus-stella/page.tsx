@@ -10,7 +10,7 @@ import mobileTitle from "../../../../../../public/titles/binion_mobile.svg"
 import cover from "../../../../../../public/titles/Jupiter_title_binion.png"
 
 import { useBreakpoints } from "@/utils/hooks"
-import { ArticleCover } from "../ArticleCover"
+import { ArticleCover } from "../../ArticleCover"
 
 export default function Page() {
   const { isMobile } = useBreakpoints()
@@ -19,7 +19,7 @@ export default function Page() {
     <ArticleBase
       next={issue2Metadata[1]}
       previous={issue2Metadata[6]}
-      position="0% 80% 50% 0%"
+      position="0% 90% 0% 0%"
       issue={2}
       svg={
         <ArticleCover

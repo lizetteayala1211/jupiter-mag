@@ -444,3 +444,15 @@ export const ContributorsSectionTitle = styled.h1`
     line-height: 64px;
   }
 `
+
+export const ArticleCoverImage = styled(Image)`
+  width: 900px;
+  height: 300px;
+  object-fit: contain;
+`
+
+export const ArticleAuthorImage = styled(Image)`
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+`

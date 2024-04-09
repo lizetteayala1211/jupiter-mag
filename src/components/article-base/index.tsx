@@ -25,7 +25,7 @@ import { useBreakpoints, useDisableScroll } from "@/utils/hooks"
 export function ArticleBase({
   children,
   svg,
-  position,
+  position, // todo: fix this, rn it sets the position of the article title in the cover image
   next,
   issue,
   previous,
@@ -70,7 +70,9 @@ export function ArticleBase({
         <ArticleBaseContainer>
           <Cover $issue={issue}>
             {svg ? (
-              <TitleContainer style={handlePosition()}>{svg}</TitleContainer>
+              <TitleContainer style={position ? handlePosition() : {}}>
+                {svg}
+              </TitleContainer>
             ) : null}
           </Cover>
           <Article>

@@ -12,15 +12,15 @@ import alexis3 from "../../../../../../public/photos/Alexis_PGumbs_Image3.png"
 
 import title from "../../../../../../public/titles/gumbs.svg"
 import cover from "../../../../../../public/titles/Jupiter_title_Gumbs.png"
-import { ArticleCover } from "../ArticleCover"
+import { ArticleCover } from "../../ArticleCover"
 
 export default function Page() {
   return (
     <ArticleBase
       next={issue2Metadata[2]}
       previous={issue2Metadata[0]}
-      position="0% 80% 50% 0%"
       issue={2}
+      position="0% 90% 0% 0%"
       svg={
         <ArticleCover
           svg={title}
