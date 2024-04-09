@@ -15,7 +15,7 @@ import hopkins from "../../../../public/photos/hopkins.png"
 import jesus from "../../../../public/photos/jesus.png"
 import rene from "../../../../public/photos/rene.png"
 import russell from "../../../../public/photos/russell.png"
-import camilleAndDaria from "../../../../public/photos/camille_daria.png"
+import camilleAndDaria from "../../../../public/photos/camille_daria.PNG"
 
 export function Writers() {
   const { isMobile } = useBreakpoints()
