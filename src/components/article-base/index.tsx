@@ -41,6 +41,18 @@ export function ArticleBase({
 
   useDisableScroll(showMobileMenu)
 
+  // todo: get rid of this hacky ass code
+  const determineItalics = (title: string) => {
+    if (title.includes("spill"))
+      return (
+        <>
+          our Martinique, risen still, has yet and reasoned: <i>spill</i> / an
+          entangled vignette of Julien Creuzet&apos;s gravitational refrain
+        </>
+      )
+    return title
+  }
+
   return (
     <StyledComponentsRegistry>
       {showMobileMenu ? (
@@ -77,12 +89,15 @@ export function ArticleBase({
               <a style={{ fontSize: "32px" }} href={next.link}>
                 {next.author}
               </a>
-              <FooterTitle href={next.link}>{next.title}</FooterTitle>
+              <FooterTitle href={next.link}>
+                {determineItalics(next.title)}
+              </FooterTitle>
 
               {previous ? (
                 <div>
                   <a href={previous.link}>
-                    Previous: {previous.title}, {previous.author}{" "}
+                    Previous: {determineItalics(previous.title)},{" "}
+                    {previous.author}{" "}
                   </a>
                   <br />
                   <a href="/">Return home</a>

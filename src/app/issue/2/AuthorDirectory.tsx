@@ -12,6 +12,18 @@ export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
   const isHomePage = homepage!! ? homepage : false
   const [hoveredArticle, setHoveredArticle] = React.useState("")
 
+  // todo: get rid of my hacky ass solution lmfao
+  const determineItalics = (title: string) => {
+    if (title.includes("spill"))
+      return (
+        <>
+          our Martinique, risen still, has yet and reasoned: <i>spill</i> / an
+          entangled vignette of Julien Creuzet&apos;s gravitational refrain
+        </>
+      )
+    return title
+  }
+
   return (
     <AuthorDirectoryContainer>
       {issue2Metadata.map((author) => (
@@ -28,7 +40,7 @@ export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
           >
             <AuthorText>{author.author}</AuthorText>
             <TitleText $longTitle={author.longTitle ? "true" : "false"}>
-              {author.title}
+              {determineItalics(author.title)}
             </TitleText>
           </StyledAuthorLink>
         </div>
