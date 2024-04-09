@@ -232,28 +232,32 @@ export const TitleText = styled.h1<{ $longTitle?: string }>`
     font-size: 56px;
     line-height: 52px;
     text-align: center;
-    max-width: ${(props) => (props.$longTitle === "true" ? "648px" : "456px")};
+    max-width: ${(props) => (props.$longTitle === "true" ? "746px" : "456px")};
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMin}) {
-    max-width: 800px;
     font-size: 72px;
     line-height: 64px;
+    max-width: ${(props) => (props.$longTitle === "true" ? "896px" : "600px")};
+    padding-block-end: 16px;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMed}) {
-    max-width: 900px;
     font-size: 72px;
     line-height: 64px;
+    max-width: ${(props) => (props.$longTitle === "true" ? "1200px" : "900px")};
+    padding-block-end: 24px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
-    max-width: 1200px;
     font-size: 96px;
     line-height: 90px;
+    max-width: ${(props) =>
+      props.$longTitle === "true" ? "1400px" : "1200px"};
+    padding-block-end: 64px;
   }
 `
 
@@ -361,7 +365,7 @@ export const ColophonContainer = styled.div`
   @media only screen and (min-width: ${screenMdMin}) {
     font-family: Alverata Medium;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 25%;
   }
 `
 
@@ -464,5 +468,17 @@ export const ContributorCardContainer = styled.div<{ $long: string }>`
 
   @media only screen and (min-width: ${screenMdMin}) {
     display: block;
+  }
+`
+
+export const ContributorsTitle = styled.h1`
+  font-size: 40px;
+  line-height: 32px;
+  margin-block-start: 64px;
+  padding-inline-start: 32px;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    font-size: 72px;
+    line-height: 64px;
   }
 `

@@ -7,6 +7,7 @@ import {
   ScrollerOuterContainer,
   ContributorBody,
   ContributorCardContainer,
+  ContributorsTitle,
 } from "./styled"
 
 import { useBreakpoints } from "@/utils/hooks"
@@ -42,22 +43,7 @@ export function Contributors() {
               }
         }
       >
-        <h1
-          style={
-            isMobile
-              ? {
-                  fontSize: "40px",
-                  lineHeight: "32px",
-                }
-              : {
-                  fontSize: "72px",
-                  lineHeight: "64px",
-                }
-          }
-        >
-          Our <br />
-          Contributors
-        </h1>
+        <ContributorsTitle>Writers</ContributorsTitle>
       </div>
       <ScrollerOuterContainer>
         <ScrollerContainer>
@@ -143,7 +129,7 @@ function DesktopSlideOne() {
           photo={rene}
           desc={
             <p>
-              Isra Rene is a writer and artist based in Chicago, IL from Capitol
+              isra rene is a writer and artist based in Chicago, IL from Capitol
               Heights, MD
             </p>
           }

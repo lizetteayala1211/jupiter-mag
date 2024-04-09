@@ -15,7 +15,7 @@ export const issue2Metadata: ArticleMetadata[] = [
   {
     title: "In Absentia",
     link: "/issue/2/article/isra",
-    author: "Isra Rene",
+    author: "isra rene",
   },
   {
     title: "to love is to listen",
