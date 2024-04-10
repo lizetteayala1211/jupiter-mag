@@ -25,6 +25,9 @@ export function AuthorDirectory({ homepage }: { homepage?: boolean }) {
   }
 
   return (
+    // TODO: author and writer and contributor are all used
+    // throughout this repo interchangeably - choose one for
+    // consistent code reading
     <AuthorDirectoryContainer>
       {issue2Metadata.map((author) => (
         <div style={{ position: "relative" }} key={author.author}>

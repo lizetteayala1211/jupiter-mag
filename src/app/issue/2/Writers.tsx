@@ -15,7 +15,8 @@ import hopkins from "../../../../public/photos/hopkins.png"
 import jesus from "../../../../public/photos/jesus.png"
 import rene from "../../../../public/photos/rene.png"
 import russell from "../../../../public/photos/russell.png"
-import camilleAndDaria from "../../../../public/photos/camille_daria.png"
+import camille from "../../../../public/photos/camille.png"
+import daria from "../../../../public/photos/daria.png"
 
 export function Writers() {
   const { isMobile } = useBreakpoints()
@@ -208,10 +209,41 @@ export function Writers() {
         />
         <ContributorCard
           long
-          author="Camille and Daria"
+          author="Daria Simone Harper"
           key={3}
-          photo={camilleAndDaria}
-          desc={<></>}
+          photo={daria}
+          desc={
+            <p>
+              Daria Simone Harper is a Brooklyn-based art writer and the
+              co-Editor in Chief of Jupiter Magazine. She is a former Assistant
+              Editor of Digital Content at David Zwirner in New York. Her work
+              has been featured in publications including Burnaway Magazine,
+              Cultured Magazine, ESSENCE, Hyperallergic, i-D, and W Magazine,
+              among others. Harper is also the founder of The Art of It All, an
+              arts and culture podcast featuring candid conversations amongst
+              emerging and established artists of color about work, life, and
+              spirituality.
+            </p>
+          }
+        />
+        <ContributorCard
+          long
+          author="Camille Gallogly Bacon
+          "
+          key={3}
+          photo={camille}
+          desc={
+            <p>
+              Camille Bacon is a Chicago-based writer and the co-Editor in Chief
+              of Jupiter Magazine. She is cultivating a &quot;sweet black
+              writing life&quot; as informed by the words of Nikky Finney and
+              the infinite wisdom of the Black feminist tradition more broadly.
+              Her practice is invested in illuminating the wayward ingenuity of
+              the Black creative spirit and excavating how contemporary art can
+              catalyze a collective reorientation towards relation, connection
+              and intimacy and away from apathy and amnesia.
+            </p>
+          }
         />
       </div>
     </>
@@ -235,7 +267,7 @@ function ContributorCard({ author, photo, desc, long }: ContributorProps) {
         margin: "32px",
       }}
     >
-      <h5 style={{ width: "100%", marginInlineStart: "12px" }}>{author}</h5>
+      <h5 style={{ width: "100%" }}>{author}</h5>
 
       <ContributorCardContainer $long={longStr}>
         <ContributorPhoto src={photo} alt={`Photo of ${author}`} />

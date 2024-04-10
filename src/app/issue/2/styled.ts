@@ -229,6 +229,7 @@ export const AuthorText = styled.h2`
 
 export const TitleText = styled.h1<{ $longTitle?: string }>`
   text-align: left;
+
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
     font-size: 56px;
@@ -377,7 +378,7 @@ export const ContributorBody = styled.div<{ $long?: string }>`
   font-family: "Alverata Light";
   font-size: 16px;
   width: 325px;
-  margin: 8px 12px;
+  margin: 8px 0;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
@@ -406,7 +407,7 @@ export const ContributorPhoto = styled(Image)`
   height: 325px;
   object-fit: cover;
   float: left;
-  margin: 12px;
+  margin: 12px 0;
 
   @media only screen and (min-width: ${screenLgMin}) {
     width: 400px;
