@@ -145,11 +145,6 @@ export const SignaturesSection = styled.section`
   align-items: center;
   gap: 2em;
   flex-direction: column;
-  padding-top: 64px;
-
-  @media only screen and (min-width: ${screenSmMin}) {
-    padding-top: 0px;
-  }
 `
 
 export const SignatureContainer = styled(Image)`
@@ -404,26 +399,23 @@ export const ContributorBody = styled.div<{ $long?: string }>`
 `
 export const ContributorPhoto = styled(Image)`
   width: 325px;
-  height: 325px;
+  height: 100%;
   object-fit: cover;
   float: left;
   margin: 12px 0;
 
   @media only screen and (min-width: ${screenLgMin}) {
     width: 400px;
-    height: 400px;
   }
 
   /* wide desktops */
   @media only screen and (min-width: ${screenLgMed}) {
     width: 550px;
-    height: 550px;
   }
 
   /* extra wide desktops */
   @media only screen and (min-width: ${screenXlMin}) {
     width: 700px;
-    height: 700px;
   }
 `
 

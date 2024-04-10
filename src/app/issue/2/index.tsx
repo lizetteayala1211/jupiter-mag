@@ -98,12 +98,12 @@ function EditorsNoteCopy() {
       }}
     >
       <p>
-        It is with boundless joy and elation that we offer to you Issue 002:
-        <i>Quantum</i>, wherein we beckon readers to plunge into the depths of
-        entropic encounters with a conversation between Legacy Russell, Jesús
-        Hilario-Reyes, and Stella Rae Binion, contributions by Alexis Pauline
-        Gumbs, Zoë Hopkins, isra rene, Rohan Ayinde, as well as a poem by me
-        (Daria S. Harper) and an essay by me (Camille G. Bacon).
+        It is with boundless joy and elation that we offer to you
+        <i>Issue 002: Quantum</i>, wherein we beckon readers to plunge into the
+        depths of entropic encounters with a conversation between Legacy
+        Russell, Jesús Hilario-Reyes, and Stella Rae Binion, contributions by
+        Alexis Pauline Gumbs, Zoë Hopkins, isra rene, Rohan Ayinde, as well as a
+        poem by me (Daria S. Harper) and an essay by me (Camille G. Bacon).
         <br />
         <br />
         For us, quantum mechanics, as a conceptual framework, is spellbinding as
