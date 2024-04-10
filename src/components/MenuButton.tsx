@@ -17,12 +17,12 @@ export function MenuButton() {
         fill={
           issue === 1
             ? "var(--color-article-purple-accent)"
-            : "var(--color-light-blue)"
+            : "var(--color-dark-green)"
         }
         stroke={
           issue === 1
             ? "var(--color-article-purple-accent)"
-            : "var(--color-light-blue)"
+            : "var(--color-dark-green)"
         }
         strokeWidth="2"
       />
