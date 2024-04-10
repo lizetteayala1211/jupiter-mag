@@ -1,7 +1,7 @@
 "use client"
 
 import { ArticleBase } from "@/components"
-import { HugeGuy } from "@/utils/layout"
+import { CaptionContainer, HugeGuy } from "@/utils/layout"
 
 import { issue2Metadata } from ".."
 import { ArticleContainer, ArticleImage } from "../../styled"
@@ -156,7 +156,11 @@ function Article() {
       </p>
 
       <ArticleImage alt="Harpoons dug into the sand at shore" src={alexis1} />
-
+      <CaptionContainer>
+        Dominique White, <i>May they never catch you</i>, 2022. Cast iron.
+        Photographed by Deniz Guzel. Courtesy of the artist, Bold Tendencies,
+        and VEDA Firenze.
+      </CaptionContainer>
       <HugeGuy />
 
       <p>
@@ -183,6 +187,14 @@ function Article() {
       </p>
 
       <ArticleImage src={alexis2} alt="Art installation" />
+      <CaptionContainer>
+        Dominique White, <i>Can We Be Known Without Being Hunted</i>, 2022.
+        Kaolin clay, burnt mahogany, sisal, null sail, raffia, cast iron, forged
+        iron, rust, and damaged rope. Installation view of &quot;Cinders of the
+        Wreck&quot; at Triangle - Astérides, Marseille, 2022. Photographed by
+        Aurélien Mole. Courtesy of the artist, Triangle - Astérides, Marseille,
+        and Veda, Florence.
+      </CaptionContainer>
 
       <HugeGuy />
 
@@ -218,6 +230,16 @@ function Article() {
       <p>i prevail when you don&apos;t need to imagine me.</p>
 
       <ArticleImage src={alexis3} alt="Art installation" />
+      <CaptionContainer>
+        Dominique White,{" "}
+        <i>
+          A fugitive you cannot find a record for is the most successful
+          fugitive of all
+        </i>
+        , 2021. Mahogany and cast iron. Installation view of “Hydra Decapita” at
+        VEDA, Florence. Photographed by Flavio Pescatori. Courtesy of the artist
+        and VEDA, Florence.
+      </CaptionContainer>
 
       <HugeGuy />
 

@@ -33,6 +33,7 @@ export function Colophon() {
             Binion, Alexis Pauline Gumbs, Zoë Hopkins, isra rene, Rohan Ayinde,
             Daria S. Harper, and Camille Bacon
           </p>
+          <MediumGuy />
         </ColophonColumn>
 
         <ColophonColumn>
@@ -55,7 +56,10 @@ export function Colophon() {
           <p>Derek Harper</p>
           <MediumGuy />
           <p>
-          Finally, we thank and we praise our families (both enfleshed and beyond, both chosen and of origin), our ancestors and our spirit guides, who have offered us the immeasurable velocity, direction, and foresight needed to bring Jupiter to this side of the horizon.
+            Finally, we thank and we praise our families (both enfleshed and
+            beyond, both chosen and of origin), our ancestors and our spirit
+            guides, who have offered us the immeasurable velocity, direction,
+            and foresight needed to bring Jupiter to this side of the horizon.
           </p>
         </ColophonColumn>
       </ColophonContainer>

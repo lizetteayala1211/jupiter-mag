@@ -46,8 +46,9 @@ function Article() {
         alt="Image saved by author at W Cullerton St & S Halsted St, January 30, 2024, 4:17pm."
       />
       <CaptionContainer>
-        Image saved by author at W Cullerton St & S Halsted St, January 30,
-        2024, 4:17pm.
+        image saved by author at <br />
+        W Cullerton St & S Halsted St, <br />
+        january 30; 4:17pm
       </CaptionContainer>
       <p style={{ lineHeight: "32px" }}>
         Lately, I&apos;ve made it a point to take wide-eyed walks from my

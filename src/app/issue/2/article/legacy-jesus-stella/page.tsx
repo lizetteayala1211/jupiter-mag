@@ -39,8 +39,8 @@ function Article() {
   return (
     <ArticleContainer>
       <p>
-        Below, <a href="https://www.legacyrussell.com/">Legacy Russell</a>,
-        <a href="https://www.jesushilario.com/">Jesús Hilaro-Reyes</a> and
+        Below, <a href="https://www.legacyrussell.com/">Legacy Russell</a>,{" "}
+        <a href="https://www.jesushilario.com/">Jesús Hilaro-Reyes</a> and{" "}
         <a href="https://www.stellaraebinion.com">Stella Rae Binion</a> are in
         conversation on the topic of Drexciya, devotion, and repair. This
         interview has been edited for length and poeticism.{" "}
