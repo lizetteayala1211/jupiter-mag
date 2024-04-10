@@ -97,33 +97,35 @@ function EditorsNoteCopy() {
         margin: "16px",
       }}
     >
-      It is with boundless joy and elation that we offer to you Issue 002:
-      <i>Quantum</i>, wherein we beckon readers to plunge into the depths of
-      entropic encounters with a conversation between Legacy Russell, Jesús
-      Hilario-Reyes, and Stella Rae Binion, contributions by Alexis Pauline
-      Gumbs, Zoë Hopkins, isra rene, Rohan Ayinde, as well as a poem by me
-      (Daria S. Harper) and an essay by me (Camille G. Bacon).
-      <br />
-      <br />
-      For us, quantum mechanics, as a conceptual framework, is spellbinding as
-      it proposes an alternative means of understanding the universe’s language
-      by devising models far more vast than those put forth by traditional
-      physics. If quantum physicists use their equations to re-render the
-      possible, we wonder what it might mean to apply such a lens to cultural
-      criticism. In this spirit, we invite you to attune, by way of the writings
-      gathered here, to cosmically incalculable channels of expression, feeling,
-      interpretation, and being and implore you to cascade toward those
-      incisions in spacetime which ripple in the omnipresent fabric that quakes
-      each time we mark our here-ness by allowing ourselves to be porous to the
-      particles of encounter.
-      <br />
-      <br />
-      Quantum as in evasive-precise-contradiction / Quantum as in sprawling,
-      everywhere, always / Quantum as in minuscule, acute, exploding.
-      <br />
-      <br />
-      May your soul strip down here, dissolve into the dust of our black
-      eternity.
+      <p>
+        It is with boundless joy and elation that we offer to you Issue 002:
+        <i>Quantum</i>, wherein we beckon readers to plunge into the depths of
+        entropic encounters with a conversation between Legacy Russell, Jesús
+        Hilario-Reyes, and Stella Rae Binion, contributions by Alexis Pauline
+        Gumbs, Zoë Hopkins, isra rene, Rohan Ayinde, as well as a poem by me
+        (Daria S. Harper) and an essay by me (Camille G. Bacon).
+        <br />
+        <br />
+        For us, quantum mechanics, as a conceptual framework, is spellbinding as
+        it proposes an alternative means of understanding the universe’s
+        language by devising models far more vast than those put forth by
+        traditional physics. If quantum physicists use their equations to
+        re-render the possible, we wonder what it might mean to apply such a
+        lens to cultural criticism. In this spirit, we invite you to attune, by
+        way of the writings gathered here, to cosmically incalculable channels
+        of expression, feeling, interpretation, and being and implore you to
+        cascade toward those incisions in spacetime which ripple in the
+        omnipresent fabric that quakes each time we mark our here-ness by
+        allowing ourselves to be porous to the particles of encounter.
+        <br />
+        <br />
+        Quantum as in evasive-precise-contradiction / Quantum as in sprawling,
+        everywhere, always / Quantum as in minuscule, acute, exploding.
+        <br />
+        <br />
+        May your soul strip down here, dissolve into the dust of our black
+        eternity.
+      </p>
     </div>
   )
 }
