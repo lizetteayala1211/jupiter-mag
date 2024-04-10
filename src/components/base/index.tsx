@@ -50,7 +50,7 @@ export function Base({ children, homePage }: Props) {
               style={{
                 position: "absolute",
                 right: 8,
-                top: 224,
+                top: 248,
                 zIndex: 1,
               }}
               onClick={() => setShowMobileMenu(!showMobileMenu)}
