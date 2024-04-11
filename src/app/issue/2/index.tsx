@@ -98,7 +98,7 @@ function EditorsNoteCopy() {
       }}
     >
       <p>
-        It is with boundless joy and elation that we offer to you
+        It is with boundless joy and elation that we offer to you{" "}
         <i>Issue 002: Quantum</i>, wherein we beckon readers to plunge into the
         depths of entropic encounters with a conversation between Legacy
         Russell, Jesús Hilario-Reyes, and Stella Rae Binion, contributions by
