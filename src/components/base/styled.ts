@@ -25,10 +25,7 @@ export const ChildrenSection = styled.section`
   grid-area: children;
   z-index: var(--z-index-three);
 `
-export const LottieContainer = styled.div`
-  width: 100%;
-  z-index: 999;
-`
+
 export const Gradient = styled.div`
   bottom: 0;
   width: 100%;
@@ -53,11 +50,4 @@ export const NotifyMeTextMobile = styled.a`
   position: absolute;
   top: 2.3em;
   font-weight: 700;
-`
-export const TriggerMenuContainer = styled.div`
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 20%;
-  z-index: var(--z-index-six);
 `

@@ -48,6 +48,7 @@ function NavBarItem({
       $currentpage={(currentPage == page).toString()}
       style={{ color: handleColor() }}
       href={handleUrl()}
+      target={url ? "_blank" : "_self"}
     >
       {toTitleCase(page)}
     </StyledNavBarItem>

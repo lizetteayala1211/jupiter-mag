@@ -3,13 +3,16 @@ import styled from "styled-components"
 
 export const Main = styled(SharedGridMain)`
   grid-template-areas:
-    "video"
-    "photo"
-    "desc";
-  grid-template-columns: 5fr 5fr;
+    "header"
+    "video";
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(auto-fill, 1fr);
+`
 
-  grid-template-areas: "video video";
+export const HeaderSection = styled.section`
+  grid-area: header;
+  height: auto;
+  width: 100%;
 `
 
 export const VideoSection = styled.section`

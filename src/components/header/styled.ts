@@ -1,5 +1,4 @@
 import { screenLgMin } from "@/utils/constants"
-import Link from "next/link"
 import styled from "styled-components"
 
 export const SolidBackground = styled.div`
@@ -36,21 +35,6 @@ export const DesktopNavBarContainer = styled.div`
   z-index: var(--z-index-seven);
 `
 
-export const DynamicNavBarContainer = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  gap: 3em;
-  border-radius: 8px;
-  justify-content: center;
-  padding: 0 1em;
-  font-weight: 700;
-  z-index: var(--z-index-seven);
-  background-color: white;
-`
-
 export const MobileNavItemsContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -75,7 +59,7 @@ export const MenuModalContainer = styled.div`
   height: 100%;
 `
 
-export const MenuModalBackground = styled.div`
+export const MenuModalBackground = styled.div<{ $issue: number }>`
   position: absolute;
   bottom: 0;
   left: 0;
@@ -84,7 +68,15 @@ export const MenuModalBackground = styled.div`
   z-index: var(--z-index-five);
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, #dcb0e0 1%, rgba(157, 208, 252, 0.02) 100%);
+  background: linear-gradient(
+    0deg,
+    ${(props) => (props.$issue === 1 ? "#dcb0e0" : "var(--color-blue)")} 1%,
+    ${(props) =>
+        props.$issue === 1
+          ? "rgba(157, 208, 252, 0.02) 99%"
+          : "var(--color-black) 99%"}
+      1%
+  );
 `
 
 export const ExitMenuModalButton = styled.a`
@@ -93,7 +85,7 @@ export const ExitMenuModalButton = styled.a`
   z-index: 1000;
 `
 
-export const LogoContainer = styled(Link)`
+export const LogoContainer = styled.a`
   @media (min-width: ${screenLgMin}) {
     width: 15%;
     margin: 1em;
@@ -116,6 +108,7 @@ export const MenuButton = styled.a`
   background-color: transparent;
   color: white;
   font-weight: 500;
+  position: sticky;
 `
 
 export const MenuContainer = styled.div`
@@ -136,7 +129,7 @@ export const MenuContainer = styled.div`
   );
 `
 
-export const ReturnHomeButton = styled(Link)`
+export const ReturnHomeButton = styled.a`
   display: flex;
   justify-content: center;
   text-transform: uppercase;
@@ -150,7 +143,7 @@ export const ReturnHomeButton = styled(Link)`
   }
 `
 
-export const StyledNavBarItem = styled(Link)<{ $currentpage: string }>`
+export const StyledNavBarItem = styled.a<{ $currentpage: string }>`
   padding: 0.75em 1em;
   ${(props) =>
     props.$currentpage === "true" && `text-shadow: 0px 0px 10px #D69EF0;`}

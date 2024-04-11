@@ -12,6 +12,7 @@ import {
 import { NavBar } from "./NavBar"
 import { XIcon } from "../XIcon"
 import { JupiterLogo, MenuButton as MenuButtonSVG } from ".."
+import { useCurrentIssue } from "@/utils/hooks"
 
 export function MobileHeader() {
   const [openMenu, setOpenMenu] = React.useState(false)
@@ -31,9 +32,10 @@ export function MobileHeader() {
 }
 
 export function MobileMenuOverlay({ onClose }: { onClose: () => void }) {
+  const issue = useCurrentIssue()
   return (
     <>
-      <MenuModalBackground />
+      <MenuModalBackground $issue={issue} />
       <SolidBackground />
 
       <MenuModalContainer>

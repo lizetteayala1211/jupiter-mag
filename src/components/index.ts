@@ -1,11 +1,9 @@
 export { ArticleBase } from "./article-base"
-export { AuthorDirectory } from "./author-directory"
 export { Base } from "./base"
 export { ContactForm } from "./contact-form"
 export { EmailInput } from "./email-input"
 export { Footer } from "./footer"
-export { Header, DynamicHeader } from "./header"
-export { Home } from "./home"
+export { Header } from "./header"
 export { Ticker } from "./ticker"
 export { Puncture } from "./puncture"
 

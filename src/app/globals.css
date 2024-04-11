@@ -20,7 +20,7 @@
 
   /* agnostic colors */
   --color-white: #fff;
-  --color-off-white: #e0e9f4;
+  --color-off-white: #eae0de;
   --color-transparent-white: #ffffff52;
 
   --color-transparent-black: #00000052;
@@ -30,12 +30,17 @@
   --color-light-orange: #ff7a00;
   --color-dark-orange: #fe4101;
 
-  --color-light-blue: #ebf4ff;
+  --color-dark-green: #011212;
+
+  --color-lighter-blue: #ebf4ff;
+  --color-blue: #1c1c2d;
+  --color-dark-blue: #040e21;
 
   /* thematic colors */
   --color-article-purple: #d6c3d8;
   --color-article-purple-accent: #ac8db3;
   --color-article-cream: #e8e0de;
+  --color-article-blue: ##00031d;
 }
 
 @font-face {
@@ -72,6 +77,7 @@ body {
   height: 100%;
   color: var(--color-white);
   background-color: var(--color-black);
+  zoom: 1 !important;
 }
 
 a {
@@ -80,21 +86,24 @@ a {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 44px;
+  line-height: 40px;
   font-weight: 500;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 38px;
+  line-height: 32px;
   font-weight: 500;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 32px;
   font-weight: 500;
 }
 
 h4 {
+  font-size: 26px;
   font-weight: 600;
   font-size: 24px;
 }
@@ -105,18 +114,32 @@ h5 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
   h1 {
     font-size: 32px;
+    line-height: 28px;
   }
   h2 {
     font-size: 28px;
   }
   h3 {
     font-size: 20px;
+    line-height: 16px;
     font-weight: 500;
   }
+  p {
+    font-size: 18px;
+  }
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #ffff00;
+  height: 1px;
 }
