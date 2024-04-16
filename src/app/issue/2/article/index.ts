@@ -32,7 +32,7 @@ export const issue2Metadata: ArticleMetadata[] = [
     author: "Rohan Ayinde",
   },
   {
-    title: "Depths of Heaven",
+    title: "till we reach the depths",
     link: "/issue/2/article/daria",
     author: "Daria S. Harper",
   },

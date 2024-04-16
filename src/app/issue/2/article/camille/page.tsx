@@ -39,9 +39,8 @@ function Article() {
       <p>
         He asks us if we can hear the water. And in the next breath, if we can
         hear him. (Inhale) if we can hear the water, (exhale) if we can hear
-        him—again and again, lulling our ears beyond our heads, orbitals opening
-        our pores like palms made for listening. Seated and flanked by the
-        towering forms of fellow artist Laurent Valère&apos;s{" "}
+        him—again and again, lulling our ears beyond our heads, opening our
+        pores like palms made for listening.
         <a
           target="_blank"
           href="https://www.laurentvalereartstudio.com/cap-110-1"
@@ -73,15 +72,9 @@ function Article() {
         the nucleus of our infinite possibility.
       </p>
       <p>
-        On the yearning heels of Coursil&apos;s trembling horn, we ascend
-        together into the night like a{" "}
-        <a
-          target="_blank"
-          href="https://pierrejoris.com/blog/edouard-glissant-1928-2011/"
-        >
-          high cry
-        </a>
-        , commanding something more than mere melody.
+        On the yearning heels of Coursil&apos;s trembling horn, <br />
+        we ascend together into the night sky like a high cry, <br />
+        Commanding something more than mere melody. <br />
       </p>
 
       <p style={{ paddingInlineStart: "12px" }}>II.</p>
@@ -91,33 +84,35 @@ function Article() {
           To hail from an archipelago is to know something special about mending
         </i>
         —as such is the apotropaic spirit of experimental filmmaker, musician,
-        sculptor, performance artist, and poet Julien Creuzet. In preparation to
-        represent France at the 60th Venice Biennale and in lieu of a
-        traditional “press conference,” the Martinican artist organized an
-        odyssey through the arteries of his island as a means of introducing
-        those who would later write about his work to the topography and
-        imaginary from which his tentacular practice flows.
+        sculptor, performance artist, and poet{" "}
+        <a target="_blank" href="https://www.juliencreuzet.com/">
+          Julien Creuzet
+        </a>
+        . In preparation to represent France at the 60th Venice Biennale and in
+        lieu of a traditional “press conference,” the Martinican artist
+        organized an odyssey through the arteries of his island as a means of
+        introducing those who would later write about his work to the topography
+        and imaginary from which his tentacular practice flows.
       </p>
       <p>
         This is the first time a Martinican artist has held a convening of this
         nature on the island. Likewise, this is the first time a Martinican
-        artist&apos;s work will make itself manifest in the French Pavilion.{" "}
+        artist&apos;s work will make itself manifest in the{" "}
+        <a href="https://www.instagram.com/attila_cataracte/?igsh=eXN4aDJleG83NjNs">
+          French Pavilion
+        </a>
+        .{" "}
       </p>
 
       <p style={{ paddingInlineStart: "12px" }}>III.</p>
       <p>
-        Pitchers of planteur overturned into plastic goblets and the enveloping
-        sting of fresh pineapple juice amplifies the electric tremor of first
-        meetings. We&apos;ve reached the fold of night that precedes slurred and
-        swirling, the fold still lined with lucidity.{" "}
-      </p>
-
-      <p>
-        The poet tells me this: “Badam is an onomatopoeia as well as the other
-        name of the local almond nut in the Ocean Indien: noix de badam. I made
-        a jeu de mots mixing the two textures. The onomatopoeia is the one we
-        use in Martinique when something hits you. It is also used when
-        something hits the floor.”
+        We&apos;ve reached the fold of night that precedes slurred and swirling,
+        the fold still lined with lucidity and laced with laughter. The poet
+        tells me this: “Badam is an onomatopoeia as well as the other name of
+        the local almond nut in the Ocean Indien: noix de badam. I made a jeu de
+        mots mixing the two textures. The onomatopoeia is the one we use in
+        Martinique when something hits you. It is also used when something hits
+        the floor.”
       </p>
 
       <p>
@@ -130,7 +125,7 @@ function Article() {
         <br />
         <i>BADAM</i> (Marianne, hallmark of spurious liberty drops to her knees){" "}
         <br />
-        <i>BADAM</i> (once more and she&apos;ll hit the floor)
+        <i>BADAM</i> (once more and she&apos;ll “hit the floor”)
       </p>
       <p>
         Simone Lagrand&apos;s voice is thunder passed through windpipes. As her
@@ -185,9 +180,9 @@ function Article() {
         anew in love&apos;s image. Or, like when I feel my forebears
         recalibrating my compass, speaking through nothing and across everything
         to guide me across the puckered lips of eternal flux. Or, like during
-        carnival when the intoxicating density of bélé drums swallow any sense
+        carnival when the intoxicating density of bèlè drums swallow any sense
         of separation, any sense of me-ness, and deliver us all into the
-        crackling center of blackhole-esque singularity—that giving-over to
+        crackling center of black hole-esque singularity—that giving-over to
         rhythm wherein we excrete nothing but salt and forget to mind whose body
         it came from.
       </p>
@@ -203,19 +198,19 @@ function Article() {
         celebrate the hexagon for acknowledging that its head is made and
         maintained by a triangle. Such a framework encourages an insurgent
         interpretation of what the presence of Julien&apos;s work in Venice
-        <i>means</i>, i.e. turns our attention toward what it <i>disrupts</i>,
-        toward a ceremonious undoing of national identity.
+        means, i.e. turns our attention toward what it disrupts, toward a
+        ceremonious undoing of national identity.
       </p>
       <p>
-        France&apos;s regime has long depended on assimilatory rhetoric, on the
-        evisceration of policy, language, and practices that formalize
-        relational difference. For example, hyphens are a ghost in the
-        country&apos;s socio-political lexicon. You are not Franco-Martinican or
+        France&apos;s regime has long depended on assimilatory rhetoric, as
+        evinced in part by the evisceration of language that indexes relational
+        difference. For example, hyphens are a ghost in the country&apos;s
+        socio-political lexicon. You are not Franco-Martinican or
         Franco-Guadeloupean, or Franco anything else, you&apos;re French, just
         French, all else dissolving into the universal solvent that is the
-        metropole&apos;s multi-century-long wash. In Martinique, we call it{" "}
-        <i>la blès</i> (the wound), the psychosomatic and spiritual accumulation
-        of subjugation, the immense and holistically felt weight of living under
+        metropole&apos;s multi-century-long wash. In Martinique, we call it la
+        blès (the wound), the psychosomatic and spiritual accumulation of
+        subjugation, the immense and holistically felt weight of living under
         European domination.
       </p>
       <p>
@@ -223,15 +218,18 @@ function Article() {
         —our incredible capacity to cope, to keep inventing ourselves under
         volcanic pressure against our livelihood, to reify a cadence of
         aliveness informed by profuse familiarity with the anatomy of violence,
-        but aware of an other-way or other-wise. <i>Débrouillardise</i> is the
-        aortic root of our expression, of our action, of our waiting and
-        wanting, which also means there&apos;s an asymmetry to the equation of
-        entanglement here: the appearance of Julien&apos;s work in the French
-        Pavilion materializes a way of being that is specific to
-        Martinicans&apos; will and abandons the perception of the Antilles as
-        endlessly open to the projection of external meanings. To posit that
-        France and Martinique are quantumly entangled, then, is to recall that
-        meanings are made through what Édouard Glissant terms{" "}
+        and simultaneously aware of and inhabiting an other-way or other-wise.{" "}
+      </p>
+      <p>
+        <i>Débrouillardise</i> is the aortic root of our expression, of our
+        action, of our waiting and wanting, which also means there&apos;s an
+        asymmetry to the equation of entanglement here: the appearance of
+        Julien&apos;s work in the French Pavilion materializes a way of being
+        that is specific to Martinicans&apos; will and abandons the perception
+        of the Antilles as endlessly open to the projection of external
+        meanings. To posit that France and Martinique are quantumly entangled,
+        then, is to recall that meanings are made through what Édouard Glissant
+        terms{" "}
         <a
           target="_blank"
           href="https://032c.com/magazine/edouard-glissant-and-hans-ulrich-obrist"
@@ -250,7 +248,7 @@ function Article() {
         brought us all here to bask in the splendor of empire&apos;s undoing.
       </p>
       <p>
-        It all feels like a wink. And the wink is our way, is our donning of
+        It all feels like a wink. And the wink is our way, is our donning of{" "}
         <i>débrouillardise</i>.
       </p>
       <p>
@@ -260,12 +258,12 @@ function Article() {
       <p style={{ paddingInlineStart: "12px" }}>V.</p>
 
       <p>
-        It&apos;s pre-coffee early, but birds and trees are already exchanging
-        notes about the sun&apos;s unspooling, so we follow suit. The bus grinds
-        to a halt and we begin down the path to the residence where Édouard
-        Glissant thought the thoughts, loved the people, wrote the writings
-        (including our beloved <i>Poetics of Relation</i>), and offered his
-        final exhale to the island. The house,{" "}
+        It&apos;s pre-coffee early, but the birds and the trees are already
+        exchanging notes about the sun&apos;s unspooling, so we follow suit. The
+        bus grinds to a halt and we begin down the path to the residence where
+        Édouard Glissant thought the thoughts, loved the people, wrote the
+        writings (including our beloved <i>Poetics of Relation</i>), and offered
+        his final exhale to the island. The house,{" "}
         <a target="_blank" href="https://www.edouardglissantartfund.com/">
           recently transformed into a residency program
         </a>
@@ -274,12 +272,12 @@ function Article() {
         flesh, for sovereignty to saunter across.
       </p>
       <p>
-        After serving ourselves a vivifying dose of coconut water from a
-        perspiring vessel, Daria and I go to the bathroom to relieve our
-        foreheads, also perspiring, and reapply the liquid blush we use as
-        lipstick. Feeling fresh, we photograph ourselves in the mirror and
-        register the fact that our luminary&apos;s reflection was here too, that
-        this is where he beheld his own image daily: A perfect moment of{" "}
+        After serving ourselves a vivifying dose of coconut water from an
+        endlessly perspiring vessel, Daria and I go to the bathroom to relieve
+        our foreheads, also endlessly perspiring, and reapply the liquid blush
+        we use as lipstick. Feeling fresh, we photograph ourselves in the mirror
+        and register the fact that our luminary&apos;s reflection was here too,
+        that this is where he beheld his own image daily: A perfect moment of{" "}
         <a
           target="_blank"
           href="https://avo-translations.co.uk/23-untranslatable-japanese-words-with-beautiful-meanings"
@@ -326,7 +324,7 @@ function Article() {
         </i>{" "}
         will orient our contemplation toward emancipatory ontologies that
         macerate in unintelligibility and unearth a reverence for esoteric ways
-        of knowing grounded in the chaos of pure feeling. The works will
+        of knowing grounded in the chaos of pure feeling. The artworks will
         encourage the audience to relinquish their manufactured sense of
         immunity to entropy and demand a full body interpretation, not just a
         cerebral or “intellectual” one—they will ask us to bring all that we
@@ -371,8 +369,8 @@ function Article() {
         The undeniable here-ness of our writerly cosmology and the thick
         seduction of a looming forest&apos;s wisdom sends Daria and I rushing
         back to the bus. Riffling madly through our tote bags, we grab our
-        bikinis. Surrendering to a gush of anticipation, we find a cavern to
-        strip in, wholly unconcerned with who can see. We tread over jagged
+        bikinis and, surrendering to a gush of anticipation, find a cavern to
+        strip in—wholly unconcerned with who can see. We tread over jagged
         bedrock, floating over potential punctures as quickly as we possibly
         can, closing the gap between our bodies and the water&apos;s velocity to
         feel it all fall into the open space where our skulls meet the spirits.
@@ -396,8 +394,8 @@ function Article() {
           “tightrope of our hope”
         </a>{" "}
         across spacetime right to the event horizon that is this gathering. Now
-        cue Julien and his co-conspirators, all fingers and fortitude, at the
-        ready to keep weaving.{" "}
+        cue Julien and his co-conspirators, all fingers and fortitude, ready to
+        keep weaving.{" "}
       </p>
       <p>
         Indeed, Suzanne is with us now, marveling at her prayer: answered /
