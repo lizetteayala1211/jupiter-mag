@@ -6,7 +6,7 @@ export const FloatingMenuContainer = styled.ul`
   position: -webkit-sticky;
   list-style-type: none;
 
-  top: 80%;
+  top: 60%;
 
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 export * from "./sendEmail"
 export * from "./toTitleCase"
 export * from "./validateEmail"
-export * from "./fromCamelCaseToWords"
+export * from "./transformJupiterKeyWords"
 export * from "./isElementInViewport"

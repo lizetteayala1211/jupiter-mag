@@ -46,7 +46,7 @@ export function Writers() {
         <ContributorCard
           long
           author="Legacy Russell"
-          key={4}
+          key={0}
           photo={russell}
           desc={
             <p>
@@ -72,7 +72,7 @@ export function Writers() {
         <ContributorCard
           long
           author="Jesús Hilario-Reyes"
-          key={5}
+          key={1}
           photo={jesus}
           desc={
             <p>
@@ -104,7 +104,7 @@ export function Writers() {
         />
         <ContributorCard
           author="stella rae binion"
-          key={6}
+          key={2}
           photo={binion}
           desc={
             <p>
@@ -124,7 +124,7 @@ export function Writers() {
 
         <ContributorCard
           author="Alexis Pauline Gumbs"
-          key={1}
+          key={3}
           photo={gumbs}
           desc={
             <p>
@@ -142,7 +142,7 @@ export function Writers() {
         />
         <ContributorCard
           author="Zoë Hopkins"
-          key={0}
+          key={4}
           photo={hopkins}
           desc={
             <p>
@@ -160,7 +160,7 @@ export function Writers() {
 
         <ContributorCard
           author="isra rene"
-          key={2}
+          key={5}
           photo={rene}
           desc={
             <p>
@@ -172,7 +172,7 @@ export function Writers() {
         <ContributorCard
           long
           author="Rohan Ayinde"
-          key={3}
+          key={6}
           photo={ayinde}
           desc={
             <>
@@ -210,7 +210,7 @@ export function Writers() {
         <ContributorCard
           long
           author="Daria Simone Harper"
-          key={3}
+          key={7}
           photo={daria}
           desc={
             <p>
@@ -230,7 +230,7 @@ export function Writers() {
           long
           author="Camille Gallogly Bacon
           "
-          key={3}
+          key={8}
           photo={camille}
           desc={
             <p>

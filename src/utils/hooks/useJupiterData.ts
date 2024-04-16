@@ -34,8 +34,8 @@ export const useJupiterData = () => {
             value: data.semimajorAxis.toString(),
             unit: "distance",
           },
-          sideralOrbit: { value: data.sideralOrbit.toFixed(2), unit: "days" },
-          sideralRotation: {
+          siderealOrbit: { value: data.sideralOrbit.toFixed(2), unit: "days" },
+          siderealRotation: {
             value: data.sideralRotation.toFixed(2),
             unit: "hours",
           },

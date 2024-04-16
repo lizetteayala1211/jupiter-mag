@@ -30,9 +30,9 @@ export type JupiterData = {
   temperature: JupiterDataPoint
   constellation: JupiterDataPoint
   polarRadius: JupiterDataPoint
-  sideralOrbit: JupiterDataPoint
+  siderealOrbit: JupiterDataPoint
   eccentricity: JupiterDataPoint
-  sideralRotation: JupiterDataPoint
+  siderealRotation: JupiterDataPoint
   rightAscension: JupiterDataPoint
   argumentOfPerihelion: JupiterDataPoint
   escapeSpeed: JupiterDataPoint

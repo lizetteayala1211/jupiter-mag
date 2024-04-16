@@ -350,6 +350,8 @@ export const ArticleContainer = styled.div`
 export const ArticleImage = styled(Image)`
   object-fit: cover;
   width: 100%;
+
+  max-width: 864px;
   height: 100%;
 `
 

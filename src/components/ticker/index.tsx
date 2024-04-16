@@ -1,7 +1,7 @@
 import React from "react"
 import { useJupiterData } from "@/utils/hooks"
 import { TickerContainer, TickerContent, TickerItem } from "./styled"
-import { fromCamelCaseToWords } from "@/utils/helpers"
+import { transformJupiterKeyWords } from "@/utils/helpers"
 import { JupiterData, Unit } from "@/utils/types"
 
 export function Ticker() {
@@ -42,7 +42,7 @@ export function Ticker() {
       <TickerContent>
         {Object.keys(jupiterData).map((key) => (
           <TickerItem key={key}>
-            {fromCamelCaseToWords(key)}
+            {transformJupiterKeyWords(key)}
             {": "}
             {jupiterData[key as keyof JupiterData].value}
             {handleUnit(jupiterData[key as keyof JupiterData].unit)}

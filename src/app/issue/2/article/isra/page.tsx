@@ -119,7 +119,10 @@ function Article() {
       <p>*</p>
       <p>
         In a{" "}
-        <a href="https://thefeministwire.com/2016/03/conjuring-june-jordan/">
+        <a
+          target="_blank"
+          href="https://thefeministwire.com/2016/03/conjuring-june-jordan/"
+        >
           love letter
         </a>{" "}
         written by Alexis De Veaux about June Jordan, De Veaux narrates the

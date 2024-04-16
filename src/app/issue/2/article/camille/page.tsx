@@ -42,7 +42,10 @@ function Article() {
         him—again and again, lulling our ears beyond our heads, orbitals opening
         our pores like palms made for listening. Seated and flanked by the
         towering forms of fellow artist Laurent Valère&apos;s{" "}
-        <a href="https://www.laurentvalereartstudio.com/cap-110-1">
+        <a
+          target="_blank"
+          href="https://www.laurentvalereartstudio.com/cap-110-1"
+        >
           Cap 110 Memorial
         </a>
         , Julien gives us a poem: An incantation that incarnates the fundamental
@@ -72,7 +75,10 @@ function Article() {
       <p>
         On the yearning heels of Coursil&apos;s trembling horn, we ascend
         together into the night like a{" "}
-        <a href="https://pierrejoris.com/blog/edouard-glissant-1928-2011/">
+        <a
+          target="_blank"
+          href="https://pierrejoris.com/blog/edouard-glissant-1928-2011/"
+        >
           high cry
         </a>
         , commanding something more than mere melody.
@@ -153,7 +159,10 @@ function Article() {
         “Quantum entanglement” explains how two particles can be intimately
         connected even if separated by billions of light-years of space, such
         that “
-        <a href="https://www.nobelprize.org/prizes/physics/2022/press-release/">
+        <a
+          target="_blank"
+          href="https://www.nobelprize.org/prizes/physics/2022/press-release/"
+        >
           what happens to one of the particles in an entangled pair determines
           what happens to the other particle, even if they are far apart.
         </a>
@@ -161,7 +170,10 @@ function Article() {
         prism of Black feminism and, specifically, the musings of our prescient
         foremother Octavia Butler, recall how gloriously malleable we are to one
         another: “
-        <a href="https://www.oasisacademysouthbank.org/uploaded/South_Bank/Curriculum/Student_Learning/Online_Library/KS5/Parable_of_the_Sower_by_Octavia_E._Butler.pdf">
+        <a
+          target="_blank"
+          href="https://www.oasisacademysouthbank.org/uploaded/South_Bank/Curriculum/Student_Learning/Online_Library/KS5/Parable_of_the_Sower_by_Octavia_E._Butler.pdf"
+        >
           All that you touch, / You Change. / All that you Change, / Changes
           you.
         </a>
@@ -220,7 +232,10 @@ function Article() {
         endlessly open to the projection of external meanings. To posit that
         France and Martinique are quantumly entangled, then, is to recall that
         meanings are made through what Édouard Glissant terms{" "}
-        <a href="https://032c.com/magazine/edouard-glissant-and-hans-ulrich-obrist">
+        <a
+          target="_blank"
+          href="https://032c.com/magazine/edouard-glissant-and-hans-ulrich-obrist"
+        >
           <i>“tourbillons de rencontre”</i>
         </a>{" "}
         (whirlwinds of encounter), and thus, that our understanding of France is
@@ -251,7 +266,7 @@ function Article() {
         Glissant thought the thoughts, loved the people, wrote the writings
         (including our beloved <i>Poetics of Relation</i>), and offered his
         final exhale to the island. The house,{" "}
-        <a href="https://www.edouardglissantartfund.com/">
+        <a target="_blank" href="https://www.edouardglissantartfund.com/">
           recently transformed into a residency program
         </a>
         , hums like a beacon down the way. The pebbles we press with our
@@ -265,7 +280,10 @@ function Article() {
         lipstick. Feeling fresh, we photograph ourselves in the mirror and
         register the fact that our luminary&apos;s reflection was here too, that
         this is where he beheld his own image daily: A perfect moment of{" "}
-        <a href="https://avo-translations.co.uk/23-untranslatable-japanese-words-with-beautiful-meanings">
+        <a
+          target="_blank"
+          href="https://avo-translations.co.uk/23-untranslatable-japanese-words-with-beautiful-meanings"
+        >
           kyouka suigetsu
         </a>
         . We can&apos;t touch him / but his memory is loud, loud, loud in the
@@ -275,7 +293,10 @@ function Article() {
       <p>
         We are here to inaugurate the house&apos;s new life as a residency, and
         also because Julien is going to be{" "}
-        <a href="https://www.facebook.com/institutfrancais.pageofficielle/videos/233150353191847/">
+        <a
+          target="_blank"
+          href="https://www.facebook.com/institutfrancais.pageofficielle/videos/233150353191847/"
+        >
           in conversation
         </a>{" "}
         with Cindy Sissokho and Céline Kopp, the curators of this year&apos;s
@@ -316,7 +337,10 @@ function Article() {
         For the duration of the dialogue, the artist answers sparingly: an
         easeful testament to his own agentive force, as if to epitomize
         Glissant&apos;s directive of one&apos;s{" "}
-        <a href="https://www.jackie-inhalt.net/reh/bilder/edouard-glissant-for-opacity.pdf">
+        <a
+          target="_blank"
+          href="https://www.jackie-inhalt.net/reh/bilder/edouard-glissant-for-opacity.pdf"
+        >
           “right to opacity.”
         </a>{" "}
         He sits poised, tracing the edges of clouds. Feet tucked gently beneath
@@ -365,7 +389,10 @@ function Article() {
         the cascade&apos;s enraptured expanse and think to myself: No wonder
         Suzanne and her comrades came here to write the world anew. She has been
         with us all along the way, threading that glistening{" "}
-        <a href="https://monoskop.org/images/0/04/Cesaire_Suzanne_The_Great_Camouflage_Writings_of_Dissent_1941-1945_2012_part.pdf">
+        <a
+          target="_blank"
+          href="https://monoskop.org/images/0/04/Cesaire_Suzanne_The_Great_Camouflage_Writings_of_Dissent_1941-1945_2012_part.pdf"
+        >
           “tightrope of our hope”
         </a>{" "}
         across spacetime right to the event horizon that is this gathering. Now

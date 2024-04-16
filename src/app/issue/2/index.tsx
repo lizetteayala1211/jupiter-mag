@@ -102,8 +102,8 @@ function EditorsNoteCopy() {
         <i>Issue 002: Quantum</i>, wherein we beckon readers to plunge into the
         depths of entropic encounters with a conversation between Legacy
         Russell, Jesús Hilario-Reyes, and Stella Rae Binion, contributions by
-        Alexis Pauline Gumbs, Zoë Hopkins, isra rene, Rohan Ayinde, as well as a
-        poem by me (Daria S. Harper) and an essay by me (Camille G. Bacon).
+        Alexis Pauline Gumbs, Zoë Hopkins, isra rene, and Rohan Ayinde, as well
+        as a poem by me (Daria S. Harper) and an essay by me (Camille G. Bacon).
         <br />
         <br />
         For us, quantum mechanics, as a conceptual framework, is spellbinding as
@@ -113,7 +113,7 @@ function EditorsNoteCopy() {
         re-render the possible, we wonder what it might mean to apply such a
         lens to cultural criticism. In this spirit, we invite you to attune, by
         way of the writings gathered here, to cosmically incalculable channels
-        of expression, feeling, interpretation, and being and implore you to
+        of expression, feeling, interpretation, and being. We implore you to
         cascade toward those incisions in spacetime which ripple in the
         omnipresent fabric that quakes each time we mark our here-ness by
         allowing ourselves to be porous to the particles of encounter.

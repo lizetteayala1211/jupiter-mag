@@ -39,10 +39,19 @@ function Article() {
   return (
     <ArticleContainer>
       <p>
-        Below, <a href="https://www.legacyrussell.com/">Legacy Russell</a>,{" "}
-        <a href="https://www.jesushilario.com/">Jesús Hilaro-Reyes</a> and{" "}
-        <a href="https://www.stellaraebinion.com">Stella Rae Binion</a> are in
-        conversation on the topic of Drexciya, devotion, and repair. This
+        Below,{" "}
+        <a target="_blank" href="https://www.legacyrussell.com/">
+          Legacy Russell
+        </a>
+        ,{" "}
+        <a target="_blank" href="https://www.jesushilario.com/">
+          Jesús Hilaro-Reyes
+        </a>{" "}
+        and{" "}
+        <a target="_blank" href="https://www.stellaraebinion.com">
+          Stella Rae Binion
+        </a>{" "}
+        are in conversation on the topic of Drexciya, devotion, and repair. This
         interview has been edited for length and poeticism.{" "}
       </p>
 
@@ -65,7 +74,10 @@ function Article() {
 
       <p>
         SRB: In{" "}
-        <a href="https://archive.org/details/isbn_9781849353984/page/n3/mode/2up">
+        <a
+          target="_blank"
+          href="https://archive.org/details/isbn_9781849353984/page/n3/mode/2up"
+        >
           unbreathable circumstances
         </a>
         , what are your gills?
@@ -91,17 +103,25 @@ function Article() {
       <p>
         SRB: We are here today in honor of the legacies and manifestations of
         the Detroit techno duo{" "}
-        <a href="https://tresorberlin.com/artist/drexciya/">Drexciyia</a>, who
-        imagine a world at the Atlantic&apos;s floor, born from the
+        <a target="_blank" href="https://tresorberlin.com/artist/drexciya/">
+          Drexciyia
+        </a>
+        , who imagine a world at the Atlantic&apos;s floor, born from the
         self-emancipated wombs of African women flown and thrown overboard
         during the{" "}
-        <a href="https://slaveryandremembrance.org/articles/article/?id=A0032">
+        <a
+          target="_blank"
+          href="https://slaveryandremembrance.org/articles/article/?id=A0032"
+        >
           Middle Passage
         </a>
         . Water breathing and militant, James Marcel Stinson and Gerald Donald
         sonify the revolution of this gilled generation. Drexciya warned
         listeners to{" "}
-        <a href="https://www.youtube.com/watch?v=5k6wmU8kTg4&ab_channel=IceCreamMusic">
+        <a
+          target="_blank"
+          href="https://www.youtube.com/watch?v=5k6wmU8kTg4&ab_channel=IceCreamMusic"
+        >
           &quot;beware&quot; and &quot;proceed with caution&quot;
         </a>{" "}
         with electrifying eruptions, bubbling low frequency intensities, and
@@ -114,13 +134,19 @@ function Article() {
       <p>
         LR: I went to graduate school in the UK and was very lucky to cross
         paths with{" "}
-        <a href="https://dutchartinstitute.eu/page/1994/kodwo-eshun">
+        <a
+          target="_blank"
+          href="https://dutchartinstitute.eu/page/1994/kodwo-eshun"
+        >
           Kodwo Eshun
         </a>
         . With intersecting work and scholarship, as someone who&apos;s deeply
         embedded in art history, I saw how aspects of Drexciya could be
         instructive. Artists such as{" "}
-        <a href="https://www.hauserwirth.com/artists/firelei-baez/">
+        <a
+          target="_blank"
+          href="https://www.hauserwirth.com/artists/firelei-baez/"
+        >
           Firelei Báez
         </a>{" "}
         continue forward the mythos through their own work and practice. I also
@@ -137,16 +163,27 @@ function Article() {
         underwater life. I&apos;m a big Drexciya fan. The &quot;proceed with
         caution&quot; in your question I know is from &quot;Bubble
         Metropolis&quot;. When I first started DJing,{" "}
-        <a href="https://soundcloud.com/rumorschicago/rumors-mix-series-001-morenxxx?ref=clipboard&p=i&c=0&si=D04987AB719D4D76848B14C75F4FBF8F&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+        <a
+          target="_blank"
+          href="https://soundcloud.com/rumorschicago/rumors-mix-series-001-morenxxx?ref=clipboard&p=i&c=0&si=D04987AB719D4D76848B14C75F4FBF8F&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+        >
           my first ever mix
         </a>{" "}
         opened with &quot;Bubble Metropolis&quot;. It was for this queer party
         called
-        <a href="https://soundcloud.com/rumorschicago">Rumors</a> in Chicago
-        with <a href="https://ra.co/podcast/919">Ariel Zetina</a> and Del Hale
-        as <a href="https://www.instagram.com/misstwinkusa">Ms. Twink USA</a>.
-        [Drexciya&apos;s] music is quite capacious and it informs so much about
-        my life and the work that I engage with—worlding and resonance and
+        <a target="_blank" href="https://soundcloud.com/rumorschicago">
+          Rumors
+        </a>{" "}
+        in Chicago with{" "}
+        <a target="_blank" href="https://ra.co/podcast/919">
+          Ariel Zetina
+        </a>{" "}
+        and Del Hale as{" "}
+        <a target="_blank" href="https://www.instagram.com/misstwinkusa">
+          Ms. Twink USA
+        </a>
+        . [Drexciya&apos;s] music is quite capacious and it informs so much
+        about my life and the work that I engage with—worlding and resonance and
         dialectics—all of that is embedded in what I&apos;m thinking about.
         Like, Drexciya fan forever!
       </p>
@@ -168,7 +205,7 @@ function Article() {
       <p>
         I want to think with Sadiya Hartman&apos;s essential and noble project
         of{" "}
-        <a href="https://www.moma.org/audio/playlist/298/4088">
+        <a target="_blank" href="https://www.moma.org/audio/playlist/298/4088">
           Critical Fabulation
         </a>{" "}
         here. How do you engage in the necessity of remembering? Of calling
@@ -196,13 +233,16 @@ function Article() {
         narrate toward, continue to exist through and in purpose of. For me,
         remembering becomes really important in relationship to experimental
         histories. There is so much when I reflect, for example, about{" "}
-        <a href="https://thekitchen.org/">The Kitchen</a>. The fact that there
-        are 4,000 artists in The Kitchen&apos;s archive asking who is remembered
-        is a project within itself. The radical work of being responsible for
-        those memories is thinking differently about who gets to be remembered.
-        Perhaps that is the real responsibility inside of cultural production
-        and creative work: recognizing the entitlement and the privilege and
-        extending it broadly so that more people can live inside of it.
+        <a target="_blank" href="https://thekitchen.org/">
+          The Kitchen
+        </a>
+        . The fact that there are 4,000 artists in The Kitchen&apos;s archive
+        asking who is remembered is a project within itself. The radical work of
+        being responsible for those memories is thinking differently about who
+        gets to be remembered. Perhaps that is the real responsibility inside of
+        cultural production and creative work: recognizing the entitlement and
+        the privilege and extending it broadly so that more people can live
+        inside of it.
       </p>
 
       <p>
@@ -213,7 +253,10 @@ function Article() {
         filling the rupture. Knowing that so much is gone and so much needs to
         be filled. In a sense, Drexciya is redressing the wound. Drexciya is
         Critical Fabulation and{" "}
-        <a href="https://brooklynrail.org/2019/02/art_books/Tavia-Nyongos-Afro-Fabulations-The-Queer-Drama-of-Black-Life">
+        <a
+          target="_blank"
+          href="https://brooklynrail.org/2019/02/art_books/Tavia-Nyongos-Afro-Fabulations-The-Queer-Drama-of-Black-Life"
+        >
           Afro Fabulation
         </a>
         . I think fantasy and fiction and science fiction are quite generative
@@ -229,7 +272,10 @@ function Article() {
         SRB: I want to continue situating us back into the underwater site of
         Drexciya: the bottom of the ocean. This site is uncolonized, unseen, so
         deeply feared by so many land people. How does{" "}
-        <a href="https://www.jackie-inhalt.net/reh/bilder/edouard-glissant-for-opacity.pdf">
+        <a
+          target="_blank"
+          href="https://www.jackie-inhalt.net/reh/bilder/edouard-glissant-for-opacity.pdf"
+        >
           opacity
         </a>
         , or the condition afforded by the absolute depths, offer us an
@@ -251,7 +297,10 @@ function Article() {
         perpetually rendering and reifying. And Legacy, you have a quote in your
         book{" "}
         <i>
-          <a href="https://www.legacyrussell.com/GLITCHFEMINISM">
+          <a
+            target="_blank"
+            href="https://www.legacyrussell.com/GLITCHFEMINISM"
+          >
             Glitch Feminism
           </a>
         </i>{" "}
@@ -271,11 +320,17 @@ function Article() {
       <p>
         Being inside the imperial structure of institutional space requires an
         assumption of access to all of us, informed by a{" "}
-        <a href="https://www.pbs.org/independentlens/blog/from-true-believer-to-the-help-how-the-white-gaze-has-shown-hollywoods-shortsightedness/">
+        <a
+          target="_blank"
+          href="https://www.pbs.org/independentlens/blog/from-true-believer-to-the-help-how-the-white-gaze-has-shown-hollywoods-shortsightedness/"
+        >
           white gaze
         </a>{" "}
         and a white infrastructure of sight. Opacity allows a model of
-        <a href="https://www.minorcompositions.info/wp-content/uploads/2013/04/undercommons-web.pdf">
+        <a
+          target="_blank"
+          href="https://www.minorcompositions.info/wp-content/uploads/2013/04/undercommons-web.pdf"
+        >
           fugitivity
         </a>
         . It is an enclosure, it&apos;s an encryption. It&apos;s also the
@@ -324,7 +379,10 @@ function Article() {
         being outside of human. But I&apos;m also coming from a Caribbean
         background and so much of that life is anthropomorphic, outside and more
         than human, it&apos;s magical in a way. I think a lot about{" "}
-        <a href="https://www.newmuseum.org/exhibitions/view/wangechi-mutu-intertwined-1">
+        <a
+          target="_blank"
+          href="https://www.newmuseum.org/exhibitions/view/wangechi-mutu-intertwined-1"
+        >
           Wangechi Mutu&apos;s
         </a>{" "}
         work in this anthropomorphic sense.
@@ -352,7 +410,10 @@ function Article() {
         LR: As Jesus noted, there&apos;s an interesting tension with the
         category of human and our exclusion. The very language and theorizing
         around a{" "}
-        <a href="https://monoskop.org/images/4/4c/Haraway_Donna_1985_A_Manifesto_for_Cyborgs_Science_Technology_and_Socialist_Feminism_in_the_1980s.pdf">
+        <a
+          target="_blank"
+          href="https://monoskop.org/images/4/4c/Haraway_Donna_1985_A_Manifesto_for_Cyborgs_Science_Technology_and_Socialist_Feminism_in_the_1980s.pdf"
+        >
           cyborgian
         </a>{" "}
         politic, for instance, inherently has anti-blackness built inside of it.
@@ -373,11 +434,17 @@ function Article() {
         always a battle. Technology requires the literal lives of people.
         It&apos;s so pronounced especially right now with what is happening in
         the{" "}
-        <a href="https://www.aljazeera.com/news/2024/2/21/a-guide-to-the-decades-long-conflict-in-dr-congo">
+        <a
+          target="_blank"
+          href="https://www.aljazeera.com/news/2024/2/21/a-guide-to-the-decades-long-conflict-in-dr-congo"
+        >
           Congo
         </a>{" "}
         and in{" "}
-        <a href="https://www.aa.com.tr/en/world/genocide-and-more-the-varied-forms-of-destruction-in-gaza/3131585">
+        <a
+          target="_blank"
+          href="https://www.aa.com.tr/en/world/genocide-and-more-the-varied-forms-of-destruction-in-gaza/3131585"
+        >
           Gaza
         </a>
         , where Black and brown lives are being extracted and murdered for the
@@ -398,20 +465,26 @@ function Article() {
         reorganization and hijacking of time. It literally makes time. You could
         be at a set and it could feel like years. There is also a reason why it
         came out of Detroit at the precipice of the expansion of the{" "}
-        <a href="https://www.smithsonianmag.com/history/separating-truth-myth-so-called-golden-age-detroit-auto-industry-180972139/">
+        <a
+          target="_blank"
+          href="https://www.smithsonianmag.com/history/separating-truth-myth-so-called-golden-age-detroit-auto-industry-180972139/"
+        >
           motor industry
         </a>
         . Detroit was in bed with the machine, the motor. The incorporation of
-        the <a href="https://soundcloud.com/sirensirensirens">siren</a> in
-        electronic music as a way to revisit the site of trauma, to completely
-        transform it and glitch it into something otherwise and expansive. Even
-        sampling is dialectical, and is regenerative. It is language and it
-        travels like language. Maybe the technology of our survival is more like
-        an armature. Or maybe it&apos;s the wildness that one brings out of
-        another. Or maybe there&apos;s something technological about language
-        and dialectics and opacity that should be considered in this question.
-        Or maybe it&apos;s the ability to perpetually render the constant
-        mobility. Maybe that&apos;s the technology.
+        the{" "}
+        <a target="_blank" href="https://soundcloud.com/sirensirensirens">
+          siren
+        </a>{" "}
+        in electronic music as a way to revisit the site of trauma, to
+        completely transform it and glitch it into something otherwise and
+        expansive. Even sampling is dialectical, and is regenerative. It is
+        language and it travels like language. Maybe the technology of our
+        survival is more like an armature. Or maybe it&apos;s the wildness that
+        one brings out of another. Or maybe there&apos;s something technological
+        about language and dialectics and opacity that should be considered in
+        this question. Or maybe it&apos;s the ability to perpetually render the
+        constant mobility. Maybe that&apos;s the technology.
       </p>
 
       <p>
@@ -420,11 +493,17 @@ function Article() {
         it,&quot; of the inevitability of unaliveness. Particularly in
         blackness, the constancy of fear and the tenuousness of life that is so
         embedded and assumed within our bodies. I want to talk about your{" "}
-        <a href="https://www.youtube.com/watch?v=0_67L1ldYgI&ab_channel=LoopholeofRetreat%3AVenice">
+        <a
+          target="_blank"
+          href="https://www.youtube.com/watch?v=0_67L1ldYgI&ab_channel=LoopholeofRetreat%3AVenice"
+        >
           Sunday Sermon
         </a>{" "}
         at the{" "}
-        <a href="https://simoneleighvenice2022.org/loophole-of-retreat/">
+        <a
+          target="_blank"
+          href="https://simoneleighvenice2022.org/loophole-of-retreat/"
+        >
           Loophole of Retreat
         </a>{" "}
         gathering, Legacy, and the freedom generated in &quot;not making
@@ -461,7 +540,10 @@ function Article() {
         JHR: This is such a chilling set of questions. It led me to think about
         salt. I&apos;ve been thinking a lot about salt the past six months.
         I&apos;m always thinking about motion. There&apos;s this poem by{" "}
-        <a href="https://globalsocialtheory.org/thinkers/edouard-glissant-2/">
+        <a
+          target="_blank"
+          href="https://globalsocialtheory.org/thinkers/edouard-glissant-2/"
+        >
           Edouard Glissant
         </a>{" "}
         that I&apos;ve been sitting with that I would love to share in this
@@ -517,12 +599,17 @@ function Article() {
 
       <p>
         I want to bring up a{" "}
-        <a href="https://www.poetryfoundation.org/poets/fred-moten">
+        <a
+          target="_blank"
+          href="https://www.poetryfoundation.org/poets/fred-moten"
+        >
           Fred Moten
         </a>{" "}
         quote. He&apos;s really my type of diabolical for real. He says in{" "}
         <i>
-          <a href="https://www.dukeupress.edu/black-and-blur">Black and Blur</a>
+          <a target="_blank" href="https://www.dukeupress.edu/black-and-blur">
+            Black and Blur
+          </a>
         </i>
         , “This order is our service, our antidote and anteroom, our vestibule
         without a story. We can&apos;t survive intact. We can only survive if
@@ -556,10 +643,17 @@ function Article() {
         I really want to think about the physics behind sound—water actually
         gives shape to sound and they are similar in how they move through
         material and how they dissipate. I had an experience at{" "}
-        <a href="https://www.instagram.com/dwellerforever">Dweller</a> last
-        year, at{" "}
-        <a href="https://sageintrospekt.bandcamp.com/">Introspekt&apos;s</a> set
-        at <a href="https://www.instagram.com/nowadaysnyc/">Nowadays Nonstop</a>
+        <a target="_blank" href="https://www.instagram.com/dwellerforever">
+          Dweller
+        </a>{" "}
+        last year, at{" "}
+        <a target="_blank" href="https://sageintrospekt.bandcamp.com/">
+          Introspekt&apos;s
+        </a>{" "}
+        set at{" "}
+        <a target="_blank" href="https://www.instagram.com/nowadaysnyc/">
+          Nowadays Nonstop
+        </a>
         , an iconic DJ. In these bass-heavy moments there were synthesizer
         samples that came up from under me. They erupted. It felt like the sound
         literally sliced through me. I don&apos;t know how to describe it
@@ -575,14 +669,23 @@ function Article() {
         The role of the DJ is also timekeeping. Like I said before, with techno,
         you have the ability to make time—a couple hours can feel like a day.
         You can really make the dancers toil.{" "}
-        <a href="https://www.instagram.com/julianahuxtable/?hl=en">
+        <a
+          target="_blank"
+          href="https://www.instagram.com/julianahuxtable/?hl=en"
+        >
           Juliana Huxtable
         </a>{" "}
         and{" "}
-        <a href="https://www.instagram.com/jasss_inc?igsh=MXkwcWM0ZHp5NHV1eA%3D%3D">
+        <a
+          target="_blank"
+          href="https://www.instagram.com/jasss_inc?igsh=MXkwcWM0ZHp5NHV1eA%3D%3D"
+        >
           Jasss
         </a>{" "}
-        played this set at <a href="https://ra.co/promoters/101265">Merge</a>{" "}
+        played this set at{" "}
+        <a target="_blank" href="https://ra.co/promoters/101265">
+          Merge
+        </a>{" "}
         this New Year&apos;s. I was only there for a couple hours but it felt
         like years. The space we were in had so much potential, I felt like I
         could really live there. I walked out of that foggy warehouse in
@@ -662,7 +765,10 @@ function Article() {
         performance, et cetera. We are so bound up with memorializing and
         monumentalization, which ultimately produces stillness, which is
         counterintuitive to the{" "}
-        <a href="https://www.poetryfoundation.org/poems/53479/fugitivity-is-immanent-to-the-thing-but-is-manifest-transversally">
+        <a
+          target="_blank"
+          href="https://www.poetryfoundation.org/poems/53479/fugitivity-is-immanent-to-the-thing-but-is-manifest-transversally"
+        >
           fugitivity
         </a>{" "}
         of blackness. Stella, you keep mentioning this term alchemy, and I
@@ -685,14 +791,19 @@ function Article() {
         present with the constancy of waves, how they are truly never ceasing.
         The waves have been here since the beginning of this Earth and the waves
         will continue. Thinking with, always,{" "}
-        <a href="https://www.octaviabutler.com/">Octavia Butler&apos;s</a> spell
-        of hope: “God is Change”…
+        <a target="_blank" href="https://www.octaviabutler.com/">
+          Octavia Butler&apos;s
+        </a>{" "}
+        spell of hope: “God is Change”…
       </p>
 
       <p>
         JHR: Yes!{" "}
         <i>
-          <a href="https://godischange.org/the-book-of-the-living/">
+          <a
+            target="_blank"
+            href="https://godischange.org/the-book-of-the-living/"
+          >
             Earthseed.
           </a>
         </i>
@@ -711,17 +822,19 @@ function Article() {
 
       <p>
         A somatic practitioner,{" "}
-        <a href="https://www.selflovetribute.com/">Care ()</a>, told me recently
-        that there is rupture in every relationship, yet what creates a secure
-        relationship is the ability to repair. It&apos;s not about lack of
-        disturbance, it is about how we grow forward from the disturbance, from
-        the rupture. Capitalism is purely rupture, supported by disposability
-        and turnover. There is no mind to repair, there is no mind for a future,
-        for a forward. A core dimension in most indigenous knowledge formations
-        and practice is how repair is always a possibility. There are always
-        possibilities of future. We can repair with this earth—all the earth
-        wants us to do is repair. It&apos;s offering us lessons. When you said
-        earth is enough, for me the earth is everything.
+        <a target="_blank" href="https://www.selflovetribute.com/">
+          Care ()
+        </a>
+        , told me recently that there is rupture in every relationship, yet what
+        creates a secure relationship is the ability to repair. It&apos;s not
+        about lack of disturbance, it is about how we grow forward from the
+        disturbance, from the rupture. Capitalism is purely rupture, supported
+        by disposability and turnover. There is no mind to repair, there is no
+        mind for a future, for a forward. A core dimension in most indigenous
+        knowledge formations and practice is how repair is always a possibility.
+        There are always possibilities of future. We can repair with this
+        earth—all the earth wants us to do is repair. It&apos;s offering us
+        lessons. When you said earth is enough, for me the earth is everything.
       </p>
       <p>JHR: Yes, redress. Redress the world.</p>
       <p>LR: I&apos;m here for it. </p>

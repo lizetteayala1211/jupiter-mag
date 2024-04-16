@@ -56,7 +56,7 @@ function Article() {
       </p>
 
       <p>
-        I think of her work as a prayer.
+        I think of her work as a prayer. <br />
         <i>
           May that which destroys all of us finally destroy itself. May we
           somehow outlive this meaning of life.
