@@ -60,18 +60,12 @@ function Article() {
 
       <p>This fingerprint is my monument. A Black presence endures. </p>
 
-      <p>
-        I do not know the name of the person who laid that brick on that lawn,
-        so I will cherish this other language of presence instead. No name to
-        hold, so I hold the negative space created in the throes.
-      </p>
-
       <ArticleImage
         src={hopkins1}
-        alt="Imprint of anonymous enslaved fingers at the UVA Rotunda. Image Courtesy of Mabel O. Wilson."
+        alt="Imprint of anonymous enslaved fingers at the UVA Rotunda. Image courtesy of Mabel O. Wilson."
       />
       <CaptionContainer>
-        Imprint of anonymous enslaved fingers at the UVA Rotunda. Image Courtesy
+        Imprint of anonymous enslaved fingers at the UVA Rotunda. Image courtesy
         of Mabel O. Wilson.
       </CaptionContainer>
 
@@ -118,10 +112,10 @@ function Article() {
 
       <ArticleImage
         src={hopkins2}
-        alt="Martin Puryear, <i>Lookout</i>, 2023. Image Courtesy of Storm King Art Center."
+        alt="Martin Puryear, Lookout, 2023. Image courtesy of Storm King Art Center."
       />
       <CaptionContainer>
-        Martin Puryear, <i>Lookout</i>, 2023. Image Courtesy of Storm King Art
+        Martin Puryear, <i>Lookout</i>, 2023. Image courtesy of Storm King Art
         Center.
       </CaptionContainer>
 
@@ -136,11 +130,10 @@ function Article() {
         It is made of red bricks that are sutured together with an exceptionally
         durable kind of hydraulic cement sourced from Rosendale, NY.<sup>3</sup>{" "}
         Because of the particular chemical composition of this cement, during
-        its construction,
-        <i>Lookout</i> grew in strength with each layer, and will continue to
-        get stronger as the cement fully cures—a process that can take up to
-        twelve months.<sup>4</sup> Imagine all that we can learn from a material
-        that gets stronger as it gets older.
+        its construction, <i>Lookout</i> grew in strength with each layer, and
+        will continue to get stronger as the cement fully cures—a process that
+        can take up to twelve months.<sup>4</sup> Imagine all that we can learn
+        from a material that gets stronger as it gets older.
       </p>
 
       <p>
@@ -148,9 +141,8 @@ function Article() {
         first, to live a paradox of form and physics. The architecture of the
         thing, once comprehended, will make you shudder in awe of what it means
         for the ostensibly impossible to make itself manifest, and undeniably
-        so.
-        <i>Lookout</i> was conceived out of an ancient masonry technique known
-        as the Nubian vaulting, which Puryear originally encountered during a
+        so. <i>Lookout</i> was conceived out of an ancient masonry technique
+        known as Nubian vaulting, which Puryear originally encountered during a
         trip to Mali.<sup>5</sup> I am still wrapping my head around this wonder
         of design: the layers of red clay bricks are nestled together by way of
         a method that allows them to build in undulation. Nubian vaulting
@@ -208,16 +200,14 @@ function Article() {
         formed when quantum matter meets an obstacle.<sup>7</sup> However, as
         Niels Bohr discovered, quantum physics tells us that <i>particles</i>{" "}
         like electrons, neutrons, and atoms are also capable of wave-like
-        behavior.
-        <sup>8</sup>
-        Thus, akin to waves, they too can diffract. They too can stretch across
-        many places at once. When particles behave like waves and diffract, they
-        produce what&apos;s known as a state of <i>superposition</i>, wherein a
-        particle simultaneously exists between several positions in space.
-        <sup>9</sup>
-        According to Barad, particles can also produce a temporal diffraction in
-        which they are “indeterminately coexisting at multiple times—for
-        example, yesterday, today, and tomorrow.”<sup>10</sup>
+        behavior.<sup>8</sup> Thus, akin to waves, they too can diffract. They
+        too can stretch across many places at once. When particles behave like
+        waves and diffract, they produce what&apos;s known as a state of{" "}
+        <i>superposition</i>, wherein a particle simultaneously exists between
+        several positions in space.<sup>9</sup> According to Barad, particles
+        can also produce a temporal diffraction in which they are
+        “indeterminately coexisting at multiple times—for example, yesterday,
+        today, and tomorrow.”<sup>10</sup>
       </p>
       <p>
         In describing the capacity of quantum matter to exist multiply in times,
@@ -268,14 +258,15 @@ function Article() {
           Alliances in New York. For more on enslaved labor at the University of
           Virginia, see Mitch Farish, “Behind Serpentine Walls: Centering
           Enslaved Laborers at UVA,” UVA Library News and Announcements (blog),
-          January 25, 2022,
+          January 25, 2022,{" "}
           <a href="https://news.library.virginia.edu/2022/01/25/uva-walking-tour-enslaved-african-americans-at-uva/">
             https://news.library.virginia.edu/2022/01/25/uva-walking-tour-enslaved-african-americans-at-uva/
           </a>
+          .
         </p>
         <p>
-          .<sup>2</sup> “Storm King : Exhibition : Martin Puryear: Process and
-          Scale [EXH.152],” accessed March 8, 2024,
+          <sup>2</sup> “Storm King : Exhibition : Martin Puryear: Process and
+          Scale [EXH.152],” accessed March 8, 2024,{" "}
           <a href="https://collections.stormking.org/Detail/occurrences/207">
             https://collections.stormking.org/Detail/occurrences/207
           </a>
@@ -290,7 +281,7 @@ function Article() {
         </p>
         <p>
           <sup>5</sup> “Storm King : Exhibition : Martin Puryear: Lookout
-          [EXH.149],” accessed March 8, 2024,
+          [EXH.149],” accessed March 8, 2024,{" "}
           <a href="https://collections.stormking.org/Detail/occurrences/204">
             https://collections.stormking.org/Detail/occurrences/204
           </a>
@@ -317,7 +308,7 @@ function Article() {
         <p>
           <sup>11</sup> Karen Barad, “Quantum Entanglements and Hauntological
           Relations of Inheritance: Dis/Continuities, SpaceTime Enfoldings, and
-          Justice-to-Come,” Derrida Today 3, no. 2 (November 2010): 240–68,
+          Justice-to-Come,” Derrida Today 3, no. 2 (November 2010): 240–68,{" "}
           <a href="https://doi.org/10.3366/drt.2010.0206">
             https://doi.org/10.3366/drt.2010.0206
           </a>
@@ -325,7 +316,8 @@ function Article() {
         </p>
         <p>
           <sup>12</sup> “Black like me” is culled from the final line of
-          Langston Hughes’ <i>Dream Variations</i>, originally published 1924.
+          Langston Hughe&apos;s <i>Dream Variations</i>, originally published in
+          1924.
         </p>
       </FooterContainer>
     </ArticleContainer>
