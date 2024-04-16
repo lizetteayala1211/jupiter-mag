@@ -3,7 +3,7 @@
 import { ArticleBase } from "@/components"
 
 import { issue2Metadata } from ".."
-import { ArticleContainer, ArticleImage, FooterContainer } from "../../styled"
+import { ArticleContainer, ArticleImage } from "../../styled"
 import { BigGuy, CaptionContainer } from "@/utils/layout"
 import isra1 from "../../../../../../public/photos/Isra_Rene_Image1.png"
 
@@ -67,7 +67,7 @@ function Article() {
         For as long as we could, the moon and I followed one another and during
         those passing moments I felt as close to self-surrender and allowance
         and possibility and withdrawal and obscurity and invisibility all
-        sutured together. (culled from my diary, January 30, 2024)
+        sutured together. <i>(culled from my diary, January 30, 2024)</i>
       </p>
       <BigGuy />
       <p style={{ textAlign: "center" }}>
@@ -112,8 +112,10 @@ function Article() {
         themselves at the point of closest encounter fascinates me, especially
         when those organic bodies are Black and femme. The theoretical parallels
         between the condition of Blackness and planetary dark matter as
-        “invisible and unknowable, yet somehow still there,”<sup>1</sup> as
-        carefully circled by Black studies and surveillance studies scholar
+        <a target="_blank" href="https://www.dukeupress.edu/dark-matters">
+          “invisible and unknowable, yet somehow still there,”
+        </a>{" "}
+        as carefully circled by Black studies and surveillance studies scholar
         Simone Browne, demands slowness and sustained attention.{" "}
       </p>
       <p>*</p>
@@ -162,7 +164,7 @@ function Article() {
         they made around each other, their closeness created (w)hole worlds
         apart from the destruction around them.
       </p>
-      <p>
+      <p style={{ textAlign: "center" }}>
         <b>
           <i>The way one encounters what one cannot see</i>
         </b>
@@ -176,17 +178,18 @@ function Article() {
         subconscious—I find most striking. In 1970, Linda and Sonny Sharrock
         delivered to the world a reaming album of proportional and illegible
         delight: <i>Black Woman</i>, wherein imminent infinity lives in minutia.
-        Portrait of Linda in Three Colors, All Black is the final and descending
-        track where she offers vocality as a siren of welcome and warning. In
-        the previous four tracks, Sharrock syncopates us to her rhyme of
-        pleasure and desire of disorienting pentatonic scales and once we arrive
-        at the last track, her haunting self-portrait, she meets herself—another
-        modality of periapsis—with the cacophonic melodies of yearning,
-        sovereignty, and incalculable imaginings of Black femme eruption.
-        Sharrock&apos;s <i>encounter</i> of self in this format imbibes from the
-        same well as De Veaux&apos;s <i>encounter</i> with Jordan, only the
-        other orbiting body in Sharrock&apos;s two-body system is her own
-        specter. Sharrock wails{"      "}screams{"     "}hollers{"      "}rages
+        &quot;Portrait of Linda in Three Colors, All Black&quot; is the final
+        and descending track where she offers vocality as a siren of welcome and
+        warning. In the previous four tracks, Sharrock syncopates us to her
+        rhyme of pleasure and desire of disorienting pentatonic scales and once
+        we arrive at the last track, her haunting self-portrait, she meets
+        herself—another modality of periapsis—with the cacophonic melodies of
+        yearning, sovereignty, and incalculable imaginings of Black femme
+        eruption. Sharrock&apos;s <i>encounter</i> of self in this format
+        imbibes from the same well as De Veaux&apos;s <i>encounter</i> with
+        Jordan, only the other orbiting body in Sharrock&apos;s two-body system
+        is her own specter. Sharrock wails{"      "}screams{"     "}hollers
+        {"      "}rages
         {"    "}
         cries
         {"     "}whimpers{"     "}coos{"      "}murmurs{"       "}croons. All
@@ -195,15 +198,21 @@ function Article() {
         Sharrock encounters the dimensions of herself as a durational holding,
         conjuring an evocative momentum that maintains the temporal promise of
         catharsis found in the sensations of incomprehensible screaming. A
-        scream requires an open mouth, which is inherently an ontological
-        instance of a black hole. As Anderson billows, “To scream is a
-        physiological response to terror, yes, but it&apos;s also something born
-        of laughter, grief, ecstasy, or rage, all of which ultimately represent
-        catharsis.” Sharrock’s <i>encounter</i> ripples in Anderson&apos;s
-        understanding of &quot;to scream&quot;. The <i>periapsis</i> that faces
-        Sharrock in her prismed mirror does not empty out quietly into the night
-        but instead it distills into its own darkness by br(e)aking into the
-        drive toward total annihilation—it doubles down
+        scream requires an open mouth, which is inherently an{" "}
+        <a
+          target="_blank"
+          href="https://read.dukeupress.edu/liquid-blackness/article/6/2/130/319813/The-Ontology-of-Open-MouthsThe-Scream-and-the"
+        >
+          ontological instance of a black hole
+        </a>
+        . As Anderson billows, “To scream is a physiological response to terror,
+        yes, but it&apos;s also something born of laughter, grief, ecstasy, or
+        rage, all of which ultimately represent catharsis.” Sharrock’s{" "}
+        <i>encounter</i> ripples in Anderson&apos;s understanding of &quot;to
+        scream.&quot; The <i>periapsis</i> that faces Sharrock in her prismed
+        mirror does not empty out quietly into the night but instead it distills
+        into its own darkness by br(e)aking into the drive toward total
+        annihilation—it doubles down
         <br />
         <div>
           and
@@ -261,13 +270,6 @@ function Article() {
           Young and…
         </i>
       </p>
-      <FooterContainer>
-        <p>
-          <sup>1</sup> Simone Browne, Dark Matters:{" "}
-          <i>On the Surveillance of Blackness</i> (Durham: Duke University
-          Press, 2015), 9.
-        </p>
-      </FooterContainer>
     </ArticleContainer>
   )
 }
