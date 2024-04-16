@@ -41,18 +41,18 @@ export function Colophon() {
           <p>
             This project is supported by Critical Minded, an initiative to
             invest in cultural critics of color cofounded by The Nathan Cummings
-            Foundation and The Ford Foundation
+            Foundation and The Ford Foundation.
           </p>
           <p>
-            We extended the utmost gratitude to the following people, each of
-            whom have vivified the expansive spirit of Jupiter…
+            We extend the utmost gratitude to the following people, each of whom
+            have vivified the expansive spirit of Jupiter…
           </p>
           <p>Rashid Shabazz of Critical Minded</p>
-          <p>Claire Malloy and Megan Karangutkar of Artadia </p>
-          <p>Kennedy Yanko </p>
-          <p>Racquel Chevremont </p>
+          <p>Claire Malloy and Megan Karangutkar of Artadia</p>
+          <p>Kennedy Yanko</p>
+          <p>Racquel Chevremont</p>
           <p>Abby Pucker</p>
-          <p>Olasunkanmi Jeffrey Asunmonu </p>
+          <p>Olasunkanmi Jeffrey Asunmonu</p>
           <p>Derek Harper</p>
           <MediumGuy />
           <p>
