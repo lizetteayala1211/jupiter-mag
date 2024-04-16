@@ -38,7 +38,13 @@ function Article() {
           (a story in three acts in three locations at three different points in
           time all of which are given volume by KOKOROKO&apos;s debut album,{" "}
           <b>
-            <i>Could We Be More</i>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=__ebFZ4HxEk&ab_channel=BrownswoodRecordings
+"
+            >
+              <i>Could We Be More</i>
+            </a>
           </b>
           )
         </i>
@@ -101,9 +107,7 @@ function Article() {
       <BigGuy />
 
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <a href="https://youtu.be/IVB_HDuwz8Q">
-          <i>Age Of Ascent</i>
-        </a>
+        <a href="https://youtu.be/IVB_HDuwz8Q">&quot;Age Of Ascent&quot;</a>
         <div>(Last night, February 28, 2024)</div>
       </div>
 
@@ -117,12 +121,12 @@ function Article() {
       </p>
       <p>
         As I set off into the dark, my bike&apos;s pedals becoming a part of the
-        road&apos;s music, <i>Age Of Ascent</i> pushes me forward, the wind at
-        my back as I wind through the backroads toward East Dulwich. This route
-        home is a river I have swum in every weather condition. Tonight feels
-        like the beginning of Spring. Not quite warm, but gentle and coaxing.
-        The sky arches over me, a cobalt blue. A fox runs alongside me briefly
-        before cutting into a garden and disappearing.
+        road&apos;s music, &quot;Age Of Ascent&quot; pushes me forward, the wind
+        at my back as I wind through the backroads toward East Dulwich. This
+        route home is a river I have swum in every weather condition. Tonight
+        feels like the beginning of Spring. Not quite warm, but gentle and
+        coaxing. The sky arches over me, a cobalt blue. A fox runs alongside me
+        briefly before cutting into a garden and disappearing.
       </p>
       <p>
         With each corner I take, the music leans with me. This is space music.
@@ -325,7 +329,7 @@ function Article() {
 
       <FooterContainer>
         <p>
-          <sup>1</sup>Oliveros, Pauline. <i>Quantum Listening</i>: 2. London:
+          <sup>1</sup> Oliveros, Pauline. <i>Quantum Listening</i>: 2. London:
           Ignota Books, 2022.
         </p>
         <p>
