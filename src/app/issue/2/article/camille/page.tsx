@@ -40,7 +40,8 @@ function Article() {
         He asks us if we can hear the water. And in the next breath, if we can
         hear him. (Inhale) if we can hear the water, (exhale) if we can hear
         him—again and again, lulling our ears beyond our heads, opening our
-        pores like palms made for listening.
+        pores like palms made for listening. Seated and flanked by the towering
+        forms of fellow artist Laurent Valère&apos;s{" "}
         <a
           target="_blank"
           href="https://www.laurentvalereartstudio.com/cap-110-1"
@@ -197,9 +198,9 @@ function Article() {
         delightfully undermines. By way of this apprehension, we may refuse to
         celebrate the hexagon for acknowledging that its head is made and
         maintained by a triangle. Such a framework encourages an insurgent
-        interpretation of what the presence of Julien&apos;s work in Venice
-        means, i.e. turns our attention toward what it disrupts, toward a
-        ceremonious undoing of national identity.
+        interpretation of what the presence of Julien&apos;s work in Venice{" "}
+        <i>means</i>, i.e. turns our attention toward what it <i>disrupts</i>,{" "}
+        toward a ceremonious undoing of national identity.
       </p>
       <p>
         France&apos;s regime has long depended on assimilatory rhetoric, as
@@ -208,9 +209,9 @@ function Article() {
         socio-political lexicon. You are not Franco-Martinican or
         Franco-Guadeloupean, or Franco anything else, you&apos;re French, just
         French, all else dissolving into the universal solvent that is the
-        metropole&apos;s multi-century-long wash. In Martinique, we call it la
-        blès (the wound), the psychosomatic and spiritual accumulation of
-        subjugation, the immense and holistically felt weight of living under
+        metropole&apos;s multi-century-long wash. In Martinique, we call it{" "}
+        <i>la blès</i> (the wound), the psychosomatic and spiritual accumulation
+        of subjugation, the immense and holistically felt weight of living under
         European domination.
       </p>
       <p>
