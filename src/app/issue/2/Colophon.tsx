@@ -43,6 +43,7 @@ export function Colophon() {
             invest in cultural critics of color cofounded by The Nathan Cummings
             Foundation and The Ford Foundation.
           </p>
+          <MediumGuy />
           <p>
             We extend the utmost gratitude to the following people, each of whom
             have vivified the expansive spirit of Jupiter…

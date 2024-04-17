@@ -107,7 +107,7 @@ function Article() {
       <BigGuy />
 
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <a href="https://youtu.be/IVB_HDuwz8Q">&quot;Age Of Ascent&quot;</a>
+        <a href="https://youtu.be/IVB_HDuwz8Q">Age Of Ascent</a>
         <div>(Last night, February 28, 2024)</div>
       </div>
 

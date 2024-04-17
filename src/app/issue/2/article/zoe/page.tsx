@@ -316,8 +316,8 @@ function Article() {
         </p>
         <p>
           <sup>12</sup> “Black like me” is culled from the final line of
-          Langston Hughe&apos;s <i>Dream Variations</i>, originally published in
-          1924.
+          Langston Hughes&apos;s <i>Dream Variations</i>, originally published
+          in 1924.
         </p>
       </FooterContainer>
     </ArticleContainer>

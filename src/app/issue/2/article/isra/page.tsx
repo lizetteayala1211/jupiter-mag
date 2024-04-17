@@ -94,7 +94,7 @@ function Article() {
         sweet and dizzying spiral of lovers who share a diaphanous glance across
         a room filled with strangers.{" "}
       </p>
-      <p>*</p>
+      <p style={{ textAlign: "center" }}>*</p>
       <p>
         At one point or another, in any relationship that you have with someone
         or something, there exists a periapsis: the intimately mundane points of
@@ -111,14 +111,14 @@ function Article() {
         The space of no/thingness created at the moment where two bodies find
         themselves at the point of closest encounter fascinates me, especially
         when those organic bodies are Black and femme. The theoretical parallels
-        between the condition of Blackness and planetary dark matter as
+        between the condition of Blackness and planetary dark matter as{" "}
         <a target="_blank" href="https://www.dukeupress.edu/dark-matters">
           “invisible and unknowable, yet somehow still there,”
         </a>{" "}
         as carefully circled by Black studies and surveillance studies scholar
         Simone Browne, demands slowness and sustained attention.{" "}
       </p>
-      <p>*</p>
+      <p style={{ textAlign: "center" }}>*</p>
       <p>
         In a{" "}
         <a
@@ -149,7 +149,7 @@ function Article() {
         periapsis allows for love to remain as a force, though its pull varies
         throughout time.
       </p>
-      <p>*</p>
+      <p style={{ textAlign: "center" }}>*</p>
       <p>
         De Veaux has written and published many love letters to and about
         Jordan. And as I understand it, it has become a gesture of benevolent

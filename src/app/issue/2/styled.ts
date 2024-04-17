@@ -351,7 +351,7 @@ export const ArticleImage = styled(Image)`
   object-fit: cover;
   width: 100%;
 
-  max-width: 800px;
+  max-width: 500px;
   height: 100%;
 `
 
