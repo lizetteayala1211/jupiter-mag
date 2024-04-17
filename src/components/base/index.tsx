@@ -46,7 +46,7 @@ export function Base({ children, homePage }: Props) {
         {/* todo: need to consolidate all header components to be more readable :') */}
         <ChildrenSection>
           {isMobile ? (
-            //todo: this menu button needs to be redesigned? maybe gotten rid of ? lol
+            // todo: this menu button needs to be redesigned? maybe gotten rid of ? lol
             <div
               style={{
                 position: "absolute",
