@@ -74,7 +74,14 @@ function Article() {
       </p>
       <p>
         On the yearning heels of Coursil&apos;s trembling horn, <br />
-        we ascend together into the night sky like a high cry, <br />
+        we ascend together into the night sky like a{" "}
+        <a
+          target="_blank"
+          href="https://pierrejoris.com/blog/edouard-glissant-1928-2011/"
+        >
+          high cry
+        </a>
+        , <br />
         Commanding something more than mere melody. <br />
       </p>
 
