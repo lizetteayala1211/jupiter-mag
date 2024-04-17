@@ -53,7 +53,7 @@ function Article() {
               Jes
             </a>
           </span>
-          <span className=" c9 c0">
+          <span className=" c9 ">
             <a href="https://www.google.com/url?q=https://www.jesushilario.com/&amp;sa=D&amp;source=editors&amp;ust=1713324863704988&amp;usg=AOvVaw0KcIqT5Q_s0ks98AI_WJFa">
               &uacute;
             </a>
@@ -76,53 +76,53 @@ function Article() {
           <span>This interview has been edited for length and poeticism.</span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c9 c0"></span>
+          <span className="c4 c9 "></span>
         </p>
         <hr />
         <p className="c1 c2">
-          <span className="c3 c0"></span>
+          <span className="c3 "></span>
         </p>
         <p className="c1 c9 c2">
-          <span className="c3 c0"></span>
+          <span className="c3 "></span>
         </p>
         <p className="c1">
-          <span className="c9 c0">
+          <span className="c9 ">
             here, in the denseness of static impossibility, we descend to an
             insurgent heaven.{" "}
           </span>
-          <span className="c9 c0 c14">
+          <span className="c9  c14">
             i call out and hear my six times great grandma&rsquo;s sister sing.{" "}
           </span>
-          <span className="c4 c0 c9">
+          <span className="c4  c9">
             the depths alive as disappearance, as protection, as cannot find us,
             as ain&rsquo;t finna be found, as we find each other, as becoming.
             we breathe.
           </span>
         </p>
         <p className="c1">
-          <span className="c4 c9 c0">
+          <span className="c4 c9 ">
             the motion of the earth is the motion of blackness. do you feel our
             rhythm?
           </span>
         </p>
         <p className="c1">
-          <span className="c4 c9 c0">running away, sovereign. </span>
+          <span className="c4 c9 ">running away, sovereign. </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c9 c0"></span>
+          <span className="c4 c9 "></span>
         </p>
         <p className="c1 c13">
-          <span className="c4 c9 c0">&mdash;Stella Rae Binion </span>
+          <span className="c4 c9 ">&mdash;Stella Rae Binion </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c9 c0"></span>
+          <span className="c4 c9 "></span>
         </p>
         <hr />
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>Stella Rae Binion</span>
@@ -137,14 +137,14 @@ function Article() {
               &nbsp;circumstances
             </a>
           </span>
-          <span className="c4 c0">, what are your gills? </span>
+          <span className="c4 ">, what are your gills? </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>Jes</span>
-          <span className="c9 c0">&uacute;</span>
+          <span className="c9 ">&uacute;</span>
           <span>s Hilario-Reyes</span>
           <span>
             : Gills are just the apparatus of breathing underwater or breathing
@@ -152,13 +152,13 @@ function Article() {
             function.{" "}
           </span>
           <span>Carrying</span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;with my friends and family are my gills, knowing that I can go
             to a space or time to dissolve.
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -175,7 +175,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -210,7 +210,7 @@ function Article() {
               &ldquo;beware&rdquo; and &ldquo;proceed with caution&rdquo;
             </a>
           </span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;with electrifying eruptions, bubbling low-frequency
             intensities, and sharp-edged steady irregularities. These are the
             sounds of their disruption. We are their descendants, too. When did
@@ -220,7 +220,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -242,8 +242,8 @@ function Article() {
               Firelei B&aacute;ez
             </a>
           </span>
-          <span className="c0 c8">&nbsp;</span>
-          <span className="c4 c0">
+          <span className=" c8">&nbsp;</span>
+          <span className="c4 ">
             continue forward the mythos through their own work and practice. I
             also think a subterranean and/or aqueous life maps deeply to the
             geographical site and ontology of the club. The sonic in
@@ -253,7 +253,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>JHR: </span>
@@ -303,7 +303,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -318,7 +318,7 @@ function Article() {
             of prayer
           </span>
           <span>, a practice of </span>
-          <span className="c0 c10">summoning.</span>
+          <span className=" c10">summoning.</span>
           <span>
             &nbsp;Drexciya does this: their deep tradition of calling forth and
             resurrecting drowned histories. The practice of calling forth is so
@@ -330,10 +330,10 @@ function Article() {
             not know, but we remember, who reveal themselves in every particle,
             wave, and motion
           </span>
-          <span className="c4 c0">. </span>
+          <span className="c4 ">. </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>I want to think with</span>
@@ -355,10 +355,10 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
-          <span className="c4 c0">
+          <span className="c4 ">
             LR: Well, I think that the very idea of existing in a Black
             personhood and a queer personhood is in relationship to this
             question of &ldquo;not making it.&rdquo; It comes with dilemmas and
@@ -370,15 +370,15 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>Critical fabulation creates a space for </span>
           <span>speculation</span>
           <span>, space for a </span>
-          <span className="c0 c10">what if. </span>
+          <span className=" c10">what if. </span>
           <span>What</span>
-          <span className="c0 c10">&nbsp;</span>
+          <span className=" c10">&nbsp;</span>
           <span>
             does it mean for there to be folks who are able to continue forward?
             I feel like it&rsquo;s a really immense and dense challenge&mdash;to
@@ -394,7 +394,7 @@ function Article() {
             to experimental histories. There is so much when I reflect, for
             example, about{" "}
           </span>
-          <span className="c0 ">
+          <span className=" ">
             <a href="https://www.google.com/url?q=https://thekitchen.org/&amp;sa=D&amp;source=editors&amp;ust=1713324863710387&amp;usg=AOvVaw1NrQc5KnfwPznHxmzkYvUX">
               The Kitchen
             </a>
@@ -407,7 +407,7 @@ function Article() {
             </a>
           </span>
           <span>; asking </span>
-          <span className="c0 c10">who is remembered</span>
+          <span className=" c10">who is remembered</span>
           <span>
             &nbsp;is a project within itself. The radical work of being
             responsible for those memories is thinking differently about who
@@ -421,10 +421,10 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
-          <span className="c4 c0">
+          <span className="c4 ">
             JHR: I&#39;ve always thought of remembering as a decolonial act, but
             I don&#39;t necessarily know if I fully agree with that sentiment.
             So much of the work is excavation and redress. And so much about
@@ -443,7 +443,7 @@ function Article() {
               afro-fabulation
             </a>
           </span>
-          <span className="c4 c0">
+          <span className="c4 ">
             . I think fantasy and fiction and science fiction are quite
             generative in producing potential. Potential is hopeful and
             fulfilling. I think my role in this entanglement is staying true to
@@ -454,7 +454,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -478,7 +478,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -498,7 +498,7 @@ function Article() {
             to fugitivity, perpetually rendering and reifying. And Legacy, you
             have a quote in your book{" "}
           </span>
-          <span className=" c0 c10">
+          <span className="  c10">
             <a href="https://www.google.com/url?q=https://www.legacyrussell.com/GLITCHFEMINISM&amp;sa=D&amp;source=editors&amp;ust=1713324863712104&amp;usg=AOvVaw1xcEG6XgEwZpaQ04caQMDq">
               Glitch Feminism
             </a>
@@ -509,7 +509,7 @@ function Article() {
             crush of all-bodies lit up under strobes like firecrackers, we
             become no-body, and in the gorgeous crush of no-body,{" "}
           </span>
-          <span className="c0 c10">we become every-body</span>
+          <span className=" c10">we become every-body</span>
           <span>.&rdquo;</span>
           <span>
             &nbsp;I think that&#39;s a beautiful way to describe the perpetual
@@ -517,22 +517,22 @@ function Article() {
             it has holes{" "}
           </span>
           <span>and is cavernous,</span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;like the bottom of the ocean is. So, it does let some of us
             in.
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
-          <span className="c4 c0">
+          <span className="c4 ">
             LR: I think that&#39;s powerful. I believe deeply that not
             everything is for everybody. A very important Black strategy.
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -572,16 +572,16 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
-          <span className="c4 c0">
+          <span className="c4 ">
             SRB: The hinge of the word &ldquo;re/produce,&rdquo; Legacy.
             There&#39;s so much to be thought about there.
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -600,10 +600,10 @@ function Article() {
             toward one another, a broader project, a conspiracy even with a
             mission and a purpose.
           </span>
-          <span className="c12 c0 c8">&nbsp;</span>
+          <span className="c12  c8">&nbsp;</span>
         </p>
         <p className="c1 c2">
-          <span className="c12 c0 c8"></span>
+          <span className="c12  c8"></span>
         </p>
         <p className="c1">
           <span>SRB: I&rsquo;m witnessing an </span>
@@ -627,7 +627,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>JHR:</span>
@@ -646,12 +646,12 @@ function Article() {
               Wangechi Mutu&rsquo;s
             </a>
           </span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;work in this anthropomorphic sense.{" "}
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -662,7 +662,7 @@ function Article() {
           </span>
           <span>&nbsp;In my work I use </span>
           <span>that </span>
-          <span className="c4 c0">
+          <span className="c4 ">
             as a means to explore futurity and the potential in generating an
             outside. And I think queer nightlife also has that potential
             embedded in it as well. The night and the darkness and our lack of
@@ -671,7 +671,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -686,13 +686,13 @@ function Article() {
           <span>&nbsp;glitch</span>
           <span>. Jes&uacute;s, what you describe as the </span>
           <span>&ldquo;failure of mechanical optics.&rdquo;</span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;What are the technologies of survival? How are we in
             conversation with other-than-humanness?
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -716,7 +716,7 @@ function Article() {
             to fit inside of an infrastructure that{" "}
           </span>
           <span>is so</span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;failed, as you initially posed, Stella? The very idea of
             human&mdash;it&rsquo;s an infrastructure that has been so
             manipulated to serve clear agendas that work against the possibility
@@ -726,7 +726,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>JHR: Absolutely. I work in and </span>
@@ -759,7 +759,7 @@ function Article() {
             is mostly a byproduct of military funding and expansion.{" "}
           </span>
           <span>So much of our tech has ghosts, and they haunt.</span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;What is the transformative work really needed to evolve the
             idea of what the cyborg is or what the android could be? There&#39;s
             also the question of artificial intelligence, there&#39;s so much I
@@ -768,7 +768,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -793,7 +793,7 @@ function Article() {
             </a>
           </span>
           <span>.</span>
-          <span className="c0 c8">&nbsp;</span>
+          <span className=" c8">&nbsp;</span>
           <span>De</span>
           <span>troit was in bed with the machine, the motor</span>
           <span>.</span>
@@ -809,14 +809,14 @@ function Article() {
             expansive. Even sampling{" "}
           </span>
           <span>is dialectical</span>
-          <span className="c0 c8">, </span>
+          <span className=" c8">, </span>
           <span>
             and is regenerative. It is language and it travels like language.
             Maybe the technology of our survival is more like an{" "}
           </span>
           <span>armature</span>
           <span>.</span>
-          <span className="c0 c8">&nbsp;</span>
+          <span className=" c8">&nbsp;</span>
           <span>
             Or maybe it&#39;s the wildness that one brings out of another. Or
             maybe there&#39;s something technological about language and
@@ -826,7 +826,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>SRB: I want to return to a notion of aliveness. </span>
@@ -867,16 +867,16 @@ function Article() {
             you posed that Sunday in Venice: Are we living now in an{" "}
           </span>
           <span>afterlife</span>
-          <span className="c4 c0">
+          <span className="c4 ">
             ? How do we understand our proximities to unaliveness? What are the
             stakes of our aliveness?
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
-          <span className="c4 c0">
+          <span className="c4 ">
             LR: It feels really important to recognize that our very mobility,
             the fact of our aliveness as Black or animated or vertical, is in
             itself something that is rendered a threat by a white imagination.
@@ -888,7 +888,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -908,7 +908,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -928,7 +928,7 @@ function Article() {
               douard Glissant
             </a>
           </span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;that I&#39;ve been sitting with that I would love to share in
             this context. Really just its ending, because I feel like it applies
             to this question of what&#39;s at stake of our aliveness. It goes as
@@ -936,10 +936,10 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c11 c0 c10"></span>
+          <span className="c11  c10"></span>
         </p>
         <p className="c1 c15">
-          <span className="c11 c0 c10">
+          <span className="c11  c10">
             Sand saver of solitude, When we pass into forever, O night, more
             than the path struck with twilight&#39;s alone, In the infinity of
             sand its route, In the valley of night its route, And yet upon the
@@ -949,10 +949,10 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c11 c0 c10"></span>
+          <span className="c11  c10"></span>
         </p>
         <p className="c1 c15">
-          <span className="c0 c10 c11">
+          <span className=" c10 c11">
             The holy rape of imperfect light upon light to be perfected by the
             unknown gentleness forcing gentleness to open itself. You are love
             that passes beside me. Oh village of deaths, but your water is
@@ -962,10 +962,10 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c11 c0 c10"></span>
+          <span className="c11  c10"></span>
         </p>
         <p className="c1 c15">
-          <span className="c11 c0 c10">
+          <span className="c11  c10">
             Oh, to be farther from you than, for example, air from root. I have
             no longer leaf or sap, but I go back up into the fields and the
             storms which are roads of the contrary of knowledge. Here in the air
@@ -974,7 +974,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c0 c8 c12"></span>
+          <span className=" c8 c12"></span>
         </p>
         <p className="c1">
           <span>
@@ -996,10 +996,10 @@ function Article() {
             Entangled in the deathward-leaning existence that we inhabit, our
             saving grace is motion. Fugitivity in itself is so much about that.
           </span>
-          <span className="c4 c0">&nbsp;</span>
+          <span className="c4 ">&nbsp;</span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>I want to bring up a </span>
@@ -1012,16 +1012,16 @@ function Article() {
           <span>He&rsquo;s really my type of diabolical </span>
           <span>for real</span>
           <span>. He says in </span>
-          <span className=" c0 c10">
+          <span className="  c10">
             <a href="https://www.google.com/url?q=https://www.dukeupress.edu/black-and-blur&amp;sa=D&amp;source=editors&amp;ust=1713324863719868&amp;usg=AOvVaw1KbbJ4rd8DzJD3RzvIJOaN">
               Black and Blur
             </a>
           </span>
           <span>,</span>
-          <span className="c4 c0">&nbsp;</span>
+          <span className="c4 ">&nbsp;</span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1 c15">
           <span>Dis</span>
@@ -1036,10 +1036,10 @@ function Article() {
             Confirmation of the flesh is queer and evangelical
           </span>
           <span>.</span>
-          <span className="c4 c0">&nbsp;</span>
+          <span className="c4 ">&nbsp;</span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -1047,7 +1047,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -1075,20 +1075,20 @@ function Article() {
             crushing pressure,&rdquo; the &ldquo;insulation and isolation&rdquo;
           </span>
           <span>&nbsp;of the absolute depths</span>
-          <span className="c4 c0">?</span>
+          <span className="c4 ">?</span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
-          <span className="c4 c0">
+          <span className="c4 ">
             JHR: Sound does not ask permission. It moves through you regardless.
             It&#39;s dialectical, it bounces back, it reverberates, it reflects,
             it divides.
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -1111,9 +1111,9 @@ function Article() {
             </a>
           </span>
           <span>&rsquo;s</span>
-          <span className="c0 c8">&nbsp;</span>
+          <span className=" c8">&nbsp;</span>
           <span>set at</span>
-          <span className="c0 c8">&nbsp;</span>
+          <span className=" c8">&nbsp;</span>
           <span>
             <a href="https://www.google.com/url?q=https://www.instagram.com/nowadaysnyc/&amp;sa=D&amp;source=editors&amp;ust=1713324863721977&amp;usg=AOvVaw2LswlLK1vjHTVY4jcWOreC">
               Nowadays Nonstop
@@ -1135,13 +1135,13 @@ function Article() {
             genres that really put into practice and materialize the{" "}
           </span>
           <span>ineffable</span>
-          <span className="c0 c8">.</span>
-          <span className="c4 c0">
+          <span className=" c8">.</span>
+          <span className="c4 ">
             &nbsp;Where language seems to fail, sound flourishes.
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -1161,7 +1161,7 @@ function Article() {
             </a>
           </span>
           <span>&nbsp;played this</span>
-          <span className="c0 c8">&nbsp;</span>
+          <span className=" c8">&nbsp;</span>
           <span>set</span>
           <span>&nbsp;at </span>
           <span>
@@ -1169,7 +1169,7 @@ function Article() {
               Merge
             </a>
           </span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;this New Year&rsquo;s. I was only there for a couple hours but
             it felt like years. The space we were in had so much potential, I
             felt like I could really live there. I walked out of that foggy
@@ -1189,7 +1189,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -1202,16 +1202,16 @@ function Article() {
             sonic, the intangible, the ungraspable, the{" "}
           </span>
           <span>uncolonizable</span>
-          <span className="c4 c0">
+          <span className="c4 ">
             , the renderings of the persistence of Black life, create the
             conditions of futurity? What are we making?
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
-          <span className="c4 c0">
+          <span className="c4 ">
             LR: Black folks have always existed at the end of the world. I think
             queerness, too, has always existed at the end of the world. We must
             give ourselves permission for the beginnings of many worlds. What
@@ -1222,7 +1222,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -1244,7 +1244,7 @@ function Article() {
             actually need to think about what it means to create space for
             aliveness to exist outside of our theoretical frame.
           </span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;I think [this] is what I&#39;m trying to make. How can we be
             present with one another and not flattened through the lens of
             scholarship? Life is not in a book, it&rsquo;s not something that is
@@ -1255,7 +1255,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -1270,7 +1270,7 @@ function Article() {
             two minutes. Drexciya is definitely{" "}
           </span>
           <span>tearing</span>
-          <span className="c4 c0">
+          <span className="c4 ">
             , but earth is enough for me. And I guess the elsewhere I&#39;m
             interested in is the dismantling that Legacy is talking about, that
             sort of confrontation. It&#39;s not an abandonment or an escapism,
@@ -1281,7 +1281,7 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -1292,7 +1292,7 @@ function Article() {
             &nbsp;As the spirit of Black life is ever mobile, I&rsquo;m
             generating sovereignty and futurity toward the drifting body,{" "}
           </span>
-          <span className="c0 c10">to</span>
+          <span className=" c10">to</span>
           <span>&nbsp;the drifting body. That is </span>
           <span>ultimately</span>
           <span>
@@ -1317,17 +1317,17 @@ function Article() {
             believe that wonder is the act that returns us to love, especially
             when we&#39;ve reached our limit.
           </span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;And that true transformation at the site of trauma is the hard
             work, but in many ways, it&#39;s much more rewarding.
           </span>
         </p>
         <p className="c1">
-          <span className="c4 c0">&nbsp;</span>
+          <span className="c4 ">&nbsp;</span>
         </p>
         <p className="c1">
           <span>SRB: Yes, all the lessons that the earth provides us are </span>
-          <span className="c0 c10">more</span>
+          <span className=" c10">more</span>
           <span>
             &nbsp;than enough. I&#39;ve been recognizing the generosity of the
             earth. I&rsquo;m so struck by your choice of language,
@@ -1346,25 +1346,25 @@ function Article() {
             </a>
           </span>
           <span>&rsquo;s</span>
-          <span className="c4 c0">
+          <span className="c4 ">
             &nbsp;spell of hope: &ldquo;God is Change&rdquo;&hellip;
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>JHR: Yes! </span>
-          <span className=" c0 c10">
+          <span className="  c10">
             <a href="https://www.google.com/url?q=https://godischange.org/the-book-of-the-living/&amp;sa=D&amp;source=editors&amp;ust=1713324863724999&amp;usg=AOvVaw2U19LsPc9j4lAM7m7mjdqW">
               Earthseed
             </a>
           </span>
           <span>.</span>
-          <span className="c0 c4">&nbsp;</span>
+          <span className=" c4">&nbsp;</span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>
@@ -1376,15 +1376,15 @@ function Article() {
             natural thing. It is the only divine thing. I&rsquo;m like, oh the
             empire{" "}
           </span>
-          <span className="c0 c10">will </span>
+          <span className=" c10">will </span>
           <span>fall. It </span>
-          <span className="c0 c10">will</span>
-          <span className="c4 c0">
+          <span className=" c10">will</span>
+          <span className="c4 ">
             &nbsp;change. It is in the nature of this world.
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>A </span>
@@ -1407,7 +1407,7 @@ function Article() {
             for a forward. A core dimension in most{" "}
           </span>
           <span>indigenous knowledge formations and practices </span>
-          <span className="c4 c0">
+          <span className="c4 ">
             is how repair is always a possibility. There are always
             possibilities of future. We can repair with this earth&mdash;all the
             earth wants us to do is repair. It&rsquo;s offering us lessons. When
@@ -1415,13 +1415,13 @@ function Article() {
           </span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
-          <span className="c4 c0">JHR: Yes, redress. Redress the world.</span>
+          <span className="c4 ">JHR: Yes, redress. Redress the world.</span>
         </p>
         <p className="c1 c2">
-          <span className="c4 c0"></span>
+          <span className="c4 "></span>
         </p>
         <p className="c1">
           <span>LR: I&rsquo;m here for it. </span>
