@@ -1,7 +1,7 @@
 "use client"
 
-import { Page as Issue2 } from "./issue/2"
+import Issue from "./issue/3/page"
 
 export default function Page() {
-  return <Issue2 />
+  return <Issue />
 }
