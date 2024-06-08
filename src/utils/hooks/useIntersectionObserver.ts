@@ -37,16 +37,14 @@ const handler = (entries: any) => {
   // Look through all sections
   for (let i = 0; i < allSections.length; i++) {
     // Get the current section
-    currentSection = allSections[i]
+    currentSection = allSections?.[i]
     // If the section is in the viewport or it has just intersected, set it as active
     if (isElementInViewport(currentSection) || allEntries.has(currentSection)) {
       // Set all links as inactive
-      allLinks.forEach((link) => link.classList.remove("active"))
+      allLinks.forEach((link) => link?.classList?.remove("active"))
       // Set current link to active
 
-      document!
-        .querySelector(`a[href="#${currentSection.id}"]`)!
-        .classList.add("active")
+      document?.querySelector(`a[href="#${currentSection.id}"]`)?.classList?.add("active")
       // Exit loop after setting first active link
       break
     }
