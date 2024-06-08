@@ -52,7 +52,7 @@ export function Programs() {
                                 <p> 06.20.2024 | 6pm-9pm </p>
                             </div>
                             <div className="p-event-title">
-                                <h4>  &apos;A Sword With Two Edges&apos; / On The Theater of Refusal </h4>
+                                <h4> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal                                </h4>
                             </div>
                             <div className="p-event-local-info">
                                 <p> <a href="https://rep.club/" target="_blank" className="internal"> REPARATIONS CLUB</a> — 3054 S Victoria Ave, Los Angeles, CA 90016
@@ -125,7 +125,7 @@ export function Programs() {
                                 <p> &quot;What is a prayer, but a question without structure? What is a poem but pre-incarnation punctuation, your own hand’s hire for an answer? From such gospels as Amiri Baraka, Toni Cade Bambara, and Alexis Pauline Gumbs, we are shown that our own texts can and have become just as holy, when regarded as such. ‘apophenia: anatomy of a prayer’ is an intertextual somatic meditation which encourages connection with that which follows you and gently asks those things to take the lead. Through a series of close readings of related material (from aforementioned poets), we will make space for the grand feeling bubbling within us, bear witness, and tend to it as a way of offering reverence to that which is already with us. All of this in hopes that our own words will return to us in a time of need. The writing workshop does not ask about that which you would like to write, but that which would like to be written about by you. Explore with us the anatomy of prayer, incantation, “speaking over oneself,” and the power of this magic in Black people and their poetry.&quot; </p> <br />
                                  <i> – Victor Musoni and Ireon Roach </i>
                                 <br />
-                                <p> Program title: Black Entanglements </p>
+                                {/* <p> Program title: Black Entanglements </p>
                                 <br />
                                 <p> Dates and the film being screened that day: </p>
                                 <p> — July 14: DRYLONGSO by Cauleen Smith </p>
@@ -134,7 +134,7 @@ export function Programs() {
                                 <p> — August 25: Atlantiques by Mati Diop </p>
                                 <br />
                                 <p> <i> Black Entanglements </i> builds on Jupiter&apos;s inaugural film screening series <i> No One Is Going To Mythologize My Life </i> (After Kathleen Collins). Through <i> Black Entanglements, </i> we will consider the kaleidoscopic nature of Black intimacies by traversing the resuscitative valences of sisterhood (DRYLONGSO)&sbquo; the &quot;one night stand&quot; as its own sanctified experiment in affection (Medicine for Melancholy), queer desire as negotiated against the backdrop of a broader political matrix (Rafiki), and the enmeshment between self, spirit, and society (Atlantiques). Each screening will begin with an offering of lyrical responses and questions by Denny Mwaura for guests to consider as they watch.  </p>
-                                <br />
+                                <br /> */}
                                 <a href="" target="_blank" className="rsvp"> COMING SOON </a>
                             </div>
                         </div>
