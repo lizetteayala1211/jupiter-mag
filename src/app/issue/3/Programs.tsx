@@ -52,7 +52,7 @@ export function Programs() {
                                 <p> 06.20.2024 | 6pm-9pm </p>
                             </div>
                             <div className="p-event-title">
-                                <h4> On The Theater of Refusal: Camille Bacon & Daria Simone Harper in conversation with Taylor Renee Aldridge </h4>
+                                <h4>  &apos;A Sword With Two Edges&apos; / On The Theater of Refusal </h4>
                             </div>
                             <div className="p-event-local-info">
                                 <p> <a href="https://rep.club/" target="_blank" className="internal"> REPARATIONS CLUB</a> — 3054 S Victoria Ave, Los Angeles, CA 90016
@@ -60,9 +60,6 @@ export function Programs() {
                             </div>
                             <br />
                             <div className="p-event-local-description">
-                                <p> Join us for <i> apophenia: anatomy of a prayer: </i> a program organized in collaboration with Victor Musoni and Ireon Roach.
-                                </p>
-                                <br />
                                 <p> Join us on June 20, 2024 for <i> ‘A Sword With Two Edges’ / On The Theater of Refusal: </i> a conversation between Jupiter co-founders Camille Bacon and Daria Simone Harper, moderated by curator-writer Taylor Renee Aldridge.     
                                 </p>
                                 <br />
@@ -115,7 +112,7 @@ export function Programs() {
                             </div>
                             <div className="p-event-title">
                                 <h4> Apophenia: </h4>
-                                <h4> Anatomy of a Prayer: </h4>
+                                <h4> Anatomy of a Prayer </h4>
                             </div>
                             <div className="p-event-local-info">
                                 <p> <a href="https://artsandpubliclife.org/" target="_blank" className="internal"> ARTS + PUBLIC LIFE </a> — 301 E Garfield Blvd, Chicago, IL 60637 </p>
