@@ -62,7 +62,7 @@ export default function Page() {
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <SignatureContainer src={dariaSignature} alt="Signature of Daria" />
-            Daria Harper
+            Daria Simone Harper
           </div>
         </SignaturesSection>
 
@@ -105,9 +105,9 @@ function EditorsNoteCopy() {
       <br/><br/>
       To do so, Gaines rebuked conventional exhibition etiquette by hanging excerpts of articles addressing the work of those in the show in proximity to the artworks themselves—sometimes eye-to-eye, so close we might imagine they could feel one another&rsquo;s exhales. Establishing a spatial (and, thus, ideological) tension between the criticism and its so-called subject, the curatorial framework encouraged the audience to close-read for over-determinations and discrepancies between the forms themselves and the language coalesced around them. Gaines describes the exhibition as a means to “sugges[t] that the critical environment surrounding the works of these artists intentionally and unintentionally limits those works, creating a theater of refusal that punishes the work of black artists by making it immune to history and by immunizing history against it.” Alas, we remain in dire need of a lexicon that seeks not to “[punish] the work of black artists” by way of critical silence or flatness but, rather, one that entangles such work and the wide horizon of being from which it springs (i.e. the longwash of history, our shared and singular inheritances). 
       <br/><br/>
-      Responding also to the continued seizure of access to materials that aid and abet critic’s capacity to tell the unflinching truth (see: book bans, the defunding of libraries…) and the related diminution of the scope of the sayable, we propose an enactment of cultural criticism that aspires to evade capture, constriction and censorship. With this context and Gaines&rsquo;s imperative to &quot;propose an alternative&quot; in mind, <i> Issue 003: The Theater of Refusal </i> will unfold out in the open through a series of free public programs in our anchor cities of Chicago and New York, as well as Detroit and Los Angeles—our midwestern and coastal kin, respectively. 
+      Responding also to the continued seizure of access to materials that aid and abet a critic&apos;s capacity to tell the unflinching truth (see: book bans, the defunding of libraries…) and the related diminution of the scope of the sayable, we propose an enactment of cultural criticism that aspires to evade capture, constriction, and censorship. With this context and Gaines&rsquo;s imperative to &quot;propose an alternative&quot; in mind, <i> Issue 003: The Theater of Refusal </i> will unfold out in the open through a series of free public programs in our anchor cities of Chicago and New York, as well as Detroit and Los Angeles—our midwestern and coastal kin, respectively. 
       <br/><br/>
-      Ultimately, this experi(mental/ential) issue seeks to provide a terrain on which we might rearticulate Gaines’s mood of skepticism around traditional criticism and vivify, in the now, the legacy of enacting cultural criticism beyond the page (think: the kitchen table / 135th and Lennox / Black Twitter / the cookout and church pews / the block, the bus stop, the barbershop...) such that we may improvise together toward refracted understandings of who we imagine as “critics,” what we denote as “criticism,” and in what locales we presume this work takes place.
+      Ultimately, this experi(mental/ential) issue seeks to provide a terrain on which we might rearticulate Gaines&apos;s mood of skepticism around traditional criticism and vivify, in the now, the legacy of enacting cultural criticism beyond the page (think: the kitchen table / 135th and Lennox / Black Twitter / the cookout and church pews / the block, the bus stop, the barbershop...) such that we may improvise together toward refracted understandings of who we imagine as “critics,” what we denote as “criticism,” and in what locales we presume this work takes place.
       </p>
     </div>
   )
