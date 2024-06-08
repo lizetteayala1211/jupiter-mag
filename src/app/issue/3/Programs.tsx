@@ -135,14 +135,13 @@ export function Programs() {
                             </div>
                             <br />
                             <div className="p-event-local-description">
-                                <p> <i> Black Entanglements </i> builds on Jupiter&apos;s inaugural film screening series <i> No One Is Going To Mythologize My Life </i> (After Kathleen Collins). Through <i> Black Entanglements, </i> we will consider the kaleidoscopic nature of Black intimacies by traversing the resuscitative valences of sisterhood (DRYLONGSO)&sbquo; the &quot;one night stand&quot; as its own sanctified experiment in affection (Medicine for Melancholy), queer desire as negotiated against the backdrop of a broader political matrix (Rafiki), and the enmeshment between self, spirit, and society (Atlantiques). Each screening will begin with an offering of lyrical responses and questions by Denny Mwaura for guests to consider as they watch.  </p>
-                                <br/> <br/>
-                                <p> Dates and the film being screened that day: </p>
+                                <p> <i> Black Entanglements </i> builds on Jupiter&apos;s inaugural film screening series <i> No One Is Going To Mythologize My Life </i> (after Kathleen Collins). Through <i> Black Entanglements, </i> we will consider the kaleidoscopic nature of Black intimacies by traversing the resuscitative valences of sisterhood (DRYLONGSO)&sbquo; the &quot;one night stand&quot; as its own sanctified experiment in affection (Medicine for Melancholy), queer desire as negotiated against the backdrop of a broader political matrix (Rafiki), and the enmeshment between self, spirit, and society (Atlantiques). Each screening will begin with an offering of lyrical responses and questions by Denny Mwaura for guests to consider as they watch.  </p>
+                                <br/>
                                 <p> — July 14: DRYLONGSO by Cauleen Smith </p>
                                 <p> — July 28: Medicine for Melancholy by Barry Jenkins </p>
                                 <p> — August 18: Rafiki by Wanuri Kahiu </p>
                                 <p> — August 25: Atlantiques by Mati Diop </p>
-                                <br />
+                                <br/>
                                 <a href="" target="_blank" className="rsvp"> RSVP COMING SOON </a>
                             </div>
                         </div>
