@@ -14,45 +14,12 @@ export function Programs() {
                 <div className="p-container">
                     <h3 className="p-h3"> UPCOMING PROGRAMMING </h3>
                     <div className="p-content">
-                        {/* <div className="p-event">
-                            <div className="p-event-date-info">
-                                <p> 06.08.2024 | 3pm-6pm </p>
-                            </div>
-                            <div className="p-event-title">
-                                <h4>  Embodied Poetics: A Movement & Writing Workshop </h4>
-                            </div>
-                            <div className="p-event-local-info">
-                                <p> <a href="https://adanne.co/" target="_blank" className="internal"> ADANNE BOOKSHOP</a> — 115 Ralph Ave, Brooklyn, NY 11221 </p>
-                            </div>
-                            <br />
-                            <div className="p-event-local-description">
-                                <p> Join us for <i> Embodied Poetics: </i> a two-part program organized in collaboration with Aimee Meredith Cox and Yusuf Hassan (BlackMass Publishing).
-                                </p>
-                                <br />
-                                <p> In its purest forms, art draws one nearer to the deep corners of the self. Through each encounter with an art object—visual, sonic, performance, and beyond—we&apos;re beckoned toward a journey of self-discovery. We&apos;re granted permission to dive into the abyss of what it means to make new meaning. When we peer into a work, truths about our reality and the world around us are often revealed and reflected back to us with immense clarity.
-                                </p>
-                                <br />
-                                <p> <i> Embodied Poetics </i> invites guests to practice the revelatory form of self-portraiture by way of language and ekphrastic interpretation. In her poem, <i>the message from &quot;The Ones,&quot; </i> visionary poet and writer Lucille Clifton reminds us: &quot;pay attention to / what sits inside yourself / and watches you.&quot; Guided by Clifton&apos;s prescient words and several additional prompts, guests will develop either a single textual offering, or a collection of several, to take with them following the workshop. Binding methods will be available should guests wish to compile their texts into a zine or booklet, with support from Yusuf.
-                                </p>
-                                <br />
-                                <p> The workshop will commence with a forty-five minute Embodied Poetics yoga session led by anthropologist, writer, and movement artist <a href="https://as.nyu.edu/faculty/aimee-cox.html" target="_blank" className="internal"> Aimee Meredith Cox </a> , such that guests may approach the page feeling acutely attuned to their somatic reality. With this in mind, be sure to dress in something that you&apos;ll be comfortable moving in.
-                                </p>
-                                <br />
-                                <p> What to bring:  <br />
-                                    — Image or memory of an artwork  <br />
-                                    — A favorite writing utensil  <br />
-                                    — Yoga mat
-                                </p>
-                                <br />
-                                <a href="https://www.eventbrite.com/e/embodied-poetics-a-movement-and-writing-workshop-tickets-918030352497" target="_blank" className="rsvp"> RSVP HERE </a>
-                            </div>
-                        </div> */}
                         <div className="p-event">
                             <div className="p-event-date-info">
                                 <p> 06.20.2024 | 6pm-9pm </p>
                             </div>
                             <div className="p-event-title">
-                                <h4> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal
+                                <h4 className="darker-grotesque"> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal
                                 </h4>
                             </div>
                             <div className="p-event-local-info">
@@ -76,8 +43,8 @@ export function Programs() {
                                 <p> 07.06.2024 | 11am-2pm & 6pm-12am </p>
                             </div>
                             <div className="p-event-title">
-                                <h4> Precious </h4>
-                                <h4> About Print </h4>
+                                <h4 className="darker-grotesque"> Precious </h4>
+                                <h4 className="darker-grotesque"> About Print </h4>
                             </div>
                             <div className="p-event-local-info">
                                 <p> Black Art Library at <a href="https://lscgallery.com/the-shepherd" target="_blank" className="internal"> THE SHEPHERD</a> — 1265 Parkview St, Detroit, MI 48214 & <a href="https://periodicals.store/" target="_blank" className="internal"> PERIODICALS</a> — 4892 Grand River Ave, Detroit, MI 48208
@@ -105,8 +72,8 @@ export function Programs() {
                                 <p> 07.09.2024 | 6pm-9pm </p>
                             </div>
                             <div className="p-event-title">
-                                <h4> Apophenia: </h4>
-                                <h4> Anatomy of a Prayer </h4>
+                                <h4 className="darker-grotesque"> Apophenia: </h4>
+                                <h4 className="darker-grotesque"> Anatomy of a Prayer </h4>
                             </div>
                             <div className="p-event-local-info">
                                 <p> <a href="https://artsandpubliclife.org/" target="_blank" className="internal"> ARTS + PUBLIC LIFE </a> — 301 E Garfield Blvd, Chicago, IL 60637 </p>
@@ -127,7 +94,7 @@ export function Programs() {
                                 <p> 07.14.2024 - 08.25.2024  </p>
                             </div>
                             <div className="p-event-title">
-                                <h4> Black Entanglements </h4>
+                                <h4 className="darker-grotesque"> Black Entanglements </h4>
                             </div>
                             <div className="p-event-local-info">
                                 <p> <a href="https://blancchicago.com/" target="_blank" className="internal"> Blanc Gallery </a> — 4445 S Martin Luther King Dr, Chicago, IL 60653
@@ -153,7 +120,7 @@ export function Programs() {
                                 <p> 06.08.2024 | 3pm-6pm </p>
                             </div>
                             <div className="p-event-title">
-                                <h4>  Embodied Poetics: A Movement & Writing Workshop </h4>
+                                <h4 className="darker-grotesque">  Embodied Poetics: A Movement & Writing Workshop </h4>
                             </div>
                             <div className="p-event-local-info">
                                 <p> <a href="https://adanne.co/" target="_blank" className="internal"> ADANNE BOOKSHOP</a> — 115 Ralph Ave, Brooklyn, NY 11221 </p>
