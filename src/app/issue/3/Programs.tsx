@@ -12,18 +12,18 @@ export function Programs() {
         >
             <section className="programs">
                 <div className="p-container">
-                    <h3 className="p-h3"> UPCOMING PROGRAMMING </h3>
+                    <h3 className="p-h3 darker-grotesque"> UPCOMING PROGRAMMING </h3>
                     <div className="p-content">
                         <div className="p-event">
                             <div className="p-event-date-info">
-                                <p> 06.20.2024 | 6pm-9pm </p>
+                                <p className="darker-grotesque"> 06.20.2024 | 6pm-9pm </p>
                             </div>
                             <div className="p-event-title">
                                 <h4 className="darker-grotesque"> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal
                                 </h4>
                             </div>
                             <div className="p-event-local-info">
-                                <p> <a href="https://rep.club/" target="_blank" className="internal"> REPARATIONS CLUB</a> — 3054 S Victoria Ave, Los Angeles, CA 90016
+                                <p className="darker-grotesque"> <a href="https://rep.club/" target="_blank" className="internal"> REPARATIONS CLUB</a> — 3054 S Victoria Ave, Los Angeles, CA 90016
                                 </p>
                             </div>
                             <br />
@@ -40,14 +40,14 @@ export function Programs() {
                         </div>
                         <div className="p-event">
                             <div className="p-event-date-info">
-                                <p> 07.06.2024 | 11am-2pm & 6pm-12am </p>
+                                <p className="darker-grotesque"> 07.06.2024 | 11am-2pm & 6pm-12am </p>
                             </div>
                             <div className="p-event-title">
                                 <h4 className="darker-grotesque"> Precious </h4>
                                 <h4 className="darker-grotesque"> About Print </h4>
                             </div>
                             <div className="p-event-local-info">
-                                <p> Black Art Library at <a href="https://lscgallery.com/the-shepherd" target="_blank" className="internal"> THE SHEPHERD</a> — 1265 Parkview St, Detroit, MI 48214 & <a href="https://periodicals.store/" target="_blank" className="internal"> PERIODICALS</a> — 4892 Grand River Ave, Detroit, MI 48208
+                                <p className="darker-grotesque"> Black Art Library at <a href="https://lscgallery.com/the-shepherd" target="_blank" className="internal"> THE SHEPHERD</a> — 1265 Parkview St, Detroit, MI 48214 & <a href="https://periodicals.store/" target="_blank" className="internal"> PERIODICALS</a> — 4892 Grand River Ave, Detroit, MI 48208
                                 </p>
                             </div>
                             <br />
@@ -69,14 +69,14 @@ export function Programs() {
                         </div>
                         <div className="p-event">
                             <div className="p-event-date-info">
-                                <p> 07.09.2024 | 6pm-9pm </p>
+                                <p className="darker-grotesque"> 07.09.2024 | 6pm-9pm </p>
                             </div>
                             <div className="p-event-title">
                                 <h4 className="darker-grotesque"> Apophenia: </h4>
                                 <h4 className="darker-grotesque"> Anatomy of a Prayer </h4>
                             </div>
                             <div className="p-event-local-info">
-                                <p> <a href="https://artsandpubliclife.org/" target="_blank" className="internal"> ARTS + PUBLIC LIFE </a> — 301 E Garfield Blvd, Chicago, IL 60637 </p>
+                                <p className="darker-grotesque"> <a href="https://artsandpubliclife.org/" target="_blank" className="internal"> ARTS + PUBLIC LIFE </a> — 301 E Garfield Blvd, Chicago, IL 60637 </p>
                             </div>
                             <br />
                             <div className="p-event-local-description">
@@ -91,13 +91,13 @@ export function Programs() {
                         </div>
                         <div className="p-event">
                             <div className="p-event-date-info">
-                                <p> 07.14.2024 - 08.25.2024  </p>
+                                <p className="darker-grotesque"> 07.14.2024 - 08.25.2024  </p>
                             </div>
                             <div className="p-event-title">
                                 <h4 className="darker-grotesque"> Black Entanglements </h4>
                             </div>
                             <div className="p-event-local-info">
-                                <p> <a href="https://blancchicago.com/" target="_blank" className="internal"> Blanc Gallery </a> — 4445 S Martin Luther King Dr, Chicago, IL 60653
+                                <p className="darker-grotesque"> <a href="https://blancchicago.com/" target="_blank" className="internal"> Blanc Gallery </a> — 4445 S Martin Luther King Dr, Chicago, IL 60653
                                 </p>
                             </div>
                             <br />
@@ -113,17 +113,17 @@ export function Programs() {
                             </div>
                         </div>
                     </div>
-                    <h3 className="p-h3 past"> PAST PROGRAMMING </h3>
+                    <h3 className="p-h3 past darker-grotesque"> PAST PROGRAMMING </h3>
                     <div className="p-content">
                         <div className="p-event">
                             <div className="p-event-date-info">
-                                <p> 06.08.2024 | 3pm-6pm </p>
+                                <p className="darker-grotesque"> 06.08.2024 | 3pm-6pm </p>
                             </div>
                             <div className="p-event-title">
                                 <h4 className="darker-grotesque">  Embodied Poetics: A Movement & Writing Workshop </h4>
                             </div>
                             <div className="p-event-local-info">
-                                <p> <a href="https://adanne.co/" target="_blank" className="internal"> ADANNE BOOKSHOP</a> — 115 Ralph Ave, Brooklyn, NY 11221 </p>
+                                <p className="darker-grotesque"> <a href="https://adanne.co/" target="_blank" className="internal"> ADANNE BOOKSHOP</a> — 115 Ralph Ave, Brooklyn, NY 11221 </p>
                             </div>
                             <br />
                             <div className="p-event-local-description">
@@ -144,7 +144,6 @@ export function Programs() {
                                     — A favorite writing utensil  <br />
                                     — Yoga mat
                                 </p>
-                                <br />
                                 {/* <a href="https://www.eventbrite.com/e/embodied-poetics-a-movement-and-writing-workshop-tickets-918030352497" target="_blank" className="rsvp"> RSVP HERE </a> */}
                             </div>
                         </div>
