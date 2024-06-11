@@ -330,7 +330,7 @@ export const ColophonContainer = styled.div`
 
 export const ColophonColumn = styled.div<{ $first?: string }>`
   font-family: Alverata Light;
-  color: var(--color-off-white);
+  color: var(--color-white);
   ${(props) =>
     props.$first === "true"
       ? `

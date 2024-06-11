@@ -95,7 +95,7 @@ a.rsvp {
   
   h4 {
     font-size: 26px;
-    font-weight: 600 !important;
+    /* font-weight: 600 !important; */
     font-size: 24px;
   }
   
@@ -709,6 +709,13 @@ body > main > section.colophon > div.c-container > div > div > p {
     }
 
     .p-h3 { 
+        font-size: 56px;
+        line-height: 64px;
+        /* font-family: "Alverata Light"; */
+    }
+
+    .p-h3.past { 
+        padding-top: 75px;
         font-size: 56px;
         line-height: 64px;
         /* font-family: "Alverata Light"; */

@@ -18,7 +18,7 @@ export function Colophon() {
           <p> Published by: Jupiter Magazine </p>
           <MediumGuy />
           <p> Publication Year: 2024 </p>
-          <p> Editors in Chief: Camille Bacon and Daria Harper </p>
+          <p> Editors in Chief: Camille Bacon and Daria Simone Harper </p>
           <p> Editorial Assistant: Niara Hightower </p>
           <MediumGuy />
           <p> Design Team: Sebastien Pierre and Lizette Ayala </p>

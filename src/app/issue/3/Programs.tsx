@@ -146,7 +146,7 @@ export function Programs() {
                             </div>
                         </div>
                     </div>
-                    <h3 className="p-h3"> PAST PROGRAMMING </h3>
+                    <h3 className="p-h3 past"> PAST PROGRAMMING </h3>
                     <div className="p-content">
                         <div className="p-event">
                             <div className="p-event-date-info">
@@ -178,7 +178,7 @@ export function Programs() {
                                     — Yoga mat
                                 </p>
                                 <br />
-                                <a href="https://www.eventbrite.com/e/embodied-poetics-a-movement-and-writing-workshop-tickets-918030352497" target="_blank" className="rsvp"> RSVP HERE </a>
+                                {/* <a href="https://www.eventbrite.com/e/embodied-poetics-a-movement-and-writing-workshop-tickets-918030352497" target="_blank" className="rsvp"> RSVP HERE </a> */}
                             </div>
                         </div>
                     </div>
