@@ -1,5 +1,6 @@
 "use client"
 
+import { usePathname } from 'next/navigation'
 import React, { ReactNode } from "react"
 import {
   BaseContainer,
@@ -22,6 +23,8 @@ type Props = { children: ReactNode; homePage?: boolean }
 export function Base({ children, homePage }: Props) {
   const currentPage = useCurrentPage()
   const { isMobile } = useBreakpoints()
+  
+  const url = usePathname()
 
   const [showMobileMenu, setShowMobileMenu] = React.useState(false)
 
@@ -48,7 +51,12 @@ export function Base({ children, homePage }: Props) {
           {isMobile ? (
             // todo: this menu button needs to be redesigned? maybe gotten rid of ? lol
             <div
-              style={{
+              style={url === '/contact' ? {
+                position: "absolute",
+                right: 8,
+                top: 20,
+                zIndex: 1,
+              } : {
                 position: "absolute",
                 right: 8,
                 top: 248,

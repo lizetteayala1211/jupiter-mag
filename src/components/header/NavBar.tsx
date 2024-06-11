@@ -10,6 +10,8 @@ export function NavBar({ dynamic }: { dynamic?: boolean }) {
   return (
     <>
       <NavBarItem dynamic={dynamic || false} page="magazine" />
+      <NavBarItem dynamic={dynamic || false} page="issue 1" />
+      <NavBarItem dynamic={dynamic || false} page="issue 2" />
       <NavBarItem dynamic={dynamic || false} page="about" />
       <NavBarItem
         dynamic={dynamic || false}
@@ -40,6 +42,8 @@ function NavBarItem({
 
   const handleUrl = () => {
     if (page === "magazine") return "/"
+    if (page === "issue 1") return "/issue/1"
+    if (page === "issue 2") return "/issue/2"
     return url ? url : `/${page}`
   }
 

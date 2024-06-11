@@ -1,4 +1,4 @@
-export type Pages = "home" | "about" | "donate" | "contact" | "magazine"
+export type Pages = "home" | "about" | "donate" | "contact" | "magazine" | "issue 1" | "issue 2"
 
 export type ContactRequest = {
   from_name: string
