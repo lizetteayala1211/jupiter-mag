@@ -726,6 +726,11 @@ body > main > section.colophon > div.c-container > div > div > p {
         /* font-family: "Alverata Light"; */
     }
 
+    .p-h3.past.darker-grotesque {
+        font-family: "Darker Grotesque", sans-serif;
+        font-family: var(--font-darker-grotesque);
+      }
+
     body > main > section.navigation > ul {
         display: none;
     }
