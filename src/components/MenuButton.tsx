@@ -17,14 +17,14 @@ export function MenuButton() {
         fill={
           issue === 1
             ? "var(--color-article-purple-accent)"
-            : "var(--color-dark-green)"
+            : "var(--color-white)"
         }
         stroke={
           issue === 1
             ? "var(--color-article-purple-accent)"
-            : "var(--color-dark-green)"
+            : "var(--color-white)"
         }
-        strokeWidth="2"
+        strokeWidth="1"
       />
     </svg>
   )
