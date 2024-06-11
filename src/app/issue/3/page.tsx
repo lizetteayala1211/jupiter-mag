@@ -35,7 +35,7 @@ export default function Page() {
       <Main color="black">
         <LottieSection>
           <div className="video-container">
-            <video width="560" height="315" src="./videos/Jupiter_video_off_white_1920x1080.mp4" muted playsInline loop autoPlay></video>
+            <video width="560" height="315" src="./videos/Jupiter_video_off_white_1920x1080.mp4" muted playsInline loop={true} data-autoplay="" autoPlay={true} ></video>
           </div>
         </LottieSection>
         <LogoSection>
