@@ -717,6 +717,7 @@ body > main > section.colophon > div.c-container > div > div > p {
         font-size: 56px;
         line-height: 64px;
         font-family: var(--font-darker-grotesque);
+        font-weight: 500;
     }
 
     .p-h3.past { 
