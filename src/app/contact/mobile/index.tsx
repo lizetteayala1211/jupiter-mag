@@ -5,26 +5,26 @@ export default function Mobile() {
     <div
       style={{
         display: "flex",
-        margin: "24px",
+        margin: "48px 24px",
         flexDirection: "column",
         gap: "2em",
         lineHeight: "25px",
       }}
     >
       <div>
-        <h1 style={{ fontFamily: "Alverata Light" }}>Daria Harper</h1>
+        <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Daria Harper</h1>
         <h2>Founder</h2>
       </div>
       <div>
-        <h1 style={{ fontFamily: "Alverata Light" }}>Camille Bacon </h1>
+        <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Camille Bacon </h1>
         <h2>Founder</h2>
       </div>
       <div>
-        <h1 style={{ fontFamily: "Alverata Light" }}>Email</h1>
+        <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Email</h1>
         <h2>info@jupiter-mag.com</h2>
       </div>
       <div>
-        <h1 style={{ fontFamily: "Alverata Light" }}>Instagram</h1>
+        <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Instagram</h1>
         <h2>@jupiter.magazine</h2>
       </div>
 

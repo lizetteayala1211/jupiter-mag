@@ -21,6 +21,7 @@ export const StreamContainer = styled.div`
 `
 
 export const CaptionContainer = styled.p`
+  padding-top: 20px;
   font-size: 16px;
 
   @media only screen and (min-width: ${screenXsMin}) {

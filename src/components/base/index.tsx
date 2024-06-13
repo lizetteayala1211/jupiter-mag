@@ -89,7 +89,7 @@ function BackgroundStyles() {
         width: "100%",
         height: "100%",
         overflow: "hidden",
-        borderLeft: isMobile ? `12px solid var(--color-article-purple)` : "0",
+        // borderLeft: isMobile ? `12px solid var(--color-article-purple)` : "0",
       }}
     >
       <Gradient />
