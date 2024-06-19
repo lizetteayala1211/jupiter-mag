@@ -13,19 +13,19 @@ export default function Mobile() {
     >
       <div>
         <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Daria Harper</h1>
-        <h2>Founder</h2>
+        <h2 style={{ fontSize: "24px" }}>Founder</h2>
       </div>
       <div>
         <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Camille Bacon </h1>
-        <h2>Founder</h2>
+        <h2 style={{ fontSize: "24px" }}>Founder</h2>
       </div>
       <div>
         <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Email</h1>
-        <h2>info@jupiter-mag.com</h2>
+        <h2 style={{ fontSize: "24px" }}>info@jupiter-mag.com</h2>
       </div>
       <div>
         <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Instagram</h1>
-        <h2>@jupiter.magazine</h2>
+        <h2 style={{ fontSize: "24px" }}>@jupiter.magazine</h2>
       </div>
 
       <p style={{ maxWidth: "300px" }}>

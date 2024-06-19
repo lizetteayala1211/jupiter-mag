@@ -86,7 +86,7 @@ export function Programs() {
                                 <p> &quot;What is a prayer, but a question without structure? What is a poem but pre-incarnation punctuation, your own hand&apos;s hire for an answer? From such gospels as Amiri Baraka, Toni Cade Bambara, and Alexis Pauline Gumbs, we are shown that our own texts can and have become just as holy, when regarded as such. &apos;apophenia: anatomy of a prayer&apos; is an intertextual somatic meditation which encourages connection with that which follows you and gently asks those things to take the lead. Through a series of close readings of related material (from aforementioned poets), we will make space for the grand feeling bubbling within us, bear witness, and tend to it as a way of offering reverence to that which is already with us. All of this in hopes that our own words will return to us in a time of need. The writing workshop does not ask about that which you would like to write, but that which would like to be written about by you. Explore with us the anatomy of prayer, incantation, “speaking over oneself,” and the power of this magic in Black people and their poetry.&quot; </p> <br />
                                  <i> — Victor Musoni and Ireon Roach </i>
                                 <br />
-                                <a href="" target="_blank" className="rsvp"> RSVP COMING SOON </a>
+                                <a href="https://artsandpubliclife.org/apl-events-calendar/apophenia-anatomy-of-a-prayer" target="_blank" className="rsvp"> RSVP HERE </a>
                             </div>
                         </div>
                         <div className="p-event">
