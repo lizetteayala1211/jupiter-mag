@@ -16,30 +16,6 @@ export function Programs() {
                     <div className="p-content">
                         <div className="p-event">
                             <div className="p-event-date-info">
-                                <p className="darker-grotesque"> 06.20.2024 | 6pm-9pm </p>
-                            </div>
-                            <div className="p-event-title">
-                                <h4 className="darker-grotesque"> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal
-                                </h4>
-                            </div>
-                            <div className="p-event-local-info">
-                                <p className="darker-grotesque"> <a href="https://rep.club/" target="_blank" className="internal"> REPARATIONS CLUB</a> — 3054 S Victoria Ave, Los Angeles, CA 90016
-                                </p>
-                            </div>
-                            <br />
-                            <div className="p-event-local-description">
-                                <p> Join us on June 20, 2024 for <i> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal: </i> a conversation between Jupiter co-founders Camille Bacon and Daria Simone Harper, moderated by curator-writer Taylor Renee Aldridge.     
-                                </p>
-                                <br />
-                                <p> The dialogue will orbit around the art historical referent for Issue 003&apos;s conceptual framing (Charles Gaines&apos;s 1993 exhibition <i> The Theater of Refusal, </i> from which this issue borrows its title), the risk and ecstasy of transgressing traditional forms of cultural criticism like the “essay” or “review,” and strategies Camille, Daria, and Taylor use to attend to culturally specific histories, lineages, and aesthetic movements, while simultaneously refusing to be pigeonholed.  </p>
-                                <br />
-                                <p> Ignited by Gaines&apos;s remark that “marginalization is a sword with two edges: as we use it to attack racism, we wound our villain with each downstroke, but each time we raise the sword for another blow, we wound ourselves,” they will also explore their shared skepticism around the inheritance of language and practices that revolve around “representation” and consider how it aids and abets the <i> performance and spectacle </i> rather than the <i> enactment </i> of “progress.” </p>
-                                <br />
-                                <a href="https://www.eventbrite.com/e/a-sword-with-two-edges-on-the-theater-of-refusal-tickets-919728421467" target="_blank" className="rsvp"> RSVP HERE </a>
-                            </div>
-                        </div>
-                        <div className="p-event">
-                            <div className="p-event-date-info">
                                 <p className="darker-grotesque"> 07.06.2024 | 11am-2pm & 6pm-12am </p>
                             </div>
                             <div className="p-event-title">
@@ -62,6 +38,9 @@ export function Programs() {
                                 </p>
                                 <br />
                                 <p> Following the tour, we will convene at the Charles McGee <i> Legacy Park </i> (located at The Shepherd as well) where Camille, Daria, Asmaa, Aleiya, and André will muse about the entanglement between spending time with print media and the enactment of tenderness, the history and contemporary state of Black publishing in the Midwest, and their own personal affinities for touching that which they are learning with, from, and alongside. This portion of the program is BYOB (bring your own blanket) as we will be seated on the lawn amongst sculptures. Accessible seating will be available as well.
+                                </p>
+                                <br />
+                                <p> In the evening, we will gather on the West Side at Periodicals “where guests can explore a curated selection of independent print media from the personal collections of Jupiter Magazine, Aleiya, Asmaa, and André. Designed as a public gathering space, this reading room is dedicated to archival media that has helped shape this exciting moment in print.” To close the loop, we welcome guests to stay and dance to sets by KESSWA, Zoe Talley, SABETYE, and Kem Kem. 
                                 </p>
                                 <br />
                                 <a href="https://www.eventbrite.com/e/precious-about-print-tickets-919705994387?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" className="rsvp"> RSVP HERE </a>
@@ -145,6 +124,29 @@ export function Programs() {
                                     — Yoga mat
                                 </p>
                                 {/* <a href="https://www.eventbrite.com/e/embodied-poetics-a-movement-and-writing-workshop-tickets-918030352497" target="_blank" className="rsvp"> RSVP HERE </a> */}
+                            </div>
+                        </div>
+                        <div className="p-event">
+                            <div className="p-event-date-info">
+                                <p className="darker-grotesque"> 06.20.2024 | 6pm-9pm </p>
+                            </div>
+                            <div className="p-event-title">
+                                <h4 className="darker-grotesque"> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal
+                                </h4>
+                            </div>
+                            <div className="p-event-local-info">
+                                <p className="darker-grotesque"> <a href="https://rep.club/" target="_blank" className="internal"> REPARATIONS CLUB</a> — 3054 S Victoria Ave, Los Angeles, CA 90016
+                                </p>
+                            </div>
+                            <br />
+                            <div className="p-event-local-description">
+                                <p> Join us on June 20, 2024 for <i> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal: </i> a conversation between Jupiter co-founders Camille Bacon and Daria Simone Harper, moderated by curator-writer Taylor Renee Aldridge.     
+                                </p>
+                                <br />
+                                <p> The dialogue will orbit around the art historical referent for Issue 003&apos;s conceptual framing (Charles Gaines&apos;s 1993 exhibition <i> The Theater of Refusal, </i> from which this issue borrows its title), the risk and ecstasy of transgressing traditional forms of cultural criticism like the “essay” or “review,” and strategies Camille, Daria, and Taylor use to attend to culturally specific histories, lineages, and aesthetic movements, while simultaneously refusing to be pigeonholed.  </p>
+                                <br />
+                                <p> Ignited by Gaines&apos;s remark that “marginalization is a sword with two edges: as we use it to attack racism, we wound our villain with each downstroke, but each time we raise the sword for another blow, we wound ourselves,” they will also explore their shared skepticism around the inheritance of language and practices that revolve around “representation” and consider how it aids and abets the <i> performance and spectacle </i> rather than the <i> enactment </i> of “progress.” </p>
+                                <br />
                             </div>
                         </div>
                     </div>
