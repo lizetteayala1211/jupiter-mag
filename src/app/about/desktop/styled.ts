@@ -19,5 +19,7 @@ export const VideoSection = styled.section`
   grid-area: video;
   height: auto;
   width: 100%;
+  position: relative;
+  top: -80px;
   margin-bottom: 128px;
 `

@@ -28,10 +28,11 @@ export function Colophon() {
 
         <ColophonColumn>
           <p> Collaborators: </p>
-          <p> Aimee Meredith Cox, BlackMass Publishing & Adanne Bookshop — Brooklyn NY </p>
-          <p> Taylor Renee Aldridge & Reparations Club — Los Angeles, CA </p>
-          <p> Asmaa Walton (Black Art Library), Aleiya Lindsay-Olu (Periodicals), André Moore (Aa Publishing), Kesswa, Sabetye, Zoe Talley, and The Shepherd  </p>
-          <p> Ireon Roach, Victor Musoni, Arts + Public Life, and Parkway Pictures, Chicago, IL  </p>
+          <MediumGuy />
+          <p> New York: Aimee Meredith Cox, BlackMass Publishing & Adanne Bookshop </p>
+          <p> Los Angeles: Taylor Renee Aldridge & Reparations Club </p>
+          <p> Detroit: Asmaa Walton (Black Art Library), Aleiya Lindsay-Olu (Periodicals), André Moore (Aa Publishing), KESSWA, Zoe Talley, SABYTE & Kem Kem </p>
+          <p> Chicago: Ireon Roach, Victor Musoni, Denny Mwaura, Arts + Public Life, Black Film Club Chi, Blanc Gallery & Parkway Pictures </p>
           <MediumGuy />
           <p> Acknowledgments: </p>
           <p> We extend the utmost gratitude to those who have vivified the expansive spirit of Jupiter’s third orbit… </p>
