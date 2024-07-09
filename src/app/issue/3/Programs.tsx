@@ -16,38 +16,6 @@ export function Programs() {
                     <div className="p-content">
                         <div className="p-event">
                             <div className="p-event-date-info">
-                                <p className="darker-grotesque"> 07.06.2024 | 11am-2pm & 6pm-12am </p>
-                            </div>
-                            <div className="p-event-title">
-                                <h4 className="darker-grotesque"> Precious </h4>
-                                <h4 className="darker-grotesque"> About Print </h4>
-                            </div>
-                            <div className="p-event-local-info">
-                                <p className="darker-grotesque"> Black Art Library at <a href="https://lscgallery.com/the-shepherd" target="_blank" className="internal"> THE SHEPHERD</a> — 1265 Parkview St, Detroit, MI 48214 & <a href="https://periodicals.store/" target="_blank" className="internal"> PERIODICALS</a> — 4892 Grand River Ave, Detroit, MI 48208
-                                </p>
-                            </div>
-                            <br />
-                            <div className="p-event-local-description">
-                                <p> Organized in response to an enduring curiosity around the roots and resonances of our attachment to print media, its capacity to reshape imaginaries and material realities alike, and our anxiety around ongoing attempts to jeopardize our access to the physical written word (see: book bans, the defunding of libraries…), we invite you to join on July 6, 2024 for <i> Precious About Print: </i> a two-part program organized by Camille Bacon and Daria Simone Harper (Jupiter) in collaboration with Detroit-based print loyalists Asmaa Walton (Black Art Library), Aleiya Olu (Periodicals), and Aa Print & Publishing (André Moore).
-                                </p>
-                                <br />
-                                <p> Rooted in Audre Lorde&apos;s provocation: “we have to consciously study how to be tender with each other until it becomes a habit,” <i> Precious About Print </i> seeks to illuminate, revere, and between engaging with print media (ex. books, zines, newspapers, pamphlets, and magazines) and the habituation of tenderness.
-                                </p>
-                                <br />
-                                <p> We will begin on the East Side at The Shepherd, where a selection of texts culled from Black Art Library&apos;s collection are housed. Asmaa will guide us on a retelling of the library&apos;s origin story, her curatorial ethos, and her “interest in preserving history by preserving art publications,” after which we&apos;ll spend time with the texts on-site which “detail many art styles as well as movements, how-to books on art techniques, books on architecture, art magazines, and so much more” and “relate to artists that are from Michigan or are connected in some way.”
-                                </p>
-                                <br />
-                                <p> Following the tour, we will convene at the Charles McGee <i> Legacy Park </i> (located at The Shepherd as well) where Camille, Daria, Asmaa, Aleiya, and André will muse about the entanglement between spending time with print media and the enactment of tenderness, the history and contemporary state of Black publishing in the Midwest, and their own personal affinities for touching that which they are learning with, from, and alongside. This portion of the program is BYOB (bring your own blanket) as we will be seated on the lawn amongst sculptures. Accessible seating will be available as well.
-                                </p>
-                                <br />
-                                <p> In the evening, we will gather on the West Side at Periodicals “where guests can explore a curated selection of independent print media from the personal collections of Jupiter Magazine, Aleiya, Asmaa, and André. Designed as a public gathering space, this reading room is dedicated to archival media that has helped shape this exciting moment in print.” To close the loop, we welcome guests to stay and dance to sets by KESSWA, Zoe Talley, SABETYE, and Kem Kem. 
-                                </p>
-                                <br />
-                                <a href="https://www.eventbrite.com/e/precious-about-print-tickets-919705994387?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" className="rsvp"> RSVP HERE </a>
-                            </div>
-                        </div>
-                        <div className="p-event">
-                            <div className="p-event-date-info">
                                 <p className="darker-grotesque"> 07.09.2024 | 6pm-9pm </p>
                             </div>
                             <div className="p-event-title">
@@ -85,10 +53,10 @@ export function Programs() {
                                 <br/>
                                 <p> — July 14: DRYLONGSO by Cauleen Smith </p>
                                 <p> — July 28: Medicine for Melancholy by Barry Jenkins </p>
-                                <p> — August 18: Rafiki by Wanuri Kahiu </p>
+                                <p> — August 11: Rafiki by Wanuri Kahiu </p>
                                 <p> — August 25: Atlantiques by Mati Diop </p>
                                 <br/>
-                                <a href="" target="_blank" className="rsvp"> RSVP COMING SOON </a>
+                                <a href="https://www.eventbrite.com/e/black-entanglements-tickets-926226166397" target="_blank" className="rsvp"> RSVP HERE </a>
                             </div>
                         </div>
                     </div>
@@ -147,6 +115,38 @@ export function Programs() {
                                 <br />
                                 <p> Ignited by Gaines&apos;s remark that “marginalization is a sword with two edges: as we use it to attack racism, we wound our villain with each downstroke, but each time we raise the sword for another blow, we wound ourselves,” they will also explore their shared skepticism around the inheritance of language and practices that revolve around “representation” and consider how it aids and abets the <i> performance and spectacle </i> rather than the <i> enactment </i> of “progress.” </p>
                                 <br />
+                            </div>
+                        </div>
+                        <div className="p-event">
+                            <div className="p-event-date-info">
+                                <p className="darker-grotesque"> 07.06.2024 | 11am-2pm & 6pm-12am </p>
+                            </div>
+                            <div className="p-event-title">
+                                <h4 className="darker-grotesque"> Precious </h4>
+                                <h4 className="darker-grotesque"> About Print </h4>
+                            </div>
+                            <div className="p-event-local-info">
+                                <p className="darker-grotesque"> Black Art Library at <a href="https://lscgallery.com/the-shepherd" target="_blank" className="internal"> THE SHEPHERD</a> — 1265 Parkview St, Detroit, MI 48214 & <a href="https://periodicals.store/" target="_blank" className="internal"> PERIODICALS</a> — 4892 Grand River Ave, Detroit, MI 48208
+                                </p>
+                            </div>
+                            <br />
+                            <div className="p-event-local-description">
+                                <p> Organized in response to an enduring curiosity around the roots and resonances of our attachment to print media, its capacity to reshape imaginaries and material realities alike, and our anxiety around ongoing attempts to jeopardize our access to the physical written word (see: book bans, the defunding of libraries…), we invite you to join on July 6, 2024 for <i> Precious About Print: </i> a two-part program organized by Camille Bacon and Daria Simone Harper (Jupiter) in collaboration with Detroit-based print loyalists Asmaa Walton (Black Art Library), Aleiya Olu (Periodicals), and Aa Print & Publishing (André Moore).
+                                </p>
+                                <br />
+                                <p> Rooted in Audre Lorde&apos;s provocation: “we have to consciously study how to be tender with each other until it becomes a habit,” <i> Precious About Print </i> seeks to illuminate, revere, and between engaging with print media (ex. books, zines, newspapers, pamphlets, and magazines) and the habituation of tenderness.
+                                </p>
+                                <br />
+                                <p> We will begin on the East Side at The Shepherd, where a selection of texts culled from Black Art Library&apos;s collection are housed. Asmaa will guide us on a retelling of the library&apos;s origin story, her curatorial ethos, and her “interest in preserving history by preserving art publications,” after which we&apos;ll spend time with the texts on-site which “detail many art styles as well as movements, how-to books on art techniques, books on architecture, art magazines, and so much more” and “relate to artists that are from Michigan or are connected in some way.”
+                                </p>
+                                <br />
+                                <p> Following the tour, we will convene at the Charles McGee <i> Legacy Park </i> (located at The Shepherd as well) where Camille, Daria, Asmaa, Aleiya, and André will muse about the entanglement between spending time with print media and the enactment of tenderness, the history and contemporary state of Black publishing in the Midwest, and their own personal affinities for touching that which they are learning with, from, and alongside. This portion of the program is BYOB (bring your own blanket) as we will be seated on the lawn amongst sculptures. Accessible seating will be available as well.
+                                </p>
+                                <br />
+                                <p> In the evening, we will gather on the West Side at Periodicals “where guests can explore a curated selection of independent print media from the personal collections of Jupiter Magazine, Aleiya, Asmaa, and André. Designed as a public gathering space, this reading room is dedicated to archival media that has helped shape this exciting moment in print.” To close the loop, we welcome guests to stay and dance to sets by KESSWA, Zoe Talley, SABETYE, and Kem Kem. 
+                                </p>
+                                <br />
+                                {/* <a href="https://www.eventbrite.com/e/precious-about-print-tickets-919705994387?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" className="rsvp"> RSVP HERE </a> */}
                             </div>
                         </div>
                     </div>
