@@ -49,12 +49,20 @@ export function Programs() {
                             </div>
                             <br />
                             <div className="p-event-local-description">
-                                <p> <i> Black Entanglements </i> builds on Jupiter&apos;s inaugural film screening series <i> No One Is Going To Mythologize My Life </i> (after Kathleen Collins). Through <i> Black Entanglements, </i> we will consider the kaleidoscopic nature of Black intimacies by traversing the resuscitative valences of sisterhood (DRYLONGSO)&sbquo; the &quot;one night stand&quot; as its own sanctified experiment in affection (Medicine for Melancholy), queer desire as negotiated against the backdrop of a broader political matrix (Rafiki), and the enmeshment between self, spirit, and society (Atlantiques). Each screening will begin with an offering of lyrical responses and questions by Denny Mwaura for guests to consider as they watch.  </p>
+                                <p> &#8220;Tenderness is what spurs motion into movement, desire into affirmative risk, and improvisation into rhythm.&#8220; — Maya Cade 
+                                <br/><br/>
+                                Black Entanglements builds on Jupiter&#39;s inaugural film series No One Is Going To Mythologize My Life (after Kathleen Collins). Here we draw from <a href="https://blackfilmarchive.com/About-the-Creator-Contact" target="_blank">  Maya Cade&#39;s </a> research around tenderness in <a href="https://tenderness.blackfilmarchive.com/" target="_blank"> Black film </a> to consider the kaleidoscopic nature of Black intimacies by traversing the resuscitative valences of sisterhood (DRYLONGSO)‚ the &#8220;one night stand&#8220; as its own sanctified experiment in affection (Medicine for Melancholy), queer desire as negotiated against the backdrop of a broader social, material and political matrix (Rafiki), and the enmeshment between self, spirit, and society (Atlantiques). Each screening will begin with an offering of lyrical responses and questions by <a href="https://cms.uchicago.edu/people/ae-stevenson" target="_blank"> Prof. AE Stevenson </a> and <a href="https://dennymwaura.com/" target="_blank"> Denny Mwaura </a> for guests to consider as they watch.
+                                </p>
                                 <br/>
-                                <p> — July 14: DRYLONGSO by Cauleen Smith </p>
-                                <p> — July 28: Medicine for Melancholy by Barry Jenkins </p>
-                                <p> — August 11: Rafiki by Wanuri Kahiu </p>
-                                <p> — August 25: Atlantiques by Mati Diop </p>
+                                <p>
+                                — July 14: DRYLONGSO by Cauleen Smith
+                                <br/>
+                                — July 28: Medicine for Melancholy by Barry Jenkins
+                                <br/>
+                                — August 11: Rafiki by Wanuri Kahiu
+                                <br/>
+                                — August 25: Atlantiques by Mati Diop
+                                </p>
                                 <br/>
                                 <a href="https://www.eventbrite.com/e/black-entanglements-tickets-926226166397" target="_blank" className="rsvp"> RSVP HERE </a>
                             </div>
