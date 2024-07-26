@@ -77,6 +77,7 @@ export function Programs() {
                                     — A favorite writing utensil  <br />
                                     — Yoga mat
                                 </p>
+                                <br />
                                 {/* <a href="https://www.eventbrite.com/e/embodied-poetics-a-movement-and-writing-workshop-tickets-918030352497" target="_blank" className="rsvp"> RSVP HERE </a> */}
                             </div>
                         </div>
@@ -94,7 +95,7 @@ export function Programs() {
                             </div>
                             <br />
                             <div className="p-event-local-description">
-                                <p> Join us on June 20, 2024 for <i> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal: </i> a conversation between Jupiter co-founders Camille Bacon and Daria Simone Harper, moderated by curator-writer Taylor Renee Aldridge.     
+                                <p> Join us for <i> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal: </i> a conversation between Jupiter co-founders Camille Bacon and Daria Simone Harper, moderated by curator-writer Taylor Renee Aldridge.     
                                 </p>
                                 <br />
                                 <p> The dialogue will orbit around the art historical referent for Issue 003&apos;s conceptual framing (Charles Gaines&apos;s 1993 exhibition <i> The Theater of Refusal, </i> from which this issue borrows its title), the risk and ecstasy of transgressing traditional forms of cultural criticism like the “essay” or “review,” and strategies Camille, Daria, and Taylor use to attend to culturally specific histories, lineages, and aesthetic movements, while simultaneously refusing to be pigeonholed.  </p>
