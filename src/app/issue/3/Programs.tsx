@@ -28,6 +28,9 @@ export function Programs() {
                             <br />
                             <div className="p-event-local-description">
                                 <p> Join us for the final screening of our Black Entanglements series, which draws from Maya Cade&#39;s research around tenderness in Black film. From the visioning of tenderness as an alchemical, worldbending, and redemptive force we culminate Issue 003: The Theater of Refusal with a cinematic honoring of the specific mode of tenderness that has enlivened and guided our journey with Jupiter: sisterhood. Imagined most expansively as the bonds that sustain our breath, we hope this will serve as an occasion for us all to celebrate the sisterhood(s) that, indeed, &#8220;give us the will to live.&#8220;
+                                <br/>
+                                <br/>
+                                The program will begin with a reading by Nicole Alexander of a new poem written directly in response to DRYLONGSO and commissioned by Jupiter and will conclude with a discussion surrounding the film's themes.
                                 </p>
                                 <br/>
                                 <a href="https://www.eventbrite.com/e/black-entanglements-drylongso-nyc-edition-tickets-997748882767?aff=oddtdtcreator" target="_blank" className="rsvp"> RSVP HERE </a>
