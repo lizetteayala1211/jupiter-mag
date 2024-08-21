@@ -39,7 +39,7 @@ export function Programs() {
                                 <p className="darker-grotesque"> 07.14.2024 - 08.25.2024  </p>
                             </div>
                             <div className="p-event-title">
-                                <h4 className="darker-grotesque"> Black Entanglements <br/> (Chicago Edition) </h4>
+                                <h4 className="darker-grotesque"> Black Entanglements <br/> (Chicago) </h4>
                             </div>
                             <div className="p-event-local-info">
                                 <p className="darker-grotesque"> <a href="https://blancchicago.com/" target="_blank" className="internal"> Blanc Gallery </a> — 4445 S Martin Luther King Dr, Chicago, IL 60653
