@@ -16,10 +16,30 @@ export function Programs() {
                     <div className="p-content">
                         <div className="p-event">
                             <div className="p-event-date-info">
+                                <p className="darker-grotesque"> 08.29.2024 | 6pm-9pm  </p>
+                            </div>
+                            <div className="p-event-title">
+                                <h4 className="darker-grotesque"> Black Entanglements: DRYLONGSO (NYC Edition) </h4>
+                            </div>
+                            <div className="p-event-local-info">
+                                <p className="darker-grotesque"> <a href="https://blancchicago.com/" target="_blank" className="internal"> Blanc Gallery </a> — 4445 S Martin Luther King Dr, Chicago, IL 60653
+                                </p>
+                            </div>
+                            <br />
+                            <div className="p-event-local-description">
+                                <p> Join us for the final screening of our Black Entanglements series, which draws from Maya Cade's research around tenderness in Black film.
+                                From the visioning of tenderness as an alchemical, worldbending, and redemptive force we culminate Issue 003: The Theater of Refusal with a cinematic honoring of the specific mode of tenderness that has enlivened and guided our journey with Jupiter: sisterhood. Imagined most expansively as the bonds that sustain our breath, we hope this will serve as an occasion for us all to celebrate the sisterhood(s) that, indeed, &#8220;give us the will to live.&#8220;
+                                </p>
+                                <br/>
+                                <a href="https://www.eventbrite.com/e/black-entanglements-drylongso-nyc-edition-tickets-997748882767?aff=oddtdtcreator" target="_blank" className="rsvp"> RSVP HERE </a>
+                            </div>
+                        </div>
+                        <div className="p-event">
+                            <div className="p-event-date-info">
                                 <p className="darker-grotesque"> 07.14.2024 - 08.25.2024  </p>
                             </div>
                             <div className="p-event-title">
-                                <h4 className="darker-grotesque"> Black Entanglements </h4>
+                                <h4 className="darker-grotesque"> Black Entanglements <br/> (Chicago Edition) </h4>
                             </div>
                             <div className="p-event-local-info">
                                 <p className="darker-grotesque"> <a href="https://blancchicago.com/" target="_blank" className="internal"> Blanc Gallery </a> — 4445 S Martin Luther King Dr, Chicago, IL 60653
