@@ -36,7 +36,10 @@ export function Programs() {
                                 <a href="https://www.eventbrite.com/e/black-entanglements-drylongso-nyc-edition-tickets-997748882767?aff=oddtdtcreator" target="_blank" className="rsvp"> RSVP HERE </a>
                             </div>
                         </div>
-                        <div className="p-event">
+                    </div>
+                    <h3 className="p-h3 past darker-grotesque"> PAST PROGRAMMING </h3>
+                    <div className="p-content">
+                    <div className="p-event">
                             <div className="p-event-date-info">
                                 <p className="darker-grotesque"> 07.14.2024 - 08.25.2024  </p>
                             </div>
@@ -64,12 +67,9 @@ export function Programs() {
                                 — August 25: Atlantiques by Mati Diop
                                 </p>
                                 <br/>
-                                <a href="https://www.eventbrite.com/e/black-entanglements-tickets-926226166397" target="_blank" className="rsvp"> RSVP HERE </a>
+                                {/* <a href="https://www.eventbrite.com/e/black-entanglements-tickets-926226166397" target="_blank" className="rsvp"> RSVP HERE </a> */}
                             </div>
                         </div>
-                    </div>
-                    <h3 className="p-h3 past darker-grotesque"> PAST PROGRAMMING </h3>
-                    <div className="p-content">
                         <div className="p-event">
                             <div className="p-event-date-info">
                                 <p className="darker-grotesque"> 06.08.2024 | 3pm-6pm </p>
