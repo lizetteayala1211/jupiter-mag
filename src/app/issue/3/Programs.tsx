@@ -12,9 +12,12 @@ export function Programs() {
         >
             <section className="programs">
                 <div className="p-container">
-                    <h3 className="p-h3 darker-grotesque"> UPCOMING PROGRAMMING </h3>
+                    {/* <h3 className="p-h3 darker-grotesque"> UPCOMING PROGRAMMING </h3> */}
                     <div className="p-content">
-                        <div className="p-event">
+                    </div>
+                    <h3 className="p-h3 past darker-grotesque"> PAST PROGRAMMING </h3>
+                    <div className="p-content">
+                    <div className="p-event">
                             <div className="p-event-date-info">
                                 <p className="darker-grotesque"> 08.29.2024 | 6pm-9pm  </p>
                             </div>
@@ -33,13 +36,10 @@ export function Programs() {
                                 The program will begin with a reading by Nicole Alexander of a new poem written directly in response to DRYLONGSO and commissioned by Jupiter and will conclude with a discussion surrounding the film&#39;s themes.
                                 </p>
                                 <br/>
-                                <a href="https://www.eventbrite.com/e/black-entanglements-drylongso-nyc-edition-tickets-997748882767?aff=oddtdtcreator" target="_blank" className="rsvp"> RSVP HERE </a>
+                                {/* <a href="https://www.eventbrite.com/e/black-entanglements-drylongso-nyc-edition-tickets-997748882767?aff=oddtdtcreator" target="_blank" className="rsvp"> RSVP HERE </a> */}
                             </div>
                         </div>
-                    </div>
-                    <h3 className="p-h3 past darker-grotesque"> PAST PROGRAMMING </h3>
-                    <div className="p-content">
-                    <div className="p-event">
+                        <div className="p-event">
                             <div className="p-event-date-info">
                                 <p className="darker-grotesque"> 07.14.2024 - 08.25.2024  </p>
                             </div>
