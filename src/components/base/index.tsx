@@ -51,7 +51,7 @@ export function Base({ children, homePage }: Props) {
           {isMobile ? (
             // todo: this menu button needs to be redesigned? maybe gotten rid of ? lol
             <div
-              style={(url === '/contact' || url === '/about') ? {
+              style={(url === '/contact' || url === '/about' || url === '/issue/still' ) ? {
                 position: "absolute",
                 right: 8,
                 top: 20,
