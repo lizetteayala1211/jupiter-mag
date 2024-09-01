@@ -7,6 +7,7 @@ import {
   Main,
   LogoContainer,
   LogoSection,
+  ContentSection,
   FloatingMenuSection,
   SignatureContainer,
   SignaturesSection,
@@ -32,7 +33,16 @@ export default function Page() {
         <LogoContainer>
           <JupiterLogo color="white"/>
           </LogoContainer>
+          <div className="still-issue-wrapper">
+              <a href="https://www.jupiter-mag.com/issue/1" className="still-issue"> ISSUE 1 </a>
+              <a href="https://www.jupiter-mag.com/issue/2" className="still-issue"> ISSUE 2 </a>
+              <a href="https://www.jupiter-mag.com/issue/3" className="still-issue"> ISSUE 3 </a>
+          </div>
         </LogoSection>
+        
+        <ContentSection>
+            
+        </ContentSection>
 
       </Main>
     </Base>

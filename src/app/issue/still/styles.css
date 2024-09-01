@@ -1,0 +1,30 @@
+.still-issue {
+    font-size: 30px;
+    padding: 22.5px 30px;
+    webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.still-issue:hover {
+    opacity: 0.5;
+}
+
+.still-issue-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /* width: 65vw; */
+    /* padding-right: 30px; */
+}
+
+@media screen and (max-width: 600px) {
+    .still-issue {
+      display: none;
+    }
+  }

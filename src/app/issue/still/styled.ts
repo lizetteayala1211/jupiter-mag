@@ -153,11 +153,11 @@ import {
   
   export const ContentSection = styled.section`
     grid-area: content;
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
   `
   
