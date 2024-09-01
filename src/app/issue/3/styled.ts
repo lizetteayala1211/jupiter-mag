@@ -108,9 +108,7 @@ export const EditorsNoteTitleSection = styled.section`
 export const EditorsNoteSection = styled.section`
   grid-area: editorsNote;
   position: relative;
-
   display: flex;
-
   padding-block-end: 128px;
 
   @media only screen and (min-width: ${screenMdMin}) {
