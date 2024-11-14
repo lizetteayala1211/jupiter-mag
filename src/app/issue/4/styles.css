@@ -181,6 +181,7 @@ p > span.justified {
     /* padding-right: 3em; */
 }
 
+/* (A) Link Styling for Paragraphs */
 a.styled {
     text-decoration: underline;
     text-underline-offset: 0.2em;
