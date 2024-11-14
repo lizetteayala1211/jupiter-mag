@@ -1,5 +1,6 @@
 // breakpoints
 // TODO: consolidate breakpoints between here and global css?
+export const screenXxxxsMax = "320px"
 export const screenXxxsMax = "375px"
 export const screenXxsMax = "479px"
 export const screenXsMin = "480px"

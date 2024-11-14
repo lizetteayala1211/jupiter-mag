@@ -16,7 +16,7 @@ import {
   StyledComponentsRegistry,
   MenuButton,
 } from "@/components"
-import { MobileMenuOverlay } from "../header/Mobile"
+// import { MobileMenuOverlay } from "../header/Mobile"
 
 type Props = { children: ReactNode; homePage?: boolean }
 
@@ -31,7 +31,7 @@ export function Base({ children, homePage }: Props) {
   // todo: can useCurrentPage be broken into a more useful hook with more reusable code?
   const isHomePage = currentPage === "home" || homePage!! || false
 
-  useDisableScroll(showMobileMenu)
+  // useDisableScroll(showMobileMenu)
 
   // todo: home page and this base page need to be reconciled - too much overlap, this is not good code
   return (
@@ -41,9 +41,9 @@ export function Base({ children, homePage }: Props) {
         className="darker-grotesque"
       >
         <HeaderSection>
-          {showMobileMenu && (
+          {/* {showMobileMenu && (
             <MobileMenuOverlay onClose={() => setShowMobileMenu(false)} />
-          )}
+          )} */}
         </HeaderSection>
 
         {/* todo: need to consolidate all header components to be more readable :') */}
@@ -64,7 +64,7 @@ export function Base({ children, homePage }: Props) {
               }}
               onClick={() => setShowMobileMenu(!showMobileMenu)}
             >
-              <MenuButton />
+              {/* <MenuButton /> */}
             </div>
           ) : null}
           {children}
