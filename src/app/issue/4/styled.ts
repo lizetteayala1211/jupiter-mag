@@ -146,6 +146,7 @@ import {
       margin-inline-start: 16px;
       /* margin-inline-end: 64px; */
       padding-block-start: 56px;
+      padding-block-end: 0px;
     }
   
     @media only screen and (min-width: ${screenLgMin}) {
@@ -198,24 +199,31 @@ import {
     }
 
     @media only screen and (min-width: ${screenXxxsMax}) {
+      position: relative;
       gap: 2em;
+      bottom: 150px; 
     }
 
     @media only screen and (min-width: ${screenSmMin}) {
+      position: relative;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: flex-end;
       padding-left: 5vw;
-      padding-right: 0vw;
+      padding-right: 7vw;
       padding-bottom: 45vw;
+      bottom: 1600px; 
     }
 
     @media only screen and (min-width: ${screenMdMin}) {
+      position: relative;
       flex-direction: column;
       align-items: flex-end;
       gap: 4em;
       padding-left: 0vw;
       padding-right: 4vw;
-      /* padding-bottom: 20vw; */
+      bottom: 1000px; 
+      /* left: 300px; */
+      /* padding-bottom: 300vw; */
     }
   `
   
@@ -422,7 +430,6 @@ import {
   export const ArticleImage = styled(Image)`
     object-fit: cover;
     width: 100%;
-  
     max-width: 500px;
     height: 100%;
   `

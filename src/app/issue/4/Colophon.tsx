@@ -16,9 +16,11 @@ export function Colophon() {
         <ColophonColumn>
           <p> Jupiter Magazine Issue 004: Of Prophecy </p>
           <p> Published by: Jupiter Magazine </p>
-          <MediumGuy />
           <p> Publication Year: 2024 </p>
-          <p> Editors in Chief: Camille Bacon </p>
+          <MediumGuy />
+          <p> Co-Founders: Camille Bacon and Daria S. Harper </p>
+          <p> Editors-in-Chief: Camille Bacon </p>
+          <p> Operations & Managing Editor: Daria S. Harper </p>
           <p> Editorial Assistant: Niara Hightower </p>
           <MediumGuy />
           <p> Creative Director: Sebastien Pierre </p>
