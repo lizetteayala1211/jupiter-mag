@@ -35,15 +35,16 @@ import {
       font-size: 14px;
     }
   
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
   
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.49%, #000000 100%),
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.49%, #000000 100%),
       radial-gradient(
           80.23% 5.14% at 80.23% 5.72%,
           rgba(0, 21, 52, 0) 27.1%,
           #040e21 100%
         )
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-      #040921;
+        ,
+      #040921; */
   
     @media only screen and (min-width: ${screenSmMin}) {
       grid-template-areas:
@@ -201,7 +202,7 @@ import {
     @media only screen and (min-width: ${screenXxxsMax}) {
       position: relative;
       gap: 2em;
-      bottom: 150px; 
+      bottom: 150px;
     }
 
     @media only screen and (min-width: ${screenSmMin}) {
@@ -220,7 +221,7 @@ import {
       align-items: flex-end;
       gap: 4em;
       padding-left: 0vw;
-      padding-right: 4vw;
+      /* padding-right: 4vw; */
       bottom: 1000px; 
       /* left: 300px; */
       /* padding-bottom: 300vw; */
@@ -228,22 +229,25 @@ import {
   `
   
   export const SignatureContainer = styled(Image)`
-    width: auto;
-    height: 50px;
+    width: 100% !important;
+    height: 100% !important;
 
     /* smaller desktops */
     @media only screen and (min-width: ${screenMdMin}) {
-      width: 150px;
+      width: 100% !important;
+      height: 100% !important;
     }
   
     /* wide desktops */
     @media only screen and (min-width: ${screenLgMin}) {
-      width: 150px;
+      width: 100% !important;
+      height: 100% !important;
     }
   
     /* extra wide desktops */
     @media only screen and (min-width: ${screenXlMin}) {
-      width: 200px;
+      width: 100% !important;
+      height: 10% !important;
     }
   `
   
@@ -349,8 +353,10 @@ import {
     padding: 8em 0 2em 0;
   
     @media only screen and (min-width: ${screenMdMin}) {
+      position: absolute;
       padding: 4em 0 4em 0;
       align-items: center;
+      z-index: 3;
     }
   `
   

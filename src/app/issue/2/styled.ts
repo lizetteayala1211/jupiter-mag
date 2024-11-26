@@ -171,7 +171,7 @@ export const StyledAuthorLink = styled.a<{ $homepage: string }>`
   text-transform: uppercase;
   font-size: 32px;
   text-align: center;
-  margin: 16px;
+  /* margin: 16px; */
   line-height: 32px;
   display: flex;
   flex-direction: column;

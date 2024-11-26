@@ -123,11 +123,11 @@ export const MenuContainer = styled.div`
   top: 0;
   left: 0;
 
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(63, 29, 61, 0.9) 30%,
     rgba(117, 42, 65, 0.729) 100%
-  );
+  ); */
 `
 
 export const ReturnHomeButton = styled.a`

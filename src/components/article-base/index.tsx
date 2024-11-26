@@ -74,8 +74,7 @@ export function ArticleBase({
                 display: "flex",
                 justifyContent: "flex-end",
                 padding: "1em",
-                background:
-                  "linear-gradient(180deg, rgba(232, 224, 222, 0.60) 0%, rgba(232, 224, 222, 0.00) 100%)",
+              
               }}
               onClick={() => setShowMobileMenu(!showMobileMenu)}
             >

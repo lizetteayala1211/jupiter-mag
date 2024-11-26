@@ -31,13 +31,14 @@ export const Cover = styled.section<{ $issue: number }>`
 
 export const Article = styled.section`
   grid-area: article;
-  background-color: var(--color-article-cream);
+  /* background-color: var(--color-article-cream); */
+  background-color: black;
   min-width: 100%;
   padding: 16px;
 
   /* smaller desktops */
   @media only screen and (min-width: ${screenMdMin}) {
-    padding: 40px 80px;
+    padding: 40px 80px !important;
   }
 
   /* wide desktops */
@@ -60,13 +61,13 @@ export const Footer = styled.section`
 `
 
 export const NextFooter = styled.div`
-  display: flex;
+  display: none;
   flex-direction: column;
   font-size: 20px;
   width: 100%;
   white-space: pre-wrap;
-  background-color: var(--color-article-cream);
-
+  /* background-color: var(--color-article-cream); */
+  background-color: black;
   text-transform: uppercase;
 
   color: var(--color-black);
