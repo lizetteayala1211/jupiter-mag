@@ -1,7 +1,7 @@
 import { ContactForm, Header } from "@/components"
 import { ContactSection, FormSection, HeaderSection, Main } from "./styled"
 
-// todo: for all desktop and mobile components, reconcil so we don't have the same copy twice, this is bad code
+// todo: for all desktop and mobile components, reconcil so we don&#39;t have the same copy twice, this is bad code
 export default function Desktop() {
   return (
     <Main>

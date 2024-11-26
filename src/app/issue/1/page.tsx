@@ -12,7 +12,7 @@ import { EditorsNote } from "./EditorsNote"
 import { AuthorDirectory } from "./AuthorDirectory"
 import { Lottie } from "@/components/lottie-container"
 
-// todo: add back greain to home page so that it doesn't overlpa the lottie file -> might invovle a refactor with how lottie is loaded in
+// todo: add back greain to home page so that it doesn&#39;t overlpa the lottie file -> might invovle a refactor with how lottie is loaded in
 export default function Page() {
   return (
     <Base homePage>

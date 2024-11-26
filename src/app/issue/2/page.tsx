@@ -26,7 +26,7 @@ import camilleSignature from "../../../../public/signatures/camille_white.png"
 import dariaSignature from "../../../../public/signatures/daria_white.png"
 import { useIntersectionObserver } from "@/utils/hooks"
 
-// todo: add back grain to home page so that it doesn't overlap the lottie file -> might invovle a refactor with how lottie is loaded in
+// todo: add back grain to home page so that it doesn&#39;t overlap the lottie file -> might invovle a refactor with how lottie is loaded in
 export default function Page() {
   useIntersectionObserver()
 

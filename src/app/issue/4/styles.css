@@ -205,14 +205,14 @@ p > a.styled:hover {
     opacity: 0.8;
 }
 
-/* Editor's Note Image */
+/* Editor&#39;s Note Image */
 .parable {
     width: max-content !important;
     height: max-content !important;
     align-self: center;
 }
 
-/* Editor's Note Image Copy */
+/* Editor&#39;s Note Image Copy */
 p > span.small {
     font-size: 12px;
     line-height: 145%;

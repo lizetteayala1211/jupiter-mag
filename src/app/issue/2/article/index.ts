@@ -38,7 +38,7 @@ export const issue2Metadata: ArticleMetadata[] = [
   },
   {
     title:
-      "our Martinique, risen still, has yet and reasoned: spill / an entangled vignette of Julien Creuzet's gravitational refrain",
+      "our Martinique, risen still, has yet and reasoned: spill / an entangled vignette of Julien Creuzet&#39;s gravitational refrain",
     link: "/issue/2/article/camille",
     author: "Camille G. Bacon",
     longTitle: true,

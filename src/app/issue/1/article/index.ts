@@ -8,18 +8,18 @@ export const issue1Metadata: ArticleMetadata[] = [
     author: "Akwaeke Emezi",
   },
   {
-    title: "by way of what's already there",
+    title: "by way of what&#39;s already there",
     link: "/issue/1/article/jenna",
     author: "Jenna “J” Wortham",
   },
   {
-    title: "Someone to Watch Over Me: A Lover's Discourse",
+    title: "Someone to Watch Over Me: A Lover&#39;s Discourse",
     link: "/issue/1/article/joshua",
     author: "Joshua Segun-Lean",
   },
   {
     title:
-      "Long and Articulated Life: Mamady Kouyaté and Grace Wales Bonner's Spirit Movers",
+      "Long and Articulated Life: Mamady Kouyaté and Grace Wales Bonner&#39;s Spirit Movers",
     link: "/issue/1/article/diallo",
     author: "Diallo Simon-Ponte",
   },

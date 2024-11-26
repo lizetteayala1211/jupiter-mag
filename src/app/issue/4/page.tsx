@@ -27,8 +27,7 @@ import camilleSignature from "../../../../public/signatures/camille_white.png"
 import dariaSignature from "../../../../public/signatures/daria_white.png"
 import EditorNoteImg from "../../../../public/photos/parable.jpg"
 
-import { Contributors } from "./Contributors"
-// const kittenHeader = require('https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfac/65f4d81a0401bc4c08320104_arrow.webp');
+// import { Contributors } from "./Contributors"
 
 import "./styles.css"
 
