@@ -27,7 +27,7 @@ import camilleSignature from "../../../../public/signatures/camille_white.png"
 import dariaSignature from "../../../../public/signatures/daria_white.png"
 import EditorNoteImg from "../../../../public/photos/parable.jpg"
 
-// import { Contributors } from "./Contributors"
+import { Contributors } from "./Contributors"
 
 import "./styles.css"
 

@@ -7,8 +7,8 @@ import {
 // import thing from "./otherFile.js"
 
 import ListArrow from "../../../../public/photos/arrow-04.png"
-const menuButton = document.getElementById('menu-button');
-const menuOverlay = document.getElementById('menu-overlay');
+// const menuButton = document.getElementById('menu-button');
+// const menuOverlay = document.getElementById('menu-overlay');
 
 {/* <script>
             menuButton.addEventListener('click', () => {
