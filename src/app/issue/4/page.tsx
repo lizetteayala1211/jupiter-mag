@@ -62,11 +62,12 @@ export default function Page() {
             <SignatureContainer
               src={camilleSignature}
               alt="Signature of Camille"
+              className="camille-sig"
             />
             Camille Bacon
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <SignatureContainer src={dariaSignature} alt="Signature of Daria" />
+            <SignatureContainer src={dariaSignature} alt="Signature of Daria" className="daria-sig" />
             Daria Simone Harper
           </div>
         </SignaturesSection>

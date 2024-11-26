@@ -514,6 +514,15 @@ img {
     display: inline-block;
 }
 
+.camille-sig {
+    max-width: 110px;
+}
+
+.daria-sig {
+    max-width: 110px;
+}
+
+
 .has--align-right {
     text-align: right;
 }
@@ -736,6 +745,10 @@ img {
     .paragraph-small {
         font-size: 2.3vw !important;
     }
+
+    body > div > section.sc-iKOmoZ.ljvOYM > main > section.sc-ejCKsa.iJmHMD > div:nth-child(1) {
+        right: 90px !important;
+    }
 }
 
 /* <!-- Mobile Device CSS (XS Screens) --> */  
@@ -796,6 +809,10 @@ img {
 
     .background-grid {
         display: none;
+    }
+
+    body > div > section.sc-iKOmoZ.ljvOYM > main > section.sc-ejCKsa.iJmHMD > div:nth-child(1) {
+        right: 10px !important;
     }
 
 }

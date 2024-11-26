@@ -229,18 +229,18 @@ import {
   `
   
   export const SignatureContainer = styled(Image)`
-    width: 100% !important;
+    /* width: 100% !important; */
     height: 100% !important;
 
     /* smaller desktops */
     @media only screen and (min-width: ${screenMdMin}) {
-      width: 100% !important;
+      /* width: 100% !important; */
       height: 100% !important;
     }
   
     /* wide desktops */
     @media only screen and (min-width: ${screenLgMin}) {
-      width: 100% !important;
+      /* width: 100% !important; */
       height: 100% !important;
     }
   
