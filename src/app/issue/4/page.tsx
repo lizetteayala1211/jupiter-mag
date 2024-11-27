@@ -137,12 +137,10 @@ function EditorsNoteCopy() {
     <br/><br/>
     Further, we adorn Butler herself, not just her writings, with the adjective of “prophetic.” As is the case in her works of fiction, Butlerr&#39;s interviews serve as anchoring warnings through which we may prepare ourselves to meet the world we have inherited with the sharp criticality and incisiveness we need to reshape it too. In <a href="https://charlierose.com/videos/28978" target="_blank" className="styled"> a conversation with Charlie Rose </a> conducted three weeks before her 53rd birthday, Butler said: “Ir&#39;ve been complaining about the number of would-be leaders who seem to be willing to sacrifice half their country if they can just rule over the rest. I mean, we seem to have had, since the end of the Cold War, too many people like that.” Though uttered in 2000, this statement certainly holds true today in response to the bevy of leaders whose dominion has proved to be a lethal force both domestically and globally. 
     <br/><br/>
-    To this end, we corroborate Mandy Harris Williamsr&#39;s essay <a href="http://hman.love/journal/critique-as-care" target="_blank" className="styled"> Critique as Care </a>,&#8221; in which she states: “Critique holds fascism as its enemy. … With social and political criticism out of the way, fascism is left to flourish.” We maintain that experimental arts writing and cultural criticism can serve as one wrench in the operations of those “would-be leaders” who abide by the logics that feed the mouth of extractionist paradigms. We hope this issue attunes you to the regard, civic responsibility, and mutual dependence from which both Harris Williamsr&#39;s and Butler's statements, and those found in each of these contributions, emerge. 
+    To this end, we corroborate Mandy Harris Williamsr&#39;s essay <a href="http://hman.love/journal/critique-as-care" target="_blank" className="styled"> Critique as Care </a>,&#8221; in which she states: “Critique holds fascism as its enemy. … With social and political criticism out of the way, fascism is left to flourish.” We maintain that experimental arts writing and cultural criticism can serve as one wrench in the operations of those “would-be leaders” who abide by the logics that feed the mouth of extractionist paradigms. We hope this issue attunes you to the regard, civic responsibility, and mutual dependence from which both Harris Williamsr&#39;s and Butler&#39;s statements, and those found in each of these contributions, emerge. 
 
     </p>
     <br/><br/><br/><br/><br/><br/>
-
-
     </div>
   )
 }
