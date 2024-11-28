@@ -25,7 +25,7 @@ export default function Desktop() {
           <h2>Instagram</h2>
           <h3>@jupiter.magazine</h3>
         </div>
-        <p style={{ maxWidth: "300px" }}>
+        {/* <p style={{ maxWidth: "300px" }}>
           For press requests, please contact Hannah Gottlieb-Graham at{" "}
           <a
             style={{ textDecoration: "underline" }}
@@ -33,7 +33,7 @@ export default function Desktop() {
           >
             ALMA
           </a>
-        </p>
+        </p> */}
       </ContactSection>
       <FormSection>
         <ContactForm />
