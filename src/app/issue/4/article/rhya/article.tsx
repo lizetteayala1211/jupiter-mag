@@ -29,15 +29,14 @@ export function Article() {
     <br/>
     <p className="Rhya-Marlene-Moffitt-04">
         <span className="right"> &#8220;Saturday, July 20, 2024
-        <br/><br/>
+        <br/>
         All that you touch
         <br/><br/>
         You Change.
-        <br/><br/><br/><br/>
         All that you Change
         <br/><br/>
         Changes you.&#8221;
-        <br/><br/>
+        <br/>
         —Lauren Oya Olamina<sup><a href="#fn2" id="ref2">2</a></sup>
         <br/><br/><br/><br/>
         Friday, July 19, 2024
