@@ -23,7 +23,7 @@ export function Article() {
     </div>
     <br/>
     <p className="Amandine-Nana-04">
-    <span className="centered"> <i> I am all the geographies that can save me by Amandine Nana </i> </span>
+    {/* <span className="centered"> <i> I am all the geographies that can save me by Amandine Nana </i> </span> */}
     <br/>
     <span className="centered"> <i> &#40;translated from French to English by Chrystel Oloukoi&#41; </i> </span>
     <br/>
@@ -34,37 +34,35 @@ export function Article() {
     <span className="centered"> Torkwase Dyson, <i> Indeterminacy #1 &#40;Black Compositional Thought&#41;, </i> 2022. © Torkwase Dyson. </span>
     <br/><br/>
     <i> Before the chaos 
-    <br/><br/>
+    <br/>
     Before the fire
-    <br/><br/>
+    <br/>
     Before the walls fell
-    <br/><br/>
+    <br/>
     Before the escape
-    <br/><br/>
+    <br/>
     Well before the imperative to run
-    <br/><br/>
+    <br/>
     Lauren was ready to survive
-    <br/><br/>
+    <br/>
     Beyond the walls of her community
-    <br/><br/>
+    <br/>
     Beyond the walls of Robledo
-    <br/><br/>
+    <br/>
     Lauren was &#8220;learning to fly, to levitate [her]self&#8221; </i>
-    <br/><br/>
+    <br/>
     &#8220;No one is teaching me.
-    <br/><br/>
+    <br/>
     I&#39;m just 
-    <br/><br/>
+    <br/>
     learning on my own,
-    <br/><br/>
+    <br/>
     little by little,
-    <br/><br/>
+    <br/>
     dream lesson by dream lesson&#8221;<sup><a href="#fn2" id="ref2">2</a></sup>
     <br/><br/>
     <i> She had an intimate knowledge /
-    <br/><br/>
     But she was still gripped by the fear / 
-    <br/><br/>
     Of not being able to control her direction </i>
     <br/><br/>
     In Torkwase Dyson&#39;s artworks, 
