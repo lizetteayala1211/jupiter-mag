@@ -14,12 +14,12 @@ export function Colophon() {
       <h3 style={{ paddingBottom: "84px" }}>Colophon</h3>
       <ColophonContainer>
         <ColophonColumn>
-          <p> Jupiter Magazine Issue 004: Of Prophecy </p>
+          <p> Jupiter Magazine <i> Issue 004: Of Prophecy </i> </p>
           <p> Published by: Jupiter Magazine </p>
           <p> Publication Year: 2024 </p>
           <MediumGuy />
           <p> Co-Founders: Camille Bacon and Daria S. Harper </p>
-          <p> Editors-in-Chief: Camille Bacon </p>
+          <p> Editor-in-Chief: Camille Bacon </p>
           <p> Operations & Managing Editor: Daria S. Harper </p>
           <p> Editorial Assistant: Niara Hightower </p>
           <MediumGuy />
