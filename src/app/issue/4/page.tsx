@@ -75,9 +75,9 @@ export default function Page() {
           <ContentSection>
           </ContentSection>
 
-        {/* <ContentSection>
-        <Contributors />
-        <AuthorDirectory homepage />
+        <ContentSection>
+        {/* <Contributors />
+        <AuthorDirectory homepage /> */}
 
         <pre id="colophon" />
           <div
@@ -89,7 +89,7 @@ export default function Page() {
             }}
           />
           <Colophon />
-        </ContentSection> */}
+        </ContentSection>
       </Main>
     </Base>
   )
