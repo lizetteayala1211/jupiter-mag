@@ -111,8 +111,8 @@ export function Contributors() {
                 </div>
                 <div className="blog-collection">
                     <div className="grid-container">
-                        <div role="listitem" className="blog-item w-dyn-item first">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/camille" className="blog-link transition-link w-inline-block">
+                    <div role="listitem" className="blog-item w-dyn-item first">
+                            <a href="https://www.jupiter-mag.com/issue/4/article/imani" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -120,7 +120,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Camille Bacon</p>
+                                        <p className="paragraph-small">Imani Perry</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -130,8 +130,8 @@ export function Contributors() {
                                 {/* <img src="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp" loading="lazy" alt="" sizes="(max-width: 767px) 45vw, 24vw" srcset="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-500.webp 500w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-800.webp 800w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp 918w" className="blog-image"> */}
                             </a>
                         </div>
-                        <div role="listitem" className="blog-item w-dyn-item second">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/daria" className="blog-link transition-link w-inline-block">
+                    <div role="listitem" className="blog-item w-dyn-item second">
+                            <a href="https://www.jupiter-mag.com/issue/4/article/amandine" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -139,7 +139,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Daria Harper</p>
+                                        <p className="paragraph-small">Amandine Nana</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -150,7 +150,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item third">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/rikki" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/4/article/camille" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -158,7 +158,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Dr. Rikki Byrd</p>
+                                        <p className="paragraph-small">Camille Bacon</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -188,7 +188,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item fifth">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/amandine" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/4/article/daria" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -196,7 +196,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Amandine Nana</p>
+                                        <p className="paragraph-small">Daria Harper</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -207,7 +207,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item sixth">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/imani" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/4/article/angelique" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -215,7 +215,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Imani Perry</p>
+                                        <p className="paragraph-small">Angelique Rosales Salgado</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -226,7 +226,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item seventh">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/angelique" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/4/article/rikki" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -234,7 +234,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Angelique Rosales Salgado</p>
+                                        <p className="paragraph-small">Dr. Rikki Byrd</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>

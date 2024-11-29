@@ -109,7 +109,7 @@ function EditorsNoteCopy() {
       <SignatureContainer src={EditorNoteImg} alt="Parable of Sower Cover" className="parable"/>
     </div>
     <p>
-    <span className="centered small"> Octavia E. Butler&#39;s Parable of the Sower, published by Warner Books in 1995. Cover art by John Jude Palencar. </span>
+    <span className="centered small"> Octavia E. Butler&#39;s <i> Parable of the Sower, </i> published by Warner Books in 1995. Cover art by John Jude Palencar. </span>
     <br/><br/>
     &#8220;There is no end <br/>
     To what a living world <br/>
