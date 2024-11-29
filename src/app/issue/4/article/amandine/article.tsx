@@ -17,7 +17,7 @@ export function Article() {
   return (
     <ArticleStyles>
     <br/>
-    <div>
+    <div className="writing-container">
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
       <SignatureContainer src={AmadineTitleCard} alt="Amadine Title Card" className="titlecard" />
     </div>

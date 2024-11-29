@@ -172,7 +172,7 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
 
   @media only screen and (min-width: 780px) and (max-width: 1550px) {
     div {
-    padding: 0 25% !important;
+    padding: 0 20% !important;
   }
   }
 
@@ -183,6 +183,8 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   }
 
   @media only screen and (min-width: 320px) and (max-device-width : 450px) {
+    div {
     padding: 0 15% !important;
+  }
   }
 `
