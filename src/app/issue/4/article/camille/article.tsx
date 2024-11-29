@@ -74,7 +74,15 @@ export function Article() {
     <br/><br/>
     The crescendo is yet to be realized. And so continues my edifying arch toward the unsteady yet assured sound of a thunder clap at the close of &#8220;<a href="https://www.youtube.com/watch?v=XQEGP3CaWEs" target="_blank" className="styled">Jupiter</a>&#8221; and the swelling precipice of Kelela&#39;s voice when she sings once more: &#8220;<i> I think I know me now. </i>&#8221; 
     </p> 
-    <br/>
+    <pre id="article" />
+          <div
+            style={{
+              marginTop: "112px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <span className="footnotes camille">
     <p>
     <ol>

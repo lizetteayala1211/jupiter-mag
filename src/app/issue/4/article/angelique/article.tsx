@@ -168,7 +168,15 @@ Continuously looking for ways to trouble the process of writing to feel like she
 <br/>
 She is now dreaming up a future project that sets out to reimagine <i> Cry, </i> the 1971 ballet in three sections by visionary Alvin Ailey, choreographed for legendary Judith Jamison, and featuring music by Alice Coltrane, Laura Nyro, and Chuck Griffin. Her premise is to stage the body &#40;her body&#41; in a filmic and diaristic process as she learns the work&#39;s choreography, creating a durational recording shaped by the indeterminant scale, sensations, and cycles of training, rehearsing, aging. Harmony&#39;s first entry into artistic creativity was dance: <i> I write first from instinct, but because I grew up dancing ballet and other forms with the intensity of any would be child actor who doesn&#39;t know quite what mire she&#39;s appeased when she goes on stage or across the floor.<sup><a href="#fn29" id="ref29">29</a></sup> </i> Harmony tells me writing is just like air to her. Not unlike this, writing brings her back to a sense of why she wants to experiment. &#8220;As agency — as an act with consequences,&#8221;<sup><a href="#fn30" id="ref30">30</a></sup> in Toni Morrison&#39;s words, considering how and what writing might retrieve, compel, or affect beyond the page. <i> What if we carry everything we&#39;ve escaped with us, as haunt, quiet rage, unresolved tension with God or spirit or some yet-unnamed realm, which has named us its marks?<sup><a href="#fn31" id="ref31">31</a></sup> </i>
     </p>
-    <br/>
+    <pre id="article" />
+          <div
+            style={{
+              marginTop: "112px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <span className="footnotes angelique">
     <p>
     <ol>

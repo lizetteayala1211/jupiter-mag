@@ -177,7 +177,15 @@ export function Article() {
         <br/><br/>
         <span className="right"> There are no destinations, only origins.&#8221;<sup><a href="#fn21" id="ref21">21</a></sup> </span>
     </p>
-    <br/>
+    <pre id="article" />
+          <div
+            style={{
+              marginTop: "112px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <span className="footnotes rhya">
     <p>
     <ol>

@@ -139,7 +139,6 @@ export function Article() {
     <i> Of not being able to control her direction </i>
     <br/>
     calls me to revere that, after all, this is what our ancestors across the Black Atlantic have been teaching us: moving through indeterminacy is a methodology of continual adaptation and mutation. Though Lauren fears not being able to control her direction in a post-apocalyptic world full of violence and disfigured by global warming and extractivism &#40;one that is not that far from to the one we are currently living in&#41;, her intimate knowledge guides the miraculous words that open the book: &#8220;All that you touch / You change. / All that you Change / Changes you…&#8221; This prayer of divine interdependence is undoubtedly embodied in the work of Torkwase Dyson who choreographs conspiratory learning spaces for clandestine geographies that encourage those of us still undrowned to resist / breathe / listen / live. 
-    <br/><br/>
     {/* <div style={{ display: "flex", flexDirection: "column" }}>
       <SignatureContainer src={BirdnLava} alt="Torkwase Dyson, I Am Everything That Will Save Me #4 (Bird and Lava)" className="textinnerimg sqr amadine" />
     </div>
@@ -158,6 +157,15 @@ export function Article() {
     <br/>
     <span className="centered"> Torkwase Dyson, Clandestine Geography <i> &#40;Hypershape&#41;, </i> 2022, wood, graphite, and acrylic, 121.9 x 114.3 x 3.8 cm. </span> */}
     </p>
+    <pre id="article" />
+          <div
+            style={{
+              marginTop: "112px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <span className="footnotes amadine">
     <p>
     <ol>

@@ -134,7 +134,15 @@ export function Article() {
     <br/><br/>
     For who else are we to be except ourselves?
     </p>
-    <br/>
+    <pre id="article" />
+          <div
+            style={{
+              marginTop: "112px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <span className="footnotes rikki">
     <p>
     <ol>

@@ -68,7 +68,15 @@ In a third large figurative piece titled <i> All Night </i> &#40;2021&#41;, ther
 <br/><br/>
 Simpson attests to this by making constellations of Black women. They tell stories and history. They also reorder knowledge, attesting to the value of both study and creation. Most of all, to my mind, is that they guide us through the bitter and sweetness of the blues.
     </p>
-    <br/>
+    <pre id="article" />
+          <div
+            style={{
+              marginTop: "112px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <span className="footnotes imani">
     <p>
     <ol>

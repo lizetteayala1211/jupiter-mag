@@ -98,7 +98,15 @@ export function Article() {
     <br/>
     <i> &#8211;Octavia E. Butler </i>
     </p>
-    <br/>
+    <pre id="article" />
+          <div
+            style={{
+              marginTop: "112px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <span className="footnotes daria">
     <p>
     <ol>
