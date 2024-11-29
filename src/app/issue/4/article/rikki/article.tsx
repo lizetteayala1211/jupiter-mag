@@ -23,9 +23,10 @@ export function Article() {
     <ArticleStyles>
     <br/>
     <div>
-    <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
+    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
       <SignatureContainer src={RikkiTitleCard} alt="Rikki Title Card" className="titlecard" />
-    </div>
+    </div> */}
+    <h1> RIKKI </h1>
     <br/>
     <p className="Rikki-Byrd-04">
     <span className="centered"> I. </span>
@@ -171,7 +172,7 @@ export function Article() {
     <br/>
     <span className="centered small bio"> Photo by Jeremy Franklin. </span>
     <br/>
-    <p className="bio-medium"> Rhya Marlene Moffitt is a PhD Candidate in the Black Studies cohort in the Department of English Language and Literature at the University of Chicago. Rhya is currently writing a dissertation that explores Black anxiety, madness, and the process of coming to a Black feminist consciousness. Her writing has been published in <i> Contemporaries, The Routledge Handbook of CoFuturisms, MELUS, </i> and elsewhere. Rhya is also an educator and curriculum designer with experience teaching middle schoolers through undergraduates. 
+    <p className="bio-medium"> Dr. Rikki Byrd is a writer, educator, and curator. She is the founder of Black Fashion Archive and the co-founder of the Fashion and Race Syllabus, and is currently an Assistant Professor of Visual Culture Studies at the University of Texas at Austin, with a courtesy appointment in the Department of Art and Art History. Across her writing, teaching, and curatorial projects, she draws connections between Black aesthetic practices, including 20th and 21st century art, fashion studies, and performance. Dr. Byrd received her Ph.D. and Master of Arts in Black Studies from Northwestern University, a Master of Arts in Fashion Studies from Parsons School of Design, and a Bachelor of Journalism from the University of Missouri.
     </p>
     <br/><br/><br/>
     </div>

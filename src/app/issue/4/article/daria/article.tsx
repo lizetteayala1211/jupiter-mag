@@ -10,7 +10,7 @@ import "../../styles.css"
 import DariaTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-daria_02_05.jpg"
 import ShaperofGod from "../../../../../../public/photos/AArtist_REDCAT_ShaperOfGod_Install-01.jpg"
 import LosAngelesTimes from "../../../../../../public/photos/ASoG_Install18.jpg"
-import DariaBio from "../../../../../../public/photos/DariaSimoneHarperbyJasmineRose.jpg"
+import DariaBio from "../../../../../../public/photos/DariaSimoneHarperbyJasmineRose.png"
 
 export function Article() {
   return (

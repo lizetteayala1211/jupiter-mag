@@ -8,7 +8,7 @@ import { SignatureContainer, } from "../../styled"
 import "../../styles.css"
 
 import ImaniTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-imani_02_01.jpg"
-import ImaniBio from "../../../../../../public/photos/ImaniPerrybyKevinPeragine.jpg"
+import ImaniBio from "../../../../../../public/photos/ImaniPerrybyKevinPeragine.png"
 
 export function Article() {
   return (
