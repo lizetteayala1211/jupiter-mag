@@ -9,6 +9,7 @@ import "../../styles.css"
 
 import CamilleTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-camille_02_03.jpg"
 import SaltShed from "../../../../../../public/photos/salt-shed.jpg"
+import CamilleBio from "../../../../../../public/photos/Camille-Bacon-by-Taja-May.jpg"
 
 export function Article() {
   return (
@@ -93,7 +94,26 @@ export function Article() {
     </ol>
     </p>
     </span>
-    <br/><br/><br/><br/><br/><br/>
+    <pre id="contributor-bio" />
+          <div
+            style={{
+              marginTop: "112px",
+              marginBottom: "64px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
+    <br/>
+    <div style={{ display: "flex", flexDirection: "column", }}>
+        <SignatureContainer src={CamilleBio} alt="Photo by Taja May" className="bioimg" />
+    </div>
+    <br/>
+    <span className="centered small bio"> Photo by Taja May. </span>
+    <br/>
+    <p className="bio-medium"> Camille Bacon is a Chicago-based writer and the co-Founder/Editor in Chief of Jupiter Magazine. She is cultivating a "sweet black writing life" as informed by the words of Nikky Finney and the infinite wisdom of the Black feminist tradition more broadly. 
+    </p>
+    <br/><br/><br/>
     </div>
     </ArticleStyles>
   )

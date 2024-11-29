@@ -12,6 +12,7 @@ import Indeterminacy from "../../../../../../public/photos/indeterminacy.png"
 import BirdnLava from "../../../../../../public/photos/bird-and-lava.png"
 import Blackwater from "../../../../../../public/photos/black-water.png"
 import Hypershape from "../../../../../../public/photos/hypershape.png"
+import AmandineBio from "../../../../../../public/photos/AmandineNanaPhotobyWilliamDaupinartworkbyTanoaSasraku.jpg"
 
 export function Article() {
   return (
@@ -184,7 +185,26 @@ export function Article() {
     </ol>
     </p>
     </span>
-    <br/><br/><br/><br/><br/><br/>
+    <pre id="contributor-bio" />
+          <div
+            style={{
+              marginTop: "112px",
+              marginBottom: "64px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
+    <br/>
+    <div style={{ display: "flex", flexDirection: "column", }}>
+        <SignatureContainer src={AmandineBio} alt="Photo by William Daupin. Artwork by Tanoa Sasraku." className="bioimg" />
+    </div>
+    <br/>
+    <span className="centered small bio"> Photo by William Daupin. Artwork by Tanoa Sasraku. </span>
+    <br/>
+    <p className="bio-medium"> Amandine Nana is a writer, poet, curator, editor and researcher. She has been a full time curator at Palais de Tokyo in Paris since 2023 where she curated in 2024 &#8220;Tituba, qui pour nous protéger ?&#8221; &#91;Tituba, who protects us ?&#93;  a transnational group show inspired by Maryse Condé worldbuilding and meditating on the relationship between grief, migration, memory and ancestrality. Trained between Paris, Dakar and New York as an art historian and urbanist with a background in Humanities &#40;École Normale Supérieure Ulm, Sciences Po Paris, Sorbonne University, Columbia University&#41;, she specialized in African & Diaspora studies. In her multidisciplinary practice she is particularly interested in the role of storytelling, myths, archives, black geographies, and collaborative, spatial, participatory practices nurtured by critical pedagogies in the arts. As an independent writer and thinker she kept experimenting with, following the words of Edwidge Danticat the meaning as an immigrant to &#8220;create dangerously, for people who read dangerously&#8221; and to cultivate the intellectual, aesthetic and freedom tradition of black women across the Atlantic. She is also in Paris the founder of Transplantation, a non-profit socio-cultural organization, art and reading space and the EIC of Air Afrique magazine.
+    </p>
+    <br/><br/><br/>
     </div>
     </ArticleStyles>
   )

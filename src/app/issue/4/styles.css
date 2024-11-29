@@ -663,6 +663,30 @@ img {
 }
 
 
+
+.bio-medium {
+    font-size: 16px;
+    line-height: 160% !important;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: white;
+    /* width: 75% !important; */
+    /* opacity: .85; */
+    text-align: center;
+}
+
+span.centered.small.bio {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    line-height: 145%;
+    /* padding-left: 5em;
+    padding-right: 5em; */
+    text-align: center;
+}
+
+
 /* <!-- Tablet Device CSS --> */  
 @media only screen and (min-width: 450px) and (max-width: 770px) {
     .blog-collection {
@@ -745,6 +769,17 @@ img {
     body > div > section.sc-iKOmoZ.ljvOYM > main > section.sc-ejCKsa.iJmHMD > div:nth-child(1) {
         right: 90px !important;
     }
+
+    .bio-medium {
+        font-size: 16px;
+        line-height: 160% !important;
+        padding-left: 4em;
+        padding-right: 4em;
+        color: white;
+        /* width: 75% !important; */
+        /* opacity: .85; */
+        text-align: center;
+    }
 }
 
 /* <!-- Mobile Device CSS (XS Screens) --> */  
@@ -809,6 +844,17 @@ img {
 
     body > div > section.sc-iKOmoZ.ljvOYM > main > section.sc-ejCKsa.iJmHMD > div:nth-child(1) {
         right: 10px !important;
+    }
+
+    .bio-medium {
+        font-size: 16px;
+        line-height: 160% !important;
+        padding-left: 0em;
+        padding-right: 0em;
+        
+        /* width: 75% !important; */
+        /* opacity: .85; */
+        text-align: center;
     }
 
 }

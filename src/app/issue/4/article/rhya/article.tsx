@@ -17,6 +17,7 @@ import Universe from "../../../../../../public/photos/06_Gray-Center_vanessa-ger
 import LoveSong from "../../../../../../public/photos/07_Gray-Center_vanessa-german.jpg"
 import AltarofLove from "../../../../../../public/photos/08_Gray-Center_vanessa-german.jpg"
 import AltarofGrief from "../../../../../../public/photos/09_Gray-Center_vanessa-german.jpg"
+import RhyaBio from "../../../../../../public/photos/RhyaMarleneMoffittbyJeremyFranklin.jpg"
 
 export function Article() {
   return (
@@ -214,7 +215,26 @@ export function Article() {
     </ol>
     </p>
     </span>
-    <br/><br/><br/><br/><br/><br/>
+    <pre id="contributor-bio" />
+          <div
+            style={{
+              marginTop: "112px",
+              marginBottom: "64px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
+    <br/>
+    <div style={{ display: "flex", flexDirection: "column", }}>
+        <SignatureContainer src={RhyaBio} alt="Photo by Jeremy Franklin" className="bioimg" />
+    </div>
+    <br/>
+    <span className="centered small bio"> Photo by Jeremy Franklin. </span>
+    <br/>
+    <p className="bio-medium"> Rhya Marlene Moffitt is a PhD Candidate in the Black Studies cohort in the Department of English Language and Literature at the University of Chicago. Rhya is currently writing a dissertation that explores Black anxiety, madness, and the process of coming to a Black feminist consciousness. Her writing has been published in <i> Contemporaries, The Routledge Handbook of CoFuturisms, MELUS, </i> and elsewhere. Rhya is also an educator and curriculum designer with experience teaching middle schoolers through undergraduates. 
+    </p>
+    <br/><br/><br/>
     </div>
     </ArticleStyles>
   )

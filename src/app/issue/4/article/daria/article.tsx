@@ -10,6 +10,7 @@ import "../../styles.css"
 import DariaTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-daria_02_05.jpg"
 import ShaperofGod from "../../../../../../public/photos/AArtist_REDCAT_ShaperOfGod_Install-01.jpg"
 import LosAngelesTimes from "../../../../../../public/photos/ASoG_Install18.jpg"
+import DariaBio from "../../../../../../public/photos/DariaSimoneHarperbyJasmineRose.jpg"
 
 export function Article() {
   return (
@@ -119,7 +120,26 @@ export function Article() {
     </ol>
     </p>
     </span>
-    <br/><br/><br/><br/><br/><br/>
+    <pre id="contributor-bio" />
+          <div
+            style={{
+              marginTop: "112px",
+              marginBottom: "64px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
+    <br/>
+    <div style={{ display: "flex", flexDirection: "column", }}>
+        <SignatureContainer src={DariaBio} alt="Photo by Jasmine Rose" className="bioimg" />
+    </div>
+    <br/>
+    <span className="centered small bio"> Photo by Jasmine Rose. </span>
+    <br/>
+    <p className="bio-medium"> Daria Simone Harper is a Brooklyn-based art writer and the co-Editor in Chief of Jupiter Magazine. She is a former Assistant Editor of Digital Content at David Zwirner in New York. Her work has been featured in publications including Burnaway Magazine, Cultured Magazine, ESSENCE, Hyperallergic, i-D, and W Magazine, among others. Harper is also the founder of The Art of It All, an arts and culture podcast featuring candid conversations amongst emerging and established artists of color about work, life, and spirituality.
+    </p>
+    <br/><br/><br/>
     </div>
     </ArticleStyles>
   )

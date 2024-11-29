@@ -15,6 +15,7 @@ import BabyBling from "../../../../../../public/photos/baby-bling.jpg"
 import RoofGarden1 from "../../../../../../public/photos/1.DP-27270-004-JPGCourtesyTheMet.jpg"
 import RoofGarden2 from "../../../../../../public/photos/19.DP-27509-009-JPGCourtesyTheMet.jpg"
 import Childhood from "../../../../../../public/photos/Photograph-of-the-author-on-the-front-porch-of-her-childhood-home.jpg"
+import RikkiBio from "../../../../../../public/photos/RikkiByrdbyLawrenceAgyei.jpg"
 
 
 export function Article() {
@@ -153,7 +154,26 @@ export function Article() {
     </ol>
     </p>
     </span>
-    <br/><br/><br/><br/><br/><br/>
+    <pre id="contributor-bio" />
+          <div
+            style={{
+              marginTop: "112px",
+              marginBottom: "64px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
+    <br/>
+    <div style={{ display: "flex", flexDirection: "column", }}>
+        <SignatureContainer src={RikkiBio} alt="Photo by Jeremy Franklin" className="bioimg" />
+    </div>
+    <br/>
+    <span className="centered small bio"> Photo by Jeremy Franklin. </span>
+    <br/>
+    <p className="bio-medium"> Rhya Marlene Moffitt is a PhD Candidate in the Black Studies cohort in the Department of English Language and Literature at the University of Chicago. Rhya is currently writing a dissertation that explores Black anxiety, madness, and the process of coming to a Black feminist consciousness. Her writing has been published in <i> Contemporaries, The Routledge Handbook of CoFuturisms, MELUS, </i> and elsewhere. Rhya is also an educator and curriculum designer with experience teaching middle schoolers through undergraduates. 
+    </p>
+    <br/><br/><br/>
     </div>
     </ArticleStyles>
   )

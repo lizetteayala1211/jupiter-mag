@@ -170,7 +170,7 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
 
   @media only screen and (min-width: 780px) and (max-width: 1550px) {
     div {
-    padding: 0 25% !important;
+    padding: 0 20% !important;
   }
   }
 

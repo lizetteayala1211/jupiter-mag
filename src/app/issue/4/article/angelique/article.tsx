@@ -20,6 +20,7 @@ import AbideWithMe3 from "../../../../../../public/photos/Still5AbideWithM.jpeg"
 import MuhammadAli from "../../../../../../public/photos/Image7.jpg"
 import JeromeRobbinsDanceDivision1 from "../../../../../../public/photos/Image8_Front.jpg"
 import JeromeRobbinsDanceDivision2 from "../../../../../../public/photos/Image8_Back.jpg"
+import AngeliqueBio from "../../../../../../public/photos/AngeliqueRosalesSalgadobyDeonteLee.jpg"
 
 export function Article() {
   return (
@@ -219,6 +220,26 @@ She is now dreaming up a future project that sets out to reimagine <i> Cry, </i>
     </ol>
     </p>
     </span>
+    <pre id="contributor-bio" />
+          <div
+            style={{
+              marginTop: "112px",
+              marginBottom: "64px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
+    <br/>
+    <div style={{ display: "flex", flexDirection: "column", }}>
+        <SignatureContainer src={AngeliqueBio} alt="Photo by Deonte Lee" className="bioimg" />
+    </div>
+    <br/>
+    <span className="centered small bio"> Photo by Deonte Lee. </span>
+    <br/>
+    <p className="bio-medium"> Angelique Rosales Salgado &#40;Ciudad de México, México&#41; is a curator and writer based in New York City. Their curatorial, research, and creative practice is grounded in queer study, and focuses on performance, experimental dance, collective work, and time-based media. They have curated, produced, co-organized, and supported numerous exhibitions, commissions, live works, online programs, and artistic projects. Currently they are curatorial assistant at The Kitchen, and have held curatorial positions at Pioneer Works, The Museum of Modern Art, and the Studio Museum in Harlem.
+    </p>
+    <br/><br/><br/>
     </div>
     </ArticleStyles>
   )

@@ -8,6 +8,7 @@ import { SignatureContainer, } from "../../styled"
 import "../../styles.css"
 
 import ImaniTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-imani_02_01.jpg"
+import ImaniBio from "../../../../../../public/photos/ImaniPerrybyKevinPeragine.jpg"
 
 export function Article() {
   return (
@@ -85,7 +86,26 @@ Simpson attests to this by making constellations of Black women. They tell stori
     </ol>
     </p>
     </span>
-    <br/><br/><br/><br/><br/><br/>
+    <pre id="contributor-bio" />
+          <div
+            style={{
+              marginTop: "112px",
+              marginBottom: "64px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
+    <br/>
+    <div style={{ display: "flex", flexDirection: "column", }}>
+        <SignatureContainer src={ImaniBio} alt="Photo by Kevin Peragine" className="bioimg" />
+    </div>
+    <br/>
+    <span className="centered small bio"> Photo by Kevin Peragine. </span>
+    <br/>
+    <p className="bio-medium"> Imani Perry is the Henry A. Morss, Jr. and Elisabeth W. Morss Professor of Studies of Women, Gender and Sexuality and of African and African American Studies at Harvard University and the Carol K. Pforzheimer Professor at Harvard Radcliffe Institute. Perry is the author of 8 books, including the  New York Times Bestseller South to America: A Journey Below the Mason Dixon to Understand the Soul of a Nation which received the 2022 National Book Award for Nonfiction and the inaugural Inside Literary Prize, the only U.S. literary prize judged by incarcerated people. <br/><br/> Perry's other award winning titles include: May We Forever Stand: A History of the Black National Anthem, Breathe: A Letter to My Sons, and Looking for Lorraine: The Radiant and Radical Life of Lorraine Hansberry. Perry has written for numerous publications including: The New York Times, The Atlantic, Harper's and Harpers Bazaar. She is a 2023 MacArthur Foundation Fellow. She has also received Guggenheim and Pew Fellowships. Her next book: Black in Blues: How a Color Tells The Story of My People, will be published in January of 2025.
+    </p>
+    <br/><br/><br/>
     </div>
     </ArticleStyles>
   )
