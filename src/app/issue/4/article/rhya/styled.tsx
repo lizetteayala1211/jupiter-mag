@@ -94,9 +94,9 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     widows: 2;
     text-align: left;
   }
-  div {
+  /* div {
     padding: 0 25%;
-  }
+  } */
   li {
     /* color: #000000; */
     color: white;
@@ -166,5 +166,21 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     orphans: 2;
     widows: 2;
     text-align: left;
+  }
+
+  @media only screen and (min-width: 780px) and (max-width: 1550px) {
+    div {
+    padding: 0 25% !important;
+  }
+  }
+
+  @media only screen and (min-width: 450px) and (max-width: 770px) {
+    div {
+    padding: 0 10% !important;
+  }
+  }
+
+  @media only screen and (min-width: 320px) and (max-device-width : 450px) {
+    padding: 0 15% !important;
   }
 `
