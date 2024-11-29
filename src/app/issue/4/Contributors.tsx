@@ -32,6 +32,8 @@ export function Contributors() {
                 position: "relative",
                 right: "150px"
             }}
+
+            className="pre-grid-wrap"
         >
 
             {/* <div id="menu-button">
@@ -114,7 +116,7 @@ export function Contributors() {
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
-                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }}>
+                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }} className="arrow-wrapper">
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
@@ -133,7 +135,7 @@ export function Contributors() {
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
-                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }}>
+                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }} className="arrow-wrapper">
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
@@ -152,7 +154,7 @@ export function Contributors() {
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
-                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }}>
+                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }} className="arrow-wrapper">
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
@@ -171,7 +173,7 @@ export function Contributors() {
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
-                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }}>
+                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }} className="arrow-wrapper">
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
@@ -190,7 +192,7 @@ export function Contributors() {
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
-                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }}>
+                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }} className="arrow-wrapper">
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
@@ -209,7 +211,7 @@ export function Contributors() {
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
-                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }}>
+                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }} className="arrow-wrapper">
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
@@ -228,7 +230,7 @@ export function Contributors() {
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
-                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }}>
+                                            <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }} className="arrow-wrapper">
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
@@ -245,9 +247,6 @@ export function Contributors() {
                     </div>
                 </div>
             </div>
-
-            <div className=""></div>
-
 
         </div>
     )

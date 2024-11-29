@@ -706,6 +706,11 @@ span.centered.small.bio {
 
 /* <!-- Tablet Device CSS --> */  
 @media only screen and (min-width: 450px) and (max-width: 770px) {
+
+    .pre-grid-wrap {
+        right: 80px !important;
+    }
+
     .blog-collection {
         position: static;
         grid-area: 1 / 2 / span 1 !important;
@@ -807,6 +812,10 @@ span.centered.small.bio {
         align-self: center;
     }
 
+    .pre-grid-wrap {
+        right: 10px !important;
+    }
+
     .blog-collection {
         padding-left: 0vw;
     }
@@ -853,6 +862,31 @@ span.centered.small.bio {
     .blog-item.seventh {
         grid-column-start: auto;
         /* grid-row-start: auto; */
+    }
+
+    .paragraph-small {
+        font-size: 3.5vw !important;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        line-height: 125%;
+    }
+
+    .square-block_top.has--align-right {
+        width: 95% !important;
+        margin-top: 10px !important;
+    }
+
+    .arrow-wrapper {
+        display: flex;
+        width: 10% !important;
+    }
+
+    .arrow-icon.is--large {
+        width: 8vw;
+        height: 4vw;
+        margin-bottom: 0;
+        /* margin-left: .8vw; */
+        margin-right: 5vw;
     }
 
     .background-grid {

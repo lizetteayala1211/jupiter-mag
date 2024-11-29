@@ -75,9 +75,9 @@ export default function Page() {
             Daria Simone Harper
           </div>
         </SignaturesSection>
+        <br/><br/><br/><br/>
         <Contributors />
         {/* <AuthorDirectory homepage /> */}
-
         <pre id="colophon" />
           <div
             style={{
