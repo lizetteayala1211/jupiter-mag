@@ -60,7 +60,7 @@ export function Article() {
     little by little,
     <br/>
     dream lesson by dream lesson&#8221;<sup><a href="#fn2" id="ref2">2</a></sup>
-    <br/><br/>
+    <br/>
     <i> She had an intimate knowledge /
     But she was still gripped by the fear / 
     Of not being able to control her direction </i>
@@ -92,16 +92,16 @@ export function Article() {
     Movement, both forced and chosen, necessitates retreat spaces, where the imaginary can continue to breathe, and this is exactly what Torkwase&#39;s sculptures, namely those presented in a 2022 exhibition titled <a href="https://www.pacegallery.com/exhibitions/torkwase-dyson-liquid-belonging/" target="_blank" className="styled"> <i> A Liquid Belonging </i> </a> and <a href="https://whitney.org/exhibitions/torkwase-dyson" target="_blank" className="styled"> <i> Liquid Shadows, Solid Dreams &#40;A Monastic Playground&#41;, </i> </a> 2024&#8208;2025 allow for. The geographies she summons by way of her geometries are complex micropolitical horizons, lands of <i> honest </i> refuge. In the presence of her work, we are invited to err, drift, but also sit, gather ourselves and learn to visualize &#8220;little by little, dream lesson by dream lesson&#8221; the creation of livable geographies, livable worlds. 
     <br/><br/>
     Relatedly, in a 2005 open letter to the French Minister of the Interior, Glissant and fellow Martinican writer Patrick Chamoiseau speak about how our relational identities &#8220;still struggle to find their place in archaic Republics, and yet the imprecations they incite often express a desire to participate in an alter-Republic.&#8221; In Torkwase&#39;s drawings, paintings, and sculptures &#40;portals&#41;, I recognize my own deep-seated desire to partake in an &#8220;alter-Republic&#8221; in order to &#8220;be able to experience the world in its diversity&#8221;—far removed from the always more &#8220;archaic&#8221; political horizons of our normative nation states. Still, to construct and inhabit an &#8220;alter-Republic,&#8221;<sup><a href="#fn8" id="ref8">8</a></sup> we have to build these geometries of resistance, to move, to improvise, to produce and trace borderless territories and to continue to experiment, somehow, toward freedom. In Torkwase&#39;s compositions, in her political and romantic lines of flight, I hear an echo of <a href="https://www.youtube.com/watch?v=ttZxpB77LWY" target="_blank" className="styled"> Kelela singing </a> &#8220;over the line, but it feels just right, right, right, right…&#8221;
-    <br/><br/><br/><br/>
-    # Space 1, Giverny, France, July 2024
+    <br/><br/>
+    <i> # Space 1, Giverny, France, July 2024 </i>
     <br/><br/>
     On a summer evening in Giverny, while gathered with other thinking and artistic souls at the Terra Foundation for American Art&#39;s &#8220;Water Holds Memory&#8221; residency, I listened passionately to Torkwase orating her experiences of scuba diving in Cape Town, South Africa. As she spoke, I drew on my own memories of aquatic submersion to feel the sensations she was evoking. By art of narration and conversation her words fused with my own imagination and created a portal to a submarine universe where, perhaps, beings like us could find breath again. 
     <br/><br/>
     Lately, I&#39;ve been breathless—more intensely so than usual. Amidst these last few weeks, I&#39;ve held more memories of inhaling and holding my breath than of deeply exhaling. My body and soul were &#40;and still are&#41; brutalized by months of genocides witnessed on screens, as well as the political crisis we&#39;ve been facing in France following the far right&#39;s victory at the European Union elections and the French President&#39;s historically unprecedented decision to dissolve the lower house of the Parliament and hold new elections. What we call the &#8220;corps politique&#8221; &#40;political body&#41; was dissolving and taking us—the already fragmented social body—into the throes of this dissolution. 
     <br/><br/>
     As Torkwase mused on in Giverny, I conjured in my mind-spirit&#39;s eye the fascination of experiencing one&#39;s body in water—light yet dense, striving not to disappear. I had a deep desire for the &#8220;liquid belonging&#8221; she expresses in her works: solidity in a liquid state, a refusal to dissipate that carries with it the memory and grief of the lives of enslaved people and refugees lost to the Atlantic Ocean or the Mediterranean sea. I realized that perhaps I simply needed to go back to the water, to submerge myself and remember: <i> I cannot be dissolved. We remain: <a href="https://www.instagram.com/torkwasedyson/p/DBoWIrCxkeC/?img_index=1" target="_blank" className="styled"> &#8220;undrowned.&#8221; </a> </i> 
-    <br/><br/><br/><br/>
-    # Space 2, Grand-Bassam, Ivory Coast, August 2024
+    <br/><br/>
+    <i> # Space 2, Grand-Bassam, Ivory Coast, August 2024 </i>
     <br/><br/>
     I ran away from Abidjan. Seized by an irrepressible desire for the reverberations of the Atlantic waves and for deambulatory errantries. Walking aimlessly is no small task in large African cities where the concept of sidewalks is reduced to a strict functional and economic medium. I found refuge in Grand-Bassam: a coastal city about a 2 hour drive from the metropolis, and, more specifically, in the Quartier-France which was the former colonial capital. <i> &#40;Why do we find so much charm in these colonial architectures?&#41; </i>
     <br/><br/>
@@ -127,8 +127,8 @@ export function Article() {
     The scraps of rafts I stumble upon in my mind bear the specter of an architecture of survival manifested in Torkwase&#39;s 2019 exhibition <a href="https://www.arch.columbia.edu/exhibitions/114-1919-black-water" target="_blank" className="styled"> <i> 1919: Black Water. </i> </a> In a series of paintings and sculptures, she assembled a memorial to the dreams of borderlessness, desegregation, and re-creative mobility that animated five teenagers in the days before Chicago&#39;s &#8220;Red Summer&#8221; in 1919 as they built a raft to freely navigate Lake Michigan. This architectural gesture and carpentrystic freedom song turned to tragedy as one of the boys, Eugene Williams, drowned after a white person who, irate at the sight of Black boys in glee on their raft, launched a stone at Williams&#39;s head as if it was a bullseye after the wooden structure drifted onto the so-called &#8220;white&#8221; side of the lakefront. 
     <br/><br/>
     The works presented at this installation <i> &#40;Hot Cold; Just Above and Just Below; Place, Raft, and Drift; Plantationocene; Being-Seeing-Drifting, 2019&#41; </i> display a quasi-aerial viewpoint. They offer perspectives on a landscape of borders and obstacles, but also on strategies of mobility and movement, on the very acts of resistance these teenagers expressed, at the cost of one of their lives. Because Torkwase paints and sculpts altars of remembrance, I wonder: Do the <i> bits of wood embedded in the middle of Torkwase&#39;s paintings manifest that raft? </i> Because water is such a dense black and dark blue pigmented matter in her work I wonder: How do we mourn across water? How does mourning and grief connect Lake Michigan to the Atlantic? Water, in Torkwase&#39;s vision, does not fear to face its ghosts, but yet shelters in abyss-histories, geometries of resistance and flight. Lines, curves, triangles, squares, all empty and full, all shapes born anew from formless mass.
-    <br/><br/><br/><br/>
-    # Space 3, Undrowning, November 2024
+    <br/><br/>
+    <i> # Space 3, Undrowning, November 2024 </i>
     <br/><br/>
     Returning to Lauren Olamina who, indeed,
     <br/>
@@ -140,25 +140,24 @@ export function Article() {
     <br/>
     calls me to revere that, after all, this is what our ancestors across the Black Atlantic have been teaching us: moving through indeterminacy is a methodology of continual adaptation and mutation. Though Lauren fears not being able to control her direction in a post-apocalyptic world full of violence and disfigured by global warming and extractivism &#40;one that is not that far from to the one we are currently living in&#41;, her intimate knowledge guides the miraculous words that open the book: &#8220;All that you touch / You change. / All that you Change / Changes you…&#8221; This prayer of divine interdependence is undoubtedly embodied in the work of Torkwase Dyson who choreographs conspiratory learning spaces for clandestine geographies that encourage those of us still undrowned to resist / breathe / listen / live. 
     <br/><br/>
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    {/* <div style={{ display: "flex", flexDirection: "column" }}>
       <SignatureContainer src={BirdnLava} alt="Torkwase Dyson, I Am Everything That Will Save Me #4 (Bird and Lava)" className="textinnerimg sqr amadine" />
     </div>
     <br/>
     <span className="centered"> Torkwase Dyson, <i> I Am Everything That Will Save Me #4 </i> &#40;Bird and Lava&#41;, 2021, acrylic, string, and graphite on wood, 153 cm &#40;diameter&#41;. © the artist. Courtesy Pace Gallery </span>
-    <br/><br/>
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <br/><br/> */}
+    {/* <div style={{ display: "flex", flexDirection: "column" }}>
       <SignatureContainer src={Blackwater} alt="Installation view of Torkwase Dyson&#39;s exhibition “1919: Black Water”" className="textinnerimg hor amadine" />
     </div>
     <br/>
     <span className="centered"> Installation view of Torkwase Dyson&#39;s exhibition &#8220;1919: Black Water&#8221; at Arthur Ross Architecture Gallery, New York, 2019. </span>
-    <br/><br/>
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <br/><br/> */}
+    {/* <div style={{ display: "flex", flexDirection: "column" }}>
       <SignatureContainer src={Hypershape} alt="Torkwase Dyson, Clandestine Geography (Hypershape)" className="textinnerimg sqr amadine" />
     </div>
     <br/>
-    <span className="centered"> Torkwase Dyson, Clandestine Geography <i> &#40;Hypershape&#41;, </i> 2022, wood, graphite, and acrylic, 121.9 x 114.3 x 3.8 cm. </span>
+    <span className="centered"> Torkwase Dyson, Clandestine Geography <i> &#40;Hypershape&#41;, </i> 2022, wood, graphite, and acrylic, 121.9 x 114.3 x 3.8 cm. </span> */}
     </p>
-    <br/>
     <span className="footnotes amadine">
     <p>
     <ol>

@@ -207,22 +207,22 @@ import {
 
     @media only screen and (min-width: ${screenSmMin}) {
       position: relative;
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-end;
-      padding-left: 5vw;
-      padding-right: 7vw;
-      padding-bottom: 45vw;
-      bottom: 1600px; 
+      padding-left: 200px;
+      padding-right: 0vw;
+      padding-bottom: 0vw;
+      bottom: 150px; 
     }
 
     @media only screen and (min-width: ${screenMdMin}) {
       position: relative;
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-end;
       gap: 4em;
-      padding-left: 0vw;
+      padding-left: 350px;
       /* padding-right: 4vw; */
-      bottom: 1000px; 
+      bottom: 0px; 
       /* left: 300px; */
       /* padding-bottom: 300vw; */
     }

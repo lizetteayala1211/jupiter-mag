@@ -31,8 +31,9 @@ export function Article() {
         <span className="right"> &#8220;Saturday, July 20, 2024
         <br/>
         All that you touch
-        <br/><br/>
+        <br/>
         You Change.
+        <br/><br/>
         All that you Change
         <br/><br/>
         Changes you.&#8221;

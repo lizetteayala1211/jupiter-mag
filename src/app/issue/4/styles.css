@@ -153,16 +153,11 @@ hr {
 }
 
 /* Text Indentation (All Lines) */
-p > span.indentation {
-    display: inline-flex;
-    padding-left: 4em;
-}
-
-/* Text Indentation (First Lines) */
 p > span.light-indentation {
     /* display: inline-flex; */
     /* display:inline; */
-    display: block;
+    padding-left: 4em;
+    display: block !important;
     text-indent: 50px !important;
 }
 

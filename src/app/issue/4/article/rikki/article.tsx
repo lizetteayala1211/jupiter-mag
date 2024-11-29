@@ -41,7 +41,7 @@ export function Article() {
     <br/><br/>
     <span className="centered"> II. </span>
     <br/><br/>
-    Two days after the summer equinox in 2023, I arrived on the rooftop of The Metropolitan Museum of Art with a dear friend. We were greeted by two sphinxes made of hand-carved gypsum on wood. Set behind them were two towering pillars with pharoah-like figures atop them and a massive shrine of the same material, all in dedication to South Central Los Angeles. Titled <a href="https://www.metmuseum.org/exhibitions/roof-commission-lauren-halsey" target="_blank" className="styled"><i> the eastside of south central los angeles hieroglyph prototype architecture &#40;I&#41;</i>, </a> Halsey&#39;s sculpture was commissioned by the museum for its Roof Garden. Welcoming museum visitors to walk and linger around and inside of the sculpture, the work was as devotional as it was invitational. 
+    Two days after the summer equinox in 2023, I arrived on the rooftop of The Metropolitan Museum of Art with a dear friend. We were greeted by two sphinxes made of hand-carved gypsum on wood. Set behind them were two towering pillars with pharoah figures atop them and a massive shrine of the same material, all in dedication to South Central Los Angeles. Titled <a href="https://www.metmuseum.org/exhibitions/roof-commission-lauren-halsey" target="_blank" className="styled"><i> the eastside of south central los angeles hieroglyph prototype architecture &#40;I&#41;</i>, </a> Halsey&#39;s sculpture was commissioned by the museum for its Roof Garden. Welcoming museum visitors to walk and linger around and inside of the sculpture, the work was as devotional as it was invitational. 
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
       <SignatureContainer src={RoofGarden1} alt="Installation view of The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture (I), (2022) © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz" />
     </div>
@@ -141,7 +141,7 @@ export function Article() {
     <ol>
         <li id="fn1"> TK Smith, “Monumental Futures,” <i>Art Papers,</i> 44, no. 2 &#40;Fall/Winter 2020&#41;: 26-31, 27. <a href="#ref1">↩</a></li> <br/>
         <li id="fn2"> Jennifer Nash, “Writing Black Beauty,” <i> Signs: Journal of Women in Culture and Society </i> 45, 1 &#40;2019&#41;: 101&#8208;122. <a href="#ref2">↩</a></li> <br/>
-        <li id="fn3"> Jennifer Nash, How We Write Now: Living with Black Feminist Theory, &#40;Durham: Duke University Press, 2024&#41;, 5. <a href="#ref3">↩</a></li> <br/>
+        <li id="fn3"> Jennifer Nash, <i> How We Write Now: Living with Black Feminist Theory, </i> &#40;Durham: Duke University Press, 2024&#41;, 5. <a href="#ref3">↩</a></li> <br/>
         <li id="fn4"> Lucille Clifton, “won&#39;t you celebrate with me,” in <i> Book of Light, </i> ed. &#40;Copper Canyon Press, 1993&#41; <a href="#ref4">↩</a></li> <br/>
     </ol>
     </p>

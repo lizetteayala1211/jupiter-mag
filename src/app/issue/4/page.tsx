@@ -44,20 +44,24 @@ export default function Page() {
           </div>
         </LottieSection>
 
-        {/* <LogoSection>
+        <LogoSection>
           <JupiterLogo color="white" width={143} height={53} />
-        </LogoSection> */}
+        </LogoSection>
 
-        {/* <EditorsNoteTitleSection>
+        <EditorsNoteTitleSection>
           <pre id="editorsNote"/>
           <div>Editor&apos;s</div>
           <div>Note</div>
         </EditorsNoteTitleSection>
         <EditorsNoteSection>
           <EditorsNoteCopy />
-        </EditorsNoteSection> */}
+        </EditorsNoteSection>
+{/* 
+          <ContentSection>
+          </ContentSection> */}
 
-        {/* <SignaturesSection>
+        <ContentSection>
+        <SignaturesSection>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <SignatureContainer
               src={camilleSignature}
@@ -70,12 +74,7 @@ export default function Page() {
             <SignatureContainer src={dariaSignature} alt="Signature of Daria" className="daria-sig" />
             Daria Simone Harper
           </div>
-        </SignaturesSection> */}
-
-          <ContentSection>
-          </ContentSection>
-
-        <ContentSection>
+        </SignaturesSection>
         {/* <Contributors />
         <AuthorDirectory homepage /> */}
 
@@ -129,16 +128,9 @@ function EditorsNoteCopy() {
     <br/><br/>
     Likewise, the writers gathered here &#40;Imani Perry, Amandine Nana, Rhya Marlene Moffitt, Angelique Rosales Salgado, Rikki Byrd, as well as Daria and I&#41;, and the artists we weave worlds of language around &#40;Lorna Simpson, Torkwase Dyson, vanessa german, Harmony Holiday, Lauren Halsey, Tiff Massey, American Artist, and Kelela&#41; inflect our horizon of contemporary cultural production with incandescent lightning rods that electrify our impulses toward cultivating the insurgent imaginations we need to survive amidst an ongoing condition wherein &#8220;there is no end to what a living world will demand of you.&#8221; Each of the writers holding hands across this table of contents and those they&#39;ve chosen to build relation with through the page continue this legacy of grappling earnestly with what our living requires. We hope that the <i> prophesying </i> encountered in this issue can focus the direction of and guide that adaptation as well.   
     <br/><br/>
-    Further, we adorn Butler herself, not just her writings, with the adjective of &#8220;prophetic.&#8221; As is the case in her works of fiction, Butler&#39;s interviews serve as anchoring warnings through which we may prepare ourselves to meet the world we have inherited with the sharp criticality and incisiveness we need to reshape it too. In <a href="https://charlierose.com/videos/28978" target="_blank" className="styled"> a conversation with Charlie Rose </a> conducted three weeks before her 53rd birthday, Butler said: &#8220;I&#39;ve been complaining about the number of would-be leaders who seem to be willing to sacrifice half their country if they can just rule over the rest. I mean, we seem to have had, since the end of the Cold War, too many people like that.&#8221; We are struck by how, though uttered in 2000, this statement could have emerged in response to the ongoing genocide in Gaza and the IOF&#39;s expansion into Lebanon and Iran, as well as the extractionist reign of terror &#40;perpetuated foremost by the United States&#41; that continues to wreak havoc both domestically and globally. 
+    Further, we adorn Butler herself, not just her writings, with the adjective of &#8220;prophetic.&#8221; As is the case in her works of fiction, Butlerr&#39;s interviews serve as anchoring warnings through which we may prepare ourselves to meet the world we have inherited with the sharp criticality and incisiveness we need to reshape it too. In <a href="https://charlierose.com/videos/28978" target="_blank" className="styled"> a conversation with Charlie Rose </a> conducted three weeks before her 53rd birthday, Butler said: &#8220;I&#39;ve been complaining about the number of would-be leaders who seem to be willing to sacrifice half their country if they can just rule over the rest. I mean, we seem to have had, since the end of the Cold War, too many people like that.&#8221; Though uttered in 2000, this statement certainly holds true today in response to the bevy of leaders whose dominion has proved to be a lethal force both domestically and globally. 
     <br/><br/>
-    In response to Butler&#39;s complaint, we maintain that experimental arts writing and cultural criticism can serve as one wrench in the operations of those &#8220;would-be leaders&#8221; who abide by the logics that feed the mouth of fascism. Here, we corroborate Mandy Harris Williams&#39;s essay &#8220; <a href="http://hman.love/journal/critique-as-care" target="_blank" className="styled"> Critique as Care </a>,&#8221; in which she states: &#8220;Critique holds fascism as its enemy. … With social and political criticism out of the way, fascism is left to flourish.&#8221; We hope you will engage with this issue basked in a solicitude for the worlds attuned to regard, civic responsibility, and mutual dependence from which Harris Williams&#39;s and Butler&#39;s statements, and those found in each of these contributions, emerge. 
-
-
-    <br/><br/>
-    Further, we adorn Butler herself, not just her writings, with the adjective of “prophetic.” As is the case in her works of fiction, Butlerr&#39;s interviews serve as anchoring warnings through which we may prepare ourselves to meet the world we have inherited with the sharp criticality and incisiveness we need to reshape it too. In <a href="https://charlierose.com/videos/28978" target="_blank" className="styled"> a conversation with Charlie Rose </a> conducted three weeks before her 53rd birthday, Butler said: “Ir&#39;ve been complaining about the number of would-be leaders who seem to be willing to sacrifice half their country if they can just rule over the rest. I mean, we seem to have had, since the end of the Cold War, too many people like that.” Though uttered in 2000, this statement certainly holds true today in response to the bevy of leaders whose dominion has proved to be a lethal force both domestically and globally. 
-    <br/><br/>
-    To this end, we corroborate Mandy Harris Williamsr&#39;s essay <a href="http://hman.love/journal/critique-as-care" target="_blank" className="styled"> Critique as Care </a>,&#8221; in which she states: “Critique holds fascism as its enemy. … With social and political criticism out of the way, fascism is left to flourish.” We maintain that experimental arts writing and cultural criticism can serve as one wrench in the operations of those “would-be leaders” who abide by the logics that feed the mouth of extractionist paradigms. We hope this issue attunes you to the regard, civic responsibility, and mutual dependence from which both Harris Williamsr&#39;s and Butler&#39;s statements, and those found in each of these contributions, emerge. 
-
+    To this end, we corroborate Mandy Harris Williamsr&#39;s essay <a href="http://hman.love/journal/critique-as-care" target="_blank" className="styled"> Critique as Care </a>,&#8221; in which she states: &#8220;Critique holds fascism as its enemy. … With social and political criticism out of the way, fascism is left to flourish.&#8221; We maintain that experimental arts writing and cultural criticism can serve as one wrench in the operations of those &#8220;would-be leaders&#8221; who abide by the logics that feed the mouth of extractionist paradigms. We hope this issue attunes you to the regard, civic responsibility, and mutual dependence from which both Harris Williamsr&#39;s and Butler&#39;s statements, and those found in each of these contributions, emerge. 
     </p>
     <br/><br/><br/><br/><br/><br/>
     </div>
