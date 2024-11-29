@@ -111,7 +111,7 @@ export function Article() {
     <br/>
     <span className="centered small bio"> Photo by Taja May. </span>
     <br/>
-    <p className="bio-medium"> Camille Bacon is a Chicago-based writer and the co-Founder/Editor in Chief of Jupiter Magazine. She is cultivating a "sweet black writing life" as informed by the words of Nikky Finney and the infinite wisdom of the Black feminist tradition more broadly. 
+    <p className="bio-medium"> Camille Bacon is a Chicago-based writer and the co-Founder/Editor in Chief of Jupiter Magazine. She is cultivating a &#8220;sweet black writing life&#8221; as informed by the words of Nikky Finney and the infinite wisdom of the Black feminist tradition more broadly. 
     </p>
     <br/><br/><br/>
     </div>
