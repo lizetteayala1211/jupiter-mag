@@ -28,7 +28,7 @@ export default function Mobile() {
         <h2 style={{ fontSize: "24px" }}>@jupiter.magazine</h2>
       </div>
 
-      <p style={{ maxWidth: "300px" }}>
+      {/* <p style={{ maxWidth: "300px" }}>
         For press requests, please contact Hannah Gottlieb-Graham at{" "}
         <a
           style={{ textDecoration: "underline" }}
@@ -36,7 +36,7 @@ export default function Mobile() {
         >
           ALMA
         </a>
-      </p>
+      </p> */}
       <ContactForm />
     </div>
   )
