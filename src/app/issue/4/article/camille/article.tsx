@@ -32,7 +32,7 @@ export function Article() {
       <SignatureContainer src={SaltShed} alt="Kelela performing at the Salt Shed by Joel Meinholz" className="textinnerimg hor camille" />
     </div>
     <br/>
-    <span className="centered"> Kelela performing at the Salt Shed by Joel Meinholz </span>
+    <span className="centered small"> Kelela performing at the Salt Shed by Joel Meinholz </span>
     <br/>  
     Several months earlier the moon yawned itself toward totality, giving all of us gathered at Good Room, Brooklyn <sup><a href="#fn1" id="ref1">1</a></sup> a beacon to howl at. I gathered there with two friends to attend Kelela&#39;s rave, where her recently released <a href="https://www.youtube.com/watch?v=5l3sE4Y5-vw&list=PLjpdY-hPtpeNy8wqkOwZXo4jMsz6u2yFR" target="_blank" className="styled"> RAVE:N, The Remixes </a>  was reinterpreted by DJs including BEARCAT, DJ SWISHA, and Niara Sterling &#40;among others&#41;, coalescing into a centripetal force of thrashing sound to spin, amplify, and release our storms of sentiment into. 
     <br/><br/>

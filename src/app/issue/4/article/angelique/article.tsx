@@ -43,7 +43,7 @@ Harmony&#39;s first solo exhibition <i> BLACK BACKSTAGE </i> &#40;March 21&#8208
   <SignatureContainer src={BlackBackstage} alt="Installation view, Harmony Holiday: BLACK BACKSTAGE, The Kitchen at Westbeth. Photo by Kyle Knodell. Courtesy of The Kitchen." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Installation view, Harmony Holiday: <i> BLACK BACKSTAGE, </i> he Kitchen at Westbeth, March 21&#8208;May 25, 2024. Photo by Kyle Knodell. <br/> Courtesy of The Kitchen. 
+<span className="centered small"> Installation view, Harmony Holiday: <i> BLACK BACKSTAGE, </i> he Kitchen at Westbeth, March 21&#8208;May 25, 2024. Photo by Kyle Knodell. Courtesy of The Kitchen. 
 </span>
 <br/>
 The project, in its prescience, is ongoing. It builds upon Harmony&#39;s latest book <i> MAAFA </i> &#40;2022&#41;, an epic poem that follows a Black female &#40;anti&#41;hero&#39;s journey. The term <i> maafa </i> is a Swahili word meaning &#8220;great disaster&#8221; or &#8220;terrible occurrence,&#8221; often used by Black people across a global diaspora in reference to the enduring legacy and epigenetic trauma of the transatlantic slave trade.<sup><a href="#fn2" id="ref2">2</a></sup> The work itself deals with the archetypes and sounds that form in and of the ruins after genocide and displacement, spilling into how Black music is born from these ruins and becomes their archive&#40;s&#41;. Forthcoming in May 2025 via independent publisher Semiotext&#40;e&#41; is Harmony&#39;s &#8220;book of essays and muses&#8221; called <i> Life of the Party </i> —an archive and annotation of Black music-performance culture, and a record, a script, a ledger for the exhibition. 
@@ -57,7 +57,7 @@ The mythic bears on Harmony&#39;s work just like it does on the city of Los Ange
   <SignatureContainer src={BillieHoliday} alt="Billie Holiday during her last recording session, March, 1959, New York, Photo by Milt Hinton" className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Billie Holiday during her last recording session, New York, March 1959. Photo by Milt Hinton. </span>
+<span className="centered small"> Billie Holiday during her last recording session, New York, March 1959. Photo by Milt Hinton. </span>
 <br/>
 On a scenic register, Harmony takes up how the vagaries of fame, capital, and industry &#40;in the shadows of Hollywood, as much as anywhere else&#41; &#8220;hunt and haunt&#8221; Black music and performance. <i> Haunts are the universal muses.<sup><a href="#fn7" id="ref7">7</a></sup> </i> Celebrity, then, is the material outcome manufactured by these social phenomena—synchronous, pervasive, and inextricably linked to the complicity and consumptiveness demanded by white spectatorship. Fame and capital covet and sanction ownership, inflicting projected selves and expectations &#40;read: exploitation&#41; upon artistry and creative freedom. &#8220;I like the term muses in the sense that it has a lot of valences to it,&#8221; Harmony recounts to me on the phone. &#8220;There is this cryptic use in it; something about it feels rebellious, to use the term as someone who it has acted upon. Black culture is the muse of the past two centuries.&#8221;<sup><a href="#fn8" id="ref8">8</a></sup>
 <br/><br/>
@@ -67,7 +67,7 @@ These concerns and intentions evolve in Harmony&#39;s deepened engagement with a
   <SignatureContainer src={NinaSimone} alt="Dorthaan Kirk, far right, at a party with Abbey Lincoln, Nina Simone at Amina Baraka and Amiri Baraka&#39;s home." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Dorthaan Kirk, far right, at a party with Abbey Lincoln, Nina Simone at Amina Baraka and Amiri Baraka&#39;s home. </span>
+<span className="centered small"> Dorthaan Kirk, far right, at a party with Abbey Lincoln, Nina Simone at Amina Baraka and Amiri Baraka&#39;s home. </span>
 <br/>
 How visceral and unsettling the writing is here takes it past a speculative realm. <i> A handler wants his hand or fist in the mouth of the muse, cranking and culling.<sup><a href="#fn10" id="ref10">10</a></sup> </i> &#8220;Hungry ghosts&#8221;—Harmony&#39;s other name for them. She continues, proposing that we consider grounding what she is talking about in real experience, in a &#8220;someone&#8221; who is more discernible than they are made out to be. The &#8220;who&#8221; in question: 
 <br/><br/>
@@ -79,7 +79,7 @@ As much dissent as it is retribution, this exploration drives home the notion of
   <SignatureContainer src={LifeoftheParty} alt="Life of the Party by Harmony Holiday (New York_ Semiotext(e), May 27, 2025)" className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Cover image, <i> Life of the Party </i> by Harmony Holiday. <br/> &#40;New York: Semiotext&#40;e&#41;, May 27, 2025&#41;
+<span className="centered small"> Cover image, <i> Life of the Party </i> by Harmony Holiday. <br/> &#40;New York: Semiotext&#40;e&#41;, May 27, 2025&#41;
 </span>
 <br/>
 There is a specific kind of interior consciousness to Harmony&#39;s work that makes you think language might be capable of doing just about anything. Leaping beyond writing about ideas, every part of her writing reads as an idea in and of itself. Her versatility as a critic, able to see and convey the same curiosity and vulnerability in herself, as in other artists and collaborators, understands the need not only to engage critically or document, but to protect. It is a visceral sensibility that only comes from &#8220;taking your ass somewhere.&#8221;<sup><a href="#fn13" id="ref13">13</a></sup> From knowing, and not necessarily caring, that the reader might arrive without a prior understanding of the thing you are talking about. But, that they will stay for your voice. It is an unrestrained and devoted attentiveness that finds lineage in the legendary Margo Jefferson, and the late greats Greg Tate and Amiri Baraka. From Baraka, with whom she shared a friendship after first meeting in 2009, Harmony  writes that she learns to &#8220;transition from belief to thought to idea to condition to action to living, breathing, event… comprehend[ing] and occupy[ing] the controversial space wherein the militant and the taboo meet and circle one another in a ritual harvest dance.&#8221;<sup><a href="#fn14" id="ref14">14</a></sup> 
@@ -98,21 +98,21 @@ The reserves of memory are a contested space,
   <SignatureContainer src={AbideWithMe1} alt="Still of Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Still of <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist.
+<span className="centered small"> Still of <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
   <SignatureContainer src={AbideWithMe2} alt="Still of Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Still of <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist.
+<span className="centered small"> Still of <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
   <SignatureContainer src={AbideWithMe3} alt="Still of Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Still of <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist.
+<span className="centered small"> Still of <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
 </span>
 <br/>
 &#8220;Im in a position to see where words and music rely on each other, to avenge where music wants to go but can&#39;t,&#8221; Harmony continues.<sup><a href="#fn19" id="ref19">19</a></sup> Her arts collective and publishing imprint, Mythscience, broadens what this pursuit asks of music. Mythscience reissues and reprints work from the archive and presents a performance and conversation series at the club-venue 2220Arts + Archives in Los Angeles, where Harmony curates an archive of griot poetics. Last August, on the occasion of James Baldwin&#39;s centennial, she presented an intimate solo performance of new material by saxophonist and composer Matana Roberts, followed by a closing DJ set by Kumi James &#40;BAE BAE&#41; featuring some of Baldwins record collection. 
@@ -125,7 +125,7 @@ Baldwin is a recurring figure in Harmony&#39;s research and writing—someone wh
   <SignatureContainer src={JamesBaldwin} alt="James Baldwin, Abbey Lincoln, and Max Roach attend the premiere of &#39;For Love of Ivy&#39; at Loew&#39;s Tower East Theater, New York, July 16, 1968. Photo by Ron Galella. Ron Galella Collection via Getty Images" className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> James Baldwin, Abbey Lincoln, and Max Roach attend the premiere of <i> For Love of Ivy </i> at Loew&#39;s Tower East Theater, New York, July 16, 1968. Photo by Ron Galella.
+<span className="centered small"> James Baldwin, Abbey Lincoln, and Max Roach attend the premiere of <i> For Love of Ivy </i> at Loew&#39;s Tower East Theater, New York, July 16, 1968. Photo by Ron Galella.
 </span>
 <br/>
 Harmony and I have remained in continued conversation ever since her solo exhibition in New York City. Our exchange of attitudes across coasts, as friends and collaborators, often riffs on how life structures performance and vice versa. With a group of friends and artists, we&#39;ve recently started a bimonthly series of microreviews of live work on Substack called <a href="https://performancereviews.substack.com/p/performance-review" target="_blank" className="styled"> <i> Performance Review </i> </a> —an archive or inventory in real time &#40;ritualized remembering by storytelling&#41; that will evolve into a project in print.<sup><a href="#fn22" id="ref22">22</a></sup> Voice and gesture feel unabridged no matter how she and I chat. Harmony can be cryptic but all the more divulging when trust insists on it; playfully withholding, instead, if she senses a shift in the room. Her skepticism is also generous. Frequently questioning art&#39;s collusion with propaganda and American politics in the mainstream, or contemplating someone&#39;s character because of their proximity or surrender to the same empire. <i> The widening silence of the genocide denialists already revving their retreat into deeper fragility as if victims of circumstance themselves.<sup><a href="#fn23" id="ref23">23</a></sup> </i> It comes from the integrity and rigor her own work wants of her, and in turn, asks of others. 
@@ -136,14 +136,14 @@ Her diction is soft, you could say dry, but perceptive, sharp, loud with candor,
   <SignatureContainer src={MuhammadAli} alt="Muhammad Ali and Gil Scott-Heron backstage at The Roxy, Los Angeles, 1977. Photo by Bruce Talamon." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Muhammad Ali and Gil Scott-Heron backstage at The Roxy, Los Angeles, 1977. Photo by Bruce Talamon.
+<span className="centered small"> Muhammad Ali and Gil Scott-Heron backstage at The Roxy, Los Angeles, 1977. <br/> Photo by Bruce Talamon.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
   <SignatureContainer src={GraceJones} alt="Grace Jones and D&#39;Angelo at Giorgio Armani exhibition opening reception, The Guggenheim Museum, New York, January 17, 2001. Photo by K Mazur." />
 </div>
 <br/>
-<span className="centered"> Grace Jones and D&#39;Angelo at <i> Giorgio Armani </i> exhibition opening reception, The Guggenheim Museum, New York, January 17, 2001. Photo by K Mazur.
+<span className="centered small"> Grace Jones and D&#39;Angelo at <i> Giorgio Armani </i> exhibition opening reception, The Guggenheim Museum, New York, January 17, 2001. Photo by K Mazur.
 </span>
 <br/>
 I remember Legacy once describing Harmony, in her practice, as an &#8220;agitator&#8221; and I like that word; it exists outside of the didacticism that fails to hold both lived experience and imagination, and the fissures between the two, as forms of knowledge. &#8220;It seems impossible to heal without retribution,&#8221; Harmony says, &#8220; I was starting to feel on a spiritual level that someone has to watch out for the soul of things basically.&#8221;<sup><a href="#fn25" id="ref25">25</a></sup> In other words, who looks after legacy? And why shouldn&#39;t this work be in constant pursuit of the present? In conversation with artist and choreographer Ligia Lewis, scholar Tavia Nyong&#39;o suggests, &#8220;The ruse of representation is thinking that we&#39;ll ever compensate for the lack [historical rationality] finds in us by filling in the gaps and propping dead and decaying institutions up.&#8221;<sup><a href="#fn26" id="ref26">26</a></sup> This lack finds Harmony making new forms of herself, tearing at the structures that try to contain her. The &#8220;risk adversity&#8221; coaxed by academia, for one. The tacit but very real ceiling that the literary and publishing worlds impose on poets, another. 
@@ -156,14 +156,14 @@ Continuously looking for ways to trouble the process of writing to feel like she
   <SignatureContainer src={JeromeRobbinsDanceDivision1} alt="Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; The New York Public Library Digital Collections. 1972. Photo by Fred Fehl." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; <i> The New York Public Library Digital Collections. </i> 1972. Photo by Fred Fehl.
+<span className="centered small"> Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; <i> The New York Public Library Digital Collections. </i> 1972. Photo by Fred Fehl.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
   <SignatureContainer src={JeromeRobbinsDanceDivision2} alt="Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; The New York Public Library Digital Collections. 1972. Photo by Fred Fehl." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered"> Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; <i> The New York Public Library Digital Collections. </i> 1972. Photo by Fred Fehl.
+<span className="centered small"> Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; <i> The New York Public Library Digital Collections. </i> 1972. Photo by Fred Fehl.
 </span>
 <br/>
 She is now dreaming up a future project that sets out to reimagine <i> Cry, </i> the 1971 ballet in three sections by visionary Alvin Ailey, choreographed for legendary Judith Jamison, and featuring music by Alice Coltrane, Laura Nyro, and Chuck Griffin. Her premise is to stage the body &#40;her body&#41; in a filmic and diaristic process as she learns the work&#39;s choreography, creating a durational recording shaped by the indeterminant scale, sensations, and cycles of training, rehearsing, aging. Harmony&#39;s first entry into artistic creativity was dance: <i> I write first from instinct, but because I grew up dancing ballet and other forms with the intensity of any would be child actor who doesn&#39;t know quite what mire she&#39;s appeased when she goes on stage or across the floor.<sup><a href="#fn29" id="ref29">29</a></sup> </i> Harmony tells me writing is just like air to her. Not unlike this, writing brings her back to a sense of why she wants to experiment. &#8220;As agency — as an act with consequences,&#8221;<sup><a href="#fn30" id="ref30">30</a></sup> in Toni Morrison&#39;s words, considering how and what writing might retrieve, compel, or affect beyond the page. <i> What if we carry everything we&#39;ve escaped with us, as haunt, quiet rage, unresolved tension with God or spirit or some yet-unnamed realm, which has named us its marks?<sup><a href="#fn31" id="ref31">31</a></sup> </i>

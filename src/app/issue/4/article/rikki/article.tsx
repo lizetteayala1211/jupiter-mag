@@ -46,16 +46,16 @@ export function Article() {
       <SignatureContainer src={RoofGarden1} alt="Installation view of The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture (I), (2022) © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz" />
     </div>
     <br/>
-    <span className="centered"> Installation view of <i> The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture &#40;I&#41;, </i> &#40;2022&#41; © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz
+    <span className="centered small"> Installation view of <i> The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture &#40;I&#41;, </i> &#40;2022&#41; © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz
     </span>
-    <br/> <br/>
+    <br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
       <SignatureContainer src={RoofGarden2} alt="Installation view of The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture (I), (2022) © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz" />
     </div>
     <br/>
-    <span className="centered"> Installation view of <i> The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture &#40;I&#41;, </i> &#40;2022&#41; © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz
+    <span className="centered small"> Installation view of <i> The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture &#40;I&#41;, </i> &#40;2022&#41; © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz
     </span>
-    <br/><br/>
+    <br/>
     On one side of Halsey&#39;s sculpture, a collage of the backs and sides of heads were etched into the panels and adorned with a variety of hairstyles: Bantu knots; Caesar haircuts with designs of an Ankh, the Eye of Horus, and the word &#8220;swag.&#8221; On another side were more figures with hairstyles including a high-top fade with &#8220;Lil Bit&#8221; scrupulously scrawled into it, and on yet another side,  greetings and affirmations in an array of fonts that read &#8220;Waz Up!&#8221;, &#8220;Kenfolks,&#8221; and:
     <br/><br/>
     &#8220;Be Ye Who Ye Is. <br/>
@@ -87,17 +87,16 @@ export function Article() {
       <SignatureContainer src={WhatUpDoeI} alt="Tiff Massey, Whatupdoe  &#40;part I&#41;, 2024, stainless steel. Image courtesy of Detroit Institute of Arts." />
     </div>
     <br/>
-    <span className="centered"> Tiff Massey, <i> Whatupdoe &#40;part I&#41;, </i> 2024, stainless steel. Image courtesy of Detroit Institute of Arts.
+    <span className="centered small"> Tiff Massey, <i> Whatupdoe &#40;part I&#41;, </i> 2024, stainless steel. Image courtesy of Detroit Institute of Arts.
     </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
       <SignatureContainer src={WhatUpDoe} alt="Tiff Massey, Whatupdoe &#40;part I&#41;, 2024, stainless steel. Image courtesy of Detroit Institute of Arts." />
     </div>
     <br/>
-    <span className="centered"> Tiff Massey, <i> Whatupdoe </i> 2024, stainless steel. Collection of the artist. Image courtesy of Detroit Institute of Arts.
+    <span className="centered small"> Tiff Massey, <i> Whatupdoe </i> 2024, stainless steel. Collection of the artist. Image courtesy of Detroit Institute of Arts.
     </span>
     <br/>
-    <br/><br/>
     Across from <i> I Remember Way Back When </i> &#40;2023&#41; was another wall with a sculpture titled  <i> Baby Bling </i> &#40;2023&#41; made of large metal cylinders colored in a candy-apple red that are connected by black woven rope and cinched with brass to create 11 more barrettes &#40;the kind that wrap around little girls&#39; ponytails&#41;. At this work, I recalled a childhood photo taken of me. With a wide toothless smile spread across my face, I pose for the camera with my hands on my make-believe hips modeling a hairstyle done by my mother: two ponytails made up of several synthetic braids, and each wrapped in large, white hair barrettes. One other work, <i> I&#39;ve Got Bundles and I Got Flewed Out &#40;Green&#41; </i> &#40;2023&#41;, reminded me explicitly of the impact of Black beauty, and what happens when it is disregarded. On a stretch of black canvas made of several panels, Massey created an array of Black hairstyles made of gradients of green Kanekalon hair. Similar to Halsey&#39;s panels of Bantu knots and haircuts, I recognized several of the styles: the fishtail, the cornrows with beads, the French roll. And I recalled an incident which I am still finding language for. 
     <br/><br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
@@ -105,21 +104,21 @@ export function Article() {
 " />
     </div>
     <br/>
-    <span className="centered"> Baby photo: Photograph of the author on the front porch of her childhood home in St. Louis, Missouri.
+    <span className="centered small"> Baby photo: Photograph of the author on the front porch of her childhood home in St. Louis, Missouri.
     </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
       <SignatureContainer src={BabyBling} alt="Tiff Massey, Baby Bling, 2023, Metal beads, woven rope, brass. Collection of the artist. Image courtesy of Detroit Institute of Arts." className="textinnerimg ver angelique" />
     </div>
     <br/>
-    <span className="centered"> Tiff Massey, <i> Tiff Massey, </i> <i> Baby Bling, </i> 2023, Metal beads, woven rope, brass. Collection of the artist. Image courtesy of Detroit Institute of Arts.
+    <span className="centered small"> Tiff Massey, <i> Tiff Massey, </i> <i> Baby Bling, </i> 2023, Metal beads, woven rope, brass. Collection of the artist. Image courtesy of Detroit Institute of Arts.
     </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
       <SignatureContainer src={Bundles} alt="Tiff Massey, I&#39;ve Got Bundles and I Got Flewed Out &#40;Green&#41;, 2023, Canvas, Kanekelon, beads. Collection of the artists. Image courtesy of Detroit Institute of Arts." className="textinnerimg ver angelique" />
     </div>
     <br/>
-    <span className="centered"> Tiff Massey, <i> I&#39;ve Got Bundles and I Got Flewed Out &#40;Green&#41;, </i> 2023, Canvas, Kanekelon, beads. Collection of the artists. Image courtesy of Detroit Institute of Arts. </span>
+    <span className="centered small"> Tiff Massey, <i> I&#39;ve Got Bundles and I Got Flewed Out &#40;Green&#41;, </i> 2023, Canvas, Kanekelon, beads. Collection of the artists. Image courtesy of Detroit Institute of Arts. </span>
     <br/>
     What I am willing to share at the moment is this: <i> When I was a child, my hair was once undone by someone who did not see it as beautiful, and this was my first lesson in learning how to make myself small. Before this moment, in my world, to be beautiful was to glimmer and shine, to have a tempo. This came through, for me, in the single gold tooth that gleamed from the mouths of family members, the acrylic nails that typed on computers, high heels across vinyl floors, the holding-sprayed hair that crunched once taken down. Despite this lesson &#40;and many more as I got older&#41; in being diminutive, I maintained a keen awareness that to be beautiful in my world was to be big, to be boisterous, to be boundless, to laugh with a full belly, to write our names on our nails, belts, and T-shirts, as much as we did on paper. And when I could decide for myself, I chose &#40;and continue to choose, everyday&#41; to be big, practicing these gestures in beauty &#40;like carrying forth my maternal lineage&#39;s skills in design through my commitment to the history of Black fashion and letting memories of watching my mother and godmother braid hair filter through my hands as I gather the courage to braid my little sister&#39;s into box braids&#41; as an archive and ritual. </i>
     <br/><br/>

@@ -31,7 +31,7 @@ export function Article() {
       <SignatureContainer src={Indeterminacy} alt="Torkwase Dyson, Indeterminacy #1 (Black Compositional Thought)" className="textinnerimg ver amadine" />
     </div>
     <br/>
-    <span className="centered"> Torkwase Dyson, <i> Indeterminacy #1 &#40;Black Compositional Thought&#41;, </i> 2022. © Torkwase Dyson. </span>
+    <span className="centered small"> Torkwase Dyson, <i> Indeterminacy #1 &#40;Black Compositional Thought&#41;, </i> 2022. © Torkwase Dyson. </span>
     <br/><br/>
     <i> Before the chaos 
     <br/>

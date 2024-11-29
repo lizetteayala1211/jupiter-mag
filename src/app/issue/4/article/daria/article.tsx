@@ -51,8 +51,8 @@ export function Article() {
       <SignatureContainer src={ShaperofGod} alt="American Artist, Shaper of God, (Installation view)" className="textinnerimg hor daria" />
     </div>
     <br/>
-    <span className="centered"> American Artist, <i> Shaper of God, </i> &#40;Installation view&#41; 2022. REDCAT, Los Angeles, CA. </span>
-    <br/><br/>
+    <span className="centered small"> American Artist, <i> Shaper of God, </i> &#40;Installation view&#41; 2022. REDCAT, Los Angeles, CA. </span>
+    <br/>
     Artist draws equally on Butler&#39;s personal life—a selection of Butler&#39;s journal entries and drawings are also featured in the exhibition—as they do from subject matter and themes within the author&#39;s work. A spiked steel gate juts out from <i> Robledo Community Wall, </i> giving way to a view of <i> To Acorn &#40;1984&#41; </i> &#40;2022&#41;, a steel sculpture in the form of a bus stop, not unlike the posts where Butler would have waited on her travels throughout the sprawling city of Los Angeles. Butler never learned to drive, so her bus rides became a sacred time for her to write. At the base of the sculpture lies a grouping of firm steel leaves with their points stretched upwards, not unlike an agave plant that Butler surely encountered across the region. A slight curvature pulls the body of each leaf slightly away from the plant&#39;s core. Layered together, it&#39;s as if the small shrub has been frozen in the midst of a splendorous blossoming, opening up to the heavens while unyielding on earth. As Artist nods to this detail of Butler&#39;s life, they are also making a direct reference to Butler&#39;s text,
     <br/>
     <i> To Acorn. </i>
@@ -73,9 +73,9 @@ export function Article() {
       <SignatureContainer src={LosAngelesTimes} alt="ananarive Due, “What if we were already living in Octavia Butler&#39;s &#39;Parable of the Sower&#39;?”, Los Angeles Times" className="textinnerimg hor daria" />
     </div>
     <br/>
-    <span className="centered"> American Artist, <i> Shaper of God, </i> &#40;Installation view&#41; 2022. REDCAT, Los Angeles, CA. 
+    <span className="centered small"> American Artist, <i> Shaper of God, </i> &#40;Installation view&#41; 2022. REDCAT, Los Angeles, CA. 
     </span>
-    <br/><br/>
+    <br/>
     Over the years of research which informed <i> Shaper of God, </i> Artist developed intentional connections with the individuals who have long carried Butler&#39;s legacy forward. The artist conducted part of their research for the exhibition during their time as a grantee at the Los Angeles County Museum of Art &#40;LACMA&#41; Art + Technology Lab, who organized the exhibition in collaboration with JPL. They were in sustained dialogue with Ayana Jamieson, the co-founder of the Octavia E. Butler Legacy Network. Additional research for the show was carried out at the Octavia E. Butler archive at The Huntington in Southern California.
     <br/><br/>
     I finally met Artist earlier this year during my visit to their studio in Brooklyn on an especially warm day in early August. We sat amidst some of their sculptural work, materials, and documents. Calm and measured, the artist spoke with me about what was presently on their mind in terms of their work and the world. 
