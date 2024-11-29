@@ -4,6 +4,8 @@ import {
     SignatureContainer
 } from "./styled"
 
+import { issue4Metadata } from "@/app/issue/4/article"
+
 // import thing from "./otherFile.js"
 
 import ListArrow from "../../../../public/photos/arrow-04.png"
@@ -48,11 +50,68 @@ export function Contributors() {
 
 
             <div className="grid-wrapper"> 
+                <div className="background-grid">
+                    <div className="empty-block draw-border first">
+                        <div className="border top-border"></div>
+                        <div className="border right-border"></div>
+                        <div className="border bottom-border"></div>
+                        <div className="border left-border"></div>
+                    </div>
+                    <div className="empty-block draw-border second">
+                        <div className="border top-border"></div>
+                        <div className="border right-border"></div>
+                        <div className="border bottom-border"></div>
+                        <div className="border left-border"></div>
+                    </div>
+                    <div className="black-block first"></div>
+                    <div className="empty-block draw-border third">
+                        <div className="border top-border"></div>
+                        <div className="border right-border"></div>
+                        <div className="border bottom-border"></div>
+                        <div className="border left-border"></div>
+                    </div>
+                    {/* <div className="empty-block draw-border fourth">
+                        <div className="border top-border"></div>
+                        <div className="border right-border"></div>
+                        <div className="border bottom-border"></div>
+                        <div className="border left-border"></div>
+                    </div>
+                    <div className="empty-block draw-border fifth">
+                        <div className="border top-border"></div>
+                        <div className="border right-border"></div>
+                        <div className="border bottom-border"></div>
+                        <div className="border left-border"></div>
+                    </div>
+                    <div className="empty-block draw-border sixth">
+                        <div className="border top-border"></div>
+                        <div className="border right-border"></div>
+                        <div className="border bottom-border"></div>
+                        <div className="border left-border"></div>
+                    </div>
+                    <div className="empty-block draw-border seventh">
+                        <div className="border top-border"></div>
+                        <div className="border right-border"></div>
+                        <div className="border bottom-border"></div>
+                        <div className="border left-border"></div>
+                    </div>
+                    <div className="empty-block draw-border eighth">
+                        <div className="border top-border"></div>
+                        <div className="border right-border"></div>
+                        <div className="border bottom-border"></div>
+                        <div className="border left-border"></div>
+                    </div>
+                    <div className="empty-block draw-border ninth">
+                        <div className="border top-border"></div>
+                        <div className="border right-border"></div>
+                        <div className="border bottom-border"></div>
+                        <div className="border left-border"></div>
+                    </div> */}
+                </div>
                 <div className="blog-collection">
                     <div className="grid-container">
                         <div role="listitem" className="blog-item w-dyn-item first">
                         {/* href={`/issue/1/article/akwaeke`} */}
-                            <a href="" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/4/article/camille" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -185,63 +244,6 @@ export function Contributors() {
                             </a>
                         </div>
                     </div>
-                </div>
-                <div className="background-grid">
-                    <div className="empty-block draw-border first">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border second">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="black-block first"></div>
-                    <div className="empty-block draw-border third">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    {/* <div className="empty-block draw-border fourth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border fifth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border sixth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border seventh">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border eighth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border ninth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div> */}
                 </div>
             </div>
 
