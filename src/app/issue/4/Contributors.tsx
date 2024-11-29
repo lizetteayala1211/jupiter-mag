@@ -4,6 +4,9 @@ import {
     SignatureContainer
 } from "./styled"
 
+
+import { Base } from "@/components"
+
 import { issue4Metadata } from "@/app/issue/4/article"
 
 // import thing from "./otherFile.js"

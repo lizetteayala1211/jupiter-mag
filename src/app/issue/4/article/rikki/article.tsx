@@ -179,10 +179,10 @@ export function Article() {
           />
     <br/>
     <div style={{ display: "flex", flexDirection: "column", }}>
-        <SignatureContainer src={RikkiBio} alt="Photo by Jeremy Franklin" className="bioimg" />
+        <SignatureContainer src={RikkiBio} alt="Photo by Lawrence Agyei" className="bioimg" />
     </div>
     <br/>
-    <span className="centered small bio"> Photo by Jeremy Franklin. </span>
+    <span className="centered small bio"> Photo by Lawrence Agyei. </span>
     <br/>
     <p className="bio-medium"> Dr. Rikki Byrd is a writer, educator, and curator. She is the founder of Black Fashion Archive and the co-founder of the Fashion and Race Syllabus, and is currently an Assistant Professor of Visual Culture Studies at the University of Texas at Austin, with a courtesy appointment in the Department of Art and Art History. Across her writing, teaching, and curatorial projects, she draws connections between Black aesthetic practices, including 20th and 21st century art, fashion studies, and performance. Dr. Byrd received her Ph.D. and Master of Arts in Black Studies from Northwestern University, a Master of Arts in Fashion Studies from Parsons School of Design, and a Bachelor of Journalism from the University of Missouri.
     </p>
