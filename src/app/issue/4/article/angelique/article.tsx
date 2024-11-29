@@ -27,9 +27,22 @@ export function Article() {
     <ArticleStyles>
     <br/>
     <div>
-    <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
+    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
       <SignatureContainer src={AngeliqueTitleCard} alt="Angelique Title Card" className="titlecard" />
-    </div>
+    </div> */}
+    <h1 className="title large"> Harmony Holiday, haunting back </h1>
+    <br/>
+    <h4 className="title small"> by Angelique Rosales Salgado </h4>
+    <br/>
+    <pre id="contribution" />
+          <div
+            style={{
+              marginTop: "25px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <br/>
     <p className="Angelique-Rosales-Salgado-04">
 What can we make of sabotage? The kind that is deviant, intuitive, and cunning, uncertain about repair but searching for leverage that declares release, enables it. What seeds transformation other than infectious energy—running, ruining, rioting; consider prophecy intervened upon. In vengeance, in approximation of ruin, in tender disintegration, in crisis, does it find renewal?

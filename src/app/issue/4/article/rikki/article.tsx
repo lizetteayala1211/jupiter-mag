@@ -26,7 +26,19 @@ export function Article() {
     {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
       <SignatureContainer src={RikkiTitleCard} alt="Rikki Title Card" className="titlecard" />
     </div> */}
-    <h1> RIKKI </h1>
+    <h1 className="title large"> &#8220;What I Have Shaped into a Kind of Life&#8221;: On Making Beauty Monumental </h1>
+    <br/>
+    <h4 className="title small"> by Dr Rikki Byrd </h4>
+    <br/>
+    <pre id="contribution" />
+          <div
+            style={{
+              marginTop: "25px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <br/>
     <p className="Rikki-Byrd-04">
     <span className="centered"> I. </span>

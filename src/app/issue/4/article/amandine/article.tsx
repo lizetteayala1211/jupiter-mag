@@ -19,9 +19,22 @@ export function Article() {
     <ArticleStyles>
     <br/>
     <div className="writing-container">
-    <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
+    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
       <SignatureContainer src={AmadineTitleCard} alt="Amadine Title Card" className="titlecard" />
-    </div>
+    </div> */}
+    <h1 className="title large"> I am all the geographies that can save me </h1>
+    <br/>
+    <h4 className="title small"> by Amandine Nana </h4>
+    <br/>
+    <pre id="contribution" />
+          <div
+            style={{
+              marginTop: "25px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <br/>
     <p className="Amandine-Nana-04">
     {/* <span className="centered"> <i> I am all the geographies that can save me by Amandine Nana </i> </span> */}

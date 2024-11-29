@@ -15,9 +15,22 @@ export function Article() {
     <ArticleStyles>
     <br/>
     <div>
-    <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
+    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
       <SignatureContainer src={ImaniTitleCard} alt="Imani Title Card" className="titlecard" />
-    </div>
+    </div> */}
+    <h1 className="title large"> Lorna&#39;s Blues:  Artful Instruction, and the imaginations of Black Women </h1>
+    <br/>
+    <h4 className="title small"> by Imani Perry </h4>
+    <br/>
+    <pre id="contribution" />
+          <div
+            style={{
+              marginTop: "25px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <br/>
     <p className="Imani-Perry-04">
 <i> Blues is my life. It&#39;s a true feeling that comes from the heart, not something that just comes out of my mouth. Blues is what I love, and blues is what I always do. </i> <br/>

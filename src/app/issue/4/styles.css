@@ -662,8 +662,6 @@ img {
     padding: 150px 200px 150px 100px !important;
 }
 
-
-
 .bio-medium {
     font-size: 16px;
     line-height: 160% !important;
@@ -684,6 +682,18 @@ span.centered.small.bio {
     /* padding-left: 5em;
     padding-right: 5em; */
     text-align: center;
+}
+
+.title.large {
+    font-size: 42px;
+    line-height: 125%;
+    color: white !important;
+}
+
+.title.small {
+    font-size: 20px;
+    line-height: 140%;
+    color: white !important;
 }
 
 

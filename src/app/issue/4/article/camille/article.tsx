@@ -16,11 +16,23 @@ export function Article() {
     <ArticleStyles>
     <br/>
     <div>
-        <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
+        {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
       <SignatureContainer src={CamilleTitleCard} alt="Camille Title Card" className="titlecard" />
-        </div>
+        </div> */}
+    <h1 className="title large"> her music is a teacher to me: Kelela&#39;s Cathedral of Feeling</h1>
     <br/>
-
+    <h4 className="title small"> by Camille Bacon </h4>
+    <br/>
+    <pre id="contribution" />
+          <div
+            style={{
+              marginTop: "25px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
+    <br/>
     <p className="Camille-Bacon-04">
     <i> &#8220;It says that, as a talking bird, the raven… <br/>
     represents prophecy and insight.&#8221; </i> <a href="https://www.vulture.com/2023/02/kelela-raven.html" target="_blank" className="styled"> —Kelela </a>

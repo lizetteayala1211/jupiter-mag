@@ -17,9 +17,22 @@ export function Article() {
     <ArticleStyles>
     <br/>
     <div>
-    <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
+    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
       <SignatureContainer src={DariaTitleCard} alt="Daria Title Card" className="titlecard" />
-    </div>
+    </div> */}
+    <h1 className="title large"> Building a Bridge to You </h1>
+    <br/>
+    <h4 className="title small"> by Daria Harper </h4>
+    <br/>
+    <pre id="contribution" />
+          <div
+            style={{
+              marginTop: "25px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <br/>
     <p className="Daria-Harper-04">
     At long last, we have reached the landscape which lies just ahead of rupture. The air itself laden with whispers of possibility, of what exists beyond our here and now. Within this seemingly never-ending expanse, everything seems to be waiting, or begging, to break apart, to come undone. Many of us, enduring turbulent heartache in the face of perpetual destruction, have unearthed new crevices within ourselves to hold <i> grief and love and grief and love at the same time.<sup><a href="#fn1" id="ref1">1</a></sup> </i>

@@ -24,9 +24,22 @@ export function Article() {
     <ArticleStyles>
     <br/>
     <div>
-    <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
+    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
       <SignatureContainer src={RhyaTitleCard} alt="Rhya Title Card" className="titlecard" />
-    </div>
+    </div> */}
+    <h1 className="title large"> touchingfeeling </h1>
+    <br/>
+    <h4 className="title small"> by Rhya Marlene Moffitt </h4>
+    <br/>
+    <pre id="contribution" />
+          <div
+            style={{
+              marginTop: "25px",
+              height: "1px",
+              width: "100%",
+              backgroundColor: "#FFFFFFBF",
+            }}
+          />
     <br/>
     <p className="Rhya-Marlene-Moffitt-04">
         <span className="right"> &#8220;Saturday, July 20, 2024
