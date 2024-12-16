@@ -27,7 +27,6 @@ export function Colophon() {
           <p> Web Design and Development: Lizette Ayala </p>
           <MediumGuy />
           <p> Contributors: 
-          <MediumGuy />
           Imani Perry, Amandine Nana, Camille Bacon, Rhya Marlene Moffitt, Daria S. Harper, Angelique Rosales Salgado, and Rikki Byrd. </p>
         </ColophonColumn>
 
