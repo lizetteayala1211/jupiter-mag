@@ -47,7 +47,7 @@ export function Article() {
     <p className="Angelique-Rosales-Salgado-04">
 What can we make of sabotage? The kind that is deviant, intuitive, and cunning, uncertain about repair but searching for leverage that declares release, enables it. What seeds transformation other than infectious energy—running, ruining, rioting; consider prophecy intervened upon. In vengeance, in approximation of ruin, in tender disintegration, in crisis, does it find renewal?
 <br/><br/>
-<span className="indentation justified "> Disaster struggling for attention not a	riot or a ruins but a paradise of ruins<sup><a href="#fn1" id="ref1">1</a></sup> </span>
+<span className="indentation justified"> <i> Disaster struggling for attention not a	riot or a ruins but a paradise of ruins </i> <sup><a href="#fn1" id="ref1">1</a></sup> </span>
 <br/><br/>
 Known as a poet, and by way of poetry&#39;s rigor and rhythm, Harmony Holiday is as prolific a writer as she is an archivist, filmmaker, dancer, interlocutor, and critic. Her practice fixates on themes of music, ancestry, death and rebirth, celebrity, and the visual and literary languages of Black sociality / life. What she calls the &#8220;interdisciplinary t&#40;h&#41;rust in Black cultural production&#8221; sees her practice disseminate between the page, the &#40;back&#41;stage, the archive, the gallery, and now, the party. 
 <br/><br/>
@@ -57,11 +57,10 @@ Harmony&#39;s first solo exhibition <i> BLACK BACKSTAGE </i> &#40;March 21&#8208
   <SignatureContainer src={BlackBackstage} alt="Installation view, Harmony Holiday: BLACK BACKSTAGE, The Kitchen at Westbeth. Photo by Kyle Knodell. Courtesy of The Kitchen." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered small"> Installation view, Harmony Holiday: <i> BLACK BACKSTAGE, </i> he Kitchen at Westbeth, March 21&#8208;May 25, 2024. Photo by Kyle Knodell. Courtesy of The Kitchen. 
+<span className="centered small"> Installation view, Harmony Holiday: <i> BLACK BACKSTAGE, </i> The Kitchen at Westbeth, March 21&#8208;May 25, 2024. Photo by Kyle Knodell. Courtesy of The Kitchen. 
 </span>
 <br/>
 The project, in its prescience, is ongoing. It builds upon Harmony&#39;s latest book <i> MAAFA </i> &#40;2022&#41;, an epic poem that follows a Black female &#40;anti&#41;hero&#39;s journey. The term <i> maafa </i> is a Swahili word meaning &#8220;great disaster&#8221; or &#8220;terrible occurrence,&#8221; often used by Black people across a global diaspora in reference to the enduring legacy and epigenetic trauma of the transatlantic slave trade.<sup><a href="#fn2" id="ref2">2</a></sup> The work itself deals with the archetypes and sounds that form in and of the ruins after genocide and displacement, spilling into how Black music is born from these ruins and becomes their archive&#40;s&#41;. Forthcoming in May 2025 via independent publisher Semiotext&#40;e&#41; is Harmony&#39;s &#8220;book of essays and muses&#8221; called <i> Life of the Party </i> —an archive and annotation of Black music-performance culture, and a record, a script, a ledger for the exhibition. 
-<br/><br/>
 <br/>
 Harmony thinks as an artist, but witnesses as a poet. Her poetry, prose, and criticism achieves a clearing that breaks the spell of archetypes, reworking new ones onto considerations attuned to lyrical intensity, tone, and cadence. Her work on the page includes five collections of poetry, an in-progress memoir <i> Love is War for Miles </i> and a forthcoming biography on Abbey Lincoln. These are amplified by her recurring Substack <a href="https://harmonyholiday.substack.com/about" target="_blank" className="styled"> <i> Black Music and Black Muses </i> </a> —a space unrestricted by the demands, wishes, and timelines of the music industry. Daughter to &#8220;cowboy-musician&#8221; Jimmy Holiday, Harmony was born in Waterloo, Iowa and grew up in Los Angeles, California where she is currently based after stints in the Bay Area and New York City. Her father&#39;s birth name was James Brown; as he developed as a soul singer and realized he needed a new name, he picked the surname of a woman whose music he adored. &#8220;By inheritance or luck,&#8221; Harmony writes that she &#8220;live[s] in [Billie Holiday&#39;s] name.&#8221;<sup><a href="#fn3" id="ref3">3</a></sup> 
 <br/><br/>
@@ -102,31 +101,31 @@ The reserves of memory are a contested space,
 <br/><br/>
 <span className="indentation"> <i> There you go again even begging your memory to behave like a promise<sup><a href="#fn15" id="ref15">15</a></sup> </i> </span>
 <br/><br/>
-<span className="light-indentation"> where I find Harmony fluttering, navigating the depths of Black remembrance. Courting loss into presence and disillusions, fantasies, grievances, or affections unshared into insistences. In a physical realm, she looks for and identifies what is loose through listening—soundplay. Some truths can be heard but not seen; truths that don&#39;t heed to our facing them before becoming. <i> These are my obsessions seduced into a second childhood.<sup><a href="#fn16" id="ref16">16</a></sup> </i> She unearths and samples speech &#40;shouts, voices, whispers&#41;, bits of performance recordings, murmurs backstage, interview excerpts, and rehearsal ongoings to create durational sonic compositions. </span>
+<span className=""> where I find Harmony fluttering, navigating the depths of Black remembrance. Courting loss into presence and disillusions, fantasies, grievances, or affections unshared into insistences. In a physical realm, she looks for and identifies what is loose through listening—soundplay. Some truths can be heard but not seen; truths that don&#39;t heed to our facing them before becoming. <i> These are my obsessions seduced into a second childhood.<sup><a href="#fn16" id="ref16">16</a></sup> </i> She unearths and samples speech &#40;shouts, voices, whispers&#41;, bits of performance recordings, murmurs backstage, interview excerpts, and rehearsal ongoings to create durational sonic compositions. </span>
 <br/><br/>
 <span className="indentation"> <i> I&#39;m addicted to the archives that hold and withhold them like unasked and unanswerable questions, whims, impossible to assimilate until a part of ourselves breaks open to allow them in as this hope to comprehend what we are witnessing that is gone and reemerging in the same moment all the time.<sup><a href="#fn17" id="ref17">17</a></sup> </i> </span>
 <br/><br/>
 <i> Paradise of Ruins </i> &#40;2024&#41; is one such hour-and-fourteen-minute-long sound work forming part of her latest series in <i> BLACK BACKSTAGE. </i> Hear Tina Turner banter backstage with one of The Ikettes about the way she has been <i> looking </i> at Ike &#40;&#8220;nobody ever looks at Ike,&#8221; she retorts at Tina&#41;, or Michael Jackson deliberate about fame in a 1987 interview: &#8220;sometimes I want to sneak into places and not have any hoopla,&#8221; or John Coltrane talk about how the saxophone as an instrument &#8220;brings you to your limits,&#8221; or Azealia Banks live on Instagram from a New York City street corner yelling, &#8220;Bitch… Girl, it&#39;s not me, sis! It&#39;s not me!&#8221; when a fan approaches her, or Ye on the interview series <i> Drink Champs </i> exclaim and repeat, &#8220;I&#39;m Michael now! I am the richest [Black man] in history.&#8221; In sequence, forming an unrelenting, inconclusive chorus—&#8220;these snatches of the taboo and tainted margins of Black music&#8221;<sup><a href="#fn18" id="ref18">18</a></sup>—enveloping the gallery. The piece is a sort of prelude to a future album accompaniment Gospel-rendition of <i> MAAFA </i> that Harmony is developing with producer and composer Kelman Duran.
 <br/><br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={AbideWithMe1} alt="Still of Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
+  <SignatureContainer src={AbideWithMe1} alt="Still of Harmony Holiday, Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered small"> Still of <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
+<span className="centered small"> Still of <b> Harmony Holiday </b>, <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={AbideWithMe2} alt="Still of Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
+  <SignatureContainer src={AbideWithMe2} alt="Still of Harmony Holiday, Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered small"> Still of <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
+<span className="centered small"> Still of <b> Harmony Holiday </b>, <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={AbideWithMe3} alt="Still of Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
+  <SignatureContainer src={AbideWithMe3} alt="Still of Harmony Holiday, Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered small"> Still of <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
+<span className="centered small"> Still of <b> Harmony Holiday </b>, <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
 </span>
 <br/>
 &#8220;Im in a position to see where words and music rely on each other, to avenge where music wants to go but can&#39;t,&#8221; Harmony continues.<sup><a href="#fn19" id="ref19">19</a></sup> Her arts collective and publishing imprint, Mythscience, broadens what this pursuit asks of music. Mythscience reissues and reprints work from the archive and presents a performance and conversation series at the club-venue 2220Arts + Archives in Los Angeles, where Harmony curates an archive of griot poetics. Last August, on the occasion of James Baldwin&#39;s centennial, she presented an intimate solo performance of new material by saxophonist and composer Matana Roberts, followed by a closing DJ set by Kumi James &#40;BAE BAE&#41; featuring some of Baldwins record collection. 
@@ -167,10 +166,10 @@ Carrying a spirit of delusion is often what is radical in the face of a quote-un
 Continuously looking for ways to trouble the process of writing to feel like she&#39;s grappling with it in a more physical way, Harmony asks, &#8220;Why arent we all doing more embodied work?&#8221;<sup><a href="#fn27" id="ref27">27</a></sup> For her, calling upon the body means creating a space for ideas to give permission to put things together in ways society is always butting up against, deputizing style and language while doing it. Her one qualm with becoming a writer, she notes, was that it would &#8220;not be strenuous enough.&#8221; [Laughter]. &#8220;I just get to a certain point where things need to move energy—the collapsing of all the identities that genres carry, but above all that, how does it actually feel?&#8221;<sup><a href="#fn28" id="ref28">28</a></sup> 
 <br/><br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={JeromeRobbinsDanceDivision1} alt="Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; The New York Public Library Digital Collections. 1972. Photo by Fred Fehl." className="textinnerimg ver angelique" />
+  <SignatureContainer src={JeromeRobbinsDanceDivision1} alt="Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34;, The New York Public Library Digital Collections. 1972. Photo by Fred Fehl." className="textinnerimg ver angelique" />
 </div>
 <br/>
-<span className="centered small"> Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; <i> The New York Public Library Digital Collections. </i> 1972. Photo by Fred Fehl.
+<span className="centered small"> Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34;, <i> The New York Public Library Digital Collections. </i> 1972. Photo by Fred Fehl.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
