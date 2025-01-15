@@ -40,7 +40,7 @@ function Article() {
   return (
     <ArticleContainer>
       <LocalStyles>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>Below, </span>
           <span>
             <a href="https://www.google.com/url?q=https://www.legacyrussell.com/&amp;sa=D&amp;source=editors&amp;ust=1713324863704548&amp;usg=AOvVaw2Q1fZY9wJWnUIkwBQYlq0x">
@@ -75,17 +75,17 @@ function Article() {
           <span>on the topic of Drexciya, devotion, and repair. </span>
           <span>This interview has been edited for length and poeticism.</span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 c9 "></span>
         </p>
         <hr />
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c3 "></span>
         </p>
-        <p className="c1 c9 c2">
+        <p className="c1 c9 c2" style={{ color: "white" }}>
           <span className="c3 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c9 ">
             here, in the denseness of static impossibility, we descend to an
             insurgent heaven.{" "}
@@ -99,32 +99,32 @@ function Article() {
             we breathe.
           </span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 c9 ">
             the motion of the earth is the motion of blackness. do you feel our
             rhythm?
           </span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 c9 ">running away, sovereign. </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 c9 "></span>
         </p>
-        <p className="c1 c13">
+        <p className="c1 c13" style={{ color: "white" }}>
           <span className="c4 c9 ">&mdash;Stella Rae Binion </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 c9 "></span>
         </p>
         <hr />
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>Stella Rae Binion</span>
           <span>: In </span>
           <span>
@@ -139,10 +139,10 @@ function Article() {
           </span>
           <span className="c4 ">, what are your gills? </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>Jes</span>
           <span className="c9 ">&uacute;</span>
           <span>s Hilario-Reyes</span>
@@ -157,10 +157,10 @@ function Article() {
             to a space or time to dissolve.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             Legacy Russell: Lately I&rsquo;ve been reminding myself that there
             have been so many folks who have been here before, who have
@@ -174,10 +174,10 @@ function Article() {
             reality. This is the reason why we should keep going. &nbsp;
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             SRB: We are here today in honor of the legacies and manifestations
             of the{" "}
@@ -219,10 +219,10 @@ function Article() {
             Drexciyan frequencies?
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             LR: I went to graduate school in the UK and was very lucky to cross
             paths with{" "}
@@ -252,10 +252,10 @@ function Article() {
             life.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>JHR: </span>
           <span>
             Techno and house have been very present in my upbringing. Drexciya
@@ -302,10 +302,10 @@ function Article() {
             I&#39;m thinking about. Like, Drexciya fan forever! &nbsp;
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             SRB: Such a transcendent offering, honoring the depths of Black
             creation, these sprawlings that come off of the legacy of Drexciya
@@ -332,10 +332,10 @@ function Article() {
           </span>
           <span className="c4 ">. </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>I want to think with</span>
           <span>
             &nbsp;Saidiya Hartman&#39;s essential and noble project of{" "}
@@ -354,10 +354,10 @@ function Article() {
             What is our role as the legacy of those who did not make it?
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 ">
             LR: Well, I think that the very idea of existing in a Black
             personhood and a queer personhood is in relationship to this
@@ -369,10 +369,10 @@ function Article() {
             up the task of carrying forward their memory?
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>Critical fabulation creates a space for </span>
           <span>speculation</span>
           <span>, space for a </span>
@@ -420,10 +420,10 @@ function Article() {
             inside of it.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 ">
             JHR: I&#39;ve always thought of remembering as a decolonial act, but
             I don&#39;t necessarily know if I fully agree with that sentiment.
@@ -433,7 +433,7 @@ function Article() {
             gone and so
           </span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             much needs to be filled. In a sense, Drexciya is redressing the
             wound. Drexciya is critical fabulation and{" "}
@@ -453,10 +453,10 @@ function Article() {
             a kaleidoscope effect maybe, rather than blur.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             SRB: I want to continue situating us back into the underwater site
             of Drexciya: the bottom of the ocean. This site is uncolonized,
@@ -477,10 +477,10 @@ function Article() {
             &nbsp;
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             JHR: I love pulling in the womb and the depths to think about
             opacity. I think opacity has this really incredible power of closing
@@ -522,19 +522,19 @@ function Article() {
             in.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 ">
             LR: I think that&#39;s powerful. I believe deeply that not
             everything is for everybody. A very important Black strategy.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             Being inside the imperial structure of institutional space requires
             an assumption of access to all of us, informed by a{" "}
@@ -571,19 +571,19 @@ function Article() {
             of social and cultural reproduction?
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 ">
             SRB: The hinge of the word &ldquo;re/produce,&rdquo; Legacy.
             There&#39;s so much to be thought about there.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             LR: It&rsquo;s really important to ask what does the womb teach us?
             There are parts of this that can be instructive. We see this with
@@ -602,10 +602,10 @@ function Article() {
           </span>
           <span className="c12  c8">&nbsp;</span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c12  c8"></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>SRB: I&rsquo;m witnessing an </span>
           <span>as above, so below </span>
           <span>
@@ -626,10 +626,10 @@ function Article() {
             us?
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>JHR:</span>
           <span>
             &nbsp;I really do believe that being human is more than enough.
@@ -650,10 +650,10 @@ function Article() {
             &nbsp;work in this anthropomorphic sense.{" "}
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             I&#39;d say it&#39;s a human tendency to attribute our bodies to
             other species. Like, I don&#39;t think a snake is thinking about
@@ -670,10 +670,10 @@ function Article() {
             mischief, and invisibility.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             SRB: If humanness is enough, then what is this historical tension
             between humans and{" "}
@@ -691,10 +691,10 @@ function Article() {
             conversation with other-than-humanness?
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             LR: As Jes&uacute;s noted, there&rsquo;s an interesting tension with
             the category of human and our exclusion. The very language and
@@ -725,10 +725,10 @@ function Article() {
             communities and what we feel like we deserve.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>JHR: Absolutely. I work in and </span>
           <span>think</span>
           <span>
@@ -767,10 +767,10 @@ function Article() {
             apocalypse of the Middle Passage.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             The question about the technologies of our survival brings me back
             to techno. Absolutely techno.{" "}
@@ -825,10 +825,10 @@ function Article() {
             mobility. Maybe that&#39;s the technology.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>SRB: I want to return to a notion of aliveness. </span>
           <span>The tendency to attach to the </span>
           <span>nonhuman</span>
@@ -872,10 +872,10 @@ function Article() {
             stakes of our aliveness?
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 ">
             LR: It feels really important to recognize that our very mobility,
             the fact of our aliveness as Black or animated or vertical, is in
@@ -887,10 +887,10 @@ function Article() {
             thought.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             As it relates to stakes, in order for aliveness to no longer be
             perceived as a threat within the infrastructure of a supremacist
@@ -907,10 +907,10 @@ function Article() {
             &ldquo;make it.&rdquo; &nbsp;
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             JHR: This is such a chilling set of questions. It led me to think
             about salt. I&#39;ve been thinking a lot about salt the past six
@@ -935,10 +935,10 @@ function Article() {
             follows:
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c11  c10"></span>
         </p>
-        <p className="c1 c15">
+        <p className="c1 c15" style={{ color: "white" }}>
           <span className="c11  c10">
             Sand saver of solitude, When we pass into forever, O night, more
             than the path struck with twilight&#39;s alone, In the infinity of
@@ -948,10 +948,10 @@ function Article() {
             Except that it waits.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c11  c10"></span>
         </p>
-        <p className="c1 c15">
+        <p className="c1 c15" style={{ color: "white" }}>
           <span className=" c10 c11">
             The holy rape of imperfect light upon light to be perfected by the
             unknown gentleness forcing gentleness to open itself. You are love
@@ -961,10 +961,10 @@ function Article() {
             waiting, broken at the root, an evening of hail.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c11  c10"></span>
         </p>
-        <p className="c1 c15">
+        <p className="c1 c15" style={{ color: "white" }}>
           <span className="c11  c10">
             Oh, to be farther from you than, for example, air from root. I have
             no longer leaf or sap, but I go back up into the fields and the
@@ -973,10 +973,10 @@ function Article() {
             and what to say of the ocean except that it waits.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className=" c8 c12"></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}> 
           <span>
             There&#39;s something about salt that is so potent&mdash;ephemera as
             evidence, the mobility and motion that blackness and queerness
@@ -998,10 +998,10 @@ function Article() {
           </span>
           <span className="c4 ">&nbsp;</span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>I want to bring up a </span>
           <span>
             <a href="https://www.google.com/url?q=https://www.poetryfoundation.org/poets/fred-moten&amp;sa=D&amp;source=editors&amp;ust=1713324863719417&amp;usg=AOvVaw1InzkQb3TvkwCPcIAIaix_">
@@ -1020,10 +1020,10 @@ function Article() {
           <span>,</span>
           <span className="c4 ">&nbsp;</span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1 c15">
+        <p className="c1 c15" style={{ color: "white" }}>
           <span>Dis</span>
           <span>
             order is our service, our antidote, and anteroom, our vestibule
@@ -1038,18 +1038,18 @@ function Article() {
           <span>.</span>
           <span className="c4 ">&nbsp;</span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             And I feel like that really answers the question of aliveness.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             SRB: Let&rsquo;s talk about the club. I&rsquo;ve always thought of
             sound akin to water,{" "}
@@ -1077,20 +1077,20 @@ function Article() {
           <span>&nbsp;of the absolute depths</span>
           <span className="c4 ">?</span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 ">
             JHR: Sound does not ask permission. It moves through you regardless.
             It&#39;s dialectical, it bounces back, it reverberates, it reflects,
             it divides.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             I really want to think about the physics behind sound&mdash;water
             actually gives shape to sound and they are similar in how they{" "}
@@ -1140,10 +1140,10 @@ function Article() {
             &nbsp;Where language seems to fail, sound flourishes.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             The role of the DJ is also timekeeping. Like I said before, with
             techno, you have the ability to make time&mdash;a couple hours can
@@ -1188,10 +1188,10 @@ function Article() {
             subverting and disregarding our conditions of subjugation.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             SRB: Experiencing time is so surreal when you&#39;re in that
             absolute depth, that sweaty, hot, infinite place. Thinking about
@@ -1207,10 +1207,10 @@ function Article() {
             conditions of futurity? What are we making?
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 ">
             LR: Black folks have always existed at the end of the world. I think
             queerness, too, has always existed at the end of the world. We must
@@ -1221,10 +1221,10 @@ function Article() {
             histories?
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             I&#39;m coming back to this word entitlement. What does it mean to
             feel entitled to speculation and possibility that gives us the range
@@ -1254,10 +1254,10 @@ function Article() {
             be the place where a new beginning is created altogether.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             JHR: Absolutely, yes. Drexciya&rsquo;s somewhere in the Atlantic,
             yet on their later projects, they do shoot outward into space. But
@@ -1280,10 +1280,10 @@ function Article() {
             culture I&#39;m a part of.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             Sovereignty to a geographic pinning is futile, especially after the
             Middle Passage.
@@ -1322,10 +1322,10 @@ function Article() {
             work, but in many ways, it&#39;s much more rewarding.
           </span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 ">&nbsp;</span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>SRB: Yes, all the lessons that the earth provides us are </span>
           <span className=" c10">more</span>
           <span>
@@ -1350,10 +1350,10 @@ function Article() {
             &nbsp;spell of hope: &ldquo;God is Change&rdquo;&hellip;
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>JHR: Yes! </span>
           <span className="  c10">
             <a href="https://www.google.com/url?q=https://godischange.org/the-book-of-the-living/&amp;sa=D&amp;source=editors&amp;ust=1713324863724999&amp;usg=AOvVaw2U19LsPc9j4lAM7m7mjdqW">
@@ -1363,10 +1363,10 @@ function Article() {
           <span>.</span>
           <span className=" c4">&nbsp;</span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>
             SRB: &hellip;I&rsquo;ve learned lessons of coming and going, of how
             change is the only inevitable, the only constant. Stillness is
@@ -1383,10 +1383,10 @@ function Article() {
             &nbsp;change. It is in the nature of this world.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>A </span>
           <span>somatic practitioner </span>
           <span>
@@ -1414,16 +1414,16 @@ function Article() {
             you said earth is enough, for me the earth is everything.
           </span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span className="c4 ">JHR: Yes, redress. Redress the world.</span>
         </p>
-        <p className="c1 c2">
+        <p className="c1 c2" style={{ color: "white" }}>
           <span className="c4 "></span>
         </p>
-        <p className="c1">
+        <p className="c1" style={{ color: "white" }}>
           <span>LR: I&rsquo;m here for it. </span>
         </p>
       </LocalStyles>
@@ -1454,19 +1454,19 @@ const LocalStyles = styled.div`
     text-align: left;
   }
   .c4 {
-    color: #000000;
+    /* color: #000000; */
     font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
   }
   .c11 {
-    color: #000000;
+    /* color: #000000; */
     font-weight: 400;
     text-decoration: none;
     vertical-align: baseline;
   }
   .c12 {
-    color: #000000;
+    /* color: #000000; */
     text-decoration: none;
     vertical-align: baseline;
   }
@@ -1501,7 +1501,7 @@ const LocalStyles = styled.div`
   }
   .title {
     padding-top: 0pt;
-    color: #000000;
+    /* color: #000000; */
     padding-bottom: 3pt;
 
     page-break-after: avoid;
@@ -1520,15 +1520,15 @@ const LocalStyles = styled.div`
     text-align: left;
   }
   li {
-    color: #000000;
+    /* color: #000000; */
   }
   p {
     margin: 0;
-    color: #000000;
+    /* color: #000000; */
   }
   h1 {
     padding-top: 20pt;
-    color: #000000;
+    /* color: #000000; */
     padding-bottom: 6pt;
 
     page-break-after: avoid;
@@ -1538,7 +1538,7 @@ const LocalStyles = styled.div`
   }
   h2 {
     padding-top: 18pt;
-    color: #000000;
+    /* color: #000000; */
     padding-bottom: 6pt;
 
     page-break-after: avoid;
