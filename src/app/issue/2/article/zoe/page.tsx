@@ -38,13 +38,13 @@ export default function Page() {
 function Article() {
   return (
     <ArticleContainer>
-      <p>
+      <p style={{ color: "white" }}>
         I&apos;ll start with an imprint. The mark of a life, burrowing itself
         into the rough skin of time. An index of flesh and feeling etched into a
         centurial being.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         If you look closely enough, you&apos;ll see it. There, on the Rotunda at
         the University of Virginia, a slight buckle in a building&apos;s facade
         where the fingerprints of an enslaved brickmaker—one of the fifteen who
@@ -58,18 +58,18 @@ function Article() {
         all the “great” American intellect sealed therein.
       </p>
 
-      <p>This fingerprint is my monument. A Black presence endures. </p>
+      <p style={{ color: "white" }}>This fingerprint is my monument. A Black presence endures. </p>
 
       <ArticleImage
         src={hopkins1}
         alt="Imprint of anonymous enslaved fingers at the UVA Rotunda. Image courtesy of Mabel O. Wilson."
       />
-      <CaptionContainer>
+      <CaptionContainer style={{ color: "white" }}>
         Imprint of anonymous enslaved fingers at the UVA Rotunda. Image courtesy
         of Mabel O. Wilson.
       </CaptionContainer>
 
-      <p>
+      <p style={{ color: "white" }}>
         I do not know the name of the person who laid that brick on that lawn,
         so I will cherish this other language of presence instead. No name to
         hold, so I hold the negative space created in the throes of contact
@@ -78,13 +78,13 @@ function Article() {
         lived. A gift to the horizon of years.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}> 
         When I learned of this anonymous Black mason, I thought of the artist
         Martin Puryear and the way he has used bricks to make a sculpture about
         eternity.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Forgive me for the drama, but with Puryear, I cannot help but succumb to
         reverence. A kind of breathless feeling of having arrived somewhere in
         harmony with the sacred. It is the artist&apos;s own reverence—his
@@ -98,7 +98,7 @@ function Article() {
         <sup>2</sup>
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Things were textured with a certain lucidity on that Wednesday afternoon
         when dear Camille Bacon and I headed upstate from Grand Central to visit
         Puryear&apos;s newly commissioned sculpture, <i>Lookout</i> (2023), at
@@ -114,12 +114,12 @@ function Article() {
         src={hopkins2}
         alt="Martin Puryear, Lookout, 2023. Image courtesy of Storm King Art Center."
       />
-      <CaptionContainer>
+      <CaptionContainer style={{ color: "white" }}>
         Martin Puryear, <i>Lookout</i>, 2023. Image courtesy of Storm King Art
         Center.
       </CaptionContainer>
 
-      <p>
+      <p style={{ color: "white" }}>
         Casting its interminable gaze out into the hills, soaking in the cool
         sun, the first thing to know about <i>Lookout</i>, is that it plans to
         live a very long life. Puryear believes it will outlast the
@@ -136,7 +136,7 @@ function Article() {
         from a material that gets stronger as it gets older.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         The second thing to know about <i>Lookout</i> is that it seems, at
         first, to live a paradox of form and physics. The architecture of the
         thing, once comprehended, will make you shudder in awe of what it means
@@ -157,11 +157,11 @@ function Article() {
         src={hopkins3}
         alt="Inside of <i>Lookout</i>. Image courtesy of Storm King Art Center."
       />
-      <CaptionContainer>
+      <CaptionContainer style={{ color: "white" }}>
         Inside of <i>Lookout</i>. Image courtesy of Storm King Art Center.
       </CaptionContainer>
 
-      <p>
+      <p style={{ color: "white" }}>
         It&apos;s a shape I&apos;ve never seen before and I couldn&apos;t have
         imagined before I saw it. For starters, it is a wholly impractical thing
         to do: who would think to use rectilinear bricks to assemble a curved
@@ -170,7 +170,7 @@ function Article() {
         things, to steal the logic of your crushing linearity and make it swell
         with supple shape.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         All curving and careening, <i>Lookout</i> is Blackness at an angle. It
         is an architecture for those of us who are enduringly wayward, who
         perpetually insist on going with the curves. Black being always at a
@@ -178,12 +178,12 @@ function Article() {
         those ideological architectures of hard-edged rigidity which keep trying
         to bend us out of shape.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         I&apos;m obsessed with the way that Puryear&apos;s sculpture makes time
         curve too. The way that it is made with an ancient technique yet already
         so aware of its future, already prepared to outlive me.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         <i>Lookout</i> reminds me of what I know about time—that it is frenzied
         and errant, that it dances in wild circles, that it pushes and pulls
         back and forth—which incarnates a set of questions about physics.
@@ -194,7 +194,7 @@ function Article() {
         describes the way that particles can exist in multiple temporalities at
         the same time.<sup>6</sup>
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Under the framework of classical physics, only waves are capable of
         producing diffraction—the pattern of spread and enlargement that is
         formed when quantum matter meets an obstacle.<sup>7</sup> However, as
@@ -209,7 +209,7 @@ function Article() {
         “indeterminately coexisting at multiple times—for example, yesterday,
         today, and tomorrow.”<sup>10</sup>
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         In describing the capacity of quantum matter to exist multiply in times,
         Barad upends everything I presumed to be fundamental to existence and
         time. Their words dance within my memory of <i>Lookout</i>: “Here-now
@@ -220,7 +220,7 @@ function Article() {
         superposition of time(s) is intrinsic to the fiber of{" "}
         <i>Lookout&apos;s</i> being.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         I think also of the whole matter of the structures&apos; curves and
         angles. I look at them and trace those microscopic ripples of concavity
         that are produced when a particle diffracts, when its seemingly
@@ -232,7 +232,7 @@ function Article() {
         bending the shape of memory. Matter misbehaving, <i>Black like me.</i>
         <sup>12</sup>
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         As Puryear teaches us, and as our aforementioned, anonymous, steadfast
         co-conspirator in Virginia reveals, the vibration of Black life teems
         from those quantum particles that Barad writes of. Indeed, Blackness is
@@ -245,14 +245,14 @@ function Article() {
         museums. Can&apos;t erase the fullness of us. Can&apos;t extinguish our
         will to bend and curve in the midst of it all.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Call us fungible if you wish, but you can&apos;t dispose of us when
         we&apos;re written into everything around you.
       </p>
-      <p>When we endure and endure. At all angles possible. </p>
+      <p style={{ color: "white" }}>When we endure and endure. At all angles possible. </p>
 
       <FooterContainer>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>1</sup> I learned of this imprint at a talk by architectural
           historian Mabel O. Wilson at the Center for Art Researches and
           Alliances in New York. For more on enslaved labor at the University of
@@ -264,7 +264,7 @@ function Article() {
           </a>
           .
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>2</sup> “Storm King : Exhibition : Martin Puryear: Process and
           Scale [EXH.152],” accessed March 8, 2024,{" "}
           <a href="https://collections.stormking.org/Detail/occurrences/207">
@@ -272,14 +272,14 @@ function Article() {
           </a>
           .
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>3</sup> Personal correspondence with Adela Goldsmith, Curatorial
           Assistant at Storm King.
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>4</sup> Ibid
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>5</sup> “Storm King : Exhibition : Martin Puryear: Lookout
           [EXH.149],” accessed March 8, 2024,{" "}
           <a href="https://collections.stormking.org/Detail/occurrences/204">
@@ -287,25 +287,25 @@ function Article() {
           </a>
           .
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>6</sup> Karen Barad, “Troubling Time/s and Ecologies of
           Nothingness: Re-Turning, Re-Membering, and Facing the Incalculable,”
           <i>New Formations: A Journal of Culture/Theory/Politics</i> 92, no. 1
           (2018): 56–86.
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>7</sup> Ibid
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>8</sup> Ibid
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>9</sup> Ibid
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>10</sup> Ibid, 67
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>11</sup> Karen Barad, “Quantum Entanglements and Hauntological
           Relations of Inheritance: Dis/Continuities, SpaceTime Enfoldings, and
           Justice-to-Come,” Derrida Today 3, no. 2 (November 2010): 240–68,{" "}
@@ -314,7 +314,7 @@ function Article() {
           </a>
           .
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>12</sup> “Black like me” is culled from the final line of
           Langston Hughes&apos;s <i>Dream Variations</i>, originally published
           in 1924.

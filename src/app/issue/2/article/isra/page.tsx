@@ -45,7 +45,7 @@ function Article() {
         src={isra1}
         alt="Image saved by author at W Cullerton St & S Halsted St, January 30, 2024, 4:17pm."
       />
-      <CaptionContainer>
+      <CaptionContainer style={{ color: "white" }}>
         image saved by author at <br />
         W Cullerton St & S Halsted St, <br />
         january 30; 4:17pm
@@ -118,7 +118,7 @@ function Article() {
         as carefully circled by Black studies and surveillance studies scholar
         Simone Browne, demands slowness and sustained attention.{" "}
       </p>
-      <p style={{ textAlign: "center" , color: "white" }}>*</p>
+      <p style={{ textAlign: "center", color: "white" }}>*</p>
       <p style={{ color: "white" }}>
         In a{" "}
         <a
@@ -149,7 +149,7 @@ function Article() {
         periapsis allows for love to remain as a force, though its pull varies
         throughout time.
       </p>
-      <p style={{ textAlign: "center" , color: "white" }}>*</p>
+      <p style={{ textAlign: "center", color: "white" }}>*</p>
       <p style={{ color: "white" }}>
         De Veaux has written and published many love letters to and about
         Jordan. And as I understand it, it has become a gesture of benevolent
