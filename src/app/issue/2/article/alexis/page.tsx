@@ -38,11 +38,11 @@ export default function Page() {
 function Article() {
   return (
     <ArticleContainer>
-      <p>
+      <p style={{ color: "white" }}>
         <b>Introduction:</b>
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Dominique White&apos;s installations live at the place where a particle
         meets a wave—Or to say it more accurately, where particleness meets
         waveness. Studying the ocean as a scene of disaster where colonialism
@@ -55,7 +55,7 @@ function Article() {
         their disintegration day by day. A practice of ruin.{" "}
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         I think of her work as a prayer. <br />
         <i>
           May that which destroys all of us finally destroy itself. May we
@@ -63,7 +63,7 @@ function Article() {
         </i>
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Or an experiment.
         <br />
         Which, like other experiments, builds on earlier work. Uses a set of
@@ -74,7 +74,7 @@ function Article() {
         at its very soul, is itself a weapon of capture.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         And yet. There is an older science. For example, Nanny of the Maroons is
         known in Jamaica as “the great scientist” because of her ancestral
         listening and multi-species attunement. She knew how to sing ancestral
@@ -87,7 +87,7 @@ function Article() {
         masquerading as a constant.{" "}
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Dominique knows what I mean. Her work puts colonialism in its place as a
         variable and asks whether the same materials in their contingency and
         fragility might reveal themselves otherwise. When she adorns a harpoon
@@ -99,14 +99,14 @@ function Article() {
         under our watch. It is up to us to fashion and remember different tools.{" "}
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         So maybe there is no difference between a decolonial experiment and a
         prayer.
       </p>
 
-      <p>Or the song of a whale?</p>
+      <p style={{ color: "white" }}>Or the song of a whale?</p>
 
-      <p>
+      <p style={{ color: "white" }}>
         In some of the titles for her installations, Dominique uses the same
         words or references I used in my own prayer experiment of marine mammal
         apprenticeship in{" "}
@@ -121,29 +121,29 @@ function Article() {
         other:
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         We want forms that will unharpoon us. What is the angled opposite of
         impale? Exhale?
       </p>
 
       <HugeGuy />
 
-      <p>
+      <p style={{ color: "white" }}>
         <b>Attempts</b>
       </p>
       <br />
 
-      <p>
+      <p style={{ color: "white" }}>
         <b>1</b>
       </p>
       <br />
 
-      <p>
+      <p style={{ color: "white" }}>
         <b>may they never catch you</b>
       </p>
       <br />
 
-      <p>
+      <p style={{ color: "white" }}>
         once upon a time this asphalt was air. before that it was under the sea.
         and so the harpoon could have been aimed at you. it could have been.
         aimed at me. one of us showed up in Hiro Murai&apos;s dream. beat on
@@ -156,38 +156,38 @@ function Article() {
       </p>
 
       <ArticleImage alt="Harpoons dug into the sand at shore" src={alexis1} />
-      <CaptionContainer>
+      <CaptionContainer style={{ color: "white" }}>
         Dominique White, <i>May they never catch you</i>, 2022. Cast iron.
         Photographed by Deniz Guzel. Courtesy of the artist, Bold Tendencies,
         and VEDA Firenze.
       </CaptionContainer>
       <HugeGuy />
 
-      <p>
+      <p style={{ color: "white" }}>
         <b>2</b>
       </p>
       <br />
 
-      <p>
+      <p style={{ color: "white" }}>
         <b>can we be known without being hunted</b>
       </p>
       <br />
 
-      <p>
+      <p style={{ color: "white" }}>
         if particle was a wish for you. if particle was a dream. i would wash
         over you with every wave at once.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         if escape was your only ceremony, the mast your only tree. i would claw
         the makeshift branches. set you free.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         if timespace was your fashion, the only thing you wore. i would wait for
         you. wait for you anyway. on the shore.
       </p>
 
       <ArticleImage src={alexis2} alt="Art installation" />
-      <CaptionContainer>
+      <CaptionContainer style={{ color: "white" }}>
         Dominique White, <i>Can We Be Known Without Being Hunted</i>, 2022.
         Kaolin clay, burnt mahogany, sisal, null sail, raffia, cast iron, forged
         iron, rust, and damaged rope. Installation view of &quot;Cinders of the
@@ -198,12 +198,12 @@ function Article() {
 
       <HugeGuy />
 
-      <p>
+      <p style={{ color: "white" }}>
         <b>3</b>
       </p>
       <br />
 
-      <p>
+      <p style={{ color: "white" }}>
         <b>
           a fugitive you cannot find a record for is the most successful
           fugitive of all
@@ -211,7 +211,7 @@ function Article() {
       </p>
       <br />
 
-      <p>
+      <p style={{ color: "white" }}>
         the fugue i knew was my repair. a healing. my gift to you. my secret
         future. the possibility that i was never there. and if there were
         millions making the impossible believable, like flesh can be bought,
@@ -219,7 +219,7 @@ function Article() {
         unweaving another song.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         if there were citadels to insist on the knowable and barter it as god,
         there were bush-held temples, arbors, groves unlearning the word as a
         rod. refusing one life as a knife, relevant only to its ends. we
@@ -227,10 +227,10 @@ function Article() {
         confessed to vines. and danced with trees.
       </p>
 
-      <p>i prevail when you don&apos;t need to imagine me.</p>
+      <p style={{ color: "white" }}>i prevail when you don&apos;t need to imagine me.</p>
 
       <ArticleImage src={alexis3} alt="Art installation" />
-      <CaptionContainer>
+      <CaptionContainer style={{ color: "white" }}>
         Dominique White,{" "}
         <i>
           A fugitive you cannot find a record for is the most successful
@@ -243,36 +243,36 @@ function Article() {
 
       <HugeGuy />
 
-      <p>
+      <p style={{ color: "white" }}>
         <b>Analysis</b>
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Who showed up?: Alexis, Dominique, Hiro Murai, Kendrick Lamar, My Cousin
         Gretley, NourbeSe, Eric A. Stanley, Fred Moten, Édouard Glissant,
         Christina Sharpe, Dionne Brand, Torkwase Dyson, Sharon Bridgforth, Omi
         Osun Joni L. Jones, Saidiya Hartman, Hortense Spillers, Tavia
         N&apos;yongo, Nanny of the Maroons
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Where?: the car park, Hiro&apos;s dream, Kendrick&apos;s tongue, the
         buildings i&apos;m forgetting, the Large Hadron Collider, the ceremony,
         the shore, a very good hiding place
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         How?: story, memory, conjecture, dance, praise, observation, gratitude,
         request, wish, dream, cleansing, escape, clawing, waiting, repetition,
         generosity, uncounting, unweaving, unlearning, refusal, nourishment,
         hiding, loving, confession, dancing, release
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Why?: because of the youth of the built structure and the age of the
         sea. in case particle is a wish for you, a dream. in case escape is your
         only ceremony and mast is your only tree. in case timespace is your
         fashion. because there were millions making the impossible believable.
         because we have destinies. and friends.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         What (is the next experiment)?: Breathe the words above. Show me what
         happens.
       </p>
