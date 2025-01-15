@@ -88,7 +88,7 @@ function Article() {
       <p style={{ paddingInlineStart: "12px", color: "white" }}>II.</p>
 
       <p>
-        <i>
+        <i style={{ color: "white" }}>
           To hail from an archipelago is to know something special about mending
         </i>
         —as such is the apotropaic spirit of experimental filmmaker, musician,
@@ -124,16 +124,16 @@ function Article() {
       </p>
 
       <p style={{ color: "white" }}>
-        <i>BADAM</i> (the poem is a prophecy) <br />
-        <i>BADAM</i> (we stand: seized, spellbound, and reminded of an) <br />
-        <i>BADAM</i> (airborne assailant. the metropole is the “something” that
+        <i style={{ color: "white" }}>BADAM</i> (the poem is a prophecy) <br />
+        <i style={{ color: "white" }}>BADAM</i> (we stand: seized, spellbound, and reminded of an) <br />
+        <i style={{ color: "white" }}>BADAM</i> (airborne assailant. the metropole is the “something” that
         “hits you.”) <br />
-        <i>BADAM</i> (louder this time—the tricolor and all it stands for, up in
+        <i style={{ color: "white" }}>BADAM</i> (louder this time—the tricolor and all it stands for, up in
         smoke)
         <br />
-        <i>BADAM</i> (Marianne, hallmark of spurious liberty drops to her knees){" "}
+        <i style={{ color: "white" }}>BADAM</i> (Marianne, hallmark of spurious liberty drops to her knees){" "}
         <br />
-        <i>BADAM</i> (once more and she&apos;ll “hit the floor”)
+        <i style={{ color: "white" }}>BADAM</i> (once more and she&apos;ll “hit the floor”)
       </p>
       <p style={{ color: "white" }}>
         Simone Lagrand&apos;s voice is thunder passed through windpipes. As her
@@ -150,7 +150,7 @@ function Article() {
         buoyant nonetheless
       </p>
       <p style={{ color: "white" }}>
-        <i>
+        <i style={{ color: "white" }}>
           to hail from an archipelago is to know something special about
           refusing to sink
         </i>
