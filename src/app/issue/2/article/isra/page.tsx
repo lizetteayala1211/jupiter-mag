@@ -35,7 +35,7 @@ export default function Page() {
 function Article() {
   return (
     <ArticleContainer>
-      <p>
+      <p style={{ color: "white" }}>
         <i>
           Did you know that the moon doesn&apos;t produce its own light? The
           glow of the sun reflects onto its surface to animate it.{" "}
@@ -50,7 +50,7 @@ function Article() {
         W Cullerton St & S Halsted St, <br />
         january 30; 4:17pm
       </CaptionContainer>
-      <p style={{ lineHeight: "32px" }}>
+      <p style={{ lineHeight: "32px", color: "white" }}>
         Lately, I&apos;ve made it a point to take wide-eyed walks from my
         apartment in Pilsen to my hosting job in River North—one hour and twenty
         minutes of dream pop and viaducts turned industrial techno and Chicago
@@ -63,19 +63,19 @@ function Article() {
         that the closeness you may find that lasts for days holds the same
         strength as a closeness that lasts over the span of years.
       </p>
-      <p style={{ lineHeight: "32px" }}>
+      <p style={{ lineHeight: "32px", color: "white" }}>
         For as long as we could, the moon and I followed one another and during
         those passing moments I felt as close to self-surrender and allowance
         and possibility and withdrawal and obscurity and invisibility all
         sutured together. <i>(culled from my diary, January 30, 2024)</i>
       </p>
       <BigGuy />
-      <p style={{ textAlign: "center" }}>
+      <p style={{ textAlign: "center", color: "white" }}>
         <b>
           <i>The way one encounters what one cannot see</i>
         </b>
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         In astronomy, for every two-body system that shares an elliptical orbit,
         there will always exist a period of time where the masses are at their
         closest point of approach. This proximal junction is known as
@@ -94,8 +94,8 @@ function Article() {
         sweet and dizzying spiral of lovers who share a diaphanous glance across
         a room filled with strangers.{" "}
       </p>
-      <p style={{ textAlign: "center" }}>*</p>
-      <p>
+      <p style={{ textAlign: "center", color: "white" }}>*</p>
+      <p style={{ color: "white" }}>
         At one point or another, in any relationship that you have with someone
         or something, there exists a periapsis: the intimately mundane points of
         encounter that follow a path of discrete magnitude toward the
@@ -118,8 +118,8 @@ function Article() {
         as carefully circled by Black studies and surveillance studies scholar
         Simone Browne, demands slowness and sustained attention.{" "}
       </p>
-      <p style={{ textAlign: "center" }}>*</p>
-      <p>
+      <p style={{ textAlign: "center" , color: "white" }}>*</p>
+      <p style={{ color: "white" }}>
         In a{" "}
         <a
           target="_blank"
@@ -149,8 +149,8 @@ function Article() {
         periapsis allows for love to remain as a force, though its pull varies
         throughout time.
       </p>
-      <p style={{ textAlign: "center" }}>*</p>
-      <p>
+      <p style={{ textAlign: "center" , color: "white" }}>*</p>
+      <p style={{ color: "white" }}>
         De Veaux has written and published many love letters to and about
         Jordan. And as I understand it, it has become a gesture of benevolent
         conjuring; a devotional act, a durational holding of love as a faculty,
@@ -164,12 +164,12 @@ function Article() {
         they made around each other, their closeness created (w)hole worlds
         apart from the destruction around them.
       </p>
-      <p style={{ textAlign: "center" }}>
+      <p style={{ textAlign: "center" , color: "white" }}>
         <b>
           <i>The way one encounters what one cannot see</i>
         </b>
       </p>
-      <div>
+      <div style={{ color: "white" }}>
         And yet, periapsis is not solely reserved to the digestible
         understanding of the two-body system. Bodies can be tangible and still
         abstracted. Bodies can refer to (non)human organisms and also to the
@@ -214,17 +214,17 @@ function Article() {
         into its own darkness by br(e)aking into the drive toward total
         annihilation—it doubles down
         <br />
-        <div>
+        <div style={{ color: "white" }}>
           and
           <br />
           down
         </div>
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: "center", color: "white"}}>
           and
           <br />
           down
         </div>
-        <div style={{ textAlign: "right" }}>
+        <div style={{ textAlign: "right", color: "white" }}>
           and
           <br />
           down
@@ -235,18 +235,18 @@ function Article() {
         unknown.
       </div>
       <BigGuy />
-      <p style={{ textAlign: "center" }}>
+      <p style={{ textAlign: "center", color: "white" }}>
         <b>
           <i>The way one encounters what one cannot see</i>
         </b>
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Periapsis—if either with a body in or outside of the self—reminds me of
         the elliptically dynamic and complicated love that courses through our
         interrelation and subjectivity. For me, the argument of periapsis has
         evolved into the paradigm of periapsis, or:{" "}
       </p>
-      <p style={{ textAlign: "center" }}>
+      <p style={{ textAlign: "center", color: "white" }}>
         <i>The way one encounters what one cannot see </i> <br />
         <i>The way one encounters what one cannot hear</i> <br />
         <i>The way one encounters what one cannot fathom</i> <br />
@@ -264,7 +264,7 @@ function Article() {
         <i>The way one encounters what one cannot grasp</i> <br />
         <i>The way one encounters what one cannot………</i> <br />
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         <i>
           Thank you Alexis De Veaux and June Jordan and Linda Sharrock and Lila
           Young and…
