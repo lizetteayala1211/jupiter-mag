@@ -33,14 +33,14 @@ export default function Page() {
 function Article() {
   return (
     <ArticleContainer>
-      <p>
+      <p style={{ color: "white" }}>
         An infinite downpour falls before me, <br />
         a shield as I unsheathe my depth <br />
         to become one with it. <br />
         Submerged within, we hold one another.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Gliding off edges of slick palm fronds, <br />
         pelting the dark ground below us, <br />
         I am washed ‘til I transform into it, <br />
@@ -50,7 +50,7 @@ function Article() {
         To envelop.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Saplings draped in siren songs <br />
         usher us to our source. <br />
         This force, this everything <br />
@@ -60,7 +60,7 @@ function Article() {
         as it begins.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         I have come within inches or less <br />
         of drowning before, <br />
         of existing in realms beyond <br />
@@ -69,7 +69,7 @@ function Article() {
         uncertainty.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Every second of my breathing <br />
         works toward floating better. <br />
         Encasing myself in more ease. <br />
@@ -77,7 +77,7 @@ function Article() {
         for it is the meaning of my name.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         As orbiting bodies reach points of closest encounter. <br />
         As listening transmutes frequencies to languages of love. <br />
         Particles meet waves, forming prayers. <br />
@@ -85,7 +85,7 @@ function Article() {
         may we discover the depths of heaven.
       </p>
 
-      <p>May we hear the sea.</p>
+      <p style={{ color: "white" }}>May we hear the sea.</p>
     </ArticleContainer>
   )
 }
