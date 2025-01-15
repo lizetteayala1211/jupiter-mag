@@ -34,9 +34,9 @@ export default function Page() {
 function Article() {
   return (
     <ArticleContainer>
-      <p style={{ paddingInlineStart: "12px" }}>I.</p>
+      <p style={{ paddingInlineStart: "12px", color: "white" }}>I.</p>
 
-      <p>
+      <p style={{ color: "white" }}>
         He asks us if we can hear the water. And in the next breath, if we can
         hear him. (Inhale) if we can hear the water, (exhale) if we can hear
         him—again and again, lulling our ears beyond our heads, opening our
@@ -52,7 +52,7 @@ function Article() {
         insurgence of this gathering. It&apos;s more communion than conference,
         for the wind and waves have willed it so…
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Tonight, his voice is not only his voice. Tonight, his utterance is
         pierced by the incandescent flair of Jacques Coursil&apos;s trilling
         trumpet and a symphony of erosion as ancient waves hurl themselves onto
@@ -63,7 +63,7 @@ function Article() {
         the feeling lived on—latent and thrumming and ready to become what
         you&apos;re reading now.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         As his oratory impulse receded back into the cavern of his rib cage like
         a snake coiling around its own fresh flesh, he put the handheld mic
         he&apos;d been cradling down into the grass and angled his eyes toward
@@ -72,7 +72,7 @@ function Article() {
         coalesced the final yelps of brass, a sonic cloud of electrons orbiting
         the nucleus of our infinite possibility.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         On the yearning heels of Coursil&apos;s trembling horn, <br />
         we ascend together into the night sky like a{" "}
         <a
@@ -85,7 +85,7 @@ function Article() {
         Commanding something more than mere melody. <br />
       </p>
 
-      <p style={{ paddingInlineStart: "12px" }}>II.</p>
+      <p style={{ paddingInlineStart: "12px", color: "white" }}>II.</p>
 
       <p>
         <i>
@@ -102,7 +102,7 @@ function Article() {
         introducing those who would later write about his work to the topography
         and imaginary from which his tentacular practice flows.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         This is the first time a Martinican artist has held a convening of this
         nature on the island. Likewise, this is the first time a Martinican
         artist&apos;s work will make itself manifest in the{" "}
@@ -112,7 +112,7 @@ function Article() {
         .{" "}
       </p>
 
-      <p style={{ paddingInlineStart: "12px" }}>III.</p>
+      <p style={{ paddingInlineStart: "12px", color: "white" }}>III.</p>
       <p>
         We&apos;ve reached the fold of night that precedes slurred and swirling,
         the fold still lined with lucidity and laced with laughter. The poet
@@ -123,7 +123,7 @@ function Article() {
         the floor.”
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         <i>BADAM</i> (the poem is a prophecy) <br />
         <i>BADAM</i> (we stand: seized, spellbound, and reminded of an) <br />
         <i>BADAM</i> (airborne assailant. the metropole is the “something” that
@@ -135,7 +135,7 @@ function Article() {
         <br />
         <i>BADAM</i> (once more and she&apos;ll “hit the floor”)
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Simone Lagrand&apos;s voice is thunder passed through windpipes. As her
         utterances populate the veranda on which we have gathered to share our
         first meal, her lungs demand their own fullness and, by osmosis, ours do
@@ -145,20 +145,20 @@ function Article() {
         a heart that pumps as fast as its diaphanous wings, has insisted upon
         its own flight, again.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         BADAM: a crescendo of potential energy wailing downward, all kinetic—but
         buoyant nonetheless
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         <i>
           to hail from an archipelago is to know something special about
           refusing to sink
         </i>
       </p>
 
-      <p style={{ paddingInlineStart: "12px" }}>IV.</p>
+      <p style={{ paddingInlineStart: "12px", color: "white" }}>IV.</p>
 
-      <p>
+      <p style={{ color: "white" }}>
         “Quantum entanglement” explains how two particles can be intimately
         connected even if separated by billions of light-years of space, such
         that “
@@ -182,7 +182,7 @@ function Article() {
         </a>
         ”
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         We can expand this framework up to the level of relation, like when we
         surrender to the crushing risk and kaleidoscopic thrill of being made
         anew in love&apos;s image. Or, like when I feel my forebears
@@ -194,8 +194,8 @@ function Article() {
         rhythm wherein we excrete nothing but salt and forget to mind whose body
         it came from.
       </p>
-      <p>And what if we swell the scale further? </p>
-      <p>
+      <p style={{ color: "white" }}>And what if we swell the scale further? </p>
+      <p style={{ color: "white" }}>
         We can turn to quantum entanglement also as a means to read the
         relationship between France and its neo-colonies: Like how they
         asphyxiate our land with concrete and chlordecone without realizing they
@@ -209,7 +209,7 @@ function Article() {
         <i>means</i>, i.e. turns our attention toward what it <i>disrupts</i>,{" "}
         toward a ceremonious undoing of national identity.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         France&apos;s regime has long depended on assimilatory rhetoric, as
         evinced in part by the evisceration of language that indexes relational
         difference. For example, hyphens are a ghost in the country&apos;s
@@ -221,14 +221,14 @@ function Article() {
         of subjugation, the immense and holistically felt weight of living under
         European domination.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Concurrently, the ethos of the island is one of <i>débrouillardise</i>
         —our incredible capacity to cope, to keep inventing ourselves under
         volcanic pressure against our livelihood, to reify a cadence of
         aliveness informed by profuse familiarity with the anatomy of violence,
         and simultaneously aware of and inhabiting an other-way or other-wise.{" "}
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         <i>Débrouillardise</i> is the aortic root of our expression, of our
         action, of our waiting and wanting, which also means there&apos;s an
         asymmetry to the equation of entanglement here: the appearance of
@@ -248,24 +248,24 @@ function Article() {
         all but immune to its collision with Martinique, all but safe from the
         artist&apos;s rewriting.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Julien puts Martinique at the center of the frame and demands engagement
         on the island&apos;s own terms, on his own terms. He refuses to partake
         in the charade of translation, refuses to make his offerings legible to
         a country whose self-perception depends on misreading him. He has
         brought us all here to bask in the splendor of empire&apos;s undoing.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         It all feels like a wink. And the wink is our way, is our donning of{" "}
         <i>débrouillardise</i>.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Indeed, in step with Julien&apos;s work, we redress <i>la blès</i>.
       </p>
 
-      <p style={{ paddingInlineStart: "12px" }}>V.</p>
+      <p style={{ paddingInlineStart: "12px", color: "white" }}>V.</p>
 
-      <p>
+      <p style={{ color: "white" }}>
         It&apos;s pre-coffee early, but the birds and the trees are already
         exchanging notes about the sun&apos;s unspooling, so we follow suit. The
         bus grinds to a halt and we begin down the path to the residence where
@@ -279,7 +279,7 @@ function Article() {
         footfalls feel like a red carpet rolled out for freedom to take on
         flesh, for sovereignty to saunter across.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         After serving ourselves a vivifying dose of coconut water from an
         endlessly perspiring vessel, Daria and I go to the bathroom to relieve
         our foreheads, also endlessly perspiring, and reapply the liquid blush
@@ -296,7 +296,7 @@ function Article() {
         walls. As we exit the lavatory, I catch a glimpse of his straw hat
         perched atop a conical pile of books.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         We are here to inaugurate the house&apos;s new life as a residency, and
         also because Julien is going to be{" "}
         <a
@@ -323,7 +323,7 @@ function Article() {
         blush into the understanding that, this year, the French Pavilion will
         be an ode to the magma that made us.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Further,{" "}
         <i>
           Attila cataracte ta source aux pieds des pitons verts finira dans la
@@ -339,7 +339,7 @@ function Article() {
         have not yet named within ourselves and to imbibe the mystery of being
         without having to call it anything.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         For the duration of the dialogue, the artist answers sparingly: an
         easeful testament to his own agentive force, as if to epitomize
         Glissant&apos;s directive of one&apos;s{" "}
@@ -362,9 +362,9 @@ function Article() {
         benediction, as a self-ordainment. A fifth limb poised to protect.
       </p>
 
-      <p style={{ paddingInlineStart: "12px" }}>VI.</p>
+      <p style={{ paddingInlineStart: "12px", color: "white" }}>VI.</p>
 
-      <p>
+      <p style={{ color: "white" }}>
         We step, now, into the rustling throat of Absalon Forest: the birthplace
         of surrealism. As we plunge down a narrow, moss-lined staircase that
         leads to a gargantuan waterfall, Julien makes a point to remind us that
@@ -373,7 +373,7 @@ function Article() {
         a post-war aesthetic capable of leveraging the cyclonic bounty of the
         subconscious.{" "}
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         The undeniable here-ness of our writerly cosmology and the thick
         seduction of a looming forest&apos;s wisdom sends Daria and I rushing
         back to the bus. Riffling madly through our tote bags, we grab our
@@ -390,7 +390,7 @@ function Article() {
         own rapturous laughter and that totalizing feeling of reality melting
         into something more habitable.{" "}
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Ensconced in the safety of Daria&apos;s arms, I wonder for a while about
         the cascade&apos;s enraptured expanse and think to myself: No wonder
         Suzanne and her comrades came here to write the world anew. She has been
@@ -405,7 +405,7 @@ function Article() {
         cue Julien and his co-conspirators, all fingers and fortitude, ready to
         keep weaving.{" "}
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Indeed, Suzanne is with us now, marveling at her prayer: answered /
         alight / ablaze.{" "}
       </p>
