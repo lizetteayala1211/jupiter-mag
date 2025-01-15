@@ -33,7 +33,7 @@ export default function Page() {
 function Article() {
   return (
     <ArticleContainer>
-      <p>
+      <p style={{ color: "white" }}>
         <i>
           (a story in three acts in three locations at three different points in
           time all of which are given volume by KOKOROKO&apos;s debut album,{" "}
@@ -54,7 +54,7 @@ function Article() {
       <hr style={{ backgroundColor: "grey" }} />
 
       <div style={{ display: "flex", justifyContent: "flex-end" }}>
-        <p>
+        <p style={{ color: "white" }}>
           <i>
             [Quantum Listening is]
             <br />
@@ -69,18 +69,18 @@ function Article() {
         </p>
       </div>
 
-      <p>
+      <p style={{ color: "white" }}>
         I&apos;m not the kind of person that can tell you the first time I heard
         a song. I wish I was.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         I wish I could pinpoint moments in time and relive them through their
         associated sonic frequencies. I envy that kind of memory; sensual;
         embodied; tactile. Maybe it&apos;s why I write– to hold a feeling
         aloft/alive, allowing it to become an event that can be returned to and
         lingered in.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         And so, while I can&apos;t remember the first time I heard KOKOROKO, I
         can write about last night. I can tell you about riding home from
         Peckham to Tulse Hill, their debut album <i>Could We Be More</i> tilting
@@ -88,7 +88,7 @@ function Article() {
         sound drifting like fishing nets cast at dawn from the helm of small
         boats in the muddy green of the Niger Delta.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         I can take you on a journey that skips across timelines. A pebble
         kissing the surface of a wide lake. Ripples as storylines. Histories
         intersecting: Eighteen months ago; last night; two days from now. I can
@@ -102,16 +102,16 @@ function Article() {
         remember, to imagine, to love, to turn my thoughts into material and
         scan my body for the places I want to make home from.
       </p>
-      <p>And to dance. Always to dance.</p>
+      <p style={{ color: "white" }}>And to dance. Always to dance.</p>
 
       <BigGuy />
 
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", color: "white" }}>
         <a href="https://youtu.be/IVB_HDuwz8Q">Age Of Ascent</a>
         <div>(Last night, February 28, 2024)</div>
       </div>
 
-      <p>
+      <p style={{ color: "white" }}>
         My friend Jaz and I have just stepped out of FLO Vortex on the last
         Wednesday in February. The smoke from the joint we share still hangs in
         the air between us as I walk toward my bike. Snatches of voice follow me
@@ -119,7 +119,7 @@ function Article() {
         through the evening&apos;s end meeting myself somewhere that deserves to
         be written about, the edge of words sharpening worlds into visions.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         As I set off into the dark, my bike&apos;s pedals becoming a part of the
         road&apos;s music, &quot;Age Of Ascent&quot; pushes me forward, the wind
         at my back as I wind through the backroads toward East Dulwich. This
@@ -128,7 +128,7 @@ function Article() {
         coaxing. The sky arches over me, a cobalt blue. A fox runs alongside me
         briefly before cutting into a garden and disappearing.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         With each corner I take, the music leans with me. This is space music.
         Black and wide, it wanders a wayward path through beacons from stars 7
         lifetimes away. The conversation between the guitar and the horns feels
@@ -141,7 +141,7 @@ function Article() {
         the promise of depth, present when someone lets you look at them without
         flinching.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Flying down Calton Ave, my thoughts perforate the last of winter&apos;s
         breath, turning it into a flute made of dreams. I shout into the sky and
         hear the horns returning their firm charge: Make something lasting from
@@ -150,12 +150,12 @@ function Article() {
 
       <BigGuy />
 
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", color: "white" }}>
         <a href="https://youtu.be/0XPLlHl8nqc">Ewà Inú</a>
         <div>(In two days, March 1, 2024)</div>
       </div>
 
-      <p>
+      <p style={{ color: "white" }}>
         I am here <br />
         Here could be anywhere, is <br />
         Everywhere, slips out of sync with itself like a particle antiparticle
@@ -165,7 +165,7 @@ function Article() {
         in a warm, brown studio, becoming an improvisation of words and laughter
         with Sheila and Onome.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         *This is what the music does to me. Spreads me into a spirit of loosely
         dancing electrons, body of water, ripples on the surface of spacetime,
         stream of consciousness. While I still can&apos;t remember the first
@@ -174,8 +174,8 @@ function Article() {
         me into an archipelago of fireflies whose blinking bodies chorus with
         invisible cicadas.
       </p>
-      <p>Listen at the water&apos;s edge and let the darkness slip into you.</p>
-      <p>
+      <p style={{ color: "white" }}>Listen at the water&apos;s edge and let the darkness slip into you.</p>
+      <p style={{ color: "white" }}>
         Sheila and Onome are working on the next album. I am listening to them,
         employing Pauline Oliveros&apos;s quantum listening technique as means
         for writing as music-making. I am bearing witness to a friendship that
@@ -198,12 +198,12 @@ function Article() {
 
       <BigGuy />
 
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", color: "white" }}>
         <a href="https://youtu.be/n3xQA5ULmAQ">Soul Searching</a>
         <div>(Eighteen months ago, August 11, 2022)</div>
       </div>
 
-      <p>
+      <p style={{ color: "white" }}>
         <i>
           A story starts across multiple spacetimes.
           <br />
@@ -211,7 +211,7 @@ function Article() {
         </i>
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         Imagine a body moving through a room with the kind of swing that, from
         the outside, would be best described as joy/abandon/life/sunshine.
         Imagine hips winding around the neck of the trumpet, head losing track
@@ -230,11 +230,11 @@ function Article() {
         pensive. The story doesn&apos;t start here, of course.
       </p>
 
-      <p>
+      <p style={{ color: "white" }}>
         A story starts across multiple spacetimes. <br />
         There is no beginning; just now.
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         Earlier that night, KOKOROKO arrived to set up a small stage in the
         curve of a window offering a wide view of London&apos;s skyline. They
         have played before, together, many times, but this time is different.
@@ -247,12 +247,12 @@ function Article() {
 
       <BigGuy />
 
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", color: "white" }}>
         <a href="https://youtu.be/sllPE4Mg4C0">Tojo</a>
         <div>(In two days, March 1, 2024)</div>
       </div>
 
-      <p>
+      <p style={{ color: "white" }}>
         We are traveling across the boundaries of time like cousins remembering
         old photographs of Grandma&apos;s house. We don&apos;t really know each
         other, but we have known each other forever. Sheila&apos;s cousin is one
@@ -269,7 +269,7 @@ function Article() {
         sound and relation and inviting others in to experience what we&apos;ve
         made together.{" "}
       </p>
-      <p>
+      <p style={{ color: "white" }}>
         More than once silence fills the room as we listen to the spaces between
         our words. Music is made in these pauses. The wry corner of
         Sheila&apos;s smile becomes an arpeggiated chord. Onome&apos;s arms
@@ -280,12 +280,12 @@ function Article() {
 
       <BigGuy />
 
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", color: "white" }}>
         <a href="https://youtu.be/KXUv2rYo1eY">Something&apos;s Going On</a>
         <div>(Eighteen months ago, August 11, 2022)</div>
       </div>
 
-      <p>
+      <p style={{ color: "white" }}>
         Tonight, on the 10th floor of The Standard, in Sweeties, a new story is
         being told. It doesn&apos;t begin with anyone in particular. In the
         thick of a packed room of people—elbows touching waist touching sequin
@@ -309,7 +309,7 @@ function Article() {
 
       <BigGuy />
 
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ display: "flex", justifyContent: "space-between", color: "white" }}>
         <a href="https://youtu.be/u2ibhiZRobE">Interlude</a>
         <div style={{ textAlign: "right" }}>
           (Last night, February 28, 2024 <br />
@@ -319,7 +319,7 @@ function Article() {
         </div>
       </div>
 
-      <p>
+      <p style={{ color: "white" }}>
         Hands off handlebars, I lean back and smile into the arching sky. I know
         that the crest of the wave above me is not going to crash. I know that
         it will form a tunnel for me to run my fingers along. Listen. A hole in
@@ -328,11 +328,11 @@ function Article() {
       </p>
 
       <FooterContainer>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>1</sup> Oliveros, Pauline. <i>Quantum Listening</i>: 2. London:
           Ignota Books, 2022.
         </p>
-        <p>
+        <p style={{ color: "white" }}>
           <sup>2</sup> KOKOROKO is currently made up of:
           <br />
           Sheila Maurice-Grey - trumpet, vocals
