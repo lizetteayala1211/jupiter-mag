@@ -87,7 +87,7 @@ function Article() {
 
       <p style={{ paddingInlineStart: "12px", color: "white" }}>II.</p>
 
-      <p>
+      <p style={{ color: "white" }}>
         <i style={{ color: "white" }}>
           To hail from an archipelago is to know something special about mending
         </i>
@@ -113,7 +113,7 @@ function Article() {
       </p>
 
       <p style={{ paddingInlineStart: "12px", color: "white" }}>III.</p>
-      <p>
+      <p style={{ color: "white" }}>
         We&apos;ve reached the fold of night that precedes slurred and swirling,
         the fold still lined with lucidity and laced with laughter. The poet
         tells me this: “Badam is an onomatopoeia as well as the other name of
