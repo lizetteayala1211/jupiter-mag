@@ -10,7 +10,7 @@ export function Article() {
           Another world is not only possible, she is on her way. On a quiet day,
           I can hear her breathing
           <br />
-          <span style={{ fontSize: "16px" }} className="c1">
+          <span style={{ fontSize: "16px", color: "white" }} className="c1">
             {" "}
             —Arundhati Roy
           </span>
