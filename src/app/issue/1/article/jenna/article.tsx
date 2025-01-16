@@ -11,11 +11,11 @@ export function Article() {
       <>
         <br />
         <Epigraph>
-          <span>My mouth could not find a language. / </span>
-          <span>I find</span>
-          <span>&nbsp;myself instead,</span>
+          <span style={{ color: "white" }}>My mouth could not find a language. / </span>
+          <span style={{ color: "white" }}>I find</span>
+          <span style={{ color: "white" }}>&nbsp;myself instead,</span>
         </Epigraph>
-        <span className="c4 c3" style={{ fontSize: "16px" }}>
+        <span className="c4 c3" style={{ fontSize: "16px", color: "white" }}>
           —Dionne Brand
         </span>
         <br />
@@ -25,26 +25,26 @@ export function Article() {
       </p>
       <div className="c18">
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             Like light, language does not have to travel in a straight line. It
             can bend ideas the same way light rays reshape the way images appear
             under water.{" "}
           </span>
-          <span className="c3">They take turns. </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>They take turns. </span>
+          <span className="c3" style={{ color: "white" }}>
             In space, gravity requires light to change its behavior around
             massive objects; On earth, our need and curiosity asks the same of
             speech and syntax.
           </span>
-          <span className="c3">&nbsp; &nbsp;</span>
+          <span className="c3" style={{ color: "white" }}>&nbsp; &nbsp;</span>
         </p>
         <br />
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             In Dionne Brand&rsquo;s poetry collection,{" "}
           </span>
-          <span className="c3 c6">Land to Light On</span>
-          <span className="c3">
+          <span className="c3 c6" style={{ color: "white" }}>Land to Light On</span>
+          <span className="c3" style={{ color: "white" }}>
             , she diagrams her extradition from language so exquisitely and also
             makes the case for the radical potentiality within it. Following her
             observation that she finds herself instead of language she adds,
@@ -52,20 +52,20 @@ export function Article() {
             to suggest that finding the self without the means to understand it
             is to render the self without use.{" "}
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             And what freedoms can be found within a self that has no use
           </span>
-          <span className="c3">&mdash;</span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>&mdash;</span>
+          <span className="c3" style={{ color: "white" }}>
             use as defined by the same systems that deploy language to produce
             the useless world that we find ourselves living in?
           </span>
         </p>
         <p className="c0">
-          <span className="c2">&nbsp;</span>
+          <span className="c2" style={{ color: "white" }}>&nbsp;</span>
         </p>
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             Toni Morrison, in her 1993 acceptance speech for the Nobel Prize in
             Literature, cautioned against resting too easily on the laurels of
             language. Her work orbited around a suspicion of language&rsquo;s
@@ -74,31 +74,31 @@ export function Article() {
             technologies with methods capable of destroying histories and
             narratives with as much grace as creating them. &ldquo;
           </span>
-          <span className="c3 c11">
+          <span className="c3 c11" style={{ color: "white" }}>
             It must be rejected, altered and exposed,&rdquo; she said.
             I&rsquo;ve studied these instructions for years and lately, the past
             participle of &ldquo;altered&rdquo; feels most exhilarating.{" "}
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             The flimsiness of language itself is succinctly being rejected and
             exposed all the time, in direct view, mostly on social media. But
             perhaps the way to do that is not through more words, but through{" "}
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             looking to see what else we already know how to do, rather than try
             to begin anew and find novelty along the way.
           </span>
         </p>
         <br />
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             In 2019, the critic Kimberly Drew astutely observed in an article
             for Office Magazine that opera was becoming a popular
             &ldquo;architecture for the future of Black cultural
             production&rdquo;; And now, five years later, that observation seems
             to be accelerating and expanding.{" "}
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             Perhaps that is because opera is, by definition, epic, and can match
             the scale of Black prophecy, imagination, and urgency. It is
             bombastic, as an artist working on her own opera told me in a recent
@@ -106,19 +106,19 @@ export function Article() {
             and desires for transformation that are unfolding in our lifetime.{" "}
           </span>
           <span>
-            <sup>[a]</sup>
+            <sup style={{ color: "white" }}>[a]</sup>
           </span>
 
-          <span className="c3">Opera is the plural of the Latin word </span>
-          <span className="c3 c6">opus</span>
-          <span className="c4 c3">
+          <span className="c3" style={{ color: "white" }}>Opera is the plural of the Latin word </span>
+          <span className="c3 c6" style={{ color: "white" }}>opus</span>
+          <span className="c4 c3" style={{ color: "white" }}>
             , work that is, by definition, exponential.
           </span>
         </p>
 
         <br />
         <p className="c0">
-          <span className="c4 c3">
+          <span className="c4 c3" style={{ color: "white" }}>
             One history traces the art form back to the sixteenth and
             seventeenth centuries, in Florence, Italy, though a friend who works
             in theater recently reminded me that opera itself is just the word
@@ -144,33 +144,33 @@ export function Article() {
             alt="Silouhette of a man"
           />
         </div>
-        <CaptionContainer>
+        <CaptionContainer style={{ color: "white" }}>
           <i>X’ene’s Witness</i>, presented by Los Angeles Nomadic Division
           [LAND], images courtesy of Justen Leroy and 718 Photography
         </CaptionContainer>
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             Last fall, I was in Los Angeles, California at a cavernous marble
             temple, watching a piece created by Justen LeRoy called{" "}
           </span>
-          <span className="c3 c6">X&rsquo;ene&rsquo;s Witness</span>
-          <span className="c3">
+          <span className="c3 c6" style={{ color: "white" }}>X&rsquo;ene&rsquo;s Witness</span>
+          <span className="c3" style={{ color: "white" }}>
             , billed as a live opera to &ldquo;highlight Black environmentalism.
           </span>
-          <span className="c3">&rdquo;</span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>&rdquo;</span>
+          <span className="c3" style={{ color: "white" }}>
             &nbsp;Ultimately, LeRoy is trying to find new ways to talk about the
             climate, both the planet and what the scholar Christina Sharpe
             defines as &ldquo;the totality of our environments; The weather is
             the total climate; and that climate is anti-black.
           </span>
-          <span className="c3">&rdquo;</span>
+          <span className="c3" style={{ color: "white" }}>&rdquo;</span>
           <sup className="c3">
-            <a href="#ftnt1" id="ftnt_ref1">
+            <a href="#ftnt1" id="ftnt_ref1" style={{ color: "white" }}>
               [1]
             </a>
           </sup>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             &nbsp;LeRoy describes his upbringing in South Central Los Angeles
             and wanting to engage his community with bigger conversations about
             where we live and the how and the why of it. LeRoy hopes to bridge
@@ -179,12 +179,12 @@ export function Article() {
             itself. The performance took notes from classical operatic
             performances like{" "}
           </span>
-          <span className="c3 c6">Phantom of the Opera</span>
-          <span className="c3">, </span>
-          <span className="c3 c6">Rocky Horror</span>
-          <span className="c3">, and paranoid thrillers </span>
-          <span className="c3 c6">Frankenstein</span>
-          <span className="c3 c4">
+          <span className="c3 c6" style={{ color: "white" }}>Phantom of the Opera</span>
+          <span className="c3" style={{ color: "white" }}>, </span>
+          <span className="c3 c6" style={{ color: "white" }}>Rocky Horror</span>
+          <span className="c3" style={{ color: "white" }}>, and paranoid thrillers </span>
+          <span className="c3 c6" style={{ color: "white" }}>Frankenstein</span>
+          <span className="c3 c4" style={{ color: "white" }}>
             : Productions laden with curiosities about our obligations and
             relationships to each other and the thorniness of trying to create
             something new&mdash;whether love, life forms, queer utopias.
@@ -192,7 +192,7 @@ export function Article() {
         </p>
         <br />
         <p className="c0">
-          <span className="c4 c3">
+          <span className="c4 c3" style={{ color: "white" }}>
             We were there to bear witness to an exorcism, perhaps, a purging, of
             the known in search of the unknown. It felt like a medicine ceremony
             or a tightly controlled experiment to release emotions. The show
@@ -215,17 +215,17 @@ export function Article() {
           src={img3}
           alt="Woman sitting at piano"
         />
-        <CaptionContainer>
+        <CaptionContainer style={{ color: "white" }}>
           <i>X’ene’s Witness</i>, presented by Los Angeles Nomadic Division
           [LAND], images courtesy of Justen Leroy and 718 Photography
         </CaptionContainer>
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             One of LeRoy&rsquo;s previous pieces also worked to connect Black
             expressionist sounds to those of the utterances of the earth.{" "}
           </span>
-          <span className="c3 c6">Lay Me Down In Praise</span>
-          <span className="c3">
+          <span className="c3 c6" style={{ color: "white" }}>Lay Me Down In Praise</span>
+          <span className="c3" style={{ color: "white" }}>
             , which was exhibited as part of a collaboration between the
             California African American Museum and Art + Practice, drew
             connections between gospel&rsquo;s wordless moan and the
@@ -235,25 +235,25 @@ export function Article() {
             body, of the throat, of the moan as a means to connect ourselves to
             a larger picture of being and existence
           </span>
-          <span className="c3">.</span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>.</span>
+          <span className="c3" style={{ color: "white" }}>
             &nbsp;It only makes sense, then, for artists to begin working with
             gestures, limbs, and vocal chords, those mechanisms beyond words,
             those that accompany words, those that preempt them and ultimately
             replace them.{" "}
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             Sometimes what needs to be said comes through the vocal{" "}
           </span>
-          <span className="c3">chords</span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>chords</span>
+          <span className="c3" style={{ color: "white" }}>
             &nbsp;and out of the mouth; other times it comes up through the body
             and out through the skin. Our hands, mouths, hips have syntax;
             cutting eyes, sucking teeth, sweeping movements have a grammar. New
             sentences can be formed there.
           </span>
           <sup>
-            <a href="#cmnt2" id="cmnt_ref2">
+            <a href="#cmnt2" id="cmnt_ref2" style={{ color: "white" }}>
               [b]
             </a>
           </sup>
@@ -261,24 +261,24 @@ export function Article() {
 
         <br />
         <p className="c0">
-          <span className="c4 c3">
+          <span className="c4 c3" style={{ color: "white" }}>
             Perhaps the language we are trying to rewrite is a language of self.
           </span>
         </p>
 
         <br />
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             This forming, this reaching is a pushing against the limits of
             language that not only breaks ideas about what it is possible to
             say, but what it is possible to do. These new choreographies even
             feel present in the atmospheric shift in popular culture, from
             Beyonc&eacute;&rsquo;s{" "}
           </span>
-          <span className="c3 c6">Renaissance</span>
-          <span className="c3">&nbsp;to Andr&eacute; 3000&rsquo;s </span>
-          <span className="c3 c6">New Blue Sun</span>
-          <span className="c3">
+          <span className="c3 c6" style={{ color: "white" }}>Renaissance</span>
+          <span className="c3" style={{ color: "white" }}>&nbsp;to Andr&eacute; 3000&rsquo;s </span>
+          <span className="c3 c6" style={{ color: "white" }}>New Blue Sun</span>
+          <span className="c3" style={{ color: "white" }}>
             . The former embodies the need to shout affirmations in unison,
             communal proclamations of love and belonging, meant to be
             experienced collectively, the choral amplification doubling as a
@@ -291,14 +291,14 @@ export function Article() {
             instruments arriving and departing with dignity and quietude.
             It&rsquo;s not an album to memorize or even stay attuned to.{" "}
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             It&rsquo;s also music for releasing the self as a means to find it.
           </span>
-          <span className="c4 c3">&nbsp;</span>
+          <span className="c4 c3" style={{ color: "white" }}>&nbsp;</span>
         </p>
         <br />
         <p className="c0">
-          <span className="c4 c3">
+          <span className="c4 c3" style={{ color: "white" }}>
             This is a tradition that can be traced throughout music history. For
             example, in 1975, Dizzy Gillespie gathered Sarah Vaughan, Joe
             Carroll, Al Haig, and other jazz greats for a reunion concert that
@@ -311,13 +311,13 @@ export function Article() {
         </p>
         <br />
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             Vaughan is winding down a particularly slinky performance of
             &ldquo;Round Midnight,&rdquo; not so much singing as she is
             releasing sound in the shape of decades of practice, grief parceled
             out in legible packets.
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             &nbsp;Perhaps it&rsquo;s the way Vaughan loosens her jaw and allows
             the song to lose its shape a little. Maybe it&rsquo;s the way she
             works the lyrics into new shapes, kneading them into new forms.
@@ -327,12 +327,12 @@ export function Article() {
             everything to do with the speed, innovation, and creativity of the
             mouth. Most notably,{" "}
           </span>
-          <span className="c3">scatting</span>
-          <span className="c4 c3">. </span>
+          <span className="c3" style={{ color: "white" }}>scatting</span>
+          <span className="c4 c3" style={{ color: "white" }}>. </span>
         </p>
         <br />
         <p className="c0">
-          <span className="c4 c3">
+          <span className="c4 c3" style={{ color: "white" }}>
             The vibes are ecstatic, the skills on display virtuosic. The
             audience&rsquo;s polite applause is not sufficient for the level of
             majesty and mastery on display. In the version I watched, the feed
@@ -345,10 +345,10 @@ export function Article() {
           </span>
         </p>
         <p className="c0">
-          <span className="c4 c2">&nbsp;</span>
+          <span className="c4 c2" style={{ color: "white" }}>&nbsp;</span>
         </p>
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             Scatting rose out of necessity, a flurry of dropped paper during a
             record taping, and freestyling in lieu of lyrics, as the lore goes.
             But isn&rsquo;t it equally possible that this new form of orality
@@ -357,43 +357,43 @@ export function Article() {
             illegibility? And perhaps the need to say something that could only
             be felt, rather than heard?{" "}
           </span>
-          <span className="c3">Scatting</span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>Scatting</span>
+          <span className="c3" style={{ color: "white" }}>
             &nbsp;arrived at a time when the velocity of jazz&rsquo;s co-option
             was dizzying; perhaps as a means to protect Black opacity and
             creativity by birthing a new art form that is almost impossible to
             duplicate.{" "}
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             It&rsquo;s a performance of profundity, posterity. A record of
             genius and the ways intelligence can be improvised
           </span>
-          <span className="c4 c3">.</span>
+          <span className="c4 c3" style={{ color: "white" }}>.</span>
         </p>
         <br />
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             Decolonizing the land is one task, decolonizing our bodies, our
             throats, our emanations, our expressions is another.
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             &nbsp;How do you choose a tongue to use when they are all bitten,
             thick with blood?
           </span>
           <sup>
-            <a href="#cmnt3" id="cmnt_ref3">
+            <a href="#cmnt3" id="cmnt_ref3" style={{ color: "white" }}>
               [c]
             </a>
           </sup>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             &nbsp;There is no easy option, no peaceful option. The betrayal,
             resonating{" "}
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             at a register high enough and sharp enough that it resembles a
             sheathed knife
           </span>
-          <span className="c4 c3">
+          <span className="c4 c3" style={{ color: "white" }}>
             , is already apparent in the necessity of choice. These revelations
             feel rooted in a newfound interest in what the body is able to do.
             What the lungs can do. Improvising. Feeling our way toward something
@@ -403,23 +403,23 @@ export function Article() {
         </p>
         <br />
         <p className="c0">
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             When the science fiction author Octavia Butler wrote that
             &ldquo;There&rsquo;s nothing new under the sun, but there are new
             suns,&rdquo;
           </span>
           <sup className="c3">
-            <a href="#ftnt2" id="ftnt_ref2">
+            <a href="#ftnt2" id="ftnt_ref2" style={{ color: "white" }}>
               [2]
             </a>
           </sup>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             &nbsp;she didn&rsquo;t mean we were out of potentiality; she meant
             that there is a fecund place of possibility beyond the fields of
             fatigue and exhaustion. We just have to feel for it.
           </span>
           <sup className="c3">
-            <a href="#ftnt3" id="ftnt_ref3">
+            <a href="#ftnt3" id="ftnt_ref3" style={{ color: "white" }}>
               [3]
             </a>
           </sup>
@@ -430,40 +430,40 @@ export function Article() {
         <CaptionContainer>
           <div>
             <p className="c8">
-              <a href="#ftnt_ref1" id="ftnt1">
+              <a href="#ftnt_ref1" id="ftnt1" style={{ color: "white" }}>
                 [1]
               </a>
-              <span className="c10">&nbsp;Christina Sharpe, </span>
-              <span className="c6 c10">
+              <span className="c10" style={{ color: "white" }}>&nbsp;Christina Sharpe, </span>
+              <span className="c6 c10" style={{ color: "white" }}>
                 In the Wake: On Blackness and Being
               </span>
-              <span className="c10">.</span>
+              <span className="c10" style={{ color: "white" }}>.</span>
             </p>
           </div>
           <div>
             <p className="c8">
-              <a href="#ftnt_ref2" id="ftnt2">
+              <a href="#ftnt_ref2" id="ftnt2" style={{ color: "white" }}>
                 [2]
               </a>
-              <span className="c10">
+              <span className="c10" style={{ color: "white" }}>
                 &nbsp;Epigraph to Octavia Butler&rsquo;s incomplete book,{" "}
               </span>
-              <span className="c10 c6">Parable of the Trickster</span>
-              <span className="c4 c15 c10">. </span>
+              <span className="c10 c6" style={{ color: "white" }}>Parable of the Trickster</span>
+              <span className="c4 c15 c10" style={{ color: "white" }}>. </span>
             </p>
           </div>
           <div>
             <p className="c8">
-              <a href="#ftnt_ref3" id="ftnt3">
+              <a href="#ftnt_ref3" id="ftnt3" style={{ color: "white" }}>
                 [3]
               </a>
-              <span className="c10">
+              <span className="c10" style={{ color: "white" }}>
                 &nbsp;Title culled from the following text: Fred Moten, &ldquo;
               </span>
-              <span className="c10">Black Mo&rsquo;nin&rsquo;,&rdquo; in </span>
-              <span className="c10 c6">Loss: The Politics of Mourning</span>
-              <span className="c10">, David L. Eng and David Kazanjian.</span>
-              <span className="c10">&nbsp;</span>
+              <span className="c10" style={{ color: "white" }}>Black Mo&rsquo;nin&rsquo;,&rdquo; in </span>
+              <span className="c10 c6" style={{ color: "white" }}>Loss: The Politics of Mourning</span>
+              <span className="c10" style={{ color: "white" }}>, David L. Eng and David Kazanjian.</span>
+              <span className="c10" style={{ color: "white" }}>&nbsp;</span>
             </p>
           </div>
         </CaptionContainer>
