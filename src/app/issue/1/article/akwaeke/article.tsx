@@ -6,7 +6,7 @@ export function Article() {
     <ArticleStyles>
       <br />
       <>
-        <Epigraph>
+        <Epigraph style={{ color: "white" }}>
           Another world is not only possible, she is on her way. On a quiet day,
           I can hear her breathing
           <br />
@@ -21,12 +21,12 @@ export function Article() {
 
       <div>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             There is a genocide happening as I write this.
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             It&rsquo;s inevitable that I begin this way&mdash;there are actually
             multiple genocides happening as I write this&mdash;but the loudest
             one is playing out in our phones as the illegitimate state of Israel
@@ -44,7 +44,7 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             We are watching young people in Gaza report their lives and deaths
             over social media while Israel tries to destroy their connection to
             the outside world so that their stories can die with them. I could
@@ -60,18 +60,18 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             I refuse to debate when twenty thousand corpses lie at our feet.
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             I&rsquo;ll tell you a different story instead.
           </span>
         </p>
         <span className="c1" style={{ color: "white" }}>***</span>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             When I turned thirty-five, it felt like I had finally arrived at
             myself. It wasn&rsquo;t particularly peaceful, but it did feel like
             I could trust my own mind at last. I finally had
@@ -86,7 +86,7 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             The best thing I can do is to tell stories and make art, and that is
             enough. Quite frankly, I could have stopped my career after my first
             book and that would&rsquo;ve been enough. When the world burns, my
@@ -101,7 +101,7 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span>
+          <span style={{ color: "white" }}>
             So I tell stories about the burning, about the imperfect phoenix
             afterward, and about freedom and love. These stories are
             uncomfortable; they anger people who believe in conformity, they get
@@ -117,10 +117,10 @@ export function Article() {
             they feel like they can&rsquo;t, or what it means to a reader when
             someone whispers through a page&mdash;
           </span>
-          <span className="c3">
+          <span className="c3" style={{ color: "white" }}>
             I see you and I know what it cost you to become this
           </span>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             . My point is, there is nothing a story can&rsquo;t do. You can bend
             a whole new world with stories and that is an enormous threat to
             those who want this terrible world and its associated structures to
@@ -128,7 +128,7 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             In my work, I am centered on the premise that our indigenous
             realities are real, true, and valid. I live at this center, I write
             and paint and make music from this center. I refuse to move, and in
@@ -141,7 +141,7 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             It is our indigenous stories that will set us free and so I have
             turned my life into one&mdash;centering in spirit, being clear with
             my work and my language around myself, that I am an{" "}
@@ -158,11 +158,11 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">Here is another story.</span>
+          <span className="c1" style={{ color: "white" }}>Here is another story.</span>
         </p>
         <span className="c1" style={{ color: "white" }}>***</span>
         <p className="c0" style={{ color: "white" }}>
-          <span>
+          <span style={{ color: "white" }}>
             In a Lagos penthouse in Old Ikoyi, light spills out of glass doors
             and into a lush terrace filled with people and voices. The guests
             lounge on carved wooden chairs and the night is hot, ice singing
@@ -188,7 +188,7 @@ export function Article() {
           <span className="c6">&rdquo; </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             I stand against a large clay pot and look out at the mint growing in
             garden boxes hanging off the terrace. Around the corner, red bell
             peppers darken on their stems. We are at &Igrave;T&Agrave;N, a test
@@ -209,7 +209,7 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             As the dinner starts, we pour in from the terrace and find our seats
             along the enormous table that stretches through the penthouse
             space&mdash;a tree yawned in half and drowned in lacquer, smooth
@@ -229,24 +229,24 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             &ldquo;One where our worlds matter,&rdquo; he replies.
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             &ldquo;Don&rsquo;t they matter now?&rdquo; I ask.
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             &ldquo;They&rsquo;ve been neglected,&rdquo; he points out.
             &ldquo;We&rsquo;ve been conditioned to think we&rsquo;re better off
             without them.&rdquo;
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             He returns to work and I sit there, holding the sudden grief of that
             simple truth in my hands. We&rsquo;ve been conditioned to think
             we&rsquo;re better off without them&mdash;without our indigenous
@@ -261,7 +261,7 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             So, this is the work&mdash;everyone who uses art and food and
             stories to gently turn us back, over and over again. Here is the
             world that was stolen from us. We can bend it into today, fold it
@@ -278,10 +278,10 @@ export function Article() {
         </p>
         <span className="c1" style={{ color: "white" }}>***</span>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">This is the last story. It is a short one.</span>
+          <span className="c1" style={{ color: "white" }}>This is the last story. It is a short one.</span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             I used to be consumed by despair. The world was always too loud with
             its suffering, seemingly pointless, and I was always haunted by the
             knowledge that no amount of beauty or joy could justify a fraction
@@ -293,9 +293,9 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span>My assignment from God is to live. To </span>
-          <span className="c3">live</span>
-          <span className="c1">
+          <span style={{ color: "white" }}>My assignment from God is to live. To </span>
+          <span className="c3" style={{ color: "white" }}>live</span>
+          <span className="c1" style={{ color: "white" }}>
             . Amidst the death and the repugnant atrocities, without dying or
             trying to die, with the pain and the betrayal of my own flesh, with
             the joy of love and the grief of loss. To live and to witness and to
@@ -306,7 +306,7 @@ export function Article() {
           </span>
         </p>
         <p className="c4" style={{ color: "white" }}>
-          <span className="c1">
+          <span className="c1" style={{ color: "white" }}>
             I have learned that despair and apathy are also stories, ones that
             impair our ability to worldbend, ones that serve our oppressors, not
             us. So we must become hunters, tracking down other stories to
@@ -320,14 +320,14 @@ export function Article() {
           </span>
         </p>
         <p className="c0" style={{ color: "white" }}>
-          <span className="c1">I can hear it breathing.</span>
+          <span className="c1" style={{ color: "white" }}>I can hear it breathing.</span>
         </p>
         <p className="c8" style={{ color: "white" }}>
-          <span className="c1"></span>
+          <span className="c1" style={{ color: "white" }}></span>
         </p>
         <div>
           <p className="c8" style={{ color: "white" }}>
-            <span className="c1"></span>
+            <span className="c1" style={{ color: "white" }}></span>
           </p>
         </div>
       </div>
