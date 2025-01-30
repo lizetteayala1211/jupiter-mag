@@ -49,6 +49,7 @@ import {
   
     @media only screen and (min-width: ${screenSmMin}) {
       grid-template-areas:
+        "TempDeskMenu TempDeskMenu TempDeskMenu"
         "lottie lottie lottie"
         "logo logo logo"
         "editorsNoteTitle editorsNoteTitle editorsNote"
@@ -539,7 +540,8 @@ import {
   `
 
   export const HeaderSection = styled.section`
-  grid-area: header;
+  grid-area: TempDeskMenu;
+  position: relative;
   height: auto;
   width: 100%;
 `
