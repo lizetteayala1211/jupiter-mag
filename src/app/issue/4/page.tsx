@@ -123,11 +123,10 @@ function TempDeskMenu() {
         display: "flex",
         flexDirection: "row",
         justifyContent: "center",
-        gap: "3em",
+        gap: "5em",
         marginTop: "2em", 
-        padding: "0px 1em",
         color: "white",
-        fontSize: "16px",
+        fontSize: "18px",
         fontWeight: "700",
       }} >
       <a style={{ color: "white" }} href="/" target="_self" className="sc-eAKtBH cSYJEF">Magazine</a>
