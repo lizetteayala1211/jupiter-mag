@@ -22,8 +22,8 @@ import {
     grid-template-columns: 1fr 2fr 3fr;
     grid-template-rows: repeat(auto-fill, 1fr);
     grid-template-areas:
-      "TempDeskMenu TempDeskMenu TempDeskMenu"
       "lottie lottie lottie"
+      "TempDeskMenu TempDeskMenu TempDeskMenu"
       "logo logo logo"
       "editorsNoteTitle editorsNoteTitle editorsNoteTitle"
       "editorsNote editorsNote editorsNote"
@@ -49,8 +49,8 @@ import {
   
     @media only screen and (min-width: ${screenSmMin}) {
       grid-template-areas:
-        "TempDeskMenu TempDeskMenu TempDeskMenu"
         "lottie lottie lottie"
+        "TempDeskMenu TempDeskMenu TempDeskMenu"
         "logo logo logo"
         "editorsNoteTitle editorsNoteTitle editorsNote"
         "floatingMenu signatures editorsNote"
