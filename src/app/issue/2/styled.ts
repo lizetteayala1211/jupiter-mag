@@ -347,16 +347,16 @@ export const ArticleContainer = styled.div`
     text-decoration: underline;
   }
 
-  @media only screen and (min-width: ${screenMdMin}) {
-    padding: 0px 12%;
+  @media only screen and (max-width: ${screenMdMin}) {
+    padding: 0px 12% !important;
   }
 
-  @media only screen and (min-width: ${screenSmMin}) {
-    padding: 0px 8%;
+  @media only screen and (max-width: ${screenSmMin}) {
+    padding: 0px 8% !important;
   }
 
-  @media only screen and (min-width: ${screenXsMin}) {
-    padding: 0px 5%;
+  @media only screen and (max-width: ${screenXsMin}) {
+    padding: 0px 5% !important;
   }
 `
 
