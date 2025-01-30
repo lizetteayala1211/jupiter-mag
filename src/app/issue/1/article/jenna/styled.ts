@@ -63,11 +63,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     font-style: italic;
 
     /* smaller desktops */
-    @media only screen and (min-width: ${screenXsMin}) {
-      padding: 0px 0% !important;
-    }
-
-    /* smaller desktops */
     @media only screen and (min-width: ${screenMdMin}) {
       padding: 40px;
     }

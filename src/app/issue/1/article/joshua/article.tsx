@@ -3,7 +3,7 @@ import { ArticleStyles } from "./styled"
 
 export function Article() {
   return (
-    <ArticleStyles style={{ padding: "0px 15%" }}>
+    <ArticleStyles style={{ }}>
       <p className="c0 c2">
         <span className="c1" style={{ color: "white" }}></span>
       </p>

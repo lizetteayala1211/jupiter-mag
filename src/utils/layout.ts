@@ -37,6 +37,10 @@ export const ArticleContainerStyles = styled.div`
   line-height: 40px;
   font-weight: 400;
   font-family: "Alverata Light";
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    padding: 0px 10%;
+  }
 `
 
 export const CaptionContainer = styled.div`

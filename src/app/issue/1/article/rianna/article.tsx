@@ -5,7 +5,7 @@ import riannaImg1 from "../../../../../../public/photos/riannaImg1.png"
 
 export function Article() {
   return (
-    <ArticleStyles style={{ padding: "0px 15%" }}>
+    <ArticleStyles style={{ }}>
       <MediumGuy />
       <Image
         src={riannaImg1}
