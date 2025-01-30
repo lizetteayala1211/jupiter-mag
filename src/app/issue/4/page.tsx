@@ -110,12 +110,10 @@ function TempDeskMenu() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        gap: "3em",
         marginTop: "2em", 
         padding: "0px 1em",
         color: "white",
-        fontSize: "16px",
-        fontWeight: "700",
+        width: "100%",
       }}
     >
       
@@ -123,7 +121,7 @@ function TempDeskMenu() {
         position: "sticky",
         top: "0px",
         display: "flex",
-        flexDirection: "column",
+        flexDirection: "row",
         justifyContent: "center",
         gap: "3em",
         marginTop: "2em", 
