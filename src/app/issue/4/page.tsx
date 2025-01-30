@@ -41,12 +41,15 @@ export default function Page() {
   return (
     <Base homePage>
       <Main color="black">
+      <HeaderSection>
+        <Header />
+      </HeaderSection>
         <LottieSection>
           <div className="video-container">
             <video width="560" height="315" src="../videos/Jupiter_video_issue4_1920x1080_01.mp4" muted playsInline loop={true} data-autoplay="" autoPlay={true} ></video>
           </div>
         </LottieSection>
-        <TempDeskMenu />
+        {/* <TempDeskMenu /> */}
         <LogoSection>
           <JupiterLogo color="white" width={143} height={53} />
         </LogoSection>

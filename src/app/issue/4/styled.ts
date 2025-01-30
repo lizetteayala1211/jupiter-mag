@@ -22,6 +22,8 @@ import {
     grid-template-columns: 1fr 2fr 3fr;
     grid-template-rows: repeat(auto-fill, 1fr);
     grid-template-areas:
+      "header header header"
+      
       "lottie lottie lottie"
       "logo logo logo"
       "editorsNoteTitle editorsNoteTitle editorsNoteTitle"
