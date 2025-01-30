@@ -119,7 +119,19 @@ function TempDeskMenu() {
       }}
     >
       
-      <p>
+      <p style={{
+        position: "sticky",
+        top: "0px",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        gap: "3em",
+        marginTop: "2em", 
+        padding: "0px 1em",
+        color: "white",
+        fontSize: "16px",
+        fontWeight: "700",
+      }} >
       <a style={{ color: "white" }} href="/" target="_self" className="sc-eAKtBH cSYJEF">Magazine</a>
       <a style={{ color: "white" }} href="/issue/1" target="_self" className="sc-eAKtBH cSYJEF">Issue 1</a>
       <a style={{ color: "white" }} href="/issue/2" target="_self" className="sc-eAKtBH cSYJEF">Issue 2</a>
