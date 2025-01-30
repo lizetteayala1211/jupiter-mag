@@ -348,7 +348,7 @@ export const ArticleContainer = styled.div`
   }
 
   @media only screen and (min-width: ${screenMdMin}) {
-    padding: 0px 13% !important;
+    padding: 0px 13%;
   }
 
   @media only screen and (min-width: ${screenSmMin}) {
