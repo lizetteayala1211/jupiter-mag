@@ -52,7 +52,7 @@ export default function Page() {
         </LottieSection>
         {/* <TempDeskMenu /> */}
         <LogoSection>
-          <JupiterLogo color="white" width={143} height={53} />
+          <JupiterLogo color="white" width={537} height={198} />
         </LogoSection>
 
         <EditorsNoteTitleSection>
