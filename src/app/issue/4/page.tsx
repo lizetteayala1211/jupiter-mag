@@ -39,17 +39,14 @@ export default function Page() {
   useIntersectionObserver()
 
   return (
-      
-
     <Base homePage>
       <Main color="black">
-        <TempDeskMenu />
         <LottieSection>
           <div className="video-container">
             <video width="560" height="315" src="../videos/Jupiter_video_issue4_1920x1080_01.mp4" muted playsInline loop={true} data-autoplay="" autoPlay={true} ></video>
           </div>
         </LottieSection>
-
+        <TempDeskMenu />
         <LogoSection>
           <JupiterLogo color="white" width={143} height={53} />
         </LogoSection>
@@ -104,14 +101,16 @@ function TempDeskMenu() {
   return (
     <div
       style={{
-        fontSize: "16px",
+        position: "sticky",
+        top: "0px",
         display: "flex",
         flexDirection: "column",
         gap: "3em",
         marginTop: "2em", 
         padding: "0px 1em",
         color: "white",
-        fontWeight: "700"
+        fontSize: "16px",
+        fontWeight: "700",
       }}
     >
       
