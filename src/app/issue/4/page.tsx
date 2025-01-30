@@ -39,11 +39,11 @@ export default function Page() {
   useIntersectionObserver()
 
   return (
+      
+
     <Base homePage>
       <Main color="black">
-        {/* <HeaderSection>
-          <Header />
-        </HeaderSection> */}
+        <TempDeskMenu />
         <LottieSection>
           <div className="video-container">
             <video width="560" height="315" src="../videos/Jupiter_video_issue4_1920x1080_01.mp4" muted playsInline loop={true} data-autoplay="" autoPlay={true} ></video>
@@ -99,6 +99,30 @@ export default function Page() {
     </Base>
   )
 }
+
+function TempDeskMenu() {
+  return (
+    <div
+      style={{
+        fontSize: "16px",
+        display: "flex",
+        flexDirection: "column",
+        gap: "1em",
+        margin: "16px",
+        color: "white",
+      }}
+    >
+      
+      <p>
+      <span className="temp-menu-links"> Magazine </span>
+      <span className="temp-menu-links"> Issue 1 </span>
+      <span className="temp-menu-links"> Issue 2 </span>
+      <span className="temp-menu-links"> Issue 3 </span>
+      </p>
+
+    </div>
+    )
+  }
 
 function EditorsNoteCopy() {
   return (
