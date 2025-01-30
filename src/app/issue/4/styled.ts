@@ -536,4 +536,10 @@ import {
     height: 300px;
     object-fit: contain;
   `
+
+  export const HeaderSection = styled.section`
+  grid-area: header;
+  height: auto;
+  width: 100%;
+`
   
