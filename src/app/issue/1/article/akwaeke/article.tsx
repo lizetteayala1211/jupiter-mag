@@ -3,7 +3,7 @@ import { ArticleStyles } from "./styled"
 
 export function Article() {
   return (
-    <ArticleStyles>
+    <ArticleStyles style={{ padding: "0px 10%" }}>
       <br />
       <>
         <Epigraph style={{ color: "white" }}>
