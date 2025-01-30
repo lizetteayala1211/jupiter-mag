@@ -39,7 +39,7 @@ export const ArticleContainerStyles = styled.div`
   font-family: "Alverata Light";
 
   @media only screen and (min-width: ${screenMdMin}) {
-    padding: 0px 10%;
+    padding: 0px 12%;
   }
 
   @media only screen and (min-width: ${screenSmMin}) {

@@ -4,6 +4,7 @@ import {
   screenMdMin,
   screenSmMin,
   screenXlMin,
+  screenXsMin
 } from "@/utils/constants"
 import { SharedGridMain } from "@/utils/layout"
 import Image from "next/image"
@@ -344,6 +345,18 @@ export const ArticleContainer = styled.div`
 
   a {
     text-decoration: underline;
+  }
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    padding: 0px 12%;
+  }
+
+  @media only screen and (min-width: ${screenSmMin}) {
+    padding: 0px 8%;
+  }
+
+  @media only screen and (min-width: ${screenXsMin}) {
+    padding: 0px 5%;
   }
 `
 
