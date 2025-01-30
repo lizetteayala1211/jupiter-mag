@@ -92,8 +92,8 @@ function BackgroundStyles() {
         // borderLeft: isMobile ? `12px solid var(--color-article-purple)` : "0",
       }}
     >
-      <Gradient />
-      {isMobile ? <MobileGrain /> : <DesktopGrain />}
+      {/* <Gradient />
+      {isMobile ? <MobileGrain /> : <DesktopGrain />} */}
     </div>
   )
 }
