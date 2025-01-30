@@ -65,6 +65,8 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     /* smaller desktops */
     @media only screen and (min-width: ${screenMdMin}) {
       padding: 40px;
+
+      padding: 0px 0% !important;
     }
 
     /* wide desktops */
