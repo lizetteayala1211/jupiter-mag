@@ -1,4 +1,4 @@
-import { screenLgMin, screenMdMin, screenXlMin } from "@/utils/constants"
+import { screenLgMin, screenMdMin, screenXlMin, screenXsMin } from "@/utils/constants"
 import { ArticleContainerStyles } from "@/utils/layout"
 import styled from "styled-components"
 
@@ -63,10 +63,13 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     font-style: italic;
 
     /* smaller desktops */
+    @media only screen and (min-width: ${screenXsMin}) {
+      padding: 0px 0% !important;
+    }
+
+    /* smaller desktops */
     @media only screen and (min-width: ${screenMdMin}) {
       padding: 40px;
-
-      padding: 0px 0% !important;
     }
 
     /* wide desktops */
