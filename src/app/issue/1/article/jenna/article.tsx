@@ -7,7 +7,7 @@ import { CaptionContainer, Epigraph } from "@/utils/layout"
 
 export function Article() {
   return (
-    <ArticleStyles>
+    <ArticleStyles style={{ padding: "0px 10%" }}>
       <>
         <br />
         <Epigraph>
