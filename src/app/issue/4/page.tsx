@@ -109,6 +109,7 @@ function TempDeskMenu() {
         top: "0px",
         display: "flex",
         flexDirection: "column",
+        justifyContent: "center",
         gap: "3em",
         marginTop: "2em", 
         padding: "0px 1em",
@@ -119,10 +120,10 @@ function TempDeskMenu() {
     >
       
       <p>
-      <span className="temp-menu-links"> Magazine </span>
-      <span className="temp-menu-links"> Issue 1 </span>
-      <span className="temp-menu-links"> Issue 2 </span>
-      <span className="temp-menu-links"> Issue 3 </span>
+      <a style={{ color: "white" }} href="/" target="_self" className="sc-eAKtBH cSYJEF">Magazine</a>
+      <a style={{ color: "white" }} href="/issue/1" target="_self" className="sc-eAKtBH cSYJEF">Issue 1</a>
+      <a style={{ color: "white" }} href="/issue/2" target="_self" className="sc-eAKtBH cSYJEF">Issue 2</a>
+      <a style={{ color: "white" }} href="/issue/3" target="_self" className="sc-eAKtBH cSYJEF">Issue 3</a>
       </p>
 
     </div>
