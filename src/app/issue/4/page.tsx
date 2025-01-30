@@ -107,9 +107,11 @@ function TempDeskMenu() {
         fontSize: "16px",
         display: "flex",
         flexDirection: "column",
-        gap: "1em",
-        margin: "16px",
+        gap: "3em",
+        marginTop: "2em", 
+        padding: "0px 1em",
         color: "white",
+        fontWeight: "700"
       }}
     >
       
