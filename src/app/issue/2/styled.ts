@@ -330,7 +330,7 @@ export const ColophonColumn = styled.div<{ $first?: string }>`
 `
 
 export const ArticleContainer = styled.div`
-  width: 100%;
+  /* width: 100%; */
   font-family: "Alverata Light";
 
   p,
@@ -348,7 +348,7 @@ export const ArticleContainer = styled.div`
   }
 
   @media only screen and (min-width: ${screenMdMin}) {
-    padding: 0px 12% !important;
+    padding: 0px 13% !important;
   }
 
   @media only screen and (min-width: ${screenSmMin}) {
