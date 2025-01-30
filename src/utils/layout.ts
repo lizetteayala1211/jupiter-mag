@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { screenMdMin } from "./constants"
+import { screenMdMin, screenSmMin, screenXsMin } from "./constants"
 
 // shared grid base
 export const SharedGridMain = styled.main`
@@ -40,6 +40,14 @@ export const ArticleContainerStyles = styled.div`
 
   @media only screen and (min-width: ${screenMdMin}) {
     padding: 0px 10%;
+  }
+
+  @media only screen and (min-width: ${screenSmMin}) {
+    padding: 0px 8%;
+  }
+
+  @media only screen and (min-width: ${screenXsMin}) {
+    padding: 0px 5%;
   }
 `
 

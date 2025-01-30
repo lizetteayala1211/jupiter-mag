@@ -13,3 +13,5 @@ export const screenLgMin = "1200px"
 export const screenLgMed = "1550px"
 export const screenLgMax = "1919px"
 export const screenXlMin = "1920px"
+
+
