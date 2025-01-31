@@ -52,7 +52,9 @@ export default function Page() {
         </LottieSection>
         {/* <TempDeskMenu /> */}
         <LogoSection>
-          <JupiterLogo color="white" width={537} height={198} />
+          <JupiterLogo color="white" width={286} height={106} />
+          {/* <JupiterLogo color="white" width={143} height={53} /> */}
+          {/* <JupiterLogo color="white" width={537} height={198} /> */}
         </LogoSection>
 
         <EditorsNoteTitleSection>
@@ -129,7 +131,7 @@ function TempDeskMenu() {
         fontSize: "18px",
         fontWeight: "700",
       }} >
-      <a style={{ color: "white" }} href="/" target="_self" className="sc-eAKtBH cSYJEF">Magazine</a>
+      {/* <a style={{ color: "white" }} href="/" target="_self" className="sc-eAKtBH cSYJEF">Magazine</a> */}
       <a style={{ color: "white" }} href="/issue/1" target="_self" className="sc-eAKtBH cSYJEF">Issue 1</a>
       <a style={{ color: "white" }} href="/issue/2" target="_self" className="sc-eAKtBH cSYJEF">Issue 2</a>
       <a style={{ color: "white" }} href="/issue/3" target="_self" className="sc-eAKtBH cSYJEF">Issue 3</a>
