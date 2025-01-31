@@ -79,10 +79,10 @@ import {
     position: relative;
     display: flex;
     justify-content: center;
-    padding-block-start: 11vw;
+    padding-block-start: 6vw;
 
     @media only screen and (min-width: ${screenSmMin}) {
-      padding-block-end: 32px;
+      padding-block-end: 48px;
       padding-block-start: 64px;
     }
   
