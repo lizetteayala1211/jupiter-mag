@@ -26,13 +26,13 @@ export function Contributors() {
         <div
             style={{
                 padding: "64px 32px",
-                width: "95vw",
+                width: "85vw",
                 display: "flex",
                 alignSelf: "center !important",
                 justifyContent: "center",
                 flexDirection: "column",
                 position: "relative",
-                right: "150px"
+                right: "80px"
             }}
 
             className="pre-grid-wrap"
@@ -122,7 +122,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Imani Perry</p>
+                                        <p className="paragraph-small">Hanif Abdurraqiub</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -141,7 +141,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Amandine Nana</p>
+                                        <p className="paragraph-small">Tiana Reid</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -160,7 +160,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Camille Bacon</p>
+                                        <p className="paragraph-small">Harmony Holiday</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -179,7 +179,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Rhya Marlene Moffitt</p>
+                                        <p className="paragraph-small">KJ Abudu</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -198,7 +198,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Daria Harper</p>
+                                        <p className="paragraph-small">Doreen St. Felix</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -217,7 +217,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Angelique Rosales Salgado</p>
+                                        <p className="paragraph-small">Kemi Lijadu</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -236,7 +236,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Dr. Rikki Byrd</p>
+                                        <p className="paragraph-small">Yume Murphy</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>

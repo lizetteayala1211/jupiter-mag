@@ -26,6 +26,8 @@ import dariaSignature from "../../../../public/signatures/daria_white.png"
 import "./styles.css"
 // import { Programs } from "./Programs"
 
+import { Contributors } from "./Contributors"
+
 // todo: add back grain to home page so that it doesn&#39;t overlap the lottie file -> might invovle a refactor with how lottie is loaded in
 export default function Page() {
   useIntersectionObserver()
@@ -50,7 +52,7 @@ export default function Page() {
           <EditorsNoteCopy />
         </EditorsNoteSection>
         <FloatingMenuSection>
-          <FloatingMenu issue={3} />
+          <FloatingMenu issue={5} />
         </FloatingMenuSection>
         <SignaturesSection>
           <div style={{ display: "flex", flexDirection: "column" }}>
@@ -67,7 +69,9 @@ export default function Page() {
         </SignaturesSection>
 
         <ContentSection>
-          <pre id="programs" />
+        <pre id="contributors" />
+        <Contributors />
+          {/* <pre id="programs" /> */}
           {/* <Programs /> */}
 
           <pre id="colophon" />
@@ -99,15 +103,15 @@ function EditorsNoteCopy() {
       }}
     >
       <p>
-      In April 1993 the orioles returned with birdsong as amber as their flaring feathers, heralding springtime in Southern California. Concurrently, Charles Gaines prepared to unveil <i> The Theater of Refusal: Black Art and Mainstream Criticism </i> at UC Irvine, which would later travel to UC Davis and UC Riverside. Boldly announcing an exigency (i.e. a galvanizing urgency), the exhibition was a clarion call in its own right, signifying not a change in seasons as in the case of the orioles but rather a deepened dawn in the long lineage of Black insurgence regarding the terms with which Black contemporary artists&apos; work is critically considered. Nearly three decades later, we re-orbit and honor Gaines’s salient offering, which serves as the titular and conceptual framework for <i> Issue 003. </i>
+      Lorem ipsum odor amet, consectetuer adipiscing elit. Cursus parturient aliquet vestibulum tortor blandit diam. Nibh dis ultricies per nisl placerat sagittis nisl. Pellentesque tempor ultricies; per aliquet dui elementum rhoncus risus. Fringilla finibus nisl consectetur arcu libero facilisis. Viverra efficitur rhoncus tellus adipiscing et mattis habitasse. In pellentesque sit accumsan, aliquam magnis scelerisque. Tristique nisl ante potenti himenaeos bibendum. Semper malesuada urna venenatis nullam cursus, nisl elementum erat.
       <br/><br/>
-      Including artists Jean-Michel Basquiat, Renée Green, David Hammons, Ben Patterson, Adrian Piper, Sandra Rowe, Gary Simmons, Lorna Simpson, Carrie Mae Weems, Pat Ward Williams, and Fred Wilson, <i> The Theater of Refusal </i> sought to “reveal the strategies of marginalization in the critical writing about a group of contemporary black artists, and to propose an alternative.” Gaines was invested in examining the discursive dynamic behind the tendency of “mainstream” critics to reduce the work of “contemporary black artists” to the task of chronicling the so-called &lsquo;Black experience,&rsquo; thereby neglecting their vital bearing on broader cultural and art historical discourses. 
+      Blandit taciti libero et cubilia magna. Tempus litora et diam augue; est cras blandit vivamus. Tempus nec feugiat vestibulum; fames ridiculus mus placerat natoque vestibulum. Nisi ligula faucibus himenaeos facilisis natoque, amet malesuada nibh pellentesque? At etiam adipiscing luctus per commodo maecenas cubilia. Mollis litora phasellus nam quam hendrerit pretium ac adipiscing. Consectetur justo massa, commodo ornare at tellus aenean sodales.
       <br/><br/>
-      To do so, Gaines rebuked conventional exhibition etiquette by hanging excerpts of articles addressing the work of those in the show in proximity to the artworks themselves—sometimes eye-to-eye, so close we might imagine they could feel one another&rsquo;s exhales. Establishing a spatial (and, thus, ideological) tension between the criticism and its so-called subject, the curatorial framework encouraged the audience to close-read for over-determinations and discrepancies between the forms themselves and the language coalesced around them. Gaines describes the exhibition as a means to “sugges[t] that the critical environment surrounding the works of these artists intentionally and unintentionally limits those works, creating a theater of refusal that punishes the work of black artists by making it immune to history and by immunizing history against it.” Alas, we remain in dire need of a lexicon that seeks not to “[punish] the work of black artists” by way of critical silence or flatness but, rather, one that entangles such work and the wide horizon of being from which it springs (i.e. the longwash of history, our shared and singular inheritances). 
+      Ac quam ornare senectus cubilia lacinia per ex. Pulvinar consequat aliquet cras semper magnis leo. Et curae convallis semper est ultrices; libero ut. Nullam torquent pulvinar quam ut maecenas morbi morbi. Nisi duis convallis nisi tincidunt phasellus in condimentum ullamcorper porttitor. Habitant vel ridiculus mattis non euismod. Eget ex ullamcorper nascetur velit elementum nibh tincidunt potenti. Purus cubilia elementum mattis magna fermentum dolor malesuada. Placerat facilisis sagittis urna luctus eleifend et phasellus auctor. Per sit ex praesent turpis vivamus conubia egestas accumsan.
       <br/><br/>
-      Responding also to the continued seizure of access to materials that aid and abet a critic&apos;s capacity to tell the unflinching truth (see: book bans, the defunding of libraries…) and the related diminution of the scope of the sayable, we propose an enactment of cultural criticism that aspires to evade capture, constriction, and censorship. With this context and Gaines&rsquo;s imperative to &quot;propose an alternative&quot; in mind, <i> Issue 003: The Theater of Refusal </i> will unfold out in the open through a series of free public programs in our anchor cities of Chicago and New York, as well as Detroit and Los Angeles—our midwestern and coastal kin, respectively. 
+      Quam vivamus eros enim himenaeos neque faucibus erat purus. Hendrerit sapien fermentum platea elementum commodo volutpat. Nulla habitasse fringilla maecenas nibh fermentum senectus morbi arcu. Aliquet cursus tempus sit suscipit iaculis amet cubilia ultrices. Pulvinar magna eros libero nostra vestibulum consectetur volutpat eros. Justo dictumst porta sagittis erat curae tortor varius nostra. Penatibus curabitur fusce libero; posuere non nulla.
       <br/><br/>
-      Ultimately, this experi(mental/ential) issue seeks to provide a terrain on which we might rearticulate Gaines&apos;s mood of skepticism around traditional criticism and vivify, in the now, the legacy of enacting cultural criticism beyond the page (think: the kitchen table / 135th and Lennox / Black Twitter / the cookout and church pews / the block, the bus stop, the barbershop...) such that we may improvise together toward refracted understandings of who we imagine as “critics,” what we denote as “criticism,” and in what locales we presume this work takes place.
+      Venenatis feugiat penatibus tempor ipsum fames. Nisi non sodales molestie turpis dignissim integer ligula justo. Quisque quam porttitor suscipit hendrerit nascetur imperdiet auctor. Nisl aliquam ipsum adipiscing praesent dui a. Faucibus at proin nec dictumst ultricies maximus id. Class interdum ex nibh eros tellus aptent. Leo egestas euismod taciti quam praesent curae congue a.
       </p>
     </div>
   )

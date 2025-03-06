@@ -12,7 +12,7 @@ export const FloatingMenuContainer = styled.ul`
   flex-direction: column;
   gap: 12px;
 
-  padding-bottom: 64px;
+  padding-bottom: 200px;
 
   li {
     text-transform: uppercase;
