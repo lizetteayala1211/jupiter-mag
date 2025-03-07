@@ -14,28 +14,29 @@ export function Colophon() {
       <h3 style={{ paddingBottom: "84px" }}>Colophon</h3>
       <ColophonContainer>
         <ColophonColumn>
-          <p> Jupiter Magazine Issue 005: Off With Their Heads </p>
-          <p> Published by: Jupiter Magazine </p>
+          <p> Jupiter Magazine </p>
           <MediumGuy />
+          <p> Published by: Jupiter </p>
           <p> Publication Year: 2025 </p>
-          <p> Editors in Chief: Camille Bacon & Daria Simone Harper </p>
-          <p> Editorial Assistant: Niara Hightower </p>
           <MediumGuy />
-          <p> Design Team: Sebastien Pierre & Lizette Ayala </p>
-          <p> Web Development: Lizette Ayala </p>
+          <p> Co-Founders: Camille Bacon & Daria Simone Harper </p>
+          <p> Editor-in-Chief: Camille Bacon </p>
+          <p> Operations & Managing Editor: Daria S. Harper </p>
+          <MediumGuy />
+          <p> Editorial Assistant: Niara Hightower </p>
+          <p> Creative Director: Sebastien Pierre </p>
+          <p> Web Design and Development: Lizette Ayala </p>
           <MediumGuy />
         </ColophonColumn>
 
         <ColophonColumn>
-          <p> Collaborators: </p>
-          <MediumGuy />
-          <p> New York: Aimee Meredith Cox, BlackMass Publishing & Adanne Bookshop </p>
-          <p> Los Angeles: Taylor Renee Aldridge & Reparations Club </p>
-          <p> Detroit: Asmaa Walton (Black Art Library), Aleiya Lindsay-Olu (Periodicals), André Moore (Aa Publishing), KESSWA, Zoe Talley, SABYTE & Kem Kem </p>
-          <p> Chicago: Ireon Roach, Victor Musoni, Denny Mwaura, Arts + Public Life, Black Film Club Chi, Blanc Gallery & Parkway Pictures </p>
+          <p> Contributors: </p>
+          <p> Hanif Abdurraquib, Doreen St. Felix, Harmony Holiday, KJ Abudu, Olukemi Lijadu, Tiana Reid, and Yume Murphy </p>
           <MediumGuy />
           <p> Acknowledgments: </p>
-          <p> We extend the utmost gratitude to those who have vivified the expansive spirit of Jupiter’s third orbit… </p>
+          <p> This project is supported by Critical Minded, an initiative to invest in cultural critics of color cofounded by The Nathan Cummings Foundation and The Ford Foundation. </p>
+          <MediumGuy />
+          <p> We thank and we praise our friends, collaborators, co-conspirators, and families (both enfleshed and beyond, both chosen and of origin), our ancestors and our spirit guides, who have offered us the immeasurable guidance, velocity, direction, and foresight needed to bring Jupiter to this side of the horizon. </p>
           <MediumGuy />
         </ColophonColumn>
       </ColophonContainer>
