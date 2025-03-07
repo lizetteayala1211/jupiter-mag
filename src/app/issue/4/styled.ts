@@ -1,15 +1,10 @@
 import {
     screenXlMin,
-    screenLgMax,
     screenLgMed,
     screenLgMin,
-    screenMdMax,
     screenMdMin,
-    screenSmMax,
-    screenSmMin,
-    screenXsMax,
     screenXsMin,
-    screenXxsMax,
+    screenSmMin,
     screenXxxsMax,
     screenXxxxsMax,
   } from "@/utils/constants"
@@ -50,7 +45,7 @@ import {
     @media only screen and (min-width: ${screenSmMin}) {
       grid-template-areas:
         "lottie lottie lottie"
-        "TempDeskMenu TempDeskMenu TempDeskMenu"
+        /* "TempDeskMenu TempDeskMenu TempDeskMenu" */
         "logo logo logo"
         "editorsNoteTitle editorsNoteTitle editorsNote"
         "floatingMenu signatures editorsNote"
@@ -79,12 +74,7 @@ import {
     position: relative;
     display: flex;
     justify-content: center;
-    padding-block-start: 6vw;
-
-    @media only screen and (min-width: ${screenSmMin}) {
-      padding-block-end: 48px;
-      padding-block-start: 64px;
-    }
+    padding-block-start: 24px;
   
     @media only screen and (min-width: ${screenMdMin}) {
       display: block;
@@ -97,27 +87,25 @@ import {
   export const EditorsNoteTitleSection = styled.section`
     grid-area: editorsNoteTitle;
     position: relative;
-    font-size: 68px;
-    line-height: 110%;
+    font-size: 64px;
+    line-height: 64px;
     text-transform: uppercase;
     text-align: center;
-    padding-block-start: 6vw;
-    padding-block-end: 10vw;
-
-    @media only screen and (min-width: ${screenXxxxsMax}) {
-      font-size: 60px;
-    }
+    padding-block-start: 16px;
+    padding-block-end: 64px;
 
     @media only screen and (min-width: ${screenSmMin}) {
-      text-align: right;
-      padding-block-start: 2vw;
-      padding-inline-end: 56px;
+      margin-block-start: 56px;
+      font-size: 56px;
+      line-height: 56px;
     }
   
     @media only screen and (min-width: ${screenMdMin}) {
       text-align: right;
-      padding-inline-end: 56px;
-      margin-block-start: 40px;
+      padding-inline-end: 64px;
+      margin-block-start: 56px;
+      font-size: 56px;
+      line-height: 48px;
     }
     @media only screen and (min-width: ${screenLgMed}) {
       font-size: 72px;
@@ -135,21 +123,16 @@ import {
     grid-area: editorsNote;
     position: relative;
     display: flex;
-    padding-block-end: 100px;
-    /* border: 1px solid red; */
-    padding-left: 5.3vw;
-    padding-right: 5.3vw;
-    line-height: 140%;
+    padding-block-end: 64px;
 
-    @media only screen and (min-width: ${screenSmMin}) {
-      padding-left: 0vw;
+    @media only screen and (min-width: ${screenXsMin}) {
+      padding-block-end: 64px !important;
     }
   
     @media only screen and (min-width: ${screenMdMin}) {
       margin-inline-start: 16px;
-      /* margin-inline-end: 64px; */
-      padding-block-start: 56px;
-      padding-block-end: 0px;
+      padding-block-start: 64px;
+      padding-block-end: 56px;
     }
   
     @media only screen and (min-width: ${screenLgMin}) {
@@ -181,6 +164,7 @@ import {
     grid-area: floatingMenu;
     margin-inline-start: 64px;
     display: none;
+
     @media only screen and (min-width: ${screenSmMin}) {
       display: block;
     }
@@ -190,66 +174,28 @@ import {
     grid-area: signatures;
     position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 4em;
-    padding-left: 8vw;
-
-    @media only screen and (min-width: ${screenXxxxsMax}) {
-      flex-direction: row;
-      gap: 2em;
-    }
-
-    @media only screen and (min-width: ${screenXxxsMax}) {
-      position: relative;
-      gap: 2em;
-      bottom: 150px;
-    }
-
-    @media only screen and (min-width: ${screenSmMin}) {
-      position: relative;
-      flex-direction: row;
-      align-items: flex-end;
-      padding-left: 200px;
-      padding-right: 0vw;
-      padding-bottom: 0vw;
-      bottom: 150px; 
-    }
-
-    @media only screen and (min-width: ${screenMdMin}) {
-      position: relative;
-      flex-direction: row;
-      align-items: flex-end;
-      gap: 4em;
-      padding-left: 350px;
-      /* padding-right: 4vw; */
-      bottom: 0px; 
-      /* left: 300px; */
-      /* padding-bottom: 300vw; */
-    }
+    align-items: center;
+    gap: 2em;
+    flex-direction: column;
   `
   
   export const SignatureContainer = styled(Image)`
-    /* width: 100% !important; */
-    height: 100% !important;
+    width: 100px;
+    height: 100%;
 
     /* smaller desktops */
     @media only screen and (min-width: ${screenMdMin}) {
-      /* width: 100% !important; */
-      height: 100% !important;
+      width: 150px;
     }
   
     /* wide desktops */
     @media only screen and (min-width: ${screenLgMin}) {
-      /* width: 100% !important; */
-      height: 100% !important;
+      width: 150px;
     }
   
     /* extra wide desktops */
     @media only screen and (min-width: ${screenXlMin}) {
-      width: 100% !important;
-      height: 10% !important;
+      width: 200px;
     }
   `
   
@@ -282,7 +228,6 @@ import {
     max-width: 544px;
     font-weight: 300;
     padding-bottom: 4px;
-  
     font-size: 16px;
     line-height: 22px;
     text-align: left;
@@ -349,9 +294,7 @@ import {
   export const AuthorDirectoryContainer = styled.div`
     display: flex;
     flex-direction: column;
-  
     gap: 32px;
-  
     padding: 8em 0 2em 0;
   
     @media only screen and (min-width: ${screenMdMin}) {
@@ -538,11 +481,4 @@ import {
     height: 300px;
     object-fit: contain;
   `
-
-  export const HeaderSection = styled.section`
-  grid-area: TempDeskMenu;
-  position: relative;
-  height: auto;
-  width: 100%;
-`
   

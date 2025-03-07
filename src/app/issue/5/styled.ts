@@ -28,15 +28,16 @@ import {
       font-size: 14px;
     }
   
-  
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.49%, #000000 100%),
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */ 
+
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.49%, #000000 100%),
       radial-gradient(
           80.23% 5.14% at 80.23% 5.72%,
           rgba(0, 21, 52, 0) 27.1%,
           #040e21 100%
         )
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-      #040921;
+        ,
+      #040921; */
   
     @media only screen and (min-width: ${screenSmMin}) {
       grid-template-areas:
@@ -90,8 +91,6 @@ import {
     padding-block-end: 64px;
 
     @media only screen and (min-width: ${screenSmMin}) {
-      /* text-align: right; */
-      /* padding-inline-end: 64px; */
       margin-block-start: 56px;
       font-size: 56px;
       line-height: 56px;
@@ -115,7 +114,7 @@ import {
       line-height: 96px;
     }
   `
-  
+
   export const EditorsNoteSection = styled.section`
     grid-area: editorsNote;
     position: relative;
@@ -161,6 +160,7 @@ import {
     grid-area: floatingMenu;
     margin-inline-start: 64px;
     display: none;
+
     @media only screen and (min-width: ${screenSmMin}) {
       display: block;
     }
@@ -178,6 +178,7 @@ import {
   export const SignatureContainer = styled(Image)`
     width: 100px;
     height: 100%;
+
     /* smaller desktops */
     @media only screen and (min-width: ${screenMdMin}) {
       width: 150px;
@@ -223,7 +224,6 @@ import {
     max-width: 544px;
     font-weight: 300;
     padding-bottom: 4px;
-  
     font-size: 16px;
     line-height: 22px;
     text-align: left;
@@ -290,14 +290,14 @@ import {
   export const AuthorDirectoryContainer = styled.div`
     display: flex;
     flex-direction: column;
-  
     gap: 32px;
-  
     padding: 8em 0 2em 0;
   
     @media only screen and (min-width: ${screenMdMin}) {
+      position: absolute;
       padding: 4em 0 4em 0;
       align-items: center;
+      z-index: 3;
     }
   `
   
@@ -331,7 +331,6 @@ import {
   export const ColophonContainer = styled.div`
     font-family: Alverata Light;
     display: flex;
-  
     flex-direction: column;
   
     @media only screen and (min-width: ${screenMdMin}) {
@@ -378,7 +377,6 @@ import {
   export const ArticleImage = styled(Image)`
     object-fit: cover;
     width: 100%;
-  
     max-width: 500px;
     height: 100%;
   `

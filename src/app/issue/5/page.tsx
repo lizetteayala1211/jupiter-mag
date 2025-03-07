@@ -23,12 +23,11 @@ import { Colophon } from "./Colophon"
 import { useIntersectionObserver } from "@/utils/hooks"
 import camilleSignature from "../../../../public/signatures/camille_white.png"
 import dariaSignature from "../../../../public/signatures/daria_white.png"
-import "./styles.css"
-// import { Programs } from "./Programs"
 
 import { Contributors } from "./Contributors"
 
-// todo: add back grain to home page so that it doesn&#39;t overlap the lottie file -> might invovle a refactor with how lottie is loaded in
+import "./styles.css"
+
 export default function Page() {
   useIntersectionObserver()
 
@@ -43,6 +42,7 @@ export default function Page() {
         <LogoSection>
           <JupiterLogo color="white" width={143} height={53} />
         </LogoSection>
+
         <EditorsNoteTitleSection>
           <pre id="editorsNote" />
           <div>Editor&apos;s</div>
@@ -72,15 +72,10 @@ export default function Page() {
             Daria Simone Harper
           </div>
         </SignaturesSection>
-
         <ContentSection>
         <pre id="contributors" />
         <Contributors />
-          {/* <pre id="programs" /> */}
-          {/* <Programs /> */}
-
           <pre id="colophon" />
-          {/* divider */}
           <div
             style={{
               marginTop: "112px",

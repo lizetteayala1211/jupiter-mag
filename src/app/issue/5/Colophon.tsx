@@ -31,7 +31,7 @@ export function Colophon() {
 
         <ColophonColumn>
           <p> Contributors: </p>
-          <p> Hanif Abdurraquib, Doreen St. Felix, Harmony Holiday, KJ Abudu, Olukemi Lijadu, Tiana Reid, and Yume Murphy </p>
+          <p> Hanif Abdurraquib, Doreen St. Felix, Harmony Holiday, KJ Abudu, Olukemi Lijadu, Tiana Reid, and Yume Murphy. </p>
           <MediumGuy />
           <p> Acknowledgments: </p>
           <p> This project is supported by Critical Minded, an initiative to invest in cultural critics of color cofounded by The Nathan Cummings Foundation and The Ford Foundation. </p>

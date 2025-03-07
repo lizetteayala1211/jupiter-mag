@@ -78,13 +78,11 @@ footer {
   
   h4 {
     font-size: 26px;
-    /* font-weight: 600 !important; */
     font-size: 24px;
   }
 
   .darker-grotesque {
     font-family: "Darker Grotesque", sans-serif;
-    /* font-family: var(--font-darker-grotesque); */
   }
   
   h5 {
@@ -97,6 +95,7 @@ footer {
   }
 
 @media only screen and (min-width: 992px) {
+
     h1 {
       font-size: 32px;
       line-height: 28px;
@@ -215,6 +214,8 @@ p > a.styled:hover {
     opacity: 0.8;
 }
 
+/* <!-- Editors Note Section CSS --> */ 
+
 /* Editor&#39;s Note Image */
 .parable {
     width: max-content !important;
@@ -236,7 +237,6 @@ span.footnotes {
     margin-top: 20px;
     padding-top: 25px;
     padding-left: 1em;
-    /* border-top: 1px solid white; */
 }
 
 ol > li {
@@ -248,7 +248,6 @@ a.styledli {
     text-decoration: underline;
     text-underline-offset: 0.2em;
     opacity: 1;
-    /* transition: opacity 0.2s; */
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -342,22 +341,16 @@ a.styledli {
     transform: rotate(-45deg) translate(5px, -5px);
   }
 
-/* <!-- Editors Note Section CSS --> */ 
-
-  
-
 /* <!-- Contributors Page CSS --> */ 
 
 /* Blog grid wrapper */
 .grid-wrapper {
-    /* background-color: black; */
     position: relative;
     width: 100%;
 }
 
 .blog-collection {
     z-index: 1;
-    /* cursor: pointer; */
     position: relative;
     padding-left: 4vw;
 }
@@ -464,26 +457,6 @@ a.styledli {
     grid-row-start: 2;
 }
 
-/* .draw-border.empty-block.fifth {
-    grid-column-start: 2; 
-    grid-row-start: 2;
-}
-
-.draw-border.empty-block.sixth {
-    grid-column-start: 3; 
-    grid-row-start: 2;
-}
-
-.draw-border.empty-block.seventh {
-    grid-column-start: 4; 
-    grid-row-start: 2;
-}
-
-.draw-border.empty-block.eighth {
-    grid-column-start: 1; 
-    grid-row-start: 3;
-}
-
 .draw-border.empty-block.ninth {
     grid-column-start: 2; 
     grid-row-start: 3;
@@ -520,7 +493,6 @@ a.styledli {
     width: 1vw;
     height: 1vw;
     margin-bottom: 0;
-    /* margin-left: .8vw; */
     margin-right: 1vw;
 }
 
@@ -548,14 +520,12 @@ img {
     position: relative;
 }
 
-
 .has--align-right {
     text-align: right;
 }
 
 /* Description styling */
 .paragraph-small {
-    /* letter-spacing: -.03em; */
     font-size: 1.32vw !important;
     text-transform: uppercase;
     line-height: 115%;
@@ -699,9 +669,7 @@ img {
     padding-right: 5em;
     color: white;
     /* width: 75% !important; */
-    /* opacity: .85; */
     text-align: center;
-     /* opacity: .85; */
 }
 
 span.centered.small.bio {
@@ -782,7 +750,7 @@ span.centered.small.bio {
     }
 
     .blog-content {
-        padding: 3.2vw !important;
+        padding: 3.5vw !important;
     }
 
     .blog-item {
@@ -790,8 +758,8 @@ span.centered.small.bio {
         border-color: var(--grey);
         width: 36vw;
         height: 36vw;
-        /* margin-top: -1px;
-        margin-right: -1px; */
+        margin-top: 0px;
+        margin-right: 0px;
     }
 
     .blog-item.first {
@@ -834,10 +802,11 @@ span.centered.small.bio {
     }
 
     .arrow-icon.is--large {
-        width: 2vw;
-        height: 2vw;
+        width: 1.8vw;
+        height: 1.8vw;
         margin-bottom: 0;
-        margin-left: 6vw;
+        margin-left: 0vw !important;
+        margin-right: 0vw !important;
     }
 
     .arrow-wrapper {
@@ -899,6 +868,8 @@ span.centered.small.bio {
         left: 60px;
     }
 
+    /* <!-- Contributors Page CSS --> */ 
+
     .pre-grid-wrap {
         right: 10px !important;
     }
@@ -912,8 +883,8 @@ span.centered.small.bio {
         border-color: var(--grey);
         width: 38vw;
         height: 42vw;
-        margin-top: 0pxpx;
-        margin-right: 0pxpx;
+        margin-top: 0px;
+        margin-right: 0px;
     }
 
     .blog-item.first {
@@ -948,7 +919,6 @@ span.centered.small.bio {
 
     .blog-item.seventh {
         grid-column-start: auto;
-        /* grid-row-start: auto; */
     }
 
     .paragraph-small {
@@ -989,12 +959,8 @@ span.centered.small.bio {
         line-height: 160% !important;
         padding-left: 0em;
         padding-right: 0em;
-        
-        /* width: 75% !important; */
-        /* opacity: .85; */
         text-align: center;
     }
-
 }
 
 

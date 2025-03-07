@@ -3,13 +3,6 @@ import {
     SignatureContainer
 } from "./styled"
 
-
-import { Base } from "@/components"
-
-import { issue4Metadata } from "@/app/issue/4/article"
-
-// import thing from "./otherFile.js"
-
 import ListArrow from "../../../../public/photos/arrow-04.png"
 // const menuButton = document.getElementById('menu-button');
 // const menuOverlay = document.getElementById('menu-overlay');
@@ -74,46 +67,11 @@ export function Contributors() {
                         <div className="border bottom-border"></div>
                         <div className="border left-border"></div>
                     </div>
-                    {/* <div className="empty-block draw-border fourth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border fifth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border sixth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border seventh">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border eighth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div>
-                    <div className="empty-block draw-border ninth">
-                        <div className="border top-border"></div>
-                        <div className="border right-border"></div>
-                        <div className="border bottom-border"></div>
-                        <div className="border left-border"></div>
-                    </div> */}
+                    
                 </div>
                 <div className="blog-collection">
                     <div className="grid-container">
-                    <div role="listitem" className="blog-item w-dyn-item first">
+                        <div role="listitem" className="blog-item w-dyn-item first">
                             <a href="https://www.jupiter-mag.com/issue/5/article/hanif" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
@@ -132,7 +90,7 @@ export function Contributors() {
                                 {/* <img src="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp" loading="lazy" alt="" sizes="(max-width: 767px) 45vw, 24vw" srcset="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-500.webp 500w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-800.webp 800w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp 918w" className="blog-image"> */}
                             </a>
                         </div>
-                    <div role="listitem" className="blog-item w-dyn-item second">
+                        <div role="listitem" className="blog-item w-dyn-item second">
                             <a href="https://www.jupiter-mag.com/issue/5/article/tiana" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
@@ -249,7 +207,6 @@ export function Contributors() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

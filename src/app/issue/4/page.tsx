@@ -7,21 +7,16 @@ import {
   ContentSection,
   EditorsNoteSection,
   EditorsNoteTitleSection,
-  // FloatingMenuSection,
+  FloatingMenuSection,
   LogoSection,
   LottieSection,
-  HeaderSection,
   Main,
   SignatureContainer,
   SignaturesSection,
 } from "./styled"
 
-import { Header } from "@/components"
-
-import { AuthorDirectory } from "./AuthorDirectory"
-
 import { JupiterLogo } from "@/components"
-// import { FloatingMenu } from "@/components/floating-menu"
+import { FloatingMenu } from "@/components/floating-menu"
 // import { Lottie } from "@/components/lottie-container"
 import { Colophon } from "./Colophon"
 
@@ -34,27 +29,19 @@ import { Contributors } from "./Contributors"
 
 import "./styles.css"
 
-// todo: add back grain to home page so that it doesnt overlap the lottie file -> might invovle a refactor with how lottie is loaded in
 export default function Page() {
   useIntersectionObserver()
 
   return (
     <Base homePage>
       <Main color="black">
-      <HeaderSection>
-        <TempDeskMenu />
-        {/* <Header /> */}
-      </HeaderSection>
         <LottieSection>
           <div className="video-container">
             <video width="560" height="315" src="../videos/Jupiter_video_issue4_1920x1080_01.mp4" muted playsInline loop={true} data-autoplay="" autoPlay={true} ></video>
           </div>
         </LottieSection>
-        {/* <TempDeskMenu /> */}
         <LogoSection>
-          <JupiterLogo color="white" width={286} height={106} />
-          {/* <JupiterLogo color="white" width={143} height={53} /> */}
-          {/* <JupiterLogo color="white" width={537} height={198} /> */}
+          <JupiterLogo color="white" width={143} height={53} />
         </LogoSection>
 
         <EditorsNoteTitleSection>
@@ -65,13 +52,11 @@ export default function Page() {
         <EditorsNoteSection>
           <EditorsNoteCopy />
         </EditorsNoteSection>
-{/* 
-          <ContentSection>
-          </ContentSection> */}
-
-        <ContentSection>
-        <SignaturesSection>
-          <div style={{ display: "flex", flexDirection: "column" }}>
+        <FloatingMenuSection>
+          <FloatingMenu issue={4} />
+        </FloatingMenuSection>
+        <SignaturesSection className="sig-section">
+          <div className="camille-sig-container" style={{ display: "flex", flexDirection: "column" }}>
             <SignatureContainer
               src={camilleSignature}
               alt="Signature of Camille"
@@ -79,14 +64,14 @@ export default function Page() {
             />
             Camille Bacon
           </div>
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div className="daria-sig-container" style={{ display: "flex", flexDirection: "column" }}>
             <SignatureContainer src={dariaSignature} alt="Signature of Daria" className="daria-sig" />
             Daria Simone Harper
           </div>
         </SignaturesSection>
-        <br/><br/><br/><br/>
+        <ContentSection>
+        <pre id="contributors" />
         <Contributors />
-        {/* <AuthorDirectory homepage /> */}
         <pre id="colophon" />
           <div
             style={{
@@ -103,47 +88,9 @@ export default function Page() {
   )
 }
 
-function TempDeskMenu() {
-  return (
-    <div
-      style={{
-        position: "sticky",
-        top: "0px",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        marginTop: "2em", 
-        padding: "0px 1em",
-        color: "white",
-        width: "100%",
-      }}
-    >
-      
-      <p style={{
-        position: "sticky",
-        top: "0px",
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "center",
-        gap: "5em",
-        marginTop: "2em", 
-        color: "white",
-        fontSize: "18px",
-        fontWeight: "700",
-      }} >
-      {/* <a style={{ color: "white" }} href="/" target="_self" className="sc-eAKtBH cSYJEF">Magazine</a> */}
-      <a style={{ color: "white" }} href="/issue/1" target="_self" className="sc-eAKtBH cSYJEF">Issue 1</a>
-      <a style={{ color: "white" }} href="/issue/2" target="_self" className="sc-eAKtBH cSYJEF">Issue 2</a>
-      <a style={{ color: "white" }} href="/issue/3" target="_self" className="sc-eAKtBH cSYJEF">Issue 3</a>
-      </p>
-
-    </div>
-    )
-  }
-
 function EditorsNoteCopy() {
   return (
-    <div
+    <div className="editors-note-copy"
       style={{
         fontSize: "16px",
         display: "flex",
@@ -179,7 +126,6 @@ function EditorsNoteCopy() {
     <br/><br/>
     In response to Butler&#39;s salient indictment, we maintain that experimental arts writing and criticism can serve as one of many wrenches in the operations of those &#8220;would-be leaders&#8221; who abide by logics that feed the mouth of despotism. To this end, we corroborate fellow writer Mandy Harris Williams&#39;s essay <a href="http://hman.love/journal/critique-as-care" target="_blank" className="styled"> &#8220;Critique as Care&#8221; </a> in which she states: &#8220;Critique holds fascism as its enemy. … With social and political criticism out of the way, fascism is left to flourish.&#8221; We hope this issue attunes you to the unwavering pulsation of radical imagination, civic responsibility, and mutual dependence from which both Harris Williams&#39;s and Butler&#39;s statements, and those found in each of these contributions, emerge. 
     </p>
-    <br/><br/><br/><br/><br/><br/>
     </div>
   )
 }
