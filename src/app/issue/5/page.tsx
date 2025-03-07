@@ -54,16 +54,21 @@ export default function Page() {
         <FloatingMenuSection>
           <FloatingMenu issue={5} />
         </FloatingMenuSection>
-        <SignaturesSection>
-          <div style={{ display: "flex", flexDirection: "column" }}>
+        <SignaturesSection className="sig-section">
+          <div className="camille-sig-container" style={{ display: "flex", flexDirection: "column" }}>
             <SignatureContainer
               src={camilleSignature}
               alt="Signature of Camille"
+              className="camille-sig"
             />
             Camille Bacon
           </div>
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <SignatureContainer src={dariaSignature} alt="Signature of Daria" />
+          <div className="daria-sig-container" style={{ display: "flex", flexDirection: "column" }}>
+            <SignatureContainer 
+            src={dariaSignature} 
+            alt="Signature of Daria" 
+            className="daria-sig"
+            />
             Daria Simone Harper
           </div>
         </SignaturesSection>
@@ -93,7 +98,7 @@ export default function Page() {
 
 function EditorsNoteCopy() {
   return (
-    <div
+    <div className="editors-note-copy"
       style={{
         fontSize: "16px",
         display: "flex",

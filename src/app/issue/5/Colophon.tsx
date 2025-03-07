@@ -14,10 +14,10 @@ export function Colophon() {
       <h3 style={{ paddingBottom: "84px" }}>Colophon</h3>
       <ColophonContainer>
         <ColophonColumn>
-          <p> Jupiter Magazine Issue 003: The Theater of Refusal </p>
+          <p> Jupiter Magazine Issue 005: Off With Their Heads </p>
           <p> Published by: Jupiter Magazine </p>
           <MediumGuy />
-          <p> Publication Year: 2024 </p>
+          <p> Publication Year: 2025 </p>
           <p> Editors in Chief: Camille Bacon & Daria Simone Harper </p>
           <p> Editorial Assistant: Niara Hightower </p>
           <MediumGuy />

@@ -25,14 +25,14 @@ export function Contributors() {
     return (
         <div
             style={{
-                padding: "64px 32px",
-                width: "85vw",
+                padding: "64px 24px",
+                width: "82vw",
                 display: "flex",
                 alignSelf: "center !important",
                 justifyContent: "center",
                 flexDirection: "column",
                 position: "relative",
-                right: "80px"
+                right: "72px"
             }}
 
             className="pre-grid-wrap"
@@ -114,7 +114,7 @@ export function Contributors() {
                 <div className="blog-collection">
                     <div className="grid-container">
                     <div role="listitem" className="blog-item w-dyn-item first">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/imani" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/hanif" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -133,7 +133,7 @@ export function Contributors() {
                             </a>
                         </div>
                     <div role="listitem" className="blog-item w-dyn-item second">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/amandine" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/tiana" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -152,7 +152,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item third">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/camille" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/harmony" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -171,7 +171,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item fourth">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/rhya" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/kj" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -190,7 +190,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item fifth">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/daria" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/doreen" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -209,7 +209,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item sixth">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/angelique" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/kemi" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -228,7 +228,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item seventh">
-                            <a href="https://www.jupiter-mag.com/issue/4/article/rikki" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/yume" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">

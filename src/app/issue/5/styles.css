@@ -341,6 +341,9 @@ a.styledli {
   #menu-button.active span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
+
+/* <!-- Editors Note Section CSS --> */ 
+
   
 
 /* <!-- Contributors Page CSS --> */ 
@@ -376,7 +379,7 @@ a.styledli {
     perspective: 1000px;
     transition: transform 0.8s ease;
     transform-style: preserve-3d;
-    height: 20.5vw;
+    height: 18vw;
     position: relative;
     cursor: pointer;
 }
@@ -515,7 +518,7 @@ a.styledli {
 
 .arrow-icon.is--large {
     width: 1vw;
-    height: 1.1vw;
+    height: 1vw;
     margin-bottom: 0;
     /* margin-left: .8vw; */
     margin-right: 1vw;
@@ -527,12 +530,22 @@ img {
     display: inline-block;
 }
 
+.camille-sig-container {
+    position: relative;
+    left: 110px;
+}
+
 .camille-sig {
-    max-width: 110px;
+    position: relative;
+}
+
+.daria-sig-container {
+    position: relative;
+    left: 110px;
 }
 
 .daria-sig {
-    max-width: 110px;
+    position: relative;
 }
 
 
@@ -543,7 +556,7 @@ img {
 /* Description styling */
 .paragraph-small {
     /* letter-spacing: -.03em; */
-    font-size: 1.5vw !important;
+    font-size: 1.32vw !important;
     text-transform: uppercase;
     line-height: 115%;
 }
@@ -718,10 +731,44 @@ span.centered.small.bio {
 
 
 /* <!-- Tablet Device CSS --> */  
+
 @media only screen and (min-width: 450px) and (max-width: 770px) {
 
+    /* <!-- Editors Note Section CSS --> */ 
+
+    .editors-note-copy {
+        margin-block-start: 64px !important;
+        padding-top: 10px;
+        margin-right: 48px !important;
+    }
+
+    .sig-section {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .camille-sig-container {
+        position: relative;
+        left: 0px;
+    }
+
+    .daria-sig-container {
+        text-align: right;
+        position: relative;
+        left: -25px;
+    }
+
+    .daria-sig-container img {
+        text-align: right;
+        position: relative;
+        left: 50px;
+    }
+
+    /* <!-- Contributors Page CSS --> */ 
+
     .pre-grid-wrap {
-        right: 80px !important;
+        width: 56vw !important;
+        right: 100px !important;
     }
 
     .blog-collection {
@@ -735,16 +782,16 @@ span.centered.small.bio {
     }
 
     .blog-content {
-        padding: 3.5vw !important;
+        padding: 3.2vw !important;
     }
 
     .blog-item {
         border-width: 1px;
         border-color: var(--grey);
-        width: 44.8vw;
-        height: 44.6vw;
-        margin-top: -1px;
-        margin-right: -1px;
+        width: 36vw;
+        height: 36vw;
+        /* margin-top: -1px;
+        margin-right: -1px; */
     }
 
     .blog-item.first {
@@ -787,10 +834,15 @@ span.centered.small.bio {
     }
 
     .arrow-icon.is--large {
-        width: 1.2vw;
-        height: 1.2vw;
+        width: 2vw;
+        height: 2vw;
         margin-bottom: 0;
-        margin-left: 2vw;
+        margin-left: 6vw;
+    }
+
+    .arrow-wrapper {
+        /* margin-left: 64px !important; */
+        width: auto !important;
     }
 
     body > div > section.sc-iKOmoZ.ljvOYM > main > div > div.grid-wrapper > div.blog-collection > div > div.blog-item.w-dyn-item.first > a > div > div > div.square-block_top.has--align-right > div {
@@ -819,10 +871,32 @@ span.centered.small.bio {
 
 /* <!-- Mobile Device CSS (XS Screens) --> */  
 @media only screen and (min-width: 320px) and (max-device-width : 450px) {
-    .parable {
-        width: 98% !important;
-        height: max-content !important;
-        align-self: center;
+
+    /* <!-- Editors Note Section CSS --> */
+
+    .editors-note-copy {
+        margin-block-start: 0px !important;
+        padding-top: 0px;
+        margin-top: 0px !important;
+        margin-left: 48px !important;
+        margin-right: 48px !important;
+        margin-bottom: 0px !important;
+        padding-block-end: 0px !important;
+    }
+
+    .sig-section {
+        flex-direction: row !important;
+    }
+
+    .camille-sig-container {
+        position: relative;
+        left: 50px;
+    }
+
+    .daria-sig-container {
+        position: relative;
+        top: 5px;
+        left: 60px;
     }
 
     .pre-grid-wrap {
@@ -836,10 +910,10 @@ span.centered.small.bio {
     .blog-item {
         border-width: 1px;
         border-color: var(--grey);
-        width: 42vw;
-        height: 42.6vw;
-        margin-top: -1px;
-        margin-right: -1px;
+        width: 38vw;
+        height: 42vw;
+        margin-top: 0pxpx;
+        margin-right: 0pxpx;
     }
 
     .blog-item.first {
@@ -895,8 +969,8 @@ span.centered.small.bio {
     }
 
     .arrow-icon.is--large {
-        width: 8vw;
-        height: 4vw;
+        width: 3.2vw;
+        height: 3.2vw;
         margin-bottom: 0;
         /* margin-left: .8vw; */
         margin-right: 5vw;

@@ -2,6 +2,7 @@ import {
     screenLgMed,
     screenLgMin,
     screenMdMin,
+    screenXsMin,
     screenSmMin,
     screenXlMin,
   } from "@/utils/constants"
@@ -87,12 +88,22 @@ import {
     text-align: center;
     padding-block-start: 16px;
     padding-block-end: 64px;
-  
+
+    @media only screen and (min-width: ${screenSmMin}) {
+      /* text-align: right; */
+      /* padding-inline-end: 64px; */
+      margin-block-start: 56px;
+      font-size: 56px;
+      line-height: 56px;
+    }
     @media only screen and (min-width: ${screenMdMin}) {
       text-align: right;
       padding-inline-end: 64px;
       margin-block-start: 56px;
+      font-size: 56px;
+      line-height: 48px;
     }
+
     @media only screen and (min-width: ${screenLgMed}) {
       font-size: 72px;
       line-height: 72px;
@@ -109,7 +120,11 @@ import {
     grid-area: editorsNote;
     position: relative;
     display: flex;
-    padding-block-end: 128px;
+    padding-block-end: 64px;
+
+    @media only screen and (min-width: ${screenXsMin}) {
+        padding-block-end: 64px !important;
+    }
   
     @media only screen and (min-width: ${screenMdMin}) {
       margin-inline-start: 16px;
