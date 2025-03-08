@@ -499,7 +499,7 @@ img {
 
 .sig-section {
     position: relative;
-    top: 915px !important;
+    top: 915px;
 }
 
 .camille-sig-container {
@@ -700,7 +700,7 @@ span.centered.small.bio {
 
 /* <!-- Tablet Device CSS --> */  
 
-@media only screen and (min-width: 450px) and (max-width: 770px) {
+@media only screen and (min-width: 641px) and (max-width: 961px) {
 
     /* <!-- Editors Note Section CSS --> */ 
 
@@ -838,8 +838,9 @@ span.centered.small.bio {
     }
 }
 
-/* <!-- Mobile Device CSS (XS Screens) --> */  
-@media only screen and (min-width: 320px) and (max-device-width : 450px) {
+/* <!-- Mobile Device CSS (Small Screens) --> */ 
+
+@media only screen and (min-width: 375px) and (max-device-width : 481px) {
     
     /* <!-- Editors Note Section CSS --> */
 
@@ -861,6 +862,7 @@ span.centered.small.bio {
 
     .sig-section {
         flex-direction: row !important;
+        top: 0px;
     }
 
     .camille-sig-container {
@@ -969,4 +971,8 @@ span.centered.small.bio {
     }
 }
 
+/* <!-- Mobile Device CSS (X-Small Screens) --> */ 
 
+@media only screen and (min-width: 320px) and (max-device-width : 376px) {
+    
+}
