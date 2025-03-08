@@ -94,6 +94,13 @@ import {
     padding-block-start: 16px;
     padding-block-end: 64px;
 
+    /* x-small phones */
+    @media only screen and (min-width: ${screenXxxxsMax}) {
+      font-size: 56px;
+      line-height: 56px;
+      padding-block-end: 48px;
+    }
+
     @media only screen and (min-width: ${screenSmMin}) {
       margin-block-start: 56px;
       font-size: 56px;
@@ -177,6 +184,11 @@ import {
     align-items: center;
     gap: 2em;
     flex-direction: column;
+
+    /* x-small phones */
+    @media only screen and (min-width: ${screenXxxxsMax}) {
+      gap: 1em;
+    }
   `
   
   export const SignatureContainer = styled(Image)`
