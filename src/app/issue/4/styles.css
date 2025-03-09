@@ -989,15 +989,15 @@ span.centered.small.bio {
     }
 
     .con-bio-container {
-        margin-top: 24px;
-        margin-bottom: 24px;
+        margin-top: 24px !important;
+        margin-bottom: 24px !important;
     }
 
     /* Amandine Bio Img CSS */
     body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > div:nth-child(15) > img {
-        display: flex;
-        align-self: center;
-        width: 70%;
+        display: flex !important;
+        align-self: center !important;
+        width: 70% !important;
     }
 
     .bio-medium {
@@ -1180,15 +1180,15 @@ span.centered.small.bio {
     }
 
     .con-bio-container {
-        margin-top: 24px;
-        margin-bottom: 24px;
+        margin-top: 24px !important;
+        margin-bottom: 24px !important;
     }
 
     /* Amandine Bio Img CSS */
     body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > div:nth-child(15) > img {
-        display: flex;
-        align-self: center;
-        width: 70%;
+        display: flex !important;
+        align-self: center !important;
+        width: 70% !important;
     }
 
     .bio-medium {
