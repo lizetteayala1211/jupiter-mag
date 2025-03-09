@@ -133,6 +133,7 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   div {
     padding: 0 4.5% !important;
   }
+  
 }
 
 /* <!-- Mobile Device CSS (X-Small Screens) --> */ 

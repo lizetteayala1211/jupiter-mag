@@ -971,17 +971,21 @@ span.centered.small.bio {
         font-size: 14px;
     }
 
-    body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > span.footnotes.amadine > p > ol {
+    p {
+        font-size: 14px;
+    }
+
+    .footnotes-p {
         padding: 20px !important;
     }
 
     
     ol > li {
-        font-size: 13px;
-        line-height: 145%;
+        font-size: 13px !important;
+        line-height: 145% !important;
     }
     
-    li {
+    .footnotes-li {
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         padding-left: 20px !important;
@@ -993,15 +997,14 @@ span.centered.small.bio {
         margin-bottom: 24px !important;
     }
 
-    /* Amandine Bio Img CSS */
-    body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > div:nth-child(15) > img {
+    .bio-img {
         display: flex !important;
         align-self: center !important;
         width: 70% !important;
     }
 
     .bio-medium {
-        font-size: 13px;
+        font-size: 13px !important;
         line-height: 145% !important;
         padding-left: 0em;
         padding-right: 0em;
@@ -1163,16 +1166,17 @@ span.centered.small.bio {
         font-size: 14px;
     }
 
-    body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > span.footnotes.amadine > p > ol {
+    .footnotes-p {
         padding: 20px !important;
     }
+
     
     ol > li {
-        font-size: 13px;
-        line-height: 145%;
+        font-size: 13px !important;
+        line-height: 145% !important;
     }
     
-    li {
+    .footnotes-li {
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         padding-left: 20px !important;
@@ -1184,15 +1188,14 @@ span.centered.small.bio {
         margin-bottom: 24px !important;
     }
 
-    /* Amandine Bio Img CSS */
-    body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > div:nth-child(15) > img {
+    .bio-img {
         display: flex !important;
         align-self: center !important;
         width: 70% !important;
     }
 
     .bio-medium {
-        font-size: 13px;
+        font-size: 13px !important;
         line-height: 145% !important;
         padding-left: 0em;
         padding-right: 0em;
