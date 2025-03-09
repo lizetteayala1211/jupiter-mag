@@ -92,6 +92,7 @@ footer {
   
   p {
     font-size: 16px;
+    line-height: normal;
   }
 
 @media only screen and (min-width: 992px) {
@@ -181,6 +182,7 @@ p > span.centered {
     text-align: center;
     padding-left: 2.5em;
     padding-right: 2.5em;
+    line-height: normal;
 }
 
 /* Text Justified */
@@ -963,13 +965,49 @@ span.centered.small.bio {
         right: 10px !important;
     }
 
+    /* <!-- Author(s) Article Section CSS --> */
+
+    p {
+        font-size: 14px;
+    }
+
+    body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > span.footnotes.amadine > p > ol {
+        padding: 20px !important;
+    }
+
+    
+    ol > li {
+        font-size: 13px;
+        line-height: 145%;
+    }
+    
+    li {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+    }
+
+    .con-bio-container {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    /* Amandine Bio Img CSS */
+    body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > div:nth-child(15) > img {
+        display: flex;
+        align-self: center;
+        width: 70%;
+    }
+
     .bio-medium {
-        font-size: 16px;
-        line-height: 160% !important;
+        font-size: 13px;
+        line-height: 145% !important;
         padding-left: 0em;
         padding-right: 0em;
         text-align: center;
     }
+
 }
 
 /* <!-- Mobile Device CSS (X-Small Screens) --> */ 
@@ -1119,9 +1157,43 @@ span.centered.small.bio {
         right: 10px !important;
     }
 
+    /* <!-- Author(s) Article Section CSS --> */
+
+    p {
+        font-size: 14px;
+    }
+
+    body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > span.footnotes.amadine > p > ol {
+        padding: 20px !important;
+    }
+    
+    ol > li {
+        font-size: 13px;
+        line-height: 145%;
+    }
+    
+    li {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+    }
+
+    .con-bio-container {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    /* Amandine Bio Img CSS */
+    body > main > section.sc-jsEeTM.dtvofg > div.sc-jTQCzO.sc-iLXxbI.dhoxmJ.iWBMLd > div > div:nth-child(15) > img {
+        display: flex;
+        align-self: center;
+        width: 70%;
+    }
+
     .bio-medium {
-        font-size: 16px;
-        line-height: 160% !important;
+        font-size: 13px;
+        line-height: 145% !important;
         padding-left: 0em;
         padding-right: 0em;
         text-align: center;

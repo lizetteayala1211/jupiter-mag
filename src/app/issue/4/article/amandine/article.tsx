@@ -19,9 +19,7 @@ export function Article() {
     <ArticleStyles>
     <br/>
     <div className="writing-container">
-    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={AmadineTitleCard} alt="Amadine Title Card" className="titlecard" />
-    </div> */}
+
     <h1 className="title large"> I am all the geographies that can save me </h1>
     <br/>
     <h4 className="title small"> by Amandine Nana </h4>
@@ -37,7 +35,6 @@ export function Article() {
           />
     <br/>
     <p className="Amandine-Nana-04">
-    {/* <span className="centered"> <i> I am all the geographies that can save me by Amandine Nana </i> </span> */}
     <br/>
     <span className="centered"> <i> &#40;translated from French to English by Chrystel Oloukoi&#41; </i> </span>
     <br/>
@@ -153,23 +150,6 @@ export function Article() {
     <i> Of not being able to control her direction </i>
     <br/>
     calls me to revere that, after all, this is what our ancestors across the Black Atlantic have been teaching us: moving through indeterminacy is a methodology of continual adaptation and mutation. Though Lauren fears not being able to control her direction in a post-apocalyptic world full of violence and disfigured by global warming and extractivism &#40;one that is not that far from to the one we are currently living in&#41;, her intimate knowledge guides the miraculous words that open the book: &#8220;All that you touch / You change. / All that you Change / Changes you…&#8221; This prayer of divine interdependence is undoubtedly embodied in the work of Torkwase Dyson who choreographs conspiratory learning spaces for clandestine geographies that encourage those of us still undrowned to resist / breathe / listen / live. 
-    {/* <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={BirdnLava} alt="Torkwase Dyson, I Am Everything That Will Save Me #4 (Bird and Lava)" className="textinnerimg sqr amadine" />
-    </div>
-    <br/>
-    <span className="centered"> Torkwase Dyson, <i> I Am Everything That Will Save Me #4 </i> &#40;Bird and Lava&#41;, 2021, acrylic, string, and graphite on wood, 153 cm &#40;diameter&#41;. © the artist. Courtesy Pace Gallery </span>
-    <br/><br/> */}
-    {/* <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Blackwater} alt="Installation view of Torkwase Dyson&#39;s exhibition “1919: Black Water”" className="textinnerimg hor amadine" />
-    </div>
-    <br/>
-    <span className="centered"> Installation view of Torkwase Dyson&#39;s exhibition &#8220;1919: Black Water&#8221; at Arthur Ross Architecture Gallery, New York, 2019. </span>
-    <br/><br/> */}
-    {/* <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Hypershape} alt="Torkwase Dyson, Clandestine Geography (Hypershape)" className="textinnerimg sqr amadine" />
-    </div>
-    <br/>
-    <span className="centered"> Torkwase Dyson, Clandestine Geography <i> &#40;Hypershape&#41;, </i> 2022, wood, graphite, and acrylic, 121.9 x 114.3 x 3.8 cm. </span> */}
     </p>
     <pre id="article" />
           <div
@@ -199,7 +179,7 @@ export function Article() {
     </p>
     </span>
     <pre id="contributor-bio" />
-          <div
+          <div className="con-bio-container"
             style={{
               marginTop: "112px",
               marginBottom: "64px",
