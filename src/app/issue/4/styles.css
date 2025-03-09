@@ -848,8 +848,8 @@ span.centered.small.bio {
         margin-block-start: 0px !important;
         padding-top: 0px;
         margin-top: 0px !important;
-        margin-left: 48px !important;
-        margin-right: 48px !important;
+        margin-left: 32px !important;
+        margin-right: 32px !important;
         margin-bottom: 0px !important;
         padding-block-end: 0px !important;
     }
@@ -879,7 +879,8 @@ span.centered.small.bio {
     /* <!-- Contributors Page CSS --> */ 
 
     .pre-grid-wrap {
-        right: 10px !important;
+        right: 30px !important;
+        width: 80vw;
     }
 
     .blog-collection {
@@ -889,7 +890,7 @@ span.centered.small.bio {
     .blog-item {
         border-width: 1px;
         border-color: var(--grey);
-        width: 38vw;
+        width: 42vw;
         height: 42vw;
         margin-top: 0px;
         margin-right: 0px;
