@@ -59,7 +59,7 @@ export function Article() {
     Set against stark white gallery walls, Artist&#39;s installation displays a less harrowing landscape than Butler illustrates throughout her text, at least initially. Upon a closer read, however, apocalyptic vignettes snap into clear view, reflecting and riffing on various scenes from the dystopian novel. The interior of the gallery is split in two by a towering partition of neatly laid stone, on top of which stands a stretch of gnarled and foreboding barbed wire. Titled <i> Robledo Community Wall &#40;Olamina cul-de-sac&#41; </i> &#40;2022&#41;, this work parallels the prominent walls that &#40;fail to&#41; defend Lauren Olamina&#39;s predominantly Black Robledo community from external threats. 
     <br/><br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={ShaperofGod} alt="American Artist, Shaper of God, (Installation view)" className="textinnerimg hor daria" />
+      <SignatureContainer src={ShaperofGod} className="article-img" alt="American Artist, Shaper of God, (Installation view)" />
     </div>
     <br/>
     <span className="centered small"> American Artist, <i> Shaper of God, </i> &#40;Installation view&#41; 2022. REDCAT, Los Angeles, CA. </span>
@@ -81,7 +81,7 @@ export function Article() {
     Environment and landscape, especially the aforementioned Los Angeles suburbs, thus act as vital connective tissue within the body of <i> Shaper of God. </i> These sites which hold a particular resonance for Artist and Butler, along with the fictionalized areas named in <i> Parable, </i> become portals to understanding shared knowledge systems, both empirically and divinely derived.
     <br/><br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={LosAngelesTimes} alt="ananarive Due, “What if we were already living in Octavia Butler&#39;s &#39;Parable of the Sower&#39;?”, Los Angeles Times" className="textinnerimg hor daria" />
+      <SignatureContainer src={LosAngelesTimes} className="article-img" alt="ananarive Due, “What if we were already living in Octavia Butler&#39;s &#39;Parable of the Sower&#39;?”, Los Angeles Times" />
     </div>
     <br/>
     <span className="centered small"> American Artist, <i> Shaper of God, </i> &#40;Installation view&#41; 2022. REDCAT, Los Angeles, CA. 

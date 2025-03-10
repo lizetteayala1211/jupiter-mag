@@ -73,7 +73,7 @@ export function Article() {
         Does <i> the wisdom </i> that <i> rises </i> through <i> her </i> come <i> from </i> this <i> rhizomatic rootedness </i> in <i> no place </i> but <i> all places in time at once? </i> Does it <i> heal her </i> in <i> the ways </i> that <i> she </i> has <i> helped facilitate </i> my <i> own healing? If everything you touch you change, what happens to everything you feel? </i>
         <br/><br/>
         <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-        <SignatureContainer src={Performance} alt="Performance at the Fountain of Time, Washington Park by vanessa german, Gray Center Fellowship Exhibition" className="textinnerimg hor rhya" />
+        <SignatureContainer src={Performance} className="article-img" alt="Performance at the Fountain of Time, Washington Park by vanessa german, Gray Center Fellowship Exhibition" />
         </div>
         <br/>
         <span className="centered small"> Performance at the Fountain of Time, Washington Park by vanessa german, Gray Center Fellowship Exhibition, 2024, at the Reva & David Logan Center for the Arts. Courtesy of the artist / Kasmin, New York; Logan Center Exhibitions; and the Richard and Mary L. Gray Center for Arts and Inquiry at the University of Chicago. Photo by Robert Chase Heishman and Robert Salazar. </span>
@@ -81,14 +81,14 @@ export function Article() {
         german gives us an education in listening to feeling, in learning to <i> &#8220;recognize the frequency of yes.&#8221;<sup><a href="#fn5" id="ref5">5</a></sup> </i> In class, we practiced mark making free of judgment by silencing the critic and surrendering to our consciousnesses. Together, we transformed lumps of clay, tiny portions of personal yet communal earth with only one instruction: leave a hole and leave a fingerprint. Our pieces came together in <i> THE SOUL IS A LIBRARY I and II </i> &#40;all works 2024&#41;. The conjuring we did in class lingers as you continue through the exhibit, pushing you to wonder what it might look like to lead, create, and simply <i> be </i> heart-first. Indeed, for german, the opposite of love isn&#39;t hate or indifference—but judgment, and we make with this in mind.
         <br/><br/>
         <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-        <SignatureContainer src={LibraryIandII} alt="THE SOUL IS A LIBRARY I and II" className="textinnerimg hor rhya" />
+        <SignatureContainer src={LibraryIandII} className="article-img" alt="THE SOUL IS A LIBRARY I and II" />
         </div>
         <br/>
         <span className="centered small"> <i> THE SOUL IS A LIBRARY I and II, </i> 2024.
         Installation view of vanessa german&#39;s Gray Center Fellowship Exhibition, 2024, at the Reva & David Logan Center for the Arts. Courtesy of the artist / Kasmin, New York; Logan Center Exhibitions; and the Richard and Mary L. Gray Center for Arts and Inquiry at the University of Chicago. Photo by Robert Chase Heishman and Robert Salazar. </span>
         <br/>
         <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-        <SignatureContainer src={LibraryII} alt="THE SOUL IS A LIBRARY II" className="textinnerimg hor rhya" />
+        <SignatureContainer src={LibraryII} className="article-img" alt="THE SOUL IS A LIBRARY II" />
         </div>
         <br/>
         <span className="centered small"> <i> THE SOUL IS A LIBRARY II, </i> 2024.
@@ -97,7 +97,7 @@ export function Article() {
         german narrates the story of the class&#39;s inception and expounds upon Sun Ra&#39;s influence on the work in <i> Heart-Opener &#40;pyramid&#41;. </i> As her voice floats through the attached headphones &#40;not pictured&#41; and a stellated dodecahedron spins atop a lapis turntable, she recounts a story, she casts a spell: 
         <br/><br/>
         <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-        <SignatureContainer src={HeartOpenerI} alt="Heart-Opener (pyramid)" className="textinnerimg hor rhya" />
+        <SignatureContainer src={HeartOpenerI} className="article-img" alt="Heart-Opener (pyramid)" />
         </div>
         <br/>
         <span className="centered small"> <i> Heart-Opener &#40;pyramid&#41;, </i> 2024. 
@@ -106,7 +106,7 @@ export function Article() {
         As she worked to enact such a space in the Chicago classroom, she unknowingly initiated a sculptural encounter with Sun Ra. He followed her to her studio and elicited a pull within her to create a four-sided, golden pyramid, despite architecture and geometry having never made their way into her work before. Soon after the pull expanded into a knowing and she began to assemble the sculpture, <a href="https://www.youtube.com/watch?v=8_f5e9eJpLw" target="_blank" className="styled"> &#8220;Tapestry From An Asteroid&#8221; </a> by Sun Ra rang out from her studio manager&#39;s playlist. <i> Heart-Opener &#40;pyramid&#41; </i> had already been completed with its crystal antennae calling out to him when german finally saw a <a href="https://www.youtube.com/watch?v=rmqe_v11q3U" target="_blank" className="styled"> video of Sun Ra&#39;s 1989 performance </a> on late-night show <i> Night Music, </i> wherein he produces a four-sided, golden pyramid that rhymed with the one she had just created. Sun Ra must surely be nodding to her across time, both producing and answering her call. 
         <br/><br/>
         <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-        <SignatureContainer src={HeartOpenerII} alt="Heart-Opener (pyramid)" className="textinnerimg hor rhya" />
+        <SignatureContainer src={HeartOpenerII} className="article-img" alt="Heart-Opener (pyramid)" />
         </div>
         <br/>
         <span className="centered small"> <i> Heart-Opener &#40;pyramid&#41;, </i> 2024. 
@@ -115,7 +115,7 @@ export function Article() {
         Throughout german&#39;s exhibition, this notion of interconnection, of reaching across timespace to a past and future that are always already present, comes through the motif of extended hands. Usually, they reach up: up and out from the crown of the rose quartz-assembled head in <i> Chicago Altar of Love inspired by the ride-share driver who told me how to make it in Chicago, she says: Don&#39;t be Afraid. Keep Your Eyes Open &#40;2024&#41;; </i> up and out from the top of a black onyx head suspended within a found basketball hoop in <i> Dr. Massey and The Nature of the Known Universe; </i> up and out of a wrought iron sigil in <i> INTUITIVE MAGIC AND THE BODY. </i> Each of these hands, covered in gold, look to reach up &#40;to touch&#41; and out &#40;to feel&#41;.
         <br/><br/>
         <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-        <SignatureContainer src={Universe} alt="Dr. Massey and the Nature of the Known Universe" className="textinnerimg ver rhya" />
+        <SignatureContainer src={Universe} className="article-img" alt="Dr. Massey and the Nature of the Known Universe" />
         </div>
         <br/>
         <span className="centered small"> <i> Dr. Massey and the Nature of the Known Universe, 2024. </i> Installation view of vanessa german&#39;s Gray Center Fellowship Exhibition, 2024, at the Reva & David Logan Center for the Arts. Courtesy of the artist / Kasmin, New York; Logan Center Exhibitions; and the Richard and Mary L. Gray Center for Arts and Inquiry at the University of Chicago. Photo by Robert Chase Heishman and Robert Salazar.  
@@ -124,7 +124,7 @@ export function Article() {
         Occasionally, the hands take on different forms. For instance, Sun Ra&#39;s golden hand &#8220;rising up the back to carry the night of sounds on his infinite and eternal shoulders&#8221;<sup><a href="#fn6" id="ref6">6</a></sup> in <i> Master Blaster; </i> or, <i> Boombox from the 5th dimension. </i> His pyrite hand rises up and out from the earth that props up the boombox while still being a part of it, rooting into a groundedness while reaching to join a symphony of blue minerals. You might easily miss his pat on the back if you ignore the voice coaxing you to orbit the sculpture completely, if you forget to remember to maintain awareness of all that exists around and within and through you even when not directly in front of you. Whether you catch it or not, there is an antidote that flows from his gleaming palm, edging around the corners, seeking and finding you regardless of whether you see it coming. 
         <br/><br/>
         <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-        <SignatureContainer src={LoveSong} alt="(left) Love Song; or The Quelling of that Great Grief of Immortality or (center) Master Blaster; or, Boombox from the 5th dimension or (right) THE HEALER— or (far right) INTUITIVE MAGIC AND THE BODY " className="textinnerimg hor rhya" />
+        <SignatureContainer src={LoveSong} className="article-img" alt="(left) Love Song; or The Quelling of that Great Grief of Immortality or (center) Master Blaster; or, Boombox from the 5th dimension or (right) THE HEALER— or (far right) INTUITIVE MAGIC AND THE BODY" />
         </div>
         <br/>
         <span className="centered small"> <i> &#40;left&#41; Love Song; or The Quelling of that Great Grief of Immortality, </i> 2024, &#40;center&#41; <i> Master Blaster; </i> or, <i> Boombox from the 5th dimension, </i> 2024, &#40;right&#41; <i> THE HEALER— </i> ,2024, &#40;far right&#41; <i> INTUITIVE MAGIC AND THE BODY, </i> 2024.
@@ -134,7 +134,7 @@ export function Article() {
         <i> THE HEALER— </i> is the only work in the exhibit that has two hands and it is the only work where the hands are outstretched. Strung along its torso are the prayer beads we made in class, now dipped in gold and bound to one another—our prayer beads are our first lesson in german&#39;s method of assemblage, one that carefully brings together found objects, earth, and intention to teach us about the inextricability of the one from the whole. Our intentions work together and reach out, all &#8220;the grace [you] could imagine&#8221;<sup><a href="#fn7" id="ref7">7</a></sup> emanating from the fingertips of the twinned golden appendages.
         <br/><br/>
         <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-        <SignatureContainer src={AltarofLove} alt="Heart-Opener &#40;pyramid&#41; Chicago Altar of Love inspired by the ride-share driver who told me how to make it in Chicago, she says: Don&#39;t be Afraid. Keep Your Eyes Open" className="textinnerimg hor rhya" />
+        <SignatureContainer src={AltarofLove} className="article-img" alt="Heart-Opener &#40;pyramid&#41; Chicago Altar of Love inspired by the ride-share driver who told me how to make it in Chicago, she says: Don&#39;t be Afraid. Keep Your Eyes Open" />
         </div>
         <br/>
         <span className="centered small"> <i> INTUITIVE MAGIC AND THE BODY, </i> &#40;left&#41; 2024, &#40;center&#41; <i> THE HEALER— </i> , 2024, &#40;right&#41; Heart-Opener &#40;pyramid&#41;, 2024, &#40;under <i> Heart-Opener &#40;pyramid&#41; Chicago Altar of Love inspired by the ride-share driver who told me how to make it in Chicago, she says: Don&#39;t be Afraid. Keep Your Eyes Open, </i> 2024. Installation view of vanessa german&#39;s Gray Center Fellowship Exhibition, 2024, at the Reva & David Logan Center for the Arts. Courtesy of the artist / Kasmin, New York; Logan Center Exhibitions; and the Richard and Mary L. Gray Center for Arts and Inquiry at the University of Chicago. Photo by Robert Chase Heishman and Robert Salazar. </span>
@@ -166,7 +166,7 @@ export function Article() {
         Touchingfeeling is represented here by a blue gardening glove as a hand. It does not reach up or out, but falls flat from under a sequined pillow upon which a lapis-kyanite-sodalite head lies. It is the only hand in the exhibit we might literally try on: a grief meant to be witnessed, shared. There is the blue, limp hand, but—as it lies against a mirrored rectangular prism—there is also the shadow of that hand, and the reflection of that hand, and the reflection of the shadow of that hand, an allegory for how grief spills out, flooding, pouring beyond its bounds. It is here, yet elsewhere as well. It does not sit in isolation but also reaches and also touches, and in so doing, changes and is changed, feels and is felt. At the feet of the teacher that is grief, we are collectively transformed.
         <br/><br/>
         <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-        <SignatureContainer src={AltarofGrief} alt="Altar of Grief and Transformation from the place where I was scammed by humans out of $700 one night in chicago when I had a mean toothache and the pain had blinded my common senses" className="textinnerimg ver rhya" />
+        <SignatureContainer src={AltarofGrief} className="article-img" alt="Altar of Grief and Transformation from the place where I was scammed by humans out of $700 one night in chicago when I had a mean toothache and the pain had blinded my common senses" />
         </div>
         <br/>
         <span className="centered small"> <i> Altar of Grief and Transformation from the place where I was scammed by humans out of $700 one night in chicago when I had a mean toothache and the pain had blinded my common senses, </i> 2024. Installation view of vanessa german&#39;s Gray Center Fellowship Exhibition, 2024, at the Reva & David Logan Center for the Arts. Courtesy of the artist / Kasmin, New York; Logan Center Exhibitions; and the Richard and Mary L. Gray Center for Arts and Inquiry at the University of Chicago. Photo by Robert Chase Heishman and Robert Salazar. </span>

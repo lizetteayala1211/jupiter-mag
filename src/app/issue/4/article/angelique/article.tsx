@@ -51,7 +51,7 @@ Known as a poet, and by way of poetry&#39;s rigor and rhythm, Harmony Holiday is
 Harmony&#39;s first solo exhibition <i> BLACK BACKSTAGE </i> &#40;March 21&#8208;May 25, 2024&#41;, co-organized by Legacy Russell and I, debuted this past spring at The Kitchen in New York City. Comprising a new short film, a series of text and image-based screen prints on fabric, and a sonic composition set within an environment of installations, the exhibition transformed the idea of the backstage into both site and specter. A space where Harmony positions collective improvisation and the life it endures, without codification, as the root of Black music, theater, dance, and performance. She lingers with and within the backstage frequently, not just as a place to go, end up, or return to, but as an ever-evolving, indeterminate presence and orientation. In <i> BLACK BACKSTAGE, </i> she assembles her research, archival practice, image-making, and writing alike into an immersive visual grammar. 
 <br/><br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-  <SignatureContainer src={BlackBackstage} alt="Installation view, Harmony Holiday: BLACK BACKSTAGE, The Kitchen at Westbeth. Photo by Kyle Knodell. Courtesy of The Kitchen." className="textinnerimg ver angelique" />
+  <SignatureContainer src={BlackBackstage} className="article-img" alt="Installation view, Harmony Holiday: BLACK BACKSTAGE, The Kitchen at Westbeth. Photo by Kyle Knodell. Courtesy of The Kitchen." />
 </div>
 <br/>
 <span className="centered small"> Installation view, Harmony Holiday: <i> BLACK BACKSTAGE, </i> The Kitchen at Westbeth, March 21&#8208;May 25, 2024. Photo by Kyle Knodell. Courtesy of The Kitchen. 
@@ -64,7 +64,7 @@ Harmony thinks as an artist, but witnesses as a poet. Her poetry, prose, and cri
 The mythic bears on Harmony&#39;s work just like it does on the city of Los Angeles. She entangles myth, archetype, and biography, finding pleasure in allowing each to lose their distinction in her writing: &#8220;secrets that can only be contained in poems.&#8221;<sup><a href="#fn4" id="ref4">4</a></sup> Their convergence holds all kinds of desires, resistances, and fracturings that can remain fugitive in her practice. Harmony&#39;s essay &#8220;Driving with O.J. Simpson&#8221; evocatively mirrors her family to that of the football superstar&#39;s, revealing his trial&#39;s impact on her and on a mid-&#39;90s era of LA.<sup><a href="#fn5" id="ref5">5</a></sup> The title of Harmony&#39;s third collection of poems <i> Hollywood Forever </i> &#40;2017&#41;—a book wherein the legacies of figures like Miles Davis, Martin Luther King, Prince, Malcom X, Billie Holiday, and Michael Jackson are distilled into poem and image unseparated—actually takes its name after a cemetery in Santa Monica. &#8220;As America becomes more cemetery than republic each day, its satisfying to objectify it the way it has objectified us,&#8221; Harmony says of the book in an interview with <i> BOMB Magazine. What fantasy is more obscene than a static forever in which the current world order plays out in an eternal reel?<sup><a href="#fn6" id="ref6">6</a></sup> </i>
 <br/><br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-  <SignatureContainer src={BillieHoliday} alt="Billie Holiday during her last recording session, March, 1959, New York, Photo by Milt Hinton" className="textinnerimg ver angelique" />
+  <SignatureContainer src={BillieHoliday} className="article-img" alt="Billie Holiday during her last recording session, March, 1959, New York, Photo by Milt Hinton" />
 </div>
 <br/>
 <span className="centered small"> Billie Holiday during her last recording session, New York, March 1959. Photo by Milt Hinton. </span>
@@ -74,7 +74,7 @@ On a scenic register, Harmony takes up how the vagaries of fame, capital, and in
 These concerns and intentions evolve in Harmony&#39;s deepened engagement with a more insidious industry archetype—the handler. The word itself sort of obfuscates and evades its own definition, as ubiquitous as it is specific. On paper, the handler is like a round-the-clock &#8220;manager&#8221; for an artist, particularly a performer or musician. TikTok users are probably the most unflinching source of information on the term &#40;Google won&#39;t get you very far&#41;, naming how their primary goal is to know about your ins and outs, your whereabouts, and to wield their power to make decisions that uproot any alignment in your &#8220;path.&#8221; Harmony&#39;s recent Substack essay &#8220;On Handlers &#40;1&#41;&#8221; mythologizes the origin of the handler through Nina Simone&#39;s rendition of the song from the 1935 opera <i> Porgy and Bess, </i> &#8220;I Loves You, Porgy&#8221; &#40;1959&#41;. They are &#8220;a trusted traitor who tempts, taunts, tempers you,&#8221; Harmony writes. In effect, control cosplays as care, timing, and discretion. &#8220;Your image sells myths called &#8242;units,&#39; merchandise, and so you are given sweet luxurious surveillance, the kind that mimics companionship.&#8221;<sup><a href="#fn9" id="ref9">9</a></sup>
 <br/><br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={NinaSimone} alt="Dorthaan Kirk, far right, at a party with Abbey Lincoln, Nina Simone at Amina Baraka and Amiri Baraka&#39;s home." className="textinnerimg ver angelique" />
+  <SignatureContainer src={NinaSimone} className="article-img" alt="Dorthaan Kirk, far right, at a party with Abbey Lincoln, Nina Simone at Amina Baraka and Amiri Baraka&#39;s home." />
 </div>
 <br/>
 <span className="centered small"> Dorthaan Kirk, far right, at a party with Abbey Lincoln, Nina Simone at Amina Baraka and Amiri Baraka&#39;s home. </span>
@@ -86,7 +86,7 @@ How visceral and unsettling the writing is here takes it past a speculative real
 As much dissent as it is retribution, this exploration drives home the notion of what <i> Life of the Party, </i> as a phrase and a &#8220;talking book,&#8221; really means. &#8220;It&#39;s the life force that you are literally cannibalizing to run your shit,&#8221; Harmony says, &#8220;and how that can look being backstage.&#8221;<sup><a href="#fn12" id="ref12">12</a></sup> The text will go from performance, and writing related to performance, to expanded imagery, annotations, and writing related to being <i> behind </i> performance. Her essay that meditates on Thelonius Monk and doubled as the score for her newest filmic work by the same name, <i> Abide With Me </i> &#40;2024&#41;—narrated for the screen by her dear friend, poet, and theorist Fred Moten—will be included in the book, along with a long time coming essay on Lonnie Holley. Fantasy, pleasure, and power become a little more cruel in the context of how Harmony troubles this &#40;after&#41; party &#40;the party itself becomes the archetype&#41;, where depravity—disguised in an erotic sense as sensuality, trust, access, freedom—incentivizes itself and becomes pathologically consumptive. 
 <br/><br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={LifeoftheParty} alt="Life of the Party by Harmony Holiday (New York_ Semiotext(e), May 27, 2025)" className="textinnerimg ver angelique" />
+  <SignatureContainer src={LifeoftheParty} className="article-img" alt="Life of the Party by Harmony Holiday (New York_ Semiotext(e), May 27, 2025)" />
 </div>
 <br/>
 <span className="centered small"> Cover image, <i> Life of the Party </i> by Harmony Holiday. <br/> &#40;New York: Semiotext&#40;e&#41;, May 27, 2025&#41;
@@ -103,21 +103,21 @@ The reserves of memory are a contested space,
 <i> Paradise of Ruins </i> &#40;2024&#41; is one such hour-and-fourteen-minute-long sound work forming part of her latest series in <i> BLACK BACKSTAGE. </i> Hear Tina Turner banter backstage with one of The Ikettes about the way she has been <i> looking </i> at Ike &#40;&#8220;nobody ever looks at Ike,&#8221; she retorts at Tina&#41;, or Michael Jackson deliberate about fame in a 1987 interview: &#8220;sometimes I want to sneak into places and not have any hoopla,&#8221; or John Coltrane talk about how the saxophone as an instrument &#8220;brings you to your limits,&#8221; or Azealia Banks live on Instagram from a New York City street corner yelling, &#8220;Bitch… Girl, it&#39;s not me, sis! It&#39;s not me!&#8221; when a fan approaches her, or Ye on the interview series <i> Drink Champs </i> exclaim and repeat, &#8220;I&#39;m Michael now! I am the richest [Black man] in history.&#8221; In sequence, forming an unrelenting, inconclusive chorus—&#8220;these snatches of the taboo and tainted margins of Black music&#8221;<sup><a href="#fn18" id="ref18">18</a></sup>—enveloping the gallery. The piece is a sort of prelude to a future album accompaniment Gospel-rendition of <i> MAAFA </i> that Harmony is developing with producer and composer Kelman Duran.
 <br/><br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={AbideWithMe1} alt="Still of Harmony Holiday, Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
+  <SignatureContainer src={AbideWithMe1} className="article-img" alt="Still of Harmony Holiday, Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." />
 </div>
 <br/>
 <span className="centered small"> Still of <b> Harmony Holiday </b>, <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={AbideWithMe2} alt="Still of Harmony Holiday, Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
+  <SignatureContainer src={AbideWithMe2} className="article-img" alt="Still of Harmony Holiday, Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." />
 </div>
 <br/>
 <span className="centered small"> Still of <b> Harmony Holiday </b>, <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={AbideWithMe3} alt="Still of Harmony Holiday, Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." className="textinnerimg ver angelique" />
+  <SignatureContainer src={AbideWithMe3} className="article-img" alt="Still of Harmony Holiday, Abide With Me, 2024. Digital color video with sound, 37:31 minutes. Narrated by Fred Moten. Courtesy of artist." />
 </div>
 <br/>
 <span className="centered small"> Still of <b> Harmony Holiday </b>, <i> Abide With Me, </i> 2024. Digital color video with sound, 37:31 minutes. <br/> Narrated by Fred Moten. Courtesy of artist.
@@ -130,7 +130,7 @@ Baldwin is a recurring figure in Harmony&#39;s research and writing—someone wh
 <span className="centered"> <i> What made you want to die? What let you live? What does survival mean to you?<sup><a href="#fn21" id="ref21">21</a></sup> </i> </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={JamesBaldwin} alt="James Baldwin, Abbey Lincoln, and Max Roach attend the premiere of &#39;For Love of Ivy&#39; at Loew&#39;s Tower East Theater, New York, July 16, 1968. Photo by Ron Galella. Ron Galella Collection via Getty Images" className="textinnerimg ver angelique" />
+  <SignatureContainer src={JamesBaldwin} className="article-img" alt="James Baldwin, Abbey Lincoln, and Max Roach attend the premiere of &#39;For Love of Ivy&#39; at Loew&#39;s Tower East Theater, New York, July 16, 1968. Photo by Ron Galella. Ron Galella Collection via Getty Images" />
 </div>
 <br/>
 <span className="centered small"> James Baldwin, Abbey Lincoln, and Max Roach attend the premiere of <i> For Love of Ivy </i> at Loew&#39;s Tower East Theater, New York, July 16, 1968. Photo by Ron Galella.
@@ -141,14 +141,14 @@ Harmony and I have remained in continued conversation ever since her solo exhibi
 Her diction is soft, you could say dry, but perceptive, sharp, loud with candor, wit, and laughter. She toys often with astrology, how it&#39;s fun to use before it gets cultish: &#8220;Sometimes the way the cosmic order works, especially during retrograde, you dont have to say much to get all the information you need.&#8221;<sup><a href="#fn24" id="ref24">24</a></sup> Harmony&#39;s conviction &#40;she would call it a Taurean impulse&#41; seems to prolong or subvert whatever retrograde means in this sense, wherein seeking out or understanding what you need isn&#39;t just intuited but contended with, and nurtured in company. The very Black polymaths that she obsesses over and finds herself in company and collaboration with &#40;ancestors and contemporaries, interchangeable&#41;—sharing confessions, troubles, friendship, heartbreak, intimacy with—are as much reflections of the pluralities of her work as they are of herself.
 <br/><br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={MuhammadAli} alt="Muhammad Ali and Gil Scott-Heron backstage at The Roxy, Los Angeles, 1977. Photo by Bruce Talamon." className="textinnerimg ver angelique" />
+  <SignatureContainer src={MuhammadAli} className="article-img" alt="Muhammad Ali and Gil Scott-Heron backstage at The Roxy, Los Angeles, 1977. Photo by Bruce Talamon." />
 </div>
 <br/>
 <span className="centered small"> Muhammad Ali and Gil Scott-Heron backstage at The Roxy, Los Angeles, 1977. <br/> Photo by Bruce Talamon.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={GraceJones} alt="Grace Jones and D&#39;Angelo at Giorgio Armani exhibition opening reception, The Guggenheim Museum, New York, January 17, 2001. Photo by K Mazur." />
+  <SignatureContainer src={GraceJones} className="article-img" alt="Grace Jones and D&#39;Angelo at Giorgio Armani exhibition opening reception, The Guggenheim Museum, New York, January 17, 2001. Photo by K Mazur." />
 </div>
 <br/>
 <span className="centered small"> Grace Jones and D&#39;Angelo at <i> Giorgio Armani </i> exhibition opening reception, The Guggenheim Museum, New York, January 17, 2001. Photo by K Mazur.
@@ -161,14 +161,14 @@ Carrying a spirit of delusion is often what is radical in the face of a quote-un
 Continuously looking for ways to trouble the process of writing to feel like she&#39;s grappling with it in a more physical way, Harmony asks, &#8220;Why arent we all doing more embodied work?&#8221;<sup><a href="#fn27" id="ref27">27</a></sup> For her, calling upon the body means creating a space for ideas to give permission to put things together in ways society is always butting up against, deputizing style and language while doing it. Her one qualm with becoming a writer, she notes, was that it would &#8220;not be strenuous enough.&#8221; [Laughter]. &#8220;I just get to a certain point where things need to move energy—the collapsing of all the identities that genres carry, but above all that, how does it actually feel?&#8221;<sup><a href="#fn28" id="ref28">28</a></sup> 
 <br/><br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={JeromeRobbinsDanceDivision1} alt="Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34;, The New York Public Library Digital Collections. 1972. Photo by Fred Fehl." className="textinnerimg ver angelique" />
+  <SignatureContainer src={JeromeRobbinsDanceDivision1} className="article-img" alt="Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34;, The New York Public Library Digital Collections. 1972. Photo by Fred Fehl." />
 </div>
 <br/>
 <span className="centered small"> Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34;, <i> The New York Public Library Digital Collections. </i> 1972. Photo by Fred Fehl.
 </span>
 <br/>
 <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-  <SignatureContainer src={JeromeRobbinsDanceDivision2} alt="Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; The New York Public Library Digital Collections. 1972. Photo by Fred Fehl." className="textinnerimg ver angelique" />
+  <SignatureContainer src={JeromeRobbinsDanceDivision2} className="article-img" alt="Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; The New York Public Library Digital Collections. 1972. Photo by Fred Fehl." />
 </div>
 <br/>
 <span className="centered small"> Jerome Robbins Dance Division, The New York Public Library. &#34;Judith Jamison in Alvin Ailey&#39;s Cry&#34; <i> The New York Public Library Digital Collections. </i> 1972. Photo by Fred Fehl.

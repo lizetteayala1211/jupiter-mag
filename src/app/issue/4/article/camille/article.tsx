@@ -39,7 +39,7 @@ export function Article() {
     That night, September prepared to take her curtain call and a crescent moon dangled delicately above Chicago&#39;s Salt Shed as Kelela crooned the final lines of &#8220;<a href="https://www.youtube.com/watch?v=FQ-zGi6zyPw" target="_blank" className="styled"> Cherry Coffee </a>&#8221; and slipped, without warning, into &#8220;<a href="https://www.youtube.com/watch?v=XQEGP3CaWEs" target="_blank" className="styled">Jupiter. </a>&#8221; We&#39;d talked about these songs before, the ones we regard as respective sonic portraits of ourselves, the ones that unburden our breath. 
     <br/><br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={SaltShed} alt="Kelela performing at the Salt Shed by Joel Meinholz" className="textinnerimg hor camille" />
+      <SignatureContainer src={SaltShed} className="article-img" alt="Kelela performing at the Salt Shed by Joel Meinholz" />
     </div>
     <br/>
     <span className="centered small"> Kelela performing at the Salt Shed by Joel Meinholz </span>
@@ -47,8 +47,6 @@ export function Article() {
     Several months earlier the moon yawned itself toward totality, giving all of us gathered at Good Room, Brooklyn <sup><a href="#fn1" id="ref1">1</a></sup> a beacon to howl at. I gathered there with two friends to attend Kelela&#39;s rave, where her recently released <a href="https://www.youtube.com/watch?v=5l3sE4Y5-vw&list=PLjpdY-hPtpeNy8wqkOwZXo4jMsz6u2yFR" target="_blank" className="styled"> RAVE:N, The Remixes </a>  was reinterpreted by DJs including BEARCAT, DJ SWISHA, and Niara Sterling &#40;among others&#41;, coalescing into a centripetal force of thrashing sound to spin, amplify, and release our storms of sentiment into. 
     <br/><br/>
     Awash in a pandemonious symphony of synth and strobe, a new prism through which to see in the dark emerged from the throbbing crowd like another beacon. Her right cheek was punctuated with a beauty mark whose form is akin to an inverted exclamation point, or a trembling star. Even as she flickered in and out of view, fusing with the oceanic magma of the crowd, the fact of her existence was the centrifuge around which my attention singularly focused. Her gaze, decidedly directed at the DJ booth, rhymed with the moon spilling itself open above us, her eyes, ablaze, not waning / but waxing, and drawing all the water in my body toward her. Like Kelela&#39;s catalog, how she struck me was fierce and immediate—blaring and harmonizing with the dense and decadent belly of the club into which she disappeared shortly after.
-
-
     <br/><br/>
     Kelela&#39;s albums, EP, and mixtapes are a blazing totem around which so many of us gather to feel the gravity, consequence, and sanctity of our own selves. If it is indeed true—and I think it is—that, as Audre Lorde <a href="https://makinglearning.wordpress.com/wp-content/uploads/2014/01/poetry-is-not-a-luxury-audre-lorde.pdf" target="_blank" className="styled"> writes </a>, &#8220;the quality of light by which we scrutinize our lives has direct bearing upon the product which we live, and upon the changes which we hope to bring about through those lives,&#8221; then Kelela&#39;s discography is one that has, since 2017, vastly sharpened and made more exacting the glimmering beams through which I shape and reshape &#8220;the product which [I] live.&#8221; Her sonic worlds extend permission to demand more for myself from my relationships, namely my romantic commitments. 
     <br/><br/>

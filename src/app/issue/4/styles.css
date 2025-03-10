@@ -734,6 +734,14 @@ span.centered.small.bio {
         left: 50px;
     }
 
+    p > span.small {
+        font-size: 12px;
+        line-height: 145%;
+        padding-left: 5em;
+        padding-right: 5em;
+        opacity: .85;
+    }
+
     /* <!-- Contributors Page CSS --> */ 
 
     .pre-grid-wrap {
@@ -828,14 +836,51 @@ span.centered.small.bio {
         right: 90px !important;
     }
 
+    /* <!-- Author(s) Article Section CSS --> */
+
+    p {
+        font-size: 14px;
+    }
+
+    .article-img {
+        display: flex !important;
+        align-self: center !important;
+        width: 100% !important;
+    }
+
+    .footnotes-p {
+        padding: 20px !important;
+    }
+
+    
+    ol > li {
+        font-size: 13px !important;
+        line-height: 145% !important;
+    }
+    
+    .footnotes-li {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+    }
+
+    .con-bio-container {
+        margin-top: 24px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .bio-img {
+        display: flex !important;
+        align-self: center !important;
+        width: 70% !important;
+    }
+
     .bio-medium {
-        font-size: 16px;
-        line-height: 160% !important;
-        padding-left: 4em;
-        padding-right: 4em;
-        color: white;
-        /* width: 75% !important; */
-        /* opacity: .85; */
+        font-size: 13px !important;
+        line-height: 145% !important;
+        padding-left: 0em;
+        padding-right: 0em;
         text-align: center;
     }
 }
@@ -876,6 +921,14 @@ span.centered.small.bio {
         position: relative;
         top: 5px;
         left: 45px;
+    }
+
+    p > span.small {
+        font-size: 12px;
+        line-height: 145%;
+        padding-left: 2em;
+        padding-right: 2em;
+        opacity: .85;
     }
 
     /* <!-- Contributors Page CSS --> */ 
@@ -1047,6 +1100,14 @@ span.centered.small.bio {
     .daria-sig-container {
         position: relative;
         left: 0px;
+    }
+
+    p > span.small {
+        font-size: 12px;
+        line-height: 145%;
+        padding-left: 2em;
+        padding-right: 2em;
+        opacity: .85;
     }
 
     /* <!-- Contributors Page CSS --> */ 
