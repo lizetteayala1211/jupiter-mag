@@ -232,7 +232,7 @@ p > span.small {
 
 .sig-section {
     position: relative;
-    top: 915px;
+    top: 259px;
 }
 
 .camille-sig-container {
@@ -743,6 +743,7 @@ a.styledli {
     .sig-section {
         position: relative;
         bottom: 0px;
+        top: 625px;
     }
 
     .camille-sig-container {
@@ -886,6 +887,7 @@ a.styledli {
 
     .sig-section {
         flex-direction: row !important;
+        top: 0px;
     }
 
     .camille-sig-container {
