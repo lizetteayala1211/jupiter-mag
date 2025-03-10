@@ -971,8 +971,10 @@ span.centered.small.bio {
         font-size: 14px;
     }
 
-    p {
-        font-size: 14px;
+    .article-img {
+        display: flex !important;
+        align-self: center !important;
+        width: 100% !important;
     }
 
     .footnotes-p {
@@ -1164,6 +1166,12 @@ span.centered.small.bio {
 
     p {
         font-size: 14px;
+    }
+
+    .article-img {
+        display: flex !important;
+        align-self: center !important;
+        width: 100% !important;
     }
 
     .footnotes-p {

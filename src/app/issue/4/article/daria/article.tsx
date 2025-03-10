@@ -7,7 +7,6 @@ import { SignatureContainer, } from "../../styled"
 
 import "../../styles.css"
 
-import DariaTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-daria_02_05.jpg"
 import ShaperofGod from "../../../../../../public/photos/AArtist_REDCAT_ShaperOfGod_Install-01.jpg"
 import LosAngelesTimes from "../../../../../../public/photos/ASoG_Install18.jpg"
 import DariaBio from "../../../../../../public/photos/DariaSimoneHarperbyJasmineRose.png"
@@ -16,10 +15,8 @@ export function Article() {
   return (
     <ArticleStyles>
     <br/>
-    <div>
-    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={DariaTitleCard} alt="Daria Title Card" className="titlecard" />
-    </div> */}
+    <div className="writing-container">
+
     <h1 className="title large"> Building a Bridge to You </h1>
     <br/>
     <h4 className="title small"> by Daria Harper </h4>
@@ -122,19 +119,19 @@ export function Article() {
             }}
           />
     <span className="footnotes daria">
-    <p>
-    <ol>
-        <li id="fn1"> vanessa german, <i> GRIEF AND LOVE AND GRIEF AND LOVE AT THE SAME TIME, </i> 2024, <a href="https://www.kasmingallery.com/content/feature/3576/43267/" target="_blank" className="styledli"> https://www.kasmingallery.com/content/feature/3576/43267/ </a> <a href="#ref1">↩</a></li> <br/>
-        <li id="fn2"> Octavia Butler, <i> Parable of the Sower, </i> 1993 <a href="#ref2">↩</a></li> <br/>
-        <li id="fn3"> Tananarive Due, &#8220;What if we were already living in Octavia Butler&#39;s &#39;Parable of the Sower&#39;?&#8221;, <i> Los Angeles Times, </i> 2022, <a href="https://www.latimes.com/lifestyle/image/story/2022-05-18/american-artist-new-exhibition-excavates-the-future-octavia-butler-built-in-her-work" target="_blank" className="styledli"> https://www.latimes.com/lifestyle/image/story/2022-05-18/american-artist-new-exhibition-excavates-the-future-octavia-butler-built-in-her-work </a> <a href="#ref3">↩</a></li> <br/>
-        <li id="fn4"> Shaper of God &#40;research machine&#41; by American Artist, 2021&#8208;ongoing, <a href="https://kadist.org/program/shaper-of-god/" target="_blank" className="styledli"> https://kadist.org/program/shaper-of-god/ </a> <a href="#ref4">↩</a></li> <br/>
-        <li id="fn5"> Ibid. <a href="#ref5">↩</a></li> <br/>
-        <li id="fn6"> Tananarive Due, &#8220;What if we were already living in Octavia Butler&#39;s &#39;Parable of the Sower&#39;?&#8220;, Los Angeles Times, 2022, <a href="https://www.latimes.com/lifestyle/image/story/2022-05-18/american-artist-new-exhibition-excavates-the-future-octavia-butler-built-in-her-work" target="_blank" className="styledli"> https://www.latimes.com/lifestyle/image/story/2022-05-18/american-artist-new-exhibition-excavates-the-future-octavia-butler-built-in-her-work </a> <a href="#ref6">↩</a></li> <br/>
+    <p className="footnotes-p">
+    <ol className="footnotes-ol">
+        <li className="footnotes-li" id="fn1"> vanessa german, <i> GRIEF AND LOVE AND GRIEF AND LOVE AT THE SAME TIME, </i> 2024, <a href="https://www.kasmingallery.com/content/feature/3576/43267/" target="_blank" className="styledli"> https://www.kasmingallery.com/content/feature/3576/43267/ </a> <a href="#ref1">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn2"> Octavia Butler, <i> Parable of the Sower, </i> 1993 <a href="#ref2">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn3"> Tananarive Due, &#8220;What if we were already living in Octavia Butler&#39;s &#39;Parable of the Sower&#39;?&#8221;, <i> Los Angeles Times, </i> 2022, <a href="https://www.latimes.com/lifestyle/image/story/2022-05-18/american-artist-new-exhibition-excavates-the-future-octavia-butler-built-in-her-work" target="_blank" className="styledli"> https://www.latimes.com/lifestyle/image/story/2022-05-18/american-artist-new-exhibition-excavates-the-future-octavia-butler-built-in-her-work </a> <a href="#ref3">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn4"> Shaper of God &#40;research machine&#41; by American Artist, 2021&#8208;ongoing, <a href="https://kadist.org/program/shaper-of-god/" target="_blank" className="styledli"> https://kadist.org/program/shaper-of-god/ </a> <a href="#ref4">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn5"> Ibid. <a href="#ref5">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn6"> Tananarive Due, &#8220;What if we were already living in Octavia Butler&#39;s &#39;Parable of the Sower&#39;?&#8220;, Los Angeles Times, 2022, <a href="https://www.latimes.com/lifestyle/image/story/2022-05-18/american-artist-new-exhibition-excavates-the-future-octavia-butler-built-in-her-work" target="_blank" className="styledli"> https://www.latimes.com/lifestyle/image/story/2022-05-18/american-artist-new-exhibition-excavates-the-future-octavia-butler-built-in-her-work </a> <a href="#ref6">↩</a></li> <br/>
     </ol>
     </p>
     </span>
     <pre id="contributor-bio" />
-          <div
+          <div className="con-bio-container"
             style={{
               marginTop: "112px",
               marginBottom: "64px",
@@ -145,7 +142,7 @@ export function Article() {
           />
     <br/>
     <div style={{ display: "flex", flexDirection: "column", }}>
-        <SignatureContainer src={DariaBio} alt="Photo by Jasmine Rose" className="bioimg" />
+        <SignatureContainer src={DariaBio} alt="Photo by Jasmine Rose" className="bio-img" />
     </div>
     <br/>
     <span className="centered small bio"> Photo by Jasmine Rose. </span>

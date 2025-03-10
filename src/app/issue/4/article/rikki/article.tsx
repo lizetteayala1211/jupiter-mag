@@ -7,7 +7,6 @@ import { SignatureContainer, } from "../../styled"
 
 import "../../styles.css"
 
-import RikkiTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-rikki_02_07.jpg"
 import Bundles from "../../../../../../public/photos/Ive-got-bundles.jpg"
 import WhatUpDoeI from "../../../../../../public/photos/1-Massey-Whatupdoe.jpg"
 import WhatUpDoe from "../../../../../../public/photos/Whatupdoe.jpg"
@@ -22,10 +21,7 @@ export function Article() {
   return (
     <ArticleStyles>
     <br/>
-    <div>
-    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={RikkiTitleCard} alt="Rikki Title Card" className="titlecard" />
-    </div> */}
+    <div className="writing-container">
     <h1 className="title large"> &#8220;What I Have Shaped into a Kind of Life&#8221;: On Making Beauty Monumental </h1>
     <br/>
     <h4 className="title small"> by Dr Rikki Byrd </h4>
@@ -56,15 +52,16 @@ export function Article() {
     <span className="centered"> II. </span>
     <br/><br/>
     Two days after the summer equinox in 2023, I arrived on the rooftop of The Metropolitan Museum of Art with a dear friend. We were greeted by two sphinxes made of hand-carved gypsum on wood. Set behind them were two towering pillars with pharoah figures atop them and a massive shrine of the same material, all in dedication to South Central Los Angeles. Titled <a href="https://www.metmuseum.org/exhibitions/roof-commission-lauren-halsey" target="_blank" className="styled"><i> the eastside of south central los angeles hieroglyph prototype architecture &#40;I&#41;</i>, </a> Halsey&#39;s sculpture was commissioned by the museum for its Roof Garden. Welcoming museum visitors to walk and linger around and inside of the sculpture, the work was as devotional as it was invitational. 
+    <br/><br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-      <SignatureContainer src={RoofGarden1} alt="Installation view of The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture (I), (2022) © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz" />
+      <SignatureContainer src={RoofGarden1} className="article-img" alt="Installation view of The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture (I), (2022) © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz" />
     </div>
     <br/>
     <span className="centered small"> Installation view of <i> The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture &#40;I&#41;, </i> &#40;2022&#41; © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz
     </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-      <SignatureContainer src={RoofGarden2} alt="Installation view of The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture (I), (2022) © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz" />
+      <SignatureContainer src={RoofGarden2} className="article-img" alt="Installation view of The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture (I), (2022) © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz" />
     </div>
     <br/>
     <span className="centered small"> Installation view of <i> The Roof Garden Commission: Lauren Halsey, the eastside of south central los angeles hieroglyph prototype architecture &#40;I&#41;, </i> &#40;2022&#41; © Lauren Halsey. Courtesy of the artist; David Kordansky Gallery, Los Angeles/New York/The Metropolitan Museum of Art, Photo by Hyla Skopitz
@@ -98,14 +95,14 @@ export function Article() {
     I smirked looking up at <i> Whatupdoe &#40;part I&#41;. </i> It reminded of the chain-link necklaces that sat atop the collarbones of the many Black folk cast throughout my childhood. Inside of the exhibition, more geometric cubes, titled <i> Whatupdoe, </i> spilled from a wall onto the floor in one gallery. On the wall of another room was <i> I Remember Way Back When </i> &#40;2023&#41;, for which Massey used red-stained wood to create 11 scaled-up hair barrettes, the kind typically made of plastic that snap together. 
     <br/><br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-      <SignatureContainer src={WhatUpDoeI} alt="Tiff Massey, Whatupdoe  &#40;part I&#41;, 2024, stainless steel. Image courtesy of Detroit Institute of Arts." />
+      <SignatureContainer src={WhatUpDoeI} className="article-img" alt="Tiff Massey, Whatupdoe  &#40;part I&#41;, 2024, stainless steel. Image courtesy of Detroit Institute of Arts." />
     </div>
     <br/>
     <span className="centered small"> Tiff Massey, <i> Whatupdoe &#40;part I&#41;, </i> 2024, stainless steel. Image courtesy of Detroit Institute of Arts.
     </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-      <SignatureContainer src={WhatUpDoe} alt="Tiff Massey, Whatupdoe &#40;part I&#41;, 2024, stainless steel. Image courtesy of Detroit Institute of Arts." />
+      <SignatureContainer src={WhatUpDoe} className="article-img" alt="Tiff Massey, Whatupdoe &#40;part I&#41;, 2024, stainless steel. Image courtesy of Detroit Institute of Arts." />
     </div>
     <br/>
     <span className="centered small"> Tiff Massey, <i> Whatupdoe </i> 2024, stainless steel. Collection of the artist. Image courtesy of Detroit Institute of Arts.
@@ -114,7 +111,7 @@ export function Article() {
     Across from <i> I Remember Way Back When </i> &#40;2023&#41; was another wall with a sculpture titled  <i> Baby Bling </i> &#40;2023&#41; made of large metal cylinders colored in a candy-apple red that are connected by black woven rope and cinched with brass to create 11 more barrettes &#40;the kind that wrap around little girls&#39; ponytails&#41;. At this work, I recalled a childhood photo taken of me. With a wide toothless smile spread across my face, I pose for the camera with my hands on my make-believe hips modeling a hairstyle done by my mother: two ponytails made up of several synthetic braids, and each wrapped in large, white hair barrettes. One other work, <i> I&#39;ve Got Bundles and I Got Flewed Out &#40;Green&#41; </i> &#40;2023&#41;, reminded me explicitly of the impact of Black beauty, and what happens when it is disregarded. On a stretch of black canvas made of several panels, Massey created an array of Black hairstyles made of gradients of green Kanekalon hair. Similar to Halsey&#39;s panels of Bantu knots and haircuts, I recognized several of the styles: the fishtail, the cornrows with beads, the French roll. And I recalled an incident which I am still finding language for. 
     <br/><br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-      <SignatureContainer src={Childhood} alt="Baby photo: Photograph of the author on the front porch of her childhood home in St. Louis, Missouri.
+      <SignatureContainer src={Childhood} className="article-img" alt="Baby photo: Photograph of the author on the front porch of her childhood home in St. Louis, Missouri.
 " />
     </div>
     <br/>
@@ -122,14 +119,14 @@ export function Article() {
     </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-      <SignatureContainer src={BabyBling} alt="Tiff Massey, Baby Bling, 2023, Metal beads, woven rope, brass. Collection of the artist. Image courtesy of Detroit Institute of Arts." className="textinnerimg ver angelique" />
+      <SignatureContainer src={BabyBling} className="article-img"  alt="Tiff Massey, Baby Bling, 2023, Metal beads, woven rope, brass. Collection of the artist. Image courtesy of Detroit Institute of Arts." />
     </div>
     <br/>
     <span className="centered small"> Tiff Massey, <i> Tiff Massey, </i> <i> Baby Bling, </i> 2023, Metal beads, woven rope, brass. Collection of the artist. Image courtesy of Detroit Institute of Arts.
     </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column", padding: "0 1%" }}>
-      <SignatureContainer src={Bundles} alt="Tiff Massey, I&#39;ve Got Bundles and I Got Flewed Out &#40;Green&#41;, 2023, Canvas, Kanekelon, beads. Collection of the artists. Image courtesy of Detroit Institute of Arts." className="textinnerimg ver angelique" />
+      <SignatureContainer src={Bundles} className="article-img" alt="Tiff Massey, I&#39;ve Got Bundles and I Got Flewed Out &#40;Green&#41;, 2023, Canvas, Kanekelon, beads. Collection of the artists. Image courtesy of Detroit Institute of Arts." />
     </div>
     <br/>
     <span className="centered small"> Tiff Massey, <i> I&#39;ve Got Bundles and I Got Flewed Out &#40;Green&#41;, </i> 2023, Canvas, Kanekelon, beads. Collection of the artists. Image courtesy of Detroit Institute of Arts. </span>
@@ -158,17 +155,17 @@ export function Article() {
             }}
           />
     <span className="footnotes rikki">
-    <p>
-    <ol>
-        <li id="fn1"> TK Smith, “Monumental Futures,” <i>Art Papers,</i> 44, no. 2 &#40;Fall/Winter 2020&#41;: 26-31, 27. <a href="#ref1">↩</a></li> <br/>
-        <li id="fn2"> Jennifer Nash, “Writing Black Beauty,” <i> Signs: Journal of Women in Culture and Society </i> 45, 1 &#40;2019&#41;: 101&#8208;122. <a href="#ref2">↩</a></li> <br/>
-        <li id="fn3"> Jennifer Nash, <i> How We Write Now: Living with Black Feminist Theory, </i> &#40;Durham: Duke University Press, 2024&#41;, 5. <a href="#ref3">↩</a></li> <br/>
-        <li id="fn4"> Lucille Clifton, “won&#39;t you celebrate with me,” in <i> Book of Light, </i> ed. &#40;Copper Canyon Press, 1993&#41; <a href="#ref4">↩</a></li> <br/>
+    <p className="footnotes-p">
+    <ol className="footnotes-ol">
+        <li className="footnotes-li" id="fn1"> TK Smith, “Monumental Futures,” <i>Art Papers,</i> 44, no. 2 &#40;Fall/Winter 2020&#41;: 26-31, 27. <a href="#ref1">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn2"> Jennifer Nash, “Writing Black Beauty,” <i> Signs: Journal of Women in Culture and Society </i> 45, 1 &#40;2019&#41;: 101&#8208;122. <a href="#ref2">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn3"> Jennifer Nash, <i> How We Write Now: Living with Black Feminist Theory, </i> &#40;Durham: Duke University Press, 2024&#41;, 5. <a href="#ref3">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn4"> Lucille Clifton, “won&#39;t you celebrate with me,” in <i> Book of Light, </i> ed. &#40;Copper Canyon Press, 1993&#41; <a href="#ref4">↩</a></li> <br/>
     </ol>
     </p>
     </span>
     <pre id="contributor-bio" />
-          <div
+          <div className="con-bio-container"
             style={{
               marginTop: "112px",
               marginBottom: "64px",
@@ -179,7 +176,7 @@ export function Article() {
           />
     <br/>
     <div style={{ display: "flex", flexDirection: "column", }}>
-        <SignatureContainer src={RikkiBio} alt="Photo by Lawrence Agyei" className="bioimg" />
+        <SignatureContainer src={RikkiBio} alt="Photo by Lawrence Agyei" className="bio-img" />
     </div>
     <br/>
     <span className="centered small bio"> Photo by Lawrence Agyei. </span>

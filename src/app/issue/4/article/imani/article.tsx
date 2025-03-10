@@ -7,17 +7,14 @@ import { SignatureContainer, } from "../../styled"
 
 import "../../styles.css"
 
-import ImaniTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-imani_02_01.jpg"
 import ImaniBio from "../../../../../../public/photos/ImaniPerrybyKevinPeragine.png"
 
 export function Article() {
   return (
     <ArticleStyles>
     <br/>
-    <div>
-    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={ImaniTitleCard} alt="Imani Title Card" className="titlecard" />
-    </div> */}
+    <div className="writing-container">
+
     <h1 className="title large"> Lorna&#39;s Blues:  Artful Instruction, and the imaginations of Black Women </h1>
     <br/>
     <h4 className="title small"> by Imani Perry </h4>
@@ -92,15 +89,15 @@ Simpson attests to this by making constellations of Black women. They tell stori
             }}
           />
     <span className="footnotes imani">
-    <p>
-    <ol>
-        <li id="fn1"> Mitchell, Michele. &#8220;Nadir.&#8221; Essay. In <i> Keywords for African American Studies, </i> edited by Erica R. Edwards, Roderick A. Ferguson, and Jeffrey O.G. Ogbar, 115-121. New York, New York: NYU Press, 2018. <a href="#ref1">↩</a></li> <br/>
-        <li id="fn2"> Toni Morrison, <i> Playing in the Dark: Whiteness and the Literary Imagination </i> &#40;Vintage Books, 1992&#41;. <a href="#ref2">↩</a></li> <br/>
+    <p className="footnotes-p">
+    <ol className="footnotes-ol">
+        <li className="footnotes-li" id="fn1"> Mitchell, Michele. &#8220;Nadir.&#8221; Essay. In <i> Keywords for African American Studies, </i> edited by Erica R. Edwards, Roderick A. Ferguson, and Jeffrey O.G. Ogbar, 115-121. New York, New York: NYU Press, 2018. <a href="#ref1">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn2"> Toni Morrison, <i> Playing in the Dark: Whiteness and the Literary Imagination </i> &#40;Vintage Books, 1992&#41;. <a href="#ref2">↩</a></li> <br/>
     </ol>
     </p>
     </span>
     <pre id="contributor-bio" />
-          <div
+          <div className="con-bio-container"
             style={{
               marginTop: "112px",
               marginBottom: "64px",
@@ -111,7 +108,7 @@ Simpson attests to this by making constellations of Black women. They tell stori
           />
     <br/>
     <div style={{ display: "flex", flexDirection: "column", }}>
-        <SignatureContainer src={ImaniBio} alt="Photo by Kevin Peragine" className="bioimg" />
+        <SignatureContainer src={ImaniBio} alt="Photo by Kevin Peragine" className="bio-img" />
     </div>
     <br/>
     <span className="centered small bio"> Photo by Kevin Peragine. </span>

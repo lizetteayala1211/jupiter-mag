@@ -7,7 +7,6 @@ import { SignatureContainer, } from "../../styled"
 
 import "../../styles.css"
 
-import CamilleTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-camille_02_03.jpg"
 import SaltShed from "../../../../../../public/photos/salt-shed.jpg"
 import CamilleBio from "../../../../../../public/photos/Camille-Bacon-by-Taja-May.jpg"
 
@@ -15,10 +14,8 @@ export function Article() {
   return (
     <ArticleStyles>
     <br/>
-    <div>
-        {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={CamilleTitleCard} alt="Camille Title Card" className="titlecard" />
-        </div> */}
+    <div className="writing-container">
+
     <h1 className="title large"> her music is a teacher to me: Kelela&#39;s Cathedral of Feeling</h1>
     <br/>
     <h4 className="title small"> by Camille Bacon </h4>
@@ -82,7 +79,6 @@ export function Article() {
     <br/><br/>
     Another critical dimension of her artistic integrity lies in the precision and specificity with which she names her audience. Her open articulation of Black women and queer people as her addressees recalls the artist Simone Leigh&#39;s <a href="https://www.instagram.com/p/BxiJI58gl4t/?utm_source=ig_embed&utm_campaign=loading" target="_blank" className="styled"> articulation of Black women as her &#8220;primary audience&#8221; </a> and Toni Morrison&#39;s precise evocation that her &#8220;<a href="https://portsmouthinstitute.org/wp-content/uploads/2020/07/Morrison_Memory-Creation.pdf" target="_blank" className="styled">métier is Black.</a>&#8221; Kelela&#39;s integrity—both emotional and artistic—perhaps they&#39;re the same thing—makes her music a galvanizing place in which to land over, and over, and over again as it generously challenges me, as a listener, to model the same in my love and writing practices &#40;<i>perhaps they&#39;re the same thing </i>&#41;.  
     <br/><br/>
-    {/* I return now to that floating beam at the Salt Shed, to how the contraption bathing Kelela in splendor reveals the infrastructure of its own illumination. As the synths swarm our senses and she invites us to look not only at the light, but where it spills out from, tonight&#39;s lesson becomes searingly clear: I must practice the bravery necessary to be a full participant in the thorny and thrilling entanglement that intimacy demands, to study my own center with a piercing degree of honesty, and to live in a more graciously complete relation with all four chambers of my own heart&#39;s horizons. If I hide the exquisitely fragile<sup><a href="#fn4" id="ref4">4</a></sup> infrastructure of my own illumination, I evade the risk inherent to what it means to embody integrity as a writer and as a lover alike. */}
     I return now to that floating beam at the Salt Shed, to how the contraption bathing Kelela in splendor revealed the infrastructure of its own illumination. As the synths swarmed our senses and she invited us to look not only at the light, but where it spills out from, the lesson became searingly clear: I must practice the bravery necessary to be a full participant in the thorny and thrilling entanglement that intimacy demands, study the contents of my own center with a piercing degree of veracity, and live in a more graciously complete relation with all four chambers of my own heart&#39;s horizons. 
     <br/><br/>
     The crescendo is yet to be realized. And so continues my edifying arch toward the unsteady yet assured sound of a thunder clap at the close of &#8220;<a href="https://www.youtube.com/watch?v=XQEGP3CaWEs" target="_blank" className="styled">Jupiter</a>&#8221; and the swelling precipice of Kelela&#39;s voice when she sings once more: &#8220;<i> I think I know me now. </i>&#8221; 
@@ -97,17 +93,17 @@ export function Article() {
             }}
           />
     <span className="footnotes camille">
-    <p>
-    <ol>
-        <li id="fn1"> These parties, wherein Kelela invited local DJs to spin and reinterpret her new tracks took place in New York, D.C., and Los Angeles throughout Summer 2024.  <a href="#ref1">↩</a></li> <br/>
-        <li id="fn2"> Butch Morris is credited for devising a practice of &#8220;conduction,&#8221; which allowed him to engineer a structure within which his band and those who shared the stage with him could improvise. The method involves a family of somatic semiotics, a series of hand gestures and expressions that guide the musicians in their collective freefall. <a href="#ref2">↩</a></li> <br/>
-        <li id="fn3"> Such a move also models a refusal of extractive frameworks that equate one&#39;s visibility with their success and Kelela&#39;s trust that the enduring sustainability of her practice requires abiding by her own timescale, which I interpret as its own exuberant embodiment of emotional and artistic integrity alike. <a href="#ref3">↩</a></li> <br/>
-        <li id="fn4"> I borrow this turn of phrase from the description of a Jo Malone fragrance called Peony & Blush Suede. <a href="#ref4">↩</a></li>
+    <p className="footnotes-p">
+    <ol className="footnotes-ol">
+        <li className="footnotes-li" id="fn1"> These parties, wherein Kelela invited local DJs to spin and reinterpret her new tracks took place in New York, D.C., and Los Angeles throughout Summer 2024.  <a href="#ref1">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn2"> Butch Morris is credited for devising a practice of &#8220;conduction,&#8221; which allowed him to engineer a structure within which his band and those who shared the stage with him could improvise. The method involves a family of somatic semiotics, a series of hand gestures and expressions that guide the musicians in their collective freefall. <a href="#ref2">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn3"> Such a move also models a refusal of extractive frameworks that equate one&#39;s visibility with their success and Kelela&#39;s trust that the enduring sustainability of her practice requires abiding by her own timescale, which I interpret as its own exuberant embodiment of emotional and artistic integrity alike. <a href="#ref3">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn4"> I borrow this turn of phrase from the description of a Jo Malone fragrance called Peony & Blush Suede. <a href="#ref4">↩</a></li>
     </ol>
     </p>
     </span>
     <pre id="contributor-bio" />
-          <div
+          <div className="con-bio-container"
             style={{
               marginTop: "112px",
               marginBottom: "64px",
@@ -118,7 +114,7 @@ export function Article() {
           />
     <br/>
     <div style={{ display: "flex", flexDirection: "column", }}>
-        <SignatureContainer src={CamilleBio} alt="Photo by Taja May" className="bioimg" />
+        <SignatureContainer src={CamilleBio} alt="Photo by Taja May" className="bio-img" />
     </div>
     <br/>
     <span className="centered small bio"> Photo by Taja May. </span>

@@ -7,7 +7,6 @@ import { SignatureContainer, } from "../../styled"
 
 import "../../styles.css"
 
-import RhyaTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-rhya_02_04.jpg"
 import Performance from "../../../../../../public/photos/001_Performance_VANESSAGERMAN.jpg"
 import LibraryIandII from "../../../../../../public/photos/02_Gray-Center_vanessa-german.jpg"
 import LibraryII from "../../../../../../public/photos/03_Gray-Center_vanessa-german.jpg"
@@ -23,10 +22,7 @@ export function Article() {
   return (
     <ArticleStyles>
     <br/>
-    <div>
-    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={RhyaTitleCard} alt="Rhya Title Card" className="titlecard" />
-    </div> */}
+    <div className="writing-container">
     <h1 className="title large"> touchingfeeling </h1>
     <br/>
     <h4 className="title small"> by Rhya Marlene Moffitt </h4>
@@ -201,35 +197,35 @@ export function Article() {
             }}
           />
     <span className="footnotes rhya">
-    <p>
-    <ol>
-        <li id="fn1"> touchingfeeling: to approach emotion with curiosity and awareness, an acceptance of its flow, an openness to experience; also/or stirring sensation &#40;v.&#41; // sensation stirring &#40;n.&#41; <a href="#ref1">↩</a></li> <br/>
-        <li id="fn2"> Octavia Butler, <i> Parable of the Sower, </i> 1993. <a href="#ref2">↩</a></li> <br/>
-        <li id="fn3"> <a href="https://www.journals.uchicago.edu/doi/10.1086/731126" target="_blank" className="styledli"> Interview </a> with vanessa german by Solana Adeokun in vanessa german&#39;s &#8220;The Artist as the Complete Technology of Being-ness,&#8221; <i> Portable Gray </i> issue 12: Paraäcademia, 2024. Published by the Richard and Mary L. Gray Center for Arts and Inquiry at the University of Chicago. <a href="#ref3">↩</a></li> <br/>
-        <li id="fn4"> Paraphrased from class conversation with vanessa german. <a href="#ref4">↩</a></li> <br/>
-        <li id="fn5"> Author&#39;s <a href="https://www.journals.uchicago.edu/doi/10.1086/731126" target="_blank" className="styledli"> interview </a> with vanessa german in vanessa german&#39;s &#8220;The Artist as the Complete Technology of Being-ness,&#8221; <i> Portable Gray </i> issue 12: Paraäcademia, 2024. <a href="#ref5">↩</a></li> <br/>
-        <li id="fn6"> vanessa german, <i> Master Blaster; </i> or, <i> Boombox from the 5th dimension, </i> 2024.
+    <p className="footnotes-p">
+    <ol className="footnotes-ol">
+        <li className="footnotes-li" id="fn1"> touchingfeeling: to approach emotion with curiosity and awareness, an acceptance of its flow, an openness to experience; also/or stirring sensation &#40;v.&#41; // sensation stirring &#40;n.&#41; <a href="#ref1">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn2"> Octavia Butler, <i> Parable of the Sower, </i> 1993. <a href="#ref2">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn3"> <a href="https://www.journals.uchicago.edu/doi/10.1086/731126" target="_blank" className="styledli"> Interview </a> with vanessa german by Solana Adeokun in vanessa german&#39;s &#8220;The Artist as the Complete Technology of Being-ness,&#8221; <i> Portable Gray </i> issue 12: Paraäcademia, 2024. Published by the Richard and Mary L. Gray Center for Arts and Inquiry at the University of Chicago. <a href="#ref3">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn4"> Paraphrased from class conversation with vanessa german. <a href="#ref4">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn5"> Author&#39;s <a href="https://www.journals.uchicago.edu/doi/10.1086/731126" target="_blank" className="styledli"> interview </a> with vanessa german in vanessa german&#39;s &#8220;The Artist as the Complete Technology of Being-ness,&#8221; <i> Portable Gray </i> issue 12: Paraäcademia, 2024. <a href="#ref5">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn6"> vanessa german, <i> Master Blaster; </i> or, <i> Boombox from the 5th dimension, </i> 2024.
         <a href="#ref6">↩</a></li> <br/>
-        <li id="fn7"> From Baby Suggs&#39;s sermon in the Clearing in Toni Morrison&#39;s <i>  Beloved, </i> 1987. <a href="#ref7">↩</a></li> <br/>
-        <li id="fn8"> vanessa german, <i> Chicago Altar of Love inspired by the ride-share driver who told me how to make it in Chicago, she says: Don&#39;t be Afraid. Keep Your Eyes Open, </i> 2024. <a href="#ref8">↩</a></li> <br/>
-        <li id="fn9"> vanessa german, <i> Love Song; </i> or <i> The Quelling of that Great Grief of Immortality, </i> 2024. <a href="#ref9">↩</a></li> <br/>
-        <li id="fn10"> Ibid. <a href="#ref10">↩</a></li> <br/>
-        <li id="fn11"> german, <i> Chicago Altar of Love. </i> <a href="#ref11">↩</a></li> <br/>
-        <li id="fn12"> Ibid. <a href="#ref12">↩</a></li> <br/>
-        <li id="fn13"> vanessa german, <i> Master Blaster; </i> or, <i> Boombox from the 5th Dimension, </i> 2024. <a href="#ref13">↩</a></li> <br/>
-        <li id="fn14"> german, <i> Love Song. </i> <a href="#ref14">↩</a></li> <br/>
-        <li id="fn15"> german, <i> Master Blaster. </i> <a href="#ref15">↩</a></li> <br/>
-        <li id="fn16"> vanessa german&#39;s instagram bio. <a href="#ref16">↩</a></li> <br/>
-        <li id="fn17"> vanessa german&#39;s sonic words from <i> Heart-Opener &#40;pyramid&#41;, </i> 2024. <a href="#ref17">↩</a></li> <br/>
-        <li id="fn18"> vanessa used these terms interchangeably, each as synonymous with the other. <a href="#ref18">↩</a></li> <br/>
-        <li id="fn19"> Author&#39;s <a href="https://www.journals.uchicago.edu/doi/10.1086/731126" target="_blank" className="styledli"> interview </a> with vanessa german in vanessa german&#39;s &#8220;The Artist as the Complete Technology of Being-ness,&#8221; <i> Portable Gray </i> issue 12: Paraäcademia, 2024. <a href="#ref19">↩</a></li> <br/>
-        <li id="fn20"> Paraphrased from a note from vanessa german to the author. <a href="#ref20">↩</a></li> <br/>
-        <li id="fn21"> Placard in the exhibition. <a href="#ref21">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn7"> From Baby Suggs&#39;s sermon in the Clearing in Toni Morrison&#39;s <i>  Beloved, </i> 1987. <a href="#ref7">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn8"> vanessa german, <i> Chicago Altar of Love inspired by the ride-share driver who told me how to make it in Chicago, she says: Don&#39;t be Afraid. Keep Your Eyes Open, </i> 2024. <a href="#ref8">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn9"> vanessa german, <i> Love Song; </i> or <i> The Quelling of that Great Grief of Immortality, </i> 2024. <a href="#ref9">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn10"> Ibid. <a href="#ref10">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn11"> german, <i> Chicago Altar of Love. </i> <a href="#ref11">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn12"> Ibid. <a href="#ref12">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn13"> vanessa german, <i> Master Blaster; </i> or, <i> Boombox from the 5th Dimension, </i> 2024. <a href="#ref13">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn14"> german, <i> Love Song. </i> <a href="#ref14">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn15"> german, <i> Master Blaster. </i> <a href="#ref15">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn16"> vanessa german&#39;s instagram bio. <a href="#ref16">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn17"> vanessa german&#39;s sonic words from <i> Heart-Opener &#40;pyramid&#41;, </i> 2024. <a href="#ref17">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn18"> vanessa used these terms interchangeably, each as synonymous with the other. <a href="#ref18">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn19"> Author&#39;s <a href="https://www.journals.uchicago.edu/doi/10.1086/731126" target="_blank" className="styledli"> interview </a> with vanessa german in vanessa german&#39;s &#8220;The Artist as the Complete Technology of Being-ness,&#8221; <i> Portable Gray </i> issue 12: Paraäcademia, 2024. <a href="#ref19">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn20"> Paraphrased from a note from vanessa german to the author. <a href="#ref20">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn21"> Placard in the exhibition. <a href="#ref21">↩</a></li> <br/>
     </ol>
     </p>
     </span>
     <pre id="contributor-bio" />
-          <div
+          <div className="con-bio-container"
             style={{
               marginTop: "112px",
               marginBottom: "64px",
@@ -240,7 +236,7 @@ export function Article() {
           />
     <br/>
     <div style={{ display: "flex", flexDirection: "column", }}>
-        <SignatureContainer src={RhyaBio} alt="Photo by Jeremy Franklin" className="bioimg" />
+        <SignatureContainer src={RhyaBio} alt="Photo by Jeremy Franklin" className="bio-img" />
     </div>
     <br/>
     <span className="centered small bio"> Photo by Jeremy Franklin. </span>

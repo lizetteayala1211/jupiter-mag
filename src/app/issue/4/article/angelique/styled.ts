@@ -143,4 +143,5 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     padding: 0 4% !important;
   }
 }
+
 `

@@ -25,7 +25,7 @@ export function Article() {
   return (
     <ArticleStyles>
     <br/>
-    <div>
+    <div className="writing-container">
 
     <h1 className="title large"> Harmony Holiday, haunting back </h1>
     <br/>

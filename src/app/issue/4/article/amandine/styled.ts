@@ -6,6 +6,7 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     margin: 0;
     padding: 0;
   }
+
   table td,
   table th {
     padding: 0;
@@ -109,7 +110,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   }
 }
 
-
 /* <!-- Desktop/Laptop Device (Medium Screens) CSS --> */  
 
 @media only screen and (min-width: 962px) and (max-width: 1025px) {
@@ -132,7 +132,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   div {
     padding: 0 4.5% !important;
   }
-  
 }
 
 /* <!-- Mobile Device CSS (X-Small Screens) --> */ 
