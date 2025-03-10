@@ -7,7 +7,6 @@ import { SignatureContainer, } from "../../styled"
 
 import "../../styles.css"
 
-import AngeliqueTitleCard from "../../../../../../public/photos/Jupiter_Issue4_title-cards-angelique_02_06.jpg"
 import BlackBackstage from "../../../../../../public/photos/Image1.jpg"
 import BillieHoliday from "../../../../../../public/photos/BillieHoliday.png"
 import NinaSimone from "../../../../../../public/photos/Image3.jpeg"
@@ -27,9 +26,7 @@ export function Article() {
     <ArticleStyles>
     <br/>
     <div>
-    {/* <div style={{ display: "flex", flexDirection: "column", padding: "0 1%", }}>
-      <SignatureContainer src={AngeliqueTitleCard} alt="Angelique Title Card" className="titlecard" />
-    </div> */}
+
     <h1 className="title large"> Harmony Holiday, haunting back </h1>
     <br/>
     <h4 className="title small"> by Angelique Rosales Salgado </h4>
@@ -189,49 +186,49 @@ She is now dreaming up a future project that sets out to reimagine <i> Cry, </i>
             }}
           />
     <span className="footnotes angelique">
-    <p>
-    <ol>
-        <li id="fn1"> Harmony Holiday, <i> MAAFA </i> (New York: Fence Books, 2022), 47. <a href="#ref1">↩</a></li> <br/>
-        <li id="fn2"> Direct quote; Originally published in Harmony Holiday: <i> BLACK BACKSTAGE </i> at The Kitchen at Westbeth &#40;March 21&#8208;May, 25, 2024&#41;, <a href="https://assets.ctfassets.net/a9iaiu8vcml1/6d119snSe9MWfcaY8wRnEg/4c99723d5565bc965af66db409555d47/20240313_HHBLACKBACKSTAGE_ExhibitionPamphlet.pdf" target="_blank" className="styledli"> Exhibition Pamphlet. </a> 
+    <p className="footnotes-p">
+    <ol className="footnotes-ol">
+        <li className="footnotes-li" id="fn1"> Harmony Holiday, <i> MAAFA </i> (New York: Fence Books, 2022), 47. <a href="#ref1">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn2"> Direct quote; Originally published in Harmony Holiday: <i> BLACK BACKSTAGE </i> at The Kitchen at Westbeth &#40;March 21&#8208;May, 25, 2024&#41;, <a href="https://assets.ctfassets.net/a9iaiu8vcml1/6d119snSe9MWfcaY8wRnEg/4c99723d5565bc965af66db409555d47/20240313_HHBLACKBACKSTAGE_ExhibitionPamphlet.pdf" target="_blank" className="styledli"> Exhibition Pamphlet. </a> 
         <a href="#ref2">↩</a></li> <br/>
-        <li id="fn3"> Harmony Holiday, “Letters,” <i> Harper&#39;s Magazine. </i> <a href="https://harpers.org/archive/2024/05/letters-may-2024/" target="_blank" className="styledli"> https://harpers.org/archive/2024/05/letters-may-2024/ </a> <a href="#ref3">↩</a></li> <br/>
-        <li id="fn4"> Harmony Holiday &#40;@Harmony_Holiday&#41;, Twitter, September 21, 2024. <a href="https://x.com/Harmony_Holiday/status/1837646958212878807?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet" target="_blank" className="styledli"> https://x.com/Harmony_Holiday/status/1837646958212878807?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet </a> <a href="#ref4">↩</a></li> <br/>
-        <li id="fn5"> Harmony Holiday, “Driving with O.J. Simpson,” <i> The Paris Review, </i> July 19, 2024, <a href="https://www.theparisreview.org/blog/2024/07/19/driving-with-o-j-simpson/" target="_blank" className="styledli"> https://www.theparisreview.org/blog/2024/07/19/driving-with-o-j-simpson/ </a>. <a href="#ref5">↩</a></li> <br/>
-        <li id="fn6"> Direct quote; Harmony Holiday by Farid Matuk, <i> BOMB Magazine, </i> July 26, 2017, <a href="https://bombmagazine.org/articles/2017/07/26/harmony-holiday/" target="_blank" className="styledli"> https://bombmagazine.org/articles/2017/07/26/harmony-holiday/ </a> <a href="#ref6">↩</a></li> <br/>
-        <li id="fn7"> Direct quote; Harmony Holiday, &#8220;Spectacular Brooding,&#8220; <i> Black Music and Black Muses, </i> Substack, May 14, 2021, <a href="https://harmonyholiday.substack.com/p/spectacular-brooding" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/spectacular-brooding </a>. <a href="#ref7">↩</a></li> <br/>
-        <li id="fn8"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref8">↩</a></li> <br/>
-        <li id="fn9"> Direct quote; Harmony Holiday, “On Handlers (1),” <i> Black Music and Black Muses, </i> August 20, 2024. <a href="https://harmonyholiday.substack.com/p/on-handlers-1" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/on-handlers-1 </a> <a href="#ref9">↩</a></li> <br/>
-        <li id="fn10"> Ibid. <a href="#ref10">↩</a></li> <br/>
-        <li id="fn11"> Ibid. <a href="#ref11">↩</a></li> <br/>
-        <li id="fn12"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref12">↩</a></li> <br/>
-        <li id="fn13"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref13">↩</a></li> <br/>
-        <li id="fn14"> Harmony Holiday, &#8220;Amiri Baraka Changed My Life, Celebrating Amiri in Sonics this April,&#8221; <i> Genius, </i> <a href="https://genius.com/Harmony-holiday-amiri-baraka-changed-my-life-celebrating-amiri-in-sonics-this-april-annotated" target="_blank" className="styledli"> https://genius.com/Harmony-holiday-amiri-baraka-changed-my-life-celebrating-amiri-in-sonics-this-april-annotated </a> <a href="#ref14">↩</a></li> <br/>
-        <li id="fn15"> Harmony Holiday, <i> MAAFA </i> &#40;New York: Fence Books, 2022&#40;, 83. <a href="#ref15">↩</a></li> <br/>
-        <li id="fn16"> Ibid., 17. <a href="#ref6">↩</a></li> <br/>
-        <li id="fn17"> Harmony Holiday, &#8220;Please don&#39;t cut me off in the middle of this prayer.&#8221; <i> Black Music and Black Muses, </i> Substack, December 5, 2022, <a href="https://harmonyholiday.substack.com/p/please-dont-cut-me-off-in-the-middle?utm_source=publication-search" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/please-dont-cut-me-off-in-the-middle?utm_source=publication-search </a> <a href="#ref17">↩</a></li> <br/>
-        <li id="fn18"> Harmony Holiday: <i> BLACK BACKSTAGE </i> at The Kitchen at Westbeth &#40;March 21&#8208;May, 25, 2024&#41;, <i> Paradise of Ruins </i> &#40;2024&#41; <a href="https://assets.ctfassets.net/a9iaiu8vcml1/6yjKCppum3YZf8BU0rGf08/2c68f4cb0d58062784b61361eb43bd7b/HarmonyHoliday_ParadiseofRuins_LinerNotes.pdf" target="_blank" className="styledli"> Liner Notes, </a> <a href="#ref18">↩</a></li> <br/>
-        <li id="fn19"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref19">↩</a></li> <br/>
-        <li id="fn20"> Harmony Holiday, &#8220;Preface to James Baldwin&#39;s Unwritten Suicide Note,&#8220; <i> Poetry Foundation, </i> August 8, 2019, <a href="https://www.poetryfoundation.org/blog/open-door/80254/preface-to-james-baldwins-unwritten-suicide-note" target="_blank" className="styledli"> https://www.poetryfoundation.org/blog/open-door/80254/preface-to-james-baldwins-unwritten-suicide-note  </a> 
+        <li className="footnotes-li" id="fn3"> Harmony Holiday, “Letters,” <i> Harper&#39;s Magazine. </i> <a href="https://harpers.org/archive/2024/05/letters-may-2024/" target="_blank" className="styledli"> https://harpers.org/archive/2024/05/letters-may-2024/ </a> <a href="#ref3">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn4"> Harmony Holiday &#40;@Harmony_Holiday&#41;, Twitter, September 21, 2024. <a href="https://x.com/Harmony_Holiday/status/1837646958212878807?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet" target="_blank" className="styledli"> https://x.com/Harmony_Holiday/status/1837646958212878807?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet </a> <a href="#ref4">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn5"> Harmony Holiday, “Driving with O.J. Simpson,” <i> The Paris Review, </i> July 19, 2024, <a href="https://www.theparisreview.org/blog/2024/07/19/driving-with-o-j-simpson/" target="_blank" className="styledli"> https://www.theparisreview.org/blog/2024/07/19/driving-with-o-j-simpson/ </a>. <a href="#ref5">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn6"> Direct quote; Harmony Holiday by Farid Matuk, <i> BOMB Magazine, </i> July 26, 2017, <a href="https://bombmagazine.org/articles/2017/07/26/harmony-holiday/" target="_blank" className="styledli"> https://bombmagazine.org/articles/2017/07/26/harmony-holiday/ </a> <a href="#ref6">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn7"> Direct quote; Harmony Holiday, &#8220;Spectacular Brooding,&#8220; <i> Black Music and Black Muses, </i> Substack, May 14, 2021, <a href="https://harmonyholiday.substack.com/p/spectacular-brooding" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/spectacular-brooding </a>. <a href="#ref7">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn8"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref8">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn9"> Direct quote; Harmony Holiday, “On Handlers (1),” <i> Black Music and Black Muses, </i> August 20, 2024. <a href="https://harmonyholiday.substack.com/p/on-handlers-1" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/on-handlers-1 </a> <a href="#ref9">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn10"> Ibid. <a href="#ref10">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn11"> Ibid. <a href="#ref11">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn12"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref12">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn13"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref13">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn14"> Harmony Holiday, &#8220;Amiri Baraka Changed My Life, Celebrating Amiri in Sonics this April,&#8221; <i> Genius, </i> <a href="https://genius.com/Harmony-holiday-amiri-baraka-changed-my-life-celebrating-amiri-in-sonics-this-april-annotated" target="_blank" className="styledli"> https://genius.com/Harmony-holiday-amiri-baraka-changed-my-life-celebrating-amiri-in-sonics-this-april-annotated </a> <a href="#ref14">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn15"> Harmony Holiday, <i> MAAFA </i> &#40;New York: Fence Books, 2022&#40;, 83. <a href="#ref15">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn16"> Ibid., 17. <a href="#ref6">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn17"> Harmony Holiday, &#8220;Please don&#39;t cut me off in the middle of this prayer.&#8221; <i> Black Music and Black Muses, </i> Substack, December 5, 2022, <a href="https://harmonyholiday.substack.com/p/please-dont-cut-me-off-in-the-middle?utm_source=publication-search" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/please-dont-cut-me-off-in-the-middle?utm_source=publication-search </a> <a href="#ref17">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn18"> Harmony Holiday: <i> BLACK BACKSTAGE </i> at The Kitchen at Westbeth &#40;March 21&#8208;May, 25, 2024&#41;, <i> Paradise of Ruins </i> &#40;2024&#41; <a href="https://assets.ctfassets.net/a9iaiu8vcml1/6yjKCppum3YZf8BU0rGf08/2c68f4cb0d58062784b61361eb43bd7b/HarmonyHoliday_ParadiseofRuins_LinerNotes.pdf" target="_blank" className="styledli"> Liner Notes, </a> <a href="#ref18">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn19"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref19">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn20"> Harmony Holiday, &#8220;Preface to James Baldwin&#39;s Unwritten Suicide Note,&#8220; <i> Poetry Foundation, </i> August 8, 2019, <a href="https://www.poetryfoundation.org/blog/open-door/80254/preface-to-james-baldwins-unwritten-suicide-note" target="_blank" className="styledli"> https://www.poetryfoundation.org/blog/open-door/80254/preface-to-james-baldwins-unwritten-suicide-note  </a> 
         <a href="#ref20">↩</a></li> <br/>
-        <li id="fn21"> Ibid. <a href="#ref21">↩</a></li> <br/>
-        <li id="fn22"> &#8220;What It Is,&#8221; 
+        <li className="footnotes-li" id="fn21"> Ibid. <a href="#ref21">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn22"> &#8220;What It Is,&#8221; 
         <i> Performance Review, </i> Substack, October 1, 2024, <a href="https://performancereviews.substack.com/p/performance-review" target="_blank" className="styledli"> https://performancereviews.substack.com/p/performance-review </a> 
         <a href="#ref22">↩</a></li> <br/>
-        <li id="fn23"> Harmony Holiday, &#8220;For Bisan Owda, a Living Avenging Angel in Gaza,&#8221; <i> Black Music and Black Muses, </i> Substack, November 5, 2023, <a href="https://harmonyholiday.substack.com/p/for-bisan-owda-a-living-avenging" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/for-bisan-owda-a-living-avenging </a>. <a href="#ref23">↩</a></li> <br/>
-        <li id="fn24"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref24">↩</a></li> <br/>
-        <li id="fn25"> Ibid. <a href="#ref25">↩</a></li> <br/>
-        <li id="fn26"> Tavia Nyong&#39;o, &#8220;Sharpening My Tools: Ligia Lewis,&#8221; <i> Spike Art Magazine, </i> Spring 2021, <a href="https://spikeartmagazine.com/articles/interview-sharpening-my-tools-ligia-lewis" target="_blank" className="styledli"> https://spikeartmagazine.com/articles/interview-sharpening-my-tools-ligia-lewis </a>. <a href="#ref26">↩</a></li> <br/>
-        <li id="fn27"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref27">↩</a></li> <br/>
-        <li id="fn28"> Ibid. <a href="#ref28">↩</a></li> <br/>
-        <li id="fn29"> Harmony Holiday, &#8220;On Keeping a Talking Book,&#8221; Black Music and Black Muses, Substack, June, 6, 2024, <a href="https://harmonyholiday.substack.com/p/on-keeping-a-talking-book" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/on-keeping-a-talking-book </a>. <a href="#ref29">↩</a></li> <br/>
-        <li id="fn30"> Toni Morrison, &#8220;The Nobel Prize in Literature Laureate Lecture&#8221; &#40;Stockholm, Sweden, December 7, 1993&#41; <a href="https://www.nobelprize.org/prizes/literature/1993/morrison/lecture/" target="_blank" className="styledli"> https://www.nobelprize.org/prizes/literature/1993/morrison/lecture/ </a> 
+        <li className="footnotes-li" id="fn23"> Harmony Holiday, &#8220;For Bisan Owda, a Living Avenging Angel in Gaza,&#8221; <i> Black Music and Black Muses, </i> Substack, November 5, 2023, <a href="https://harmonyholiday.substack.com/p/for-bisan-owda-a-living-avenging" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/for-bisan-owda-a-living-avenging </a>. <a href="#ref23">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn24"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref24">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn25"> Ibid. <a href="#ref25">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn26"> Tavia Nyong&#39;o, &#8220;Sharpening My Tools: Ligia Lewis,&#8221; <i> Spike Art Magazine, </i> Spring 2021, <a href="https://spikeartmagazine.com/articles/interview-sharpening-my-tools-ligia-lewis" target="_blank" className="styledli"> https://spikeartmagazine.com/articles/interview-sharpening-my-tools-ligia-lewis </a>. <a href="#ref26">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn27"> Harmony Holiday, Angelique Rosales Salgado, personal communication, August 2024. <a href="#ref27">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn28"> Ibid. <a href="#ref28">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn29"> Harmony Holiday, &#8220;On Keeping a Talking Book,&#8221; Black Music and Black Muses, Substack, June, 6, 2024, <a href="https://harmonyholiday.substack.com/p/on-keeping-a-talking-book" target="_blank" className="styledli"> https://harmonyholiday.substack.com/p/on-keeping-a-talking-book </a>. <a href="#ref29">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn30"> Toni Morrison, &#8220;The Nobel Prize in Literature Laureate Lecture&#8221; &#40;Stockholm, Sweden, December 7, 1993&#41; <a href="https://www.nobelprize.org/prizes/literature/1993/morrison/lecture/" target="_blank" className="styledli"> https://www.nobelprize.org/prizes/literature/1993/morrison/lecture/ </a> 
         <a href="#ref30">↩</a></li> <br/>
-        <li id="fn31"> Harmony Holiday, &#8220;Nala Sinephro,&#8221; <i> 4Columns, </i> September 6, 2024, <a href="https://4columns.org/holiday-harmony/nala-sinephro" target="_blank" className="styledli"> https://4columns.org/holiday-harmony/nala-sinephro </a>. <a href="#ref31">↩</a></li> <br/>
+        <li className="footnotes-li" id="fn31"> Harmony Holiday, &#8220;Nala Sinephro,&#8221; <i> 4Columns, </i> September 6, 2024, <a href="https://4columns.org/holiday-harmony/nala-sinephro" target="_blank" className="styledli"> https://4columns.org/holiday-harmony/nala-sinephro </a>. <a href="#ref31">↩</a></li> <br/>
     </ol>
     </p>
     </span>
     <pre id="contributor-bio" />
-          <div
+          <div className="con-bio-container"
             style={{
               marginTop: "112px",
               marginBottom: "64px",
@@ -242,7 +239,7 @@ She is now dreaming up a future project that sets out to reimagine <i> Cry, </i>
           />
     <br/>
     <div style={{ display: "flex", flexDirection: "column", }}>
-        <SignatureContainer src={AngeliqueBio} alt="Photo by Deonte Lee" className="bioimg" />
+        <SignatureContainer src={AngeliqueBio} alt="Photo by Deonte Lee" className="bio-img" />
     </div>
     <br/>
     <span className="centered small bio"> Photo by Deonte Lee. </span>

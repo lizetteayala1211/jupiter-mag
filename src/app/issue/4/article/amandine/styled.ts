@@ -13,7 +13,6 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
 
   .title {
     padding-top: 0pt;
-    /* color: #000000; */
     color: white;
     padding-bottom: 3pt;
     page-break-after: avoid;

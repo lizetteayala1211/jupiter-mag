@@ -956,13 +956,48 @@ span.centered.small.bio {
         right: 10px !important;
     }
 
+    /* <!-- Author(s) Article Section CSS --> */
+
+    p {
+        font-size: 14px;
+    }
+
+    .footnotes-p {
+        padding: 20px !important;
+    }
+
+    
+    ol > li {
+        font-size: 13px !important;
+        line-height: 145% !important;
+    }
+    
+    .footnotes-li {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+    }
+
+    .con-bio-container {
+        margin-top: 24px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .bio-img {
+        display: flex !important;
+        align-self: center !important;
+        width: 70% !important;
+    }
+
     .bio-medium {
-        font-size: 16px;
-        line-height: 160% !important;
+        font-size: 13px !important;
+        line-height: 145% !important;
         padding-left: 0em;
         padding-right: 0em;
         text-align: center;
     }
+
 }
 
 /* <!-- Mobile Device CSS (X-Small Screens) --> */ 
@@ -1112,9 +1147,43 @@ span.centered.small.bio {
         right: 10px !important;
     }
 
+    /* <!-- Author(s) Article Section CSS --> */
+
+    p {
+        font-size: 14px;
+    }
+
+    .footnotes-p {
+        padding: 20px !important;
+    }
+
+    
+    ol > li {
+        font-size: 13px !important;
+        line-height: 145% !important;
+    }
+    
+    .footnotes-li {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+    }
+
+    .con-bio-container {
+        margin-top: 24px !important;
+        margin-bottom: 24px !important;
+    }
+
+    .bio-img {
+        display: flex !important;
+        align-self: center !important;
+        width: 70% !important;
+    }
+
     .bio-medium {
-        font-size: 16px;
-        line-height: 160% !important;
+        font-size: 13px !important;
+        line-height: 145% !important;
         padding-left: 0em;
         padding-right: 0em;
         text-align: center;
