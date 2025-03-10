@@ -105,9 +105,9 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
 
 /* <!-- Desktop Device (Large Screens) CSS --> */  
 
-@media only screen and (min-width: 1026px) and (max-width: 1281px) {
+@media only screen and (min-width: 1026px) {
   div {
-    padding: 0 20% !important;
+    padding: 0 18% !important;
   }
 }
 
