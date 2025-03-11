@@ -20,22 +20,22 @@ export const issue4Metadata: ArticleMetadata[] = [
   {
     title:
       "",
-    link: "/issue/1/article/rhya",
+    link: "/issue/4/article/rhya",
     author: "Rhya Marlene Moffitt",
   },
   {
     title: "",
-    link: "/issue/1/article/amandine",
+    link: "/issue/4/article/amandine",
     author: "Amandine Nana",
   },
   {
     title: "",
-    link: "/issue/1/article/imani",
+    link: "/issue/4/article/imani",
     author: "Imani Perry",
   },
   {
     title: "",
-    link: "/issue/1/article/angelique",
+    link: "/issue/4/article/angelique",
     author: "Angelique Rosales Salgado",
   },
 ]
