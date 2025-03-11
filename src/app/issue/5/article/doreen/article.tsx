@@ -7,15 +7,7 @@ import { SignatureContainer, } from "../../styled"
 
 import "../../styles.css"
 
-import Bundles from "../../../../../../public/photos/Ive-got-bundles.jpg"
-import WhatUpDoeI from "../../../../../../public/photos/1-Massey-Whatupdoe.jpg"
-import WhatUpDoe from "../../../../../../public/photos/Whatupdoe.jpg"
-import BabyBling from "../../../../../../public/photos/baby-bling.jpg"
-import RoofGarden1 from "../../../../../../public/photos/1.DP-27270-004-JPGCourtesyTheMet.jpg"
-import RoofGarden2 from "../../../../../../public/photos/19.DP-27509-009-JPGCourtesyTheMet.jpg"
-import Childhood from "../../../../../../public/photos/Photograph-of-the-author-on-the-front-porch-of-her-childhood-home.jpg"
-import RikkiBio from "../../../../../../public/photos/RikkiByrdbyLawrenceAgyei.jpg"
-
+import DoreenBio from "../../../../../../public/photos/Doreen.jpg"
 
 export function Article() {
   return (
@@ -94,12 +86,12 @@ export function Article() {
           />
     <br/>
     <div style={{ display: "flex", flexDirection: "column", }}>
-        <SignatureContainer src={RikkiBio} alt="Photo by Lawrence Agyei" className="bio-img" />
+        <SignatureContainer src={DoreenBio} alt="Doreen St. Felix by James Emmerman." className="bio-img" />
     </div>
     <br/>
-    <span className="centered small bio"> Photo by Lawrence Agyei. </span>
+    <span className="centered small bio"> Photo by James Emmerman. </span>
     <br/>
-    <p className="bio-medium"> Dr. Rikki Byrd is a writer, educator, and curator. She is the founder of Black Fashion Archive and the co-founder of the Fashion and Race Syllabus, and is currently an Assistant Professor of Visual Culture Studies at the University of Texas at Austin, with a courtesy appointment in the Department of Art and Art History. Across her writing, teaching, and curatorial projects, she draws connections between Black aesthetic practices, including 20th and 21st century art, fashion studies, and performance. Dr. Byrd received her Ph.D. and Master of Arts in Black Studies from Northwestern University, a Master of Arts in Fashion Studies from Parsons School of Design, and a Bachelor of Journalism from the University of Missouri.
+    <p className="bio-medium"> Doreen St. Félix is a writer and critic. Since 2017, she has worked as a staff writer at <i> The New Yorker. </i> She is the winner of a National Magazine Award. She is at work on a book. 
     </p>
     <br/><br/><br/>
     </div>
