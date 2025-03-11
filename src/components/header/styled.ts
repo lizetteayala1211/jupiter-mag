@@ -68,7 +68,7 @@ export const MenuModalBackground = styled.div<{ $issue: number }>`
   z-index: var(--z-index-five);
   width: 100%;
   height: 100%;
-  /* background: linear-gradient(
+  background: linear-gradient(
     0deg,
     ${(props) => (props.$issue === 1 ? "#dcb0e0" : "var(--color-blue)")} 1%,
     ${(props) =>
@@ -76,7 +76,7 @@ export const MenuModalBackground = styled.div<{ $issue: number }>`
           ? "rgba(157, 208, 252, 0.02) 99%"
           : "var(--color-black) 99%"}
       1%
-  ); */
+  );
   background-color: black;
 `
 
@@ -122,7 +122,6 @@ export const MenuContainer = styled.div`
   justify-content: center;
   top: 0;
   left: 0;
-
   /* background: linear-gradient(
     180deg,
     rgba(63, 29, 61, 0.9) 30%,
