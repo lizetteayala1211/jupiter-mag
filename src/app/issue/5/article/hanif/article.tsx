@@ -7,7 +7,7 @@ import { SignatureContainer, } from "../../styled"
 
 import "../../styles.css"
 
-import HanifBio from "../../../../../../public/photos/public/photos/Hanif_Abdurraqib.jpg"
+import HanifBio from "../../../../../../public/photos/Hanif_Abdurraqib.jpg"
 
 export function Article() {
   return (
