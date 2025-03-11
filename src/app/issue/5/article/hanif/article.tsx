@@ -115,7 +115,7 @@ export function Article() {
     <br/>
     <span className="centered small bio"> Photo by Kate Sweeney. </span>
     <br/>
-    <p className="bio-medium"> Hanif Abdurraqib is an award-winning poet, essayist, and cultural critic from Columbus, Ohio. His newest release, <i> There's Always This Year: On Basketball and Ascension </i> &#40;Random House, 2024&#41; was a <i> New York Times Bestseller </i> and longlisted for the National Book Award in nonfiction. His previous book, <i> A Little Devil In America </i> &#40;Random House, 2021&#41; was a winner of the Andrew Carnegie Medal and the Gordon Burn Prize. In 2021, Abdurraqib was named a MacArthur Fellow, and in 2024 was named a Windham-Campbell Prize recipient. He is a graduate of Beechcroft High School.
+    <p className="bio-medium"> Hanif Abdurraqib is an award-winning poet, essayist, and cultural critic from Columbus, Ohio. His newest release, <i> There&#39;s Always This Year: On Basketball and Ascension </i> &#40;Random House, 2024&#41; was a <i> New York Times Bestseller </i> and longlisted for the National Book Award in nonfiction. His previous book, <i> A Little Devil In America </i> &#40;Random House, 2021&#41; was a winner of the Andrew Carnegie Medal and the Gordon Burn Prize. In 2021, Abdurraqib was named a MacArthur Fellow, and in 2024 was named a Windham-Campbell Prize recipient. He is a graduate of Beechcroft High School.
     </p>
     <br/><br/><br/>
     </div>
