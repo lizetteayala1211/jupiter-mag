@@ -3,28 +3,28 @@ const nextConfig = {
   redirects: async () => {
     return [
       {
-        source: "/magazine/doreen",
-        destination: "/issue/5/article/doreen",
+        source: "/magazine/akwaeke",
+        destination: "/issue/1/article/akwaeke",
         permanent: true,
       },
       {
-        source: "/magazine/hanif",
-        destination: "/issue/5/article/hanif",
+        source: "/magazine/diallo",
+        destination: "/issue/1/article/diallo",
         permanent: true,
       },
       {
-        source: "/magazine/kj",
-        destination: "/issue/5/article/kj",
+        source: "/magazine/jenna",
+        destination: "/issue/1/article/jenna",
         permanent: true,
       },
       {
-        source: "/magazine/tiana",
-        destination: "/issue/5/article/tiana",
+        source: "/magazine/joshua",
+        destination: "/issue/1/article/joshua",
         permanent: true,
       },
       {
-        source: "/magazine/yume",
-        destination: "/issue/5/article/yume",
+        source: "/magazine/rianna",
+        destination: "/issue/1/article/rianna",
         permanent: true,
       },
     ]
