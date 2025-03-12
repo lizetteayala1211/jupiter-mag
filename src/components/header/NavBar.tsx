@@ -13,7 +13,7 @@ export function NavBar({ dynamic }: { dynamic?: boolean }) {
       <NavBarItem dynamic={dynamic || false} page="issue 1" />
       <NavBarItem dynamic={dynamic || false} page="issue 2" />
       <NavBarItem dynamic={dynamic || false} page="issue 3" />
-      {/* <NavBarItem dynamic={dynamic || false} page="issue 4" /> */}
+      <NavBarItem dynamic={dynamic || false} page="issue 4" />
       <NavBarItem dynamic={dynamic || false} page="about" />
       <NavBarItem
         dynamic={dynamic || false}
