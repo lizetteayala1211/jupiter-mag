@@ -35,7 +35,7 @@ export function Article() {
     <span className="centered"> <i> &#40;translated from French to English by Chrystel Oloukoi&#41; </i> </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Indeterminacy} alt="Torkwase Dyson, Indeterminacy #1 (Black Compositional Thought)" className="textinnerimg ver amadine" />
+      <SignatureContainer src={Indeterminacy} alt="Torkwase Dyson, Indeterminacy #1 (Black Compositional Thought)" className="article-img" />
     </div>
     <br/>
     <span className="centered small"> Torkwase Dyson, <i> Indeterminacy #1 &#40;Black Compositional Thought&#41;, </i> 2022. © Torkwase Dyson. </span>
