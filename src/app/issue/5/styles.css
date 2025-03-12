@@ -367,6 +367,15 @@ p > span.small {
     cursor: pointer;
 }
 
+/* Disable Blog item */
+.disabled {
+    pointer-events: none !important;
+}
+
+.hidden {
+    opacity: 0 !important;
+}
+
 /* Blog card contributor placement */
 .blog-item.first {
     grid-column-start: 1; 
