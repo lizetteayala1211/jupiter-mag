@@ -167,7 +167,7 @@ export function Contributors() {
                             </a>
                         </div>
                         <div role="listitem" className="blog-item w-dyn-item sixth">
-                            <a href="https://www.jupiter-mag.com/issue/5/article/kemi" className="blog-link transition-link w-inline-block">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/olukemi" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -175,7 +175,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Kemi Lijadu</p>
+                                        <p className="paragraph-small">Olukemi Lijadu</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
