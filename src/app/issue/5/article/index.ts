@@ -27,4 +27,9 @@ export const issue5Metadata: ArticleMetadata[] = [
     link: "/issue/5/article/yume",
     author: "Yume Murphy",
   },
+  {
+    title: "",
+    link: "/issue/5/article/olukemi",
+    author: "Olukemi Lijadu",
+  },
 ]

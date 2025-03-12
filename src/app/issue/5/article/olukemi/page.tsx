@@ -5,7 +5,7 @@ import { Cover } from "./cover"
 import { Article } from "./article"
 import { issue5Metadata } from ".."
 
-export default function Doreen() {
+export default function Olukemi() {
   return (
     <ArticleBase
       next={issue5Metadata[5]}

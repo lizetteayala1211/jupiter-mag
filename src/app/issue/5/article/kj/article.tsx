@@ -104,13 +104,9 @@ export function Article() {
             }}
           />
     <br/>
-    {/* <div style={{ display: "flex", flexDirection: "column", }}>
-        <SignatureContainer src={KJBio} alt="Photo by William Daupin. Artwork by Tanoa Sasraku." className="bio-img" />
-    </div> */}
-    {/* <br/>
-    <span className="centered small bio"> Photo by William Daupin. Artwork by Tanoa Sasraku. </span>
-    <br/> */} 
-    <p className="bio-medium"> KJ Abudu is a curator, writer, and critic based between New York, London, and Lagos. Informed by anti/post/de-colonial theory, queer theory, African philosophy, and black radical thought, his writings and exhibitions focus on critical art and discursive practices from the global South responding to the world-historical conditions produced by colonial capitalist modernity. Abudu curated <i> Traces of Ecstasy </i> at the fourth edition of the Lagos Biennial and the Institute for Contemporary Art at Virginia Commonwealth University, Richmond, 2024; <i> Clocking Out: Time Beyond Management, </i> Artists Space and e-flux Screening Room, New York, 2023; and <i> Living with Ghosts, </i> Pace Gallery, London, and the Wallach Art Gallery, New York, 2022. He is the editor of <i> Living with Ghosts: A Reader, </i> Pace Publishing, 2022. Abudu is part of the curatorial team at Swiss Institute (SI), New York, where he has organized exhibitions by Nolan Oswald Dennis (<i> overturns, </i> 2025), Deborah-Joyce Holman (<i> Close-Up, </i> 2025), and Kobby Adi (<i> Cloisters & Instruments, </i> 2024). His writings have appeared in <i> e-flux, Frieze, Mousse, Tate Etc., </i> and numerous other publications and exhibition catalogues. 
+    <p className="bio-medium"> KJ Abudu is a curator, writer, and critic based between New York, London, and Lagos. Informed by anti/post/de-colonial theory, queer theory, African philosophy, and black radical thought, his writings and exhibitions focus on critical art and discursive practices from the global South responding to the world-historical conditions produced by colonial capitalist modernity. 
+    <br/><br/>
+    Abudu curated <i> Traces of Ecstasy </i> at the fourth edition of the Lagos Biennial and the Institute for Contemporary Art at Virginia Commonwealth University, Richmond, 2024; <i> Clocking Out: Time Beyond Management, </i> Artists Space and e-flux Screening Room, New York, 2023; and <i> Living with Ghosts, </i> Pace Gallery, London, and the Wallach Art Gallery, New York, 2022. He is the editor of <i> Living with Ghosts: A Reader, </i> Pace Publishing, 2022. Abudu is part of the curatorial team at Swiss Institute (SI), New York, where he has organized exhibitions by Nolan Oswald Dennis (<i> overturns, </i> 2025), Deborah-Joyce Holman (<i> Close-Up, </i> 2025), and Kobby Adi (<i> Cloisters & Instruments, </i> 2024). His writings have appeared in <i> e-flux, Frieze, Mousse, Tate Etc., </i> and numerous other publications and exhibition catalogues. 
     </p>
     <br/><br/><br/>
     </div>

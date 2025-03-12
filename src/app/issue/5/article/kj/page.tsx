@@ -8,7 +8,7 @@ import { issue5Metadata } from ".."
 export default function Kj() {
   return (
     <ArticleBase
-      next={issue5Metadata[4]}
+      next={issue5Metadata[5]}
       position="0% 80% 50% 0%"
       issue={5}
     >

@@ -47,7 +47,7 @@ function NavBarItem({
     if (page === "issue 1") return "/issue/1"
     if (page === "issue 2") return "/issue/2"
     if (page === "issue 3") return "/issue/3"
-    // if (page === "issue 4") return "/issue/4"
+    if (page === "issue 4") return "/issue/4"
     return url ? url : `/${page}`
   }
 
