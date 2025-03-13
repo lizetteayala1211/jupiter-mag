@@ -45,10 +45,10 @@ export function Article() {
     Gbogbo wa, lo n ki ẹ o
     Motunde, bi ṣe n de
     <br/><br/>
-    Wizkid! 
+    <i> Wizkid! 
     Nigerian entertainment industry
     We are all greeting you
-    I have come in my usual way
+    I have come in my usual way </i>
     <br/><br/>
     Though seemingly innocuous, this opening alludes to the tense relationship Wizkid is working through with the industry itself as well as its attendant technology of categorization: &#34;genre.&#34; Come March of 2024, in the wake of his loss<sup><a href="#fn2" id="ref2">2</a></sup> and before the album was released, the artist declared that he wanted nothing to do with the genre of Afrobeats: a provocative counterpoint to the crescendo of a resounding <i> &#34;Afrobeats to the world!&#34; </i> agenda. Our starboy took to his Instagram story with a thin cursive font, a solid black background, and a disavowal of the genre that &#34;made&#34; him, with a series of images saying a metaphorical <i> to hell with Afrobeats! </i> In this series of statements, he wrote definitively that he is not an Afrobeats artist, in fact… 
     <br/><br/>
@@ -84,12 +84,12 @@ export function Article() {
       <SignatureContainer src={Kemi2} alt="" className="article-img" />
     </div>
     <br/><br/>
-    Plantashun Boiz, M.I, Blackmagic, 9ice, Naeto C, Brymo, Sasha P, Weird MC, Dagrin: the Afrobeats I grew up on are <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> something to be proud of. </a> <sup><a href="#fn10" id="ref10">10</a></sup> They were non-stop on the radio and hawkers sold copies of their CDs on the streets of Lagos. This was real culture: 
+    <b> Plantashun Boiz, M.I, Blackmagic, 9ice, Naeto C, Brymo, Sasha P, Weird MC, Dagrin: </b> the Afrobeats I grew up on are <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> something to be proud of. </a> <sup><a href="#fn10" id="ref10">10</a></sup> They were non-stop on the radio and hawkers sold copies of their CDs on the streets of Lagos. This was real culture: 
     <br/><br/>
-    <i> I move from Shitta, enter Christ Avenue &#40;Gen, gen&#41;
-    When I get nothing but the vibes and my crew &#40;Oh, no&#41; </i>
+    <span className="centered"> <i> I move from Shitta, enter Christ Avenue &#40;Gen, gen&#41;
+    When I get nothing but the vibes and my crew &#40;Oh, no&#41; </i> </span>
     <br/><br/>
-    &#40;Track 16, &#34;Pray,&#34; <i> Morayo&#41; </i>
+    <span className="right"> &#40;Track 16, &#34;Pray,&#34; <i> Morayo&#41; </i> </span>
     <br/><br/>
     I was sixteen years old in 2011, when I bought a copy of Wizkid&#39;s debut album <i> Superstar </i> from a street hawker. I remember seeing this young boy—he could have been my cousin—with shades on, a snapback, and a button-down plaid shirt. We didn&#39;t have to see his full outfit to know he was wearing skinny jeans, we all were, and Wizkid was that guy. <i> Superstar </i> was a remarkable sonification of what Paul Gilroy would identify as a Black Atlantic musical product: pidgin and Yoruba over snares and 808s.
     <br/><br/>
