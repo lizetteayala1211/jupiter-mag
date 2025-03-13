@@ -221,6 +221,22 @@ p > a.styled:hover {
     opacity: 0.8;
 }
 
+/* <!-- Temp Audio Player --> */ 
+
+.temp-audio-player {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* background-color: purple; */
+    /* background: linear-gradient(#000000, #6f529b); */
+    /* background: linear-gradient(#6f529b 25%, rgb(0, 0, 0) 100%); */
+    border: 1px solid white;
+}
+
+.temp-audio-player > a {
+    padding: 40px;
+}
+
 /* <!-- Editors Note Section CSS --> */ 
 
 /* Editors Note Image */
