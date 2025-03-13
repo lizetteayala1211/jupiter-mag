@@ -90,8 +90,8 @@ export function Contributors() {
                                 {/* <img src="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp" loading="lazy" alt="" sizes="(max-width: 767px) 45vw, 24vw" srcset="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-500.webp 500w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-800.webp 800w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp 918w" className="blog-image"> */}
                             </a>
                         </div>
-                        <div role="listitem" className="blog-item w-dyn-item fifth">
-                            <a href="https://www.jupiter-mag.com/issue/5/article/doreen" className="blog-link transition-link w-inline-block">
+                        <div role="listitem" className="blog-item w-dyn-item second">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/tiana" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -99,7 +99,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Doreen St. Felix</p>
+                                        <p className="paragraph-small">Tiana Reid</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -147,16 +147,16 @@ export function Contributors() {
                                 {/* <img src="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp" loading="lazy" alt="" sizes="(max-width: 767px) 45vw, 24vw" srcset="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-500.webp 500w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-800.webp 800w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp 918w" className="blog-image"> */}
                             </a>
                         </div>
-                        <div role="listitem" className="blog-item w-dyn-item sixth disabled">
-                            <a href="https://www.jupiter-mag.com/issue/5/article/olukemi" className="blog-link transition-link w-inline-block">
+                        <div role="listitem" className="blog-item w-dyn-item fifth">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/doreen" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
-                                        <div className="square-block_top has--align-right hidden">
+                                        <div className="square-block_top has--align-right">
                                             <div style={{ display: "flex", width: "6%", height: "20px", alignSelf: "flex-end" }} className="arrow-wrapper">
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small hidden">Olukemi Lijadu</p>
+                                        <p className="paragraph-small">Doreen St. Felix</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
@@ -166,8 +166,8 @@ export function Contributors() {
                                 {/* <img src="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp" loading="lazy" alt="" sizes="(max-width: 767px) 45vw, 24vw" srcset="https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-500.webp 500w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012-p-800.webp 800w, https://cdn.prod.website-files.com/65f4c8ffbf63aa3dc2f7bfdf/6658a833ccb2636fc63d3f64_Group%2012.webp 918w" className="blog-image"> */}
                             </a>
                         </div>
-                        <div role="listitem" className="blog-item w-dyn-item second">
-                            <a href="https://www.jupiter-mag.com/issue/5/article/tiana" className="blog-link transition-link w-inline-block">
+                        <div role="listitem" className="blog-item w-dyn-item sixth">
+                            <a href="https://www.jupiter-mag.com/issue/5/article/olukemi" className="blog-link transition-link w-inline-block">
                                 <div className="blog-outer">
                                     <div className="blog-content draw-border">
                                         <div className="square-block_top has--align-right">
@@ -175,7 +175,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Tiana Reid</p>
+                                        <p className="paragraph-small">Olukemi Lijadu</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
