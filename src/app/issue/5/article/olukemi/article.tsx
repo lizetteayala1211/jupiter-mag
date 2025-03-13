@@ -12,7 +12,7 @@ import "../../styles.css"
 
 import OlukemiBio from "../../../../../../public/photos/Olukemi_Lijadu.jpg"
 import Kemi1 from "../../../../../../public/photos/Issue5_Kemi_Image1.png"
-import Kemi2 from "../../../../../../public/photos/Issue5_Kemi_Image2.png"
+import Kemi2 from "../../../../../../public/photos/Issue5_Kemi_Image2.jpg"
 
 export function Article() {
   return (
@@ -39,7 +39,8 @@ export function Article() {
     {/* <iframe width="100%" height="20" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2033058916&color=%23c488fa&inverse=true&auto_play=false&show_user=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kemkemlij" title="kem kem" target="_blank" style="color: #cccccc; text-decoration: none;">kem kem</a> · <a href="https://soundcloud.com/kemkemlij/afrobeatsroots" title="Old School Afrobeats Mix Kem Kem for Jupiter Magazine" target="_blank" style="color: #cccccc; text-decoration: none;">Old School Afrobeats Mix Kem Kem for Jupiter Magazine</a></div> */}
     <span className="temp-audio-player"> 
     <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> <i> Old School Afrobeats Mix Kem Kem </i> for <i> Jupiter Magazine </i> </a> </span>
-    <br/><br/>
+    <span className="centered small"> In this mix I attempt to trace the threads of the roots of Afrobeats, as we have come to know it today. </span>
+    <br/>
     <i>
     &#34;The history and utility of black music &#91;…&#93; enable us to trace something of the means through which the unity of ethics and politics has been reproduced as a form of folk knowledge. This subculture often appears to be the intuitive expression of some racial essence but is in fact an elementary historical acquisition produced from the viscera of an alternative body of cultural and political expression that considers the world critically from the point of view of its emancipatory transformation.&#34; —Paul Gilroy<sup><a href="#fn1" id="ref1">1</a></sup>
     </i>
