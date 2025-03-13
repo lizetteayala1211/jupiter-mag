@@ -21,7 +21,7 @@ export function Article() {
     <div className="writing-container">
     <h1 className="title large"> Ordinariness </h1>
     <br/>
-    <h4 className="title small"> by Doreen St. Felix </h4>
+    <h4 className="title small"> by Doreen St. F&#233;lix </h4>
     <br/>
     <pre id="contribution" />
           <div
