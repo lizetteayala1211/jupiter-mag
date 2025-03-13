@@ -90,7 +90,7 @@ export function Article() {
     <br/>
     <span className="centered small"> Language game diagrams courtesy of Olukemi Lijadu: two purple, spherical forms which illustrate the differences between understanding the Afrobeats genre as &#39;rigid&#39; vs &#39;expansive&#39;. </span>
     <br/>
-    <b> Plantashun Boiz, M.I, Blackmagic, 9ice, Naeto C, Brymo, Sasha P, Weird MC, Dagrin: </b> the Afrobeats I grew up on are <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> something to be proud of. </a> <sup><a href="#fn10" id="ref10">10</a></sup> They were non-stop on the radio and hawkers sold copies of their CDs on the streets of Lagos. This was real culture: 
+    Plantashun Boiz, M.I, Blackmagic, 9ice, Naeto C, Brymo, Sasha P, Weird MC, Dagrin: the Afrobeats I grew up on are <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> something to be proud of. </a> <sup><a href="#fn10" id="ref10">10</a></sup> They were non-stop on the radio and hawkers sold copies of their CDs on the streets of Lagos. This was real culture: 
     <br/><br/>
     <span className="centered"> <i> I move from Shitta, enter Christ Avenue &#40;Gen, gen&#41;
     When I get nothing but the vibes and my crew &#40;Oh, no&#41; </i> </span>
@@ -103,7 +103,7 @@ export function Article() {
     <br/><br/>
     Wizkid is doing the thing that many black artists do when they resist the term Black. Inadvertently, though, through fighting against what they see as a &#34;limitation&#34; and rejecting the term, they are reifying a misled idea that it is inherently constricting, when in reality names like black or Afrobeats, as we wear them, have always encapsulated universes unto themselves. My plea &#40;see the diagrams again&#41; is that we do not centre the rigid and myopic understanding of Afrobeats as a commodity and, rather, that we see and define Afrobeats as a genre as expansively as possible, dynamic and ever-evolving and growing. From Tems&#39;s R&B lilt to Rema&#39;s fluid layering of Arabic vocal patterns over West African polyrhythms, Afrobeats is boundless and we must continue to define it as such. If an artist seeks to distance themselves from Afrobeats they must make it clear which language-game they are playing or else they reify the market-based approach, which makes the foreign, external, and fundamentally extractive interpretation of the genre become the dominant one. Concurrently, audiences can and should sympathise with the frustrations of artists who seek to create without boundaries and with recognition of their infinitude. 
     <br/><br/>
-    So yes, Wizkid, Afrobeats should not stand in the way of your expansiveness. Language is limited, but that is what we have, and as Africans and people who witnessed the genesis of the genre, we have the power to set the terms of engagement. Wizkid, what will you do with that responsibility?
+    So yes, Wizkid, Afrobeats should not stand in the way of your expansiveness. Language is limited, but that is what we have, and as Africans and people who witnessed the genesis of the genre, we have the power to set the terms of engagement. Wizkid, what will you do with that responsibility? 
     </p>
     <pre id="article" />
           <div

@@ -107,7 +107,7 @@ export function Article() {
     <br/>
     <span className="centered small bio"> Photo by James Emmerman. </span>
     <br/>
-    <p className="bio-medium"> Doreen St. Félix is a writer and critic. Since 2017, she has worked as a staff writer at <i> The New Yorker. </i> She is the winner of a National Magazine Award. She is at work on a book. 
+    <p className="bio-medium"> Doreen St. F&#233;lix is a writer and critic. Since 2017, she has worked as a staff writer at <i> The New Yorker. </i> She is the winner of a National Magazine Award. She is at work on a book. 
     </p>
     <br/><br/><br/>
     </div>

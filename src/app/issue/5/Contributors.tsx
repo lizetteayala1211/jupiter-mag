@@ -98,7 +98,7 @@ export function Contributors() {
                                                 <SignatureContainer src={ListArrow} alt="Contributor List Arrow" className="arrow-icon is--large" />
                                             </div>
                                         </div>
-                                        <p className="paragraph-small">Doreen St. Felix</p>
+                                        <p className="paragraph-small">Doreen St. F&#233;lix</p>
                                         <div className="border top-border"></div>
                                         <div className="border right-border"></div>
                                         <div className="border bottom-border"></div>
