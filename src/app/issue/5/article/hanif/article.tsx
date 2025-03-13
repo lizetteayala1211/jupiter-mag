@@ -70,34 +70,6 @@ export function Article() {
     <br/><br/>
     <i> I need you to use it better. </i>
     </p>
-    {/* <pre id="article" />
-          <div
-            style={{
-              marginTop: "112px",
-              height: "1px",
-              width: "100%",
-              backgroundColor: "#FFFFFFBF",
-            }}
-          />
-    <span className="footnotes amadine">
-    <p className="footnotes-p">
-    <ol className="footnotes-ol">
-        <li className="footnotes-li" id="fn1"> Title reference: Torkwase Dyson, <i> I Am Everything That Will Save Me #4 &#40;Bird and Lava&#41;, </i> 2021, acrylic, string, and graphite on wood, 153 cm &#40;diameter&#41;. <a href="#ref1">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn2"> Octavia Butler, <i> Parable of the Sower, </i> 1993. <a href="#ref2">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn3"> &#8220;I&#39;ve set up this mode of drawing as a way to respond to the conditions in which various systemic orders of political abstraction have been used in the service of environmental exploitation… I ask myself, <i> how do black people survive abstraction today as the scope, scale, and density of matter is changing all around us due to climate change? </i> I begin to answer by looking at what I call <i> black compositional thought. </i> Abstract drawing can lend itself to the intellectual and psychological pursuit of pulling <i> black compositional thought </i> close. Really close, inside close. From the black-inside-black position, I stand in front of a surface with my mind in complete awareness of form as power.&#8221; —Torkwase Dyson in &#8220;Black Interiority: Notes on Architecture, Infrastructure, Environmental Justice, and Abstract Drawing,&#8221; <i> Pelican Bomb </i> &#40;2017&#41;. <a href="https://pelicanbomb.com/art-review/2017/black-interiority-notes-on-architecture-infrastructure-environmental-justice-and-abstract-drawing" target="_blank" className="styledli"> https://pelicanbomb.com/art-review/2017/black-interiority-notes-on-architecture-infrastructure-environmental-justice-and-abstract-drawing  </a> 
-        <a href="#ref3">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn4"> Édouard Glissant describes the concept of errantry as one that is rhizomatic, meaning it has multiple roots, allowing detours and open to a horizon of connectedness and empathy. See: Heidi Bojsen, &#8220;La géographie de l&#39;errance : à la recherche de l&#39;intention poétique de la géographie politique,&#8221; in <i> Autour d&#39;Édouard Glissant : Lectures, épreuves, extensions d&#39;une poétique de la Relation, </i> ed. Samia Hassab-Charfi, Sonia Zlitni-Fitouri, and Loïc Céry &#40;Pessac: Presses Universitaires de Bordeaux: 2008&#40;. <a href="https://books.openedition.org/pub/47025?lang=fr#:~:text=L%27errance%2C%20nous%20dit%20Glissant,l%27Autre%20»%20" target="_blank" className="styledli"> https://books.openedition.org/pub/47025?lang=fr#:~:text=L%27errance%2C%20nous%20dit%20Glissant,l%27Autre%20»%20 </a>
-        <a href="#ref4">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn5"> Torkwase Dyson, &#8220;Black Interiority: Notes on Architecture, Infrastructure, Environmental Justice, and Abstract Drawing,&#8221; <i> Pelican Bomb </i> &#40;2017&#41;. <a href="#ref5">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn6"> Camille Bacon, &#8220;Rearrange: Torkwase Dyson and Black Feminist Breathing,&#8221; <i> Momus </i> &#40;2022&#41;. <a href="https://momus.ca/rearrange-torkwase-dyson-and-black-feminist-breathing/" target="_blank" className="styledli"> https://momus.ca/rearrange-torkwase-dyson-and-black-feminist-breathing/ </a> 
-        <a href="#ref6">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn7"> Torkwase Dyson, &#8220;Torkwase Dyson Reflects on Hyper Shapes,&#8221; <i> Metropolis Magazine </i> &#40;2021&#41;. <a href="https://metropolismag.com/viewpoints/torkwase-dyson-noteworthy/ " target="_blank" className="styledli"> https://metropolismag.com/viewpoints/torkwase-dyson-noteworthy/ </a> <a href="#ref7">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn8"> Édouard Glissant, Patrick Chamoiseau, &#8220;De Loin,&#8221; Open Letter to the Minister of Interior of the French Republic at the occasion of his trip to Martinique, <i> Libération, </i> Decembre 7, 2005.
-        <a href="#ref8">↩</a></li> <br/>
-    </ol>
-    </p>
-    </span> */}
-
     <pre id="contributor-bio" />
           <div className="con-bio-container"
             style={{

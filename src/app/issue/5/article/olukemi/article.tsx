@@ -61,7 +61,7 @@ export function Article() {
     </div>
     <br/>
     <span className="centered small"> Screenshot of an Instagram story post made by Wizkid &#40;@wizkidayo&#41; showing the following text: &#34;I am not Afro anything bitch!&#34; in white cursive font on a black background. </span>
-    <br/><br/>
+    <br/>
     Wizkid was not alone. It might be easy to ignore a solo, but when a chorus rises we must recognise that it is following a tune. In the same year another one of the continent&#39;s most prolific artists, Flavour N&#39;abania, similarly proclaimed that he is not an Afrobeats artist. Feeding the chorus further, Simi, the heralded Afrobeats darling, and Ghana&#39;s King Promise each expressed that Afrobeats has morphed into a genre marker that muffles and stifles the breadth and depth of musicians&#39; talent in the country. Understandably, much of the Nigerian public and Afrobeats devotees writ large were hurt, disappointed, and offended, but to dismiss these evocations as mere tantrums or delusions of grandeur is to overlook the long and contentious history that Nigerian/African/black artists have had with the notion of genre in music. 
     <br/><br/>
     Let us linger for a brief but imperative moment to mark a delineation between the often confused terms: <i> Afrobeats </i> and her ancestor <i> Afrobeat. </i> The latter is a sound that emerged in the &#39;70s as a product of transatlantic migrations and cross-pollination and is most associated with the immortal Fela Kuti. Afrobeat collaged a riveting combination of funk, highlife, and jazz. Colloquially, Afrobeats refers to the contemporary African genre that emerged in Nigeria in the early 2000s and has re-emerged as a hypernym in recent times, a sort of catch-all term for music emerging from the continent. Again, Afrobeat is the ancestor of Afrobeats, <i> but they are not the same. </i>
@@ -89,7 +89,7 @@ export function Article() {
     </div>
     <br/>
     <span className="centered small"> Language game diagrams courtesy of Olukemi Lijadu: two purple, spherical forms which illustrate the differences between understanding the Afrobeats genre as &#39;rigid&#39; vs &#39;expansive&#39;. </span>
-    <br/><br/>
+    <br/>
     <b> Plantashun Boiz, M.I, Blackmagic, 9ice, Naeto C, Brymo, Sasha P, Weird MC, Dagrin: </b> the Afrobeats I grew up on are <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> something to be proud of. </a> <sup><a href="#fn10" id="ref10">10</a></sup> They were non-stop on the radio and hawkers sold copies of their CDs on the streets of Lagos. This was real culture: 
     <br/><br/>
     <span className="centered"> <i> I move from Shitta, enter Christ Avenue &#40;Gen, gen&#41;
