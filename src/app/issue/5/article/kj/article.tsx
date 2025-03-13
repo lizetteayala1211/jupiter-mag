@@ -88,7 +88,6 @@ export function Article() {
     <br/>
     the end of the World … 
     </span>
-    <br/><br/>
     </p>
     <pre id="article" />
           <div
