@@ -40,23 +40,27 @@ export function Article() {
     <br/><br/> 
     In the first track of <i> Morayo, </i> we encounter a field recording from the funeral service held to honour the mother of the proverbial prince of Afrobeats. The album, a sonic memorial to Wizkid&#39;s matriarch, opens with the crooning voice of Fuji music legend Kwam 1 hailing the bereaved artist and addressing the Nigerian music industry:
     <br/><br/>
+    <span className="centered">
     Wizkid! 
     Nigerian entertainment industry
     Gbogbo wa, lo n ki ẹ o
     Motunde, bi ṣe n de
+    </span>
     <br/><br/>
+    <span className="centered">
     <i> Wizkid! 
     Nigerian entertainment industry
     We are all greeting you
     I have come in my usual way </i>
+    </span>
     <br/><br/>
     Though seemingly innocuous, this opening alludes to the tense relationship Wizkid is working through with the industry itself as well as its attendant technology of categorization: &#34;genre.&#34; Come March of 2024, in the wake of his loss<sup><a href="#fn2" id="ref2">2</a></sup> and before the album was released, the artist declared that he wanted nothing to do with the genre of Afrobeats: a provocative counterpoint to the crescendo of a resounding <i> &#34;Afrobeats to the world!&#34; </i> agenda. Our starboy took to his Instagram story with a thin cursive font, a solid black background, and a disavowal of the genre that &#34;made&#34; him, with a series of images saying a metaphorical <i> to hell with Afrobeats! </i> In this series of statements, he wrote definitively that he is not an Afrobeats artist, in fact… 
     <br/><br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Kemi1} alt="I am not Afro anything bitch!" className="article-img" />
+      <SignatureContainer src={Kemi1} alt="Screenshot of an Instagram story post made by Wizkid (@wizkidayo) showing the following text: “I am not Afro anything bitch!” in white cursive font on a black background." className="article-img" />
     </div>
     <br/>
-    <span className="centered small"> I am not Afro anything bitch! </span>
+    <span className="centered small"> Screenshot of an Instagram story post made by Wizkid &#40;@wizkidayo&#41; showing the following text: &#34;I am not Afro anything bitch!&#34; in white cursive font on a black background. </span>
     <br/><br/>
     Wizkid was not alone. It might be easy to ignore a solo, but when a chorus rises we must recognise that it is following a tune. In the same year another one of the continent&#39;s most prolific artists, Flavour N&#39;abania, similarly proclaimed that he is not an Afrobeats artist. Feeding the chorus further, Simi, the heralded Afrobeats darling, and Ghana&#39;s King Promise each expressed that Afrobeats has morphed into a genre marker that muffles and stifles the breadth and depth of musicians&#39; talent in the country. Understandably, much of the Nigerian public and Afrobeats devotees writ large were hurt, disappointed, and offended, but to dismiss these evocations as mere tantrums or delusions of grandeur is to overlook the long and contentious history that Nigerian/African/black artists have had with the notion of genre in music. 
     <br/><br/>
@@ -81,8 +85,10 @@ export function Article() {
     I made a pair of diagrams through which to think about these two different but very real understandings of Afrobeats as a genre. I read and I continue to read Wizkid&#39;s pronouncements in the context of the rigid language-game, that is Afrobeats as defined by the &#34;genre-market.&#34;<sup><a href="#fn9" id="ref9">9</a></sup> But I hope that we can return to an understanding of Afrobeats as expansive, generative, and ours.
     <br/><br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Kemi2} alt="" className="article-img" />
+      <SignatureContainer src={Kemi2} alt="Language game diagrams courtesy of Olukemi Lijadu: two purple, spherical forms which illustrate the differences between understanding the Afrobeats genre as &#39;rigid&#39; vs &#39;expansive&#39;." className="article-img" />
     </div>
+    <br/>
+    <span className="centered small"> Language game diagrams courtesy of Olukemi Lijadu: two purple, spherical forms which illustrate the differences between understanding the Afrobeats genre as &#39;rigid&#39; vs &#39;expansive&#39;. </span>
     <br/><br/>
     <b> Plantashun Boiz, M.I, Blackmagic, 9ice, Naeto C, Brymo, Sasha P, Weird MC, Dagrin: </b> the Afrobeats I grew up on are <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> something to be proud of. </a> <sup><a href="#fn10" id="ref10">10</a></sup> They were non-stop on the radio and hawkers sold copies of their CDs on the streets of Lagos. This was real culture: 
     <br/><br/>
@@ -90,7 +96,7 @@ export function Article() {
     When I get nothing but the vibes and my crew &#40;Oh, no&#41; </i> </span>
     <br/><br/>
     <span className="right"> &#40;Track 16, &#34;Pray,&#34; <i> Morayo&#41; </i> </span>
-    <br/><br/>
+    <br/>
     I was sixteen years old in 2011, when I bought a copy of Wizkid&#39;s debut album <i> Superstar </i> from a street hawker. I remember seeing this young boy—he could have been my cousin—with shades on, a snapback, and a button-down plaid shirt. We didn&#39;t have to see his full outfit to know he was wearing skinny jeans, we all were, and Wizkid was that guy. <i> Superstar </i> was a remarkable sonification of what Paul Gilroy would identify as a Black Atlantic musical product: pidgin and Yoruba over snares and 808s.
     <br/><br/>
     Afrobeats is exactly about that moment when Wizkid, at the genesis of this genre, had &#34;nothing but the vibes and my crew.&#34; To discard the genre entirely according to the silly and shortsighted way Afrobeats is consumed like many African products is to deny its profound and varied roots. No genre of music worth listening to begins in the market, it begins in the streets, it begins in real life. So for Wizkid to, and on a global stage, dismiss what was/is real based on how it has been distorted by the market and upsurge in interest in African music as a mere commodity could have negative ramifications for the culture—but I get it. 
