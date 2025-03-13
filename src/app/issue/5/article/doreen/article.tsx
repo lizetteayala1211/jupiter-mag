@@ -90,25 +90,7 @@ export function Article() {
     <br/><br/>
     &#34;I don&#39;t understand artmaking without public space.&#34; Reflecting in the early months of the pandemic, Smith offered a credo that could have been Pica&#39;s credo. Smith undermines the gallery&#39;s atmosphere of exclusion; she knows that to have crossed over to the walled enclosure is not a healthy ambition for the black American artist. Her works complete themselves in the outside world. &#34;The community,&#34; then, is no cliché. <i> Drylongso </i> ends with a scene of celebration and of grieving. The whole neighborhood comes out to the lot to commune with Pica&#39;s altars. Their grieving activates the altars. And the altars activate the community. 
     </p>
-    {/* <pre id="article" />
-          <div
-            style={{
-              marginTop: "112px",
-              height: "1px",
-              width: "100%",
-              backgroundColor: "#FFFFFFBF",
-            }}
-          />
-    <span className="footnotes rikki">
-    <p className="footnotes-p">
-    <ol className="footnotes-ol">
-        <li className="footnotes-li" id="fn1"> TK Smith, “Monumental Futures,” <i>Art Papers,</i> 44, no. 2 &#40;Fall/Winter 2020&#41;: 26-31, 27. <a href="#ref1">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn2"> Jennifer Nash, “Writing Black Beauty,” <i> Signs: Journal of Women in Culture and Society </i> 45, 1 &#40;2019&#41;: 101&#8208;122. <a href="#ref2">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn3"> Jennifer Nash, <i> How We Write Now: Living with Black Feminist Theory, </i> &#40;Durham: Duke University Press, 2024&#41;, 5. <a href="#ref3">↩</a></li> <br/>
-        <li className="footnotes-li" id="fn4"> Lucille Clifton, “won&#39;t you celebrate with me,” in <i> Book of Light, </i> ed. &#40;Copper Canyon Press, 1993&#41; <a href="#ref4">↩</a></li> <br/>
-    </ol>
-    </p>
-    </span> */}
+    
     <pre id="contributor-bio" />
           <div className="con-bio-container"
             style={{
