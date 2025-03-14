@@ -30,11 +30,7 @@ export function Article() {
           />
     <br/>
     <p className="Tiana-Reid-05">
-    <i> Black labor became the foundation stone not only of the Southern social structure, but of Northern manufacture and commerce, of the English factory system, of European commerce, of buying and selling on a world-wide scale; new cities were built on the results of black labor, and a new labor problem, involving all white labor, arose both in Europe and America. </i>
-    <br/>
-    <span className="right">
-    —&#34;The Black Worker,&#34; <i> Black Reconstruction, </i> W. E. B. Du Bois
-    </span>
+    <i> &#34;Black labor became the foundation stone not only of the Southern social structure, but of Northern manufacture and commerce, of the English factory system, of European commerce, of buying and selling on a world-wide scale; new cities were built on the results of black labor, and a new labor problem, involving all white labor, arose both in Europe and America.&#34; </i> —&#34;The Black Worker,&#34; <i> Black Reconstruction, </i> W. E. B. Du Bois
     <br/><br/>
     A wholehearted sentence on the significance of microaggressions. A land acknowledgement. A gallery attendant making minimum wage is assigned to a corner. A white critic reviews a black curator&#39;s exhibition as a &#34;labor of love.&#34; A labor as another word for &#34;love.&#34; A love as another word for &#34;labor.&#34; A press release cites the comparability of black and indigenous labors. A wall text stresses the importance of invisible labor, the work of visibilizing labors pluralized on display here. A fight against The Institution subsumes other fights, becomes <i> the </i> struggle. An embourgeoised account of the drudgery of emotional labor. A rest becomes resistance. 
     <br/><br/>
