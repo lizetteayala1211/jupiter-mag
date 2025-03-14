@@ -240,7 +240,10 @@ p > a.styled:hover {
 /* <!-- Special Character --> */ 
 
 .special-number {
-    font-size: 12px;
+    position: relative;
+    bottom: 2px;
+    font-size: 14px;
+    padding-right: 5px;
 }
 
 /* <!-- Editors Note Section CSS --> */ 
