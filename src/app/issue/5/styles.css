@@ -246,6 +246,14 @@ p > a.styled:hover {
     padding-right: 5px;
 }
 
+/* <!-- Special Margins (Kj) --> */ 
+
+.special-margin {
+    position: relative;
+}
+
+
+
 /* <!-- Editors Note Section CSS --> */ 
 
 /* Editors Note Image */

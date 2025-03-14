@@ -89,15 +89,13 @@ export function Article() {
     <br/>
     An irruption must have occurred somewhere, anterior to logics of cause and effect, an insistent previousness, whose impossible presence could only be detected by a Worldless cry, the wretched cry of an irreparable wound which tears a gaping hole in the veil of Universal sense and communicability. The veil owes its very existence to that abyssal cry and to the serially reproduced violence required to both sustain and disavow it. For this reason, there can be no radical transformation of terms, no resolution of this fundamental antagonism, via recourse to the grammatical tools of Transparency: via Rational debate, empathetic demands, or electoral politics. No conciliation is possible. The cry leaves not only mournful traces of loss but generative schisms, syncopated breaks in the uniformizing rhythmic churns of capital. The cry illuminates a sur-reality, changeability as World-ending imperative, constant flight from/under/against/beside capture. And like that, a sentence becomes an equation, then a diagram, then a collage, and back again. And again. I am thinking of a framed work by Kameelah Janan Rasheed. Strange because her work most often takes on sprawling, architectonic forms, with variously sized words, numbers, and lines printed on spatially distributed black, white, and silver surfaces. What do we see in this particular work? &#34;THEBLACK&#34; placed within a long division symbol, appearing with the subscript &#34;&#40;chance.&#34;<span className="special-number"> 67 </span> to open The interior,&#41;&#34; and a more concise superscript, &#34;1,&#34; which is also a footnote referring to the phrase &#34;how precarious.&#34; THEBLACK is being divided by rows of large numbers, ranging from 14,316 to 295,488. A suggestion of multiple divisions occurring at once, a quantum reduction. Yet, this calculative performance is lyrically interrupted by the enigma of THEBLACK, an unassimilable input, one which delimits the threshold between Reason and Unreason. Overwhelmed by the Sisyphean task that confronts it—the formalization of modernity&#39;s dangerous supplement—the mathematical operation can do nothing but throw up a series of non-finite outputs: a doubly recurring ellipsis; a perplexing remainder, &#34;Rubbing: contradictions and ambiguities;&#34; and a promising yet cryptic result, &#34;finding further numbers. new means Of sentences. may be established.&#34; Rasheed&#39;s mathopoetics unsettle the metaphysics of closure and determinacy, the precondition of modern thought, by unleashing blackness&#39;s sublime anti-determinacy, which is also to say its ante-determinacy. This entropic, unlocatable object evades the regulatory Law of division, of individuation, of separability, and yet coheres said Law, constitutes its sovereign function, by way of bearing a more terrifying, unsovereign suggestion: matter&#39;s immanent generativity, the profuse entanglement of all that there was, is, and will be, the always-incomplete, and thus endlessly reiterative composition that is the Earth. This is the inordinate truth that cries, unrelentingly, from the abyss. A mystic song whose raw materiality spells nothing short of 
     <br/>
-    <span className="right">
-    the obliteration of Man … 
+    <span className="right special-margin first"> the obliteration of Man … </span>
     <br/>
-    the abolition of property … 
+    <span className="right special-margin second"> the abolition of property …  </span>
     <br/>
-    the withering away of the state … 
+    <span className="right special-margin third"> the withering away of the state … </span>
     <br/>
-    the end of the World … 
-    </span>
+    <span className="right special-margin fourth"> the end of the World … </span>
     </p>
     <pre id="article" />
           <div
