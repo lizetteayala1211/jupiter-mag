@@ -237,6 +237,12 @@ p > a.styled:hover {
     padding: 40px;
 }
 
+/* <!-- Special Character --> */ 
+
+.special-number {
+    font-size: 12px;
+}
+
 /* <!-- Editors Note Section CSS --> */ 
 
 /* Editors Note Image */
