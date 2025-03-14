@@ -39,7 +39,8 @@ export function Article() {
     <br/><br/>
     Rather than provide an analytic &#40;re&#41;definition or develop an elaborate polemic/diss on the violent misappropriation of this polyvalent term—<a href="https://www.jackie-inhalt.net/reh/bilder/edouard-glissant-for-opacity.pdf" target="_blank" className="styledli"> <i> Opacity </i> </a>—this text is led by an appositional imperative: an unresolved tarrying with the unsubsumable Otherness, irreducible materiality, and ruinous aesthetic excess borne by a constellation of artworks. In honoring the spirit of Glissant&#39;s trenchant critique &#40;which, in my view, exudes a poetic generosity that exceeds, without negating, the potency of the diss&#41;, this text explores, by way of a paratactic dance, what &#40;anti-&#41;definition&#40;s&#41; such an <i> erotics of decipherment </i> might call forth. 
     <br/><br/>
-    <span className="centered"> &#42;&#42;&#42; </span>
+    <span className="centered asteriks"> &#42;&#42;&#42; </span>
+    <br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
       <SignatureContainer src={Roy} alt="Roy DeCarava, Man in Window, Brooklyn, 1978. Photogravure. Image courtesy of the Art Institute of Chicago." className="article-img" />
     </div>
