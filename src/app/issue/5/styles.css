@@ -249,6 +249,7 @@ p > a.styled:hover {
 /* <!-- Special Margins (Kj) --> */ 
 
 .special-margin {
+    display: inline;
     position: relative;
 }
 
