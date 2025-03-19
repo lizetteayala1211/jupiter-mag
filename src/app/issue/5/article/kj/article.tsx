@@ -62,7 +62,7 @@ export function Article() {
     <span className="centered asteriks"> &#42;&#42;&#42; </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Rahima} alt="Rahima Gambo, Instruments of Air, 2020" className="article-img" />
+      <SignatureContainer src={Rahima} alt="Rahima Gambo, Instruments of Air, 2020" className="article-img enlarge" />
     </div>
     <br/>
     <span className="centered small"> Rahima Gambo, <i> Instruments of Air, </i> 2020. </span>
@@ -72,7 +72,7 @@ export function Article() {
     <span className="centered asteriks"> &#42;&#42;&#42; </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Ima} alt="Ima-Abasi Okon, Infinite Slippage: nonRepugnant Insolvencies T!-a!-r!-r!-y!-i!-n!-g! as Hand Claps of M&#39;s Hard&#39;Loved&#39;Flesh [I&#39;M irreducibly-undone because] —Quantum Leanage-Complex-Dub, 2019. Commissioned and produced by Chisenhale Gallery, London. Courtesy of the artist. Photo: Andy Keate." className="article-img" />
+      <SignatureContainer src={Ima} alt="Ima-Abasi Okon, Infinite Slippage: nonRepugnant Insolvencies T!-a!-r!-r!-y!-i!-n!-g! as Hand Claps of M&#39;s Hard&#39;Loved&#39;Flesh [I&#39;M irreducibly-undone because] —Quantum Leanage-Complex-Dub, 2019. Commissioned and produced by Chisenhale Gallery, London. Courtesy of the artist. Photo: Andy Keate." className="article-img enlarge" />
     </div>
     <br/>
     <span className="centered small"> Ima-Abasi Okon, <i> Infinite Slippage: nonRepugnant Insolvencies T!-a!-r!-r!-y!-i!-n!-g! as Hand Claps of M&#39;s Hard&#39;Loved&#39;Flesh &#91;I&#39;M irreducibly-undone because&#91; —Quantum Leanage-Complex-Dub, </i> 2019. Commissioned and produced by Chisenhale Gallery, London. Courtesy of the artist. Photo: Andy Keate. </span>
@@ -82,7 +82,7 @@ export function Article() {
     <span className="centered asteriks"> &#42;&#42;&#42; </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Kameelah} alt="Kameelah Janan Rasheed, Long Division, II, 2018. Archival Inkjet Print. Courtesy of the artist and NOME." className="article-img" />
+      <SignatureContainer src={Kameelah} alt="Kameelah Janan Rasheed, Long Division, II, 2018. Archival Inkjet Print. Courtesy of the artist and NOME." className="article-img enlarge" />
     </div>
     <br/>
     <span className="centered small"> Kameelah Janan Rasheed, <i> Long Division, II, </i> 2018. Archival Inkjet Print. Courtesy of the artist and NOME. </span>
