@@ -8,6 +8,9 @@ import { SignatureContainer, } from "../../styled"
 import "../../styles.css"
 
 import YumeBio from "../../../../../../public/photos/Yume_Murphy.jpg"
+import BoSC0 from "../../../../../../public/photos/BoSC_KeyStill.jpg"
+import BoSC1 from "../../../../../../public/photos/BoSC_Still1.jpg"
+import BoSC5 from "../../../../../../public/photos/BoSC_Still5.jpg"
 
 export function Article() {
   return (
@@ -36,6 +39,12 @@ export function Article() {
     <br/><br/>
     &#34;We are making a film about an artist who didn&#39;t want to be remembered,&#34; Zita Hanrot, who plays Suzanne, states directly to the camera before lighting a cigarette and peeling toward the saccharine sunset, shattering the imposed fourth wall as she will do again and again. Yet, this claim is rendered ambivalent; as interest in Suzanne&#39;s legacy experiences a renaissance, we are left to speculate on what exactly she would have wanted for herself today. While it is true that Suzanne&#39;s destruction of her writing can be interpreted as her opting out of a public narrativization of her own life, the film &#40;in addition to her essays and advocacy for <i> Tropiques </i>&#41; is evidence of the very legacy Suzanne established in her lifetime. As Haitian anthropologist Michel-Rolph Trouillot invokes in his writing, the erasure of Black histories has necessitated the need for a Black imaginary that can conjure representations of Black life thought to be <i> unthinkable. </i><sup><a href="#fn1" id="ref1">1</a></sup> Accordingly, the film eschews a linear narrative in favor of a more suggestive approach reminiscent of her poetic, covert prose—largely drawing on her last published essay &#34;Le Grand Camouflage,&#34; its title a reference to how the Caribbean&#39;s paradisal beauty is capable of masking the exploitative reality of life in the region. Hazy yet lurid, Suzanne&#39;s haunting obscurity becomes essentially the primary driving force behind Hunt-Ehrlich&#39;s film. 
     <br/><br/>
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      <SignatureContainer src={BoSC1} alt="Image courtesy of Cinema Guild."className="article-img" />
+    </div>
+    <br/>
+    <span className="centered small"> Image courtesy of Cinema Guild. </span>
+    <br/>
     Filmed in a tree archive at the Montgomery Palmetum & Palm Collection of the Fairchild Tropical Botanic Garden in Miami, the film&#39;s abundant display of southern Florida&#39;s vegetation evokes the forests of Martinique, just as Zita&#39;s presence conjures an uncanny resemblance to the late Suzanne. The French actress doubly performs as a surrogate for Suzanne&#39;s spirit while also playing the semi-scripted role of a new mother and actress preparing to play Suzanne. Similarly, Motell Foster plays an American actor performing the role of Suzanne&#39;s husband, Aimé. Josué Gutierrez acts as André Breton, the famed French Surrealist collaborator who, also barred from the Hexagon during the Vichy years, met the couple in Martinique. For the duration of the film, the duo and/or trio is backgrounded by the chirping sounds of the forest and anonymized figures, all practically gliding in and out of the 16mm frame. The strictures between who is cast, crew, or character blur with a tedious attention to symbolic composition and blocking. This simulation proves a visually poetic vehicle for a kind of allegorical summoning that melds the past, present, and imagined. While this abstraction takes inspiration from the form Suzanne was dedicated to, it does not give her a voice. 
     <br/><br/>
     When I discover that the film is also based, in part, upon an essay by American writer Terese Svoboda entitled <a href="https://www.guernicamag.com/surrealist-refugees-tropics/" target="_blank" className="styled"> &#34;Surrealist Refugees in the Tropics,&#34; </a> I&#39;m surprised by what I find. Svoboda describes a revisionist, feminist history of the French Surrealists in the late 1930s and 1940s, who were enchanted by the potency of the converging Afro-Surrealist and Négritude movements. Parsing through epistolary exchanges, essays, and poems, Svoboda closely circles the worlds of Suzanne and Jacqueline Lamba, each the talented wives of men who aspired to wield &#34;surrealism as a weapon&#34; for the &#34;liberation of man&#34; in the face of fascism.<sup><a href="#fn2" id="ref2">2</a></sup> The result is a revealing account of women whose respective contributions to Surrealism and Négritude were conveniently forgotten, if not erased, by their husbands. On Suzanne&#39;s missing play &#34;The Dawn of Freedom,&#34; she writes: 
@@ -46,6 +55,12 @@ export function Article() {
     <br/><br/>
     Without a distinctly legible narrative or biographical context provided in the film itself, the seventy-five-minute film relies heavily on the spectator&#39;s pre-existing knowledge of Suzanne. The trouble with this approach is that little exposition is given to Suzanne&#39;s inner world. In Svoboda&#39;s essay, Suzanne&#39;s daughter recalls her mother saying &#34;your generation will be the women who choose.&#34; We don&#39;t see how she chooses; how she chooses to sing even if piercingly out of tune, to let her hair down for the amusement of her children, or how she chose to wear red on her wedding day to underscore the secular nature of her union with Aimé. 
     <br/><br/>
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      <SignatureContainer src={BoSC0} alt="Image courtesy of Cinema Guild."className="article-img" />
+    </div>
+    <br/>
+    <span className="centered small"> Image courtesy of Cinema Guild. </span>
+    <br/>
     Further, Suzanne&#39;s role as a mother is represented minimally. In the same two-minute sequence where Zita claims Suzanne did not want to be remembered, she describes how motherhood challenged Suzanne&#39;s role as a writer. &#34;The work of writing was paramount to her &#91;Suzanne&#93;… It is difficult to be a productive writer when you have six children,&#34; she says, as her own newborn can be heard crying, before a nanny appears with the baby towed in a cradle. Zita&#39;s onscreen presence with her child offers a sort of bourgeois reenactment of motherhood, in stark contrast to both her remarks and Svoboda&#39;s narrativization of the difficulty motherhood posed to Suzanne.<sup><a href="#fn3" id="ref3">3</a></sup>
     <br/><br/>
     Zita, who we had just seen as Suzanne, now seamlessly presides as herself. The sort of roving gaze that traverses between time and place becomes indicative of the limits of Hunt-Ehrlich&#39;s dream-logic. As the buzzing coo of the forest remains through sequences, it becomes rather difficult to discern whether we are in Vichy-ruled Martinique or the Miami tree archive and shooting location. The camera&#39;s eye is haunted by the past, as the actress is haunted by Suzanne&#39;s words. It becomes almost impossible to distinguish Zita-as-Zita from Zita-as-Suzanne. However, there is little meaning offered to their juxtaposition outside of the frame of the film within a documentary format, to their resemblance and shared Caribbean heritage.
@@ -56,6 +71,12 @@ export function Article() {
     <br/><br/>
     It&#39;s curious how the truths Svoboda announces in her essay remain quiet in the film. By the film&#39;s close, we are no closer to knowing the contours of the figure whom the film serves as altar to. Suzanne, the fierce Surrealist essayist. Suzanne, the &#34;black panther&#34; whose dazzling beauty serves as camouflage for her renegade ambitions. Suzanne, the devoted mother of six who teaches tirelessly, often falling ill. Suzanne, the feminist whose womanhood relegates her to the margins of her ex-husband&#39;s life. Rather than reveling in the virtuosity of Suzanne&#39;s great camouflage, we are seemingly deceived by her.   
     <br/><br/>
+    <div style={{ display: "flex", flexDirection: "column" }}>
+      <SignatureContainer src={BoSC5} alt="Image courtesy of Cinema Guild. "className="article-img" />
+    </div>
+    <br/>
+    <span className="centered small"> Image courtesy of Cinema Guild. </span>
+    <br/>
     Buckling under the weight of the great silencing of its moored protagonist, <i> The Ballad of Suzanne Césaire </i> struggles with redressing Suzanne&#39;s erasure from history—opting for a level of narrative ambivalence that prioritizes the visual plentitude of abstraction. I find myself with a desire to witness some kind of <i>un</i>silencing, for Hunt-Ehrlich to envision the <i>un</i>thinkable, in order to generate some kind of discursive life out of the living record. Perhaps that this narrative desire is not met is <i> the </i> point. Perhaps, a closer reading might lead you to consider how the film&#39;s delightful ambivalence toward Suzanne&#39;s legacy expresses one of many masks Suzanne might&#39;ve worn throughout her life, if not Hunt-Ehrlich&#39;s profound fascination with her.<sup><a href="#fn4" id="ref4">4</a></sup>
     <br/><br/>
     For one reason or another, this sort of critical fabulation around Suzanne Roussi Césaire&#39;s silencing remains a mystery.<sup><a href="#fn5" id="ref5">5</a></sup> Instead, the end of the film-within-a-film concludes with a question: <i> What? </i> Like waking up from a dream you can&#39;t quite hold onto, <i> The Ballad of Suzanne Césaire </i> escapes me. Fading out like a distant memory.
