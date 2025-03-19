@@ -42,7 +42,7 @@ export function Article() {
     <span className="centered asteriks"> &#42;&#42;&#42; </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Roy} alt="Roy DeCarava, Man in Window, Brooklyn, 1978. Photogravure. Image courtesy of the Art Institute of Chicago." className="article-img" />
+      <SignatureContainer src={Roy} alt="Roy DeCarava, Man in Window, Brooklyn, 1978. Photogravure. Image courtesy of the Art Institute of Chicago." className="article-img enlarge" />
     </div>
     <br/>
     <span className="centered small"> Roy DeCarava, <i> Man in Window, Brooklyn, </i> 1978. Photogravure. Image courtesy of the Art Institute of Chicago. </span>

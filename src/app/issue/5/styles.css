@@ -689,6 +689,10 @@ img {
     width: 70% !important;
 }
 
+.enlarge {
+    width: 85% !important;
+}
+
 .bio-medium {
     font-size: 16px;
     line-height: 160% !important;
