@@ -42,7 +42,7 @@ export function Article() {
     <span className="centered asteriks"> &#42;&#42;&#42; </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Roy} alt="Roy DeCarava, Man in Window, Brooklyn, 1978. Photogravure. Image courtesy of the Art Institute of Chicago." className="article-img enlarge" />
+      <SignatureContainer src={Roy} alt="Roy DeCarava, Man in Window, Brooklyn, 1978. Photogravure. Image courtesy of the Art Institute of Chicago." className="article-img" />
     </div>
     <br/>
     <span className="centered small"> Roy DeCarava, <i> Man in Window, Brooklyn, </i> 1978. Photogravure. Image courtesy of the Art Institute of Chicago. </span>
@@ -52,7 +52,7 @@ export function Article() {
     <span className="centered asteriks"> &#42;&#42;&#42; </span>
     <br/>
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <SignatureContainer src={Diedrick} alt="Diedrick Brackens, the revolutionary rite, 2023. Cotton and acrylic yarn. Image courtesy of the artist, Jack Shainman Gallery, New York, and Various Small Fires, Los Angeles, Dallas and Seoul." className="article-img" />
+      <SignatureContainer src={Diedrick} alt="Diedrick Brackens, the revolutionary rite, 2023. Cotton and acrylic yarn. Image courtesy of the artist, Jack Shainman Gallery, New York, and Various Small Fires, Los Angeles, Dallas and Seoul." className="article-img enlarge" />
     </div>
     <br/>
     <span className="centered small"> Diedrick Brackens, <i> the revolutionary rite, </i> 2023. Cotton and acrylic yarn. Image courtesy of the artist, Jack Shainman Gallery, New York, and Various Small Fires, Los Angeles, Dallas and Seoul. </span>
