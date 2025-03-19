@@ -1091,6 +1091,10 @@ a.styledli {
         width: 90% !important;
     }
 
+    .enlarge {
+        width: 100% !important;
+    }
+
     .bio-img {
         display: flex !important;
         align-self: center !important;
