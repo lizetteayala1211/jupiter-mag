@@ -48,7 +48,7 @@ function Article() {
         >
           Cap 110 Memorial
         </a>
-        , Julien gives us a poem: An incantation that incarnates the fundamental
+        , Julien gives us a poem: an incantation that incarnates the fundamental
         insurgence of this gathering. It&apos;s more communion than conference,
         for the wind and waves have willed it so…
       </p>
@@ -128,12 +128,11 @@ function Article() {
         <i style={{ color: "white" }}>BADAM</i> (we stand: seized, spellbound, and reminded of an) <br />
         <i style={{ color: "white" }}>BADAM</i> (airborne assailant. the metropole is the “something” that
         “hits you.”) <br />
-        <i style={{ color: "white" }}>BADAM</i> (louder this time—the tricolor and all it stands for, up in
-        smoke)
+        <i style={{ color: "white" }}>BADAM</i>
         <br />
-        <i style={{ color: "white" }}>BADAM</i> (Marianne, hallmark of spurious liberty drops to her knees){" "}
+        <i style={{ color: "white" }}>BADAM</i>
         <br />
-        <i style={{ color: "white" }}>BADAM</i> (once more and she&apos;ll “hit the floor”)
+        <i style={{ color: "white" }}>BADAM</i>
       </p>
       <p style={{ color: "white" }}>
         Simone Lagrand&apos;s voice is thunder passed through windpipes. As her
@@ -197,7 +196,7 @@ function Article() {
       <p style={{ color: "white" }}>And what if we swell the scale further? </p>
       <p style={{ color: "white" }}>
         We can turn to quantum entanglement also as a means to read the
-        relationship between France and its neo-colonies: Like how they
+        relationship between France and its neo-colonies: like how they
         asphyxiate our land with concrete and chlordecone without realizing they
         too are porous to the poison. Or, like when the hexagon decides an
         artist who hails from its purposeful periphery will speak for the entire
@@ -285,7 +284,7 @@ function Article() {
         our foreheads, also endlessly perspiring, and reapply the liquid blush
         we use as lipstick. Feeling fresh, we photograph ourselves in the mirror
         and register the fact that our luminary&apos;s reflection was here too,
-        that this is where he beheld his own image daily: A perfect moment of{" "}
+        that this is where he beheld his own image daily: a perfect moment of{" "}
         <a
           target="_blank"
           href="https://avo-translations.co.uk/23-untranslatable-japanese-words-with-beautiful-meanings"
@@ -392,7 +391,7 @@ function Article() {
       </p>
       <p style={{ color: "white" }}>
         Ensconced in the safety of Daria&apos;s arms, I wonder for a while about
-        the cascade&apos;s enraptured expanse and think to myself: No wonder
+        the cascade&apos;s enraptured expanse and think to myself: no wonder
         Suzanne and her comrades came here to write the world anew. She has been
         with us all along the way, threading that glistening{" "}
         <a

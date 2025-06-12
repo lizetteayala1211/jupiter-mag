@@ -334,7 +334,7 @@ export function Article() {
       </p>
       <br />
       <p className="c6">
-        <span className="c0" style={{ color: "white" }}>
+        <span className="c0" style={{ color: "white !important" }}>
           Further proof of the profundity of a shadow lies in{" "}
         </span>
         <i>Synapse</i>
@@ -375,7 +375,7 @@ export function Article() {
             [3]
           </a>
         </sup>
-        <span className="c0" style={{ color: "white" }}>&nbsp;In </span>
+        <span className="c0" style={{ color: "white !important" }}>&nbsp;In </span>
         <i>Synapse </i>
         <span className="c0" style={{ color: "white" }}>resides</span>
         <span className="c0" style={{ color: "white" }}>
