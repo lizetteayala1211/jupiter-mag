@@ -337,7 +337,7 @@ export function Article() {
         <span className="c0" style={{ color: "white !important" }}>
           Further proof of the profundity of a shadow lies in{" "}
         </span>
-        <i>Synapse</i>
+        <i style={{ color: "white !important" }}>Synapse</i>
         <span className="c0" style={{ color: "white" }}>&nbsp;(1992)</span>
         <span className="c0" style={{ color: "white" }}>
           &nbsp;by Terry Adkins which situates itself as the apex of{" "}
@@ -376,7 +376,7 @@ export function Article() {
           </a>
         </sup>
         <span className="c0" style={{ color: "white !important" }}>&nbsp;In </span>
-        <i>Synapse </i>
+        <i style={{ color: "white !important" }}>Synapse </i>
         <span className="c0" style={{ color: "white" }}>resides</span>
         <span className="c0" style={{ color: "white" }}>
           &nbsp;a musical performance. The frame of the sculpture takes up the
