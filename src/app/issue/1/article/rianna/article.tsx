@@ -12,11 +12,10 @@ export function Article() {
         style={{ width: "30%", height: "30%", paddingTop: "1em", paddingBottom: "1em", alignSelf: "center", justifySelf: "center", display: "flex", }}
         alt="Black cultural artwork"
       />
-      <CaptionContainer className="article-img-cap">
-        <span style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifyContent: "center", justifySelf: "center", }}>Albert Artwell, </span>
-        <i style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifyContent: "center", justifySelf: "center", }}> Jesse through the Black Star Liner (c. 1980s).</i> Sea with four
-        boats. Time is collapsed with boats carrying Jesse, Jesus, and other
-        biblical figures alongside Marcus Garvey&apos;s Black Star Liner.
+      <CaptionContainer className="article-img-cap" style={{ color: "white", }}>
+        <p style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifyContent: "center", justifySelf: "center", }}> Albert Artwell,
+        Jesse through the Black Star Liner (c. 1980s). <br /> Sea with four boats. Time is collapsed with boats carrying Jesse, Jesus, and other
+        biblical figures alongside Marcus Garvey&apos;s Black Star Liner. </p>
       </CaptionContainer>
       <ol className="c6 lst-kix_mcr6ri1dk5fa-0" start={1}>
         <li className="c2 li-bullet-0">
