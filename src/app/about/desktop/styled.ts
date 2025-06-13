@@ -20,6 +20,6 @@ export const VideoSection = styled.section`
   height: auto;
   width: 100%;
   position: relative;
-  top: -80px;
-  margin-bottom: 128px;
+  top: -220px;
+  margin-bottom: 40px;
 `

@@ -72,58 +72,24 @@ export function Programs() {
                         </div>
                         <div className="p-event">
                             <div className="p-event-date-info">
-                                <p className="darker-grotesque"> 06.08.2024 | 3pm-6pm </p>
+                                <p className="darker-grotesque"> 07.09.2024 | 6pm-9pm </p>
                             </div>
                             <div className="p-event-title">
-                                <h4 className="darker-grotesque">  Embodied Poetics: A Movement & Writing Workshop </h4>
+                                <h4 className="darker-grotesque"> Apophenia: </h4>
+                                <h4 className="darker-grotesque"> Anatomy of a Prayer </h4>
                             </div>
                             <div className="p-event-local-info">
-                                <p className="darker-grotesque"> <a href="https://adanne.co/" target="_blank" className="internal"> ADANNE BOOKSHOP</a> — 115 Ralph Ave, Brooklyn, NY 11221 </p>
+                                <p className="darker-grotesque"> <a href="https://artsandpubliclife.org/" target="_blank" className="internal"> ARTS + PUBLIC LIFE </a> — 301 E Garfield Blvd, Chicago, IL 60637 </p>
                             </div>
                             <br />
                             <div className="p-event-local-description">
-                                <p> Join us for <i> Embodied Poetics: </i> a two-part program organized in collaboration with Aimee Meredith Cox and Yusuf Hassan (BlackMass Publishing).
+                                <p> Join us for <i> apophenia: anatomy of a prayer: </i> a program organized in collaboration with Victor Musoni and Ireon Roach.
                                 </p>
                                 <br />
-                                <p> In its purest forms, art draws one nearer to the deep corners of the self. Through each encounter with an art object—visual, sonic, performance, and beyond—we&apos;re beckoned toward a journey of self-discovery. We&apos;re granted permission to dive into the abyss of what it means to make new meaning. When we peer into a work, truths about our reality and the world around us are often revealed and reflected back to us with immense clarity.
-                                </p>
+                                <p> &quot;What is a prayer, but a question without structure? What is a poem but pre-incarnation punctuation, your own hand&apos;s hire for an answer? From such gospels as Amiri Baraka, Toni Cade Bambara, and Alexis Pauline Gumbs, we are shown that our own texts can and have become just as holy, when regarded as such. &apos;apophenia: anatomy of a prayer&apos; is an intertextual somatic meditation which encourages connection with that which follows you and gently asks those things to take the lead. Through a series of close readings of related material (from aforementioned poets), we will make space for the grand feeling bubbling within us, bear witness, and tend to it as a way of offering reverence to that which is already with us. All of this in hopes that our own words will return to us in a time of need. The writing workshop does not ask about that which you would like to write, but that which would like to be written about by you. Explore with us the anatomy of prayer, incantation, “speaking over oneself,” and the power of this magic in Black people and their poetry.&quot; </p> <br />
+                                 <i> — Victor Musoni and Ireon Roach </i>
                                 <br />
-                                <p> <i> Embodied Poetics </i> invites guests to practice the revelatory form of self-portraiture by way of language and ekphrastic interpretation. In her poem, <i>the message from &quot;The Ones,&quot; </i> visionary poet and writer Lucille Clifton reminds us: &quot;pay attention to / what sits inside yourself / and watches you.&quot; Guided by Clifton&apos;s prescient words and several additional prompts, guests will develop either a single textual offering, or a collection of several, to take with them following the workshop. Binding methods will be available should guests wish to compile their texts into a zine or booklet, with support from Yusuf.
-                                </p>
-                                <br />
-                                <p> The workshop will commence with a forty-five minute Embodied Poetics yoga session led by anthropologist, writer, and movement artist <a href="https://as.nyu.edu/faculty/aimee-cox.html" target="_blank" className="internal"> Aimee Meredith Cox </a> , such that guests may approach the page feeling acutely attuned to their somatic reality. With this in mind, be sure to dress in something that you&apos;ll be comfortable moving in.
-                                </p>
-                                <br />
-                                <p> What to bring:  <br />
-                                    — Image or memory of an artwork  <br />
-                                    — A favorite writing utensil  <br />
-                                    — Yoga mat
-                                </p>
-                                <br />
-                                {/* <a href="https://www.eventbrite.com/e/embodied-poetics-a-movement-and-writing-workshop-tickets-918030352497" target="_blank" className="rsvp"> RSVP HERE </a> */}
-                            </div>
-                        </div>
-                        <div className="p-event">
-                            <div className="p-event-date-info">
-                                <p className="darker-grotesque"> 06.20.2024 | 6pm-9pm </p>
-                            </div>
-                            <div className="p-event-title">
-                                <h4 className="darker-grotesque"> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal
-                                </h4>
-                            </div>
-                            <div className="p-event-local-info">
-                                <p className="darker-grotesque"> <a href="https://rep.club/" target="_blank" className="internal"> REPARATIONS CLUB</a> — 3054 S Victoria Ave, Los Angeles, CA 90016
-                                </p>
-                            </div>
-                            <br />
-                            <div className="p-event-local-description">
-                                <p> Join us for <i> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal: </i> a conversation between Jupiter co-founders Camille Bacon and Daria Simone Harper, moderated by curator-writer Taylor Renee Aldridge.     
-                                </p>
-                                <br />
-                                <p> The dialogue will orbit around the art historical referent for Issue 003&apos;s conceptual framing (Charles Gaines&apos;s 1993 exhibition <i> The Theater of Refusal, </i> from which this issue borrows its title), the risk and ecstasy of transgressing traditional forms of cultural criticism like the “essay” or “review,” and strategies Camille, Daria, and Taylor use to attend to culturally specific histories, lineages, and aesthetic movements, while simultaneously refusing to be pigeonholed.  </p>
-                                <br />
-                                <p> Ignited by Gaines&apos;s remark that “marginalization is a sword with two edges: as we use it to attack racism, we wound our villain with each downstroke, but each time we raise the sword for another blow, we wound ourselves,” they will also explore their shared skepticism around the inheritance of language and practices that revolve around “representation” and consider how it aids and abets the <i> performance and spectacle </i> rather than the <i> enactment </i> of “progress.” </p>
-                                <br />
+                                {/* <a href="https://artsandpubliclife.org/apl-events-calendar/apophenia-anatomy-of-a-prayer" target="_blank" className="rsvp"> RSVP HERE </a> */}
                             </div>
                         </div>
                         <div className="p-event">
@@ -160,24 +126,58 @@ export function Programs() {
                         </div>
                         <div className="p-event">
                             <div className="p-event-date-info">
-                                <p className="darker-grotesque"> 07.09.2024 | 6pm-9pm </p>
+                                <p className="darker-grotesque"> 06.20.2024 | 6pm-9pm </p>
                             </div>
                             <div className="p-event-title">
-                                <h4 className="darker-grotesque"> Apophenia: </h4>
-                                <h4 className="darker-grotesque"> Anatomy of a Prayer </h4>
+                                <h4 className="darker-grotesque"> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal
+                                </h4>
                             </div>
                             <div className="p-event-local-info">
-                                <p className="darker-grotesque"> <a href="https://artsandpubliclife.org/" target="_blank" className="internal"> ARTS + PUBLIC LIFE </a> — 301 E Garfield Blvd, Chicago, IL 60637 </p>
+                                <p className="darker-grotesque"> <a href="https://rep.club/" target="_blank" className="internal"> REPARATIONS CLUB</a> — 3054 S Victoria Ave, Los Angeles, CA 90016
+                                </p>
                             </div>
                             <br />
                             <div className="p-event-local-description">
-                                <p> Join us for <i> apophenia: anatomy of a prayer: </i> a program organized in collaboration with Victor Musoni and Ireon Roach.
+                                <p> Join us for <i> &apos;A Sword With Two Edges&apos; / On The Theater of Refusal: </i> a conversation between Jupiter co-founders Camille Bacon and Daria Simone Harper, moderated by curator-writer Taylor Renee Aldridge.     
                                 </p>
                                 <br />
-                                <p> &quot;What is a prayer, but a question without structure? What is a poem but pre-incarnation punctuation, your own hand&apos;s hire for an answer? From such gospels as Amiri Baraka, Toni Cade Bambara, and Alexis Pauline Gumbs, we are shown that our own texts can and have become just as holy, when regarded as such. &apos;apophenia: anatomy of a prayer&apos; is an intertextual somatic meditation which encourages connection with that which follows you and gently asks those things to take the lead. Through a series of close readings of related material (from aforementioned poets), we will make space for the grand feeling bubbling within us, bear witness, and tend to it as a way of offering reverence to that which is already with us. All of this in hopes that our own words will return to us in a time of need. The writing workshop does not ask about that which you would like to write, but that which would like to be written about by you. Explore with us the anatomy of prayer, incantation, “speaking over oneself,” and the power of this magic in Black people and their poetry.&quot; </p> <br />
-                                 <i> — Victor Musoni and Ireon Roach </i>
+                                <p> The dialogue will orbit around the art historical referent for Issue 003&apos;s conceptual framing (Charles Gaines&apos;s 1993 exhibition <i> The Theater of Refusal, </i> from which this issue borrows its title), the risk and ecstasy of transgressing traditional forms of cultural criticism like the “essay” or “review,” and strategies Camille, Daria, and Taylor use to attend to culturally specific histories, lineages, and aesthetic movements, while simultaneously refusing to be pigeonholed.  </p>
                                 <br />
-                                {/* <a href="https://artsandpubliclife.org/apl-events-calendar/apophenia-anatomy-of-a-prayer" target="_blank" className="rsvp"> RSVP HERE </a> */}
+                                <p> Ignited by Gaines&apos;s remark that “marginalization is a sword with two edges: as we use it to attack racism, we wound our villain with each downstroke, but each time we raise the sword for another blow, we wound ourselves,” they will also explore their shared skepticism around the inheritance of language and practices that revolve around “representation” and consider how it aids and abets the <i> performance and spectacle </i> rather than the <i> enactment </i> of “progress.” </p>
+                                <br />
+                            </div>
+                        </div>
+                        <div className="p-event">
+                            <div className="p-event-date-info">
+                                <p className="darker-grotesque"> 06.08.2024 | 3pm-6pm </p>
+                            </div>
+                            <div className="p-event-title">
+                                <h4 className="darker-grotesque">  Embodied Poetics: A Movement & Writing Workshop </h4>
+                            </div>
+                            <div className="p-event-local-info">
+                                <p className="darker-grotesque"> <a href="https://adanne.co/" target="_blank" className="internal"> ADANNE BOOKSHOP</a> — 115 Ralph Ave, Brooklyn, NY 11221 </p>
+                            </div>
+                            <br />
+                            <div className="p-event-local-description">
+                                <p> Join us for <i> Embodied Poetics: </i> a two-part program organized in collaboration with Aimee Meredith Cox and Yusuf Hassan (BlackMass Publishing).
+                                </p>
+                                <br />
+                                <p> In its purest forms, art draws one nearer to the deep corners of the self. Through each encounter with an art object—visual, sonic, performance, and beyond—we&apos;re beckoned toward a journey of self-discovery. We&apos;re granted permission to dive into the abyss of what it means to make new meaning. When we peer into a work, truths about our reality and the world around us are often revealed and reflected back to us with immense clarity.
+                                </p>
+                                <br />
+                                <p> <i> Embodied Poetics </i> invites guests to practice the revelatory form of self-portraiture by way of language and ekphrastic interpretation. In her poem, <i>the message from &quot;The Ones,&quot; </i> visionary poet and writer Lucille Clifton reminds us: &quot;pay attention to / what sits inside yourself / and watches you.&quot; Guided by Clifton&apos;s prescient words and several additional prompts, guests will develop either a single textual offering, or a collection of several, to take with them following the workshop. Binding methods will be available should guests wish to compile their texts into a zine or booklet, with support from Yusuf.
+                                </p>
+                                <br />
+                                <p> The workshop will commence with a forty-five minute Embodied Poetics yoga session led by anthropologist, writer, and movement artist <a href="https://as.nyu.edu/faculty/aimee-cox.html" target="_blank" className="internal"> Aimee Meredith Cox </a> , such that guests may approach the page feeling acutely attuned to their somatic reality. With this in mind, be sure to dress in something that you&apos;ll be comfortable moving in.
+                                </p>
+                                <br />
+                                <p> What to bring:  <br />
+                                    — Image or memory of an artwork  <br />
+                                    — A favorite writing utensil  <br />
+                                    — Yoga mat
+                                </p>
+                                <br />
+                                {/* <a href="https://www.eventbrite.com/e/embodied-poetics-a-movement-and-writing-workshop-tickets-918030352497" target="_blank" className="rsvp"> RSVP HERE </a> */}
                             </div>
                         </div>
                     </div>

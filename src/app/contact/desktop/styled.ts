@@ -6,8 +6,9 @@ export const Main = styled(SharedGridMain)`
     "header header"
     "contact form";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 6fr;
+  /* grid-template-rows: 1fr 6fr; */
   font-family: "Alverata Light";
+  margin-bottom: 100px;
 `
 
 export const HeaderSection = styled.section`
@@ -22,11 +23,14 @@ export const ContactSection = styled.section`
   grid-area: contact;
   display: flex;
   margin: 5em auto;
-
   flex-direction: column;
   gap: 2.5em;
+  height: max-content !important;
+  /* position: relative;
+  top: -100px; */
 `
 
 export const FormSection = styled.section`
   grid-area: form;
+  height: max-content !important;
 `

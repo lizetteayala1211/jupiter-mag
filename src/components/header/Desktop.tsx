@@ -12,9 +12,9 @@ export function DesktopHeader() {
       <LogoContainer href=".">
         <JupiterLogo color="white" />
       </LogoContainer>
-      <DesktopNavBarContainer>
+      {/* <DesktopNavBarContainer>
         <NavBar />
-      </DesktopNavBarContainer>
+      </DesktopNavBarContainer> */}
       <div style={{ width: "200px" }} />
     </HeaderContainer>
   )
