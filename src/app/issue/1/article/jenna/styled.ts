@@ -106,12 +106,12 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
 
 @media only screen and (min-width: 375px) and (max-device-width : 481px) {
   .article-img {
-    width: 80%;
-    height: 80%;
+    width: 80% !important;
+    height: 80% !important;
   }
 
   .article-img-cap {
-    width: 90%;
+    width: 90% !important;
   }
 }
 `
