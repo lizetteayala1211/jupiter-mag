@@ -47,7 +47,7 @@ export const ArticleContainerStyles = styled.div`
   }
 
   @media only screen and (min-width: ${screenXsMin}) {
-    padding: 0px 5%;
+    padding: 0px 11%;
   }
 `
 

@@ -75,13 +75,14 @@ export function Article() {
       </p>
       <br />
       <Image
-        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
+        style={{ width: "35%", height: "35%", paddingTop: "1em", paddingBottom: "1em", alignSelf: "center", }}
         src={dialloImg1}
         alt="Mamady playing instrument"
       />
-      <CaptionContainer style={{ color: "white" }}>
+      <CaptionContainer style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", }}>
         Mamady Kouyaté, image courtesy of Mamady Kouyaté
       </CaptionContainer>
+      <br />
       <p className="c6">
         <span className="c0" style={{ color: "white" }}>
           To hear Mamady play is to have sound strummed into one&#39;s
@@ -150,15 +151,16 @@ export function Article() {
       </p>
       <br />
       <Image
-        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
+        style={{ width: "35%", height: "35%", paddingTop: "1em", paddingBottom: "1em", alignSelf: "center", }}
         src={dialloImg3}
         alt="Artwork"
       />
-      <CaptionContainer style={{ color: "white" }}>
+      <CaptionContainer style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", }}>
         Bill Traylor. c. 1939-1942. Watercolor and pencil on board, 14 x 13
         3/4&quot;. Gift of Marie-Josée and Henry R. Kravis. The Museum of Modern
         Art, New York.{" "}
       </CaptionContainer>
+      <br />
       <p className="c6">
         <span className="c0" style={{ color: "white" }}>
           This exhibition unfurls from an investigation of Black cultural and
@@ -278,15 +280,16 @@ export function Article() {
       </p>
       <br />
       <Image
-        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
+        style={{ width: "35%", height: "35%", paddingTop: "1em", paddingBottom: "1em", alignSelf: "center", }}
         src={dialloImg4}
         alt="Man playing instrument"
       />
-      <CaptionContainer style={{ color: "white" }}>
+      <CaptionContainer style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", }}>
         W. Eugene Smith. Rahsaan Roland Kirk. 1964. Gelatin silver print, 11 1/2
         × 7 1/4″. Gift of Richard L. Sandor. The Museum of Modern Art, New York.
         © 1964, 2023 The Heirs of W. Eugene Smith.
       </CaptionContainer>
+      <br />
       <p className="c6">
         <span className="c0" style={{ color: "white" }}>That night the </span>
         <span className="c0" style={{ color: "white" }}>electric</span>
@@ -392,14 +395,14 @@ export function Article() {
       </p>
       <br />
       <Image
-        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
+        style={{ width: "65%", height: "65%", paddingTop: "1em", paddingBottom: "1em", alignSelf: "center", }}
         src={dialloImg2}
         alt="Art gallery room"
       />
-      <CaptionContainer style={{ color: "white" }}>
+      <CaptionContainer style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", }}>
         Installation view of Artist’s Choice: Grace Wales Bonner—
         <i>Spirit Movers</i>, on view at The Museum of Modern Art from November
-        18, 2023 through April 7, 2024. Photo: Emile Askey.
+        18, 2023 through April 7, 2024. <br /> Photo: Emile Askey.
       </CaptionContainer>
       <p className="c6">
         <span className="c0" style={{ color: "white" }}>

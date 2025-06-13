@@ -131,21 +131,21 @@ export function Article() {
           </span>
         </p>
         <br />
-        <div style={{ display: "flex", gap: "1em", paddingTop: "1em" }}>
+        <div style={{ display: "flex", gap: "1em", paddingTop: "1em", paddingBottom: "1em", alignContent: "center", alignItems: "center", justifyContent: "center", }}>
           <Image
-            style={{ width: "50%", height: "50%" }}
+            style={{ width: "40%", height: "40%", }}
             src={img1}
             alt="Woman sitting at piano"
           />
 
           <Image
-            style={{ height: "50%", width: "50%" }}
+            style={{ height: "40%", width: "40%" }}
             src={img2}
             alt="Silouhette of a man"
           />
         </div>
-        <CaptionContainer style={{ color: "white" }}>
-          <i>X’ene’s Witness</i>, presented by Los Angeles Nomadic Division
+        <CaptionContainer style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifySelf: "center", }}>
+          X’ene’s Witness, presented by Los Angeles Nomadic Division
           [LAND], images courtesy of Justen Leroy and 718 Photography
         </CaptionContainer>
         <p className="c0">
@@ -211,12 +211,12 @@ export function Article() {
           <span className="c4 c2"></span>
         </p>
         <Image
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "45%", height: "45%", display: "flex", gap: "1em", paddingTop: "1em", paddingBottom: "1em", alignSelf: "center", justifySelf: "center", }}
           src={img3}
           alt="Woman sitting at piano"
         />
-        <CaptionContainer style={{ color: "white" }}>
-          <i>X’ene’s Witness</i>, presented by Los Angeles Nomadic Division
+        <CaptionContainer style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifySelf: "center", }}>
+          X’ene’s Witness, presented by Los Angeles Nomadic Division
           [LAND], images courtesy of Justen Leroy and 718 Photography
         </CaptionContainer>
         <p className="c0">

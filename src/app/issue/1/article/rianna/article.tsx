@@ -9,12 +9,12 @@ export function Article() {
       <MediumGuy />
       <Image
         src={riannaImg1}
-        style={{ width: "100%", height: "100%", paddingTop: "1em" }}
+        style={{ width: "30%", height: "30%", paddingTop: "1em", paddingBottom: "1em", alignSelf: "center", justifySelf: "center", display: "flex", }}
         alt="Black cultural artwork"
       />
       <CaptionContainer>
-        <span style={{ color: "white" }}>Albert Artwell, </span>
-        <i style={{ color: "white" }}> Jesse through the Black Star Liner (c. 1980s).</i> Sea with four
+        <span style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifyContent: "center", justifySelf: "center", }}>Albert Artwell, </span>
+        <i style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifyContent: "center", justifySelf: "center", }}> Jesse through the Black Star Liner (c. 1980s).</i> Sea with four
         boats. Time is collapsed with boats carrying Jesse, Jesus, and other
         biblical figures alongside Marcus Garvey&apos;s Black Star Liner.
       </CaptionContainer>
