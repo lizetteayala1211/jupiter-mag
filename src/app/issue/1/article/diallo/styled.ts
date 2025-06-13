@@ -196,7 +196,7 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     }
   }
 
-  /* <!-- Mobile Device CSS (Small Screens) --> */ 
+/* <!-- Mobile Device CSS (Small Screens) --> */ 
 
 @media only screen and (min-width: 375px) and (max-device-width : 481px) {
 

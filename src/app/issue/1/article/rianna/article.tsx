@@ -7,12 +7,12 @@ export function Article() {
   return (
     <ArticleStyles style={{ }}>
       <MediumGuy />
-      <Image
+      <Image className="article-img"
         src={riannaImg1}
         style={{ width: "30%", height: "30%", paddingTop: "1em", paddingBottom: "1em", alignSelf: "center", justifySelf: "center", display: "flex", }}
         alt="Black cultural artwork"
       />
-      <CaptionContainer>
+      <CaptionContainer className="article-img-cap">
         <span style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifyContent: "center", justifySelf: "center", }}>Albert Artwell, </span>
         <i style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifyContent: "center", justifySelf: "center", }}> Jesse through the Black Star Liner (c. 1980s).</i> Sea with four
         boats. Time is collapsed with boats carrying Jesse, Jesus, and other
