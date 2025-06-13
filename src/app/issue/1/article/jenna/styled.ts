@@ -111,9 +111,10 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   }
 
   .article-img {
-    width: 80% !important;
+    width: 85% !important;
     height: 80% !important;
-    justify-self: center !important
+    justify-self: center !important;
+    align-self: center !important;
   }
 
   .article-img-cap {
@@ -133,7 +134,8 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   .article-img {
     width: 80% !important;
     height: 80% !important;
-    justify-self: center !important
+    justify-self: center !important;
+    align-self: center !important;
   }
 
   .article-img-cap {
