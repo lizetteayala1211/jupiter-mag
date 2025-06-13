@@ -79,7 +79,7 @@ export function Article() {
         src={dialloImg1}
         alt="Mamady playing instrument"
       />
-      <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", }}>
+      <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", opacity: ".85", fontSize: "12px", }}>
         Mamady Kouyaté, image courtesy of Mamady Kouyaté
       </CaptionContainer>
       <br />
@@ -155,7 +155,7 @@ export function Article() {
         src={dialloImg3}
         alt="Artwork"
       />
-      <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", }}>
+      <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", opacity: ".85", fontSize: "12px", }}>
         Bill Traylor. c. 1939-1942. Watercolor and pencil on board, 14 x 13
         3/4&quot;. Gift of Marie-Josée and Henry R. Kravis. The Museum of Modern
         Art, New York.{" "}
@@ -284,7 +284,7 @@ export function Article() {
         src={dialloImg4}
         alt="Man playing instrument"
       />
-      <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", }}>
+      <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", opacity: ".85", fontSize: "12px", }}>
         W. Eugene Smith. Rahsaan Roland Kirk. 1964. Gelatin silver print, 11 1/2
         × 7 1/4″. Gift of Richard L. Sandor. The Museum of Modern Art, New York.
         © 1964, 2023 The Heirs of W. Eugene Smith.
@@ -399,7 +399,7 @@ export function Article() {
         src={dialloImg2}
         alt="Art gallery room"
       />
-      <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", }}>
+      <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", opacity: ".85", fontSize: "12px", }}>
         Installation view of Artist’s Choice: Grace Wales Bonner—
         <i>Spirit Movers</i>, on view at The Museum of Modern Art from November
         18, 2023 through April 7, 2024. <br /> Photo: Emile Askey.

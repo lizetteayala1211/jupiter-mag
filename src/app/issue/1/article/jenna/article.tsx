@@ -144,7 +144,7 @@ export function Article() {
             alt="Silouhette of a man"
           />
         </div>
-        <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifySelf: "center", }}>
+        <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifySelf: "center", opacity: ".85", fontSize: "12px", }}>
           X’ene’s Witness, presented by Los Angeles Nomadic Division
           [LAND], images courtesy of Justen Leroy and 718 Photography
         </CaptionContainer>
@@ -215,7 +215,7 @@ export function Article() {
           src={img3}
           alt="Woman sitting at piano"
         />
-        <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifySelf: "center", }}>
+        <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifySelf: "center", opacity: ".85", fontSize: "12px", }}>
           X’ene’s Witness, presented by Los Angeles Nomadic Division
           [LAND], images courtesy of Justen Leroy and 718 Photography
         </CaptionContainer>
