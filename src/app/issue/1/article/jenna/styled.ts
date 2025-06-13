@@ -105,6 +105,11 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
 /* <!-- Mobile Device CSS (Small Screens) --> */ 
 
 @media only screen and (min-width: 375px) and (max-device-width : 481px) {
+
+  .article-img-con {
+    flex-direction: column !important;
+  }
+
   .article-img {
     width: 80% !important;
     height: 80% !important;

@@ -131,7 +131,7 @@ export function Article() {
           </span>
         </p>
         <br />
-        <div style={{ display: "flex", gap: "1em", paddingTop: "1em", paddingBottom: "1em", alignContent: "center", alignItems: "center", justifyContent: "center", }}>
+        <div className="article-img-con" style={{ display: "flex", gap: "1em", paddingTop: "1em", paddingBottom: "1em", alignContent: "center", alignItems: "center", justifyContent: "center", }}>
           <Image className="article-img"
             style={{ width: "40%", height: "40%", }}
             src={img1}
