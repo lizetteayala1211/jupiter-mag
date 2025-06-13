@@ -113,10 +113,32 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
   .article-img {
     width: 80% !important;
     height: 80% !important;
+    justify-self: center !important
   }
 
   .article-img-cap {
     width: 90% !important;
+    text-align: center !important;
+  }
+}
+
+/* <!-- Mobile Device CSS (X-Small Screens) --> */ 
+
+@media only screen and (min-width: 320px) and (max-device-width : 374px) {
+  
+  .article-img-con {
+    flex-direction: column !important;
+  }
+
+  .article-img {
+    width: 80% !important;
+    height: 80% !important;
+    justify-self: center !important
+  }
+
+  .article-img-cap {
+    width: 90% !important;
+    text-align: center !important;
   }
 }
 `
