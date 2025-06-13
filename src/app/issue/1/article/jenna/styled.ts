@@ -101,4 +101,17 @@ export const ArticleStyles = styled(ArticleContainerStyles)`
     margin: 0;
     color: #000000;
   }
+
+/* <!-- Mobile Device CSS (Small Screens) --> */ 
+
+@media only screen and (min-width: 375px) and (max-device-width : 481px) {
+  .article-img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .article-img-cap {
+    width: 90%;
+  }
+}
 `

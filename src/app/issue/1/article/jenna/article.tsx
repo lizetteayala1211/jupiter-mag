@@ -132,7 +132,7 @@ export function Article() {
         </p>
         <br />
         <div style={{ display: "flex", gap: "1em", paddingTop: "1em", paddingBottom: "1em", alignContent: "center", alignItems: "center", justifyContent: "center", }}>
-          <Image
+          <Image className="article-img"
             style={{ width: "40%", height: "40%", }}
             src={img1}
             alt="Woman sitting at piano"
@@ -144,7 +144,7 @@ export function Article() {
             alt="Silouhette of a man"
           />
         </div>
-        <CaptionContainer style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifySelf: "center", }}>
+        <CaptionContainer className="article-img-cap" style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifySelf: "center", }}>
           X’ene’s Witness, presented by Los Angeles Nomadic Division
           [LAND], images courtesy of Justen Leroy and 718 Photography
         </CaptionContainer>
