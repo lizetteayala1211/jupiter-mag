@@ -13,7 +13,7 @@ export function Article() {
         alt="Black cultural artwork"
       />
       <CaptionContainer className="article-img-cap" style={{ color: "white", opacity: ".85", fontSize: "12px", }}>
-        <p style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifyContent: "center", justifySelf: "center", }}> Albert Artwell,
+        <p style={{ color: "white", textAlign: "center", width: "60%", alignSelf: "center", display: "flex", justifyContent: "center", justifySelf: "center", opacity: ".85", fontSize: "12px", }}> Albert Artwell,
         Jesse through the Black Star Liner (c. 1980s). <br /> Sea with four boats. Time is collapsed with boats carrying Jesse, Jesus, and other
         biblical figures alongside Marcus Garvey&apos;s Black Star Liner. </p>
       </CaptionContainer>

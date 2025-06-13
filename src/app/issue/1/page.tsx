@@ -2,10 +2,12 @@
 
 import { Base } from "@/components"
 
+
+
 // styled assets
 import { Authors, Main } from "./styled"
 import { AuthorBackground } from "./AuthorBackground"
-
+import { Colophon } from "./Colophon"
 import { Credits } from "./Credits"
 import { AuthorAbouts } from "./AuthorAbouts"
 import { EditorsNote } from "./EditorsNote"
@@ -32,10 +34,9 @@ export default function Page() {
             }}
           >
             <AuthorDirectory homepage />
-
             <AuthorAbouts />
-
-            <Credits />
+            {/* <Credits /> */}
+            <Colophon />
           </div>
           <AuthorBackground />
         </Authors>

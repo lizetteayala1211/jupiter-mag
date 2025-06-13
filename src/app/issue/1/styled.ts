@@ -195,6 +195,35 @@ export const AuthorBody = styled.div`
     font-size: 20px;
   }
 `
+
+export const ColophonContainer = styled.div`
+  font-family: Alverata Light;
+  display: flex;
+
+  flex-direction: column;
+
+  @media only screen and (min-width: ${screenMdMin}) {
+    font-family: Alverata Medium;
+    flex-direction: row;
+    gap: 25%;
+  }
+`
+
+export const ColophonColumn = styled.div<{ $first?: string }>`
+  font-family: Alverata Light;
+  /* color: var(--color-off-white); */
+  ${(props) =>
+    props.$first === "true"
+      ? `
+      @media only screen and (min-width: ${screenMdMin}) {
+        max-width: 280px;
+      }`
+      : `
+      @media only screen and (min-width: ${screenMdMin}) {
+        max-width: 436px;
+      }`}
+`
+
 export const CreditsContainer = styled.div`
   display: flex;
   flex-direction: column;
