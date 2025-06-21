@@ -1,8 +1,7 @@
 // import { Epigraph } from "@/utils/layout"
 import { ArticleStyles, } from "./styled"
 
-// import React from 'react'
-// import ReactPlayer from 'react-player'
+import AudioPlayer from "@/components/AudioPlayer";
 
 // import { Base } from "@/components"
 
@@ -35,8 +34,10 @@ export function Article() {
           /> 
     <br/>
     <p className="Olukemi-Lijadu-05">
-    {/* <audio id="audio-test" controls></audio> */}
-    {/* <iframe width="100%" height="20" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2033058916&color=%23c488fa&inverse=true&auto_play=false&show_user=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kemkemlij" title="kem kem" target="_blank" style="color: #cccccc; text-decoration: none;">kem kem</a> · <a href="https://soundcloud.com/kemkemlij/afrobeatsroots" title="Old School Afrobeats Mix Kem Kem for Jupiter Magazine" target="_blank" style="color: #cccccc; text-decoration: none;">Old School Afrobeats Mix Kem Kem for Jupiter Magazine</a></div> */}
+
+    <div className="p-4 bg-neutral-100 rounded-xl">
+      <AudioPlayer />
+    </div>
     <span className="temp-audio-player"> 
     <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> <i> Oldschool Afrobeats Mix: Kem Kem for Jupiter Magazine </i> </a> </span>
     {/* <br/>
