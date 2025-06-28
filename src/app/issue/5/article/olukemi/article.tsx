@@ -35,9 +35,9 @@ export function Article() {
     <br/>
     <p className="Olukemi-Lijadu-05">
 
-    <div className="p-4 bg-neutral-100 rounded-xl">
+    {/* <div className="p-4 bg-neutral-100 rounded-xl">
       <AudioPlayer />
-    </div>
+    </div> */}
     <span className="temp-audio-player"> 
     <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> <i> Oldschool Afrobeats Mix: Kem Kem for Jupiter Magazine </i> </a> </span>
     {/* <br/>
