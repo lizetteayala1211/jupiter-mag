@@ -14,8 +14,16 @@ export default function Desktop() {
           <h2>Co-Founder</h2>
         </div>
         <div>
-          <h1>Camille Bacon </h1>
+          <h1>Camille Bacon</h1>
           <h2>Co-Founder / Editor-in-Chief</h2>
+        </div>
+        <div>
+          <h1>Sebastien Pierre</h1>
+          <h2>Creative Director</h2>
+        </div>
+         <div>
+          <h1>Niara Hightower</h1>
+          <h2>Editorial Assistant</h2>
         </div>
         <div>
           <h1 style={{ fontFamily: "Alverata Light" }}>Email</h1>
