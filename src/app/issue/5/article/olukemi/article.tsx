@@ -33,15 +33,8 @@ export function Article() {
             }}
           /> 
     <br/>
+     <iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fjupitermagazine%2Fafrobeats-mix-by-kem-kem%2F" frameBorder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;"></iframe>
     <p className="Olukemi-Lijadu-05">
-
-    {/* <div className="p-4 bg-neutral-100 rounded-xl">
-      <AudioPlayer />
-    </div> */}
-    <span className="temp-audio-player"> 
-    <a href="https://soundcloud.com/kemkemlij/afrobeatsroots?si=17394d3895a64589909d222800767ed0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" className="styled"> <i> Oldschool Afrobeats Mix: Kem Kem for Jupiter Magazine </i> </a> </span>
-    {/* <br/>
-    <span className="centered small"> In this mix I attempt to trace the threads of the roots of Afrobeats, as we have come to know it today. </span> */}
     <br/>
     <i>
     &#34;The history and utility of black music &#91;…&#93; enable us to trace something of the means through which the unity of ethics and politics has been reproduced as a form of folk knowledge. This subculture often appears to be the intuitive expression of some racial essence but is in fact an elementary historical acquisition produced from the viscera of an alternative body of cultural and political expression that considers the world critically from the point of view of its emancipatory transformation.&#34; —Paul Gilroy<sup><a href="#fn1" id="ref1">1</a></sup>
