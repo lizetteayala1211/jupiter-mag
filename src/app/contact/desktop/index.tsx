@@ -10,12 +10,12 @@ export default function Desktop() {
       </HeaderSection>
       <ContactSection>
         <div>
-          <h1>Daria Harper</h1>
-          <h2>Co-Founder</h2>
-        </div>
-        <div>
           <h1>Camille Bacon</h1>
           <h2>Co-Founder / Editor-in-Chief</h2>
+        </div>
+        <div>
+          <h1>Daria Harper</h1>
+          <h2>Co-Founder</h2>
         </div>
         <div>
           <h1>Sebastien Pierre</h1>
@@ -30,8 +30,8 @@ export default function Desktop() {
           <h2>info@jupiter-mag.com</h2>
         </div>
         <div>
-          <h2>Instagram</h2>
-          <h3>@jupiter.magazine</h3>
+          <h1>Instagram</h1>
+          <h2>@jupiter.magazine</h2>
         </div>
         {/* <p style={{ maxWidth: "300px" }}>
           For press requests, please contact Hannah Gottlieb-Graham at{" "}
