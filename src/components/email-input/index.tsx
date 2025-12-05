@@ -16,7 +16,7 @@ export function EmailInput() {
 
   const addEmail = async (email: string) => {
     if (validateEmail(email)) {
-      await sql`INSERT INTO Emails (Email) VALUES (${email});`
+      await sql`INSERT INTO emails (email) VALUES (${email});`
       ref.current.value = ""
     }
   }

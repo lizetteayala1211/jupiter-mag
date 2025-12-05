@@ -22,7 +22,7 @@ export const ContactSection = styled.section`
   }
   grid-area: contact;
   display: flex;
-  margin: 5em auto;
+  margin: 0em auto;
   flex-direction: column;
   gap: 2.5em;
   height: max-content !important;

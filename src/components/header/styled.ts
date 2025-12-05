@@ -144,7 +144,7 @@ export const ReturnHomeButton = styled.a`
 `
 
 export const StyledNavBarItem = styled.a<{ $currentpage: string }>`
-  padding: 0.75em 1em;
+  padding: 0.50em 1em;
   ${(props) =>
     props.$currentpage === "true" && `text-shadow: 0px 0px 10px #D69EF0;`}
 

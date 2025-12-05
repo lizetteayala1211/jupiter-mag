@@ -16,7 +16,7 @@ import {
   StyledComponentsRegistry,
   MenuButton,
 } from "@/components"
-// import { MobileMenuOverlay } from "../header/Mobile"
+import { MobileMenuOverlay } from "../header/Mobile"
 
 type Props = { children: ReactNode; homePage?: boolean }
 
@@ -41,9 +41,9 @@ export function Base({ children, homePage }: Props) {
         className="darker-grotesque"
       >
         <HeaderSection>
-          {/* {showMobileMenu && (
+          {showMobileMenu && (
             <MobileMenuOverlay onClose={() => setShowMobileMenu(false)} />
-          )} */}
+          )}
         </HeaderSection>
 
         {/* todo: need to consolidate all header components to be more readable :') */}
@@ -64,7 +64,7 @@ export function Base({ children, homePage }: Props) {
               }}
               onClick={() => setShowMobileMenu(!showMobileMenu)}
             >
-              {/* <MenuButton /> */}
+              <MenuButton />
             </div>
           ) : null}
           {children}

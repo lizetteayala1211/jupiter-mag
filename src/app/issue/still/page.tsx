@@ -34,9 +34,11 @@ export default function Page() {
           <JupiterLogo color="white"/>
           </LogoContainer>
           <div className="still-issue-wrapper">
-              <a href="https://www.jupiter-mag.com/issue/1" className="still-issue"> ISSUE 1 </a>
-              <a href="https://www.jupiter-mag.com/issue/2" className="still-issue"> ISSUE 2 </a>
-              <a href="https://www.jupiter-mag.com/issue/3" className="still-issue"> ISSUE 3 </a>
+              <a href="/issue/1" className="still-issue"> ISSUE 1 </a>
+              <a href="/issue/2" className="still-issue"> ISSUE 2 </a>
+              <a href="/issue/3" className="still-issue"> ISSUE 3 </a>
+              <a href="/issue/4" className="still-issue"> ISSUE 4 </a>
+              <a href="/issue/5" className="still-issue"> ISSUE 5 </a>
           </div>
         </LogoSection>
         

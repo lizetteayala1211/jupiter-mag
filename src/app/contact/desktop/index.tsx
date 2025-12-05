@@ -17,14 +17,21 @@ export default function Desktop() {
           <h1>Daria Harper</h1>
           <h2>Co-Founder</h2>
         </div>
-        <div>
-          <h1>Sebastien Pierre</h1>
-          <h2>Creative Director</h2>
-        </div>
          <div>
           <h1>Niara Hightower</h1>
           <h2>Editorial Assistant</h2>
         </div>
+        <div>
+          <h1>Sebastien Pierre</h1>
+          <h2>Creative Director</h2>
+        </div>
+
+        <div>
+          <h1>Josh Brainin</h1>
+          <h2>Director of Photography</h2>
+          <h2>josh@jupiter-mag.com</h2>
+        </div>
+
         <div>
           <h1 style={{ fontFamily: "Alverata Light" }}>Email</h1>
           <h2>info@jupiter-mag.com</h2>

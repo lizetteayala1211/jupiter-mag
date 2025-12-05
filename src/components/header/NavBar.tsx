@@ -9,11 +9,12 @@ import { StyledNavBarItem } from "./styled"
 export function NavBar({ dynamic }: { dynamic?: boolean }) {
   return (
     <>
-      <NavBarItem dynamic={dynamic || false} page="magazine" />
+      <NavBarItem dynamic={dynamic || false} page="archive" />
       <NavBarItem dynamic={dynamic || false} page="issue 1" />
       <NavBarItem dynamic={dynamic || false} page="issue 2" />
       <NavBarItem dynamic={dynamic || false} page="issue 3" />
       <NavBarItem dynamic={dynamic || false} page="issue 4" />
+      <NavBarItem dynamic={dynamic || false} page="issue 5" />
       <NavBarItem dynamic={dynamic || false} page="about" />
       <NavBarItem
         dynamic={dynamic || false}
@@ -37,17 +38,18 @@ function NavBarItem({
   const currentPage = useCurrentPage()
 
   const handleColor = () => {
-    if (dynamic || currentPage.includes("magazine"))
+    if (dynamic || currentPage.includes("archive"))
       return "var(--color-off-black)"
     return currentPage == page ? "#C74CFF" : "var(--color-white)"
   }
 
   const handleUrl = () => {
-    if (page === "magazine") return "/"
+    if (page === "archive") return "/"
     if (page === "issue 1") return "/issue/1"
     if (page === "issue 2") return "/issue/2"
     if (page === "issue 3") return "/issue/3"
     if (page === "issue 4") return "/issue/4"
+    if (page === "issue 5") return "/issue/5"
     return url ? url : `/${page}`
   }
 

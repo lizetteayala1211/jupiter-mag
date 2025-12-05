@@ -72,7 +72,7 @@ import {
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-block-start: 48px;
+    padding-block-start: 0px;
 
     @media only screen and (min-width: ${screenMdMin}) {
       display: flex;

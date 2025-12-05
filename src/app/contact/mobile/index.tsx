@@ -20,12 +20,17 @@ export default function Mobile() {
         <h2 style={{ fontSize: "24px" }}>Co-Founder</h2>
       </div>
       <div>
+        <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Niara Hightower</h1>
+        <h2 style={{ fontSize: "24px" }}>Editorial Assistant</h2>
+      </div>
+      <div>
         <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Sebastien Pierre</h1>
         <h2 style={{ fontSize: "24px" }}>Creative Director</h2>
       </div>
       <div>
-        <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Niara Hightower</h1>
-        <h2 style={{ fontSize: "24px" }}>Editorial Assistant</h2>
+        <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Josh Brainin</h1>
+        <h2 style={{ fontSize: "24px" }}>Director of Photography</h2>
+        <h2 style={{ fontSize: "24px" }}>josh@jupiter-mag.com</h2>
       </div>
       <div>
         <h1 style={{ fontFamily: "Alverata Light", fontSize: "28px" }}>Email</h1>
